@@ -1,0 +1,20 @@
+# One-click plumbing test: pulls today's college basketball lines (with ROTs) from The Odds API
+# and emails them as a CSV. Run it from the Actions tab -> "Smoke test" -> Run workflow.
+name: Smoke test
+on:
+  workflow_dispatch:
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pandas
+      - run: python jobs/smoke_test.py
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          CARD_TO: ${{ secrets.CARD_TO }}
