@@ -1,0 +1,29 @@
+# Saves a snapshot of current NCAAB lines (every book) to data/lines/.
+# Runs on demand from the Actions tab, or when triggers/pull_lines.txt changes.
+name: Pull lines
+on:
+  workflow_dispatch:
+  push:
+    paths: ['triggers/pull_lines.txt']
+permissions:
+  contents: write
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pandas
+      - run: python jobs/pull_lines.py
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+      - name: Save snapshot to the repo
+        run: |
+          git config user.name "dtp-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/lines
+          git commit -m "lines snapshot" || echo "nothing new"
+          git pull --rebase origin main
+          git push origin HEAD:main
