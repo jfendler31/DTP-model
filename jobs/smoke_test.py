@@ -8,7 +8,7 @@ import requests, pandas as pd
 
 ET = ZoneInfo('America/New_York')
 r = requests.get('https://api.the-odds-api.com/v4/sports/basketball_ncaab/odds',
-                 params=dict(apiKey=os.environ['ODDS_API_KEY'], regions='us', markets='spreads,totals',
+                 params=dict(apiKey=os.environ['ODDS_API_KEY'].strip(), regions='us', markets='spreads,totals',
                              oddsFormat='american', includeRotationNumbers='true'), timeout=60)
 r.raise_for_status()
 left = r.headers.get('x-requests-remaining')
@@ -40,11 +40,11 @@ buf = io.StringIO(); df.to_csv(buf, index=False)
 
 msg = EmailMessage()
 msg['Subject'] = f'DTP card smoke test: {len(rows)} games, {with_rot} with ROTs'
-msg['From'] = os.environ['GMAIL_USER']; msg['To'] = os.environ['CARD_TO']
+msg['From'] = os.environ['GMAIL_USER'].strip(); msg['To'] = os.environ['CARD_TO'].strip()
 msg.set_content(f'Games returned: {len(rows)}\nGames with rotation numbers: {with_rot}\n'
                 f'Odds API credits remaining: {left}\nRun at {dt.datetime.now(ET):%a %b %-d %-I:%M %p} ET\n')
 msg.add_attachment(buf.getvalue().encode('utf-8-sig'), maintype='text', subtype='csv', filename='smoke_test.csv')
 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as s:
-    s.login(os.environ['GMAIL_USER'], os.environ['GMAIL_APP_PASSWORD'])
+    s.login(os.environ['GMAIL_USER'].strip(), os.environ['GMAIL_APP_PASSWORD'].replace(' ', '').strip())
     s.send_message(msg)
 print(f'sent: {len(rows)} games, {with_rot} with ROTs, credits left {left}')
