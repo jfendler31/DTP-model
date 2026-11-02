@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '30 9 * * *'
   workflow_dispatch:
+    inputs:
+      date:
+        description: 'Card date YYYY-MM-DD (blank = today)'
+        required: false
+  push:
+    paths: ['triggers/card.txt']
 permissions:
   contents: write
 jobs:
@@ -15,7 +21,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests pandas openpyxl
-      - run: python jobs/card.py
+      - run: python jobs/card.py ${{ github.event.inputs.date && format('--date {0}', github.event.inputs.date) || '' }} $(cat triggers/card.txt 2>/dev/null | grep -o -- '--date [0-9-]*' || true)
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
