@@ -27,6 +27,8 @@ if os.path.exists('data/overrides.csv'):
         elif r.team in Z: notes[r.team].append(f'{r.player} {r.status}')
 h = pd.read_csv('data/kp_hca.csv'); h['team'] = h.team.str.strip(); H = dict(zip(h.team, h.hca)); H.setdefault('LSU New Orleans', H.get('New Orleans', 2.3))
 def model(aw, hm, v): return round(-(9.5 * (Z[hm] - Z[aw]) + (H.get(hm, 3.0) if v == 'H' else 0.0)), 1)
+SIZE_K = 0.15   # card-only size adjustment (Nov 1): +0.15 pt per point of model spread beyond 15; locked conversion unchanged
+def size_adj(m): return round(m + (1 if m > 0 else -1) * SIZE_K * max(abs(m) - 15, 0), 1)
 # ---- lines
 if a.snapshot:
     L = pd.read_csv(a.snapshot); asof = os.path.basename(a.snapshot)
@@ -68,14 +70,18 @@ for g in S.itertuples():
     m = model(g.away, g.home, g.venue); x = G.get(frozenset((g.away, g.home)))
     hs = None if not x or x['cons'] is None else (x['cons'] if x['h'] == g.home else -x['cons'])
     e = None if hs is None else hs - m
+    ma = size_adj(m); ea = None if hs is None else hs - ma
     side = lambda v: 'PK' if v == 0 else (f'{abbr(g.home)} -{abs(v):g}' if v < 0 else f'{abbr(g.away)} -{v:g}')
     out.append({'tip_ET': g.tip_ET, 'away': g.away, 'home': g.home, 'venue': g.venue,
                 'model': 'PK' if m == 0 else (f'{abbr(g.home)} -{abs(m):.1f}' if m < 0 else f'{abbr(g.away)} -{m:.1f}'),
                 'market': '' if hs is None else side(hs), 'n_books': 0 if not x else x['n'], 'total': '' if not x else x['tot'],
                 'edge': '' if e is None else ('-' if abs(e) < 0.05 else (f'{abbr(g.home)} {e:.1f}' if e > 0 else f'{abbr(g.away)} {-e:.1f}')),
+                'edge_size_adj': '' if ea is None else ('-' if abs(ea) < 0.05 else (f'{abbr(g.home)} {ea:.1f}' if ea > 0 else f'{abbr(g.away)} {-ea:.1f}')),
+                'model_size_adj': 'PK' if ma == 0 else (f'{abbr(g.home)} -{abs(ma):.1f}' if ma < 0 else f'{abbr(g.away)} -{ma:.1f}'),
                 'edge_inseason_only': 'n/a (no games yet)', 'prior_wt_away': '100%', 'prior_wt_home': '100%',
-                'notes': '; '.join(notes[g.away] + notes[g.home] + ([f'big favorite: discount dog edge 1-3'] if hs is not None and abs(hs) >= 20 else [])),
-                'model_home_spread': m, 'market_home_spread': hs, 'edge_size': None if e is None else round(abs(e), 1)})
+                'notes': '; '.join(notes[g.away] + notes[g.home]),
+                'model_home_spread': m, 'market_home_spread': hs, 'edge_size': None if e is None else round(abs(e), 1),
+                'model_home_spread_adj': ma, 'edge_size_adj_num': None if ea is None else round(abs(ea), 1)})
 C = pd.DataFrame(out)
 C['_t'] = pd.to_datetime(C.tip_ET.str.replace(r'^\w+ ', '', regex=True) + f' {card_date[:4]}', format='%b %d %I:%M %p %Y', errors='coerce')
 C = C.sort_values('_t').drop(columns='_t')
@@ -87,7 +93,8 @@ msg = EmailMessage()
 msg['Subject'] = f"DTP card — {dt.datetime.strptime(card_date, '%Y-%m-%d'):%a %b %-d} — {len(C)} games"
 msg['From'] = os.environ['GMAIL_USER'].strip(); msg['To'] = os.environ['CARD_TO'].strip()
 msg.set_content(f"Ratings: preseason prior (frozen) + overrides. Lines as of {asof} (consensus = most common number across books).\n"
-                f"{len(C)} games, {lined} with lines. Tip-time order. CSV attached.\n")
+                f"{len(C)} games, {lined} with lines. Tip-time order. CSV attached.\n"
+                f"edge_size_adj: model spread widened 0.15 pt per point beyond 15 (big-mismatch correction); regular edge unchanged.\n")
 msg.add_attachment(open(fn, 'rb').read(), maintype='text', subtype='csv', filename=os.path.basename(fn))
 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as s:
     s.login(os.environ['GMAIL_USER'].strip(), os.environ['GMAIL_APP_PASSWORD'].replace(' ', '').strip()); s.send_message(msg)
