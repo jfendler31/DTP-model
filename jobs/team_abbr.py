@@ -1,0 +1,24 @@
+# KP school name -> display abbreviation. Standard short forms where they exist; short school name otherwise.
+MANUAL = {
+ 'Western Kentucky':'WKU','Connecticut':'UConn','San Diego St.':'SDSU','Florida Gulf Coast':'FGCU','UT Rio Grande Valley':'UTRGV',
+ 'Appalachian St.':'App St','Georgia Southern':'Ga Southern','Georgia Tech':'Ga Tech','Georgia St.':'Ga St',"Saint Mary's":"St. Mary's",
+ 'Boston University':'BU','Boston College':'BC','Loyola MD':'Loyola MD','Loyola Marymount':'LMU','Loyola Chicago':'Loyola Chi',
+ 'North Carolina':'UNC','North Carolina Central':'NC Central','North Carolina A&T':'NC A&T','N.C. State':'NC State','South Carolina':'S Carolina','South Carolina St.':'SC St',
+ 'Virginia Tech':'Va Tech','Virginia':'UVA','West Virginia':'WVU','Michigan St.':'Mich St','Ohio St.':'Ohio St','Penn St.':'Penn St','Oklahoma St.':'Okla St','Oregon St.':'Ore St',
+ 'Mississippi':'Ole Miss','Mississippi St.':'Miss St','Mississippi Valley St.':'MVSU','Texas A&M':'Texas A&M','Texas A&M Corpus Chris':'A&M-CC','East Texas A&M':'E Texas A&M','Prairie View A&M':'Prairie View',
+ 'Louisiana':'Louisiana','Louisiana Monroe':'ULM','Louisiana Tech':'La Tech','Southeastern Louisiana':'SE Louisiana','Southeast Missouri':'SEMO','Southern Miss':'So Miss','Southern Illinois':'S Illinois','Southern Indiana':'S Indiana','Southern Utah':'S Utah','Southern':'Southern',
+ 'Eastern Kentucky':'EKU','Eastern Michigan':'E Michigan','Eastern Washington':'E Washington','Eastern Illinois':'E Illinois','Western Michigan':'W Michigan','Western Illinois':'W Illinois','Western Carolina':'W Carolina','West Georgia':'W Georgia',
+ 'Northern Kentucky':'NKU','Northern Iowa':'UNI','Northern Illinois':'NIU','Northern Arizona':'N Arizona','Northern Colorado':'N Colorado','Northwestern St.':'NW State','North Dakota St.':'NDSU','South Dakota St.':'SDSU-Jacks','North Dakota':'N Dakota','South Dakota':'S Dakota',
+ 'North Florida':'N Florida','North Alabama':'N Alabama','South Alabama':'S Alabama','Central Arkansas':'C Arkansas','Central Connecticut':'CCSU','Central Michigan':'C Michigan','Middle Tennessee':'MTSU','East Tennessee St.':'ETSU','Tennessee Martin':'UT Martin','Tennessee Tech':'Tenn Tech','Tennessee St.':'Tenn St',
+ 'Cal St. Bakersfield':'CSU Bakersfield','Cal St. Fullerton':'CSU Fullerton','CSUN':'CSUN','Long Beach St.':'LBSU','Sacramento St.':'Sac St','UC Santa Barbara':'UCSB','UC San Diego':'UCSD','UC Irvine':'UC Irvine','UC Davis':'UC Davis','UC Riverside':'UC Riverside','San Jose St.':'SJSU','Fresno St.':'Fresno St',
+ 'Abilene Christian':'ACU','Stephen F. Austin':'SFA','Sam Houston St.':'Sam Houston','Houston Christian':'HCU','Incarnate Word':'UIW','UT Arlington':'UTA','Texas St.':'Texas St','Texas Southern':'Texas So','Tarleton St.':'Tarleton','Grand Canyon':'GCU','Utah Valley':'UVU','Utah Tech':'Utah Tech','Utah St.':'Utah St',
+ 'Florida A&M':'FAMU','Florida St.':'FSU','Florida Atlantic':'FAU','Florida International':'FIU','Bethune Cookman':'B-Cookman','Jacksonville St.':'Jax St','Kennesaw St.':'Kennesaw','Arkansas Pine Bluff':'UAPB','Arkansas St.':'Ark St','Little Rock':'Little Rock','Grambling St.':'Grambling','Jackson St.':'Jackson St','Alcorn St.':'Alcorn',
+ 'Morehead St.':'Morehead','Murray St.':'Murray St','Austin Peay':'Austin Peay','Youngstown St.':'YSU','Cleveland St.':'Cleveland St','Wright St.':'Wright St','Detroit Mercy':'Detroit','Illinois Chicago':'UIC','Illinois St.':'Illinois St','Indiana St.':'Indiana St','Missouri St.':'Missouri St','Iowa St.':'Iowa St','Kansas St.':'K-State','Kansas City':'UMKC','Nebraska Omaha':'Omaha','IU Indy':'IU Indy',
+ 'Weber St.':'Weber St','Idaho St.':'Idaho St','Montana St.':'Montana St','Portland St.':'Portland St','New Mexico St.':'NMSU','Boise St.':'Boise St','Colorado St.':'Colorado St','Washington St.':'Wazzu','Arizona St.':'Arizona St',
+ 'Maryland Eastern Shore':'UMES','Delaware St.':'Delaware St','Morgan St.':'Morgan St','Coppin St.':'Coppin St','Norfolk St.':'Norfolk St','Fairleigh Dickinson':'FDU','LIU':'LIU','Saint Francis':'St. Francis',"Saint Peter's":"St. Peter's",'Saint Louis':'SLU','St. Bonaventure':'Bonaventure',"Mount St. Mary's":"Mt. St. Mary's",'St. Thomas':'St. Thomas',
+ 'UNC Greensboro':'UNCG','UNC Wilmington':'UNCW','UNC Asheville':'UNC Asheville','USC Upstate':'Upstate','Gardner Webb':'Gardner-Webb','Charleston':'Charleston','The Citadel':'Citadel','James Madison':'JMU','Old Dominion':'ODU','Coastal Carolina':'Coastal','Massachusetts':'UMass','SIUE':'SIUE','Chicago St.':'Chicago St','Le Moyne':'Le Moyne','New Haven':'New Haven','Oral Roberts':'ORU','Bowling Green':'BGSU','Miami FL':'Miami','Miami OH':'Miami OH','Air Force':'Air Force','Holy Cross':'Holy Cross','Seton Hall':'Seton Hall','Wake Forest':'Wake','Notre Dame':'Notre Dame','Texas Tech':'Texas Tech',
+}
+def abbr(kp):
+    kp=kp.strip()
+    if kp in MANUAL: return MANUAL[kp]
+    return kp.replace(' St.',' St')

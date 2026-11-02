@@ -1,0 +1,29 @@
+# Daily card: 4:30 AM ET (09:30 UTC in EST) so the email lands by ~5:00 even when GitHub starts late.
+name: Daily card
+on:
+  schedule:
+    - cron: '30 9 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  card:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pandas openpyxl
+      - run: python jobs/card.py
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          CARD_TO: ${{ secrets.CARD_TO }}
+      - name: Save the card and line snapshot
+        run: |
+          git config user.name "dtp-bot"; git config user.email "actions@users.noreply.github.com"
+          git add cards data/lines || true
+          git commit -m "card $(date -u +%F)" || echo "nothing new"
+          git pull --rebase origin main && git push origin HEAD:main

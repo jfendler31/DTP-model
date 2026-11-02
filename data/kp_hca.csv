@@ -1,0 +1,366 @@
+team,conf,hca
+West Virginia,B12,4.6
+Utah,B12,4.5
+Texas Tech,B12,4.3
+Wake Forest,ACC,4.2
+Utah St.,MWC,4.1
+TCU,B12,4.1
+Bradley,MVC,4.1
+Saint Louis,A10,4.0
+Oklahoma St.,B12,4.0
+New Mexico,MWC,4.0
+Nevada,MWC,4.0
+Colorado,B12,4.0
+Cincinnati,B12,4.0
+BYU,B12,4.0
+Rutgers,B10,3.9
+Oklahoma,SEC,3.9
+North Carolina,ACC,3.8
+Iowa St.,B12,3.8
+Illinois St.,MVC,3.8
+Evansville,MVC,3.8
+St. Bonaventure,A10,3.7
+Middle Tennessee,CUSA,3.7
+Kansas St.,B12,3.7
+Kansas,B12,3.7
+Colorado St.,MWC,3.7
+Auburn,SEC,3.7
+Xavier,BE,3.6
+Wyoming,MWC,3.6
+Tennessee,SEC,3.6
+Nebraska Omaha,Sum,3.6
+Mississippi St.,SEC,3.6
+Marquette,BE,3.6
+Baylor,B12,3.6
+Arkansas,SEC,3.6
+Washington St.,WCC,3.5
+Virginia Tech,ACC,3.5
+Virginia,ACC,3.5
+Utah Valley,WAC,3.5
+Tulsa,Amer,3.5
+South Dakota St.,Sum,3.5
+Memphis,Amer,3.5
+Kentucky,SEC,3.5
+Indiana St.,MVC,3.5
+Grand Canyon,MWC,3.5
+Connecticut,BE,3.5
+Arizona,B12,3.5
+Alabama,SEC,3.5
+Western Kentucky,CUSA,3.4
+UTEP,CUSA,3.4
+UCLA,B10,3.4
+Tennessee St.,OVC,3.4
+San Diego St.,MWC,3.4
+Oregon St.,WCC,3.4
+New Mexico St.,CUSA,3.4
+Missouri,SEC,3.4
+Maryland,B10,3.4
+Loyola Chicago,A10,3.4
+George Mason,A10,3.4
+Denver,Sum,3.4
+Dayton,A10,3.4
+Charlotte,Amer,3.4
+Boise St.,MWC,3.4
+Weber St.,BSky,3.3
+Villanova,BE,3.3
+Texas,SEC,3.3
+Stanford,ACC,3.3
+Northern Iowa,MVC,3.3
+North Carolina Central,MEAC,3.3
+Nebraska,B10,3.3
+Missouri St.,CUSA,3.3
+Milwaukee,Horz,3.3
+Louisville,ACC,3.3
+Howard,MEAC,3.3
+Georgia,SEC,3.3
+Drake,MVC,3.3
+Creighton,BE,3.3
+Clemson,ACC,3.3
+Wichita St.,Amer,3.2
+USC,B10,3.2
+UCF,B12,3.2
+Tarleton St.,WAC,3.2
+Southern,SWAC,3.2
+SMU,ACC,3.2
+Penn St.,B10,3.2
+Oregon,B10,3.2
+Oral Roberts,Sum,3.2
+Ohio St.,B10,3.2
+N.C. State,ACC,3.2
+Montana St.,BSky,3.2
+Michigan St.,B10,3.2
+La Salle,A10,3.2
+Iowa,B10,3.2
+Indiana,B10,3.2
+Houston,B12,3.2
+FIU,CUSA,3.2
+Duke,ACC,3.2
+Cal Baptist,WAC,3.2
+Boston College,ACC,3.2
+Arizona St.,B12,3.2
+Wisconsin,B10,3.1
+Vanderbilt,SEC,3.1
+Valparaiso,MVC,3.1
+UNLV,MWC,3.1
+UAB,Amer,3.1
+St. Thomas,Sum,3.1
+South Dakota,Sum,3.1
+Sam Houston St.,CUSA,3.1
+Saint Joseph's,A10,3.1
+Purdue,B10,3.1
+Providence,BE,3.1
+Ohio,MAC,3.1
+North Texas,Amer,3.1
+North Carolina A&T,CAA,3.1
+Norfolk St.,MEAC,3.1
+Miami OH,MAC,3.1
+Massachusetts,MAC,3.1
+Maryland Eastern Shore,MEAC,3.1
+Louisiana Tech,CUSA,3.1
+Kennesaw St.,CUSA,3.1
+Hampton,CAA,3.1
+Eastern Michigan,MAC,3.1
+Eastern Kentucky,ASun,3.1
+DePaul,BE,3.1
+California,ACC,3.1
+Air Force,MWC,3.1
+William & Mary,CAA,3.0
+Western Carolina,SC,3.0
+Texas A&M,SEC,3.0
+Syracuse,ACC,3.0
+St. John's,BE,3.0
+Southern Utah,WAC,3.0
+Southern Miss,SB,3.0
+Notre Dame,ACC,3.0
+Northern Kentucky,Horz,3.0
+Minnesota,B10,3.0
+Marshall,SB,3.0
+LSU,SEC,3.0
+Lamar,Slnd,3.0
+Delaware St.,MEAC,3.0
+Cal St. Bakersfield,BW,3.0
+Alabama A&M,SWAC,3.0
+Youngstown St.,Horz,2.9
+Washington,B10,2.9
+VCU,A10,2.9
+Tennessee Tech,OVC,2.9
+Southeast Missouri,OVC,2.9
+South Carolina,SEC,2.9
+Seton Hall,BE,2.9
+Seattle,WCC,2.9
+San Jose St.,MWC,2.9
+Richmond,A10,2.9
+Rhode Island,A10,2.9
+Portland St.,BSky,2.9
+Pittsburgh,ACC,2.9
+Old Dominion,SB,2.9
+Michigan,B10,2.9
+Little Rock,OVC,2.9
+Iona,MAAC,2.9
+Illinois,B10,2.9
+Gonzaga,WCC,2.9
+Georgia St.,SB,2.9
+George Washington,A10,2.9
+Florida Atlantic,Amer,2.9
+Florida,SEC,2.9
+East Carolina,Amer,2.9
+Drexel,CAA,2.9
+Coastal Carolina,SB,2.9
+Cleveland St.,Horz,2.9
+Butler,BE,2.9
+Abilene Christian,WAC,2.9
+Wright St.,Horz,2.8
+Western Illinois,OVC,2.8
+Utah Tech,WAC,2.8
+Stephen F. Austin,Slnd,2.8
+Southern Illinois,MVC,2.8
+South Carolina St.,MEAC,2.8
+Samford,SC,2.8
+Northern Colorado,BSky,2.8
+Northern Arizona,BSky,2.8
+North Alabama,ASun,2.8
+Murray St.,MVC,2.8
+Morgan St.,MEAC,2.8
+Montana,BSky,2.8
+Monmouth,CAA,2.8
+James Madison,SB,2.8
+Jacksonville,ASun,2.8
+Florida St.,ACC,2.8
+Cal Poly,BW,2.8
+Bryant,AE,2.8
+Austin Peay,ASun,2.8
+Alcorn St.,SWAC,2.8
+West Georgia,ASun,2.7
+Troy,SB,2.7
+Towson,CAA,2.7
+Texas Southern,SWAC,2.7
+Temple,Amer,2.7
+South Florida,Amer,2.7
+SIUE,OVC,2.7
+Robert Morris,Horz,2.7
+Queens,ASun,2.7
+Morehead St.,OVC,2.7
+Miami FL,ACC,2.7
+McNeese,Slnd,2.7
+Liberty,CUSA,2.7
+Kansas City,Sum,2.7
+Idaho St.,BSky,2.7
+High Point,BSth,2.7
+Green Bay,Horz,2.7
+Georgia Tech,ACC,2.7
+Fresno St.,MWC,2.7
+Florida Gulf Coast,ASun,2.7
+Duquesne,A10,2.7
+Detroit Mercy,Horz,2.7
+Central Arkansas,ASun,2.7
+Bowling Green,MAC,2.7
+Belmont,MVC,2.7
+Ball St.,MAC,2.7
+Western Michigan,MAC,2.6
+Vermont,AE,2.6
+UTSA,Amer,2.6
+UNC Wilmington,CAA,2.6
+UNC Asheville,BSth,2.6
+UC Riverside,BW,2.6
+The Citadel,SC,2.6
+Texas A&M Corpus Chris,Slnd,2.6
+Southeastern Louisiana,Slnd,2.6
+Siena,MAAC,2.6
+Saint Peter's,MAAC,2.6
+Saint Mary's,WCC,2.6
+Sacramento St.,BSky,2.6
+Northwestern,B10,2.6
+North Dakota,Sum,2.6
+Nicholls,Slnd,2.6
+New Hampshire,AE,2.6
+Mississippi,SEC,2.6
+Mercer,SC,2.6
+Maine,AE,2.6
+Loyola Marymount,WCC,2.6
+Kent St.,MAC,2.6
+Illinois Chicago,MVC,2.6
+Idaho,BSky,2.6
+Hawaii,BW,2.6
+Georgetown,BE,2.6
+Furman,SC,2.6
+Florida A&M,SWAC,2.6
+CSUN,BW,2.6
+Chicago St.,NEC,2.6
+Charleston,CAA,2.6
+Central Michigan,MAC,2.6
+Campbell,CAA,2.6
+Binghamton,AE,2.6
+Arkansas St.,SB,2.6
+Appalachian St.,SB,2.6
+USC Upstate,BSth,2.5
+UMass Lowell,AE,2.5
+Southern Indiana,OVC,2.5
+San Francisco,WCC,2.5
+Purdue Fort Wayne,Horz,2.5
+Prairie View A&M,SWAC,2.5
+Penn,Ivy,2.5
+Northwestern St.,Slnd,2.5
+North Dakota St.,Sum,2.5
+Marist,MAAC,2.5
+Louisiana Monroe,SB,2.5
+Louisiana,SB,2.5
+Lipscomb,ASun,2.5
+Jackson St.,SWAC,2.5
+IU Indy,Horz,2.5
+Incarnate Word,Slnd,2.5
+Grambling St.,SWAC,2.5
+Georgia Southern,SB,2.5
+East Tennessee St.,SC,2.5
+Davidson,A10,2.5
+Bellarmine,ASun,2.5
+Yale,Ivy,2.4
+Winthrop,BSth,2.4
+UT Arlington,WAC,2.4
+UC Irvine,BW,2.4
+Tulane,Amer,2.4
+Texas St.,SB,2.4
+Tennessee Martin,OVC,2.4
+Stony Brook,CAA,2.4
+Saint Francis,NEC,2.4
+Quinnipiac,MAAC,2.4
+Presbyterian,BSth,2.4
+Pacific,WCC,2.4
+North Florida,ASun,2.4
+Mississippi Valley St.,SWAC,2.4
+Mercyhurst,NEC,2.4
+Longwood,BSth,2.4
+LIU,NEC,2.4
+Lindenwood,OVC,2.4
+Houston Christian,Slnd,2.4
+Fairfield,MAAC,2.4
+Elon,CAA,2.4
+Dartmouth,Ivy,2.4
+Buffalo,MAC,2.4
+Bucknell,PL,2.4
+Boston University,PL,2.4
+Bethune Cookman,SWAC,2.4
+Alabama St.,SWAC,2.4
+UT Rio Grande Valley,Slnd,2.3
+UC Santa Barbara,BW,2.3
+Toledo,MAC,2.3
+South Alabama,SB,2.3
+Santa Clara,WCC,2.3
+Sacred Heart,MAAC,2.3
+Rice,Amer,2.3
+Oakland,Horz,2.3
+Northern Illinois,MAC,2.3
+Northeastern,CAA,2.3
+New Orleans,Slnd,2.3
+Le Moyne,NEC,2.3
+Jacksonville St.,CUSA,2.3
+Eastern Illinois,OVC,2.3
+Cornell,Ivy,2.3
+Chattanooga,SC,2.3
+Canisius,MAAC,2.3
+Akron,MAC,2.3
+Wofford,SC,2.2
+VMI,SC,2.2
+UNC Greensboro,SC,2.2
+Stonehill,NEC,2.2
+Rider,MAAC,2.2
+Princeton,Ivy,2.2
+Niagara,MAAC,2.2
+Fordham,A10,2.2
+Delaware,CUSA,2.2
+Stetson,ASun,2.1
+Radford,BSth,2.1
+Pepperdine,WCC,2.1
+NJIT,AE,2.1
+New Haven,NEC,2.1
+Navy,PL,2.1
+Mount St. Mary's,MAAC,2.1
+Long Beach St.,BW,2.1
+Lehigh,PL,2.1
+Holy Cross,PL,2.1
+Eastern Washington,BSky,2.1
+East Texas A&M,Slnd,2.1
+Coppin St.,MEAC,2.1
+Colgate,PL,2.1
+Charleston Southern,BSth,2.1
+Cal St. Fullerton,BW,2.1
+San Diego,WCC,2.0
+Merrimack,MAAC,2.0
+Hofstra,CAA,2.0
+Harvard,Ivy,2.0
+Gardner Webb,BSth,2.0
+Arkansas Pine Bluff,SWAC,2.0
+American,PL,2.0
+Albany,AE,2.0
+UC San Diego,BW,1.9
+Portland,WCC,1.9
+Columbia,Ivy,1.9
+Wagner,NEC,1.8
+UC Davis,BW,1.8
+Manhattan,MAAC,1.8
+Loyola MD,PL,1.8
+Lafayette,PL,1.8
+Brown,Ivy,1.8
+Army,PL,1.8
+UMBC,AE,1.7
+Fairleigh Dickinson,NEC,1.7
+Central Connecticut,NEC,1.7
