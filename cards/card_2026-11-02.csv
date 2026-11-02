@@ -1,120 +1,120 @@
-﻿tip_ET,away,home,venue,model,market,n_books,total,edge,edge_inseason_only,prior_wt_away,prior_wt_home,notes,model_home_spread,market_home_spread,edge_size
-Mon Nov 2 3:01 AM,Northern Illinois,Grambling St.,N,NIU -5.7,NIU -8.5,7,141.5,Grambling 2.8,n/a (no games yet),100%,100%,,5.7,8.5,2.8
-Mon Nov 2 6:00 AM,Merrimack,Appalachian St.,N,Merrimack -4.1,Merrimack -3.5,10,134.0,Merrimack 0.6,n/a (no games yet),100%,100%,,4.1,3.5,0.6
-Mon Nov 2 9:00 AM,Queens,Winthrop,N,Queens -1.3,Queens -1.5,9,167.5,Winthrop 0.2,n/a (no games yet),100%,100%,,1.3,1.5,0.2
-Mon Nov 2 11:30 AM,Tennessee St.,Murray St.,N,Murray St -7.1,Murray St -10.5,10,164.0,Tenn St 3.4,n/a (no games yet),100%,100%,,-7.1,-10.5,3.4
-Mon Nov 2 2:00 PM,Northern Kentucky,UTEP,N,UTEP -2.2,UTEP -2.5,10,148.0,NKU 0.3,n/a (no games yet),100%,100%,,-2.2,-2.5,0.3
-Mon Nov 2 3:00 PM,UTSA,San Jose St.,H,SJSU -6.2,SJSU -8,10,153.0,UTSA 1.8,n/a (no games yet),100%,100%,,-6.2,-8.0,1.8
-Mon Nov 2 4:00 PM,UMBC,George Mason,H,George Mason -15.8,George Mason -18,8,146.5,UMBC 2.2,n/a (no games yet),100%,100%,,-15.8,-18.0,2.2
-Mon Nov 2 5:30 PM,McNeese,UAB,N,McNeese -3.3,McNeese -2.5,9,150.5,McNeese 0.8,n/a (no games yet),100%,100%,,3.3,2.5,0.8
-Mon Nov 2 6:00 PM,Oakland,Michigan,H,Michigan -24.7,Michigan -26.5,10,157.0,Oakland 1.8,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-24.7,-26.5,1.8
-Mon Nov 2 6:00 PM,Bowling Green,Georgia St.,H,Ga St -0.6,Ga St -4,10,158.5,BGSU 3.4,n/a (no games yet),100%,100%,,-0.6,-4.0,3.4
-Mon Nov 2 6:00 PM,Miami FL,Florida,N,Florida -7.8,Florida -5,9,161.0,Florida 2.8,n/a (no games yet),100%,100%,,-7.8,-5.0,2.8
-Mon Nov 2 6:00 PM,Pepperdine,Cornell,H,Pepperdine -0.3,Pepperdine -3.5,10,163.5,Cornell 3.2,n/a (no games yet),100%,100%,,0.3,3.5,3.2
-Mon Nov 2 6:30 PM,Army,Duke,H,Duke -41.4,Duke -43.5,9,152.0,Army 2.1,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-41.4,-43.5,2.1
-Mon Nov 2 6:30 PM,Monmouth,St. John's,H,St. John's -24.7,St. John's -27.5,9,153.0,Monmouth 2.8,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-24.7,-27.5,2.8
-Mon Nov 2 6:30 PM,Loyola MD,Georgetown,H,Georgetown -22.9,Georgetown -23.5,9,150.5,Loyola MD 0.6,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-22.9,-23.5,0.6
-Mon Nov 2 7:00 PM,Rider,Pittsburgh,H,Pittsburgh -24.6,Pittsburgh -27.5,10,141.5,Rider 2.9,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-24.6,-27.5,2.9
-Mon Nov 2 7:00 PM,Western Michigan,Old Dominion,H,ODU -0.2,W Michigan -1.5,10,157.5,ODU 1.7,n/a (no games yet),100%,100%,,-0.2,1.5,1.7
-Mon Nov 2 7:00 PM,Memphis,Iowa St.,N,Iowa St -14.8,Iowa St -13.5,10,155.5,Iowa St 1.3,n/a (no games yet),100%,100%,,-14.8,-13.5,1.3
-Mon Nov 2 7:00 PM,Eastern Illinois,Indiana,H,Indiana -31.8,Indiana -34.5,9,142.5,E Illinois 2.7,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-31.8,-34.5,2.7
-Mon Nov 2 7:00 PM,Western Carolina,North Carolina,H,UNC -21.0,UNC -22.5,10,156.0,W Carolina 1.5,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-21.0,-22.5,1.5
-Mon Nov 2 7:00 PM,Howard,Yale,H,Yale -4.5,Yale -7,8,152.5,Howard 2.5,n/a (no games yet),100%,100%,,-4.5,-7.0,2.5
-Mon Nov 2 7:00 PM,St. Thomas,Presbyterian,H,St. Thomas -0.9,St. Thomas -4,7,145.5,Presbyterian 3.1,n/a (no games yet),100%,100%,,0.9,4.0,3.1
-Mon Nov 2 7:00 PM,New Haven,Syracuse,H,Syracuse -25.9,Syracuse -26.5,7,138.5,New Haven 0.6,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-25.9,-26.5,0.6
-Mon Nov 2 7:00 PM,Mount St. Mary's,Xavier,H,Xavier -24.4,Xavier -26.5,10,156.5,Mt. St. Mary's 2.1,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-24.4,-26.5,2.1
-Mon Nov 2 7:00 PM,New Hampshire,Brown,H,Brown -8.6,Brown -9.5,7,142.5,New Hampshire 0.9,n/a (no games yet),100%,100%,,-8.6,-9.5,0.9
-Mon Nov 2 7:00 PM,Miami OH,James Madison,H,Miami OH -0.7,PK,9,155.0,Miami OH 0.7,n/a (no games yet),100%,100%,,0.7,0.0,0.7
-Mon Nov 2 7:00 PM,USC Upstate,East Carolina,H,East Carolina -13.5,East Carolina -14,8,151.5,Upstate 0.5,n/a (no games yet),100%,100%,,-13.5,-14.0,0.5
-Mon Nov 2 7:00 PM,Jackson St.,Texas Tech,H,Texas Tech -32.2,Texas Tech -34.5,9,155.5,Jackson St 2.3,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-32.2,-34.5,2.3
-Mon Nov 2 7:00 PM,NJIT,Dayton,H,Dayton -23.8,Dayton -22.5,7,144.5,Dayton 1.3,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-23.8,-22.5,1.3
-Mon Nov 2 7:00 PM,Maine,Providence,H,Providence -26.1,Providence -28.5,7,148.5,Maine 2.4,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-26.1,-28.5,2.4
-Mon Nov 2 7:00 PM,Northeastern,Boston University,H,Northeastern -1.0,BU -1,8,150.0,Northeastern 2.0,n/a (no games yet),100%,100%,,1.0,-1.0,2.0
-Mon Nov 2 7:00 PM,Lafayette,Butler,H,Butler -21.0,Butler -20.5,8,149.5,Butler 0.5,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-21.0,-20.5,0.5
-Mon Nov 2 7:00 PM,UNC Asheville,Richmond,H,Richmond -12.1,Richmond -12.5,8,147.5,UNC Asheville 0.4,n/a (no games yet),100%,100%,,-12.1,-12.5,0.4
-Mon Nov 2 7:00 PM,Quinnipiac,Michigan St.,H,Mich St -29.1,Mich St -29.5,10,149.5,Quinnipiac 0.4,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-29.1,-29.5,0.4
-Mon Nov 2 7:00 PM,Buffalo,Marshall,H,Marshall -1.8,Marshall -1.5,10,157.0,Marshall 0.3,n/a (no games yet),100%,100%,,-1.8,-1.5,0.3
-Mon Nov 2 7:00 PM,Bellarmine,Vanderbilt,H,Vanderbilt -29.2,Vanderbilt -32.5,9,157.5,Bellarmine 3.3,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-29.2,-32.5,3.3
-Mon Nov 2 7:00 PM,Vermont,Iona,H,Iona -0.3,Iona -1,8,145.0,Vermont 0.7,n/a (no games yet),100%,100%,,-0.3,-1.0,0.7
-Mon Nov 2 7:00 PM,LIU,Florida Atlantic,H,FAU -11.7,FAU -10.5,8,153.5,FAU 1.2,n/a (no games yet),100%,100%,,-11.7,-10.5,1.2
-Mon Nov 2 7:00 PM,Elon,Columbia,H,Columbia -2.5,Columbia -3.5,10,151.0,Elon 1.0,n/a (no games yet),100%,100%,,-2.5,-3.5,1.0
-Mon Nov 2 7:00 PM,Florida Gulf Coast,UCF,H,UCF -20.5,UCF -22,8,153.5,FGCU 1.5,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-20.5,-22.0,1.5
-Mon Nov 2 7:00 PM,American,Cincinnati,H,Cincinnati -20.6,Cincinnati -24.5,9,150.5,American 3.9,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-20.6,-24.5,3.9
-Mon Nov 2 7:00 PM,Central Connecticut,Temple,H,Temple -16.7,Temple -15.5,9,143.5,Temple 1.2,n/a (no games yet),100%,100%,,-16.7,-15.5,1.2
-Mon Nov 2 7:00 PM,Charleston Southern,South Florida,H,South Florida -18.1,South Florida -19,7,158.5,Charleston Southern 0.9,n/a (no games yet),100%,100%,,-18.1,-19.0,0.9
-Mon Nov 2 7:00 PM,Ball St.,Georgia Southern,H,Ball St -4.0,Ball St -2.5,10,158.0,Ball St 1.5,n/a (no games yet),100%,100%,,4.0,2.5,1.5
-Mon Nov 2 7:00 PM,Massachusetts,Troy,H,Troy -3.5,Troy -2.5,10,154.5,Troy 1.0,n/a (no games yet),100%,100%,,-3.5,-2.5,1.0
-Mon Nov 2 7:00 PM,Niagara,West Virginia,H,WVU -27.7,WVU -28.5,10,140.0,Niagara 0.8,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-27.7,-28.5,0.8
-Mon Nov 2 7:00 PM,Dartmouth,Marist,H,Marist -6.1,Marist -6.5,10,140.0,Dartmouth 0.4,n/a (no games yet),100%,100%,,-6.1,-6.5,0.4
-Mon Nov 2 7:00 PM,Navy,George Washington,H,George Washington -15.1,George Washington -16.5,7,149.5,Navy 1.4,n/a (no games yet),100%,100%,,-15.1,-16.5,1.4
-Mon Nov 2 7:00 PM,Youngstown St.,St. Bonaventure,H,Bonaventure -11.3,Bonaventure -10.5,10,153.5,Bonaventure 0.8,n/a (no games yet),100%,100%,,-11.3,-10.5,0.8
-Mon Nov 2 7:00 PM,Bucknell,Maryland,H,Maryland -27.5,Maryland -31.5,9,147.5,Bucknell 4.0,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-27.5,-31.5,4.0
-Mon Nov 2 7:00 PM,Little Rock,VCU,H,VCU -20.2,VCU -18.5,10,153.5,VCU 1.7,n/a (no games yet),100%,100%,,-20.2,-18.5,1.7
-Mon Nov 2 7:00 PM,Stetson,Clemson,H,Clemson -23.3,Clemson -25.5,8,144.0,Stetson 2.2,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-23.3,-25.5,2.2
-Mon Nov 2 7:00 PM,Air Force,Wright St.,H,Wright St -10.7,Wright St -10.5,10,159.5,Wright St 0.2,n/a (no games yet),100%,100%,,-10.7,-10.5,0.2
-Mon Nov 2 7:00 PM,Eastern Michigan,Coastal Carolina,H,Coastal -1.4,Coastal -1,10,142.0,Coastal 0.4,n/a (no games yet),100%,100%,,-1.4,-1.0,0.4
-Mon Nov 2 7:00 PM,Charlotte,Indiana St.,H,Charlotte -2.1,Charlotte -4.5,10,152.5,Indiana St 2.4,n/a (no games yet),100%,100%,,2.1,4.5,2.4
-Mon Nov 2 7:30 PM,Denver,Wisconsin,H,Wisconsin -24.2,Wisconsin -22.5,10,159.5,Wisconsin 1.7,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-24.2,-22.5,1.7
-Mon Nov 2 7:30 PM,Le Moyne,Nebraska,H,Nebraska -31.0,Nebraska -33.5,7,152.0,Le Moyne 2.5,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-31.0,-33.5,2.5
-Mon Nov 2 7:30 PM,Central Michigan,Louisiana Monroe,H,C Michigan -4.3,C Michigan -3,10,153.0,C Michigan 1.3,n/a (no games yet),100%,100%,,4.3,3.0,1.3
-Mon Nov 2 7:30 PM,Saint Peter's,Seton Hall,H,Seton Hall -19.2,Seton Hall -20.5,10,136.5,St. Peter's 1.3,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-19.2,-20.5,1.3
-Mon Nov 2 7:30 PM,Tennessee Tech,Mississippi St.,H,Miss St -16.7,Miss St -17.5,10,157.5,Tenn Tech 0.8,n/a (no games yet),100%,100%,,-16.7,-17.5,0.8
-Mon Nov 2 7:30 PM,Lipscomb,Southeast Missouri,H,Lipscomb -1.4,Lipscomb -2.5,7,153.0,SEMO 1.1,n/a (no games yet),100%,100%,,1.4,2.5,1.1
-Mon Nov 2 7:30 PM,Campbell,N.C. State,H,NC State -20.8,NC State -24,10,158.5,Campbell 3.2,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-20.8,-24.0,3.2
-Mon Nov 2 7:30 PM,Kent St.,Louisiana Tech,H,Kent St -4.6,Kent St -5.5,10,145.0,La Tech 0.9,n/a (no games yet),100%,100%,,4.6,5.5,0.9
-Mon Nov 2 7:30 PM,Southern Indiana,Belmont,H,Belmont -16.9,Belmont -17.5,10,154.5,S Indiana 0.6,n/a (no games yet),100%,100%,,-16.9,-17.5,0.6
-Mon Nov 2 7:30 PM,Canisius,Penn St.,H,Penn St -21.3,Penn St -21.5,10,152.5,Canisius 0.2,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-21.3,-21.5,0.2
-Mon Nov 2 7:30 PM,North Carolina Central,Georgia,H,Georgia -33.8,Georgia -36,7,161.0,NC Central 2.2,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-33.8,-36.0,2.2
-Mon Nov 2 7:30 PM,Mercyhurst,Marquette,H,Marquette -27.6,Marquette -29.5,7,147.0,Mercyhurst 1.9,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-27.6,-29.5,1.9
-Mon Nov 2 7:30 PM,Purdue,Gonzaga,N,Gonzaga -4.0,Gonzaga -5,10,155.0,Purdue 1.0,n/a (no games yet),100%,100%,,-4.0,-5.0,1.0
-Mon Nov 2 7:30 PM,Morehead St.,Western Kentucky,H,WKU -15.5,WKU -16.5,10,153.0,Morehead 1.0,n/a (no games yet),100%,100%,,-15.5,-16.5,1.0
-Mon Nov 2 8:00 PM,Lehigh,Saint Louis,H,SLU -22.6,SLU -24.5,7,154.0,Lehigh 1.9,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-22.6,-24.5,1.9
-Mon Nov 2 8:00 PM,Lindenwood,TCU,H,TCU -25.4,TCU -28,9,154.5,Lindenwood 2.6,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-25.4,-28.0,2.6
-Mon Nov 2 8:00 PM,Siena,Bryant,H,Siena -1.6,Siena -3,7,150.5,Bryant 1.4,n/a (no games yet),100%,100%,,1.6,3.0,1.4
-Mon Nov 2 8:00 PM,Kansas City,Creighton,H,Creighton -24.6,Creighton -26,10,153.5,UMKC 1.4,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-24.6,-26.0,1.4
-Mon Nov 2 8:00 PM,Western Illinois,Valparaiso,H,Valparaiso -20.6,Valparaiso -19,8,143.0,Valparaiso 1.6,n/a (no games yet),100%,100%,,-20.6,-19.0,1.6
-Mon Nov 2 8:00 PM,Bethune Cookman,Furman,N,Furman -4.2,Furman -4.5,8,148.5,B-Cookman 0.3,n/a (no games yet),100%,100%,,-4.2,-4.5,0.3
-Mon Nov 2 8:00 PM,Tennessee Martin,Tulane,H,Tulane -10.2,Tulane -8,9,144.5,Tulane 2.2,n/a (no games yet),100%,100%,,-10.2,-8.0,2.2
-Mon Nov 2 8:00 PM,Toledo,Arkansas St.,H,Ark St -1.3,Ark St -3.5,9,162.5,Toledo 2.2,n/a (no games yet),100%,100%,,-1.3,-3.5,2.2
-Mon Nov 2 8:00 PM,Fairleigh Dickinson,Illinois,H,Illinois -39.3,Illinois -37,7,152.5,Illinois 2.3,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-39.3,-37.0,2.3
-Mon Nov 2 8:00 PM,Ohio,South Alabama,H,Ohio -3.6,S Alabama -1,9,153.0,Ohio 4.6,n/a (no games yet),100%,100%,,3.6,-1.0,4.6
-Mon Nov 2 8:00 PM,The Citadel,Loyola Chicago,H,Loyola Chi -15.4,Loyola Chi -15,8,143.0,Loyola Chi 0.4,n/a (no games yet),100%,100%,,-15.4,-15.0,0.4
-Mon Nov 2 8:00 PM,Fordham,Kansas,H,Kansas -24.0,Kansas -23.5,10,143.5,Kansas 0.5,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-24.0,-23.5,0.5
-Mon Nov 2 8:00 PM,East Texas A&M,Oklahoma,H,Oklahoma -28.1,Oklahoma -30.5,6,150.5,E Texas A&M 2.4,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-28.1,-30.5,2.4
-Mon Nov 2 8:00 PM,Maryland Eastern Shore,Wake Forest,H,Wake -29.1,Wake -31.5,7,141.5,UMES 2.4,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-29.1,-31.5,2.4
-Mon Nov 2 8:00 PM,West Georgia,DePaul,H,DePaul -21.5,DePaul -22.5,8,145.0,W Georgia 1.0,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-21.5,-22.5,1.0
-Mon Nov 2 8:00 PM,Akron,Louisiana,H,Akron -6.8,Akron -5.5,9,149.0,Akron 1.3,n/a (no games yet),100%,100%,,6.8,5.5,1.3
-Mon Nov 2 8:00 PM,Southern,SMU,H,SMU -23.1,SMU -25.5,7,157.5,Southern 2.4,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-23.1,-25.5,2.4
-Mon Nov 2 8:00 PM,Texas A&M Corpus Chris,Texas St.,H,Texas St -8.6,Texas St -10.5,7,142.5,A&M-CC 1.9,n/a (no games yet),100%,100%,,-8.6,-10.5,1.9
-Mon Nov 2 8:00 PM,Binghamton,Northwestern,H,Northwestern -21.7,Northwestern -22.5,6,146.5,Binghamton 0.8,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-21.7,-22.5,0.8
-Mon Nov 2 8:30 PM,Florida A&M,Florida St.,N,FSU -20.8,FSU -25.5,7,154.5,FAMU 4.7,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-20.8,-25.5,4.7
-Mon Nov 2 8:30 PM,Alcorn St.,Mississippi,H,Ole Miss -26.6,Ole Miss -29.5,7,146.5,Alcorn 2.9,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-26.6,-29.5,2.9
-Mon Nov 2 8:30 PM,Oral Roberts,Central Arkansas,H,C Arkansas -7.3,C Arkansas -8.5,9,154.5,ORU 1.2,n/a (no games yet),100%,100%,,-7.3,-8.5,1.2
-Mon Nov 2 9:00 PM,Long Beach St.,Utah,H,Utah -18.3,Utah -19.5,8,148.5,LBSU 1.2,n/a (no games yet),100%,100%,,-18.3,-19.5,1.2
-Mon Nov 2 9:00 PM,Davidson,Washington St.,H,Wazzu -2.5,Wazzu -3,10,149.0,Davidson 0.5,n/a (no games yet),100%,100%,,-2.5,-3.0,0.5
-Mon Nov 2 9:00 PM,North Alabama,UC Davis,H,UC Davis -8.4,UC Davis -9,7,148.5,N Alabama 0.6,n/a (no games yet),100%,100%,,-8.4,-9.0,0.6
-Mon Nov 2 9:00 PM,Utah Tech,New Mexico,H,New Mexico -20.3,New Mexico -21,7,155.0,Utah Tech 0.7,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-20.3,-21.0,0.7
-Mon Nov 2 9:00 PM,North Dakota,Minnesota,H,Minnesota -23.9,Minnesota -25.5,7,147.0,N Dakota 1.6,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-23.9,-25.5,1.6
-Mon Nov 2 9:00 PM,Texas Southern,Grand Canyon,H,GCU -26.9,GCU -28.5,4,146.0,Texas So 1.6,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-26.9,-28.5,1.6
-Mon Nov 2 9:00 PM,Gardner Webb,Connecticut,H,UConn -39.4,UConn -38,7,147.5,UConn 1.4,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-39.4,-38.0,1.4
-Mon Nov 2 9:00 PM,Chattanooga,Louisville,H,Louisville -29.1,Louisville -31.5,8,158.0,Chattanooga 2.4,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-29.1,-31.5,2.4
-Mon Nov 2 9:00 PM,Abilene Christian,Colorado,H,Colorado -16.9,Colorado -18.5,9,152.0,ACU 1.6,n/a (no games yet),100%,100%,,-16.9,-18.5,1.6
-Mon Nov 2 9:00 PM,Ohio St.,BYU,N,PK,BYU -3.5,9,160.5,Ohio St 3.5,n/a (no games yet),100%,100%,,-0.0,-3.5,3.5
-Mon Nov 2 9:00 PM,Incarnate Word,Oklahoma St.,H,Okla St -24.0,Okla St -28,5,159.5,UIW 4.0,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-24.0,-28.0,4.0
-Mon Nov 2 9:00 PM,Chicago St.,Texas,H,Texas -35.9,Texas -40.5,6,149.5,Chicago St 4.6,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-35.9,-40.5,4.6
-Mon Nov 2 9:00 PM,La Salle,Houston,H,Houston -28.2,Houston -29.5,9,139.5,La Salle 1.3,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-28.2,-29.5,1.3
-Mon Nov 2 9:30 PM,Northwestern St.,Baylor,H,Baylor -27.1,Baylor -30,4,148.0,NW State 2.9,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-27.1,-30.0,2.9
-Mon Nov 2 9:30 PM,East Tennessee St.,Arizona St.,H,Arizona St -14.8,Arizona St -18,6,146.0,ETSU 3.2,n/a (no games yet),100%,100%,,-14.8,-18.0,3.2
-Mon Nov 2 9:30 PM,Idaho St.,Utah St.,H,Utah St -26.7,Utah St -25.5,7,146.0,Utah St 1.2,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-26.7,-25.5,1.2
-Mon Nov 2 9:30 PM,Weber St.,Oregon St.,H,Ore St -17.7,Ore St -17,7,159.0,Ore St 0.7,n/a (no games yet),100%,100%,,-17.7,-17.0,0.7
-Mon Nov 2 10:00 PM,Montana St.,Colorado St.,H,Colorado St -10.6,Colorado St -12,8,145.0,Montana St 1.4,n/a (no games yet),100%,100%,,-10.6,-12.0,1.4
-Mon Nov 2 10:00 PM,Eastern Washington,Stanford,H,Stanford -12.4,Stanford -13.5,6,154.0,E Washington 1.1,n/a (no games yet),100%,100%,,-12.4,-13.5,1.1
-Mon Nov 2 10:00 PM,UCLA,Arizona,N,Arizona -6.5,Arizona -4.5,8,149.5,Arizona 2.0,n/a (no games yet),100%,100%,,-6.5,-4.5,2.0
-Mon Nov 2 10:00 PM,Towson,Santa Clara,H,Santa Clara -12.7,Santa Clara -15,8,148.5,Towson 2.3,n/a (no games yet),100%,100%,,-12.7,-15.0,2.3
-Mon Nov 2 10:00 PM,Robert Morris,Nevada,H,Nevada -12.7,Nevada -13,8,144.5,Robert Morris 0.3,n/a (no games yet),100%,100%,,-12.7,-13.0,0.3
-Mon Nov 2 10:00 PM,Montana,Oregon,H,Oregon -18.0,Oregon -17.5,8,153.0,Oregon 0.5,n/a (no games yet),100%,100%,,-18.0,-17.5,0.5
-Mon Nov 2 10:00 PM,Colgate,Washington,H,Washington -15.2,Washington -14.5,4,153.0,Washington 0.7,n/a (no games yet),100%,100%,,-15.2,-14.5,0.7
-Mon Nov 2 10:00 PM,Illinois St.,Saint Mary's,H,St. Mary's -6.1,St. Mary's -6.5,5,148.5,Illinois St 0.4,n/a (no games yet),100%,100%,,-6.1,-6.5,0.4
-Mon Nov 2 10:00 PM,Radford,San Francisco,H,San Francisco -10.1,San Francisco -10.5,4,154.0,Radford 0.4,n/a (no games yet),100%,100%,,-10.1,-10.5,0.4
-Mon Nov 2 10:30 PM,Milwaukee,USC,H,USC -22.0,USC -26,7,157.5,Milwaukee 4.0,n/a (no games yet),100%,100%,big favorite: discount dog edge 1-3,-22.0,-26.0,4.0
-Tue Nov 3 12:00 AM,Seattle,Hawaii,H,Hawaii -1.3,Hawaii -1.5,7,144.5,Seattle 0.2,n/a (no games yet),100%,100%,,-1.3,-1.5,0.2
+﻿tip_ET,away,home,venue,model,market,n_books,total,edge,model_size_adj,edge_size_adj,edge_inseason_only,prior_wt_away,prior_wt_home,notes,model_home_spread,market_home_spread,edge_size,model_home_spread_adj,edge_size_adj_num
+Mon Nov 2 3:01 AM,Northern Illinois,Grambling St.,N,NIU -5.7,,0,,,NIU -5.7,,n/a (no games yet),100%,100%,,5.7,,,5.7,
+Mon Nov 2 6:00 AM,Merrimack,Appalachian St.,N,Merrimack -4.1,App St -8.5,6,138.0,Merrimack 12.6,Merrimack -4.1,Merrimack 12.6,n/a (no games yet),100%,100%,,4.1,-8.5,12.6,4.1,12.6
+Mon Nov 2 9:00 AM,Queens,Winthrop,N,Queens -1.3,Queens -1.5,9,167.5,Winthrop 0.2,Queens -1.3,Winthrop 0.2,n/a (no games yet),100%,100%,,1.3,1.5,0.2,1.3,0.2
+Mon Nov 2 11:30 AM,Tennessee St.,Murray St.,N,Murray St -7.1,Murray St -10.5,10,165.0,Tenn St 3.4,Murray St -7.1,Tenn St 3.4,n/a (no games yet),100%,100%,,-7.1,-10.5,3.4,-7.1,3.4
+Mon Nov 2 2:00 PM,Northern Kentucky,UTEP,N,UTEP -2.2,UTEP -2.5,10,149.0,NKU 0.3,UTEP -2.2,NKU 0.3,n/a (no games yet),100%,100%,,-2.2,-2.5,0.3,-2.2,0.3
+Mon Nov 2 3:00 PM,UTSA,San Jose St.,H,SJSU -6.2,SJSU -8,10,153.0,UTSA 1.8,SJSU -6.2,UTSA 1.8,n/a (no games yet),100%,100%,,-6.2,-8.0,1.8,-6.2,1.8
+Mon Nov 2 4:00 PM,UMBC,George Mason,H,George Mason -15.8,George Mason -17.5,8,146.5,UMBC 1.7,George Mason -15.9,UMBC 1.6,n/a (no games yet),100%,100%,,-15.8,-17.5,1.7,-15.9,1.6
+Mon Nov 2 5:30 PM,McNeese,UAB,N,McNeese -3.3,McNeese -3,9,151.0,McNeese 0.3,McNeese -3.3,McNeese 0.3,n/a (no games yet),100%,100%,,3.3,3.0,0.3,3.3,0.3
+Mon Nov 2 6:00 PM,Oakland,Michigan,H,Michigan -24.7,Michigan -26.5,10,157.0,Oakland 1.8,Michigan -26.2,Oakland 0.3,n/a (no games yet),100%,100%,,-24.7,-26.5,1.8,-26.2,0.3
+Mon Nov 2 6:00 PM,Bowling Green,Georgia St.,H,Ga St -0.6,Ga St -4.5,10,158.0,BGSU 3.9,Ga St -0.6,BGSU 3.9,n/a (no games yet),100%,100%,,-0.6,-4.5,3.9,-0.6,3.9
+Mon Nov 2 6:00 PM,Miami FL,Florida,N,Florida -7.8,Florida -5,8,160.5,Florida 2.8,Florida -7.8,Florida 2.8,n/a (no games yet),100%,100%,,-7.8,-5.0,2.8,-7.8,2.8
+Mon Nov 2 6:00 PM,Pepperdine,Cornell,H,Pepperdine -0.3,Pepperdine -3.5,10,164.0,Cornell 3.2,Pepperdine -0.3,Cornell 3.2,n/a (no games yet),100%,100%,,0.3,3.5,3.2,0.3,3.2
+Mon Nov 2 6:30 PM,Army,Duke,H,Duke -41.4,Duke -42.5,9,152.5,Army 1.1,Duke -45.4,Duke 2.9,n/a (no games yet),100%,100%,,-41.4,-42.5,1.1,-45.4,2.9
+Mon Nov 2 6:30 PM,Monmouth,St. John's,H,St. John's -24.7,St. John's -27.5,9,153.0,Monmouth 2.8,St. John's -26.2,Monmouth 1.3,n/a (no games yet),100%,100%,,-24.7,-27.5,2.8,-26.2,1.3
+Mon Nov 2 6:30 PM,Loyola MD,Georgetown,H,Georgetown -22.9,Georgetown -23.5,9,150.5,Loyola MD 0.6,Georgetown -24.1,Georgetown 0.6,n/a (no games yet),100%,100%,,-22.9,-23.5,0.6,-24.1,0.6
+Mon Nov 2 7:00 PM,Rider,Pittsburgh,H,Pittsburgh -24.6,Pittsburgh -27.5,10,141.5,Rider 2.9,Pittsburgh -26.0,Rider 1.5,n/a (no games yet),100%,100%,,-24.6,-27.5,2.9,-26.0,1.5
+Mon Nov 2 7:00 PM,Western Michigan,Old Dominion,H,ODU -0.2,W Michigan -1.5,10,157.5,ODU 1.7,ODU -0.2,ODU 1.7,n/a (no games yet),100%,100%,,-0.2,1.5,1.7,-0.2,1.7
+Mon Nov 2 7:00 PM,Memphis,Iowa St.,N,Iowa St -14.8,Iowa St -14.5,10,155.5,Iowa St 0.3,Iowa St -14.8,Iowa St 0.3,n/a (no games yet),100%,100%,,-14.8,-14.5,0.3,-14.8,0.3
+Mon Nov 2 7:00 PM,Eastern Illinois,Indiana,H,Indiana -31.8,Indiana -34.5,9,142.5,E Illinois 2.7,Indiana -34.3,E Illinois 0.2,n/a (no games yet),100%,100%,,-31.8,-34.5,2.7,-34.3,0.2
+Mon Nov 2 7:00 PM,Western Carolina,North Carolina,H,UNC -21.0,UNC -22.5,10,156.0,W Carolina 1.5,UNC -21.9,W Carolina 0.6,n/a (no games yet),100%,100%,,-21.0,-22.5,1.5,-21.9,0.6
+Mon Nov 2 7:00 PM,Howard,Yale,H,Yale -4.5,Yale -6,8,152.5,Howard 1.5,Yale -4.5,Howard 1.5,n/a (no games yet),100%,100%,,-4.5,-6.0,1.5,-4.5,1.5
+Mon Nov 2 7:00 PM,St. Thomas,Presbyterian,H,St. Thomas -0.9,St. Thomas -2.5,7,145.5,Presbyterian 1.6,St. Thomas -0.9,Presbyterian 1.6,n/a (no games yet),100%,100%,,0.9,2.5,1.6,0.9,1.6
+Mon Nov 2 7:00 PM,New Haven,Syracuse,H,Syracuse -25.9,Syracuse -27.5,7,132.0,New Haven 1.6,Syracuse -27.5,-,n/a (no games yet),100%,100%,,-25.9,-27.5,1.6,-27.5,0.0
+Mon Nov 2 7:00 PM,Mount St. Mary's,Xavier,H,Xavier -24.4,Xavier -26.5,10,156.5,Mt. St. Mary's 2.1,Xavier -25.8,Mt. St. Mary's 0.7,n/a (no games yet),100%,100%,,-24.4,-26.5,2.1,-25.8,0.7
+Mon Nov 2 7:00 PM,New Hampshire,Brown,H,Brown -8.6,Brown -8.5,7,143.5,Brown 0.1,Brown -8.6,Brown 0.1,n/a (no games yet),100%,100%,,-8.6,-8.5,0.1,-8.6,0.1
+Mon Nov 2 7:00 PM,Miami OH,James Madison,H,Miami OH -0.7,PK,9,155.5,Miami OH 0.7,Miami OH -0.7,Miami OH 0.7,n/a (no games yet),100%,100%,,0.7,0.0,0.7,0.7,0.7
+Mon Nov 2 7:00 PM,USC Upstate,East Carolina,H,East Carolina -13.5,East Carolina -14.5,8,151.5,Upstate 1.0,East Carolina -13.5,Upstate 1.0,n/a (no games yet),100%,100%,,-13.5,-14.5,1.0,-13.5,1.0
+Mon Nov 2 7:00 PM,Jackson St.,Texas Tech,H,Texas Tech -31.8,Texas Tech -34.5,9,155.5,Jackson St 2.7,Texas Tech -34.3,Jackson St 0.2,n/a (no games yet),100%,100%,Jamichael Stillwell out (-0.6),-31.8,-34.5,2.7,-34.3,0.2
+Mon Nov 2 7:00 PM,NJIT,Dayton,H,Dayton -23.8,Dayton -22.5,7,144.5,Dayton 1.3,Dayton -25.1,Dayton 2.6,n/a (no games yet),100%,100%,,-23.8,-22.5,1.3,-25.1,2.6
+Mon Nov 2 7:00 PM,Maine,Providence,H,Providence -26.1,Providence -28.5,7,149.0,Maine 2.4,Providence -27.8,Maine 0.7,n/a (no games yet),100%,100%,,-26.1,-28.5,2.4,-27.8,0.7
+Mon Nov 2 7:00 PM,Northeastern,Boston University,H,Northeastern -1.0,BU -1,8,150.0,Northeastern 2.0,Northeastern -1.0,Northeastern 2.0,n/a (no games yet),100%,100%,,1.0,-1.0,2.0,1.0,2.0
+Mon Nov 2 7:00 PM,Lafayette,Butler,H,Butler -21.0,Butler -20.5,8,149.5,Butler 0.5,Butler -21.9,Butler 1.4,n/a (no games yet),100%,100%,,-21.0,-20.5,0.5,-21.9,1.4
+Mon Nov 2 7:00 PM,UNC Asheville,Richmond,H,Richmond -12.1,Richmond -12,8,148.0,Richmond 0.1,Richmond -12.1,Richmond 0.1,n/a (no games yet),100%,100%,,-12.1,-12.0,0.1,-12.1,0.1
+Mon Nov 2 7:00 PM,Quinnipiac,Michigan St.,H,Mich St -29.1,Mich St -29.5,10,149.5,Quinnipiac 0.4,Mich St -31.2,Mich St 1.7,n/a (no games yet),100%,100%,,-29.1,-29.5,0.4,-31.2,1.7
+Mon Nov 2 7:00 PM,Buffalo,Marshall,H,Marshall -1.8,Marshall -1.5,10,157.0,Marshall 0.3,Marshall -1.8,Marshall 0.3,n/a (no games yet),100%,100%,,-1.8,-1.5,0.3,-1.8,0.3
+Mon Nov 2 7:00 PM,Bellarmine,Vanderbilt,H,Vanderbilt -29.2,Vanderbilt -32.5,9,158.5,Bellarmine 3.3,Vanderbilt -31.3,Bellarmine 1.2,n/a (no games yet),100%,100%,,-29.2,-32.5,3.3,-31.3,1.2
+Mon Nov 2 7:00 PM,Vermont,Iona,H,Iona -0.3,Iona -1,8,145.5,Vermont 0.7,Iona -0.3,Vermont 0.7,n/a (no games yet),100%,100%,,-0.3,-1.0,0.7,-0.3,0.7
+Mon Nov 2 7:00 PM,LIU,Florida Atlantic,H,FAU -11.7,FAU -10,8,153.5,FAU 1.7,FAU -11.7,FAU 1.7,n/a (no games yet),100%,100%,,-11.7,-10.0,1.7,-11.7,1.7
+Mon Nov 2 7:00 PM,Elon,Columbia,H,Columbia -2.5,Columbia -3.5,10,151.0,Elon 1.0,Columbia -2.5,Elon 1.0,n/a (no games yet),100%,100%,,-2.5,-3.5,1.0,-2.5,1.0
+Mon Nov 2 7:00 PM,Florida Gulf Coast,UCF,H,UCF -20.5,UCF -21.5,8,153.5,FGCU 1.0,UCF -21.3,FGCU 0.2,n/a (no games yet),100%,100%,,-20.5,-21.5,1.0,-21.3,0.2
+Mon Nov 2 7:00 PM,American,Cincinnati,H,Cincinnati -20.6,Cincinnati -24.5,9,151.0,American 3.9,Cincinnati -21.4,American 3.1,n/a (no games yet),100%,100%,,-20.6,-24.5,3.9,-21.4,3.1
+Mon Nov 2 7:00 PM,Central Connecticut,Temple,H,Temple -16.7,Temple -15.5,9,143.5,Temple 1.2,Temple -17.0,Temple 1.5,n/a (no games yet),100%,100%,,-16.7,-15.5,1.2,-17.0,1.5
+Mon Nov 2 7:00 PM,Charleston Southern,South Florida,H,South Florida -18.1,South Florida -19,7,158.5,Charleston Southern 0.9,South Florida -18.6,Charleston Southern 0.4,n/a (no games yet),100%,100%,,-18.1,-19.0,0.9,-18.6,0.4
+Mon Nov 2 7:00 PM,Ball St.,Georgia Southern,H,Ball St -4.0,Ball St -2.5,10,158.0,Ball St 1.5,Ball St -4.0,Ball St 1.5,n/a (no games yet),100%,100%,,4.0,2.5,1.5,4.0,1.5
+Mon Nov 2 7:00 PM,Massachusetts,Troy,H,Troy -3.5,Troy -3.5,10,154.5,-,Troy -3.5,-,n/a (no games yet),100%,100%,,-3.5,-3.5,0.0,-3.5,0.0
+Mon Nov 2 7:00 PM,Niagara,West Virginia,H,WVU -27.7,WVU -28.5,10,141.0,Niagara 0.8,WVU -29.6,WVU 1.1,n/a (no games yet),100%,100%,,-27.7,-28.5,0.8,-29.6,1.1
+Mon Nov 2 7:00 PM,Dartmouth,Marist,H,Marist -6.1,Marist -6.5,10,137.5,Dartmouth 0.4,Marist -6.1,Dartmouth 0.4,n/a (no games yet),100%,100%,,-6.1,-6.5,0.4,-6.1,0.4
+Mon Nov 2 7:00 PM,Navy,George Washington,H,George Washington -15.1,George Washington -16.5,7,149.0,Navy 1.4,George Washington -15.1,Navy 1.4,n/a (no games yet),100%,100%,,-15.1,-16.5,1.4,-15.1,1.4
+Mon Nov 2 7:00 PM,Youngstown St.,St. Bonaventure,H,Bonaventure -11.3,Bonaventure -10.5,10,153.5,Bonaventure 0.8,Bonaventure -11.3,Bonaventure 0.8,n/a (no games yet),100%,100%,,-11.3,-10.5,0.8,-11.3,0.8
+Mon Nov 2 7:00 PM,Bucknell,Maryland,H,Maryland -27.5,Maryland -31.5,9,147.5,Bucknell 4.0,Maryland -29.4,Bucknell 2.1,n/a (no games yet),100%,100%,,-27.5,-31.5,4.0,-29.4,2.1
+Mon Nov 2 7:00 PM,Little Rock,VCU,H,VCU -20.2,VCU -19,10,153.5,VCU 1.2,VCU -21.0,VCU 2.0,n/a (no games yet),100%,100%,,-20.2,-19.0,1.2,-21.0,2.0
+Mon Nov 2 7:00 PM,Stetson,Clemson,H,Clemson -23.3,Clemson -25.5,8,144.5,Stetson 2.2,Clemson -24.5,Stetson 1.0,n/a (no games yet),100%,100%,,-23.3,-25.5,2.2,-24.5,1.0
+Mon Nov 2 7:00 PM,Air Force,Wright St.,H,Wright St -10.7,Wright St -10.5,10,159.5,Wright St 0.2,Wright St -10.7,Wright St 0.2,n/a (no games yet),100%,100%,,-10.7,-10.5,0.2,-10.7,0.2
+Mon Nov 2 7:00 PM,Eastern Michigan,Coastal Carolina,H,Coastal -1.4,Coastal -1,10,142.0,Coastal 0.4,Coastal -1.4,Coastal 0.4,n/a (no games yet),100%,100%,,-1.4,-1.0,0.4,-1.4,0.4
+Mon Nov 2 7:00 PM,Charlotte,Indiana St.,H,Charlotte -2.1,Charlotte -4.5,10,152.5,Indiana St 2.4,Charlotte -2.1,Indiana St 2.4,n/a (no games yet),100%,100%,,2.1,4.5,2.4,2.1,2.4
+Mon Nov 2 7:30 PM,Denver,Wisconsin,H,Wisconsin -24.2,Wisconsin -23,10,159.5,Wisconsin 1.2,Wisconsin -25.6,Wisconsin 2.6,n/a (no games yet),100%,100%,,-24.2,-23.0,1.2,-25.6,2.6
+Mon Nov 2 7:30 PM,Le Moyne,Nebraska,H,Nebraska -31.0,Nebraska -33.5,7,152.0,Le Moyne 2.5,Nebraska -33.4,Le Moyne 0.1,n/a (no games yet),100%,100%,,-31.0,-33.5,2.5,-33.4,0.1
+Mon Nov 2 7:30 PM,Central Michigan,Louisiana Monroe,H,C Michigan -4.3,C Michigan -3,10,153.5,C Michigan 1.3,C Michigan -4.3,C Michigan 1.3,n/a (no games yet),100%,100%,,4.3,3.0,1.3,4.3,1.3
+Mon Nov 2 7:30 PM,Saint Peter's,Seton Hall,H,Seton Hall -19.2,Seton Hall -20.5,10,136.5,St. Peter's 1.3,Seton Hall -19.8,St. Peter's 0.7,n/a (no games yet),100%,100%,,-19.2,-20.5,1.3,-19.8,0.7
+Mon Nov 2 7:30 PM,Tennessee Tech,Mississippi St.,H,Miss St -16.7,Miss St -17.5,10,157.5,Tenn Tech 0.8,Miss St -17.0,Tenn Tech 0.5,n/a (no games yet),100%,100%,,-16.7,-17.5,0.8,-17.0,0.5
+Mon Nov 2 7:30 PM,Lipscomb,Southeast Missouri,H,Lipscomb -1.4,Lipscomb -2.5,7,152.5,SEMO 1.1,Lipscomb -1.4,SEMO 1.1,n/a (no games yet),100%,100%,,1.4,2.5,1.1,1.4,1.1
+Mon Nov 2 7:30 PM,Campbell,N.C. State,H,NC State -20.8,NC State -23.5,10,158.5,Campbell 2.7,NC State -21.7,Campbell 1.8,n/a (no games yet),100%,100%,,-20.8,-23.5,2.7,-21.7,1.8
+Mon Nov 2 7:30 PM,Kent St.,Louisiana Tech,H,Kent St -4.6,Kent St -5.5,10,145.0,La Tech 0.9,Kent St -4.6,La Tech 0.9,n/a (no games yet),100%,100%,,4.6,5.5,0.9,4.6,0.9
+Mon Nov 2 7:30 PM,Southern Indiana,Belmont,H,Belmont -16.9,Belmont -17.5,10,154.5,S Indiana 0.6,Belmont -17.2,S Indiana 0.3,n/a (no games yet),100%,100%,,-16.9,-17.5,0.6,-17.2,0.3
+Mon Nov 2 7:30 PM,Canisius,Penn St.,H,Penn St -21.3,Penn St -22.5,10,152.5,Canisius 1.2,Penn St -22.2,Canisius 0.3,n/a (no games yet),100%,100%,,-21.3,-22.5,1.2,-22.2,0.3
+Mon Nov 2 7:30 PM,North Carolina Central,Georgia,H,Georgia -33.8,Georgia -38,7,161.0,NC Central 4.2,Georgia -36.6,NC Central 1.4,n/a (no games yet),100%,100%,,-33.8,-38.0,4.2,-36.6,1.4
+Mon Nov 2 7:30 PM,Mercyhurst,Marquette,H,Marquette -27.6,Marquette -31,7,147.0,Mercyhurst 3.4,Marquette -29.5,Mercyhurst 1.5,n/a (no games yet),100%,100%,,-27.6,-31.0,3.4,-29.5,1.5
+Mon Nov 2 7:30 PM,Purdue,Gonzaga,N,Gonzaga -3.9,Gonzaga -5.5,10,154.5,Purdue 1.6,Gonzaga -3.9,Purdue 1.6,n/a (no games yet),100%,100%,Chauncey Wiggins out (-0.0),-3.9,-5.5,1.6,-3.9,1.6
+Mon Nov 2 7:30 PM,Morehead St.,Western Kentucky,H,WKU -15.5,WKU -17.5,10,153.0,Morehead 2.0,WKU -15.6,Morehead 1.9,n/a (no games yet),100%,100%,,-15.5,-17.5,2.0,-15.6,1.9
+Mon Nov 2 8:00 PM,Lehigh,Saint Louis,H,SLU -22.6,SLU -25,7,154.0,Lehigh 2.4,SLU -23.7,Lehigh 1.3,n/a (no games yet),100%,100%,,-22.6,-25.0,2.4,-23.7,1.3
+Mon Nov 2 8:00 PM,Lindenwood,TCU,H,TCU -25.4,TCU -28.5,9,154.5,Lindenwood 3.1,TCU -27.0,Lindenwood 1.5,n/a (no games yet),100%,100%,,-25.4,-28.5,3.1,-27.0,1.5
+Mon Nov 2 8:00 PM,Siena,Bryant,H,Siena -1.6,Siena -3.5,7,150.5,Bryant 1.9,Siena -1.6,Bryant 1.9,n/a (no games yet),100%,100%,,1.6,3.5,1.9,1.6,1.9
+Mon Nov 2 8:00 PM,Kansas City,Creighton,H,Creighton -24.6,Creighton -26.5,10,153.5,UMKC 1.9,Creighton -26.0,UMKC 0.5,n/a (no games yet),100%,100%,,-24.6,-26.5,1.9,-26.0,0.5
+Mon Nov 2 8:00 PM,Western Illinois,Valparaiso,H,Valparaiso -20.6,Valparaiso -19,8,142.0,Valparaiso 1.6,Valparaiso -21.4,Valparaiso 2.4,n/a (no games yet),100%,100%,,-20.6,-19.0,1.6,-21.4,2.4
+Mon Nov 2 8:00 PM,Bethune Cookman,Furman,N,Furman -4.2,Furman -4.5,8,148.5,B-Cookman 0.3,Furman -4.2,B-Cookman 0.3,n/a (no games yet),100%,100%,,-4.2,-4.5,0.3,-4.2,0.3
+Mon Nov 2 8:00 PM,Tennessee Martin,Tulane,H,Tulane -10.2,Tulane -7.5,9,144.5,Tulane 2.7,Tulane -10.2,Tulane 2.7,n/a (no games yet),100%,100%,,-10.2,-7.5,2.7,-10.2,2.7
+Mon Nov 2 8:00 PM,Toledo,Arkansas St.,H,Ark St -1.3,Ark St -3.5,9,162.5,Toledo 2.2,Ark St -1.3,Toledo 2.2,n/a (no games yet),100%,100%,,-1.3,-3.5,2.2,-1.3,2.2
+Mon Nov 2 8:00 PM,Fairleigh Dickinson,Illinois,H,Illinois -39.3,Illinois -37,7,153.5,Illinois 2.3,Illinois -42.9,Illinois 5.9,n/a (no games yet),100%,100%,,-39.3,-37.0,2.3,-42.9,5.9
+Mon Nov 2 8:00 PM,Ohio,South Alabama,H,Ohio -3.6,S Alabama -1,9,153.0,Ohio 4.6,Ohio -3.6,Ohio 4.6,n/a (no games yet),100%,100%,,3.6,-1.0,4.6,3.6,4.6
+Mon Nov 2 8:00 PM,The Citadel,Loyola Chicago,H,Loyola Chi -15.4,Loyola Chi -15,8,143.0,Loyola Chi 0.4,Loyola Chi -15.5,Loyola Chi 0.5,n/a (no games yet),100%,100%,,-15.4,-15.0,0.4,-15.5,0.5
+Mon Nov 2 8:00 PM,Fordham,Kansas,H,Kansas -24.0,Kansas -23.5,10,143.5,Kansas 0.5,Kansas -25.4,Kansas 1.9,n/a (no games yet),100%,100%,,-24.0,-23.5,0.5,-25.4,1.9
+Mon Nov 2 8:00 PM,East Texas A&M,Oklahoma,H,Oklahoma -28.1,Oklahoma -31.5,7,149.5,E Texas A&M 3.4,Oklahoma -30.1,E Texas A&M 1.4,n/a (no games yet),100%,100%,,-28.1,-31.5,3.4,-30.1,1.4
+Mon Nov 2 8:00 PM,Maryland Eastern Shore,Wake Forest,H,Wake -29.1,Wake -30,7,144.5,UMES 0.9,Wake -31.2,Wake 1.2,n/a (no games yet),100%,100%,,-29.1,-30.0,0.9,-31.2,1.2
+Mon Nov 2 8:00 PM,West Georgia,DePaul,H,DePaul -21.5,DePaul -24.5,8,145.0,W Georgia 3.0,DePaul -22.5,W Georgia 2.0,n/a (no games yet),100%,100%,,-21.5,-24.5,3.0,-22.5,2.0
+Mon Nov 2 8:00 PM,Akron,Louisiana,H,Akron -6.8,Akron -5.5,10,149.0,Akron 1.3,Akron -6.8,Akron 1.3,n/a (no games yet),100%,100%,,6.8,5.5,1.3,6.8,1.3
+Mon Nov 2 8:00 PM,Southern,SMU,H,SMU -23.1,SMU -25.5,7,157.5,Southern 2.4,SMU -24.3,Southern 1.2,n/a (no games yet),100%,100%,,-23.1,-25.5,2.4,-24.3,1.2
+Mon Nov 2 8:00 PM,Texas A&M Corpus Chris,Texas St.,H,Texas St -8.6,Texas St -10.5,7,142.5,A&M-CC 1.9,Texas St -8.6,A&M-CC 1.9,n/a (no games yet),100%,100%,,-8.6,-10.5,1.9,-8.6,1.9
+Mon Nov 2 8:00 PM,Binghamton,Northwestern,H,Northwestern -21.7,Northwestern -22.5,6,146.5,Binghamton 0.8,Northwestern -22.7,Northwestern 0.2,n/a (no games yet),100%,100%,,-21.7,-22.5,0.8,-22.7,0.2
+Mon Nov 2 8:30 PM,Florida A&M,Florida St.,N,FSU -20.8,FSU -25.5,8,157.5,FAMU 4.7,FSU -21.7,FAMU 3.8,n/a (no games yet),100%,100%,,-20.8,-25.5,4.7,-21.7,3.8
+Mon Nov 2 8:30 PM,Alcorn St.,Mississippi,H,Ole Miss -26.1,Ole Miss -29.5,7,146.5,Alcorn 3.4,Ole Miss -27.8,Alcorn 1.7,n/a (no games yet),100%,100%,Micah Handlogten out (-0.7),-26.1,-29.5,3.4,-27.8,1.7
+Mon Nov 2 8:30 PM,Oral Roberts,Central Arkansas,H,C Arkansas -7.3,C Arkansas -8.5,9,154.5,ORU 1.2,C Arkansas -7.3,ORU 1.2,n/a (no games yet),100%,100%,,-7.3,-8.5,1.2,-7.3,1.2
+Mon Nov 2 9:00 PM,Long Beach St.,Utah,H,Utah -18.3,Utah -19.5,9,148.5,LBSU 1.2,Utah -18.8,LBSU 0.7,n/a (no games yet),100%,100%,,-18.3,-19.5,1.2,-18.8,0.7
+Mon Nov 2 9:00 PM,Davidson,Washington St.,H,Wazzu -2.5,Wazzu -3,10,149.0,Davidson 0.5,Wazzu -2.5,Davidson 0.5,n/a (no games yet),100%,100%,,-2.5,-3.0,0.5,-2.5,0.5
+Mon Nov 2 9:00 PM,North Alabama,UC Davis,H,UC Davis -8.4,UC Davis -9,7,148.0,N Alabama 0.6,UC Davis -8.4,N Alabama 0.6,n/a (no games yet),100%,100%,,-8.4,-9.0,0.6,-8.4,0.6
+Mon Nov 2 9:00 PM,Utah Tech,New Mexico,H,New Mexico -20.3,New Mexico -21.5,9,156.5,Utah Tech 1.2,New Mexico -21.1,Utah Tech 0.4,n/a (no games yet),100%,100%,,-20.3,-21.5,1.2,-21.1,0.4
+Mon Nov 2 9:00 PM,North Dakota,Minnesota,H,Minnesota -23.9,Minnesota -26,9,147.0,N Dakota 2.1,Minnesota -25.2,N Dakota 0.8,n/a (no games yet),100%,100%,,-23.9,-26.0,2.1,-25.2,0.8
+Mon Nov 2 9:00 PM,Texas Southern,Grand Canyon,H,GCU -25.8,GCU -28.5,6,143.0,Texas So 2.7,GCU -27.4,Texas So 1.1,n/a (no games yet),100%,100%,Dan Skillings Jr. out (-1.4),-25.8,-28.5,2.7,-27.4,1.1
+Mon Nov 2 9:00 PM,Gardner Webb,Connecticut,H,UConn -39.4,UConn -39,8,147.0,UConn 0.4,UConn -43.1,UConn 4.1,n/a (no games yet),100%,100%,,-39.4,-39.0,0.4,-43.1,4.1
+Mon Nov 2 9:00 PM,Chattanooga,Louisville,H,Louisville -29.1,Louisville -31.5,10,159.0,Chattanooga 2.4,Louisville -31.2,Chattanooga 0.3,n/a (no games yet),100%,100%,,-29.1,-31.5,2.4,-31.2,0.3
+Mon Nov 2 9:00 PM,Abilene Christian,Colorado,H,Colorado -16.7,Colorado -18.5,10,152.0,ACU 1.8,Colorado -17.0,ACU 1.5,n/a (no games yet),100%,100%,Iaroslav Niagu out (-0.2),-16.7,-18.5,1.8,-17.0,1.5
+Mon Nov 2 9:00 PM,Ohio St.,BYU,N,PK,BYU -3.5,9,160.5,Ohio St 3.5,PK,Ohio St 3.5,n/a (no games yet),100%,100%,,-0.0,-3.5,3.5,-0.0,3.5
+Mon Nov 2 9:00 PM,Incarnate Word,Oklahoma St.,H,Okla St -24.0,Okla St -27.5,7,159.5,UIW 3.5,Okla St -25.4,UIW 2.1,n/a (no games yet),100%,100%,,-24.0,-27.5,3.5,-25.4,2.1
+Mon Nov 2 9:00 PM,Chicago St.,Texas,H,Texas -35.9,Texas -39.5,6,149.5,Chicago St 3.6,Texas -39.0,Chicago St 0.5,n/a (no games yet),100%,100%,,-35.9,-39.5,3.6,-39.0,0.5
+Mon Nov 2 9:00 PM,La Salle,Houston,H,Houston -28.2,Houston -29.5,9,137.5,La Salle 1.3,Houston -30.2,Houston 0.7,n/a (no games yet),100%,100%,,-28.2,-29.5,1.3,-30.2,0.7
+Mon Nov 2 9:30 PM,Northwestern St.,Baylor,H,Baylor -27.1,Baylor -30,6,149.0,NW State 2.9,Baylor -28.9,NW State 1.1,n/a (no games yet),100%,100%,,-27.1,-30.0,2.9,-28.9,1.1
+Mon Nov 2 9:30 PM,East Tennessee St.,Arizona St.,H,Arizona St -14.8,Arizona St -17.5,7,146.0,ETSU 2.7,Arizona St -14.8,ETSU 2.7,n/a (no games yet),100%,100%,,-14.8,-17.5,2.7,-14.8,2.7
+Mon Nov 2 9:30 PM,Idaho St.,Utah St.,H,Utah St -26.7,Utah St -26,8,148.5,Utah St 0.7,Utah St -28.5,Utah St 2.5,n/a (no games yet),100%,100%,,-26.7,-26.0,0.7,-28.5,2.5
+Mon Nov 2 9:30 PM,Weber St.,Oregon St.,H,Ore St -17.7,Ore St -17.5,8,159.0,Ore St 0.2,Ore St -18.1,Ore St 0.6,n/a (no games yet),100%,100%,,-17.7,-17.5,0.2,-18.1,0.6
+Mon Nov 2 10:00 PM,Montana St.,Colorado St.,H,Colorado St -10.6,Colorado St -11,8,147.0,Montana St 0.4,Colorado St -10.6,Montana St 0.4,n/a (no games yet),100%,100%,,-10.6,-11.0,0.4,-10.6,0.4
+Mon Nov 2 10:00 PM,Eastern Washington,Stanford,H,Stanford -12.4,Stanford -13.5,8,154.0,E Washington 1.1,Stanford -12.4,E Washington 1.1,n/a (no games yet),100%,100%,,-12.4,-13.5,1.1,-12.4,1.1
+Mon Nov 2 10:00 PM,UCLA,Arizona,N,Arizona -5.3,Arizona -4.5,8,149.5,Arizona 0.8,Arizona -5.3,Arizona 0.8,n/a (no games yet),100%,100%,RJ Godfrey out (-1.6),-5.3,-4.5,0.8,-5.3,0.8
+Mon Nov 2 10:00 PM,Towson,Santa Clara,H,Santa Clara -12.7,Santa Clara -14.5,8,148.5,Towson 1.8,Santa Clara -12.7,Towson 1.8,n/a (no games yet),100%,100%,,-12.7,-14.5,1.8,-12.7,1.8
+Mon Nov 2 10:00 PM,Robert Morris,Nevada,H,Nevada -12.7,Nevada -13,8,144.5,Robert Morris 0.3,Nevada -12.7,Robert Morris 0.3,n/a (no games yet),100%,100%,,-12.7,-13.0,0.3,-12.7,0.3
+Mon Nov 2 10:00 PM,Montana,Oregon,H,Oregon -18.0,Oregon -18.5,8,153.0,Montana 0.5,Oregon -18.4,Montana 0.1,n/a (no games yet),100%,100%,,-18.0,-18.5,0.5,-18.4,0.1
+Mon Nov 2 10:00 PM,Colgate,Washington,H,Washington -15.2,Washington -14.5,6,153.0,Washington 0.7,Washington -15.2,Washington 0.7,n/a (no games yet),100%,100%,,-15.2,-14.5,0.7,-15.2,0.7
+Mon Nov 2 10:00 PM,Illinois St.,Saint Mary's,H,St. Mary's -6.1,St. Mary's -6.5,6,148.0,Illinois St 0.4,St. Mary's -6.1,Illinois St 0.4,n/a (no games yet),100%,100%,,-6.1,-6.5,0.4,-6.1,0.4
+Mon Nov 2 10:00 PM,Radford,San Francisco,H,San Francisco -10.1,San Francisco -10.5,5,154.0,Radford 0.4,San Francisco -10.1,Radford 0.4,n/a (no games yet),100%,100%,,-10.1,-10.5,0.4,-10.1,0.4
+Mon Nov 2 10:30 PM,Milwaukee,USC,H,USC -22.0,USC -26,8,157.5,Milwaukee 4.0,USC -23.1,Milwaukee 2.9,n/a (no games yet),100%,100%,,-22.0,-26.0,4.0,-23.1,2.9
+Tue Nov 3 12:00 AM,Seattle,Hawaii,H,Hawaii -0.9,Hawaii -2,8,144.5,Seattle 1.1,Hawaii -0.9,Seattle 1.1,n/a (no games yet),100%,100%,Maidy Douglas out (-0.5),-0.9,-2.0,1.1,-0.9,1.1
