@@ -1,8 +1,11 @@
-# Daily card: 4:30 AM ET (09:30 UTC in EST) so the email lands by ~5:00 even when GitHub starts late.
+# Daily card: three scheduled attempts (4:15, 4:40, 5:05 AM ET in EST). GitHub sometimes delays or drops scheduled runs;
+# the first attempt that succeeds sends the card and later attempts see today's card already saved and skip.
 name: Daily card
 on:
   schedule:
-    - cron: '30 9 * * *'
+    - cron: '15 9 * * *'
+    - cron: '40 9 * * *'
+    - cron: '5 10 * * *'
   workflow_dispatch:
     inputs:
       date:

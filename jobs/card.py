@@ -12,6 +12,8 @@ ET = ZoneInfo('America/New_York'); NOW = dt.datetime.now(ET)
 ap = argparse.ArgumentParser(); ap.add_argument('--snapshot'); ap.add_argument('--date'); ap.add_argument('--no-email', action='store_true'); a = ap.parse_args()
 card_date = a.date or NOW.strftime('%Y-%m-%d')
 slate_f = f'data/slate_{card_date}.csv'
+if os.environ.get('GITHUB_EVENT_NAME') == 'schedule' and os.path.exists(f'cards/card_{card_date}.csv'):
+    print('card for', card_date, 'already sent - skipping'); sys.exit(0)
 if not os.path.exists(slate_f): print('no slate file for', card_date, '- nothing to do'); sys.exit(0)
 S = pd.read_csv(slate_f).fillna('')
 S = S[S.date == card_date] if 'date' in S else S
