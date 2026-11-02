@@ -21,7 +21,12 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests pandas openpyxl
-      - run: python jobs/card.py ${{ github.event.inputs.date && format('--date {0}', github.event.inputs.date) || '' }} $(cat triggers/card.txt 2>/dev/null | grep -o -- '--date [0-9-]*' || true)
+      - name: Build and email the card
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.date }}" ]; then ARGS="--date ${{ github.event.inputs.date }}"; fi
+          if [ "${{ github.event_name }}" = "push" ]; then ARGS="$(grep -o -- '--date [0-9-]*' triggers/card.txt || true)"; fi
+          python jobs/card.py $ARGS
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
