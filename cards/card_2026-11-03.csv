@@ -1,20 +1,20 @@
 ﻿tip_ET,away,home,venue,model,market,n_books,total,edge,model_size_adj,edge_size_adj,edge_inseason_only,prior_wt_away,prior_wt_home,notes,model_home_spread,market_home_spread,edge_size,model_home_spread_adj,edge_size_adj_num
-Tue Nov 3 6:00 PM,Wofford,Tennessee,H,Tennessee -26.6,Tennessee -25.5,10,156.0,Tennessee 1.1,Tennessee -28.3,Tennessee 2.8,n/a (<5 games),100%,100%,,-26.6,-25.5,1.1,-28.3,2.8
-Tue Nov 3 7:00 PM,Manhattan,Kentucky,H,Kentucky -32.2,Kentucky -33.5,10,158.5,Manhattan 1.3,Kentucky -34.8,Kentucky 1.3,n/a (<5 games),100%,100%,,-32.2,-33.5,1.3,-34.8,1.3
-Tue Nov 3 7:00 PM,Purdue Fort Wayne,Duquesne,H,Duquesne -10.9,Duquesne -10,10,153.5,Duquesne 0.9,Duquesne -10.9,Duquesne 0.9,n/a (<5 games),100%,100%,,-10.9,-10.0,0.9,-10.9,0.9
-Tue Nov 3 7:00 PM,Stetson,South Carolina,H,S Carolina -15.4,S Carolina -19.5,9,149.5,Stetson 4.1,S Carolina -15.5,Stetson 4.0,n/a (<5 games),89%,100%,,-15.4,-19.5,4.1,-15.5,4.0
-Tue Nov 3 7:00 PM,Coppin St.,Virginia Tech,H,Va Tech -29.7,Va Tech -31,9,150.5,Coppin St 1.3,Va Tech -31.9,Va Tech 0.9,n/a (<5 games),100%,100%,,-29.7,-31.0,1.3,-31.9,0.9
-Tue Nov 3 7:00 PM,Hampton,Georgia Tech,H,Ga Tech -11.1,Ga Tech -14.5,10,149.0,Hampton 3.4,Ga Tech -11.1,Hampton 3.4,n/a (<5 games),100%,100%,,-11.1,-14.5,3.4,-11.1,3.4
-Tue Nov 3 7:00 PM,Holy Cross,Rhode Island,H,Rhode Island -17.6,Rhode Island -20.5,9,147.5,Holy Cross 2.9,Rhode Island -18.0,Holy Cross 2.5,n/a (<5 games),100%,100%,,-17.6,-20.5,2.9,-18.0,2.5
-Tue Nov 3 7:00 PM,Wagner,Boston College,H,BC -18.6,BC -18.5,9,143.5,BC 0.1,BC -19.1,BC 0.6,n/a (<5 games),100%,100%,,-18.6,-18.5,0.1,-19.1,0.6
-Tue Nov 3 7:30 PM,Sam Houston St.,Alabama,H,Alabama -25.6,Alabama -27,10,171.5,Sam Houston 1.4,Alabama -27.2,Alabama 0.2,n/a (<5 games),100%,100%,,-25.6,-27.0,1.4,-27.2,0.2
-Tue Nov 3 7:30 PM,Drexel,Virginia,H,UVA -27.7,UVA -31.5,10,142.5,Drexel 3.8,UVA -29.6,Drexel 1.9,n/a (<5 games),100%,100%,,-27.7,-31.5,3.8,-29.6,1.9
-Tue Nov 3 8:00 PM,Arkansas Pine Bluff,Arkansas,H,Arkansas -37.7,Arkansas -41.5,9,167.5,UAPB 3.8,Arkansas -41.1,UAPB 0.4,n/a (<5 games),100%,100%,,-37.7,-41.5,3.8,-41.1,0.4
+Tue Nov 3 6:00 PM,Wofford,Tennessee,H,Tennessee -26.6,Tennessee -25.5,9,155.5,Tennessee 1.1,Tennessee -28.3,Tennessee 2.8,n/a (<5 games),100%,100%,,-26.6,-25.5,1.1,-28.3,2.8
+Tue Nov 3 7:00 PM,Manhattan,Kentucky,H,Kentucky -32.2,Kentucky -33.5,9,158.5,Manhattan 1.3,Kentucky -34.8,Kentucky 1.3,n/a (<5 games),100%,100%,,-32.2,-33.5,1.3,-34.8,1.3
+Tue Nov 3 7:00 PM,Purdue Fort Wayne,Duquesne,H,Duquesne -10.9,Duquesne -10,9,153.5,Duquesne 0.9,Duquesne -10.9,Duquesne 0.9,n/a (<5 games),100%,100%,,-10.9,-10.0,0.9,-10.9,0.9
+Tue Nov 3 7:00 PM,Stetson,South Carolina,H,S Carolina -15.3,S Carolina -19.5,8,149.5,Stetson 4.2,S Carolina -15.3,Stetson 4.2,n/a (<5 games),89%,100%,,-15.3,-19.5,4.2,-15.3,4.2
+Tue Nov 3 7:00 PM,Coppin St.,Virginia Tech,H,Va Tech -29.7,Va Tech -31,8,150.5,Coppin St 1.3,Va Tech -31.9,Va Tech 0.9,n/a (<5 games),100%,100%,,-29.7,-31.0,1.3,-31.9,0.9
+Tue Nov 3 7:00 PM,Hampton,Georgia Tech,H,Ga Tech -11.1,Ga Tech -14.5,9,149.0,Hampton 3.4,Ga Tech -11.1,Hampton 3.4,n/a (<5 games),100%,100%,,-11.1,-14.5,3.4,-11.1,3.4
+Tue Nov 3 7:00 PM,Holy Cross,Rhode Island,H,Rhode Island -17.6,Rhode Island -20.5,8,147.5,Holy Cross 2.9,Rhode Island -18.0,Holy Cross 2.5,n/a (<5 games),100%,100%,,-17.6,-20.5,2.9,-18.0,2.5
+Tue Nov 3 7:00 PM,Wagner,Boston College,H,BC -18.6,BC -19.5,8,143.5,Wagner 0.9,BC -19.1,Wagner 0.4,n/a (<5 games),100%,100%,,-18.6,-19.5,0.9,-19.1,0.4
+Tue Nov 3 7:30 PM,Sam Houston St.,Alabama,H,Alabama -25.6,Alabama -27,9,171.5,Sam Houston 1.4,Alabama -27.2,Alabama 0.2,n/a (<5 games),100%,100%,,-25.6,-27.0,1.4,-27.2,0.2
+Tue Nov 3 7:30 PM,Drexel,Virginia,H,UVA -27.7,UVA -31,9,142.5,Drexel 3.3,UVA -29.6,Drexel 1.4,n/a (<5 games),100%,100%,,-27.7,-31.0,3.3,-29.6,1.4
+Tue Nov 3 8:00 PM,Arkansas Pine Bluff,Arkansas,H,Arkansas -37.7,Arkansas -41.5,8,167.5,UAPB 3.8,Arkansas -41.1,UAPB 0.4,n/a (<5 games),100%,100%,,-37.7,-41.5,3.8,-41.1,0.4
 Tue Nov 3 8:00 PM,LSU New Orleans,LSU,H,LSU -23.1,LSU -27.5,5,159.5,LSU New Orleans 4.4,LSU -24.3,LSU New Orleans 3.2,n/a (<5 games),100%,100%,,-23.1,-27.5,4.4,-24.3,3.2
-Tue Nov 3 8:00 PM,Cleveland St.,Missouri,H,Missouri -26.6,Missouri -26.5,10,160.0,Missouri 0.1,Missouri -28.3,Missouri 1.8,n/a (<5 games),100%,100%,,-26.6,-26.5,0.1,-28.3,1.8
-Tue Nov 3 8:00 PM,Alabama St.,Texas A&M,H,Texas A&M -27.1,Texas A&M -32.5,9,161.5,Alabama St 5.4,Texas A&M -28.9,Alabama St 3.6,n/a (<5 games),100%,100%,,-27.1,-32.5,5.4,-28.9,3.6
-Tue Nov 3 8:00 PM,Lipscomb,Iowa,H,Iowa -18.5,Iowa -22.5,9,148.5,Lipscomb 4.0,Iowa -19.0,Lipscomb 3.5,n/a (<5 games),89%,100%,,-18.5,-22.5,4.0,-19.0,3.5
-Tue Nov 3 8:00 PM,South Dakota St.,Kansas St.,H,K-State -14.1,K-State -11.5,10,159.0,K-State 2.6,K-State -14.1,K-State 2.6,n/a (<5 games),100%,100%,,-14.1,-11.5,2.6,-14.1,2.6
-Tue Nov 3 10:00 PM,North Florida,Cal Baptist,H,Cal Baptist -9.3,Cal Baptist -11.5,9,157.5,N Florida 2.2,Cal Baptist -9.3,N Florida 2.2,n/a (<5 games),100%,100%,,-9.3,-11.5,2.2,-9.3,2.2
-Tue Nov 3 10:00 PM,Northern Arizona,UNLV,H,UNLV -17.8,UNLV -21.5,10,154.0,N Arizona 3.7,UNLV -18.2,N Arizona 3.3,n/a (<5 games),100%,100%,,-17.8,-21.5,3.7,-18.2,3.3
-Tue Nov 3 10:00 PM,Cal St. Fullerton,San Diego St.,H,SDSU -17.2,SDSU -16.5,10,154.5,SDSU 0.7,SDSU -17.5,SDSU 1.0,n/a (<5 games),100%,100%,,-17.2,-16.5,0.7,-17.5,1.0
+Tue Nov 3 8:00 PM,Cleveland St.,Missouri,H,Missouri -26.6,Missouri -26.5,9,159.5,Missouri 0.1,Missouri -28.3,Missouri 1.8,n/a (<5 games),100%,100%,,-26.6,-26.5,0.1,-28.3,1.8
+Tue Nov 3 8:00 PM,Alabama St.,Texas A&M,H,Texas A&M -27.1,Texas A&M -32.5,8,161.5,Alabama St 5.4,Texas A&M -28.9,Alabama St 3.6,n/a (<5 games),100%,100%,,-27.1,-32.5,5.4,-28.9,3.6
+Tue Nov 3 8:00 PM,Lipscomb,Iowa,H,Iowa -20.3,Iowa -23,8,148.5,Lipscomb 2.7,Iowa -21.1,Lipscomb 1.9,n/a (<5 games),89%,100%,,-20.3,-23.0,2.7,-21.1,1.9
+Tue Nov 3 8:00 PM,South Dakota St.,Kansas St.,H,K-State -14.1,K-State -11.5,9,159.0,K-State 2.6,K-State -14.1,K-State 2.6,n/a (<5 games),100%,100%,,-14.1,-11.5,2.6,-14.1,2.6
+Tue Nov 3 10:00 PM,North Florida,Cal Baptist,H,Cal Baptist -9.3,Cal Baptist -11.5,8,157.5,N Florida 2.2,Cal Baptist -9.3,N Florida 2.2,n/a (<5 games),100%,100%,,-9.3,-11.5,2.2,-9.3,2.2
+Tue Nov 3 10:00 PM,Northern Arizona,UNLV,H,UNLV -17.8,UNLV -21.5,9,154.0,N Arizona 3.7,UNLV -18.2,N Arizona 3.3,n/a (<5 games),100%,100%,,-17.8,-21.5,3.7,-18.2,3.3
+Tue Nov 3 10:00 PM,Cal St. Fullerton,San Diego St.,H,SDSU -17.2,SDSU -16.5,9,154.5,SDSU 0.7,SDSU -17.5,SDSU 1.0,n/a (<5 games),100%,100%,,-17.2,-16.5,0.7,-17.5,1.0
