@@ -26,7 +26,7 @@ if os.path.exists('data/ratings_current.csv'):          # nightly ratings job: p
         Z = dict(zip(R.team, R.z_blend)); ZI = dict(zip(R.team, R.z_inseason)); PW = dict(zip(R.team, R.prior_wt)); NG = dict(zip(R.team, R.n_games))
         RSRC = f"prior + in-season blend (games before {R['asof'].iloc[0]}, K={R['K'].iloc[0]:.1f})"
 MIN_G_INSEASON = 5   # in-season-only edge shown once both teams have this many D-I games
-notes = collections.defaultdict(list)
+notes = collections.defaultdict(list); Z0 = dict(Z)   # Z0 = rating before overrides
 if os.path.exists('data/overrides.csv'):
     O = pd.read_csv('data/overrides.csv').fillna('')
     for r in O.itertuples():
@@ -101,6 +101,46 @@ C = pd.DataFrame(out)
 C['_t'] = pd.to_datetime(C.tip_ET.str.replace(r'^\w+ ', '', regex=True) + f' {card_date[:4]}', format='%b %d %I:%M %p %Y', errors='coerce')
 C = C.sort_values('_t').drop(columns='_t')
 os.makedirs('cards', exist_ok=True); fn = f'cards/card_{card_date}.csv'; C.to_csv(fn, index=False, encoding='utf-8-sig')
+# ---- workbook: Card tab + Power Ratings tab (sortable; numbers stored as numbers)
+from openpyxl import Workbook
+from openpyxl.styles import Font, PatternFill, Alignment
+from openpyxl.utils import get_column_letter
+ZP = dict(zip(P.team, P.z_prior)); CONF = dict(zip(P.team, P.conf)); TEMPO = dict(zip(P.team, P.adj_tempo))
+PR = pd.DataFrame({'Team': list(Z)})
+PR['Conf'] = PR.Team.map(CONF)
+PR['Rating'] = (PR.Team.map(Z) * 9.5).round(1)
+PR['Prior'] = (PR.Team.map(ZP) * 9.5).round(1)
+PR['In-season only'] = (PR.Team.map(ZI) * 9.5).round(1) if ZI else None
+PR['Move vs prior'] = ((PR.Team.map(Z0) - PR.Team.map(ZP)) * 9.5).round(1)
+PR['Override adj'] = ((PR.Team.map(Z) - PR.Team.map(Z0)) * 9.5).round(1)
+PR['D-I games'] = PR.Team.map(NG).fillna(0).astype(int) if NG else 0
+PR['Prior weight'] = PR.Team.map(PW).fillna(1.0) if PW else 1.0
+PR['HCA'] = PR.Team.map(H)
+PR['KP tempo'] = PR.Team.map(TEMPO).round(1)
+PR['Overrides'] = PR.Team.map(lambda t: '; '.join(notes[t]))
+PR = PR.sort_values('Rating', ascending=False).reset_index(drop=True); PR.insert(0, 'Rank', PR.index + 1)
+PR['Prior rank'] = PR.Prior.rank(ascending=False, method='min').astype(int)
+wb = Workbook(); hdr_font = Font(bold=True, color='FFFFFF'); hdr_fill = PatternFill('solid', fgColor='1F3A5F')
+def sheet(ws, df, widths, fmts):
+    ws.append(list(df.columns))
+    for row in df.itertuples(index=False):
+        ws.append([None if (isinstance(v, float) and pd.isna(v)) else v for v in row])
+    for c in ws[1]: c.font, c.fill, c.alignment = hdr_font, hdr_fill, Alignment(horizontal='center', wrap_text=True)
+    for i, col in enumerate(df.columns, 1):
+        ws.column_dimensions[get_column_letter(i)].width = widths.get(col, 12)
+        if col in fmts:
+            for c in ws.iter_rows(min_row=2, min_col=i, max_col=i):
+                c[0].number_format = fmts[col]
+    ws.freeze_panes = 'B2' if 'Rank' in df.columns else 'A2'; ws.auto_filter.ref = ws.dimensions
+ws = wb.active; ws.title = 'Card'
+sheet(ws, C, {'tip_ET': 19, 'away': 22, 'home': 22, 'model': 17, 'market': 17, 'edge': 15, 'model_size_adj': 17, 'edge_size_adj': 15,
+              'edge_inseason_only': 18, 'notes': 40}, {})
+cols = ['Rank', 'Team', 'Conf', 'Rating', 'Prior', 'Prior rank', 'Move vs prior', 'In-season only', 'D-I games', 'Prior weight',
+        'Override adj', 'HCA', 'KP tempo', 'Overrides']
+sheet(wb.create_sheet('Power Ratings'), PR[cols], {'Team': 22, 'Overrides': 50, 'In-season only': 13, 'Move vs prior': 12},
+      {'Rating': '0.0', 'Prior': '0.0', 'Move vs prior': '+0.0;-0.0;0.0', 'In-season only': '0.0', 'Prior weight': '0%',
+       'Override adj': '+0.0;-0.0;0.0', 'HCA': '0.0', 'KP tempo': '0.0'})
+xfn = f'cards/card_{card_date}.xlsx'; wb.save(xfn)
 lined = int(C.market.ne('').sum())
 print(f'{fn}: {len(C)} games, {lined} with lines')
 if a.no_email: sys.exit(0)
@@ -108,8 +148,11 @@ msg = EmailMessage()
 msg['Subject'] = f"DTP card — {dt.datetime.strptime(card_date, '%Y-%m-%d'):%a %b %-d} — {len(C)} games"
 msg['From'] = os.environ['GMAIL_USER'].strip(); msg['To'] = os.environ['CARD_TO'].strip()
 msg.set_content(f"Ratings: {RSRC} + overrides. Lines as of {asof} (consensus = most common number across books).\n"
-                f"{len(C)} games, {lined} with lines. Tip-time order. CSV attached.\n"
+                f"{len(C)} games, {lined} with lines. Tip-time order. Workbook attached (Card + Power Ratings tabs); CSV of the card also attached.\n"
+                f"Power Ratings: points vs an average D-I team on a neutral floor (9.5 per SD), prior + in-season blend + overrides.\n"
                 f"edge_size_adj: model spread widened 0.15 pt per point beyond 15 (big-mismatch correction); regular edge unchanged.\n")
+msg.add_attachment(open(xfn, 'rb').read(), maintype='application', subtype='vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+                   filename=os.path.basename(xfn))
 msg.add_attachment(open(fn, 'rb').read(), maintype='text', subtype='csv', filename=os.path.basename(fn))
 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as s:
     s.login(os.environ['GMAIL_USER'].strip(), os.environ['GMAIL_APP_PASSWORD'].replace(' ', '').strip()); s.send_message(msg)
