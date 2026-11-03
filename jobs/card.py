@@ -22,9 +22,9 @@ P = pd.read_csv('data/prior_2026-27.csv'); Z = dict(zip(P.team, P.z_prior)); SDP
 ZI, PW, NG, RSRC = {}, {}, {}, 'preseason prior (frozen)'
 if os.path.exists('data/ratings_current.csv'):          # nightly ratings job: prior blended with in-season composite
     R = pd.read_csv('data/ratings_current.csv')
-    if str(R.asof.iloc[0]) <= card_date:
+    if str(R['asof'].iloc[0]) <= card_date:
         Z = dict(zip(R.team, R.z_blend)); ZI = dict(zip(R.team, R.z_inseason)); PW = dict(zip(R.team, R.prior_wt)); NG = dict(zip(R.team, R.n_games))
-        RSRC = f'prior + in-season blend (games before {R.asof.iloc[0]}, K={R.K.iloc[0]:.1f})'
+        RSRC = f"prior + in-season blend (games before {R['asof'].iloc[0]}, K={R['K'].iloc[0]:.1f})"
 MIN_G_INSEASON = 5   # in-season-only edge shown once both teams have this many D-I games
 notes = collections.defaultdict(list)
 if os.path.exists('data/overrides.csv'):
