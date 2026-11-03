@@ -1,0 +1,25 @@
+# Builds data/slate_<date>.csv from ESPN's scoreboard. Runs on demand, or when triggers/slate.txt changes
+# (put "--date YYYY-MM-DD" in that file; add "--force" to rebuild an existing slate).
+name: Build slate
+on:
+  workflow_dispatch:
+  push:
+    paths: ['triggers/slate.txt']
+permissions:
+  contents: write
+jobs:
+  slate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pandas openpyxl
+      - run: python jobs/slate.py $(grep -o -- '--date [0-9-]*' triggers/slate.txt || true) $(grep -o -- '--force' triggers/slate.txt || true)
+      - name: Save slate
+        run: |
+          git config user.name "dtp-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/slate_*.csv
+          git commit -m "slate" || echo "nothing new"
+          git pull --rebase origin main && git push origin HEAD:main

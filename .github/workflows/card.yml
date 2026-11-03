@@ -24,11 +24,12 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests pandas openpyxl
-      - name: Build and email the card
+      - name: Build slate (if missing) and email the card
         run: |
           ARGS=""
           if [ -n "${{ github.event.inputs.date }}" ]; then ARGS="--date ${{ github.event.inputs.date }}"; fi
           if [ "${{ github.event_name }}" = "push" ]; then ARGS="$(grep -o -- '--date [0-9-]*' triggers/card.txt || true)"; fi
+          python jobs/slate.py $ARGS
           python jobs/card.py $ARGS
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
@@ -38,6 +39,6 @@ jobs:
       - name: Save the card and line snapshot
         run: |
           git config user.name "dtp-bot"; git config user.email "actions@users.noreply.github.com"
-          git add cards data/lines || true
+          git add cards data/lines data/slate_*.csv || true
           git commit -m "card $(date -u +%F)" || echo "nothing new"
           git pull --rebase origin main && git push origin HEAD:main

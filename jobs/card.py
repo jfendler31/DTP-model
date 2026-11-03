@@ -80,7 +80,7 @@ for g in S.itertuples():
                 'edge': '' if e is None else ('-' if abs(e) < 0.05 else (f'{abbr(g.home)} {e:.1f}' if e > 0 else f'{abbr(g.away)} {-e:.1f}')),
                 'model_size_adj': 'PK' if ma == 0 else (f'{abbr(g.home)} -{abs(ma):.1f}' if ma < 0 else f'{abbr(g.away)} -{ma:.1f}'),
                 'edge_size_adj': '' if ea is None else ('-' if abs(ea) < 0.05 else (f'{abbr(g.home)} {ea:.1f}' if ea > 0 else f'{abbr(g.away)} {-ea:.1f}')),
-                'edge_inseason_only': 'n/a (no games yet)', 'prior_wt_away': '100%', 'prior_wt_home': '100%',
+                'edge_inseason_only': 'n/a (ratings job not built)', 'prior_wt_away': '100%', 'prior_wt_home': '100%',
                 'notes': '; '.join(notes[g.away] + notes[g.home]),
                 'model_home_spread': m, 'market_home_spread': hs, 'edge_size': None if e is None else round(abs(e), 1),
                 'model_home_spread_adj': ma, 'edge_size_adj_num': None if ea is None else round(abs(ea), 1)})
