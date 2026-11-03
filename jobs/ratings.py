@@ -6,10 +6,12 @@
                K(d) = 8 through Nov 30, ramps linearly to 12 between Dec 1 and Jan 15, 12 after.
                Not re-standardized (Nov 3 decision): a team with no D-I games stays exactly at its prior; the monthly
                spread-scale refit against closing lines absorbs any change in overall spread.
+Early games (option 2b, Nov 3): teams with <3 D-I games move by lam x their four-factor surprise vs the priors' expectation
+               instead of the SRS read (which splits a single game evenly around average); SRS blend from game 3.
 Games come from CollegeBasketballData (/games/teams). Uses games played before the as-of date (ET).
 Writes data/games_2026-27.csv, data/ratings/ratings_<date>.csv and data/ratings_current.csv.
 Usage: python jobs/ratings.py [--date YYYY-MM-DD]   (date = the card date; default today ET)"""
-import os, sys, json, time, argparse, datetime as dt
+import os, sys, json, time, argparse, collections, datetime as dt
 from zoneinfo import ZoneInfo
 import numpy as np, pandas as pd, requests
 ET = ZoneInfo('America/New_York')
@@ -107,9 +109,30 @@ else:
     z_in = np.zeros(n)
 K = K_of(asof); lam = N / (N + K)
 zb = lam * z_in + (1 - lam) * zp
+# ---- option 2b (Nov 3): teams with fewer than EARLY_N D-I games update from expectation, not from zero.
+# Each game is scored on the same four-factor composite (pillars clipped at +/-3 game SD and divided by it, standing weights).
+# Fit composite = a*home + b*(z_prior_t - z_prior_o) across all games; a team's surprise in a game = residual / b (rating SDs),
+# averaged over its games; rating = z_prior + lam * surprise. At EARLY_N games the team hands off to the tested SRS blend above.
+EARLY_N = 3
+method = np.where(N >= EARLY_N, 'srs', np.where(N > 0, 'early', 'prior'))
+surprise = np.full(n, np.nan); fit = ''
+if len(G) >= 20:
+    SDG = {p: (np.std([x[p] for x in G]) or 1.0) for p in PILLARS}
+    c = np.array([sum(W[p] * float(np.clip(x[p], -3 * SDG[p], 3 * SDG[p])) / SDG[p] for p in PILLARS) for x in G])
+    gap = np.array([zp[x['t']] - zp[x['o']] for x in G]); hm = np.array([1.0 if x['home'] else 0.0 for x in G])
+    X = np.column_stack([hm, gap]); (a_h, b), *_ = np.linalg.lstsq(X, c, rcond=None)
+    res = (c - X @ np.array([a_h, b])) / b
+    acc = collections.defaultdict(list)
+    for x, r in zip(G, res): acc[x['t']].append(r); acc[x['o']].append(-r)
+    for i, v in acc.items(): surprise[i] = np.mean(v)
+    early = method == 'early'
+    zb = np.where(early, zp + lam * np.nan_to_num(surprise), zb)
+    r2 = 1 - np.var(c - X @ np.array([a_h, b])) / np.var(c)
+    fit = f'early-game fit on {len(G)} games: composite = {a_h:.3f}*home + {b:.3f}*prior gap (z), R^2 {r2:.2f}'
+    print(fit)
 R = pd.DataFrame(dict(team=teams, n_games=N.astype(int), K=K, lam=lam.round(3), prior_wt=(1 - lam).round(3),
-                      z_prior=zp.round(4), z_inseason=np.where(mask, z_in, np.nan).round(4), z_blend=zb.round(4),
-                      move_pts=((zb - zp) * 9.5).round(2), asof=asof))
+                      z_prior=zp.round(4), z_inseason=np.where(mask, z_in, np.nan).round(4), surprise=np.round(surprise, 4),
+                      method=method, z_blend=zb.round(4), move_pts=((zb - zp) * 9.5).round(2), asof=asof))
 R.to_csv(f'data/ratings/ratings_{asof}.csv', index=False); R.to_csv('data/ratings_current.csv', index=False)
 print(f'ratings as of {asof}: K={K:.1f}, {int(mask.sum())} teams with games; prior weight min {R.prior_wt.min():.2f}')
 mv = R[R.n_games > 0].reindex(R[R.n_games > 0].move_pts.abs().sort_values(ascending=False).index).head(10)
