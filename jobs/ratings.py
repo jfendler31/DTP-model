@@ -3,7 +3,9 @@
                net 2PT% .32, net OREB rate .26, net TO rate .24, net 3PT% .10, net FTA rate .08; z-scored over teams with games,
                composite re-z'd.
   blend      = lam*z_in + (1-lam)*z_prior, lam = N/(N+K(d)), N = D-I games played,
-               K(d) = 8 through Nov 30, ramps linearly to 12 between Dec 1 and Jan 15, 12 after; re-standardized to the prior's scale.
+               K(d) = 8 through Nov 30, ramps linearly to 12 between Dec 1 and Jan 15, 12 after.
+               Not re-standardized (Nov 3 decision): a team with no D-I games stays exactly at its prior; the monthly
+               spread-scale refit against closing lines absorbs any change in overall spread.
 Games come from CollegeBasketballData (/games/teams). Uses games played before the as-of date (ET).
 Writes data/games_2026-27.csv, data/ratings/ratings_<date>.csv and data/ratings_current.csv.
 Usage: python jobs/ratings.py [--date YYYY-MM-DD]   (date = the card date; default today ET)"""
@@ -70,7 +72,7 @@ if len(TG):
     TG = TG[(TG.date < asof) & TG.pts.notna() & TG.opp_pts.notna()]
     for gid, x in TG.groupby('gameId'):
         r = x[x.isHome == True].iloc[0] if (x.isHome == True).any() else x.iloc[0]
-        tm, op = XB.get(r.team), XB.get(r.opp)
+        tm, op = XB.get(r.team) or (r.team if r.team in tix else None), XB.get(r.opp) or (r.opp if r.opp in tix else None)
         if tm not in tix or op not in tix:
             for nm, k in ((r.team, tm), (r.opp, op)):
                 if k not in tix: unmapped.add(nm)
@@ -105,7 +107,6 @@ else:
     z_in = np.zeros(n)
 K = K_of(asof); lam = N / (N + K)
 zb = lam * z_in + (1 - lam) * zp
-zb = (zb - zb.mean()) / zb.std() * zp.std() + zp.mean()
 R = pd.DataFrame(dict(team=teams, n_games=N.astype(int), K=K, lam=lam.round(3), prior_wt=(1 - lam).round(3),
                       z_prior=zp.round(4), z_inseason=np.where(mask, z_in, np.nan).round(4), z_blend=zb.round(4),
                       move_pts=((zb - zp) * 9.5).round(2), asof=asof))
