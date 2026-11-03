@@ -1,0 +1,26 @@
+# Pulls player box scores for a date range. Put "--start YYYY-MM-DD --end YYYY-MM-DD" in triggers/players.txt.
+name: Player box scores
+on:
+  workflow_dispatch:
+  push:
+    paths: ['triggers/players.txt']
+permissions:
+  contents: write
+jobs:
+  players:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pandas
+      - run: python jobs/players.py $(cat triggers/players.txt)
+        env:
+          CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
+      - name: Save
+        run: |
+          git config user.name "dtp-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/players
+          git commit -m "player box scores" || echo "nothing new"
+          git pull --rebase origin main && git push origin HEAD:main
