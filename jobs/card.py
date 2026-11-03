@@ -19,6 +19,13 @@ S = pd.read_csv(slate_f).fillna('')
 S = S[S.date == card_date] if 'date' in S else S
 # ---- ratings: frozen prior + overrides
 P = pd.read_csv('data/prior_2026-27.csv'); Z = dict(zip(P.team, P.z_prior)); SDP = P.prior_pts.std()
+ZI, PW, NG, RSRC = {}, {}, {}, 'preseason prior (frozen)'
+if os.path.exists('data/ratings_current.csv'):          # nightly ratings job: prior blended with in-season composite
+    R = pd.read_csv('data/ratings_current.csv')
+    if str(R.asof.iloc[0]) <= card_date:
+        Z = dict(zip(R.team, R.z_blend)); ZI = dict(zip(R.team, R.z_inseason)); PW = dict(zip(R.team, R.prior_wt)); NG = dict(zip(R.team, R.n_games))
+        RSRC = f'prior + in-season blend (games before {R.asof.iloc[0]}, K={R.K.iloc[0]:.1f})'
+MIN_G_INSEASON = 5   # in-season-only edge shown once both teams have this many D-I games
 notes = collections.defaultdict(list)
 if os.path.exists('data/overrides.csv'):
     O = pd.read_csv('data/overrides.csv').fillna('')
@@ -67,6 +74,12 @@ def mode_half(xs):
 L['a'] = L.away.map(kp); L['h'] = L.home.map(kp)
 G = {frozenset((x, y)): dict(h=y, cons=mode_half(list(g.home_spread)), tot=mode_half(list(g.total)), n=int(g.home_spread.notna().sum()))
      for (x, y), g in L.dropna(subset=['a', 'h']).groupby(['a', 'h'])}
+def ins_edge(g, hs):
+    if not ZI: return 'n/a (no in-season ratings)'
+    if min(NG.get(g.away, 0), NG.get(g.home, 0)) < MIN_G_INSEASON: return f'n/a (<{MIN_G_INSEASON} games)'
+    if hs is None: return ''
+    mi = -(9.5 * (ZI[g.home] - ZI[g.away]) + (H.get(g.home, 3.0) if g.venue == 'H' else 0.0)); e = hs - mi
+    return '-' if abs(e) < 0.05 else (f'{abbr(g.home)} {e:.1f}' if e > 0 else f'{abbr(g.away)} {-e:.1f}')
 out = []
 for g in S.itertuples():
     m = model(g.away, g.home, g.venue); x = G.get(frozenset((g.away, g.home)))
@@ -80,7 +93,7 @@ for g in S.itertuples():
                 'edge': '' if e is None else ('-' if abs(e) < 0.05 else (f'{abbr(g.home)} {e:.1f}' if e > 0 else f'{abbr(g.away)} {-e:.1f}')),
                 'model_size_adj': 'PK' if ma == 0 else (f'{abbr(g.home)} -{abs(ma):.1f}' if ma < 0 else f'{abbr(g.away)} -{ma:.1f}'),
                 'edge_size_adj': '' if ea is None else ('-' if abs(ea) < 0.05 else (f'{abbr(g.home)} {ea:.1f}' if ea > 0 else f'{abbr(g.away)} {-ea:.1f}')),
-                'edge_inseason_only': 'n/a (ratings job not built)', 'prior_wt_away': '100%', 'prior_wt_home': '100%',
+                'edge_inseason_only': ins_edge(g, hs), 'prior_wt_away': f"{PW.get(g.away, 1.0):.0%}", 'prior_wt_home': f"{PW.get(g.home, 1.0):.0%}",
                 'notes': '; '.join(notes[g.away] + notes[g.home]),
                 'model_home_spread': m, 'market_home_spread': hs, 'edge_size': None if e is None else round(abs(e), 1),
                 'model_home_spread_adj': ma, 'edge_size_adj_num': None if ea is None else round(abs(ea), 1)})
@@ -94,7 +107,7 @@ if a.no_email: sys.exit(0)
 msg = EmailMessage()
 msg['Subject'] = f"DTP card — {dt.datetime.strptime(card_date, '%Y-%m-%d'):%a %b %-d} — {len(C)} games"
 msg['From'] = os.environ['GMAIL_USER'].strip(); msg['To'] = os.environ['CARD_TO'].strip()
-msg.set_content(f"Ratings: preseason prior (frozen) + overrides. Lines as of {asof} (consensus = most common number across books).\n"
+msg.set_content(f"Ratings: {RSRC} + overrides. Lines as of {asof} (consensus = most common number across books).\n"
                 f"{len(C)} games, {lined} with lines. Tip-time order. CSV attached.\n"
                 f"edge_size_adj: model spread widened 0.15 pt per point beyond 15 (big-mismatch correction); regular edge unchanged.\n")
 msg.add_attachment(open(fn, 'rb').read(), maintype='text', subtype='csv', filename=os.path.basename(fn))

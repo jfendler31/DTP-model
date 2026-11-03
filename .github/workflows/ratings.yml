@@ -1,0 +1,27 @@
+# Rebuilds the in-season ratings on demand, or when triggers/ratings.txt changes ("--date YYYY-MM-DD" = card date).
+# The Daily card workflow also runs this before every card.
+name: Ratings
+on:
+  workflow_dispatch:
+  push:
+    paths: ['triggers/ratings.txt']
+permissions:
+  contents: write
+jobs:
+  ratings:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pandas numpy
+      - run: python jobs/ratings.py $(grep -o -- '--date [0-9-]*' triggers/ratings.txt || true)
+        env:
+          CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
+      - name: Save ratings
+        run: |
+          git config user.name "dtp-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/ratings data/ratings_current.csv data/games_2026-27.csv
+          git commit -m "ratings" || echo "nothing new"
+          git pull --rebase origin main && git push origin HEAD:main
