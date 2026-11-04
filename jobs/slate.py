@@ -8,9 +8,9 @@ from zoneinfo import ZoneInfo
 import pandas as pd, requests
 sys.path.insert(0, os.path.dirname(__file__)); from absence_sweep import make_fixer
 ET = ZoneInfo('America/New_York')
-ap = argparse.ArgumentParser(); ap.add_argument('--date'); ap.add_argument('--force', action='store_true'); a = ap.parse_args()
+ap = argparse.ArgumentParser(); ap.add_argument('--date'); ap.add_argument('--force', action='store_true'); ap.add_argument('--outdir', default='data'); a = ap.parse_args()
 day = a.date or dt.datetime.now(ET).strftime('%Y-%m-%d')
-out_f = f'data/slate_{day}.csv'
+os.makedirs(a.outdir, exist_ok=True); out_f = f'{a.outdir}/slate_{day}.csv'
 if os.path.exists(out_f) and not a.force: print(out_f, 'already exists - skipping'); sys.exit(0)
 
 P = pd.read_csv('data/prior_2026-27.csv'); K = set(P.team); fix = make_fixer(P.team)

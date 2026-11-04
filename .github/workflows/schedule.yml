@@ -1,0 +1,25 @@
+# Builds the next 8 days of D-I schedules (data/schedule/slate_<date>.csv) from ESPN. On demand or via triggers/schedule.txt.
+name: Build schedule
+on:
+  workflow_dispatch:
+  push:
+    paths: ['triggers/schedule.txt']
+permissions:
+  contents: write
+jobs:
+  schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pandas openpyxl
+      - run: |
+          for i in 0 1 2 3 4 5 6 7; do d=$(TZ=America/New_York date -d "+$i day" +%F); python jobs/slate.py --date $d --force --outdir data/schedule; done
+      - name: Save
+        run: |
+          git config user.name "dtp-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/schedule
+          git commit -m "schedule" || echo "nothing new"
+          git pull --rebase origin main && git push origin HEAD:main
