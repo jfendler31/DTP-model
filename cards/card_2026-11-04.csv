@@ -1,0 +1,11 @@
+﻿tip_ET,away,home,venue,model,market,n_books,total,edge,model_size_adj,edge_size_adj,edge_inseason_only,prior_wt_away,prior_wt_home,notes,model_home_spread,market_home_spread,edge_size,model_home_spread_adj,edge_size_adj_num
+Wed Nov 4 7:00 PM,Maryland Eastern Shore,High Point,H,High Point -28.9,High Point -30.5,9,148.5,UMES 1.6,High Point -31.0,High Point 0.5,n/a (<5 games),89%,89%,,-28.9,-30.5,1.6,-31.0,0.5
+Wed Nov 4 7:00 PM,Longwood,Saint Joseph's,H,Saint Joseph's -8.8,Saint Joseph's -9.5,8,149.5,Longwood 0.7,Saint Joseph's -8.8,Longwood 0.7,n/a (<5 games),100%,100%,,-8.8,-9.5,0.7,-8.8,0.7
+Wed Nov 4 7:00 PM,Fairleigh Dickinson,Butler,H,Butler -22.7,Butler -24.5,9,153.5,FDU 1.8,Butler -23.9,FDU 0.6,n/a (<5 games),89%,89%,,-22.7,-24.5,1.8,-23.9,0.6
+Wed Nov 4 7:30 PM,CSUN,Wichita St.,H,Wichita St -14.4,Wichita St -14.5,10,160.5,CSUN 0.1,Wichita St -14.4,CSUN 0.1,n/a (<5 games),100%,100%,,-14.4,-14.5,0.1,-14.4,0.1
+Wed Nov 4 8:00 PM,Northern Kentucky,South Dakota,H,NKU -0.7,NKU -2.5,10,161.5,S Dakota 1.8,NKU -0.7,S Dakota 1.8,n/a (<5 games),89%,100%,,0.7,2.5,1.8,0.7,1.8
+Wed Nov 4 8:00 PM,Southeastern Louisiana,Auburn,H,Auburn -26.0,Auburn -26.5,9,151.5,SE Louisiana 0.5,Auburn -27.6,Auburn 1.1,n/a (<5 games),100%,100%,,-26.0,-26.5,0.5,-27.6,1.1
+Wed Nov 4 9:00 PM,Radford,California,H,California -16.8,California -15.5,9,156.5,California 1.3,California -17.1,California 1.6,n/a (<5 games),89%,100%,,-16.8,-15.5,1.3,-17.1,1.6
+Wed Nov 4 10:00 PM,Queens,Loyola Marymount,H,LMU -4.5,LMU -6.5,9,157.5,Queens 2.0,LMU -4.5,Queens 2.0,n/a (<5 games),89%,100%,,-4.5,-6.5,2.0,-4.5,2.0
+Wed Nov 4 10:00 PM,Milwaukee,Santa Clara,H,Santa Clara -13.3,Santa Clara -17.5,10,159.5,Milwaukee 4.2,Santa Clara -13.3,Milwaukee 4.2,n/a (<5 games),89%,89%,,-13.3,-17.5,4.2,-13.3,4.2
+Wed Nov 4 10:00 PM,North Dakota St.,Saint Mary's,H,St. Mary's -11.3,,0,,,St. Mary's -11.3,,n/a (<5 games),100%,89%,,-11.3,,,-11.3,
