@@ -69,6 +69,7 @@ print(f'CBBD: {len(TG)} team-game rows, {TG.gameId.nunique() if len(TG) else 0} 
 P = pd.read_csv('data/prior_2026-27.csv'); teams = list(P.team); tix = {t: i for i, t in enumerate(teams)}
 zp = P.z_prior.to_numpy(float); n = len(teams)
 XB = {k: v.strip() for k, v in json.load(open('data/xwalk_cbbd_kp.json')).items()}
+XB.update({'New Orleans': 'LSU New Orleans', 'Miami': 'Miami FL'})   # KenPom renamed; crosswalk still has the old spelling
 G, unmapped = [], set()
 if len(TG):
     TG = TG[(TG.date < asof) & TG.pts.notna() & TG.opp_pts.notna()]
