@@ -121,14 +121,15 @@ def credit(stints, w, end):
     cs = [0.0]
     for x in w: cs.append(cs[-1] + x)
     win0, win1 = close_window(w)
-    raw, lev, close, names = collections.Counter(), collections.Counter(), collections.Counter(), {}
+    raw, lev, close, h1, names = collections.Counter(), collections.Counter(), collections.Counter(), collections.Counter(), {}
     for aid, nm, t0, t1, f in stints:
         a, b = max(0, int(round(t0))), min(end, int(round(t1)))
         if b <= a: continue
         raw[aid] += f * (b - a); lev[aid] += f * (cs[b] - cs[a]); names[aid] = nm
         ca, cb = max(a, win0), min(b, win1)
         if cb > ca: close[aid] += f * (cs[cb] - cs[ca])
-    return raw, lev, close, names
+        if a < 1200: h1[aid] += f * (min(b, 1200) - a)
+    return raw, lev, close, h1, names
 
 def eff(vals):
     v = [x for x in vals if x > 0]; t = sum(v)
@@ -137,7 +138,7 @@ def eff(vals):
 def team_game(plays, subs_fetch, team, opp, gid, date, elapsed, end, n_per, w):
     expect = 5 * end
     st, five = stints_from_floor(plays, elapsed, end, team)
-    raw, lev, close, names = credit(st, w, end)
+    raw, lev, close, h1, names = credit(st, w, end)
     adds_up = abs(sum(raw.values()) - expect) <= 0.02 * expect
     ok = adds_up and five >= 0.95 * end
     source = 'onFloor'
@@ -145,9 +146,9 @@ def team_game(plays, subs_fetch, team, opp, gid, date, elapsed, end, n_per, w):
         subs = subs_fetch(gid)
         if subs:
             st2 = stints_from_subs(subs, elapsed, team)
-            r2, l2, c2, n2 = credit(st2, w, end)
+            r2, l2, c2, h2, n2 = credit(st2, w, end)
             if abs(sum(r2.values()) - expect) <= 0.02 * expect:
-                raw, lev, close, names, ok, source = r2, l2, c2, n2, True, 'substitutions'
+                raw, lev, close, h1, names, ok, source = r2, l2, c2, h2, n2, True, 'substitutions'
     if not ok and adds_up and five >= 0.80 * end:     # a few stretches with six listed, already scaled to five
         ok, source = True, 'onFloor (scaled)'
     tot_raw, tot_lev, tot_close = sum(raw.values()), sum(lev.values()), sum(close.values())
@@ -158,7 +159,7 @@ def team_game(plays, subs_fetch, team, opp, gid, date, elapsed, end, n_per, w):
     tg = dict(gameId=gid, date=date, team=team, opponent=opp, periods=n_per, source=source, reliable=ok,
               team_min_raw=round(tot_raw / 60, 1), team_min_lev=round(tot_lev / 60, 1),
               comp_share=round(tot_lev / tot_raw, 3) if tot_raw else None,
-              eff_raw=round(eff(raw.values()), 2), eff_lev=round(eff(lev.values()), 2),
+              eff_raw=round(eff(raw.values()), 2), eff_lev=round(eff(lev.values()), 2), eff_h1=round(eff(h1.values()), 2),
               players_used=sum(1 for v in raw.values() if v > 0),
               closing_group=' / '.join(closing), five_on_floor=round(five / end, 3))
     return tg, players
