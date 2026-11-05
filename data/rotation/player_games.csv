@@ -204,13 +204,13 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 372621,2026-11-02,Cincinnati,American University,4959,Amani Lyles,7.78,4.6,0.1
 372621,2026-11-02,Cincinnati,American University,5742,Jayden Hastings,2.67,2.67,0.0
 372621,2026-11-02,Cincinnati,American University,223783,Deshaun Vaden,0.62,0.0,0.0
-372622,2026-11-02,North Alabama,UC Davis,7664,Mike Evbagharu,29.3,29.3,7.08
-372622,2026-11-02,North Alabama,UC Davis,231334,Caden Harris,24.95,24.95,3.02
-372622,2026-11-02,North Alabama,UC Davis,556,Drey Carter,24.57,24.57,3.55
-372622,2026-11-02,North Alabama,UC Davis,231340,Jarron Talley,24.03,24.03,3.1
-372622,2026-11-02,North Alabama,UC Davis,4748,Quan Lax,21.08,21.08,8.0
+372622,2026-11-02,North Alabama,UC Davis,7664,Mike Evbagharu,29.29,29.29,7.07
+372622,2026-11-02,North Alabama,UC Davis,231334,Caden Harris,24.94,24.94,3.0
+372622,2026-11-02,North Alabama,UC Davis,556,Drey Carter,24.55,24.55,3.54
+372622,2026-11-02,North Alabama,UC Davis,231340,Jarron Talley,24.02,24.02,3.09
+372622,2026-11-02,North Alabama,UC Davis,4748,Quan Lax,21.07,21.07,7.99
 372622,2026-11-02,North Alabama,UC Davis,200964,Cortez Graham-Howard,18.92,18.92,0.0
-372622,2026-11-02,North Alabama,UC Davis,231338,Ansar Osman,16.05,16.05,4.98
+372622,2026-11-02,North Alabama,UC Davis,231338,Ansar Osman,16.04,16.04,4.97
 372622,2026-11-02,North Alabama,UC Davis,5522,Damarien Yates,15.53,15.53,4.55
 372622,2026-11-02,North Alabama,UC Davis,202493,Jacobe Whitted,14.95,14.95,4.88
 372622,2026-11-02,North Alabama,UC Davis,199310,Julius Clark,10.7,10.7,0.92
@@ -655,14 +655,14 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 372642,2026-11-02,Buffalo,Marshall,223485,Boluwasefe John,4.93,3.21,0.0
 372642,2026-11-02,Buffalo,Marshall,7745,Jalen Pitre,2.82,2.16,0.94
 372642,2026-11-02,Buffalo,Marshall,201357,JJ Frakes,14.63,0.26,0.0
-372642,2026-11-02,Marshall,Buffalo,201395,Emmanuel Manyuon,34.68,21.41,6.28
-372642,2026-11-02,Marshall,Buffalo,200340,Bryce Slay,33.72,18.87,5.45
-372642,2026-11-02,Marshall,Buffalo,200339,Noah Otshudi,32.98,18.02,4.8
+372642,2026-11-02,Marshall,Buffalo,201395,Emmanuel Manyuon,34.66,21.38,6.26
+372642,2026-11-02,Marshall,Buffalo,200340,Bryce Slay,33.69,18.84,5.43
+372642,2026-11-02,Marshall,Buffalo,200339,Noah Otshudi,32.96,18.0,4.78
 372642,2026-11-02,Marshall,Buffalo,1503,Colt Langdon,18.35,13.31,4.11
-372642,2026-11-02,Marshall,Buffalo,1436,Khaman Maker,18.77,10.68,3.0
+372642,2026-11-02,Marshall,Buffalo,1436,Khaman Maker,18.74,10.66,2.98
 372642,2026-11-02,Marshall,Buffalo,1877,Erich Harding,14.58,9.58,1.9
-372642,2026-11-02,Marshall,Buffalo,202146,Fazl Oshodi,20.78,6.71,2.06
-372642,2026-11-02,Marshall,Buffalo,222846,Boubacar Djigo,12.47,6.19,2.42
+372642,2026-11-02,Marshall,Buffalo,202146,Fazl Oshodi,20.76,6.69,2.03
+372642,2026-11-02,Marshall,Buffalo,222846,Boubacar Djigo,12.44,6.17,2.4
 372642,2026-11-02,Marshall,Buffalo,3905,Luke Rasmussen,6.82,5.04,0.18
 372642,2026-11-02,Marshall,Buffalo,199119,DeMarco Johnson,7.02,4.89,1.51
 372643,2026-11-02,Bowling Green,Georgia State,16349,Zach Howell,38.5,37.52,7.71
@@ -894,22 +894,22 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 372652,2026-11-02,Mount St. Mary's,Xavier,225722,Ryan Brzezanski,3.3,0.0,0.0
 372652,2026-11-02,Mount St. Mary's,Xavier,213894,Noah Rogers,1.98,0.0,0.0
 372652,2026-11-02,Mount St. Mary's,Xavier,1774,Jaxon Hartman,1.98,0.0,0.0
-372652,2026-11-02,Xavier,Mount St. Mary's,6438,Jovan Milicevic,21.47,10.95,4.68
-372652,2026-11-02,Xavier,Mount St. Mary's,202512,Ruben Dominguez,19.35,10.81,6.09
-372652,2026-11-02,Xavier,Mount St. Mary's,6433,Filip Borovicanin,24.0,10.81,3.57
-372652,2026-11-02,Xavier,Mount St. Mary's,6437,Tru Washington,22.03,10.35,3.71
-372652,2026-11-02,Xavier,Mount St. Mary's,4161,Mike Nwoko,16.4,9.08,4.16
-372652,2026-11-02,Xavier,Mount St. Mary's,1529,Nikos Chitikoudis,18.17,7.14,2.47
-372652,2026-11-02,Xavier,Mount St. Mary's,228274,Kalek House,16.0,5.87,2.93
-372652,2026-11-02,Xavier,Mount St. Mary's,3365,Chance Westry,18.48,5.42,0.55
-372652,2026-11-02,Xavier,Mount St. Mary's,7533,Gabriel Pozzato,14.7,5.42,3.07
-372652,2026-11-02,Xavier,Mount St. Mary's,750,Rolyns Aligbe,17.67,5.28,1.96
-372652,2026-11-02,Xavier,Mount St. Mary's,228273,Asher Elson,26.67,3.3,1.82
-372652,2026-11-02,Xavier,Mount St. Mary's,203534,Kason Westphal,4.32,0.0,0.0
-372652,2026-11-02,Xavier,Mount St. Mary's,228270,Gedeon Basson,2.17,0.0,0.0
-372652,2026-11-02,Xavier,Mount St. Mary's,4073,Henry Thole,1.98,0.0,0.0
-372652,2026-11-02,Xavier,Mount St. Mary's,4079,Michael Wolf,1.97,0.0,0.0
-372652,2026-11-02,Xavier,Mount St. Mary's,228267,Harrison Aligbe,1.3,0.0,0.0
+372652,2026-11-02,Xavier,Mount St. Mary's,6438,Jovan Milicevic,19.63,10.8,4.68
+372652,2026-11-02,Xavier,Mount St. Mary's,6433,Filip Borovicanin,21.64,10.58,3.57
+372652,2026-11-02,Xavier,Mount St. Mary's,202512,Ruben Dominguez,17.68,10.5,5.85
+372652,2026-11-02,Xavier,Mount St. Mary's,6437,Tru Washington,19.83,10.07,3.64
+372652,2026-11-02,Xavier,Mount St. Mary's,4161,Mike Nwoko,14.79,8.67,3.86
+372652,2026-11-02,Xavier,Mount St. Mary's,1529,Nikos Chitikoudis,16.24,7.01,2.47
+372652,2026-11-02,Xavier,Mount St. Mary's,228274,Kalek House,14.09,5.6,2.69
+372652,2026-11-02,Xavier,Mount St. Mary's,3365,Chance Westry,16.07,5.18,0.48
+372652,2026-11-02,Xavier,Mount St. Mary's,7533,Gabriel Pozzato,12.83,5.1,2.76
+372652,2026-11-02,Xavier,Mount St. Mary's,750,Rolyns Aligbe,15.2,4.88,1.65
+372652,2026-11-02,Xavier,Mount St. Mary's,228273,Asher Elson,22.22,2.75,1.52
+372652,2026-11-02,Xavier,Mount St. Mary's,203534,Kason Westphal,3.6,0.0,0.0
+372652,2026-11-02,Xavier,Mount St. Mary's,228270,Gedeon Basson,1.81,0.0,0.0
+372652,2026-11-02,Xavier,Mount St. Mary's,4073,Henry Thole,1.65,0.0,0.0
+372652,2026-11-02,Xavier,Mount St. Mary's,4079,Michael Wolf,1.64,0.0,0.0
+372652,2026-11-02,Xavier,Mount St. Mary's,228267,Harrison Aligbe,1.08,0.0,0.0
 372653,2026-11-02,Maine,Providence,5410,DeAndre Williams,28.25,21.94,3.9
 372653,2026-11-02,Maine,Providence,200269,Ace Flagg,26.35,20.77,2.76
 372653,2026-11-02,Maine,Providence,230667,Hudson Franz,22.6,17.03,4.65
@@ -1039,14 +1039,14 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 372658,2026-11-02,East Texas A&M,Oklahoma,229515,Maxime Carrio,16.68,16.68,5.5
 372658,2026-11-02,East Texas A&M,Oklahoma,7046,Jaxson Ford,15.37,15.37,0.75
 372658,2026-11-02,East Texas A&M,Oklahoma,25179,Kollin Tolbert,11.38,11.38,0.95
-372658,2026-11-02,Oklahoma,East Texas A&M,82,Derrion Reid,33.48,33.48,7.98
-372658,2026-11-02,Oklahoma,East Texas A&M,7819,Pop Isaacs,29.13,29.13,6.45
-372658,2026-11-02,Oklahoma,East Texas A&M,3419,Khani Rooths,28.88,28.88,7.05
-372658,2026-11-02,Oklahoma,East Texas A&M,6148,B.J. Edwards,28.48,28.48,6.67
-372658,2026-11-02,Oklahoma,East Texas A&M,6242,Dayton Forsythe,25.67,25.67,4.35
-372658,2026-11-02,Oklahoma,East Texas A&M,6414,Duke Brennan,25.15,25.15,7.35
-372658,2026-11-02,Oklahoma,East Texas A&M,347,Tyler Hendricks,17.73,17.73,5.9
-372658,2026-11-02,Oklahoma,East Texas A&M,201268,Kai Rogers,13.6,13.6,1.6
+372658,2026-11-02,Oklahoma,East Texas A&M,82,Derrion Reid,32.26,32.26,6.76
+372658,2026-11-02,Oklahoma,East Texas A&M,7819,Pop Isaacs,28.17,28.17,5.48
+372658,2026-11-02,Oklahoma,East Texas A&M,3419,Khani Rooths,27.82,27.82,5.98
+372658,2026-11-02,Oklahoma,East Texas A&M,6148,B.J. Edwards,27.48,27.48,5.66
+372658,2026-11-02,Oklahoma,East Texas A&M,6242,Dayton Forsythe,24.94,24.94,3.62
+372658,2026-11-02,Oklahoma,East Texas A&M,6414,Duke Brennan,23.92,23.92,6.12
+372658,2026-11-02,Oklahoma,East Texas A&M,347,Tyler Hendricks,16.75,16.75,4.92
+372658,2026-11-02,Oklahoma,East Texas A&M,201268,Kai Rogers,13.44,13.44,1.44
 372658,2026-11-02,Oklahoma,East Texas A&M,226254,Gage Mayfield,3.62,3.62,0.0
 372658,2026-11-02,Oklahoma,East Texas A&M,226259,Quincy Wadley,1.6,1.6,0.0
 372659,2026-11-02,Mississippi State,Tennessee Tech,8117,Kimani Hamilton,30.4,24.92,3.16
@@ -1101,14 +1101,14 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 372661,2026-11-02,Florida,Miami,512,Isaiah Brown,13.85,13.17,2.03
 372661,2026-11-02,Florida,Miami,224281,Domen Petrovic,10.7,10.7,0.0
 372661,2026-11-02,Florida,Miami,224270,Arturas Butajevas,0.35,0.35,0.0
-372661,2026-11-02,Miami,Florida,203179,Acaden Lewis,35.1,33.98,7.73
-372661,2026-11-02,Miami,Florida,200477,Shelton Henderson,31.95,30.83,7.73
-372661,2026-11-02,Miami,Florida,25,Somto Cyril,28.78,28.59,5.94
-372661,2026-11-02,Miami,Florida,7836,Malik Reneau,23.1,22.65,6.46
-372661,2026-11-02,Miami,Florida,200471,Dante Allen,22.02,21.84,2.12
+372661,2026-11-02,Miami,Florida,203179,Acaden Lewis,35.05,33.95,7.69
+372661,2026-11-02,Miami,Florida,200477,Shelton Henderson,31.9,30.8,7.69
+372661,2026-11-02,Miami,Florida,25,Somto Cyril,28.74,28.56,5.91
+372661,2026-11-02,Miami,Florida,7836,Malik Reneau,23.05,22.62,6.43
+372661,2026-11-02,Miami,Florida,200471,Dante Allen,21.97,21.81,2.09
 372661,2026-11-02,Miami,Florida,8321,Robert Miller III,17.27,16.6,0.38
 372661,2026-11-02,Miami,Florida,225488,Caleb Gaskins,15.75,15.57,6.85
-372661,2026-11-02,Miami,Florida,4091,Brent Bland,13.53,12.59,0.57
+372661,2026-11-02,Miami,Florida,4091,Brent Bland,13.49,12.56,0.54
 372661,2026-11-02,Miami,Florida,222,Nick Dorn,10.95,10.1,1.03
 372661,2026-11-02,Miami,Florida,225494,Egor Ryzhov,1.83,1.83,0.0
 372662,2026-11-02,Butler,Lafayette,1662,Jalen Jackson,27.57,19.57,6.79
@@ -1153,15 +1153,15 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 372663,2026-11-02,Murray State,Tennessee State,13620,Shon Tupuola,5.77,2.23,1.63
 372663,2026-11-02,Murray State,Tennessee State,233895,Navon Shabazz,2.28,0.0,0.0
 372663,2026-11-02,Murray State,Tennessee State,200734,Dillon Butler,1.53,0.0,0.0
-372663,2026-11-02,Tennessee State,Murray State,199759,Deondrea Lindsey,29.98,27.24,7.02
-372663,2026-11-02,Tennessee State,Murray State,5775,Ty-Laur Johnson,32.75,25.86,6.25
-372663,2026-11-02,Tennessee State,Murray State,202470,Jayden Jones,23.87,21.18,4.69
-372663,2026-11-02,Tennessee State,Murray State,5869,Kavien Jones,23.5,16.29,6.67
+372663,2026-11-02,Tennessee State,Murray State,199759,Deondrea Lindsey,29.94,27.2,7.02
+372663,2026-11-02,Tennessee State,Murray State,5775,Ty-Laur Johnson,32.71,25.82,6.25
+372663,2026-11-02,Tennessee State,Murray State,202470,Jayden Jones,23.83,21.14,4.69
+372663,2026-11-02,Tennessee State,Murray State,5869,Kavien Jones,23.46,16.25,6.67
 372663,2026-11-02,Tennessee State,Murray State,19948,Arterio Morris,21.37,16.08,6.01
 372663,2026-11-02,Tennessee State,Murray State,418,Aaron Bradshaw,23.18,15.89,0.34
 372663,2026-11-02,Tennessee State,Murray State,6054,Christian Alston,16.78,12.51,2.33
-372663,2026-11-02,Tennessee State,Murray State,17,Presley Patterson,13.4,9.79,1.78
-372663,2026-11-02,Tennessee State,Murray State,232785,Daniel Vieira-Tuck,3.93,3.93,0.0
+372663,2026-11-02,Tennessee State,Murray State,17,Presley Patterson,13.36,9.76,1.78
+372663,2026-11-02,Tennessee State,Murray State,232785,Daniel Vieira-Tuck,3.89,3.89,0.0
 372663,2026-11-02,Tennessee State,Murray State,5867,Maddux Bodenhamer,4.8,0.0,0.0
 372663,2026-11-02,Tennessee State,Murray State,201100,Isaiah Stewart,3.33,0.0,0.0
 372663,2026-11-02,Tennessee State,Murray State,232783,Ajayi Simmons,3.33,0.0,0.0
@@ -1340,19 +1340,19 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374495,2026-11-02,Weber State,Oregon State,6639,Declan Cutler,3.03,0.0,0.0
 374495,2026-11-02,Weber State,Oregon State,233589,Hunter Hansen,2.57,0.0,0.0
 374495,2026-11-02,Weber State,Oregon State,233594,Maximillian Russell,2.57,0.0,0.0
-374496,2026-11-02,Morris College,South Carolina State,216749,Leith Kenon II,38.88,23.52,6.52
-374496,2026-11-02,Morris College,South Carolina State,233896,Jordan Kwende,28.92,20.17,4.76
-374496,2026-11-02,Morris College,South Carolina State,216751,Gary Bair,24.42,19.39,3.91
-374496,2026-11-02,Morris College,South Carolina State,216745,Damian Mack,18.85,11.59,4.66
-374496,2026-11-02,Morris College,South Carolina State,233904,Demetrius Brown,26.28,9.84,4.36
-374496,2026-11-02,Morris College,South Carolina State,233898,Jalen Kidd,12.7,8.92,2.82
-374496,2026-11-02,Morris College,South Carolina State,216005,Troy Butler,13.65,6.99,1.86
-374496,2026-11-02,Morris College,South Carolina State,1589,Julian Miller,11.23,6.87,1.05
-374496,2026-11-02,Morris College,South Carolina State,233902,Jayden Hosien,13.33,6.29,4.77
-374496,2026-11-02,Morris College,South Carolina State,233899,Jordan Gary,8.47,4.88,2.05
-374496,2026-11-02,Morris College,South Carolina State,214614,Miles Hannah,4.88,4.3,0.0
-374496,2026-11-02,Morris College,South Carolina State,216750,Eric Graham II,11.95,3.15,2.37
-374496,2026-11-02,Morris College,South Carolina State,233901,Kameron Rodriguez,2.62,0.64,0.0
+374496,2026-11-02,Morris College,South Carolina State,216749,Leith Kenon II,35.49,21.52,5.44
+374496,2026-11-02,Morris College,South Carolina State,233896,Jordan Kwende,26.1,18.46,3.96
+374496,2026-11-02,Morris College,South Carolina State,216751,Gary Bair,22.27,18.08,3.26
+374496,2026-11-02,Morris College,South Carolina State,216745,Damian Mack,17.71,10.73,3.88
+374496,2026-11-02,Morris College,South Carolina State,233904,Demetrius Brown,23.26,8.2,3.63
+374496,2026-11-02,Morris College,South Carolina State,233898,Jalen Kidd,11.61,8.14,2.35
+374496,2026-11-02,Morris College,South Carolina State,1589,Julian Miller,11.02,6.7,0.88
+374496,2026-11-02,Morris College,South Carolina State,216005,Troy Butler,12.32,6.45,1.55
+374496,2026-11-02,Morris College,South Carolina State,233902,Jayden Hosien,11.73,5.24,3.98
+374496,2026-11-02,Morris College,South Carolina State,233899,Jordan Gary,7.65,4.07,1.71
+374496,2026-11-02,Morris College,South Carolina State,214614,Miles Hannah,4.4,3.81,0.0
+374496,2026-11-02,Morris College,South Carolina State,216750,Eric Graham II,10.1,2.62,1.97
+374496,2026-11-02,Morris College,South Carolina State,233901,Kameron Rodriguez,2.18,0.53,0.0
 374496,2026-11-02,Morris College,South Carolina State,233900,Jordan Butler,0.53,0.0,0.0
 374496,2026-11-02,Morris College,South Carolina State,233903,Traysn Clinkscales,0.58,0.0,0.0
 374496,2026-11-02,South Carolina State,Morris College,202071,Noah Treadwell,21.95,14.59,2.52
@@ -1600,16 +1600,16 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374506,2026-11-02,Michigan,Oakland,200514,Ricky Liburd,13.72,13.66,1.86
 374506,2026-11-02,Michigan,Oakland,2390,Kenny Noland,9.62,9.12,1.86
 374506,2026-11-02,Michigan,Oakland,225524,Marcus Moller,0.43,0.0,0.0
-374506,2026-11-02,Oakland,Michigan,4539,Chris Fields Jr.,33.92,30.05,6.41
-374506,2026-11-02,Oakland,Michigan,1724,Nassim Mashhour,32.43,28.13,3.12
+374506,2026-11-02,Oakland,Michigan,4539,Chris Fields Jr.,33.85,29.99,6.41
+374506,2026-11-02,Oakland,Michigan,1724,Nassim Mashhour,32.37,28.07,3.12
 374506,2026-11-02,Oakland,Michigan,231578,Ryder Bradley,25.8,25.39,3.78
-374506,2026-11-02,Oakland,Michigan,1731,Warren Marshall IV,28.03,24.83,5.66
+374506,2026-11-02,Oakland,Michigan,1731,Warren Marshall IV,27.97,24.76,5.66
 374506,2026-11-02,Oakland,Michigan,201213,William Kassi,19.75,19.45,1.73
-374506,2026-11-02,Oakland,Michigan,958,Belal El Shakery,21.6,19.2,5.89
+374506,2026-11-02,Oakland,Michigan,958,Belal El Shakery,21.54,19.14,5.89
 374506,2026-11-02,Oakland,Michigan,5324,RJ Taylor,17.08,13.47,2.02
-374506,2026-11-02,Oakland,Michigan,201215,Hamoudy Mashhour,13.28,11.54,2.39
+374506,2026-11-02,Oakland,Michigan,201215,Hamoudy Mashhour,13.22,11.48,2.39
 374506,2026-11-02,Oakland,Michigan,203371,Camden Thompson,4.25,3.56,0.68
-374506,2026-11-02,Oakland,Michigan,231577,Nate Ahner,2.5,2.44,1.94
+374506,2026-11-02,Oakland,Michigan,231577,Nate Ahner,2.44,2.38,1.94
 374506,2026-11-02,Oakland,Michigan,203370,Brady Swartz,0.43,0.0,0.0
 374506,2026-11-02,Oakland,Michigan,231587,Ivan Stojanovski,0.43,0.0,0.0
 374506,2026-11-02,Oakland,Michigan,231581,Deuce Hamilton,0.43,0.0,0.0
@@ -1760,13 +1760,13 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374513,2026-11-02,Bryant,Siena,200854,Andre Pasha,19.08,19.03,4.91
 374513,2026-11-02,Bryant,Siena,228760,Connor Lyons,4.9,4.9,0.0
 374513,2026-11-02,Bryant,Siena,228755,Elijah Crispin,1.57,1.57,0.0
-374513,2026-11-02,Siena,Bryant,226909,Pace Prosser,39.15,39.0,7.85
-374513,2026-11-02,Siena,Bryant,226904,Trent Egbiremolen,37.07,36.91,7.85
-374513,2026-11-02,Siena,Bryant,226906,Tim Ibukunoluwa,31.8,31.65,7.85
+374513,2026-11-02,Siena,Bryant,226909,Pace Prosser,39.11,38.95,7.8
+374513,2026-11-02,Siena,Bryant,226904,Trent Egbiremolen,37.02,36.87,7.8
+374513,2026-11-02,Siena,Bryant,226906,Tim Ibukunoluwa,31.76,31.6,7.8
 374513,2026-11-02,Siena,Bryant,2743,Reid Ducharme,28.07,28.07,2.92
-374513,2026-11-02,Siena,Bryant,2739,Brendan Coyle,20.73,20.69,3.74
-374513,2026-11-02,Siena,Bryant,1167,Tan Yildizoglu,19.58,19.43,1.9
-374513,2026-11-02,Siena,Bryant,226903,Parrish Edmond Jr.,17.23,17.13,7.41
+374513,2026-11-02,Siena,Bryant,2739,Brendan Coyle,20.69,20.64,3.69
+374513,2026-11-02,Siena,Bryant,1167,Tan Yildizoglu,19.54,19.39,1.85
+374513,2026-11-02,Siena,Bryant,226903,Parrish Edmond Jr.,17.19,17.08,7.37
 374513,2026-11-02,Siena,Bryant,201992,Isaiah Henderson,3.87,3.87,0.0
 374513,2026-11-02,Siena,Bryant,226899,Andres Amon,2.77,2.77,0.0
 374514,2026-11-02,George Fox,Idaho,6982,Donovan Cooks,25.35,16.9,2.7
@@ -1901,14 +1901,14 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374519,2026-11-02,Arizona State,East Tennessee State,198011,Vijay Wallace,0.07,0.0,0.0
 374519,2026-11-02,Arizona State,East Tennessee State,223181,Ajak Nyuon,0.07,0.0,0.0
 374519,2026-11-02,Arizona State,East Tennessee State,198418,Nate Garcia,0.07,0.0,0.0
-374519,2026-11-02,East Tennessee State,Arizona State,4615,BJ Ward,37.2,35.62,7.67
-374519,2026-11-02,East Tennessee State,Arizona State,5778,Marqus Marion,30.17,28.65,4.04
-374519,2026-11-02,East Tennessee State,Arizona State,4925,Jayden Cooper,29.5,28.0,5.19
-374519,2026-11-02,East Tennessee State,Arizona State,6643,Trevor Hennig,24.57,22.99,7.67
-374519,2026-11-02,East Tennessee State,Arizona State,7563,Tyran Mason,22.43,22.11,6.72
-374519,2026-11-02,East Tennessee State,Arizona State,2801,Maki Johnson,21.05,20.26,2.49
-374519,2026-11-02,East Tennessee State,Arizona State,229511,Elton Smith,19.5,18.89,4.58
-374519,2026-11-02,East Tennessee State,Arizona State,226,Kendall Campbell,15.75,14.17,3.09
+374519,2026-11-02,East Tennessee State,Arizona State,4615,BJ Ward,36.41,35.1,7.16
+374519,2026-11-02,East Tennessee State,Arizona State,5778,Marqus Marion,29.39,28.13,3.53
+374519,2026-11-02,East Tennessee State,Arizona State,4925,Jayden Cooper,29.14,27.89,5.08
+374519,2026-11-02,East Tennessee State,Arizona State,6643,Trevor Hennig,23.78,22.46,7.16
+374519,2026-11-02,East Tennessee State,Arizona State,7563,Tyran Mason,21.86,21.59,6.21
+374519,2026-11-02,East Tennessee State,Arizona State,2801,Maki Johnson,20.5,19.84,2.07
+374519,2026-11-02,East Tennessee State,Arizona State,229511,Elton Smith,19.39,18.89,4.58
+374519,2026-11-02,East Tennessee State,Arizona State,226,Kendall Campbell,14.96,13.65,2.58
 374519,2026-11-02,East Tennessee State,Arizona State,229499,Colt Busse,4.55,4.55,0.0
 374520,2026-11-02,Georgetown,Loyola Maryland,3044,Jaland Lowe,33.55,26.44,6.02
 374520,2026-11-02,Georgetown,Loyola Maryland,63,Elmarko Jackson,27.03,22.59,4.51
@@ -2004,20 +2004,20 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374523,2026-11-02,San Francisco,Radford,232246,Andrew Hilman,11.17,10.15,2.54
 374523,2026-11-02,San Francisco,Radford,232247,Jaylen Hunter-Coleman,6.7,6.7,0.87
 374523,2026-11-02,San Francisco,Radford,232252,Jaroslavs Pihtovs,5.08,5.08,1.77
-374524,2026-11-02,Jackson State,Texas Tech,102,Dorian McMillian,33.63,22.15,7.0
-374524,2026-11-02,Jackson State,Texas Tech,111,Daeshun Ruffin,26.75,20.89,6.87
-374524,2026-11-02,Jackson State,Texas Tech,199821,Mike Williams,31.4,19.95,7.0
-374524,2026-11-02,Jackson State,Texas Tech,211918,Nikk Williams,20.88,12.21,3.89
-374524,2026-11-02,Jackson State,Texas Tech,230225,DJ Davis,10.6,8.41,1.4
-374524,2026-11-02,Jackson State,Texas Tech,199807,Kobe Butler,8.5,7.9,2.55
-374524,2026-11-02,Jackson State,Texas Tech,110,Delyle Williams,11.02,7.1,1.92
+374524,2026-11-02,Jackson State,Texas Tech,102,Dorian McMillian,30.82,21.24,6.15
+374524,2026-11-02,Jackson State,Texas Tech,111,Daeshun Ruffin,24.95,20.06,6.05
+374524,2026-11-02,Jackson State,Texas Tech,199821,Mike Williams,28.59,19.04,6.15
+374524,2026-11-02,Jackson State,Texas Tech,211918,Nikk Williams,18.89,11.66,3.4
+374524,2026-11-02,Jackson State,Texas Tech,230225,DJ Davis,9.95,8.13,1.17
+374524,2026-11-02,Jackson State,Texas Tech,199807,Kobe Butler,7.97,7.47,2.12
+374524,2026-11-02,Jackson State,Texas Tech,110,Delyle Williams,10.36,7.1,1.92
 374524,2026-11-02,Jackson State,Texas Tech,7145,Jayden Williams,6.23,6.23,0.0
-374524,2026-11-02,Jackson State,Texas Tech,199810,Cael Jones,22.27,5.41,5.08
-374524,2026-11-02,Jackson State,Texas Tech,108,Ebo Wilson,12.45,4.28,2.68
-374524,2026-11-02,Jackson State,Texas Tech,230233,Blake Nettles,10.23,2.8,0.0
-374524,2026-11-02,Jackson State,Texas Tech,17466,Chip Brunt,13.98,2.26,0.12
-374524,2026-11-02,Jackson State,Texas Tech,103,Tamarion Hoover,1.58,1.55,1.55
-374524,2026-11-02,Jackson State,Texas Tech,230231,AT Manyuon,12.73,0.0,0.0
+374524,2026-11-02,Jackson State,Texas Tech,199810,Cael Jones,18.56,4.51,4.23
+374524,2026-11-02,Jackson State,Texas Tech,108,Ebo Wilson,10.8,4.0,2.4
+374524,2026-11-02,Jackson State,Texas Tech,230233,Blake Nettles,8.99,2.8,0.0
+374524,2026-11-02,Jackson State,Texas Tech,17466,Chip Brunt,11.95,2.18,0.1
+374524,2026-11-02,Jackson State,Texas Tech,103,Tamarion Hoover,1.32,1.29,1.29
+374524,2026-11-02,Jackson State,Texas Tech,230231,AT Manyuon,10.61,0.0,0.0
 374524,2026-11-02,Texas Tech,Jackson State,984,Cruz Davis,31.47,20.46,7.0
 374524,2026-11-02,Texas Tech,Jackson State,2239,Donovan Atwell,26.73,19.4,6.0
 374524,2026-11-02,Texas Tech,Jackson State,5650,Dra Gibbs-Lawhorn,24.92,17.93,5.81
@@ -2131,34 +2131,34 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374528,2026-11-02,Trinity Baptist,Jacksonville,215931,Braiden North,6.43,0.0,0.0
 374528,2026-11-02,Trinity Baptist,Jacksonville,2260,Adrian Walker,5.58,0.0,0.0
 374528,2026-11-02,Trinity Baptist,Jacksonville,234016,Darian Wright,2.3,0.0,0.0
-374529,2026-11-02,Presbyterian,St. Thomas-Minnesota,5108,Triston Wilson,36.67,35.73,6.91
-374529,2026-11-02,Presbyterian,St. Thomas-Minnesota,5098,Jaylen Peterson,31.63,30.45,6.05
-374529,2026-11-02,Presbyterian,St. Thomas-Minnesota,5105,Carl Parrish,28.43,27.61,3.37
-374529,2026-11-02,Presbyterian,St. Thomas-Minnesota,5104,Iverson King,25.33,24.15,4.73
-374529,2026-11-02,Presbyterian,St. Thomas-Minnesota,231876,EJ Smith,25.23,24.05,6.21
+374529,2026-11-02,Presbyterian,St. Thomas-Minnesota,5108,Triston Wilson,36.62,35.71,6.89
+374529,2026-11-02,Presbyterian,St. Thomas-Minnesota,5098,Jaylen Peterson,31.59,30.43,6.02
+374529,2026-11-02,Presbyterian,St. Thomas-Minnesota,5105,Carl Parrish,28.39,27.59,3.35
+374529,2026-11-02,Presbyterian,St. Thomas-Minnesota,5104,Iverson King,25.29,24.13,4.71
+374529,2026-11-02,Presbyterian,St. Thomas-Minnesota,231876,EJ Smith,25.19,24.03,6.19
 374529,2026-11-02,Presbyterian,St. Thomas-Minnesota,7052,Erik Taylor,22.93,22.91,2.29
-374529,2026-11-02,Presbyterian,St. Thomas-Minnesota,5107,Chidi Chiakwelu,17.37,16.62,2.17
+374529,2026-11-02,Presbyterian,St. Thomas-Minnesota,5107,Chidi Chiakwelu,17.32,16.6,2.15
 374529,2026-11-02,Presbyterian,St. Thomas-Minnesota,5109,Khalon Hudson,12.0,11.93,3.51
 374529,2026-11-02,Presbyterian,St. Thomas-Minnesota,201516,Amare Anderson,0.65,0.65,0.0
-374529,2026-11-02,St. Thomas-Minnesota,Presbyterian,957,Jeremy Lorenz,30.42,29.26,5.07
-374529,2026-11-02,St. Thomas-Minnesota,Presbyterian,6295,Hayden Tibbits,28.12,27.35,5.81
-374529,2026-11-02,St. Thomas-Minnesota,Presbyterian,3217,Austin Herro,27.65,26.49,5.07
-374529,2026-11-02,St. Thomas-Minnesota,Presbyterian,6284,Carter Bjerke,26.43,25.63,5.2
-374529,2026-11-02,St. Thomas-Minnesota,Presbyterian,6299,Tim Franks,25.65,24.83,5.56
-374529,2026-11-02,St. Thomas-Minnesota,Presbyterian,232692,Jonovan Wilkinson,22.27,21.28,4.78
-374529,2026-11-02,St. Thomas-Minnesota,Presbyterian,232690,Julius Wade,16.85,16.41,0.32
-374529,2026-11-02,St. Thomas-Minnesota,Presbyterian,6663,Caden Wilkins,15.32,14.85,3.73
+374529,2026-11-02,St. Thomas-Minnesota,Presbyterian,957,Jeremy Lorenz,30.26,29.19,5.01
+374529,2026-11-02,St. Thomas-Minnesota,Presbyterian,6295,Hayden Tibbits,27.96,27.28,5.75
+374529,2026-11-02,St. Thomas-Minnesota,Presbyterian,3217,Austin Herro,27.5,26.42,5.01
+374529,2026-11-02,St. Thomas-Minnesota,Presbyterian,6284,Carter Bjerke,26.39,25.61,5.18
+374529,2026-11-02,St. Thomas-Minnesota,Presbyterian,6299,Tim Franks,25.55,24.77,5.51
+374529,2026-11-02,St. Thomas-Minnesota,Presbyterian,232692,Jonovan Wilkinson,22.11,21.21,4.72
+374529,2026-11-02,St. Thomas-Minnesota,Presbyterian,232690,Julius Wade,16.71,16.35,0.27
+374529,2026-11-02,St. Thomas-Minnesota,Presbyterian,6663,Caden Wilkins,15.16,14.78,3.67
 374529,2026-11-02,St. Thomas-Minnesota,Presbyterian,232685,Brogan Madson,4.38,4.38,0.0
 374529,2026-11-02,St. Thomas-Minnesota,Presbyterian,6298,Kyle Counts,3.97,3.97,0.0
-374530,2026-11-02,Colgate,Washington,198712,Andrew Alekseyenko,33.15,29.88,6.6
-374530,2026-11-02,Colgate,Washington,7465,Parker Jones,32.67,29.56,4.07
-374530,2026-11-02,Colgate,Washington,7472,Blake Forrest,26.88,23.61,5.77
-374530,2026-11-02,Colgate,Washington,7470,Sam Wright,26.82,23.55,5.89
-374530,2026-11-02,Colgate,Washington,7474,Josh Ahayere,22.95,20.48,3.47
-374530,2026-11-02,Colgate,Washington,229140,Kingston McKoy,21.0,20.14,3.67
+374530,2026-11-02,Colgate,Washington,198712,Andrew Alekseyenko,32.97,29.7,6.6
+374530,2026-11-02,Colgate,Washington,7465,Parker Jones,32.49,29.39,4.07
+374530,2026-11-02,Colgate,Washington,7472,Blake Forrest,26.71,23.44,5.77
+374530,2026-11-02,Colgate,Washington,7470,Sam Wright,26.7,23.43,5.89
+374530,2026-11-02,Colgate,Washington,7474,Josh Ahayere,22.77,20.3,3.47
+374530,2026-11-02,Colgate,Washington,229140,Kingston McKoy,20.82,19.97,3.67
 374530,2026-11-02,Colgate,Washington,199339,Isaiah Skinn,13.12,13.12,0.83
 374530,2026-11-02,Colgate,Washington,15128,Ethan Brown,11.3,11.19,1.99
-374530,2026-11-02,Colgate,Washington,198722,Ayomi Odetoyinbo,9.65,9.65,0.72
+374530,2026-11-02,Colgate,Washington,198722,Ayomi Odetoyinbo,9.59,9.59,0.72
 374530,2026-11-02,Colgate,Washington,7469,Cameron Brennan,2.65,2.65,0.0
 374530,2026-11-02,Colgate,Washington,198723,Charlie Pugh,0.88,0.88,0.0
 374530,2026-11-02,Washington,Colgate,7720,Ryan Beasley,36.17,32.9,6.6
@@ -2329,17 +2329,17 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374537,2026-11-02,Marist,Dartmouth,1054,Tarik Watson,11.88,11.88,2.67
 374537,2026-11-02,Marist,Dartmouth,225331,Cameron Sweeney,3.65,3.65,0.0
 374538,2026-11-02,CSU San Marcos,Cal Poly,234516,Max Tengan,21.77,19.0,0.9
-374538,2026-11-02,CSU San Marcos,Cal Poly,234513,Remington Rofer,20.57,17.96,3.22
-374538,2026-11-02,CSU San Marcos,Cal Poly,234515,Chris Carrillo,19.12,17.8,2.15
+374538,2026-11-02,CSU San Marcos,Cal Poly,234513,Remington Rofer,20.41,17.86,3.11
+374538,2026-11-02,CSU San Marcos,Cal Poly,234515,Chris Carrillo,18.96,17.69,2.04
 374538,2026-11-02,CSU San Marcos,Cal Poly,198423,Chase Mayo Harmon,17.4,17.34,0.0
 374538,2026-11-02,CSU San Marcos,Cal Poly,234519,Riley Eves,18.72,16.71,0.91
-374538,2026-11-02,CSU San Marcos,Cal Poly,234520,Mikey Aikhionbare,19.12,12.45,2.4
-374538,2026-11-02,CSU San Marcos,Cal Poly,234514,Jaylin Leslie,16.33,11.89,3.2
+374538,2026-11-02,CSU San Marcos,Cal Poly,234520,Mikey Aikhionbare,18.96,12.34,2.29
+374538,2026-11-02,CSU San Marcos,Cal Poly,234514,Jaylin Leslie,16.18,11.78,3.1
 374538,2026-11-02,CSU San Marcos,Cal Poly,234525,Wyatt Von Blanco,19.05,10.83,1.97
 374538,2026-11-02,CSU San Marcos,Cal Poly,216020,Sage Wayans,14.2,9.72,1.49
 374538,2026-11-02,CSU San Marcos,Cal Poly,234517,Will Ambidge,13.35,9.2,0.32
-374538,2026-11-02,CSU San Marcos,Cal Poly,23014,Robert Salmon,10.9,6.42,1.45
-374538,2026-11-02,CSU San Marcos,Cal Poly,234523,Tyler Bailey,10.4,3.63,3.22
+374538,2026-11-02,CSU San Marcos,Cal Poly,23014,Robert Salmon,10.75,6.31,1.34
+374538,2026-11-02,CSU San Marcos,Cal Poly,234523,Tyler Bailey,10.25,3.52,3.11
 374538,2026-11-02,Cal Poly,CSU San Marcos,7701,Cayden Ward,26.9,23.72,3.43
 374538,2026-11-02,Cal Poly,CSU San Marcos,198432,Jess Esso Essis,27.95,22.6,3.43
 374538,2026-11-02,Cal Poly,CSU San Marcos,7696,Guzman Vasilic,26.58,21.66,1.49
@@ -2365,13 +2365,13 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374539,2026-11-02,George Mason,UMBC,229749,Peyton Miller,2.65,0.0,0.0
 374539,2026-11-02,George Mason,UMBC,229743,Bryton Barrett,2.65,0.0,0.0
 374539,2026-11-02,George Mason,UMBC,199333,Ryan-Preston Mendy,1.62,0.0,0.0
-374539,2026-11-02,UMBC,George Mason,233176,Aidan Able,29.53,25.05,3.02
-374539,2026-11-02,UMBC,George Mason,522,Flash Burton,27.82,24.37,3.02
-374539,2026-11-02,UMBC,George Mason,233190,Carlos Varela,29.55,20.36,4.85
-374539,2026-11-02,UMBC,George Mason,202884,Riley Jacobs,22.82,17.95,3.02
-374539,2026-11-02,UMBC,George Mason,2636,Devin Ceaser,22.95,17.21,1.84
-374539,2026-11-02,UMBC,George Mason,6963,Jovan Ristic,22.87,15.97,1.94
-374539,2026-11-02,UMBC,George Mason,233186,JP Ndong,17.45,15.15,2.92
+374539,2026-11-02,UMBC,George Mason,233176,Aidan Able,29.44,24.96,3.02
+374539,2026-11-02,UMBC,George Mason,522,Flash Burton,27.73,24.28,3.02
+374539,2026-11-02,UMBC,George Mason,233190,Carlos Varela,29.46,20.27,4.85
+374539,2026-11-02,UMBC,George Mason,202884,Riley Jacobs,22.73,17.86,3.02
+374539,2026-11-02,UMBC,George Mason,2636,Devin Ceaser,22.86,17.12,1.84
+374539,2026-11-02,UMBC,George Mason,6963,Jovan Ristic,22.78,15.88,1.94
+374539,2026-11-02,UMBC,George Mason,233186,JP Ndong,17.36,15.06,2.92
 374539,2026-11-02,UMBC,George Mason,233183,Steven Huan,9.87,7.81,1.84
 374539,2026-11-02,UMBC,George Mason,233187,Jaiden Reynolds,9.1,5.76,1.84
 374539,2026-11-02,UMBC,George Mason,233177,Alpha Barry,8.68,5.05,0.0
@@ -2450,13 +2450,13 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374542,2026-11-02,Oklahoma State,Incarnate Word,201275,Ryan Crotty,14.03,5.05,5.05
 374542,2026-11-02,Oklahoma State,Incarnate Word,201270,Benjamin Ahmed,11.07,4.32,0.0
 374542,2026-11-02,Oklahoma State,Incarnate Word,231646,Jalen Montonati,6.93,0.0,0.0
-374543,2026-11-02,Tulane,UT Martin,202856,Krystian Lewis,43.47,43.47,8.0
-374543,2026-11-02,Tulane,UT Martin,3900,KJ Greene,41.8,41.8,5.75
-374543,2026-11-02,Tulane,UT Martin,3895,Tyler Ringgold,41.27,41.27,8.0
-374543,2026-11-02,Tulane,UT Martin,1805,TJ Nadeau,29.73,29.73,1.42
-374543,2026-11-02,Tulane,UT Martin,199409,Joah Chappelle,29.17,29.17,6.98
+374543,2026-11-02,Tulane,UT Martin,202856,Krystian Lewis,43.42,43.42,8.0
+374543,2026-11-02,Tulane,UT Martin,3900,KJ Greene,41.76,41.76,5.75
+374543,2026-11-02,Tulane,UT Martin,3895,Tyler Ringgold,41.22,41.22,8.0
+374543,2026-11-02,Tulane,UT Martin,1805,TJ Nadeau,29.69,29.69,1.42
+374543,2026-11-02,Tulane,UT Martin,199409,Joah Chappelle,29.12,29.12,6.98
 374543,2026-11-02,Tulane,UT Martin,1078,Carson Schwieger,26.42,26.42,1.18
-374543,2026-11-02,Tulane,UT Martin,232951,Ryan Blount,20.13,20.13,6.82
+374543,2026-11-02,Tulane,UT Martin,232951,Ryan Blount,20.09,20.09,6.82
 374543,2026-11-02,Tulane,UT Martin,8296,Josiah Moore,13.82,13.82,1.85
 374543,2026-11-02,Tulane,UT Martin,232959,Noah Mister,4.47,4.47,0.0
 374543,2026-11-02,UT Martin,Tulane,233364,Sasha Savkov,39.92,39.92,6.52
@@ -2708,15 +2708,15 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374553,2026-11-02,Saint Mary's,Illinois State,6920,Jazz Gardner,12.35,12.35,0.0
 374553,2026-11-02,Saint Mary's,Illinois State,6895,Kevin Gad,7.85,7.85,0.0
 374553,2026-11-02,Saint Mary's,Illinois State,202384,Luke Fennell,6.17,6.17,0.95
-374554,2026-11-02,Hawai'i,Seattle U,27491,Chance Trujillo,37.3,37.3,8.0
-374554,2026-11-02,Hawai'i,Seattle U,6509,Zack Davidson,28.62,28.62,4.17
-374554,2026-11-02,Hawai'i,Seattle U,8425,Bol Dengdit,28.3,28.3,5.07
-374554,2026-11-02,Hawai'i,Seattle U,229950,Scotty Belnap,27.43,27.43,8.0
-374554,2026-11-02,Hawai'i,Seattle U,229952,Tiger Cuff,26.85,26.85,6.03
-374554,2026-11-02,Hawai'i,Seattle U,7535,Tanner Cuff,23.7,23.7,4.15
-374554,2026-11-02,Hawai'i,Seattle U,18673,Jaden Matingou,22.8,22.8,5.82
-374554,2026-11-02,Hawai'i,Seattle U,2806,Marcus Adams Jr.,20.65,20.65,4.33
-374554,2026-11-02,Hawai'i,Seattle U,201389,Kellen Hampton,11.78,11.78,2.43
+374554,2026-11-02,Hawai'i,Seattle U,27491,Chance Trujillo,32.99,32.99,6.67
+374554,2026-11-02,Hawai'i,Seattle U,6509,Zack Davidson,25.87,25.87,3.47
+374554,2026-11-02,Hawai'i,Seattle U,8425,Bol Dengdit,25.05,25.05,4.22
+374554,2026-11-02,Hawai'i,Seattle U,229952,Tiger Cuff,23.61,23.61,5.03
+374554,2026-11-02,Hawai'i,Seattle U,229950,Scotty Belnap,22.86,22.86,6.67
+374554,2026-11-02,Hawai'i,Seattle U,7535,Tanner Cuff,21.15,21.15,3.46
+374554,2026-11-02,Hawai'i,Seattle U,18673,Jaden Matingou,20.21,20.21,4.85
+374554,2026-11-02,Hawai'i,Seattle U,2806,Marcus Adams Jr.,17.9,17.9,3.61
+374554,2026-11-02,Hawai'i,Seattle U,201389,Kellen Hampton,10.34,10.34,2.03
 374554,2026-11-02,Seattle U,Hawai'i,8392,Will Heimbrodt,33.77,33.77,8.0
 374554,2026-11-02,Seattle U,Hawai'i,6688,Mason Williams,32.62,32.62,6.18
 374554,2026-11-02,Seattle U,Hawai'i,469,Halvine Dzellat,28.3,28.3,6.32
@@ -2752,22 +2752,22 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374555,2026-11-02,Penn State,Canisius,201407,Reggie Grodin,3.07,0.0,0.0
 374555,2026-11-02,Penn State,Canisius,231769,Aleksandar Zecevic,0.47,0.0,0.0
 374555,2026-11-02,Penn State,Canisius,231767,Grant Spacciapolli,0.47,0.0,0.0
-374556,2026-11-02,Grambling,Northern Illinois,3608,Isaiah Howard,31.12,31.12,8.0
-374556,2026-11-02,Grambling,Northern Illinois,201001,Dwayne Pierce,30.65,30.65,6.23
-374556,2026-11-02,Grambling,Northern Illinois,4866,Brandon Hardy,28.92,28.92,3.72
-374556,2026-11-02,Grambling,Northern Illinois,229875,Antoine Shannon,28.88,28.88,8.0
+374556,2026-11-02,Grambling,Northern Illinois,3608,Isaiah Howard,31.11,31.11,7.99
+374556,2026-11-02,Grambling,Northern Illinois,201001,Dwayne Pierce,30.64,30.64,6.22
+374556,2026-11-02,Grambling,Northern Illinois,4866,Brandon Hardy,28.91,28.91,3.71
+374556,2026-11-02,Grambling,Northern Illinois,229875,Antoine Shannon,28.87,28.87,7.99
 374556,2026-11-02,Grambling,Northern Illinois,6657,Isaiah Miranda,22.2,22.2,1.18
 374556,2026-11-02,Grambling,Northern Illinois,229876,Antonio Shannon,20.9,20.9,5.43
-374556,2026-11-02,Grambling,Northern Illinois,199466,Chancellor Perkins,16.95,16.95,0.68
-374556,2026-11-02,Grambling,Northern Illinois,199459,Mekhi Fitts,14.33,14.33,6.82
+374556,2026-11-02,Grambling,Northern Illinois,199466,Chancellor Perkins,16.94,16.94,0.67
+374556,2026-11-02,Grambling,Northern Illinois,199459,Mekhi Fitts,14.32,14.32,6.81
 374556,2026-11-02,Grambling,Northern Illinois,201105,Hassan Washington,6.12,6.12,0.0
-374556,2026-11-02,Northern Illinois,Grambling,231475,Trevor Polite,30.97,30.97,8.0
-374556,2026-11-02,Northern Illinois,Grambling,5332,Max Weisbrod,30.83,30.83,8.0
-374556,2026-11-02,Northern Illinois,Grambling,9386,David Douglas Jr.,29.27,29.27,8.0
-374556,2026-11-02,Northern Illinois,Grambling,231470,Colin Hardrick,23.05,23.05,1.47
-374556,2026-11-02,Northern Illinois,Grambling,6666,Bennett Basich,19.48,19.48,6.62
-374556,2026-11-02,Northern Illinois,Grambling,231468,Brayden Gross,18.75,18.75,1.37
-374556,2026-11-02,Northern Illinois,Grambling,18782,Nino Carter-Smith,17.07,17.07,6.65
+374556,2026-11-02,Northern Illinois,Grambling,231475,Trevor Polite,30.95,30.95,7.98
+374556,2026-11-02,Northern Illinois,Grambling,5332,Max Weisbrod,30.82,30.82,7.98
+374556,2026-11-02,Northern Illinois,Grambling,9386,David Douglas Jr.,29.25,29.25,7.98
+374556,2026-11-02,Northern Illinois,Grambling,231470,Colin Hardrick,23.03,23.03,1.45
+374556,2026-11-02,Northern Illinois,Grambling,6666,Bennett Basich,19.47,19.47,6.6
+374556,2026-11-02,Northern Illinois,Grambling,231468,Brayden Gross,18.75,18.75,1.36
+374556,2026-11-02,Northern Illinois,Grambling,18782,Nino Carter-Smith,17.05,17.05,6.63
 374556,2026-11-02,Northern Illinois,Grambling,231469,Keller Hanson,10.87,10.87,0.0
 374556,2026-11-02,Northern Illinois,Grambling,202173,Tolu Samuels,10.78,10.78,0.0
 374556,2026-11-02,Northern Illinois,Grambling,4595,Jack Daugherty,9.03,9.03,0.0
@@ -2896,14 +2896,14 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374561,2026-11-02,Princeton,Carnegie Mellon,201536,Ryan Mandes,0.57,0.0,0.0
 374561,2026-11-02,Princeton,Carnegie Mellon,231882,Noah Cohen,0.57,0.0,0.0
 374561,2026-11-02,Princeton,Carnegie Mellon,12250,Cooper Mueller,0.57,0.0,0.0
-374562,2026-11-02,McNeese,UAB,3356,Elijah Moore,33.77,29.38,7.47
-374562,2026-11-02,McNeese,UAB,7818,Larry Johnson,30.47,28.43,5.73
-374562,2026-11-02,McNeese,UAB,4168,Dellquan Warren,27.87,25.03,4.77
-374562,2026-11-02,McNeese,UAB,203126,Jaylon Dean-Vines,25.27,20.88,7.47
-374562,2026-11-02,McNeese,UAB,3107,Alier Maluk,19.97,17.13,4.3
-374562,2026-11-02,McNeese,UAB,3108,Christian Nitu,18.37,16.81,3.87
-374562,2026-11-02,McNeese,UAB,6153,Jerrell Colbert,17.85,15.81,3.65
-374562,2026-11-02,McNeese,UAB,8325,Corey Chest,18.62,15.78,3.82
+374562,2026-11-02,McNeese,UAB,3356,Elijah Moore,32.65,28.26,6.84
+374562,2026-11-02,McNeese,UAB,7818,Larry Johnson,29.35,27.31,5.11
+374562,2026-11-02,McNeese,UAB,4168,Dellquan Warren,26.87,24.03,4.26
+374562,2026-11-02,McNeese,UAB,203126,Jaylon Dean-Vines,24.15,19.76,6.84
+374562,2026-11-02,McNeese,UAB,3107,Alier Maluk,19.39,16.56,3.73
+374562,2026-11-02,McNeese,UAB,3108,Christian Nitu,17.71,16.16,3.7
+374562,2026-11-02,McNeese,UAB,6153,Jerrell Colbert,17.43,15.39,3.38
+374562,2026-11-02,McNeese,UAB,8325,Corey Chest,17.92,15.09,3.47
 374562,2026-11-02,McNeese,UAB,477,JJ Rembert,3.1,0.0,0.0
 374562,2026-11-02,McNeese,UAB,230791,MJ Madison,3.1,0.0,0.0
 374562,2026-11-02,McNeese,UAB,230789,Tyrease Hunter,3.1,0.0,0.0
@@ -3488,15 +3488,15 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374587,2026-11-02,Furman,Bethune-Cookman,2069,Davis Molnar,11.78,11.78,0.0
 374587,2026-11-02,Furman,Bethune-Cookman,229715,Cameron Elwer,10.92,10.92,0.0
 374587,2026-11-02,Furman,Bethune-Cookman,3209,Jordan Butler,4.62,4.62,0.0
-374588,2026-11-02,Maryville University (MO),Southern Illinois,234220,Brady Sights,28.62,17.94,6.78
-374588,2026-11-02,Maryville University (MO),Southern Illinois,234219,John Brigham,20.5,15.78,1.43
-374588,2026-11-02,Maryville University (MO),Southern Illinois,234228,Alex Johnson,27.77,12.55,5.35
-374588,2026-11-02,Maryville University (MO),Southern Illinois,7835,Raynard Horry,21.93,12.49,3.54
+374588,2026-11-02,Maryville University (MO),Southern Illinois,234220,Brady Sights,28.05,17.37,6.78
+374588,2026-11-02,Maryville University (MO),Southern Illinois,234219,John Brigham,19.52,14.8,1.43
+374588,2026-11-02,Maryville University (MO),Southern Illinois,234228,Alex Johnson,26.79,11.58,5.35
+374588,2026-11-02,Maryville University (MO),Southern Illinois,7835,Raynard Horry,20.96,11.51,3.54
 374588,2026-11-02,Maryville University (MO),Southern Illinois,11399,Eric Hackett,20.77,11.5,3.24
 374588,2026-11-02,Maryville University (MO),Southern Illinois,234222,Dylan Craven,17.68,11.5,3.24
-374588,2026-11-02,Maryville University (MO),Southern Illinois,234229,Nick Horras,16.37,10.41,3.54
-374588,2026-11-02,Maryville University (MO),Southern Illinois,234223,Oliver Puljic,17.12,10.31,3.97
-374588,2026-11-02,Maryville University (MO),Southern Illinois,234221,Caeden Myers,14.38,10.03,1.43
+374588,2026-11-02,Maryville University (MO),Southern Illinois,234221,Caeden Myers,13.97,9.62,1.43
+374588,2026-11-02,Maryville University (MO),Southern Illinois,234229,Nick Horras,15.39,9.43,3.54
+374588,2026-11-02,Maryville University (MO),Southern Illinois,234223,Oliver Puljic,16.14,9.33,3.97
 374588,2026-11-02,Maryville University (MO),Southern Illinois,14115,Dwayne Chatman,4.02,1.38,1.38
 374588,2026-11-02,Maryville University (MO),Southern Illinois,234225,Ben Karsten,5.0,0.0,0.0
 374588,2026-11-02,Maryville University (MO),Southern Illinois,234226,Cannon Roth,2.62,0.0,0.0
@@ -3589,17 +3589,17 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374591,2026-11-02,Central Arkansas,Oral Roberts,228969,Isaiah Templeton,2.17,0.0,0.0
 374591,2026-11-02,Central Arkansas,Oral Roberts,198535,J.C. Shulman,1.05,0.0,0.0
 374591,2026-11-02,Central Arkansas,Oral Roberts,7668,Owen Dehrmann,1.05,0.0,0.0
-374591,2026-11-02,Oral Roberts,Central Arkansas,231711,Boden Williams,33.92,29.2,3.98
-374591,2026-11-02,Oral Roberts,Central Arkansas,8292,Luke Gray,26.05,23.07,3.3
-374591,2026-11-02,Oral Roberts,Central Arkansas,201342,Martins Kilups,25.18,21.38,4.11
-374591,2026-11-02,Oral Roberts,Central Arkansas,201338,Cal Furnish,21.92,18.62,3.77
-374591,2026-11-02,Oral Roberts,Central Arkansas,8303,Chase Martin,19.08,17.22,1.46
-374591,2026-11-02,Oral Roberts,Central Arkansas,231703,Jamal George,19.98,16.9,3.64
-374591,2026-11-02,Oral Roberts,Central Arkansas,201336,Alex Couto,17.57,13.25,1.8
-374591,2026-11-02,Oral Roberts,Central Arkansas,231712,Thomas Zorbas,15.45,11.5,5.57
-374591,2026-11-02,Oral Roberts,Central Arkansas,7069,Amire Robinson,5.72,3.86,1.93
+374591,2026-11-02,Oral Roberts,Central Arkansas,231711,Boden Williams,33.47,28.9,3.68
+374591,2026-11-02,Oral Roberts,Central Arkansas,8292,Luke Gray,25.21,22.52,2.75
+374591,2026-11-02,Oral Roberts,Central Arkansas,201342,Martins Kilups,24.7,21.06,3.79
+374591,2026-11-02,Oral Roberts,Central Arkansas,201338,Cal Furnish,21.2,18.14,3.29
+374591,2026-11-02,Oral Roberts,Central Arkansas,8303,Chase Martin,18.72,16.99,1.23
+374591,2026-11-02,Oral Roberts,Central Arkansas,231703,Jamal George,19.62,16.67,3.41
+374591,2026-11-02,Oral Roberts,Central Arkansas,201336,Alex Couto,17.44,13.18,1.73
+374591,2026-11-02,Oral Roberts,Central Arkansas,231712,Thomas Zorbas,14.61,10.95,5.02
+374591,2026-11-02,Oral Roberts,Central Arkansas,7069,Amire Robinson,5.24,3.54,1.61
 374591,2026-11-02,Oral Roberts,Central Arkansas,5459,Blake Smith,3.75,1.73,0.0
-374591,2026-11-02,Oral Roberts,Central Arkansas,7536,Cam Haffner,4.7,1.59,1.59
+374591,2026-11-02,Oral Roberts,Central Arkansas,7536,Cam Haffner,4.3,1.34,1.34
 374591,2026-11-02,Oral Roberts,Central Arkansas,231698,Alberto Blanco,2.38,1.33,0.0
 374591,2026-11-02,Oral Roberts,Central Arkansas,231708,Marko Pavlovic,4.68,0.0,0.0
 374591,2026-11-02,Oral Roberts,Central Arkansas,231702,Mihail Gavazov,4.68,0.0,0.0
@@ -3736,13 +3736,13 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 377913,2026-11-02,Fresno Pacific,Fresno State,212067,Abram Potts,5.6,5.6,0.0
 377913,2026-11-02,Fresno Pacific,Fresno State,234426,Tevaris Green,2.5,2.5,0.0
 377913,2026-11-02,Fresno Pacific,Fresno State,212072,Arman Arisian,0.22,0.04,0.0
-377913,2026-11-02,Fresno State,Fresno Pacific,229700,Roger Fabrega Urpina,37.92,36.84,7.17
-377913,2026-11-02,Fresno State,Fresno Pacific,8473,Dragos Lungu,35.48,34.41,7.17
-377913,2026-11-02,Fresno State,Fresno Pacific,5535,Ross Candelino,34.7,33.63,7.17
-377913,2026-11-02,Fresno State,Fresno Pacific,9382,Brian Amuneke,33.57,32.49,6.8
-377913,2026-11-02,Fresno State,Fresno Pacific,7160,Bradey Henige,24.17,23.75,1.39
+377913,2026-11-02,Fresno State,Fresno Pacific,229700,Roger Fabrega Urpina,37.79,36.79,7.12
+377913,2026-11-02,Fresno State,Fresno Pacific,8473,Dragos Lungu,35.36,34.35,7.12
+377913,2026-11-02,Fresno State,Fresno Pacific,5535,Ross Candelino,34.58,33.57,7.12
+377913,2026-11-02,Fresno State,Fresno Pacific,9382,Brian Amuneke,33.44,32.44,6.76
+377913,2026-11-02,Fresno State,Fresno Pacific,7160,Bradey Henige,24.04,23.7,1.35
 377913,2026-11-02,Fresno State,Fresno Pacific,7619,Baye Fall,12.8,12.14,5.77
-377913,2026-11-02,Fresno State,Fresno Pacific,216785,KJ Perry,11.38,10.97,0.64
+377913,2026-11-02,Fresno State,Fresno Pacific,216785,KJ Perry,11.26,10.91,0.6
 377913,2026-11-02,Fresno State,Fresno Pacific,229710,Marko Vuckovic,4.53,4.53,0.0
 377913,2026-11-02,Fresno State,Fresno Pacific,200804,Quentin Rhymes,2.73,2.73,0.0
 377913,2026-11-02,Fresno State,Fresno Pacific,229706,Rylan Parsley,2.73,2.73,0.0
@@ -3941,22 +3941,22 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 377921,2026-11-02,Mercer,Reinhardt,230814,Dawson Barr,11.93,3.42,0.0
 377921,2026-11-02,Mercer,Reinhardt,2673,Manos Koveos,1.33,0.0,0.0
 377921,2026-11-02,Mercer,Reinhardt,230822,Harrison Lyttle,1.33,0.0,0.0
-377921,2026-11-02,Reinhardt,Mercer,18161,Jackson Sousa,28.72,22.45,6.62
-377921,2026-11-02,Reinhardt,Mercer,214794,Arael Jones,28.67,20.5,6.62
+377921,2026-11-02,Reinhardt,Mercer,18161,Jackson Sousa,28.27,22.45,6.62
+377921,2026-11-02,Reinhardt,Mercer,214794,Arael Jones,27.9,20.5,6.62
 377921,2026-11-02,Reinhardt,Mercer,233850,Chance Wilson,16.93,15.66,5.66
-377921,2026-11-02,Reinhardt,Mercer,233851,Daniel Deng Mabior,21.0,15.65,3.84
+377921,2026-11-02,Reinhardt,Mercer,233851,Daniel Deng Mabior,20.23,15.65,3.84
 377921,2026-11-02,Reinhardt,Mercer,214804,Joseph Raines,12.5,11.75,3.84
-377921,2026-11-02,Reinhardt,Mercer,233854,Travis Hamilton,15.57,9.83,0.0
-377921,2026-11-02,Reinhardt,Mercer,233852,Jabari Hall,16.3,9.4,0.51
-377921,2026-11-02,Reinhardt,Mercer,18159,David Freeman,19.6,7.01,2.79
-377921,2026-11-02,Reinhardt,Mercer,214786,AJ Shaw,14.82,6.32,0.45
-377921,2026-11-02,Reinhardt,Mercer,18158,Blake Seitz,8.93,3.77,0.82
-377921,2026-11-02,Reinhardt,Mercer,214796,Amir Green-Jones,7.15,3.32,0.0
-377921,2026-11-02,Reinhardt,Mercer,9592,Kaleb Morgan,8.28,3.12,0.0
-377921,2026-11-02,Reinhardt,Mercer,18146,Charles Reisman,6.6,2.51,1.97
+377921,2026-11-02,Reinhardt,Mercer,233854,Travis Hamilton,14.61,9.83,0.0
+377921,2026-11-02,Reinhardt,Mercer,233852,Jabari Hall,15.53,9.4,0.51
+377921,2026-11-02,Reinhardt,Mercer,18159,David Freeman,17.97,7.01,2.79
+377921,2026-11-02,Reinhardt,Mercer,214786,AJ Shaw,13.4,6.32,0.45
+377921,2026-11-02,Reinhardt,Mercer,18158,Blake Seitz,8.07,3.77,0.82
+377921,2026-11-02,Reinhardt,Mercer,214796,Amir Green-Jones,6.51,3.32,0.0
+377921,2026-11-02,Reinhardt,Mercer,9592,Kaleb Morgan,7.42,3.12,0.0
+377921,2026-11-02,Reinhardt,Mercer,18146,Charles Reisman,6.39,2.51,1.97
 377921,2026-11-02,Reinhardt,Mercer,5826,Solomon Mustafa-Reid,2.03,2.03,0.0
-377921,2026-11-02,Reinhardt,Mercer,233855,Mason McMillan,1.33,0.0,0.0
-377921,2026-11-02,Reinhardt,Mercer,214805,Nikos Koveos,1.33,0.0,0.0
+377921,2026-11-02,Reinhardt,Mercer,233855,Mason McMillan,1.11,0.0,0.0
+377921,2026-11-02,Reinhardt,Mercer,214805,Nikos Koveos,1.11,0.0,0.0
 377922,2026-11-02,Hofstra,Saint Joseph's Long Island,199564,Trey Boyd III,25.02,23.44,6.76
 377922,2026-11-02,Hofstra,Saint Joseph's Long Island,987,Joshua DeCady,28.3,23.05,6.76
 377922,2026-11-02,Hofstra,Saint Joseph's Long Island,229985,Nick Jefferson,25.85,17.5,5.89
@@ -4058,19 +4058,19 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 377925,2026-11-02,Mount Olive,UNC Wilmington,234175,Karsten Swinney,4.25,0.0,0.0
 377925,2026-11-02,Mount Olive,UNC Wilmington,234176,Tyrese Williams,4.25,0.0,0.0
 377925,2026-11-02,Mount Olive,UNC Wilmington,234172,Jaden Troy,1.88,0.0,0.0
-377925,2026-11-02,UNC Wilmington,Mount Olive,4110,Gavin Walsh,28.72,18.42,5.63
-377925,2026-11-02,UNC Wilmington,Mount Olive,2565,Xavier Brown,21.88,17.46,7.16
+377925,2026-11-02,UNC Wilmington,Mount Olive,4110,Gavin Walsh,27.54,18.42,5.63
+377925,2026-11-02,UNC Wilmington,Mount Olive,2565,Xavier Brown,21.56,17.46,7.16
 377925,2026-11-02,UNC Wilmington,Mount Olive,21069,Tyler Nelson,17.65,16.67,3.66
 377925,2026-11-02,UNC Wilmington,Mount Olive,5710,Patrick Wessler,18.3,16.6,5.11
-377925,2026-11-02,UNC Wilmington,Mount Olive,1990,Makel Smith,20.6,14.82,4.97
-377925,2026-11-02,UNC Wilmington,Mount Olive,386,CJ Luster II,15.88,10.55,2.19
-377925,2026-11-02,UNC Wilmington,Mount Olive,3897,Spencer Elliott,17.97,10.16,3.06
-377925,2026-11-02,UNC Wilmington,Mount Olive,203324,Tahlan Pettway,18.17,9.69,1.73
-377925,2026-11-02,UNC Wilmington,Mount Olive,1528,Jahnathan Lamothe,19.05,8.79,1.76
-377925,2026-11-02,UNC Wilmington,Mount Olive,200481,Treyvon Maddox,15.12,3.71,0.51
-377925,2026-11-02,UNC Wilmington,Mount Olive,233230,William Seward,5.12,0.0,0.0
-377925,2026-11-02,UNC Wilmington,Mount Olive,202931,Matija Prodanovic,5.12,0.0,0.0
-377925,2026-11-02,UNC Wilmington,Mount Olive,233220,Kellum Brown,3.52,0.0,0.0
+377925,2026-11-02,UNC Wilmington,Mount Olive,1990,Makel Smith,20.33,14.82,4.97
+377925,2026-11-02,UNC Wilmington,Mount Olive,386,CJ Luster II,15.56,10.55,2.19
+377925,2026-11-02,UNC Wilmington,Mount Olive,3897,Spencer Elliott,17.64,10.16,3.06
+377925,2026-11-02,UNC Wilmington,Mount Olive,203324,Tahlan Pettway,17.84,9.69,1.73
+377925,2026-11-02,UNC Wilmington,Mount Olive,1528,Jahnathan Lamothe,18.2,8.79,1.76
+377925,2026-11-02,UNC Wilmington,Mount Olive,200481,Treyvon Maddox,13.94,3.71,0.51
+377925,2026-11-02,UNC Wilmington,Mount Olive,233230,William Seward,4.26,0.0,0.0
+377925,2026-11-02,UNC Wilmington,Mount Olive,202931,Matija Prodanovic,4.26,0.0,0.0
+377925,2026-11-02,UNC Wilmington,Mount Olive,233220,Kellum Brown,2.93,0.0,0.0
 377926,2026-11-02,Green Bay,Lawrence University,6650,Marcus Hall,16.43,13.13,5.18
 377926,2026-11-02,Green Bay,Lawrence University,1800,Orlando Lovejoy,16.85,11.69,1.43
 377926,2026-11-02,Green Bay,Lawrence University,199093,Isaiah Sutherland,14.8,10.87,6.62
@@ -4399,16 +4399,16 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 378670,2026-11-02,Charleston,Southern Wesleyan,229016,Nicolo Virginio,10.48,0.0,0.0
 378670,2026-11-02,Charleston,Southern Wesleyan,4970,Conner Groce,6.37,0.0,0.0
 378670,2026-11-02,Charleston,Southern Wesleyan,198575,AJ Fowler,2.77,0.0,0.0
-378670,2026-11-02,Southern Wesleyan,Charleston,234162,Isaiah Smith,28.53,19.1,6.65
+378670,2026-11-02,Southern Wesleyan,Charleston,234162,Isaiah Smith,28.51,19.1,6.65
 378670,2026-11-02,Southern Wesleyan,Charleston,216318,Malachi Cooper,21.68,15.44,4.32
 378670,2026-11-02,Southern Wesleyan,Charleston,14180,Jake Hatch,20.28,14.4,2.96
 378670,2026-11-02,Southern Wesleyan,Charleston,9108,Jeremiah Camara,16.97,14.33,4.33
-378670,2026-11-02,Southern Wesleyan,Charleston,234161,Zion Dixon,17.45,11.41,1.19
-378670,2026-11-02,Southern Wesleyan,Charleston,234170,Jaren Morton,13.05,8.36,2.89
-378670,2026-11-02,Southern Wesleyan,Charleston,216315,Jayden Guillaume,12.55,6.84,2.32
-378670,2026-11-02,Southern Wesleyan,Charleston,216320,Jackson Moore,11.15,5.38,1.08
+378670,2026-11-02,Southern Wesleyan,Charleston,234161,Zion Dixon,17.43,11.41,1.19
+378670,2026-11-02,Southern Wesleyan,Charleston,234170,Jaren Morton,13.03,8.36,2.89
+378670,2026-11-02,Southern Wesleyan,Charleston,216315,Jayden Guillaume,12.53,6.84,2.32
+378670,2026-11-02,Southern Wesleyan,Charleston,216320,Jackson Moore,11.12,5.38,1.08
 378670,2026-11-02,Southern Wesleyan,Charleston,234168,RJ Lacossade,12.27,4.06,4.06
-378670,2026-11-02,Southern Wesleyan,Charleston,11405,Ceejay Jordan,8.87,3.88,0.8
+378670,2026-11-02,Southern Wesleyan,Charleston,11405,Ceejay Jordan,8.84,3.88,0.8
 378670,2026-11-02,Southern Wesleyan,Charleston,234169,D'Marcus Thomas,9.47,2.65,2.65
 378670,2026-11-02,Southern Wesleyan,Charleston,234163,Titus Driver,2.72,0.0,0.0
 378670,2026-11-02,Southern Wesleyan,Charleston,234167,Isaiah Davis,9.4,0.0,0.0
@@ -4479,29 +4479,29 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 372673,2026-11-03,Wofford,Tennessee,233767,Misho Kalinov,6.38,0.0,0.0
 372673,2026-11-03,Wofford,Tennessee,233762,Jhett Carter,5.27,0.0,0.0
 372673,2026-11-03,Wofford,Tennessee,203470,Davis Miller,0.93,0.0,0.0
-372674,2026-11-03,Alabama,Sam Houston,228360,Tarris Bouie,21.07,15.74,2.67
-372674,2026-11-03,Alabama,Sam Houston,228372,Qayden Samuels,20.67,14.71,5.19
-372674,2026-11-03,Alabama,Sam Houston,6139,Keitenn Bristow,23.85,14.43,4.35
-372674,2026-11-03,Alabama,Sam Houston,200588,Jamarion Davis-Fleming,18.6,14.41,4.43
+372674,2026-11-03,Alabama,Sam Houston,228360,Tarris Bouie,20.82,15.49,2.67
+372674,2026-11-03,Alabama,Sam Houston,228372,Qayden Samuels,20.42,14.46,5.19
+372674,2026-11-03,Alabama,Sam Houston,6139,Keitenn Bristow,23.6,14.18,4.35
+372674,2026-11-03,Alabama,Sam Houston,200588,Jamarion Davis-Fleming,18.35,14.16,4.43
 372674,2026-11-03,Alabama,Sam Houston,197887,London Jemison,17.38,12.48,4.89
-372674,2026-11-03,Alabama,Sam Houston,228371,Jaxon Richardson,20.72,11.92,0.0
+372674,2026-11-03,Alabama,Sam Houston,228371,Jaxon Richardson,20.47,11.67,0.0
 372674,2026-11-03,Alabama,Sam Houston,197881,Amari Allen,15.85,11.64,6.79
 372674,2026-11-03,Alabama,Sam Houston,567,Brandon Garrison,15.0,11.42,2.48
 372674,2026-11-03,Alabama,Sam Houston,8172,Drew Fielder,18.85,11.28,2.43
-372674,2026-11-03,Alabama,Sam Houston,228362,Cole Cloer,14.8,8.18,0.7
+372674,2026-11-03,Alabama,Sam Houston,228362,Cole Cloer,14.55,7.93,0.7
 372674,2026-11-03,Alabama,Sam Houston,228364,Anderson Diaz,11.0,3.83,0.0
 372674,2026-11-03,Alabama,Sam Houston,228373,TJ St. Louis,2.42,0.0,0.0
 372674,2026-11-03,Alabama,Sam Houston,197892,Collins Onyejiaka,1.3,0.0,0.0
-372674,2026-11-03,Sam Houston,Alabama,201843,Jacobe Coleman,31.58,21.11,5.91
-372674,2026-11-03,Sam Houston,Alabama,232201,Aidan McDowell,28.18,20.15,5.89
-372674,2026-11-03,Sam Houston,Alabama,199743,Enel St. Bernard,29.25,18.92,6.09
-372674,2026-11-03,Sam Houston,Alabama,2962,Justin Begg,27.05,17.34,5.22
-372674,2026-11-03,Sam Houston,Alabama,232198,Mahliq Guiseppi-Kitson,20.72,14.5,0.0
-372674,2026-11-03,Sam Houston,Alabama,5421,Riccardo Greppi,17.58,14.1,4.35
-372674,2026-11-03,Sam Houston,Alabama,4649,Zion Pipkin,23.73,13.23,1.77
-372674,2026-11-03,Sam Houston,Alabama,232206,Xavier Roberson,11.02,7.12,0.7
-372674,2026-11-03,Sam Houston,Alabama,232199,Rylan Kelly,10.02,4.96,1.57
-372674,2026-11-03,Sam Houston,Alabama,7050,Cheikh Sadibou Ndiaye,7.77,4.01,2.43
+372674,2026-11-03,Sam Houston,Alabama,201843,Jacobe Coleman,30.94,20.47,5.91
+372674,2026-11-03,Sam Houston,Alabama,232201,Aidan McDowell,27.64,19.6,5.89
+372674,2026-11-03,Sam Houston,Alabama,199743,Enel St. Bernard,28.56,18.22,6.09
+372674,2026-11-03,Sam Houston,Alabama,2962,Justin Begg,26.33,16.62,5.22
+372674,2026-11-03,Sam Houston,Alabama,232198,Mahliq Guiseppi-Kitson,19.57,13.35,0.0
+372674,2026-11-03,Sam Houston,Alabama,5421,Riccardo Greppi,16.59,13.11,4.35
+372674,2026-11-03,Sam Houston,Alabama,4649,Zion Pipkin,22.7,12.2,1.77
+372674,2026-11-03,Sam Houston,Alabama,232206,Xavier Roberson,10.56,6.66,0.7
+372674,2026-11-03,Sam Houston,Alabama,232199,Rylan Kelly,9.51,4.45,1.57
+372674,2026-11-03,Sam Houston,Alabama,7050,Cheikh Sadibou Ndiaye,7.61,3.84,2.43
 374595,2026-11-03,Milligan,UNC Greensboro,213987,Te'Jon McDaniel-McCormick,32.15,18.89,6.33
 374595,2026-11-03,Milligan,UNC Greensboro,213994,Zack Turner,24.6,15.69,6.33
 374595,2026-11-03,Milligan,UNC Greensboro,234530,William Robinson,22.67,14.22,3.48
@@ -4797,14 +4797,14 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374606,2026-11-03,Hampton,Georgia Tech,229924,Rav Randhawa,5.78,4.95,0.73
 374606,2026-11-03,Hampton,Georgia Tech,229912,Peter Da Cruz,1.95,1.95,0.0
 374606,2026-11-03,Hampton,Georgia Tech,229923,William Preston,0.8,0.16,0.0
-374607,2026-11-03,Cal State Fullerton,San Diego State,16734,Joshua Ward,30.82,27.43,5.72
-374607,2026-11-03,Cal State Fullerton,San Diego State,228907,Matthew Willenborg,23.12,22.65,2.4
+374607,2026-11-03,Cal State Fullerton,San Diego State,16734,Joshua Ward,29.75,26.36,5.72
+374607,2026-11-03,Cal State Fullerton,San Diego State,228907,Matthew Willenborg,22.05,21.59,2.4
 374607,2026-11-03,Cal State Fullerton,San Diego State,7755,Bailey Nunn,26.93,20.08,3.57
-374607,2026-11-03,Cal State Fullerton,San Diego State,198472,Christian Williams,20.35,18.05,2.77
-374607,2026-11-03,Cal State Fullerton,San Diego State,228901,Anthony Ponga,24.43,17.82,3.41
-374607,2026-11-03,Cal State Fullerton,San Diego State,228904,Tiernan Stynes,21.1,17.55,3.69
-374607,2026-11-03,Cal State Fullerton,San Diego State,228895,Malcolm Bell,17.15,16.81,1.24
-374607,2026-11-03,Cal State Fullerton,San Diego State,15255,Rockwell Reynolds,21.22,16.06,5.02
+374607,2026-11-03,Cal State Fullerton,San Diego State,198472,Christian Williams,19.28,16.98,2.77
+374607,2026-11-03,Cal State Fullerton,San Diego State,228901,Anthony Ponga,23.37,16.76,3.41
+374607,2026-11-03,Cal State Fullerton,San Diego State,228904,Tiernan Stynes,20.03,16.49,3.69
+374607,2026-11-03,Cal State Fullerton,San Diego State,228895,Malcolm Bell,16.42,16.08,1.24
+374607,2026-11-03,Cal State Fullerton,San Diego State,15255,Rockwell Reynolds,20.15,15.0,5.02
 374607,2026-11-03,Cal State Fullerton,San Diego State,6971,Marley Zeller,18.22,14.54,2.34
 374607,2026-11-03,Cal State Fullerton,San Diego State,228897,Greg Howard Jr.,1.9,0.0,0.0
 374607,2026-11-03,Cal State Fullerton,San Diego State,228894,Henry Beckett,1.9,0.0,0.0
@@ -5158,13 +5158,13 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374617,2026-11-04,Furman,Bob Jones,229719,Nikos Koulisianis,12.47,0.0,0.0
 374617,2026-11-04,Furman,Bob Jones,229727,Nate Wilbourne,3.75,0.0,0.0
 374618,2026-11-04,Grace University,Utah Tech,234830,Nehemiah Johnson,25.75,18.0,6.76
-374618,2026-11-04,Grace University,Utah Tech,10635,Maksim Aliakseyeu,27.22,14.11,4.39
-374618,2026-11-04,Grace University,Utah Tech,234832,Noah Charles,31.25,12.61,5.59
-374618,2026-11-04,Grace University,Utah Tech,212033,Caleb Palmer,27.07,12.45,1.0
-374618,2026-11-04,Grace University,Utah Tech,234833,Ante Topic,18.8,7.34,5.59
-374618,2026-11-04,Grace University,Utah Tech,234831,Tiyere Martin,17.47,7.0,2.37
+374618,2026-11-04,Grace University,Utah Tech,10635,Maksim Aliakseyeu,27.13,14.11,4.39
+374618,2026-11-04,Grace University,Utah Tech,234832,Noah Charles,31.17,12.61,5.59
+374618,2026-11-04,Grace University,Utah Tech,212033,Caleb Palmer,26.98,12.45,1.0
+374618,2026-11-04,Grace University,Utah Tech,234833,Ante Topic,18.72,7.34,5.59
+374618,2026-11-04,Grace University,Utah Tech,234831,Tiyere Martin,17.38,7.0,2.37
 374618,2026-11-04,Grace University,Utah Tech,234837,Thibault Merino,5.68,4.67,0.87
-374618,2026-11-04,Grace University,Utah Tech,234834,Hannes Bergmann,7.53,1.67,1.16
+374618,2026-11-04,Grace University,Utah Tech,234834,Hannes Bergmann,7.45,1.67,1.16
 374618,2026-11-04,Grace University,Utah Tech,234836,Oliver Merks,5.85,0.94,0.29
 374618,2026-11-04,Grace University,Utah Tech,234835,Leandro Runje,7.7,0.41,0.0
 374618,2026-11-04,Utah Tech,Grace University,227814,Christian Gibson,24.63,15.41,5.39
@@ -5180,16 +5180,16 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374618,2026-11-04,Utah Tech,Grace University,6836,Samuel Ariyibi,4.95,1.73,0.0
 374618,2026-11-04,Utah Tech,Grace University,227812,Jax Clark,7.87,0.0,0.0
 374618,2026-11-04,Utah Tech,Grace University,227820,Petros Ragkos,4.88,0.0,0.0
-374619,2026-11-04,Auburn,SE Louisiana,7583,Kevin Overton,23.43,19.69,6.99
-374619,2026-11-04,Auburn,SE Louisiana,9,Tahaad Pettiford,22.6,19.07,6.2
-374619,2026-11-04,Auburn,SE Louisiana,2532,Thomas Dowd,26.98,19.05,6.2
-374619,2026-11-04,Auburn,SE Louisiana,1562,George Kimble III,23.72,17.11,7.31
-374619,2026-11-04,Auburn,SE Louisiana,829,Bukky Oboye,19.58,15.42,4.13
-374619,2026-11-04,Auburn,SE Louisiana,223265,Caleb Williams,18.3,14.97,2.99
-374619,2026-11-04,Auburn,SE Louisiana,202041,Adam Olsen,21.7,13.75,4.31
-374619,2026-11-04,Auburn,SE Louisiana,223256,Narcisse Ngoy,19.03,13.31,3.17
+374619,2026-11-04,Auburn,SE Louisiana,7583,Kevin Overton,22.21,18.51,5.96
+374619,2026-11-04,Auburn,SE Louisiana,9,Tahaad Pettiford,21.32,17.83,5.17
+374619,2026-11-04,Auburn,SE Louisiana,2532,Thomas Dowd,25.7,17.81,5.17
+374619,2026-11-04,Auburn,SE Louisiana,1562,George Kimble III,22.43,15.87,6.27
+374619,2026-11-04,Auburn,SE Louisiana,829,Bukky Oboye,18.85,14.73,3.45
+374619,2026-11-04,Auburn,SE Louisiana,223265,Caleb Williams,17.59,14.27,2.49
+374619,2026-11-04,Auburn,SE Louisiana,202041,Adam Olsen,21.13,13.21,3.78
+374619,2026-11-04,Auburn,SE Louisiana,223256,Narcisse Ngoy,18.48,12.75,2.83
 374619,2026-11-04,Auburn,SE Louisiana,5479,Owen Freeman,11.63,9.67,1.1
-374619,2026-11-04,Auburn,SE Louisiana,1502,Kolby King,15.18,9.03,0.31
+374619,2026-11-04,Auburn,SE Louisiana,1502,Kolby King,15.12,8.97,0.31
 374619,2026-11-04,Auburn,SE Louisiana,15,Blake Muschalek,1.38,0.0,0.0
 374619,2026-11-04,Auburn,SE Louisiana,198108,Simon Walker,1.38,0.0,0.0
 374619,2026-11-04,Auburn,SE Louisiana,12,Drake Cardwell,1.38,0.0,0.0
@@ -5681,19 +5681,19 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 377946,2026-11-04,Old Dominion,Regent,2640,Rieco Hellams,8.07,0.0,0.0
 377946,2026-11-04,Old Dominion,Regent,231653,Theo Gerges,5.58,0.0,0.0
 377946,2026-11-04,Old Dominion,Regent,2638,CJ Parker,5.58,0.0,0.0
-377946,2026-11-04,Regent,Old Dominion,214027,Joshua Hanna,25.2,12.79,6.48
-377946,2026-11-04,Regent,Old Dominion,214028,Chase Mullen,17.38,11.65,5.1
-377946,2026-11-04,Regent,Old Dominion,12493,Christian Brown,22.13,10.46,3.05
-377946,2026-11-04,Regent,Old Dominion,14350,Ichi Layne,24.15,8.35,2.05
-377946,2026-11-04,Regent,Old Dominion,234668,Chauncey Gilliam,13.83,7.41,0.83
-377946,2026-11-04,Regent,Old Dominion,234673,Jalen Gribbins,15.32,5.56,5.56
-377946,2026-11-04,Regent,Old Dominion,214030,Dorian Tema,26.73,4.99,1.67
-377946,2026-11-04,Regent,Old Dominion,234672,Joziah Mincey,9.6,4.95,4.26
-377946,2026-11-04,Regent,Old Dominion,234671,Lamar Walters,9.62,4.83,3.05
-377946,2026-11-04,Regent,Old Dominion,214035,Jaxson Delane,9.82,2.53,2.22
-377946,2026-11-04,Regent,Old Dominion,234669,Xavier Bland,13.53,2.22,2.22
-377946,2026-11-04,Regent,Old Dominion,214029,Grant Worley,14.02,1.59,0.08
-377946,2026-11-04,Regent,Old Dominion,12489,Antoine Brown,12.2,0.03,0.0
+377946,2026-11-04,Regent,Old Dominion,214027,Joshua Hanna,23.48,12.73,6.48
+377946,2026-11-04,Regent,Old Dominion,214028,Chase Mullen,16.54,11.65,5.1
+377946,2026-11-04,Regent,Old Dominion,12493,Christian Brown,20.27,10.4,3.05
+377946,2026-11-04,Regent,Old Dominion,14350,Ichi Layne,22.54,8.3,2.05
+377946,2026-11-04,Regent,Old Dominion,234668,Chauncey Gilliam,13.17,7.41,0.83
+377946,2026-11-04,Regent,Old Dominion,234673,Jalen Gribbins,15.14,5.56,5.56
+377946,2026-11-04,Regent,Old Dominion,234672,Joziah Mincey,9.09,4.95,4.26
+377946,2026-11-04,Regent,Old Dominion,214030,Dorian Tema,24.32,4.93,1.67
+377946,2026-11-04,Regent,Old Dominion,234671,Lamar Walters,8.82,4.83,3.05
+377946,2026-11-04,Regent,Old Dominion,214035,Jaxson Delane,8.91,2.48,2.22
+377946,2026-11-04,Regent,Old Dominion,234669,Xavier Bland,12.99,2.22,2.22
+377946,2026-11-04,Regent,Old Dominion,214029,Grant Worley,12.86,1.54,0.08
+377946,2026-11-04,Regent,Old Dominion,12489,Antoine Brown,10.94,0.03,0.0
 377946,2026-11-04,Regent,Old Dominion,234670,AJ Kilmartin,0.92,0.0,0.0
 377947,2026-11-04,App State,Christendom,8644,Jaylen Colon,12.65,9.75,1.88
 377947,2026-11-04,App State,Christendom,1361,Andrin Njock,13.43,9.55,3.65
