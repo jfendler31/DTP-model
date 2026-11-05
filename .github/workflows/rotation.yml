@@ -1,0 +1,36 @@
+# Leverage-weighted rotation depth from CBBD play-by-play (jobs/rotation.py).
+# Runs every morning for yesterday's games; on demand via Actions -> Rotation depth,
+# or by putting "--start YYYY-MM-DD --end YYYY-MM-DD" in triggers/rotation.txt.
+name: Rotation depth
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 11 * * *'
+  push:
+    paths: ['triggers/rotation.txt']
+permissions:
+  contents: write
+concurrency:
+  group: rotation
+  cancel-in-progress: false
+jobs:
+  rotation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pandas
+      - name: Build
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then ARGS="$(cat triggers/rotation.txt)"; else ARGS=""; fi
+          python jobs/rotation.py $ARGS
+        env:
+          CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
+      - name: Save
+        run: |
+          git config user.name "dtp-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/rotation
+          git commit -m "rotation depth" || echo "nothing new"
+          git pull --rebase origin main && git push origin HEAD:main
