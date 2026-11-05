@@ -1,44 +1,44 @@
 ﻿tip_ET,away,home,venue,model,market,n_books,total,edge,model_size_adj,edge_size_adj,edge_inseason_only,prior_wt_away,prior_wt_home,notes,model_home_spread,market_home_spread,edge_size,model_home_spread_adj,edge_size_adj_num
-Thu Nov 5 5:00 PM,McNeese,North Texas,H,McNeese -0.9,,0,,,McNeese -0.9,,n/a (<5 games),89%,100%,,0.9,,,0.9,
-Thu Nov 5 6:00 PM,Wake Forest,Vanderbilt,H,Vanderbilt -15.9,Vanderbilt -16,4,153.5,Wake 0.1,Vanderbilt -16.0,-,n/a (<5 games),89%,89%,,-15.9,-16.0,0.1,-16.0,0.0
-Thu Nov 5 6:00 PM,Chicago St.,Incarnate Word,H,UIW -6.5,,0,,,UIW -6.5,,n/a (<5 games),89%,89%,,-6.5,,,-6.5,
-Thu Nov 5 6:00 PM,Chattanooga,Penn St.,H,Penn St -13.6,Penn St -16,4,157.0,Chattanooga 2.4,Penn St -13.6,Chattanooga 2.4,n/a (<5 games),89%,89%,,-13.6,-16.0,2.4,-13.6,2.4
-Thu Nov 5 6:00 PM,Bellarmine,Indiana,H,Indiana -27.1,,0,,,Indiana -28.9,,n/a (<5 games),89%,89%,,-27.1,,,-28.9,
-Thu Nov 5 6:30 PM,LIU,Seton Hall,H,Seton Hall -18.0,,0,,,Seton Hall -18.4,,n/a (<5 games),89%,89%,,-18.0,,,-18.4,
-Thu Nov 5 7:00 PM,Buffalo,Pittsburgh,H,Pittsburgh -14.9,Pittsburgh -18,4,150.0,Buffalo 3.1,Pittsburgh -14.9,Buffalo 3.1,n/a (<5 games),89%,89%,,-14.9,-18.0,3.1,-14.9,3.1
-Thu Nov 5 7:00 PM,Central Connecticut,Syracuse,H,Syracuse -22.9,,0,,,Syracuse -24.1,,n/a (<5 games),89%,89%,,-22.9,,,-24.1,
-Thu Nov 5 7:00 PM,Binghamton,Saint Peter's,H,St. Peter's -7.5,,0,,,St. Peter's -7.5,,n/a (<5 games),89%,89%,,-7.5,,,-7.5,
-Thu Nov 5 7:00 PM,Mercer,Virginia Tech,H,Va Tech -18.7,Va Tech -19.5,5,152.5,Mercer 0.8,Va Tech -19.3,Mercer 0.2,n/a (<5 games),100%,89%,,-18.7,-19.5,0.8,-19.3,0.2
-Thu Nov 5 7:00 PM,Vermont,Fairfield,H,Vermont -0.5,,0,,,Vermont -0.5,,n/a (<5 games),89%,100%,,0.5,,,0.5,
-Thu Nov 5 7:00 PM,NJIT,Iona,H,Iona -8.9,,0,,,Iona -8.9,,n/a (<5 games),89%,89%,,-8.9,,,-8.9,
-Thu Nov 5 7:00 PM,UMBC,Marist,H,Marist -2.0,,0,,,Marist -2.0,,n/a (<5 games),89%,89%,,-2.0,,,-2.0,
-Thu Nov 5 7:00 PM,Delaware St.,Navy,H,Navy -9.2,,0,,,Navy -9.2,,n/a (<5 games),100%,89%,,-9.2,,,-9.2,
-Thu Nov 5 7:00 PM,Albany,Manhattan,H,Manhattan -2.4,,0,,,Manhattan -2.4,,n/a (<5 games),100%,89%,,-2.4,,,-2.4,
-Thu Nov 5 7:00 PM,Mercyhurst,Notre Dame,H,Notre Dame -21.2,,0,,,Notre Dame -22.1,,n/a (<5 games),89%,89%,,-21.2,,,-22.1,
-Thu Nov 5 7:00 PM,Bryant,Quinnipiac,H,Quinnipiac -6.6,,0,,,Quinnipiac -6.6,,n/a (<5 games),89%,89%,,-6.6,,,-6.6,
-Thu Nov 5 7:00 PM,UMass Lowell,Merrimack,H,Merrimack -8.4,,0,,,Merrimack -8.4,,n/a (<5 games),100%,89%,,-8.4,,,-8.4,
-Thu Nov 5 7:00 PM,Howard,Alcorn St.,H,Howard -9.6,,0,,,Howard -9.6,,n/a (<5 games),89%,89%,,9.6,,,9.6,
-Thu Nov 5 7:00 PM,Hofstra,Princeton,H,Princeton -2.0,Princeton -2,4,141.0,-,Princeton -2.0,-,n/a (<5 games),100%,100%,,-2.0,-2.0,0.0,-2.0,0.0
-Thu Nov 5 7:00 PM,Georgia St.,Charlotte,H,Charlotte -12.9,Charlotte -11.5,5,151.0,Charlotte 1.4,Charlotte -12.9,Charlotte 1.4,n/a (<5 games),89%,89%,,-12.9,-11.5,1.4,-12.9,1.4
-Thu Nov 5 7:00 PM,Green Bay,Cincinnati,H,Cincinnati -21.8,Cincinnati -22.5,4,148.0,Green Bay 0.7,Cincinnati -22.8,Cincinnati 0.3,n/a (<5 games),100%,89%,,-21.8,-22.5,0.7,-22.8,0.3
-Thu Nov 5 7:00 PM,Maine,Sacred Heart,H,Sacred Heart -5.3,,0,,,Sacred Heart -5.3,,n/a (<5 games),89%,100%,,-5.3,,,-5.3,
-Thu Nov 5 7:00 PM,New Hampshire,Rider,H,New Hampshire -2.0,,0,,,New Hampshire -2.0,,n/a (<5 games),89%,89%,,2.0,,,2.0,
-Thu Nov 5 7:00 PM,Cornell,Lehigh,H,Lehigh -0.4,,0,,,Lehigh -0.4,,n/a (<5 games),89%,89%,,-0.4,,,-0.4,
-Thu Nov 5 7:30 PM,Jackson St.,Tulane,H,Tulane -11.2,,0,,,Tulane -11.2,,n/a (<5 games),89%,89%,,-11.2,,,-11.2,
-Thu Nov 5 7:30 PM,Stonehill,Fordham,H,Fordham -16.0,,0,,,Fordham -16.1,,n/a (<5 games),100%,89%,,-16.0,,,-16.1,
-Thu Nov 5 7:30 PM,Northwestern St.,Mississippi St.,H,Miss St -19.4,,0,,,Miss St -20.1,,n/a (<5 games),89%,89%,,-19.4,,,-20.1,
-Thu Nov 5 8:00 PM,Le Moyne,Creighton,H,Creighton -25.8,,0,,,Creighton -27.4,,n/a (<5 games),89%,89%,,-25.8,,,-27.4,
-Thu Nov 5 8:00 PM,Northern Illinois,Tulsa,H,Tulsa -15.5,Tulsa -16,4,153.5,NIU 0.5,Tulsa -15.6,NIU 0.4,n/a (<5 games),89%,100%,,-15.5,-16.0,0.5,-15.6,0.4
-Thu Nov 5 8:00 PM,West Georgia,Loyola Chicago,H,Loyola Chi -15.8,Loyola Chi -15,4,142.0,Loyola Chi 0.8,Loyola Chi -15.9,Loyola Chi 0.9,n/a (<5 games),89%,89%,,-15.8,-15.0,0.8,-15.9,0.9
-Thu Nov 5 8:00 PM,VMI,SMU,H,SMU -23.8,SMU -23.5,5,156.0,SMU 0.3,SMU -25.1,SMU 1.6,n/a (<5 games),100%,89%,,-23.8,-23.5,0.3,-25.1,1.6
-Thu Nov 5 8:00 PM,East Texas A&M,Rice,H,Rice -3.4,,0,,,Rice -3.4,,n/a (<5 games),89%,100%,,-3.4,,,-3.4,
-Thu Nov 5 8:00 PM,Coastal Carolina,Duke,H,Duke -35.7,Duke -39,4,147.0,Coastal 3.3,Duke -38.8,Coastal 0.2,n/a (<5 games),89%,89%,,-35.7,-39.0,3.3,-38.8,0.2
-Thu Nov 5 8:00 PM,Gardner Webb,Texas,H,Texas -37.3,,0,,,Texas -40.6,,n/a (<5 games),89%,89%,,-37.3,,,-40.6,
-Thu Nov 5 8:00 PM,Toledo,Michigan St.,H,Mich St -25.4,Mich St -26,4,151.0,Toledo 0.6,Mich St -27.0,Mich St 1.0,n/a (<5 games),89%,89%,,-25.4,-26.0,0.6,-27.0,1.0
-Thu Nov 5 8:00 PM,Jacksonville,Florida,H,Florida -35.0,,0,,,Florida -38.0,,n/a (<5 games),100%,89%,,-35.0,,,-38.0,
-Thu Nov 5 8:00 PM,Jacksonville St.,South Alabama,H,Jax St -0.6,S Alabama -2,4,144.0,Jax St 2.6,Jax St -0.6,Jax St 2.6,n/a (<5 games),100%,89%,,0.6,-2.0,2.6,0.6,2.6
+Thu Nov 5 5:00 PM,McNeese,North Texas,H,McNeese -0.9,McNeese -1.5,6,143.5,North Texas 0.6,McNeese -0.9,North Texas 0.6,n/a (<5 games),89%,100%,,0.9,1.5,0.6,0.9,0.6
+Thu Nov 5 6:00 PM,Wake Forest,Vanderbilt,H,Vanderbilt -15.9,Vanderbilt -17.5,10,155.0,Wake 1.6,Vanderbilt -16.0,Wake 1.5,n/a (<5 games),89%,89%,,-15.9,-17.5,1.6,-16.0,1.5
+Thu Nov 5 6:00 PM,Chicago St.,Incarnate Word,H,UIW -6.5,UIW -7.5,3,145.5,Chicago St 1.0,UIW -6.5,Chicago St 1.0,n/a (<5 games),89%,89%,,-6.5,-7.5,1.0,-6.5,1.0
+Thu Nov 5 6:00 PM,Chattanooga,Penn St.,H,Penn St -13.7,Penn St -12.5,10,160.0,Penn St 1.2,Penn St -13.7,Penn St 1.2,n/a (<5 games),89%,89%,,-13.7,-12.5,1.2,-13.7,1.2
+Thu Nov 5 6:00 PM,Bellarmine,Indiana,H,Indiana -27.2,Indiana -26.5,6,153.5,Indiana 0.7,Indiana -29.0,Indiana 2.5,n/a (<5 games),89%,89%,,-27.2,-26.5,0.7,-29.0,2.5
+Thu Nov 5 6:30 PM,LIU,Seton Hall,H,Seton Hall -18.1,Seton Hall -17.5,6,140.5,Seton Hall 0.6,Seton Hall -18.6,Seton Hall 1.1,n/a (<5 games),89%,89%,,-18.1,-17.5,0.6,-18.6,1.1
+Thu Nov 5 7:00 PM,Buffalo,Pittsburgh,H,Pittsburgh -14.9,Pittsburgh -18.5,10,151.0,Buffalo 3.6,Pittsburgh -14.9,Buffalo 3.6,n/a (<5 games),89%,89%,,-14.9,-18.5,3.6,-14.9,3.6
+Thu Nov 5 7:00 PM,Central Connecticut,Syracuse,H,Syracuse -23.1,Syracuse -21.5,6,136.5,Syracuse 1.6,Syracuse -24.3,Syracuse 2.8,n/a (<5 games),89%,89%,,-23.1,-21.5,1.6,-24.3,2.8
+Thu Nov 5 7:00 PM,Binghamton,Saint Peter's,H,St. Peter's -7.5,St. Peter's -7.5,6,139.5,-,St. Peter's -7.5,-,n/a (<5 games),89%,89%,,-7.5,-7.5,0.0,-7.5,0.0
+Thu Nov 5 7:00 PM,Mercer,Virginia Tech,H,Va Tech -18.7,Va Tech -21.5,10,153.0,Mercer 2.8,Va Tech -19.3,Mercer 2.2,n/a (<5 games),100%,89%,,-18.7,-21.5,2.8,-19.3,2.2
+Thu Nov 5 7:00 PM,Vermont,Fairfield,H,Vermont -0.5,Fairfield -1.5,6,141.5,Vermont 2.0,Vermont -0.5,Vermont 2.0,n/a (<5 games),89%,100%,,0.5,-1.5,2.0,0.5,2.0
+Thu Nov 5 7:00 PM,NJIT,Iona,H,Iona -8.9,Iona -9.5,6,146.5,NJIT 0.6,Iona -8.9,NJIT 0.6,n/a (<5 games),89%,89%,,-8.9,-9.5,0.6,-8.9,0.6
+Thu Nov 5 7:00 PM,UMBC,Marist,H,Marist -2.1,Marist -3.5,6,141.5,UMBC 1.4,Marist -2.1,UMBC 1.4,n/a (<5 games),89%,89%,,-2.1,-3.5,1.4,-2.1,1.4
+Thu Nov 5 7:00 PM,Delaware St.,Navy,H,Navy -9.2,Navy -8.5,6,138.5,Navy 0.7,Navy -9.2,Navy 0.7,n/a (<5 games),100%,89%,,-9.2,-8.5,0.7,-9.2,0.7
+Thu Nov 5 7:00 PM,Albany,Manhattan,H,Manhattan -2.4,Manhattan -3.5,6,149.5,Albany 1.1,Manhattan -2.4,Albany 1.1,n/a (<5 games),100%,89%,,-2.4,-3.5,1.1,-2.4,1.1
+Thu Nov 5 7:00 PM,Mercyhurst,Notre Dame,H,Notre Dame -21.2,Notre Dame -19.5,6,142.5,Notre Dame 1.7,Notre Dame -22.1,Notre Dame 2.6,n/a (<5 games),89%,89%,,-21.2,-19.5,1.7,-22.1,2.6
+Thu Nov 5 7:00 PM,Bryant,Quinnipiac,H,Quinnipiac -6.5,Quinnipiac -4.5,6,150.5,Quinnipiac 2.0,Quinnipiac -6.5,Quinnipiac 2.0,n/a (<5 games),89%,89%,,-6.5,-4.5,2.0,-6.5,2.0
+Thu Nov 5 7:00 PM,UMass Lowell,Merrimack,H,Merrimack -8.4,Merrimack -7.5,6,143.5,Merrimack 0.9,Merrimack -8.4,Merrimack 0.9,n/a (<5 games),100%,89%,,-8.4,-7.5,0.9,-8.4,0.9
+Thu Nov 5 7:00 PM,Howard,Alcorn St.,H,Howard -9.6,Howard -7.5,6,150.5,Howard 2.1,Howard -9.6,Howard 2.1,n/a (<5 games),89%,89%,,9.6,7.5,2.1,9.6,2.1
+Thu Nov 5 7:00 PM,Hofstra,Princeton,H,Princeton -2.0,Princeton -3,10,139.5,Hofstra 1.0,Princeton -2.0,Hofstra 1.0,n/a (<5 games),100%,100%,,-2.0,-3.0,1.0,-2.0,1.0
+Thu Nov 5 7:00 PM,Georgia St.,Charlotte,H,Charlotte -12.7,Charlotte -11.5,10,146.5,Charlotte 1.2,Charlotte -12.7,Charlotte 1.2,n/a (<5 games),89%,89%,,-12.7,-11.5,1.2,-12.7,1.2
+Thu Nov 5 7:00 PM,Green Bay,Cincinnati,H,Cincinnati -21.9,Cincinnati -24.5,10,153.0,Green Bay 2.6,Cincinnati -22.9,Green Bay 1.6,n/a (<5 games),100%,89%,,-21.9,-24.5,2.6,-22.9,1.6
+Thu Nov 5 7:00 PM,Maine,Sacred Heart,H,Sacred Heart -5.3,Sacred Heart -5.5,6,143.5,Maine 0.2,Sacred Heart -5.3,Maine 0.2,n/a (<5 games),89%,100%,,-5.3,-5.5,0.2,-5.3,0.2
+Thu Nov 5 7:00 PM,New Hampshire,Rider,H,New Hampshire -1.9,Rider -1.5,6,141.5,New Hampshire 3.4,New Hampshire -1.9,New Hampshire 3.4,n/a (<5 games),89%,89%,,1.9,-1.5,3.4,1.9,3.4
+Thu Nov 5 7:00 PM,Cornell,Lehigh,H,Lehigh -0.3,Cornell -1.5,6,159.5,Lehigh 1.8,Lehigh -0.3,Lehigh 1.8,n/a (<5 games),89%,89%,,-0.3,1.5,1.8,-0.3,1.8
+Thu Nov 5 7:30 PM,Jackson St.,Tulane,H,Tulane -11.3,Tulane -12.5,6,153.5,Jackson St 1.2,Tulane -11.3,Jackson St 1.2,n/a (<5 games),89%,89%,,-11.3,-12.5,1.2,-11.3,1.2
+Thu Nov 5 7:30 PM,Stonehill,Fordham,H,Fordham -16.0,Fordham -17.5,6,143.5,Stonehill 1.5,Fordham -16.1,Stonehill 1.4,n/a (<5 games),100%,89%,,-16.0,-17.5,1.5,-16.1,1.4
+Thu Nov 5 7:30 PM,Northwestern St.,Mississippi St.,H,Miss St -19.5,Miss St -21.5,6,152.5,NW State 2.0,Miss St -20.2,NW State 1.3,n/a (<5 games),89%,89%,,-19.5,-21.5,2.0,-20.2,1.3
+Thu Nov 5 8:00 PM,Le Moyne,Creighton,H,Creighton -25.9,Creighton -26.5,6,155.5,Le Moyne 0.6,Creighton -27.5,Creighton 1.0,n/a (<5 games),89%,89%,,-25.9,-26.5,0.6,-27.5,1.0
+Thu Nov 5 8:00 PM,Northern Illinois,Tulsa,H,Tulsa -15.5,Tulsa -14,8,153.5,Tulsa 1.5,Tulsa -15.6,Tulsa 1.6,n/a (<5 games),89%,100%,,-15.5,-14.0,1.5,-15.6,1.6
+Thu Nov 5 8:00 PM,West Georgia,Loyola Chicago,H,Loyola Chi -15.9,Loyola Chi -18.5,9,144.5,W Georgia 2.6,Loyola Chi -16.0,W Georgia 2.5,n/a (<5 games),89%,89%,,-15.9,-18.5,2.6,-16.0,2.5
+Thu Nov 5 8:00 PM,VMI,SMU,H,SMU -23.9,SMU -24.5,10,159.5,VMI 0.6,SMU -25.2,SMU 0.7,n/a (<5 games),100%,89%,,-23.9,-24.5,0.6,-25.2,0.7
+Thu Nov 5 8:00 PM,East Texas A&M,Rice,H,Rice -3.5,Rice -4.5,6,145.5,E Texas A&M 1.0,Rice -3.5,E Texas A&M 1.0,n/a (<5 games),89%,100%,,-3.5,-4.5,1.0,-3.5,1.0
+Thu Nov 5 8:00 PM,Coastal Carolina,Duke,H,Duke -35.7,Duke -40.5,10,148.0,Coastal 4.8,Duke -38.8,Coastal 1.7,n/a (<5 games),89%,89%,,-35.7,-40.5,4.8,-38.8,1.7
+Thu Nov 5 8:00 PM,Gardner Webb,Texas,H,Texas -37.4,Texas -38.5,6,154.5,Gardner-Webb 1.1,Texas -40.8,Texas 2.3,n/a (<5 games),89%,89%,,-37.4,-38.5,1.1,-40.8,2.3
+Thu Nov 5 8:00 PM,Toledo,Michigan St.,H,Mich St -25.5,Mich St -26.5,10,153.0,Toledo 1.0,Mich St -27.1,Mich St 0.6,n/a (<5 games),89%,89%,,-25.5,-26.5,1.0,-27.1,0.6
+Thu Nov 5 8:00 PM,Jacksonville,Florida,H,Florida -35.0,Florida -33.5,6,152.5,Florida 1.5,Florida -38.0,Florida 4.5,n/a (<5 games),100%,89%,,-35.0,-33.5,1.5,-38.0,4.5
+Thu Nov 5 8:00 PM,Jacksonville St.,South Alabama,H,Jax St -0.5,S Alabama -5.5,10,142.0,Jax St 6.0,Jax St -0.5,Jax St 6.0,n/a (<5 games),100%,89%,,0.5,-5.5,6.0,0.5,6.0
 Thu Nov 5 8:30 PM,Penn,Illinois,H,Illinois -27.5,,0,,,Illinois -29.4,,n/a (<5 games),100%,89%,,-27.5,,,-29.4,
-Thu Nov 5 8:30 PM,South Florida,DePaul,H,DePaul -5.7,DePaul -5,4,148.0,DePaul 0.7,DePaul -5.7,DePaul 0.7,n/a (<5 games),89%,89%,,-5.7,-5.0,0.7,-5.7,0.7
-Thu Nov 5 9:00 PM,Towson,Utah,H,Utah -11.5,Utah -10.5,5,140.5,Utah 1.0,Utah -11.5,Utah 1.0,n/a (<5 games),89%,89%,,-11.5,-10.5,1.0,-11.5,1.0
-Thu Nov 5 9:00 PM,Bethune Cookman,Texas Tech,H,Texas Tech -28.0,,0,,,Texas Tech -30.0,,n/a (<5 games),89%,89%,Jamichael Stillwell out (-0.6),-28.0,,,-30.0,
-Thu Nov 5 10:30 PM,Cal Poly,Arizona,H,Arizona -26.9,Arizona -28.5,5,168.5,Cal Poly 1.6,Arizona -28.7,Arizona 0.2,n/a (<5 games),100%,89%,RJ Godfrey out (-1.6),-26.9,-28.5,1.6,-28.7,0.2
+Thu Nov 5 8:30 PM,South Florida,DePaul,H,DePaul -5.8,DePaul -6.5,9,150.5,South Florida 0.7,DePaul -5.8,South Florida 0.7,n/a (<5 games),89%,89%,,-5.8,-6.5,0.7,-5.8,0.7
+Thu Nov 5 9:00 PM,Towson,Utah,H,Utah -11.6,Utah -9.5,10,141.5,Utah 2.1,Utah -11.6,Utah 2.1,n/a (<5 games),89%,89%,,-11.6,-9.5,2.1,-11.6,2.1
+Thu Nov 5 9:00 PM,Bethune Cookman,Texas Tech,H,Texas Tech -28.0,Texas Tech -26.5,6,150.5,Texas Tech 1.5,Texas Tech -30.0,Texas Tech 3.5,n/a (<5 games),89%,89%,Jamichael Stillwell out (-0.6),-28.0,-26.5,1.5,-30.0,3.5
+Thu Nov 5 10:30 PM,Cal Poly,Arizona,H,Arizona -26.9,Arizona -30.5,9,173.0,Cal Poly 3.6,Arizona -28.7,Cal Poly 1.8,n/a (<5 games),100%,89%,RJ Godfrey out (-1.6),-26.9,-30.5,3.6,-28.7,1.8
