@@ -24,7 +24,7 @@ jobs:
       - run: pip install requests pandas
       - name: Build
         run: |
-          if [ "${{ github.event_name }}" = "push" ]; then ARGS="$(cat triggers/rotation.txt)"; else ARGS=""; fi
+          if [ "${{ github.event_name }}" = "push" ]; then ARGS="$(grep -v "^#" triggers/rotation.txt | head -1)"; else ARGS=""; fi
           python jobs/rotation.py $ARGS
         env:
           CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
