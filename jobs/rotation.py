@@ -87,7 +87,9 @@ def second_weights(plays, elapsed, end):
     return w
 
 def stints_from_floor(plays, elapsed, end, team):
-    """[(athleteId, name, t0, t1)] from the on-floor list carried on each play"""
+    """[(athleteId, name, t0, t1, share)] from the on-floor list carried on each play.
+    When the feed lists more than five for a stretch, each listed player gets 5/n of it,
+    so a stray extra name can't inflate anyone's minutes."""
     seq = sorted(((elapsed(x['period'], x['secondsRemaining']), i, x) for i, x in enumerate(plays)), key=lambda z: (z[0], z[1]))
     out, five = [], 0
     for k, (t0, _, x) in enumerate(seq):
@@ -95,7 +97,8 @@ def stints_from_floor(plays, elapsed, end, team):
         if t1 <= t0: continue
         on = [(o['id'], o.get('name')) for o in (x.get('onFloor') or []) if o.get('team') == team and o.get('id') is not None]
         five += (t1 - t0) if len(on) == 5 else 0
-        for aid, nm in on: out.append((aid, nm, t0, t1))
+        share = 5 / len(on) if len(on) > 5 else 1.0
+        for aid, nm in on: out.append((aid, nm, t0, t1, share))
     return out, five
 
 def stints_from_subs(subs, elapsed, team):
@@ -104,7 +107,7 @@ def stints_from_subs(subs, elapsed, team):
         if s['team'] != team: continue
         a, b = s['subIn'], s['subOut']
         t0, t1 = elapsed(a['period'], a['secondsRemaining']), elapsed(b['period'], b['secondsRemaining'])
-        if t1 > t0: out.append((s['athleteId'], s['athlete'], t0, t1))
+        if t1 > t0: out.append((s['athleteId'], s['athlete'], t0, t1, 1.0))
     return out
 
 def close_window(w):
@@ -119,12 +122,12 @@ def credit(stints, w, end):
     for x in w: cs.append(cs[-1] + x)
     win0, win1 = close_window(w)
     raw, lev, close, names = collections.Counter(), collections.Counter(), collections.Counter(), {}
-    for aid, nm, t0, t1 in stints:
+    for aid, nm, t0, t1, f in stints:
         a, b = max(0, int(round(t0))), min(end, int(round(t1)))
         if b <= a: continue
-        raw[aid] += b - a; lev[aid] += cs[b] - cs[a]; names[aid] = nm
+        raw[aid] += f * (b - a); lev[aid] += f * (cs[b] - cs[a]); names[aid] = nm
         ca, cb = max(a, win0), min(b, win1)
-        if cb > ca: close[aid] += cs[cb] - cs[ca]
+        if cb > ca: close[aid] += f * (cs[cb] - cs[ca])
     return raw, lev, close, names
 
 def eff(vals):
@@ -135,7 +138,8 @@ def team_game(plays, subs_fetch, team, opp, gid, date, elapsed, end, n_per, w):
     expect = 5 * end
     st, five = stints_from_floor(plays, elapsed, end, team)
     raw, lev, close, names = credit(st, w, end)
-    ok = abs(sum(raw.values()) - expect) <= 0.02 * expect and five >= 0.95 * end
+    adds_up = abs(sum(raw.values()) - expect) <= 0.02 * expect
+    ok = adds_up and five >= 0.95 * end
     source = 'onFloor'
     if not ok and subs_fetch is not None:
         subs = subs_fetch(gid)
@@ -144,6 +148,8 @@ def team_game(plays, subs_fetch, team, opp, gid, date, elapsed, end, n_per, w):
             r2, l2, c2, n2 = credit(st2, w, end)
             if abs(sum(r2.values()) - expect) <= 0.02 * expect:
                 raw, lev, close, names, ok, source = r2, l2, c2, n2, True, 'substitutions'
+    if not ok and adds_up and five >= 0.80 * end:     # a few stretches with six listed, already scaled to five
+        ok, source = True, 'onFloor (scaled)'
     tot_raw, tot_lev, tot_close = sum(raw.values()), sum(lev.values()), sum(close.values())
     closing = [names[a] for a, _ in close.most_common(5)] if tot_close >= 5 * 60 else []
     players = [dict(gameId=gid, date=date, team=team, opponent=opp, athleteId=a, athlete=names[a],
@@ -236,12 +242,19 @@ def main():
         yday = (pd.Timestamp.now(tz='America/New_York') - pd.Timedelta(days=1)).strftime('%Y-%m-%d')
         start = a.start or ((pd.Timestamp(old_tg.date.max()) + pd.Timedelta(days=1)).strftime('%Y-%m-%d') if len(old_tg) else yday)
         end = a.end or a.start or yday
-        for d in pd.date_range(start, end):
+        # the endpoint's day boundary doesn't line up with ET, so pull a day either side
+        # and keep the games whose ET tip date falls in the range
+        for d in pd.date_range(pd.Timestamp(start) - pd.Timedelta(days=1), pd.Timestamp(end) + pd.Timedelta(days=1)):
             data = get('/plays/date', date=d.strftime('%Y-%m-%d'), utcOffset=-5)
             if a.save_raw:
                 os.makedirs(a.save_raw, exist_ok=True); json.dump(data, open(f'{a.save_raw}/plays_{d:%Y-%m-%d}.json', 'w'))
-            g = by_game(data); games.update(g)
-            print(f'{d:%Y-%m-%d}: {len(data)} plays, {len(g)} games')
+            for gid, pl in by_game(data).items():
+                if start <= et_date(pl[0]['gameStartDate']) <= end:
+                    have = games.setdefault(gid, {})
+                    for x in pl: have[x['id']] = x          # a game split across two responses is stitched back together
+            print(f'{d:%Y-%m-%d}: {len(data)} plays')
+        games = {gid: list(v.values()) for gid, v in games.items()}
+        print(f'{len(games)} games tipping {start} to {end} (ET)')
         subs_cache = {}
         def subs_fetch(gid):
             if gid not in subs_cache: subs_cache[gid] = get(f'/substitutions/game/{gid}')
