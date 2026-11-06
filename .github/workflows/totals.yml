@@ -1,0 +1,49 @@
+# Totals shadow log (jobs/kenpom.py -> jobs/totals.py). Runs as soon as the morning Tempo tracker run finishes,
+# so it uses that morning's tempo profiles, the 4:15 AM card total, and KenPom ratings + FanMatch pulled now.
+# On demand: Actions -> Totals shadow, or "--date YYYY-MM-DD" in triggers/totals.txt.
+name: Totals shadow
+on:
+  workflow_run:
+    workflows: ['Tempo tracker']
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Date YYYY-MM-DD (blank = today)'
+        required: false
+  push:
+    paths: ['triggers/totals.txt']
+permissions:
+  contents: write
+concurrency:
+  group: totals
+  cancel-in-progress: false
+jobs:
+  totals:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pandas
+      - name: Build
+        run: |
+          if [ -z "$KENPOM_API_KEY" ]; then echo "KENPOM_API_KEY secret not set yet - skipping"; exit 0; fi
+          ARGS=""
+          if [ -n "${{ github.event.inputs.date }}" ]; then ARGS="--date ${{ github.event.inputs.date }}"; fi
+          if [ "${{ github.event_name }}" = "push" ]; then ARGS="$(grep -v '^#' triggers/totals.txt | head -1)"; fi
+          python jobs/kenpom.py $ARGS
+          python jobs/totals.py $ARGS
+        env:
+          KENPOM_API_KEY: ${{ secrets.KENPOM_API_KEY }}
+          CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
+      - name: Save
+        run: |
+          git config user.name "dtp-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/kenpom data/totals
+          git commit -m "totals shadow" || echo "nothing new"
+          git pull --rebase origin main && git push origin HEAD:main

@@ -6,7 +6,8 @@ every possession but tags it, so the profile can be built from the possessions t
 information and the rest can be dropped or down-weighted.
 
 Each possession gets:
-  start_type   how it began: made_fg, made_ft, dreb, steal (live-ball turnover), dead_to, period_start
+  start_type   how it began: made_fg, made_ft, dreb, steal (live-ball turnover), dead_to, oob_reb (missed shot out of
+               bounds, team rebound), ft_miss, oreb (after a lost thread), period_start, unknown
   end_type     how it ended: made_fg, miss, to, ft, period_end
   dur          seconds, from start to end (overtime, period boundaries handled)
   margin       the possessing team's lead at the start, and t_left in regulation / the OT period
@@ -82,7 +83,8 @@ def kind(x):
     if 'freethrow' in t or 'free throw' in txt: return 'ft'
     if 'offensiverebound' in t: return 'oreb'
     if 'defensiverebound' in t: return 'dreb'
-    if 'deadball' in t: return 'other'                    # dead-ball rebound between free throws
+    if 'deadball' in t: return 'dbreb'                    # team rebound, ball out of bounds (or between free throws)
+    if 'technical' in t: return 'tech'
     if 'steal' in t: return 'steal'
     if 'turnover' in t: return 'to'
     if 'block' in t: return 'other'                       # credited to the defense; the miss follows as its own play
@@ -138,6 +140,8 @@ def parse_game(gid, plays):
     pending_start = ('period_start', None)   # how the NEXT possession began
     hs = as_ = 0
     last_steal = {}                  # team -> time of its last steal (quick-shot detection)
+    last_miss = None                 # (team, t) of the last missed FGA still waiting on a rebound
+    last_tech = -99                  # time of the last technical foul (its free throws don't change possession)
 
     def margin_for(team, h, a): return (h - a) if team == home else (a - h)
 
@@ -172,7 +176,18 @@ def parse_game(gid, plays):
         team = x.get('team')
         k = kind(x)
         if not any(q in (x.get('playType') or '').lower().replace(' ', '') for q in QUIET): hist.append(x)
+        if k == 'tech': last_tech = t; continue
         if k == 'other' or team not in (home, away): continue
+        if k == 'dbreb':
+            if cur and team != cur['team'] and (last_miss is not None or 'ft_end' in cur):
+                fe = cur.pop('ft_end', None)          # missed shot (or last FT) out of bounds: the other team inbounds
+                end(fe if fe is not None else t, 'ft' if fe is not None else 'miss', period)
+                start(team, t, period, 'oob_reb', hs, as_)
+            elif cur and team == cur['team']:
+                cur.pop('ft_end', None)               # kept by the shooting team: same possession
+            last_miss = None
+            continue
+        if k == 'ft' and t - last_tech <= 2: continue  # technical free throws
 
         if cur is None and k in ('fga', 'ft', 'oreb', 'to', 'steal'):
             # we lost the thread (or period just started): open a possession for whoever is acting
@@ -188,12 +203,13 @@ def parse_game(gid, plays):
                 else:
                     note('fga_other', x); end(t, 'unknown', period); start(team, t, period, 'unknown', hs, as_)
             if missed(x):
+                last_miss = (team, t)
                 continue                              # the rebound decides what happens next
-            end(t, 'made_fg', period)
+            end(t, 'made_fg', period); last_miss = None
             pending_start = ('made_fg', opp(team)); start(opp(team), t, period, 'made_fg', hs, as_)
         elif k == 'ft':
             if cur and cur['team'] != team:
-                if cur['t0'] == t and cur['start_type'] == 'made_fg':
+                if cur['start_type'] == 'made_fg' and t - cur['t0'] <= 5 and '1 of 1' in (x.get('playText') or ''):
                     # and-1: the shooter's free throw after his own make; the other team's possession already began
                     if final_ft(x) and missed(x): cur['and1_miss'] = True
                     continue
@@ -206,12 +222,14 @@ def parse_game(gid, plays):
                     cur['ft_end'] = t                  # missed last free throw: the rebound decides (OREB = same possession)
                     pending_start = ('ft_miss', None)
         elif k == 'oreb':
+            last_miss = None
             if cur is None or cur['team'] != team:      # lost thread
                 if cur: end(cur.pop('ft_end', t), 'miss', period)
                 start(team, t, period, 'oreb', hs, as_)
             else:
                 cur.pop('ft_end', None)                 # same team keeps the ball (incl. after its missed FT): one possession
         elif k == 'dreb':
+            last_miss = None
             if cur and cur['team'] == opp(team):
                 fe = cur.pop('ft_end', None); end(fe if fe is not None else t, 'ft' if fe is not None else 'miss', period)
             elif cur and cur.pop('and1_miss', False):

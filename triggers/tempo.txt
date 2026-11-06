@@ -1,2 +1,2 @@
---start 2026-11-03 --end 2026-11-03 --diag
-# rerun of the diagnostic after the ordering fix
+--start 2026-11-01 --end 2026-11-05
+# full rebuild after the parser fixes (play order, and-1s, missed-FT/OREB, out-of-bounds team rebounds, technical FTs)
