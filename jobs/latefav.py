@@ -47,8 +47,8 @@ def getter():
                 calls[0] += 1; time.sleep(0.3); return r.json()
             if r.status_code in (429, 500, 502, 503, 504):
                 time.sleep(2 ** i + 1); continue
-            r.raise_for_status()
-        raise SystemExit(f'gave up on {path} {p}')
+            raise RuntimeError(f'HTTP {r.status_code} on {path} {p}: {r.text[:200]}')
+        raise RuntimeError(f'gave up on {path} {p}')
     get.calls = calls
     return get
 
@@ -164,36 +164,62 @@ LATE_KEYS = ['gameId', 'date', 'home', 'periods', 'm8', 'm4', 'm2', 'reg_end', '
              'h_late_to', 'h_late_ftm', 'h_late_fta', 'h_late_pf', 'a_late_to', 'a_late_ftm', 'a_late_fta', 'a_late_pf']
 
 
-def pull_late(get, season, dates):
+def log(season, line):
+    with open(f'{OUT}/log_{season}.txt', 'a') as f:
+        f.write(line + '\n')
+    print(line, flush=True)
+
+
+def pull_late(get, season, dates, games, probe=0):
     path = f'{OUT}/late_{season}.csv'
     have, rows = set(), []
     if os.path.exists(path):
         with open(path) as f:
             rows = list(csv.DictReader(f))
         have = {r['date'] for r in rows}
+    expected = collections.Counter(x['date'] for x in games if x.get('spread_home') not in (None, ''))
     todo = [d for d in dates if d not in have]
-    print(f'  play-by-play: {len(todo)} dates to pull ({len(have)} already done)', flush=True)
+    log(season, f'play-by-play: {len(todo)} dates to pull ({len(have)} already done)')
     for i, d in enumerate(todo, 1):
-        data = get('/plays/date', date=d, utcOffset=-5)
+        try:
+            data = get('/plays/date', date=d, utcOffset=-5)
+        except Exception as e:
+            log(season, f'{d}\tERROR\t{type(e).__name__}: {e}')
+            continue
         by = collections.defaultdict(list)
         for x in data:
-            by[x['gameId']].append(x)
-        n0 = len(rows)
+            by[x.get('gameId')].append(x)
+        n0, bad = len(rows), 0
         for gid, ps in by.items():
-            r = late_row(gid, ps)
+            try:
+                r = late_row(gid, ps)
+            except Exception as e:
+                bad += 1
+                continue
             if r:
                 r['date'] = d
                 rows.append(r)
-        print(f'    {d}: {len(data)} plays, {len(rows) - n0} games ({i}/{len(todo)})', flush=True)
+        log(season, f'{d}\tplays {len(data)}\tgames_in_pbp {len(by)}\tkept {len(rows) - n0}\t'
+                    f'lined_games_that_date {expected.get(d, 0)}\tparse_errors {bad}')
         if i % 20 == 0:
             write(path, rows, LATE_KEYS)             # checkpoint
     write(path, rows, LATE_KEYS)
+    if probe:                                         # are missing games simply absent from CBBD play-by-play?
+        got = {str(r['gameId']) for r in rows}
+        miss = [x for x in games if x.get('spread_home') not in (None, '') and str(x['gameId']) not in got][:probe]
+        for x in miss:
+            try:
+                ps = get(f'/plays/game/{x["gameId"]}')
+                log(season, f'probe {x["gameId"]} {x["date"]} {x["away"]} at {x["home"]}: /plays/game returned {len(ps)} plays')
+            except Exception as e:
+                log(season, f'probe {x["gameId"]}: ERROR {e}')
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--seasons', nargs='+', type=int, default=[2025, 2026])
     ap.add_argument('--skip-plays', action='store_true')
+    ap.add_argument('--probe', type=int, default=0, help='check this many missing lined games via /plays/game')
     a = ap.parse_args()
     os.makedirs(OUT, exist_ok=True)
     get = getter()
@@ -212,7 +238,7 @@ def main():
                   flush=True)
         if not a.skip_plays:
             dates = sorted({x['date'] for x in games if x['date']})
-            pull_late(get, season, dates)
+            pull_late(get, season, dates, games, a.probe)
     print(f'CBBD calls this run: {get.calls[0]}', flush=True)
 
 

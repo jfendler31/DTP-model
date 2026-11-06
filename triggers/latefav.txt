@@ -1,2 +1,2 @@
 # Arguments for jobs/latefav.py (first non-comment line). Edit and push to run.
---seasons 2025 2026
+--seasons 2025 --probe 10
