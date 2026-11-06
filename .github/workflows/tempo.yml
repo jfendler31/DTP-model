@@ -1,0 +1,36 @@
+# Possession-level tempo tracker from CBBD play-by-play (jobs/tempo.py) — the TIS successor.
+# Runs every morning for yesterday's games (after Rotation depth); on demand via Actions -> Tempo tracker,
+# or by putting "--start YYYY-MM-DD --end YYYY-MM-DD" in triggers/tempo.txt.
+name: Tempo tracker
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 11 * * *'
+  push:
+    paths: ['triggers/tempo.txt']
+permissions:
+  contents: write
+concurrency:
+  group: tempo
+  cancel-in-progress: false
+jobs:
+  tempo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pandas
+      - name: Build
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then ARGS="$(grep -v "^#" triggers/tempo.txt | head -1)"; else ARGS=""; fi
+          python jobs/tempo.py $ARGS
+        env:
+          CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
+      - name: Save
+        run: |
+          git config user.name "dtp-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/tempo
+          git commit -m "tempo tracker" || echo "nothing new"
+          git pull --rebase origin main && git push origin HEAD:main

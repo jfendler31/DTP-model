@@ -1,0 +1,2 @@
+--start 2026-11-01 --end 2026-11-05
+# lines starting with # are ignored. First run: the whole season so far.
