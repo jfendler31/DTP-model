@@ -33,7 +33,7 @@ Outputs (data/tempo/):
   teams_current.csv             one row per team (KenPom spelling), pooled over D-I games so far
 
 Usage: python jobs/tempo.py [--start YYYY-MM-DD] [--end YYYY-MM-DD] [--gap-fill N]
-       default: the day after the last date in team_games.csv through yesterday (ET); gap fill 150
+       default: the day after the last date in team_games.csv through yesterday (ET); gap fill 300
        python jobs/tempo.py --from-json raw_dir/   offline: replay saved /plays/date JSON files
 """
 import os, sys, json, math, argparse, collections
@@ -41,7 +41,25 @@ import os, sys, json, math, argparse, collections
 import pandas as pd
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from rotation import weight, make_clock, period_start, period_len, t_left, api, by_game, et_date, REG
+from rotation import weight, make_clock, period_start, period_len, t_left, by_game, et_date, REG
+
+
+def api():
+    """CBBD getter: long timeout and retries on timeouts, returns None if a call can't be completed
+    (the big opening-week /plays/date responses time out now and then; the per-game fallback covers them)"""
+    import time, requests
+    hdr = {'Authorization': f"Bearer {os.environ['CBBD_API_KEY'].strip()}", 'Accept': 'application/json'}
+    def get(path, **p):
+        for i in range(5):
+            try:
+                r = requests.get('https://api.collegebasketballdata.com' + path, headers=hdr, params=p, timeout=300)
+            except requests.RequestException as e:
+                print(f'  {path} {p}: {type(e).__name__}, retry {i + 1}', flush=True); time.sleep(5 * (i + 1)); continue
+            if r.status_code == 200: time.sleep(0.3); return r.json()
+            if r.status_code in (429, 500, 502, 503, 504): time.sleep(2 ** i + 1); continue
+            print(f'  {path} {p}: HTTP {r.status_code}', flush=True); return None
+        print(f'  gave up on {path} {p}', flush=True); return None
+    return get
 
 OUT = 'data/tempo'
 GAMES = 'data/games_2026-27.csv'
@@ -267,7 +285,7 @@ def pool(poss, team_games, xwalk):
 # ----------------------------------------------------------------- main
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('--start'); ap.add_argument('--end'); ap.add_argument('--from-json')
-    ap.add_argument('--gap-fill', type=int, default=150, help='max /plays/game calls for D-I games the date feed skipped')
+    ap.add_argument('--gap-fill', type=int, default=300, help='max /plays/game calls for D-I games the date feed skipped')
     ap.add_argument('--save-raw')
     a = ap.parse_args()
     os.makedirs(OUT, exist_ok=True)
@@ -287,8 +305,11 @@ def main():
         start = a.start or ((pd.Timestamp(old_tg.date.max()) + pd.Timedelta(days=1)).strftime('%Y-%m-%d') if len(old_tg) else '2026-11-01')
         end = a.end or a.start or yday
         if start > end: print(f'nothing to do: {start} > {end}'); return
+        failed_dates = []
         for d in pd.date_range(pd.Timestamp(start) - pd.Timedelta(days=1), pd.Timestamp(end) + pd.Timedelta(days=1)):
             data = get('/plays/date', date=d.strftime('%Y-%m-%d'), utcOffset=-5)
+            if data is None:
+                failed_dates.append(d.strftime('%Y-%m-%d')); continue
             if a.save_raw:
                 os.makedirs(a.save_raw, exist_ok=True); json.dump(data, open(f'{a.save_raw}/plays_{d:%Y-%m-%d}.json', 'w'))
             for gid, pl in by_game(data).items():
@@ -297,23 +318,27 @@ def main():
                     for x in pl: have[x['id']] = x
             print(f'{d:%Y-%m-%d}: {len(data)} plays', flush=True)
         games = {gid: list(v.values()) for gid, v in games.items()}
-        # gap fill: D-I games in the box-score store on these dates that the date feed left out
+        if failed_dates: print(f'date feed failed for {failed_dates}; those days come from /plays/game', flush=True)
+        # gap fill: games in the box-score store on these dates that the date feed left out (or failed on)
         if len(box) and a.gap_fill:
-            want = box[(box.date >= start) & (box.date <= end) & box.isHome].gameId.astype(int)
-            missing = [g for g in want.unique().tolist() if g not in games][:a.gap_fill]
-            for g in missing:
-                try:
-                    pl = get(f'/plays/game/{g}')
-                    if pl: games[g] = pl
-                except SystemExit as e:
-                    print(f'  gap fill {g}: {e}')
-            print(f'{len(games)} games tipping {start} to {end} (ET); gap fill fetched {len(missing)} of {len(want.unique()) - (len(games) - len(missing))} missing', flush=True)
+            want = box[(box.date >= start) & (box.date <= end) & box.isHome].gameId.astype(int).unique().tolist()
+            missing = [g for g in want if g not in games]
+            fetched = 0
+            for g in missing[:a.gap_fill]:
+                pl = get(f'/plays/game/{g}')
+                if pl:
+                    games[g] = pl; fetched += 1
+            print(f'{len(games)} games tipping {start} to {end} (ET); gap fill fetched {fetched} of {len(missing)} missing'
+                  + (f' (capped at {a.gap_fill})' if len(missing) > a.gap_fill else ''), flush=True)
 
+    box_date = dict(zip(box.gameId.astype(int), box.date)) if len(box) else {}
     poss_all, tg_rows, unknown = [], [], collections.Counter()
     for gid, plays in games.items():
         rows, meta = parse_game(gid, plays)
         if not rows: continue
-        date = et_date(plays[0]['gameStartDate'])
+        gsd = plays[0].get('gameStartDate')
+        date = et_date(gsd) if gsd else box_date.get(int(gid))
+        if not date: continue
         for r in rows: r['date'] = date
         poss_all += rows
         pr = pd.DataFrame(rows)
