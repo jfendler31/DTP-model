@@ -107,7 +107,12 @@ def parse_game(gid, plays):
     plays = [x for x in plays if x.get('period') is not None and x.get('secondsRemaining') is not None]
     if not plays: return [], {}
     elapsed, _ = make_clock(plays)
-    seq = sorted(((elapsed(x['period'], x['secondsRemaining']), i, x) for i, x in enumerate(plays)), key=lambda z: (z[0], z[1]))
+    # within one clock second the feed lists plays newest-first (FT 2 of 2 before 1 of 2, a putback before its rebound);
+    # play ids run in game order, so sort on (clock, id)
+    def pid(x, i):
+        try: return int(x.get('id'))
+        except (TypeError, ValueError): return i
+    seq = sorted(((elapsed(x['period'], x['secondsRemaining']), pid(x, i), x) for i, x in enumerate(plays)), key=lambda z: (z[0], z[1]))
 
     home = away = None
     for x in plays:
@@ -177,28 +182,40 @@ def parse_game(gid, plays):
             start(who, t, period, how, hs, as_)
 
         if k == 'fga':
-            if cur and cur['team'] != team:          # feed glitch: other team shoots without a change recorded
-                note('fga_other', x); end(t, 'unknown', period); start(team, t, period, 'unknown', hs, as_)
+            if cur and cur['team'] != team:          # other team shoots without a change recorded
+                if 'ft_end' in cur:                   # missed last FT, rebound not logged: the shooter's possession ended at the line
+                    end(cur.pop('ft_end'), 'ft', period); start(team, t, period, 'ft_miss', hs, as_)
+                else:
+                    note('fga_other', x); end(t, 'unknown', period); start(team, t, period, 'unknown', hs, as_)
             if missed(x):
                 continue                              # the rebound decides what happens next
             end(t, 'made_fg', period)
             pending_start = ('made_fg', opp(team)); start(opp(team), t, period, 'made_fg', hs, as_)
         elif k == 'ft':
             if cur and cur['team'] != team:
+                if cur['t0'] == t and cur['start_type'] == 'made_fg':
+                    # and-1: the shooter's free throw after his own make; the other team's possession already began
+                    if final_ft(x) and missed(x): cur['and1_miss'] = True
+                    continue
                 note('ft_other', x); end(t, 'unknown', period); start(team, t, period, 'unknown', hs, as_)
             if final_ft(x):
-                end(t, 'ft', period)
                 if not missed(x):
+                    end(t, 'ft', period)
                     pending_start = ('made_ft', opp(team)); start(opp(team), t, period, 'made_ft', hs, as_)
                 else:
-                    pending_start = ('ft_miss', None)   # rebound decides
+                    cur['ft_end'] = t                  # missed last free throw: the rebound decides (OREB = same possession)
+                    pending_start = ('ft_miss', None)
         elif k == 'oreb':
-            if cur is None or cur['team'] != team:      # after a missed FT or a lost thread
-                if cur: end(t, 'miss', period)
+            if cur is None or cur['team'] != team:      # lost thread
+                if cur: end(cur.pop('ft_end', t), 'miss', period)
                 start(team, t, period, 'oreb', hs, as_)
-            # same team keeps the ball: possession continues
+            else:
+                cur.pop('ft_end', None)                 # same team keeps the ball (incl. after its missed FT): one possession
         elif k == 'dreb':
-            if cur and cur['team'] == opp(team): end(t, 'miss', period)
+            if cur and cur['team'] == opp(team):
+                fe = cur.pop('ft_end', None); end(fe if fe is not None else t, 'ft' if fe is not None else 'miss', period)
+            elif cur and cur.pop('and1_miss', False):
+                cur['start_type'] = 'dreb'; continue    # defense rebounds a missed and-1: its possession already began
             elif cur: note('dreb_own', x); end(t, 'unknown', period)
             start(team, t, period, 'dreb', hs, as_)
         elif k == 'steal':
