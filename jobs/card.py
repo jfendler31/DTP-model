@@ -125,16 +125,50 @@ def sheet(ws, df, widths, fmts):
     ws.append(list(df.columns))
     for row in df.itertuples(index=False):
         ws.append([None if (isinstance(v, float) and pd.isna(v)) else v for v in row])
-    for c in ws[1]: c.font, c.fill, c.alignment = hdr_font, hdr_fill, Alignment(horizontal='center', wrap_text=True)
+    for c in ws[1]: c.font, c.fill, c.alignment = Font(name='Helvetica', size=12, bold=True, color='FFFFFF'), hdr_fill, Alignment(horizontal='center', vertical='center', wrap_text=True)
+    ws.row_dimensions[1].height = 34
     for i, col in enumerate(df.columns, 1):
         ws.column_dimensions[get_column_letter(i)].width = widths.get(col, 12)
-        if col in fmts:
-            for c in ws.iter_rows(min_row=2, min_col=i, max_col=i):
-                c[0].number_format = fmts[col]
+        for (c,) in ws.iter_rows(min_row=2, min_col=i, max_col=i):
+            c.font, c.alignment = Font(name='Helvetica', size=12), Alignment(horizontal='center', vertical='center')
+            if col in fmts: c.number_format = fmts[col]
     ws.freeze_panes = 'B2' if 'Rank' in df.columns else 'A2'; ws.auto_filter.ref = ws.dimensions
+# Card tab in Jon's layout (Nov 6): sorted by size-adjusted edge, Helvetica 12, centered; working columns hidden but kept
+CARD_COLS = ['tip_ET', 'away', 'home', 'venue', 'model', 'market', 'n_books', 'total', 'edge', 'model_size_adj', 'edge_size_adj',
+             'edge_inseason_only', 'prior_wt_away', 'prior_wt_home', 'notes', 'market_home_spread', 'model_home_spread', 'edge_size',
+             'model_home_spread_adj', 'edge_size_adj_num']
+CARD_HDR = {'away': 'Away', 'home': 'Home', 'edge_size_adj': 'Edge Size Adj', 'market_home_spread': 'Market Home Spread',
+            'model_home_spread': 'Model Home Spread', 'model_home_spread_adj': 'Home Spread Adj', 'edge_size_adj_num': 'Edge Size Adj'}
+CARD_HIDE = {'model', 'market', 'n_books', 'total', 'edge', 'model_size_adj', 'edge_inseason_only', 'prior_wt_away', 'prior_wt_home', 'notes', 'edge_size'}
+CARD_W = {'tip_ET': 22, 'away': 21, 'home': 21, 'venue': 9, 'edge_size_adj': 19, 'market_home_spread': 11, 'model_home_spread': 11,
+          'model_home_spread_adj': 11, 'edge_size_adj_num': 11, 'notes': 40}
+CARD_NUM = {'market_home_spread', 'model_home_spread', 'model_home_spread_adj', 'edge_size_adj_num', 'edge_size'}
+CD = C[CARD_COLS].copy()
+CD['_k'] = pd.to_numeric(CD.edge_size_adj_num, errors='coerce')
+CD = CD.sort_values('_k', ascending=False, na_position='last').drop(columns='_k')
 ws = wb.active; ws.title = 'Card'
-sheet(ws, C, {'tip_ET': 19, 'away': 22, 'home': 22, 'model': 17, 'market': 17, 'edge': 15, 'model_size_adj': 17, 'edge_size_adj': 15,
-              'edge_inseason_only': 18, 'notes': 40}, {})
+BODY = Font(name='Helvetica', size=12); HEAD = Font(name='Helvetica', size=12, bold=True, color='FFFFFF')
+MID = Alignment(horizontal='center', vertical='center'); MIDW = Alignment(horizontal='center', vertical='center', wrap_text=True)
+ws.append([CARD_HDR.get(c, c) for c in CARD_COLS])
+for row in CD.itertuples(index=False):
+    vals = []
+    for c, v in zip(CARD_COLS, row):
+        if isinstance(v, float) and pd.isna(v): v = None
+        elif c in CARD_NUM and v not in (None, ''):
+            try: v = float(v)
+            except (TypeError, ValueError): pass
+        vals.append(v)
+    ws.append(vals)
+for c in ws[1]: c.font, c.fill, c.alignment = HEAD, hdr_fill, MIDW
+ws.row_dimensions[1].height = 48
+for i, col in enumerate(CARD_COLS, 1):
+    L = get_column_letter(i); ws.column_dimensions[L].width = CARD_W.get(col, 12)
+    if col in CARD_HIDE: ws.column_dimensions[L].hidden = True
+    for (cell,) in ws.iter_rows(min_row=2, min_col=i, max_col=i):
+        cell.font, cell.alignment = BODY, MID
+        if col in CARD_NUM: cell.number_format = '0.0'
+for r in range(2, ws.max_row + 1): ws.row_dimensions[r].height = 18
+ws.freeze_panes = 'A2'; ws.auto_filter.ref = ws.dimensions
 cols = ['Rank', 'Team', 'Conf', 'Rating', 'Prior', 'Prior rank', 'Move vs prior', 'In-season only', 'D-I games', 'Prior weight',
         'Override adj', 'HCA', 'KP tempo', 'Overrides']
 sheet(wb.create_sheet('Power Ratings'), PR[cols], {'Team': 22, 'Overrides': 50, 'In-season only': 13, 'Move vs prior': 12},
