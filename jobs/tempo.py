@@ -69,6 +69,9 @@ SHORT_CLOCK = 35        # started with fewer seconds than this left in the perio
 FOUL_WINDOW = 120       # last 2:00 of regulation
 FOUL_QUICK = 8          # fouled within this many seconds of the start
 MIN_GAMES_Z = 1         # teams with at least this many D-I games enter the cross-sectional z-scores
+DIAG = collections.Counter()   # --diag: what preceded each 'unknown' possession change
+DIAG_EX = {}
+QUIET = ('substitution', 'timeout', 'tvtimeout')
 
 
 # ----------------------------------------------------------------- play classification
@@ -119,6 +122,13 @@ def parse_game(gid, plays):
     opp = lambda t: away if t == home else home
 
     rows = []
+    hist = collections.deque(maxlen=4)   # recent non-substitution plays, for --diag
+    def note(tag, x):
+        rel = lambda y: (y.get('playType') or '?') + ('' if not y.get('team') else ('/same' if y.get('team') == x.get('team') else '/other'))
+        prev = list(hist)[:-1]                   # hist already holds x itself
+        key = (tag, ' > '.join(rel(y) for y in prev), x.get('playType'))
+        DIAG[key] += 1
+        DIAG_EX.setdefault(key, ' | '.join((y.get('playText') or '')[:60] for y in prev + [x]))
     cur = None                       # dict(team, t0, period, start_type, margin, t_left, lev)
     pending_start = ('period_start', None)   # how the NEXT possession began
     hs = as_ = 0
@@ -156,24 +166,26 @@ def parse_game(gid, plays):
         if x.get('homeScore') is not None: hs, as_ = x['homeScore'], x['awayScore']
         team = x.get('team')
         k = kind(x)
+        if not any(q in (x.get('playType') or '').lower().replace(' ', '') for q in QUIET): hist.append(x)
         if k == 'other' or team not in (home, away): continue
 
         if cur is None and k in ('fga', 'ft', 'oreb', 'to', 'steal'):
             # we lost the thread (or period just started): open a possession for whoever is acting
             who = opp(team) if k == 'steal' else team
             how = pending_start[0] if pending_start[1] in (None, who) else 'unknown'
+            if how == 'unknown': note('open', x)
             start(who, t, period, how, hs, as_)
 
         if k == 'fga':
             if cur and cur['team'] != team:          # feed glitch: other team shoots without a change recorded
-                end(t, 'unknown', period); start(team, t, period, 'unknown', hs, as_)
+                note('fga_other', x); end(t, 'unknown', period); start(team, t, period, 'unknown', hs, as_)
             if missed(x):
                 continue                              # the rebound decides what happens next
             end(t, 'made_fg', period)
             pending_start = ('made_fg', opp(team)); start(opp(team), t, period, 'made_fg', hs, as_)
         elif k == 'ft':
             if cur and cur['team'] != team:
-                end(t, 'unknown', period); start(team, t, period, 'unknown', hs, as_)
+                note('ft_other', x); end(t, 'unknown', period); start(team, t, period, 'unknown', hs, as_)
             if final_ft(x):
                 end(t, 'ft', period)
                 if not missed(x):
@@ -187,7 +199,7 @@ def parse_game(gid, plays):
             # same team keeps the ball: possession continues
         elif k == 'dreb':
             if cur and cur['team'] == opp(team): end(t, 'miss', period)
-            elif cur: end(t, 'unknown', period)
+            elif cur: note('dreb_own', x); end(t, 'unknown', period)
             start(team, t, period, 'dreb', hs, as_)
         elif k == 'steal':
             # the paired Turnover play may already have opened this possession as dead_to at the same clock
@@ -198,7 +210,7 @@ def parse_game(gid, plays):
             if cur and cur['start_type'] == 'steal' and cur['t0'] == t:
                 continue                              # the Steal play already recorded this change of possession
             if cur and cur['team'] != team:
-                end(t, 'unknown', period); start(team, t, period, 'unknown', hs, as_)
+                note('to_other', x); end(t, 'unknown', period); start(team, t, period, 'unknown', hs, as_)
             end(t, 'to', period); start(opp(team), t, period, 'dead_to', hs, as_)
 
     if prev_period is not None: end(period_start(prev_period) + period_len(prev_period), 'period_end', prev_period)
@@ -287,6 +299,7 @@ def main():
     ap = argparse.ArgumentParser(); ap.add_argument('--start'); ap.add_argument('--end'); ap.add_argument('--from-json')
     ap.add_argument('--gap-fill', type=int, default=300, help='max /plays/game calls for D-I games the date feed skipped')
     ap.add_argument('--save-raw')
+    ap.add_argument('--diag', action='store_true', help='print what precedes unknown possession changes; write nothing')
     a = ap.parse_args()
     os.makedirs(OUT, exist_ok=True)
     f_tg = f'{OUT}/team_games.csv'
@@ -353,6 +366,16 @@ def main():
         for x in plays:
             if kind(x) == 'other': unknown[x.get('playType')] += 1
     if not poss_all: print('no games'); return
+    if a.diag:
+        n = sum(DIAG.values()); print(f'\n{n} unknown possession changes across {len(games)} games; top patterns '
+                                       f'(tag | previous plays, same/other = team vs the triggering play | trigger):')
+        for (tag, prev, trig), c in DIAG.most_common(30):
+            print(f'{c:5d} {c / n:6.1%}  {tag:9s} | {prev} | {trig}\n         e.g. {DIAG_EX[(tag, prev, trig)]}')
+        chk = pd.DataFrame(tg_rows)
+        if len(box):
+            chk = chk.merge(box[['gameId', 'team', 'poss']], on=['gameId', 'team'], how='left')
+            print(f'\nparsed - box possessions: mean {(chk.poss_parsed - chk.poss).mean():+.2f}, |diff| {(chk.poss_parsed - chk.poss).abs().mean():.2f}')
+        return
 
     poss = pd.DataFrame(poss_all)
     for ym, grp in poss.groupby(poss.date.str[:7]):

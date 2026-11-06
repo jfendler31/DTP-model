@@ -1,2 +1,2 @@
---start 2026-11-01 --end 2026-11-05
-# lines starting with # are ignored. First run: the whole season so far.
+--start 2026-11-03 --end 2026-11-03 --diag
+# lines starting with # are ignored. --diag prints what precedes unknown possession changes and writes nothing.
