@@ -473,3 +473,75 @@ gameId,date,team,opponent,periods,source,reliable,team_min_raw,team_min_lev,comp
 377946,2026-11-04,Regent,Old Dominion,2,onFloor,False,200.0,77.0,0.385,11.65,9.18,14,Joshua Hanna / Jalen Gribbins / Chase Mullen / Joziah Mincey / Christian Brown,0.639,False,False,-44,9.54
 377947,2026-11-04,App State,Christendom,2,onFloor,True,200.0,86.6,0.433,16.4,11.06,18,Mason Costello / Jonathan Moss / Ben Kopetzki / Andrin Njock / Da'Mori Lytch,1.0,True,False,65,11.15
 377947,2026-11-04,Christendom,App State,2,onFloor,True,200.0,86.6,0.433,7.42,6.69,12,John Fowler / Luke Vander Woude / Michael Vander Woude / Daniel Schultz / Joe Ethridge,1.0,False,False,-65,6.7
+372676,2026-11-05,Bellarmine,Indiana,2,onFloor,True,200.0,129.8,0.649,8.83,7.51,13,Sam Donald / Tyler Doyle / Demarcus Surratt / Evan Harrell / Kenyon Goodin,1.0,False,True,-23,7.28
+372676,2026-11-05,Indiana,Bellarmine,2,onFloor,True,200.0,129.8,0.649,9.97,8.61,13,Darren Harris / Aiden Sherrell / Sam Alexis / Bryce Lindsay / Markus Burton,1.0,True,True,23,8.65
+372679,2026-11-05,Binghamton,Saint Peter's,2,onFloor,True,200.0,200.0,1.0,6.45,6.45,9,Dylan Godfrey / Jayden Kelsey / Jeremiah Quigley / Jake Blackburn / Joul Karram,1.0,False,True,3,6.12
+372679,2026-11-05,Saint Peter's,Binghamton,2,onFloor,True,200.0,200.0,1.0,7.58,7.58,10,Bryce Eaton / Ken Walker / Trey Patterson / Xavier Thomas / Bryson Wilson,1.0,True,True,-3,7.94
+372683,2026-11-05,Vanderbilt,Wake Forest,2,onFloor,True,200.0,177.4,0.887,9.21,8.74,14,Ant Brown Jr. / Bangot Dak / T.O. Barrett / Berke Buyuktuncel / Ace Glass,1.0,True,True,23,8.45
+372683,2026-11-05,Wake Forest,Vanderbilt,2,onFloor,True,200.0,177.4,0.887,6.82,6.88,10,Jamari McDowell / Gavin Placide / Kevair Kennedy / Isaac Carr / Xander Pintelon,1.0,False,True,-23,7.07
+372684,2026-11-05,Central Connecticut,Syracuse,2,onFloor,True,200.0,111.6,0.558,8.54,7.6,11,Raphel Laurent / James Jones / Ashton Reynolds / Jhace Johnson / Jayden Mott,1.0,False,True,-53,7.82
+372684,2026-11-05,Syracuse,Central Connecticut,2,onFloor,True,200.0,111.6,0.558,9.75,7.94,13,Luke Wilson / Sadiq White Jr. / Mark Morano / Ryan Moesch / Kiyan Anthony,1.0,True,True,53,7.99
+372685,2026-11-05,Buffalo,Pittsburgh,2,onFloor,False,200.0,186.3,0.932,7.71,7.71,10,Drew Steffe / Dylan Ducommun / J.J. Starling / Mikkel Tyne / Jalen Pitre,0.794,False,True,-19,7.93
+372685,2026-11-05,Pittsburgh,Buffalo,2,onFloor,True,200.0,186.3,0.932,6.48,6.56,8,Chase Foster / Jonathan Powell / Naithan George / Baye Ndongo / A'lahn Sumler,1.0,True,True,19,6.72
+372692,2026-11-05,Army,Mount Saint Mary (NY),2,onFloor,True,200.0,80.5,0.402,13.59,7.86,16,Ryan Curry / Jacen Holloway / Kevin McCarthy / Tate Laczkowski / Dylan Murans,1.0,True,False,77,8.67
+372692,2026-11-05,Mount Saint Mary (NY),Army,2,onFloor,True,200.0,80.5,0.402,12.25,8.65,18,Tim Bannell / Rj Delahaye / Sebastian Solano / Daniel Herzner / Brody Schuh,1.0,False,False,-77,10.69
+372693,2026-11-05,Charleston Southern,Columbia International,2,onFloor,True,200.0,133.5,0.668,6.5,6.51,7,Nicholas Errica / Jackson Crawford / Anthony Ruffolo / Lase Olalere / DJ Hubbard,1.0,True,False,37,6.49
+372693,2026-11-05,Columbia International,Charleston Southern,2,onFloor,True,200.0,133.5,0.668,13.05,10.2,17,Tristyn Carrington / Johnny Whysong / Jeffrey Clark Ii / Connor Higgins / Tre Kirk,1.0,False,False,-37,9.61
+374636,2026-11-05,Charlotte,Georgia State,2,onFloor,True,200.0,198.0,0.99,8.98,9.0,13,Keyshuan Tillery / Dorian Finister / Dylan Grant / Frank Oguche / Miguel Allen,1.0,True,True,10,9.73
+374636,2026-11-05,Georgia State,Charlotte,2,onFloor,True,200.0,198.0,0.99,5.64,5.64,7,Jaden Jackson / Jacob Meyer / Jacolb Fredson-Cole / David Thomas / Chris Jones,1.0,False,True,-10,5.65
+374638,2026-11-05,Alcorn State,Howard,2,onFloor,True,200.0,194.9,0.975,9.32,9.35,13,Saxby Sunderland / Adam Tokpah / Trey Thomas / Calvin Sirmans / Ma'Kye Taylor,1.0,True,True,-11,8.21
+374638,2026-11-05,Howard,Alcorn State,2,onFloor,True,200.0,194.9,0.975,7.51,7.52,11,Cam Gillus / Alex Cotton / Josiah Lawson / Cedric Taylor III / James Brown,1.0,False,True,11,7.9
+374639,2026-11-05,McNeese,North Texas,2,onFloor,True,200.0,191.4,0.957,7.22,7.21,8,Jerrell Colbert / Jaylon Dean-Vines / Elijah Moore / Larry Johnson / Christian Nitu,1.0,False,True,-10,7.52
+374639,2026-11-05,North Texas,McNeese,2,onFloor,True,200.0,191.4,0.957,7.57,7.64,10,Je'Shawn Stevenson / Cole Franklin / Cash Chavis / Aeneas Alexander / Ousmane Ndour,1.0,True,True,10,7.99
+374640,2026-11-05,Kings (PA),Lafayette,2,onFloor,True,200.0,102.8,0.514,9.87,7.35,18,Ben Malley / Cole Walker / Sean Forrest / Ben Rodner-Tims / Matt Christian,1.0,False,False,-37,7.55
+374640,2026-11-05,Lafayette,Kings (PA),2,onFloor,True,200.0,102.8,0.514,11.91,7.9,16,Owen Kelly / Cooper Kesler / Beckett Currie / Shareef Jackson / Jasraj Gill,1.0,True,False,37,8.54
+374641,2026-11-05,Cincinnati,Green Bay,2,onFloor,True,200.0,165.7,0.829,8.42,8.7,11,MJ Collins Jr. / Myles Colvin / David Iweze / Tylen Riley / Tyler Tejada,1.0,True,True,17,8.96
+374641,2026-11-05,Green Bay,Cincinnati,2,onFloor,True,200.0,165.7,0.829,9.06,9.18,12,Mac Wrecke / Marcus Hall / Clarence Payia / Aidan Hadaway / Orlando Lovejoy,1.0,False,True,-17,8.89
+374643,2026-11-05,Bryant,Quinnipiac,2,onFloor,True,200.0,191.3,0.957,7.78,7.84,9,Duane Thompson / Keegan Harvey / Andre Pasha / Onyx Nnani / Ty Tabales,1.0,False,True,-10,8.06
+374643,2026-11-05,Quinnipiac,Bryant,2,onFloor,True,200.0,191.3,0.957,8.0,8.04,10,Lucas Sekasi / Nas Hart / Tai Turnage / Mike Parrotta / Tayeshawn Cunningham-Pemberton,1.0,True,True,10,8.3
+374644,2026-11-05,Merrimack,UMass Lowell,2,onFloor,True,200.0,192.4,0.962,8.44,8.47,10,AJ Lesburt Jr. / Todd Brogna / Denver Anglin / Jeremiah Anderson / Elijah Wilborn,1.0,True,True,-10,8.28
+374644,2026-11-05,UMass Lowell,Merrimack,2,onFloor,True,200.0,192.4,0.962,6.51,6.54,8,Jayden Harris / Jakai Newton / Isaiah Walter / Christian Jones / Elhadji Diallo,1.0,False,True,10,6.52
+374645,2026-11-05,Manhattan,UAlbany,2,onFloor,True,200.0,200.0,1.0,9.55,9.55,13,Quron Elliott / Dusan Eric / Ben Pearce / Ognjen Stankovic / Josiah Sabino,0.994,True,True,-4,10.01
+374645,2026-11-05,UAlbany,Manhattan,2,onFloor,True,200.0,200.0,1.0,6.76,6.76,9,Ollie Engen / Tyler Jones / Papa Kounta / Zacharie Matulu / U-Mier Graham,1.0,False,True,4,7.37
+374647,2026-11-05,Morehead State,Virginia-Lynchburg,2,onFloor,True,200.0,91.3,0.457,9.93,9.73,11,Dalman Alexander / Clayton Parker / Jarvis Wright / Kyrell Shaw / Justin Payne,1.0,True,False,54,9.6
+374647,2026-11-05,Virginia-Lynchburg,Morehead State,2,onFloor,True,200.0,91.3,0.456,6.81,6.67,8,Zephaniah Williams / Jordan Barr / Donovan Peterson / Mohamed Diaby / Teryck White,1.0,False,False,-54,6.78
+374649,2026-11-05,Mercer,Virginia Tech,2,onFloor,True,200.0,143.3,0.717,8.72,7.96,11,Karon Boyd / KJ Lamonte / Quinton Perkins II / Brady Shoulders / Petras Padegimas,1.0,False,True,-29,7.77
+374649,2026-11-05,Virginia Tech,Mercer,2,onFloor,True,200.0,143.3,0.717,9.42,8.3,15,Tyler Johnson / Jaylen Curry / Amani Hansberry / Butta Johnson / Ben Hammond,0.97,True,True,29,8.13
+374650,2026-11-05,Mercyhurst,Notre Dame,2,onFloor,True,200.0,129.9,0.65,7.76,6.89,9,Geoff Sprouse / Cameron Johnson / Jake Lemelman / Deraje Agbaosi / Hunter Te Ratana,1.0,False,True,-27,6.77
+374650,2026-11-05,Notre Dame,Mercyhurst,2,onFloor,True,200.0,129.9,0.65,10.58,8.42,16,Braeden Smith / Braeden Shrewsberry / Ethan Roberts / Brady Koehler / Logan Duncomb,1.0,True,True,27,8.93
+374651,2026-11-05,Long Island University,Seton Hall,2,onFloor,True,200.0,199.5,0.997,7.71,7.72,9,Daquan Davis / Vasean Allette / Joshua Skinner / Tyrell Bowles / Xinyi Li,1.0,False,True,-7,7.33
+374651,2026-11-05,Seton Hall,Long Island University,2,onFloor,True,200.0,199.5,0.997,8.76,8.77,12,Trey Parker / Simeon Wilcher / Elijah Fisher / Roddie Anderson / Terry Copeland Jr.,1.0,True,True,7,8.64
+374652,2026-11-05,Chicago State,Incarnate Word,2,onFloor,True,200.0,191.9,0.96,9.73,9.81,12,Kameron Foman / Ben Kalonji / Malik Olafioye / Mike Price / Will Lovings-Watts,1.0,False,True,12,9.63
+374652,2026-11-05,Incarnate Word,Chicago State,2,onFloor,True,200.0,191.9,0.96,6.95,6.83,11,Godswill Erheriene / D'Arrae Goodwin / Mekhi Conner / Ismail Habib / Max Garcia-Plata,1.0,True,True,-12,7.3
+374655,2026-11-05,Chattanooga,Penn State,2,onFloor,True,200.0,195.1,0.976,7.21,7.22,10,Lenny Anigbata / Kobe McDowell-White / Matt Hampton / Zach Bleshoy / Yonatan Levy,1.0,False,True,-4,7.29
+374655,2026-11-05,Penn State,Chattanooga,2,onFloor,True,200.0,195.1,0.976,7.0,7.01,9,Dasonte Bowen / Josh Reed / Thomas Allard / Ivan Juric / Brant Byers,1.0,True,True,4,7.2
+374656,2026-11-05,College Of Biblical Studies,Prairie View A&M,2,onFloor,False,159.1,114.8,0.722,7.1,7.07,9,Samuel Johnson / Samuel Cole / Odis Carter / Marquice Scott / Coreon Hardy,0.718,False,False,-13,6.56
+374656,2026-11-05,Prairie View A&M,College Of Biblical Studies,2,onFloor,False,200.0,155.7,0.779,8.3,8.34,11,Elijah Mitchell / Davis Bynum / Michael Eley / Anthony Gause / Eddie Page,0.705,True,False,13,8.45
+374658,2026-11-05,Hofstra,Princeton,2,onFloor,True,200.0,199.4,0.997,7.48,7.48,9,Nick Jefferson / Joshua DeCady / Justin Moore / Tanner Thomas / Imanuel Zorgvol,1.0,False,True,-2,7.5
+374658,2026-11-05,Princeton,Hofstra,2,onFloor,True,200.0,199.4,0.997,9.06,9.06,10,Jackson Hicke / Landon Clark / Malik Abdullahi / Jack Stanton / Dalen Davis,1.0,True,True,2,8.66
+374659,2026-11-05,Cornell,Lehigh,2,onFloor,True,200.0,196.3,0.981,9.2,9.22,12,Quinn Gibson / Anthony Nimani / Kaspar Sepp / Ryan Burbach / Mikehi Williams,1.0,False,True,-7,9.45
+374659,2026-11-05,Lehigh,Cornell,2,onFloor,False,200.0,196.3,0.981,9.97,9.99,12,Carter Cohen / Joshua Ingram / Chris Tshibola / Hank Alvey / Jalen Vazquez,0.508,True,True,7,9.06
+374660,2026-11-05,Columbia,Old Westbury,2,onFloor,True,200.0,94.6,0.473,14.01,9.55,17,Connor Igoe / Michael Madueme / Josh Pratt / Gerard O'Keefe / Douglas Langford,1.0,True,False,62,9.61
+374660,2026-11-05,Old Westbury,Columbia,2,onFloor,True,200.0,94.6,0.473,12.48,8.54,17,Christian Thomas / Erk Teker / Josh Minton / Imole Akinwale / Charles DeStefano,1.0,False,False,-62,8.73
+374661,2026-11-05,Maine,Sacred Heart,2,onFloor,True,200.0,200.0,1.0,8.97,8.97,10,Yanis Bamba / DeAndre Williams / Ace Flagg / Caleb Crawford / Killian Gribben,0.999,False,True,2,9.03
+374661,2026-11-05,Sacred Heart,Maine,2,onFloor,True,200.0,200.0,1.0,6.85,6.85,8,Kedrick Curtis / Jaden Slaughter / Jaylen Robinson / Griffin Barrouk / Jo Van Buggenhout,1.0,True,True,-2,6.94
+374662,2026-11-05,New Hampshire,Rider,2,onFloor,True,200.0,194.0,0.97,7.96,8.0,10,Tyler Bike / Ryan Zan / Josiah Coleman / Myles Blackley / Giannos Xanthopoulos,1.0,False,True,11,8.33
+374662,2026-11-05,Rider,New Hampshire,2,onFloor,True,200.0,194.0,0.97,8.55,8.63,11,Khalil Farmer / Rich Brisco / Bryce Baker / Richie Rosa / Kam Wylie,1.0,True,True,-11,8.12
+374663,2026-11-05,Delaware State,Navy,2,onFloor,True,200.0,196.3,0.981,7.12,7.08,10,Nasir Muhammad / Nehemiah Reedus / Farouk Muntari / Anthony Parker / Joshua Obiora,1.0,False,True,-6,7.13
+374663,2026-11-05,Navy,Delaware State,2,onFloor,True,200.0,196.3,0.981,7.32,7.35,11,David Burnett / Jinwoo Kim / Cam Cole / Jordan Pennick / Jerry Ashley Jr.,1.0,True,True,6,7.23
+374664,2026-11-05,Marist,UMBC,2,onFloor,True,200.0,193.7,0.968,8.66,8.74,11,Jadin Collins-Roberts / Dywane Chess / Jordan Gabriel / Brandon Arnold / Myles Parker,1.0,True,True,8,8.86
+374664,2026-11-05,UMBC,Marist,2,onFloor,True,200.0,193.7,0.968,7.33,7.32,11,Flash Burton / Aidan Able / Jovan Ristic / Devin Ceaser / Riley Jacobs,1.0,False,True,-8,7.76
+374665,2026-11-05,Iona,NJIT,2,onFloor,True,200.0,158.8,0.794,9.29,8.59,13,Kosy Akametu / Keyshawn Mitchell / Luke Jungers / Kevon Vanderhorst / Ore Odutayo,1.0,True,True,23,8.69
+374665,2026-11-05,NJIT,Iona,2,onFloor,True,200.0,158.8,0.794,8.3,7.87,11,David Bolden / AJ Altobelli / Victor Vanderstraeten / Matheo Coffi / John Kelly,1.0,False,True,-23,7.84
+374666,2026-11-05,Fairfield,Vermont,2,onFloor,True,200.0,188.1,0.94,7.46,7.53,10,Peyton Smith / Declan Wucherpfennig / Jah Hatchett / Cole Edelen / Halon Rawlins,1.0,True,True,-12,7.71
+374666,2026-11-05,Vermont,Fairfield,2,onFloor,True,200.0,188.1,0.94,7.82,7.89,9,Darrel Yepdo / Will Davies / John Broom / Khalil Badru / Noah Barnett,1.0,False,True,12,8.08
+377949,2026-11-05,Howard Payne,Texas State,2,onFloor,True,200.0,88.3,0.441,14.86,12.5,18,Keegan Rowell / Will Jefferson / Amaree Garmon / Branden Campbell / Jackson Tomlin,1.0,False,False,-69,12.19
+377949,2026-11-05,Texas State,Howard Payne,2,onFloor,True,200.0,88.3,0.441,13.42,11.34,14,Paul Djobet / Ronald Jessamy / Quel'Ron House / Ky Pernell / KJ Younger,1.0,True,False,69,11.38
+377952,2026-11-05,Florida A&M,Fort Valley State,2,onFloor,False,200.0,193.7,0.968,8.53,8.58,12,Daisean Williford / Antonio Baker Jr. / Jaden Kempson / Ralph Martino Jr. / Ben Ndour,0.762,True,False,-5,8.64
+377952,2026-11-05,Fort Valley State,Florida A&M,2,onFloor,True,200.0,193.7,0.968,9.29,9.38,12,Katayvon Jefferies / Ronald Durham / Inslee Carroll / Jayden Miles / Amari Floyd,1.0,False,False,5,9.77
+377953,2026-11-05,Central Bible,Lindenwood,2,onFloor,True,200.0,62.1,0.311,11.03,7.27,13,Silas Massey / Davion Jackson / Edris Hamilton / Soljier Allen / Xavier Hassler-Godfrey,1.0,False,False,-74,9.13
+377953,2026-11-05,Lindenwood,Central Bible,2,onFloor,True,200.0,62.1,0.311,11.48,9.08,13,Dom Clay / Derek Rollins / Xavier Spencer / Noah Taitz / Malek Archie,1.0,True,False,74,9.82
+377954,2026-11-05,Kalamazoo,Western Michigan,2,onFloor,True,200.0,112.2,0.561,11.91,9.56,13,Nelson Sompa / Zander Nash / Marvin Moore / Andrew Caldwell / Connor Kouki,1.0,False,False,-47,9.78
+377954,2026-11-05,Western Michigan,Kalamazoo,2,onFloor,True,200.0,112.2,0.561,12.0,10.44,13,Julien Gomez / Joshua Eli / Mason Bendinger / Augustinas Kiudulas / Jordan Sigmon,1.0,True,False,47,10.58
+377955,2026-11-05,Richmond,Southern Virginia,2,onFloor,True,200.0,65.0,0.325,11.37,9.88,13,Will Harper III / Andrew Ball / Chad Cook / Derin Saran / Dominick Stewart,1.0,True,False,61,10.5
+377955,2026-11-05,Southern Virginia,Richmond,2,onFloor,True,200.0,65.0,0.325,10.84,9.6,13,Talmage Stucki / Landon Catlett / Hyrum Mcconkie / Duncan Reid / Nicholas Holland,1.0,False,False,-61,10.15
