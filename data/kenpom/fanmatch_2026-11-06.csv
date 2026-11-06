@@ -1,0 +1,60 @@
+Season,GameID,DateOfGame,Visitor,Home,Location,HomeRank,VisitorRank,HomePred,VisitorPred,HomeWP,PredTempo,ThrillScore
+2027,289,2026-11-06,Arkansas Pine Bluff,Baylor,Home,38,357,95,63,100,74,7.7
+2027,290,2026-11-06,South Carolina St.,USC Upstate,Home,340,359,77,71,70,73,24.2
+2027,291,2026-11-06,Boston University,Brown,Home,249,301,72,68,66,68,27.1
+2027,295,2026-11-06,Loyola MD,Mount St. Mary's,Home,303,349,76,70,70,72,24.3
+2027,297,2026-11-06,Texas A&M Corpus Chris,Louisiana,Home,228,218,68,65,57,67,31.8
+2027,298,2026-11-06,Tarleton St.,San Diego,Home,183,224,76,72,63,72,32.6
+2027,300,2026-11-06,Indiana St.,Ball St.,Home,217,206,74,71,58,70,33.2
+2027,301,2026-11-06,Massachusetts,Boston College,Neutral,109,143,75,71,63,71,43.3
+2027,303,2026-11-06,American,Clemson,Home,57,207,80,63,93,69,17.2
+2027,304,2026-11-06,Michigan,Connecticut,Semi-Home,9,30,75,70,68,70,74.7
+2027,305,2026-11-06,UNC Greensboro,Elon,Home,182,270,80,73,72,71,27.2
+2027,306,2026-11-06,West Florida,FIU,Home,194,356,83,68,90,73,13.3
+2027,307,2026-11-06,Troy,Florida St.,Home,58,179,83,68,92,72,21.3
+2027,308,2026-11-06,Coppin St.,George Mason,Home,98,361,81,57,98,69,7.4
+2027,309,2026-11-06,Presbyterian,Georgia,Home,55,240,86,67,96,71,14.7
+2027,310,2026-11-06,Georgia Southern,Georgia Tech,Home,102,256,82,68,89,73,18.4
+2027,311,2026-11-06,Austin Peay,Kennesaw St.,Home,159,202,80,74,70,74,31.2
+2027,313,2026-11-06,James Madison,Kentucky,Home,24,163,88,67,96,70,18.5
+2027,315,2026-11-06,Wagner,Miami FL,Home,21,342,85,55,100,69,8.1
+2027,316,2026-11-06,East Tennessee St.,N.C. State,Home,72,168,83,69,89,69,23.8
+2027,317,2026-11-06,Wofford,North Carolina,Home,50,290,88,64,98,72,10.5
+2027,318,2026-11-06,Youngstown St.,Ohio St.,Home,28,197,88,66,97,70,16.2
+2027,319,2026-11-06,Valparaiso,Purdue,Home,26,140,81,64,94,68,23.2
+2027,320,2026-11-06,New Haven,Rutgers,Home,86,353,83,58,98,68,7.8
+2027,322,2026-11-06,Yale,UCF,Home,64,130,80,69,84,70,33.0
+2027,323,2026-11-06,Holy Cross,Villanova,Home,36,362,91,58,100,70,7.0
+2027,324,2026-11-06,Northeastern,Virginia,Home,14,274,92,63,99,73,10.9
+2027,325,2026-11-06,Stetson,West Virginia,Home,35,280,83,59,98,67,9.7
+2027,326,2026-11-06,Florida Atlantic,Wright St.,Home,138,118,78,77,52,73,46.2
+2027,327,2026-11-06,Eastern Michigan,Xavier,Home,42,175,86,67,95,73,18.0
+2027,328,2026-11-06,Arkansas St.,Alabama,Home,10,188,96,69,99,78,15.6
+2027,329,2026-11-06,Robert Morris,Illinois Chicago,Home,108,198,77,68,80,69,27.1
+2027,330,2026-11-06,Eastern Illinois,Iowa,Home,39,360,82,53,100,66,6.6
+2027,331,2026-11-06,Southern Miss,Iowa St.,Home,11,237,87,60,99,72,11.9
+2027,332,2026-11-06,Middle Tennessee,Kansas,Home,5,169,89,62,99,72,15.3
+2027,333,2026-11-06,Southern Illinois,Kansas City,Home,279,158,71,75,36,71,31.9
+2027,334,2026-11-06,CSUN,Kansas St.,Home,120,160,82,74,75,76,33.3
+2027,335,2026-11-06,Texas Southern,LSU,Home,34,330,90,62,99,74,9.0
+2027,336,2026-11-06,Detroit Mercy,Marquette,Home,31,289,88,62,99,72,10.1
+2027,337,2026-11-06,St. Thomas,Minnesota,Home,37,161,82,65,93,69,21.3
+2027,338,2026-11-06,Central Arkansas,Mississippi,Home,40,151,81,65,92,71,24.3
+2027,340,2026-11-06,Stony Brook,Northwestern,Home,88,220,79,66,87,68,21.4
+2027,341,2026-11-06,Mississippi Valley St.,Oklahoma,Home,54,365,90,56,100,70,6.3
+2027,342,2026-11-06,Queens,Oklahoma St.,Home,43,167,96,76,96,77,19.1
+2027,343,2026-11-06,Missouri,Saint Louis,Neutral,53,19,78,83,33,72,73.8
+2027,345,2026-11-06,Southern,TCU,Home,46,265,86,63,98,73,11.1
+2027,346,2026-11-06,Northern Kentucky,Texas A&M,Home,29,178,93,72,97,76,18.0
+2027,347,2026-11-06,Nicholls,UAB,Home,148,282,84,73,83,73,20.8
+2027,348,2026-11-06,Delaware,Wisconsin,Home,41,248,85,63,97,70,13.2
+2027,349,2026-11-06,Northern Colorado,Arizona St.,Home,82,190,81,68,89,69,22.0
+2027,350,2026-11-06,Nebraska Omaha,BYU,Home,25,272,93,66,99,72,11.0
+2027,351,2026-11-06,Idaho,Colorado St.,Home,84,257,82,66,93,69,14.8
+2027,352,2026-11-06,Idaho St.,Wyoming,Home,122,332,82,65,93,69,12.0
+2027,353,2026-11-06,Eastern Washington,Oregon,Home,71,150,83,71,86,70,28.9
+2027,354,2026-11-06,Cal Baptist,Oregon St.,Home,92,266,83,66,93,72,15.0
+2027,355,2026-11-06,North Dakota St.,San Francisco,Home,157,221,76,70,70,69,30.3
+2027,356,2026-11-06,Oakland,Stanford,Home,77,176,81,67,89,70,22.5
+2027,357,2026-11-06,North Florida,UCLA,Home,16,285,91,62,99,72,10.2
+2027,2775,2026-11-06,Portland,UT Arlington,Home,227,180,74,73,51,71,35.1

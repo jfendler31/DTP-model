@@ -1,0 +1,59 @@
+date,tip_ET,away,home,venue,early_total,kp_total,kp_tempo,ppp_game,net_eff_gap,games_away,games_home,imp_raw,dom_raw,model_raw,diff_raw,lean_raw,imp_comp,dom_comp,model_comp,diff_comp,lean_comp,rule_raw,rule_comp
+2026-11-06,Fri Nov 6 4:00 PM,Massachusetts,Boston College,N,145.5,146,71.0,1.0317,5.1,1,1,-1.58,Boston College,142.5,-3.0,U,-0.13,Massachusetts,146.6,1.1,O,False,False
+2026-11-06,Fri Nov 6 5:00 PM,Northeastern,Virginia,H,160.5,155,73.0,1.0576,34.9,1,1,2.22,Virginia,154.6,-5.9,U,1.93,Virginia,154.6,-5.9,U,False,False
+2026-11-06,Fri Nov 6 5:00 PM,West Florida,FIU,H,160.0,151,73.0,1.0422,15.5,0,0,,,,,,,,,,,False,False
+2026-11-06,Fri Nov 6 5:00 PM,Arkansas Pine Bluff,Baylor,H,158.5,158,74.0,1.0555,38.5,1,1,1.22,Baylor,156.3,-2.2,U,1.8,Baylor,156.3,-2.2,U,False,False
+2026-11-06,Fri Nov 6 6:00 PM,Eastern Washington,Oregon,H,151.5,154,70.0,1.0657,12.5,1,1,-0.76,Oregon,147.4,-4.1,U,-0.54,Oregon,148.0,-3.5,U,False,False
+2026-11-06,Fri Nov 6 6:30 PM,Valparaiso,Purdue,H,146.5,145,68.0,1.0532,20.7,1,1,-1.12,Valparaiso,140.6,-5.9,U,-2.2,Valparaiso,137.5,-9.0,U,False,False
+2026-11-06,Fri Nov 6 6:30 PM,South Carolina St.,USC Upstate,H,148.5,148,73.0,1.0309,4.7,0,1,,,,,,,,,,,False,False
+2026-11-06,Fri Nov 6 6:30 PM,Youngstown St.,Ohio St.,H,155.5,154,70.0,1.0687,25.7,1,1,0.555,neither,150.0,-5.5,U,0.215,neither,150.0,-5.5,U,False,False
+2026-11-06,Fri Nov 6 7:00 PM,Eastern Michigan,Xavier,H,156.5,153,73.0,1.0473,21.0,1,1,2.47,Xavier,153.1,-3.4,U,1.72,Xavier,153.1,-3.4,U,False,False
+2026-11-06,Fri Nov 6 7:00 PM,Troy,Florida St.,H,159.5,151,72.0,1.0456,17.6,1,1,0.93,Florida St.,150.9,-8.6,U,-0.2,Florida St.,150.3,-9.2,U,False,False
+2026-11-06,Fri Nov 6 7:00 PM,Indiana St.,Ball St.,H,147.5,145,70.0,1.0395,0.5,1,1,-1.3,Indiana St.,142.4,-5.1,U,-1.13,Indiana St.,142.8,-4.7,U,False,False
+2026-11-06,Fri Nov 6 7:00 PM,Saint Louis,Missouri,N,162.0,161,72.0,1.0801,6.9,1,1,2.15,Saint Louis,155.7,-6.3,U,1.43,Saint Louis,155.7,-6.3,U,False,False
+2026-11-06,Fri Nov 6 7:00 PM,Boston University,Brown,H,158.5,140,68.0,1.0373,4.4,1,1,-1.13,Brown,138.5,-20.0,U,-1.32,Brown,138.0,-20.5,U,False,False
+2026-11-06,Fri Nov 6 7:00 PM,Wofford,North Carolina,H,156.0,152,72.0,1.0557,28.3,1,1,-0.85,North Carolina,149.9,-6.1,U,-1.08,North Carolina,149.2,-6.8,U,False,False
+2026-11-06,Fri Nov 6 7:00 PM,Austin Peay,Kennesaw St.,H,,154,74.0,1.0409,4.0,0,0,,,,,,,,,,,False,False
+2026-11-06,Fri Nov 6 7:00 PM,East Tennessee St.,N.C. State,H,152.5,152,69.0,1.0697,15.0,1,1,-0.33,N.C. State,147.1,-5.4,U,-0.08,N.C. State,147.8,-4.7,U,False,False
+2026-11-06,Fri Nov 6 7:00 PM,UNC Greensboro,Elon,H,153.5,153,71.0,1.0615,6.2,0,1,,,,,,,,,,,False,False
+2026-11-06,Fri Nov 6 7:00 PM,Georgia Southern,Georgia Tech,H,157.0,150,73.0,1.0365,15.5,1,1,-0.51,Georgia Southern,150.2,-6.8,U,-0.73,Georgia Southern,149.6,-7.4,U,False,False
+2026-11-06,Fri Nov 6 7:00 PM,Loyola MD,Mount St. Mary's,H,150.5,146,72.0,1.0329,5.5,1,1,-1.16,Loyola MD,145.9,-4.6,U,-1.61,Loyola MD,144.6,-5.9,U,False,False
+2026-11-06,Fri Nov 6 7:00 PM,Presbyterian,Georgia,H,155.5,153,71.0,1.0595,23.0,1,1,0.83,Georgia,150.8,-4.7,U,0.53,Georgia,150.8,-4.7,U,False,False
+2026-11-06,Fri Nov 6 7:00 PM,Holy Cross,Villanova,H,151.5,149,70.0,1.0546,41.2,1,1,-0.34,Villanova,147.1,-4.4,U,-0.45,Villanova,146.8,-4.7,U,False,False
+2026-11-06,Fri Nov 6 7:00 PM,Yale,UCF,H,152.5,149,70.0,1.0583,11.2,1,1,0.1,UCF,148.6,-3.9,U,-1.79,Yale,143.4,-9.1,U,False,False
+2026-11-06,Fri Nov 6 7:00 PM,Stetson,West Virginia,H,141.5,142,67.0,1.0557,29.7,2,1,-1.22,West Virginia,138.6,-2.9,U,-0.88,West Virginia,139.6,-1.9,U,False,False
+2026-11-06,Fri Nov 6 7:00 PM,New Haven,Rutgers,H,142.5,141,68.0,1.0375,29.4,1,0,,,,,,,,,,,False,False
+2026-11-06,Fri Nov 6 7:00 PM,James Madison,Kentucky,H,156.5,155,70.0,1.0726,24.0,1,1,-0.41,Kentucky,149.3,-7.2,U,-1.14,Kentucky,147.2,-9.3,U,False,False
+2026-11-06,Fri Nov 6 7:00 PM,Coppin St.,George Mason,H,142.5,138,69.0,1.021,29.3,1,1,-1.08,Coppin St.,138.5,-4.0,U,-1.17,Coppin St.,138.3,-4.2,U,False,False
+2026-11-06,Fri Nov 6 7:30 PM,Nicholls,UAB,H,155.5,157,73.0,1.063,10.9,0,1,,,,,,,,,,,False,False
+2026-11-06,Fri Nov 6 7:30 PM,Delaware,Wisconsin,H,153.0,148,70.0,1.0517,26.1,0,1,,,,,,,,,,,False,False
+2026-11-06,Fri Nov 6 7:30 PM,Arkansas St.,Alabama,H,175.5,165,78.0,1.0517,29.9,1,1,2.92,Alabama,164.1,-11.4,U,2.66,Alabama,164.1,-11.4,U,False,False
+2026-11-06,Fri Nov 6 7:30 PM,Florida Atlantic,Wright St.,H,158.0,155,73.0,1.0515,3.1,1,1,0.62,Wright St.,153.7,-4.3,U,0.42,Wright St.,153.7,-4.3,U,False,False
+2026-11-06,Fri Nov 6 8:00 PM,Connecticut,Michigan,N,144.5,145,70.0,1.0417,5.2,1,1,1.94,Michigan,146.3,1.8,O,1.34,Michigan,146.3,1.8,O,False,False
+2026-11-06,Fri Nov 6 8:00 PM,Southern Miss,Iowa St.,H,150.5,147,72.0,1.0341,32.4,0,1,,,,,,,,,,,False,False
+2026-11-06,Fri Nov 6 8:00 PM,Robert Morris,Illinois Chicago,H,143.5,145,69.0,1.045,10.1,1,0,,,,,,,,,,,False,False
+2026-11-06,Fri Nov 6 8:00 PM,Texas A&M Corpus Chris,Louisiana,H,134.5,133,67.0,1.0179,0.6,1,1,-2.72,Texas A&M Corpus Chris,129.7,-4.8,U,-2.53,Texas A&M Corpus Chris,130.2,-4.3,U,False,False
+2026-11-06,Fri Nov 6 8:00 PM,Texas Southern,LSU,H,159.5,152,74.0,1.036,34.2,1,1,2.17,LSU,153.5,-6.0,U,2.0,LSU,153.5,-6.0,U,False,False
+2026-11-06,Fri Nov 6 8:00 PM,Northern Kentucky,Texas A&M,H,170.5,165,76.0,1.0675,24.3,2,1,0.76,Texas A&M,162.3,-8.2,U,0.64,Texas A&M,162.3,-8.2,U,False,False
+2026-11-06,Fri Nov 6 8:00 PM,Stony Brook,Northwestern,H,144.5,145,68.0,1.0542,15.0,0,1,,,,,,,,,,,False,False
+2026-11-06,Fri Nov 6 8:00 PM,Southern,TCU,H,152.5,149,73.0,1.0347,26.6,1,1,1.73,TCU,151.4,-1.1,U,2.01,TCU,151.4,-1.1,U,False,False
+2026-11-06,Fri Nov 6 8:00 PM,St. Thomas,Minnesota,H,150.5,147,69.0,1.0533,20.3,1,1,-1.5,Minnesota,141.6,-8.9,U,-0.48,Minnesota,144.5,-6.0,U,False,False
+2026-11-06,Fri Nov 6 8:00 PM,Detroit Mercy,Marquette,H,155.0,150,72.0,1.0459,31.9,0,1,,,,,,,,,,,False,False
+2026-11-06,Fri Nov 6 8:00 PM,Mississippi Valley St.,Oklahoma,H,148.5,146,70.0,1.0446,43.6,0,1,,,,,,,,,,,False,False
+2026-11-06,Fri Nov 6 8:30 PM,Southern Illinois,Kansas City,H,145.5,146,71.0,1.0347,9.4,0,1,,,,,,,,,,,False,False
+2026-11-06,Fri Nov 6 8:30 PM,Central Arkansas,Mississippi,H,152.5,146,71.0,1.0331,18.3,1,1,0.2,Mississippi,147.1,-5.4,U,1.18,Central Arkansas,147.1,-5.4,U,False,False
+2026-11-06,Fri Nov 6 8:30 PM,Idaho St.,Wyoming,H,149.5,147,69.0,1.0509,19.0,1,0,,,,,,,,,,,False,False
+2026-11-06,Fri Nov 6 8:30 PM,Eastern Illinois,Iowa,H,137.5,135,66.0,1.0309,39.6,1,1,0.73,Iowa,136.9,-0.6,U,0.14,Iowa,136.9,-0.6,U,False,False
+2026-11-06,Fri Nov 6 9:00 PM,Wagner,Miami FL,H,147.5,140,69.0,1.0271,38.6,1,1,-1.85,Wagner,137.2,-10.3,U,-2.04,Wagner,136.7,-10.8,U,False,False
+2026-11-06,Fri Nov 6 9:00 PM,Middle Tennessee,Kansas,H,153.5,151,72.0,1.0468,32.0,0,1,,,,,,,,,,,False,False
+2026-11-06,Fri Nov 6 9:00 PM,Nebraska Omaha,BYU,H,161.5,159,72.0,1.0769,31.8,0,1,,,,,,,,,,,False,False
+2026-11-06,Fri Nov 6 9:00 PM,Idaho,Colorado St.,H,151.5,148,69.0,1.055,19.1,0,1,,,,,,,,,,,False,False
+2026-11-06,Fri Nov 6 9:00 PM,Northern Colorado,Arizona St.,H,145.5,149,69.0,1.0601,15.2,0,1,,,,,,,,,,,False,False
+2026-11-06,Fri Nov 6 9:00 PM,Queens,Oklahoma St.,H,174.5,172,77.0,1.0846,20.3,2,1,-0.3,Oklahoma St.,166.1,-8.4,U,0.12,Oklahoma St.,167.0,-7.5,U,False,False
+2026-11-06,Fri Nov 6 9:00 PM,CSUN,Kansas St.,H,164.0,156,76.0,1.0371,5.2,1,1,-0.75,Kansas St.,155.6,-8.4,U,1.32,CSUN,157.7,-6.3,U,False,False
+2026-11-06,Fri Nov 6 9:30 PM,Cal Baptist,Oregon St.,H,155.5,149,72.0,1.0407,17.9,1,1,2.21,Oregon St.,150.2,-5.3,U,2.2,Oregon St.,150.2,-5.3,U,False,False
+2026-11-06,Fri Nov 6 9:30 PM,Tarleton St.,San Diego,H,148.0,148,72.0,1.0377,2.6,0,0,,,,,,,,,,,False,False
+2026-11-06,Fri Nov 6 10:00 PM,Oakland,Stanford,H,150.5,148,70.0,1.0506,15.0,1,1,0.09,Stanford,147.5,-3.0,U,0.03,Stanford,147.5,-3.0,U,False,False
+2026-11-06,Fri Nov 6 10:00 PM,North Dakota St.,San Francisco,H,,146,69.0,1.0509,5.1,1,1,-1.49,San Francisco,141.3,,,-1.15,San Francisco,142.2,,,False,False
+2026-11-06,Fri Nov 6 10:30 PM,North Florida,UCLA,H,153.5,153,72.0,1.0519,35.1,1,1,0.91,North Florida,151.8,-1.7,U,0.89,North Florida,151.8,-1.7,U,False,False
+2026-11-06,Fri Nov 6 10:30 PM,UT Arlington,Portland,N,150.5,147,71.0,1.0385,2.9,0,0,,,,,,,,,,,False,False
