@@ -1,0 +1,36 @@
+# Research pull for the late-game favorite study (jobs/latefav.py). Not part of the daily card.
+# Runs on demand (Actions -> Late-game favorite study) or when triggers/latefav.txt changes;
+# the first non-comment line of that file is passed as arguments (e.g. "--seasons 2025 2026").
+name: Late-game favorite study
+on:
+  workflow_dispatch:
+  push:
+    paths: ['triggers/latefav.txt']
+permissions:
+  contents: write
+concurrency:
+  group: latefav
+  cancel-in-progress: false
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pandas
+      - name: Pull
+        run: |
+          ARGS="$(grep -v '^#' triggers/latefav.txt 2>/dev/null | head -1)"
+          python jobs/latefav.py $ARGS
+        env:
+          CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
+      - name: Save
+        if: always()
+        run: |
+          git config user.name "dtp-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/research/latefav || true
+          git commit -m "late-game favorite study: data" || echo "nothing new"
+          git pull --rebase origin main && git push origin HEAD:main
