@@ -24,7 +24,7 @@ from scipy.stats import norm
 from scipy.optimize import minimize_scalar
 
 D = 'data/research/latefav'
-SEASONS = [2025, 2026]
+SEASONS = [int(x) for x in __import__('os').environ.get('LF_SEASONS', '2025 2026').split()]
 LO, HI, MIN_PRIOR = 6.0, 12.0, 5
 
 
