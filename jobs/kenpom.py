@@ -43,7 +43,7 @@ def season_for(d):
 
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument('--date'); ap.add_argument('--fanmatch-only', action='store_true', help='past date: FanMatch only, leave the ratings files alone')
+    ap = argparse.ArgumentParser(); ap.add_argument('--date'); ap.add_argument('--fanmatch-only', action='store_true', help='past date: FanMatch only, leave the ratings files alone'); ap.add_argument('--height', action='store_true')
     a = ap.parse_args()
     d = dt.date.fromisoformat(a.date) if a.date else dt.datetime.now(ET).date()
     y = season_for(d)

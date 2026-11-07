@@ -1,2 +1,1 @@
-# dates to pull FanMatch for (one per line); "today" = ratings + FanMatch; "height" = height/experience/continuity
-height
+height 1251
