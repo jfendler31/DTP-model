@@ -1,0 +1,49 @@
+﻿tip_ET,away,home,venue,model,market,n_books,total,edge,model_size_adj,edge_size_adj,edge_inseason_only,prior_wt_away,prior_wt_home,notes,model_home_spread,market_home_spread,edge_size,model_home_spread_adj,edge_size_adj_num
+Sat Nov 7 12:00 PM,Morehead St.,Louisville,H,Louisville -32.1,Louisville -36.5,10,151.5,Morehead 4.4,Louisville -34.7,Morehead 1.8,n/a (<5 games),89%,89%,,-32.1,-36.5,4.4,-34.7,1.8
+Sat Nov 7 12:00 PM,North Dakota,Winthrop,H,Winthrop -8.6,Winthrop -9.5,6,159.5,N Dakota 0.9,Winthrop -8.6,N Dakota 0.9,n/a (<5 games),89%,89%,,-8.6,-9.5,0.9,-8.6,0.9
+Sat Nov 7 1:00 PM,North Carolina A&T,Ohio,H,Ohio -11.7,Ohio -12.5,10,161.5,NC A&T 0.8,Ohio -11.7,NC A&T 0.8,n/a (<5 games),100%,89%,,-11.7,-12.5,0.8,-11.7,0.8
+Sat Nov 7 2:00 PM,Toledo,Marshall,H,Marshall -0.5,Marshall -2.5,10,158.5,Toledo 2.0,Marshall -0.5,Toledo 2.0,n/a (<5 games),80%,89%,,-0.5,-2.5,2.0,-0.5,2.0
+Sat Nov 7 2:00 PM,Colgate,Drexel,H,Drexel -0.9,Drexel -1.5,6,146.5,Colgate 0.6,Drexel -0.9,Colgate 0.6,n/a (<5 games),89%,89%,,-0.9,-1.5,0.6,-0.9,0.6
+Sat Nov 7 2:00 PM,Cal St. Fullerton,South Dakota,H,CSU Fullerton -1.4,S Dakota -1.5,10,173.5,CSU Fullerton 2.9,CSU Fullerton -1.4,CSU Fullerton 2.9,n/a (<5 games),89%,89%,,1.4,-1.5,2.9,1.4,2.9
+Sat Nov 7 2:00 PM,UNC Wilmington,East Carolina,H,UNCW -3.1,UNCW -3.5,9,149.5,East Carolina 0.4,UNCW -3.1,East Carolina 0.4,n/a (<5 games),100%,89%,,3.1,3.5,0.4,3.1,0.4
+Sat Nov 7 2:00 PM,Lamar,Abilene Christian,H,ACU -0.6,,0,,,ACU -0.6,,n/a (<5 games),100%,89%,,-0.6,,,-0.6,
+Sat Nov 7 3:00 PM,North Carolina Central,Longwood,H,Longwood -13.9,Longwood -11.5,7,148.5,Longwood 2.4,Longwood -13.9,Longwood 2.4,n/a (<5 games),89%,89%,,-13.9,-11.5,2.4,-13.9,2.4
+Sat Nov 7 3:00 PM,VCU,Memphis,H,VCU -0.9,VCU -2,10,158.5,Memphis 1.1,VCU -0.9,Memphis 1.1,n/a (<5 games),89%,89%,,0.9,2.0,1.1,0.9,1.1
+Sat Nov 7 3:00 PM,Long Beach St.,Montana St.,H,Montana St -10.6,Montana St -10.5,10,147.5,Montana St 0.1,Montana St -10.6,Montana St 0.1,n/a (<5 games),89%,89%,,-10.6,-10.5,0.1,-10.6,0.1
+Sat Nov 7 3:30 PM,LIU,La Salle,H,La Salle -5.7,La Salle -4.5,7,146.5,La Salle 1.2,La Salle -5.7,La Salle 1.2,n/a (<5 games),80%,89%,,-5.7,-4.5,1.2,-5.7,1.2
+Sat Nov 7 3:30 PM,San Diego St.,Colorado,N,SDSU -0.7,SDSU -2.5,10,154.5,Colorado 1.8,SDSU -0.7,Colorado 1.8,n/a (<5 games),89%,89%,Iaroslav Niagu out (+0.0),0.7,2.5,1.8,0.7,1.8
+Sat Nov 7 4:00 PM,Nebraska Omaha,Utah St.,H,Utah St -24.4,Utah St -26.5,10,153.0,Omaha 2.1,Utah St -25.8,Omaha 0.7,n/a (<5 games),100%,89%,,-24.4,-26.5,2.1,-25.8,0.7
+Sat Nov 7 4:00 PM,Oakland,UC Santa Barbara,H,UCSB -9.6,UCSB -12.5,10,150.5,Oakland 2.9,UCSB -9.6,Oakland 2.9,n/a (<5 games),89%,100%,,-9.6,-12.5,2.9,-9.6,2.9
+Sat Nov 7 4:00 PM,Samford,UNLV,H,UNLV -12.0,UNLV -11.5,10,156.5,UNLV 0.5,UNLV -12.0,UNLV 0.5,n/a (<5 games),100%,89%,,-12.0,-11.5,0.5,-12.0,0.5
+Sat Nov 7 4:00 PM,Lafayette,Saint Joseph's,H,Saint Joseph's -17.0,Saint Joseph's -17.5,6,146.5,Lafayette 0.5,Saint Joseph's -17.3,Lafayette 0.2,n/a (<5 games),89%,89%,,-17.0,-17.5,0.5,-17.3,0.2
+Sat Nov 7 4:00 PM,Monmouth,Rhode Island,N,Rhode Island -5.1,Rhode Island -6,5,145.5,Monmouth 0.9,Rhode Island -5.1,Monmouth 0.9,n/a (<5 games),89%,89%,,-5.1,-6.0,0.9,-5.1,0.9
+Sat Nov 7 5:00 PM,Washington St.,High Point,H,High Point -10.0,High Point -11.5,6,153.5,Wazzu 1.5,High Point -10.0,Wazzu 1.5,n/a (<5 games),89%,80%,,-10.0,-11.5,1.5,-10.0,1.5
+Sat Nov 7 5:00 PM,Bellarmine,Miami OH,H,Miami OH -17.0,,0,,,Miami OH -17.3,,n/a (<5 games),80%,89%,,-17.0,,,-17.3,
+Sat Nov 7 5:00 PM,Tennessee Martin,IU Indy,H,IU Indy -2.3,UT Martin -1.5,4,159.0,IU Indy 3.8,IU Indy -2.3,IU Indy 3.8,n/a (<5 games),89%,100%,,-2.3,1.5,3.8,-2.3,3.8
+Sat Nov 7 5:00 PM,SIUE,Lipscomb,H,Lipscomb -5.5,,0,,,Lipscomb -5.5,,n/a (<5 games),100%,80%,,-5.5,,,-5.5,
+Sat Nov 7 5:00 PM,Northern Iowa,Furman,H,Furman -3.0,Furman -4.5,10,151.0,UNI 1.5,Furman -3.0,UNI 1.5,n/a (<5 games),100%,89%,,-3.0,-4.5,1.5,-3.0,1.5
+Sat Nov 7 5:00 PM,VMI,UTSA,H,UTSA -5.2,UTSA -4.5,9,164.5,UTSA 0.7,UTSA -5.2,UTSA 0.7,n/a (<5 games),89%,89%,,-5.2,-4.5,0.7,-5.2,0.7
+Sat Nov 7 5:00 PM,New Mexico St.,Gonzaga,H,Gonzaga -23.3,Gonzaga -28,10,150.5,NMSU 4.7,Gonzaga -24.5,NMSU 3.5,n/a (<5 games),100%,89%,Chauncey Wiggins out (-0.0),-23.3,-28.0,4.7,-24.5,3.5
+Sat Nov 7 5:00 PM,Old Dominion,Bucknell,H,ODU -7.2,,0,,,ODU -7.2,,n/a (<5 games),89%,89%,,7.2,,,7.2,
+Sat Nov 7 5:30 PM,Prairie View A&M,UT Rio Grande Valley,H,UTRGV -6.2,,0,,,UTRGV -6.2,,n/a (<5 games),100%,100%,,-6.2,,,-6.2,
+Sat Nov 7 5:30 PM,Western Carolina,UNC Asheville,H,W Carolina -3.5,,0,,,W Carolina -3.5,,n/a (<5 games),89%,89%,,3.5,,,3.5,
+Sat Nov 7 6:00 PM,Hampton,George Washington,H,George Washington -15.3,George Washington -19,4,147.5,Hampton 3.7,George Washington -15.3,Hampton 3.7,n/a (<5 games),89%,89%,,-15.3,-19.0,3.7,-15.3,3.7
+Sat Nov 7 6:00 PM,Northern Arizona,New Mexico,H,New Mexico -22.9,New Mexico -26.5,9,155.5,N Arizona 3.6,New Mexico -24.1,N Arizona 2.4,n/a (<5 games),89%,89%,,-22.9,-26.5,3.6,-24.1,2.4
+Sat Nov 7 6:30 PM,Morgan St.,Niagara,H,Niagara -3.5,,0,,,Niagara -3.5,,n/a (<5 games),100%,89%,,-3.5,,,-3.5,
+Sat Nov 7 7:00 PM,Providence,Nebraska,N,Nebraska -4.9,Nebraska -2.5,9,156.5,Nebraska 2.4,Nebraska -4.9,Nebraska 2.4,n/a (<5 games),89%,89%,,-4.9,-2.5,2.4,-4.9,2.4
+Sat Nov 7 7:00 PM,St. Bonaventure,Canisius,H,Bonaventure -12.2,Bonaventure -8.5,9,147.5,Bonaventure 3.7,Bonaventure -12.2,Bonaventure 3.7,n/a (<5 games),89%,89%,,12.2,8.5,3.7,12.2,3.7
+Sat Nov 7 7:00 PM,Northern Illinois,Dayton,H,Dayton -19.4,Dayton -19,8,145.5,Dayton 0.4,Dayton -20.1,Dayton 1.1,n/a (<5 games),80%,89%,,-19.4,-19.0,0.4,-20.1,1.1
+Sat Nov 7 7:00 PM,Mercer,Davidson,H,Davidson -9.5,Davidson -11.5,10,148.5,Mercer 2.0,Davidson -9.5,Mercer 2.0,n/a (<5 games),89%,89%,,-9.5,-11.5,2.0,-9.5,2.0
+Sat Nov 7 7:00 PM,Houston Christian,Western Illinois,H,HCU -8.7,HCU -9.5,3,139.5,W Illinois 0.8,HCU -8.7,W Illinois 0.8,n/a (<5 games),100%,89%,,8.7,9.5,0.8,8.7,0.8
+Sat Nov 7 7:30 PM,Denver,UC Riverside,H,UC Riverside -2.7,UC Riverside -2,4,154.0,UC Riverside 0.7,UC Riverside -2.7,UC Riverside 0.7,n/a (<5 games),89%,100%,,-2.7,-2.0,0.7,-2.7,0.7
+Sat Nov 7 7:30 PM,Maryland,Georgetown,H,Maryland -2.5,Maryland -2.5,10,146.5,-,Maryland -2.5,-,n/a (<5 games),89%,89%,,2.5,2.5,0.0,2.5,0.0
+Sat Nov 7 8:00 PM,Northwestern St.,Murray St.,H,Murray St -18.1,,0,,,Murray St -18.6,,n/a (<5 games),80%,89%,,-18.1,,,-18.6,
+Sat Nov 7 8:00 PM,Southern Indiana,Evansville,H,Evansville -6.9,Evansville -9.5,4,145.0,S Indiana 2.6,Evansville -6.9,S Indiana 2.6,n/a (<5 games),89%,100%,,-6.9,-9.5,2.6,-6.9,2.6
+Sat Nov 7 8:00 PM,Southeastern Louisiana,Little Rock,H,Little Rock -5.8,,0,,,Little Rock -5.8,,n/a (<5 games),89%,89%,,-5.8,,,-5.8,
+Sat Nov 7 8:00 PM,Pacific,Bradley,H,Bradley -2.8,Bradley -1.5,9,143.5,Bradley 1.3,Bradley -2.8,Bradley 1.3,n/a (<5 games),100%,100%,,-2.8,-1.5,1.3,-2.8,1.3
+Sat Nov 7 8:00 PM,Bethune Cookman,Grand Canyon,H,GCU -17.6,GCU -21.5,6,152.5,B-Cookman 3.9,GCU -18.0,B-Cookman 3.5,n/a (<5 games),80%,89%,Dan Skillings Jr. out (-1.3),-17.6,-21.5,3.9,-18.0,3.5
+Sat Nov 7 9:00 PM,Utah Valley,Weber St.,H,UVU -7.6,UVU -6.5,9,156.5,UVU 1.1,UVU -7.6,UVU 1.1,n/a (<5 games),100%,89%,,7.6,6.5,1.1,7.6,1.1
+Sat Nov 7 10:00 PM,Portland St.,Seattle,H,Seattle -8.0,Seattle -10.5,9,144.5,Portland St 2.5,Seattle -8.0,Portland St 2.5,n/a (<5 games),100%,89%,,-8.0,-10.5,2.5,-8.0,2.5
+Sat Nov 7 10:00 PM,Fresno St.,UC San Diego,H,UCSD -6.7,UCSD -9.5,9,152.0,Fresno St 2.8,UCSD -6.7,Fresno St 2.8,n/a (<5 games),100%,100%,,-6.7,-9.5,2.8,-6.7,2.8
+Sat Nov 7 10:00 PM,Sacramento St.,Santa Clara,H,Santa Clara -12.4,Santa Clara -19.5,9,167.5,Sac St 7.1,Santa Clara -12.4,Sac St 7.1,n/a (<5 games),100%,80%,,-12.4,-19.5,7.1,-12.4,7.1
+Sat Nov 7 10:00 PM,San Jose St.,UC Irvine,H,UC Irvine -5.9,UC Irvine -8.5,9,146.5,SJSU 2.6,UC Irvine -5.9,SJSU 2.6,n/a (<5 games),89%,100%,,-5.9,-8.5,2.6,-5.9,2.6
