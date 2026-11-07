@@ -43,11 +43,16 @@ def season_for(d):
 
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument('--date'); a = ap.parse_args()
+    ap = argparse.ArgumentParser(); ap.add_argument('--date'); ap.add_argument('--fanmatch-only', action='store_true', help='past date: FanMatch only, leave the ratings files alone')
+    a = ap.parse_args()
     d = dt.date.fromisoformat(a.date) if a.date else dt.datetime.now(ET).date()
     y = season_for(d)
     os.makedirs(OUT, exist_ok=True)
     get = getter()
+
+    if a.fanmatch_only:
+        fm = pd.DataFrame(get('fanmatch', d=str(d))); fm.to_csv(f'{OUT}/fanmatch_{d}.csv', index=False)
+        print(f'fanmatch {d}: {len(fm)} games'); return
 
     rat = pd.DataFrame(get('ratings', y=y))
     rat.insert(0, 'pulled_ET', dt.datetime.now(ET).strftime('%Y-%m-%d %H:%M'))

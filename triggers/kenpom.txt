@@ -1,0 +1,5 @@
+# dates to pull FanMatch for (one per line); "today" = ratings + FanMatch
+2026-11-02
+2026-11-03
+2026-11-04
+2026-11-05
