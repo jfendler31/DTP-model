@@ -36,8 +36,11 @@ if os.path.exists('data/overrides.csv'):
         elif r.team in Z: notes[r.team].append(f'{r.player} {r.status}')
 h = pd.read_csv('data/kp_hca.csv'); h['team'] = h.team.str.strip(); H = dict(zip(h.team, h.hca)); H.setdefault('LSU New Orleans', H.get('New Orleans', 2.3))
 def model(aw, hm, v): return round(-(9.5 * (Z[hm] - Z[aw]) + (H.get(hm, 3.0) if v == 'H' else 0.0)), 1)
-SIZE_K = 0.15   # card-only size adjustment (Nov 1): +0.15 pt per point of model spread beyond 15; locked conversion unchanged
-def size_adj(m): return round(m + (1 if m > 0 else -1) * SIZE_K * max(abs(m) - 15, 0), 1)
+# card-only size curve (Nov 7): model spread widened SIZE_K per point beyond SIZE_KNEE. Nov 1 version was 0.15 beyond 15; Nov 2-6
+# (244 games) favorites beat the model by ~+4 on every bucket from 15 up (least-squares k 0.25 from a knee of 10), the backtest said
+# 1-3 pts on 20+. 0.20 from 10 sits between them (20 -> +2.0, 25 -> +3.0, 30 -> +4.0). Provisional until the two-season sweep.
+SIZE_K, SIZE_KNEE = 0.20, 10
+def size_adj(m): return round(m + (1 if m > 0 else -1) * SIZE_K * max(abs(m) - SIZE_KNEE, 0), 1)
 # ---- lines
 if a.snapshot:
     L = pd.read_csv(a.snapshot); asof = os.path.basename(a.snapshot)
@@ -136,14 +139,16 @@ def sheet(ws, df, widths, fmts):
 # Card tab in Jon's layout (Nov 6): sorted by size-adjusted edge, Helvetica 12, centered; working columns hidden but kept
 CARD_COLS = ['tip_ET', 'away', 'home', 'venue', 'model', 'market', 'n_books', 'total', 'edge', 'model_size_adj', 'edge_size_adj',
              'edge_inseason_only', 'prior_wt_away', 'prior_wt_home', 'notes', 'market_home_spread', 'model_home_spread', 'edge_size',
-             'model_home_spread_adj', 'edge_size_adj_num']
+             'model_home_spread_adj', 'edge_size_adj_num', 'adj_home', 'abbr_away', 'abbr_home']
 CARD_HDR = {'away': 'Away', 'home': 'Home', 'edge_size_adj': 'Edge Size Adj', 'market_home_spread': 'Market Home Spread',
-            'model_home_spread': 'Model Home Spread', 'model_home_spread_adj': 'Home Spread Adj', 'edge_size_adj_num': 'Edge Size Adj'}
-CARD_HIDE = {'model', 'market', 'n_books', 'total', 'edge', 'model_size_adj', 'edge_inseason_only', 'prior_wt_away', 'prior_wt_home', 'notes', 'edge_size'}
+            'model_home_spread': 'Model Home Spread', 'model_home_spread_adj': 'Home Spread Adj', 'edge_size_adj_num': 'Edge Size Adj',
+            'adj_home': 'Adj To Home Side'}
+CARD_HIDE = {'model', 'market', 'n_books', 'total', 'edge', 'model_size_adj', 'edge_inseason_only', 'prior_wt_away', 'prior_wt_home', 'notes', 'edge_size',
+             'abbr_away', 'abbr_home'}
 CARD_W = {'tip_ET': 22, 'away': 21, 'home': 21, 'venue': 9, 'edge_size_adj': 19, 'market_home_spread': 11, 'model_home_spread': 11,
-          'model_home_spread_adj': 11, 'edge_size_adj_num': 11, 'notes': 40}
-CARD_NUM = {'market_home_spread', 'model_home_spread', 'model_home_spread_adj', 'edge_size_adj_num', 'edge_size'}
-CD = C[CARD_COLS].copy()
+          'model_home_spread_adj': 11, 'edge_size_adj_num': 11, 'notes': 40, 'adj_home': 13}
+CARD_NUM = {'market_home_spread', 'model_home_spread', 'model_home_spread_adj', 'edge_size_adj_num', 'edge_size', 'adj_home'}
+CD = C.assign(adj_home=None, abbr_away=C.away.map(abbr), abbr_home=C.home.map(abbr))[CARD_COLS].copy()
 CD['_k'] = pd.to_numeric(CD.edge_size_adj_num, errors='coerce')
 CD = CD.sort_values('_k', ascending=False, na_position='last').drop(columns='_k')
 ws = wb.active; ws.title = 'Card'
@@ -159,6 +164,17 @@ for row in CD.itertuples(index=False):
             except (TypeError, ValueError): pass
         vals.append(v)
     ws.append(vals)
+# Live formulas (Nov 7): the label (K), the size-adjusted model (S) and the numeric edge (T) recompute from whatever is in
+# Market Home Spread (P), Model Home Spread (Q) and Adj To Home Side (U), so a pasted current line or a manual adjustment
+# flips the side and re-sizes the edge in place. Values in the CSV stay as built.
+COL = {c: get_column_letter(i) for i, c in enumerate(CARD_COLS, 1)}
+P_, Q_, S_, U_, A_, H_ = (COL[c] for c in ('market_home_spread', 'model_home_spread', 'model_home_spread_adj', 'adj_home', 'abbr_away', 'abbr_home'))
+for r in range(2, ws.max_row + 1):
+    fin = f'({S_}{r}+N({U_}{r}))'
+    ws[f'{S_}{r}'] = f'=IF({Q_}{r}="","",ROUND({Q_}{r}+SIGN({Q_}{r})*{SIZE_K}*MAX(ABS({Q_}{r})-{SIZE_KNEE},0),1))'
+    ws[f'{COL["edge_size_adj_num"]}{r}'] = f'=IF({P_}{r}="","",ROUND(ABS({P_}{r}-{fin}),1))'
+    ws[f'{COL["edge_size_adj"]}{r}'] = (f'=IF({P_}{r}="","",IF(ABS({P_}{r}-{fin})<0.05,"-",IF({P_}{r}-{fin}>0,{H_}{r},{A_}{r})'
+                                        f'&" "&TEXT(ABS({P_}{r}-{fin}),"0.0")))')
 for c in ws[1]: c.font, c.fill, c.alignment = HEAD, hdr_fill, MIDW
 ws.row_dimensions[1].height = 48
 for i, col in enumerate(CARD_COLS, 1):
@@ -184,7 +200,8 @@ msg['From'] = os.environ['GMAIL_USER'].strip(); msg['To'] = os.environ['CARD_TO'
 msg.set_content(f"Ratings: {RSRC} + overrides. Lines as of {asof} (consensus = most common number across books).\n"
                 f"{len(C)} games, {lined} with lines. Tip-time order. Workbook attached (Card + Power Ratings tabs); CSV of the card also attached.\n"
                 f"Power Ratings: points vs an average D-I team on a neutral floor (9.5 per SD), prior + in-season blend + overrides.\n"
-                f"edge_size_adj: model spread widened 0.15 pt per point beyond 15 (big-mismatch correction); regular edge unchanged.\n")
+                f"edge_size_adj: model spread widened {SIZE_K} pt per point beyond {SIZE_KNEE} (size curve, Nov 7); regular edge unchanged.\n"
+                f"Card tab: Edge Size Adj, Home Spread Adj and the label recompute from Market Home Spread, Model Home Spread and Adj To Home Side.\n")
 msg.add_attachment(open(xfn, 'rb').read(), maintype='application', subtype='vnd.openxmlformats-officedocument.spreadsheetml.sheet',
                    filename=os.path.basename(xfn))
 msg.add_attachment(open(fn, 'rb').read(), maintype='text', subtype='csv', filename=os.path.basename(fn))
