@@ -33,6 +33,7 @@ jobs:
       - name: Build
         run: |
           if [ -z "$KENPOM_API_KEY" ]; then echo "KENPOM_API_KEY secret not set yet - skipping"; exit 0; fi
+          if [ "${{ github.event_name }}" = "workflow_run" ] && [ -f "data/totals/shadow_$(TZ=America/New_York date +%F).csv" ]; then echo "today's shadow already built - skipping"; exit 0; fi
           ARGS=""
           if [ -n "${{ github.event.inputs.date }}" ]; then ARGS="--date ${{ github.event.inputs.date }}"; fi
           if [ "${{ github.event_name }}" = "push" ]; then ARGS="$(grep -v '^#' triggers/totals.txt | head -1)"; fi

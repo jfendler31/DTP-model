@@ -152,7 +152,20 @@ def main():
     S.to_csv(f'{OUT}/shadow_{d}.csv', index=False)
     lf = f'{OUT}/shadow_log.csv'
     log = pd.read_csv(lf) if os.path.exists(lf) else pd.DataFrame()
-    if len(log): log = log[log.date != d]
+    if len(log):
+        # keep the first early number logged for each game (a later card rerun may have pulled fresher lines)
+        first = {(r.away, r.home): r.early_total for r in log[log.date == d].itertuples() if pd.notna(r.early_total)}
+        for i in S.index:
+            k = (S.at[i, 'away'], S.at[i, 'home'])
+            if k in first and first[k] != S.at[i, 'early_total']:
+                S.at[i, 'early_total'] = first[k]
+                for tag in ('raw', 'comp'):
+                    m = S.at[i, f'model_{tag}']
+                    S.at[i, f'diff_{tag}'] = round(m - first[k], 1) if pd.notna(m) else np.nan
+                    dv = S.at[i, f'diff_{tag}']
+                    S.at[i, f'lean_{tag}'] = '' if pd.isna(dv) or dv == 0 else ('U' if dv < 0 else 'O')
+        S.to_csv(f'{OUT}/shadow_{d}.csv', index=False)
+        log = log[log.date != d]
     log = pd.concat([log, S], ignore_index=True)
     for c in ('final_total', 'cbbd_open', 'cbbd_close'):
         if c not in log: log[c] = np.nan

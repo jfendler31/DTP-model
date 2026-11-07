@@ -34,7 +34,7 @@ Outputs (data/tempo/):
   teams_current.csv             one row per team (KenPom spelling), pooled over D-I games so far
 
 Usage: python jobs/tempo.py [--start YYYY-MM-DD] [--end YYYY-MM-DD] [--gap-fill N]
-       default: the day after the last date in team_games.csv through yesterday (ET); gap fill 300
+       default: the last date in team_games.csv through yesterday (ET); gap fill 300
        python jobs/tempo.py --from-json raw_dir/   offline: replay saved /plays/date JSON files
 """
 import os, sys, json, math, argparse, collections
@@ -350,7 +350,7 @@ def main():
     else:
         get = api()
         yday = (pd.Timestamp.now(tz='America/New_York') - pd.Timedelta(days=1)).strftime('%Y-%m-%d')
-        start = a.start or ((pd.Timestamp(old_tg.date.max()) + pd.Timedelta(days=1)).strftime('%Y-%m-%d') if len(old_tg) else '2026-11-01')
+        start = a.start or (min(old_tg.date.max(), yday) if len(old_tg) else '2026-11-01')   # re-pull the last stored day
         end = a.end or a.start or yday
         if start > end: print(f'nothing to do: {start} > {end}'); return
         failed_dates = []
@@ -417,7 +417,7 @@ def main():
         fp = f'{OUT}/possessions_{ym}.csv.gz'
         old = pd.read_csv(fp) if os.path.exists(fp) else pd.DataFrame()
         if len(old): old = old[~old.gameId.isin(grp.gameId)]
-        pd.concat([old, grp], ignore_index=True).sort_values(['date', 'gameId', 't0']).to_csv(fp, index=False, compression='gzip')
+        pd.concat([old, grp], ignore_index=True).sort_values(['date', 'gameId', 't0']).to_csv(fp, index=False, compression={'method': 'gzip', 'mtime': 0})
     new_tg = pd.DataFrame(tg_rows)
     if len(box):
         b = box[['gameId', 'team', 'poss']].rename(columns={'poss': 'poss_box'})
