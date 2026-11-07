@@ -1,0 +1,44 @@
+Season,GameID,DateOfGame,Visitor,Home,Location,HomeRank,VisitorRank,HomePred,VisitorPred,HomeWP,PredTempo,ThrillScore
+2027,233,2026-11-05,Vermont,Fairfield,Home,235,184,70,69,51,68,33.8
+2027,234,2026-11-05,NJIT,Iona,Home,219,347,78,66,84,71,17.1
+2027,236,2026-11-05,Albany,Manhattan,Home,320,341,75,71,64,70,27.0
+2027,237,2026-11-05,UMBC,Marist,Home,305,294,73,71,57,71,29.4
+2027,238,2026-11-05,UMass Lowell,Merrimack,Home,242,310,74,69,69,69,26.1
+2027,239,2026-11-05,Delaware St.,Navy,Home,314,363,75,66,80,70,18.3
+2027,240,2026-11-05,Hofstra,Princeton,Home,154,144,73,71,54,68,40.2
+2027,241,2026-11-05,Bryant,Quinnipiac,Home,277,301,76,72,64,74,28.4
+2027,242,2026-11-05,New Hampshire,Rider,Home,346,337,71,70,54,71,28.4
+2027,243,2026-11-05,Maine,Sacred Heart,Home,316,342,75,70,66,71,26.1
+2027,244,2026-11-05,Binghamton,Saint Peter's,Home,307,350,72,66,71,67,23.2
+2027,245,2026-11-05,Mercer,Virginia Tech,Home,52,209,87,67,96,73,15.9
+2027,248,2026-11-05,Jackson St.,Tulane,Home,162,326,83,71,85,72,18.2
+2027,250,2026-11-05,East Texas A&M,Rice,Home,238,232,73,71,57,70,32.5
+2027,254,2026-11-05,Georgia St.,Charlotte,Home,111,229,80,68,85,70,22.1
+2027,255,2026-11-05,Green Bay,Cincinnati,Home,31,237,85,62,98,70,12.4
+2027,256,2026-11-05,Coastal Carolina,Duke,Home,1,247,89,57,100,69,11.4
+2027,257,2026-11-05,Jacksonville,Florida,Home,2,228,92,61,100,71,12.9
+2027,258,2026-11-05,Stonehill,Fordham,Home,113,344,80,62,94,70,11.2
+2027,259,2026-11-05,Bellarmine,Indiana,Home,44,309,88,64,98,69,10.1
+2027,261,2026-11-05,Toledo,Michigan St.,Home,6,141,87,64,98,71,20.2
+2027,262,2026-11-05,Mercyhurst,Notre Dame,Home,74,302,79,60,96,68,11.2
+2027,263,2026-11-05,Chattanooga,Penn St.,Home,87,253,86,70,93,72,16.1
+2027,264,2026-11-05,Buffalo,Pittsburgh,Home,65,225,83,66,93,71,17.3
+2027,265,2026-11-05,LIU,Seton Hall,Home,64,256,79,60,95,70,14.0
+2027,266,2026-11-05,Central Connecticut,Syracuse,Home,89,340,79,58,97,68,9.3
+2027,268,2026-11-05,Howard,Alcorn St.,Home,327,197,72,77,34,73,28.7
+2027,269,2026-11-05,Le Moyne,Creighton,Home,49,317,89,64,99,73,9.8
+2027,270,2026-11-05,South Florida,DePaul,Home,60,92,78,71,74,72,49.2
+2027,271,2026-11-05,Penn,Illinois,Home,4,129,92,69,98,73,23.1
+2027,272,2026-11-05,Chicago St.,Incarnate Word,Home,291,345,76,70,71,69,24.0
+2027,274,2026-11-05,West Georgia,Loyola Chicago,Home,127,321,79,64,91,71,13.9
+2027,275,2026-11-05,Northwestern St.,Mississippi St.,Home,76,292,86,65,97,73,11.5
+2027,276,2026-11-05,McNeese,North Texas,Home,112,96,72,71,54,69,51.6
+2027,278,2026-11-05,VMI,SMU,Home,73,333,90,67,98,73,9.7
+2027,280,2026-11-05,Gardner Webb,Texas,Home,7,352,95,58,100,73,7.8
+2027,282,2026-11-05,Bethune Cookman,Texas Tech,Home,17,220,88,62,99,70,12.5
+2027,283,2026-11-05,Northern Illinois,Tulsa,Home,115,297,86,71,92,72,14.6
+2027,284,2026-11-05,Wake Forest,Vanderbilt,Home,8,86,84,69,91,73,39.1
+2027,286,2026-11-05,Cal Poly,Arizona,Home,11,160,95,71,99,78,18.4
+2027,287,2026-11-05,Towson,Utah,Home,100,191,75,63,86,68,21.3
+2027,5775,2026-11-05,Cornell,Lehigh,Home,265,187,77,79,43,74,33.7
+2027,5957,2026-11-05,Jacksonville St.,South Alabama,Home,257,166,71,73,43,68,33.7
