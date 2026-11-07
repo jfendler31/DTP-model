@@ -104,7 +104,7 @@ C = pd.DataFrame(out)
 C['_t'] = pd.to_datetime(C.tip_ET.str.replace(r'^\w+ ', '', regex=True) + f' {card_date[:4]}', format='%b %d %I:%M %p %Y', errors='coerce')
 C = C.sort_values('_t').drop(columns='_t')
 os.makedirs('cards', exist_ok=True); fn = f'cards/card_{card_date}.csv'; C.to_csv(fn, index=False, encoding='utf-8-sig')
-# ---- workbook: Card tab + Power Ratings tab (sortable; numbers stored as numbers)
+# ---- workbook: Betting Sheet tab (first) + Ratings tab + Card tab (sortable; numbers stored as numbers)
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.utils import get_column_letter
@@ -187,9 +187,49 @@ for r in range(2, ws.max_row + 1): ws.row_dimensions[r].height = 18
 ws.freeze_panes = 'A2'; ws.auto_filter.ref = ws.dimensions
 cols = ['Rank', 'Team', 'Conf', 'Rating', 'Prior', 'Prior rank', 'Move vs prior', 'In-season only', 'D-I games', 'Prior weight',
         'Override adj', 'HCA', 'KP tempo', 'Overrides']
-sheet(wb.create_sheet('Power Ratings'), PR[cols], {'Team': 22, 'Overrides': 50, 'In-season only': 13, 'Move vs prior': 12},
+MMDD = card_date[5:7] + '-' + card_date[8:10]
+sheet(wb.create_sheet(f'Ratings {MMDD}'), PR[cols], {'Team': 22, 'Overrides': 50, 'In-season only': 13, 'Move vs prior': 12},
       {'Rating': '0.0', 'Prior': '0.0', 'Move vs prior': '+0.0;-0.0;0.0', 'In-season only': '0.0', 'Prior weight': '0%',
        'Override adj': '+0.0;-0.0;0.0', 'HCA': '0.0', 'KP tempo': '0.0'})
+# ---- Betting Sheet tab (Nov 7): Jon's Google Sheet layout, first tab. A tip, B away, C home, D venue, E label, F market home
+# spread, G raw model home spread, H size-adjusted model, I edge, J his adjustment (home-side pts), K notes. E/H/I are PER-ROW
+# formulas, not ARRAYFORMULAs: they convert to Google Sheets as-is and move with their row when the sheet is sorted (an
+# ARRAYFORMULA anchored in row 2 rides along with whichever game sorts away from row 2 and blanks the rows above it).
+# Spare formula rows below the slate cover games Jon adds by hand. I carries a 0 red / 2 white / 5 green colour scale.
+from openpyxl.formatting.rule import ColorScaleRule
+BS = C.assign(tip_dt=pd.to_datetime(C.tip_ET.str.replace(r'^\w+ ', '', regex=True) + f' {card_date[:4]}', format='%b %d %I:%M %p %Y',
+                                errors='coerce'), edge_k=pd.to_numeric(C.edge_size_adj_num, errors='coerce'))
+BS = BS.sort_values(['edge_k', 'tip_dt'], ascending=[False, True], na_position='last')
+bs = wb.create_sheet(f'Betting Sheet {MMDD}', 0)
+BS_HDR = ['tip_ET', 'Away', 'Home', 'venue', 'Edge Size Adj', 'Market Home Spread', 'Model Home Spread', 'Home Spread Adj',
+          'Edge Size Adj', 'Adj To Home Side', 'Notes']
+bs.append(BS_HDR)
+def num(v):
+    try: return None if v in (None, '') or (isinstance(v, float) and pd.isna(v)) else float(v)
+    except (TypeError, ValueError): return None
+for g in BS.itertuples(index=False):
+    bs.append([None if pd.isna(g.tip_dt) else g.tip_dt.to_pydatetime(), g.away, g.home, g.venue, None, num(g.market_home_spread),
+               num(g.model_home_spread), None, None, None, g.notes if isinstance(g.notes, str) and g.notes else None])
+last = bs.max_row + 15
+for r in range(2, last + 1):
+    adj = f'(H{r}+N(J{r}))'
+    bs[f'H{r}'] = f'=IF(G{r}="","",ROUND(G{r}+SIGN(G{r})*{SIZE_K}*MAX(ABS(G{r})-{SIZE_KNEE},0),1))'
+    bs[f'I{r}'] = f'=IF(OR(F{r}="",H{r}=""),"",ROUND(ABS(F{r}-{adj}),1))'
+    bs[f'E{r}'] = (f'=IF(OR(F{r}="",H{r}=""),"",IF(ABS(F{r}-{adj})<0.05,"-",IF(F{r}-{adj}>0,C{r},B{r})'
+                   f'&" "&TEXT(ABS(F{r}-{adj}),"0.0")))')
+for c in bs[1]: c.font, c.fill, c.alignment = HEAD, hdr_fill, MIDW
+bs.row_dimensions[1].height = 48
+for L, w in zip('ABCDEFGHIJK', (16, 22, 22, 8, 24, 11, 11, 11, 10, 11, 40)): bs.column_dimensions[L].width = w
+for row in bs.iter_rows(min_row=2, max_row=last, max_col=11):
+    for cell in row:
+        cell.font, cell.alignment = BODY, MID
+        if cell.column_letter == 'A': cell.number_format = 'ddd h:mm AM/PM'
+        elif cell.column_letter in 'FGHIJ': cell.number_format = '0.0'
+bs.conditional_formatting.add(f'I2:I{last}', ColorScaleRule(start_type='num', start_value=0, start_color='F8696B',
+                              mid_type='num', mid_value=2, mid_color='FFFFFF', end_type='num', end_value=5, end_color='63BE7B'))
+bs.freeze_panes = 'A2'; bs.auto_filter.ref = f'A1:K{last}'
+wb.move_sheet(f'Ratings {MMDD}', offset=1 - wb.sheetnames.index(f'Ratings {MMDD}'))
+wb.active = 0
 xfn = f'cards/card_{card_date}.xlsx'; wb.save(xfn)
 lined = int(C.market.ne('').sum())
 print(f'{fn}: {len(C)} games, {lined} with lines')
@@ -198,8 +238,9 @@ msg = EmailMessage()
 msg['Subject'] = f"DTP card — {dt.datetime.strptime(card_date, '%Y-%m-%d'):%a %b %-d} — {len(C)} games"
 msg['From'] = os.environ['GMAIL_USER'].strip(); msg['To'] = os.environ['CARD_TO'].strip()
 msg.set_content(f"Ratings: {RSRC} + overrides. Lines as of {asof} (consensus = most common number across books).\n"
-                f"{len(C)} games, {lined} with lines. Tip-time order. Workbook attached (Card + Power Ratings tabs); CSV of the card also attached.\n"
-                f"Power Ratings: points vs an average D-I team on a neutral floor (9.5 per SD), prior + in-season blend + overrides.\n"
+                f"{len(C)} games, {lined} with lines. Workbook attached (Betting Sheet, Ratings and Card tabs); CSV of the card (tip-time order) also attached.\n"
+                f"Betting Sheet tab: your Google Sheet layout, sorted by edge. Type the current line in F and your adjustment in J; E/H/I are per-row formulas that survive sorting and the Google Sheets conversion.\n"
+                f"Ratings tab: points vs an average D-I team on a neutral floor (9.5 per SD), prior + in-season blend + overrides.\n"
                 f"edge_size_adj: model spread widened {SIZE_K} pt per point beyond {SIZE_KNEE} (size curve, Nov 7); regular edge unchanged.\n"
                 f"Card tab: Edge Size Adj, Home Spread Adj and the label recompute from Market Home Spread, Model Home Spread and Adj To Home Side.\n")
 msg.add_attachment(open(xfn, 'rb').read(), maintype='application', subtype='vnd.openxmlformats-officedocument.spreadsheetml.sheet',
