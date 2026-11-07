@@ -50,6 +50,10 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     get = getter()
 
+    if a.height:
+        h = pd.DataFrame(get('height', y=y)); h.to_csv(f'{OUT}/height_{d}.csv', index=False)
+        print(f'height y={y}: {len(h)} teams; columns {list(h.columns)}'); return
+
     if a.fanmatch_only:
         fm = pd.DataFrame(get('fanmatch', d=str(d))); fm.to_csv(f'{OUT}/fanmatch_{d}.csv', index=False)
         print(f'fanmatch {d}: {len(fm)} games'); return
