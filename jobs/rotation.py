@@ -207,11 +207,14 @@ def api():
     hdr = {'Authorization': f"Bearer {os.environ['CBBD_API_KEY'].strip()}", 'Accept': 'application/json'}
     def get(path, **p):
         for i in range(5):
-            r = requests.get('https://api.collegebasketballdata.com' + path, headers=hdr, params=p, timeout=120)
+            try:
+                r = requests.get('https://api.collegebasketballdata.com' + path, headers=hdr, params=p, timeout=300)
+            except requests.RequestException as e:
+                print(f'  {path} {p}: {type(e).__name__}, retry {i + 1}', flush=True); time.sleep(5 * (i + 1)); continue
             if r.status_code == 200: time.sleep(0.3); return r.json()
             if r.status_code in (429, 500, 502, 503, 504): time.sleep(2 ** i + 1); continue
-            r.raise_for_status()
-        raise SystemExit(f'gave up on {path} {p}')
+            print(f'  {path} {p}: HTTP {r.status_code}', flush=True); return None
+        print(f'  gave up on {path} {p}', flush=True); return None
     return get
 
 def by_game(plays):
@@ -227,6 +230,7 @@ def et_date(iso):
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('--start'); ap.add_argument('--end'); ap.add_argument('--from-json')
     ap.add_argument('--save-raw', help='also write each /plays/date response here (for replay)')
+    ap.add_argument('--gap-fill', type=int, default=300, help='max /plays/game calls for games the date feed skipped')
     a = ap.parse_args()
     os.makedirs(OUT, exist_ok=True)
     f_tg, f_pg = f'{OUT}/team_games.csv', f'{OUT}/player_games.csv'
@@ -241,12 +245,13 @@ def main():
     else:
         get = api()
         yday = (pd.Timestamp.now(tz='America/New_York') - pd.Timedelta(days=1)).strftime('%Y-%m-%d')
-        start = a.start or ((pd.Timestamp(old_tg.date.max()) + pd.Timedelta(days=1)).strftime('%Y-%m-%d') if len(old_tg) else yday)
+        start = a.start or (min(old_tg.date.max(), yday) if len(old_tg) else yday)   # re-pull the last stored day
         end = a.end or a.start or yday
         # the endpoint's day boundary doesn't line up with ET, so pull a day either side
         # and keep the games whose ET tip date falls in the range
         for d in pd.date_range(pd.Timestamp(start) - pd.Timedelta(days=1), pd.Timestamp(end) + pd.Timedelta(days=1)):
             data = get('/plays/date', date=d.strftime('%Y-%m-%d'), utcOffset=-5)
+            if data is None: print(f'{d:%Y-%m-%d}: date feed failed; gap fill covers it'); continue
             if a.save_raw:
                 os.makedirs(a.save_raw, exist_ok=True); json.dump(data, open(f'{a.save_raw}/plays_{d:%Y-%m-%d}.json', 'w'))
             for gid, pl in by_game(data).items():
@@ -255,16 +260,29 @@ def main():
                     for x in pl: have[x['id']] = x          # a game split across two responses is stitched back together
             print(f'{d:%Y-%m-%d}: {len(data)} plays')
         games = {gid: list(v.values()) for gid, v in games.items()}
+        # gap fill from /plays/game: games in the box-score store on these dates that the date feed left out
+        n_date = len(games)
+        if os.path.exists('data/games_2026-27.csv') and a.gap_fill:
+            box = pd.read_csv('data/games_2026-27.csv')
+            want = box[(box.date >= start) & (box.date <= end)].gameId.astype(int).unique().tolist()
+            missing = [g for g in want if g not in games]
+            for g in missing[:a.gap_fill]:
+                pl = get(f'/plays/game/{g}')
+                if pl: games[g] = pl
+            print(f'gap fill: {len(games) - n_date} of {len(missing)} missing games fetched'
+                  + (f' (capped at {a.gap_fill})' if len(missing) > a.gap_fill else ''))
         print(f'{len(games)} games tipping {start} to {end} (ET)')
         subs_cache = {}
         def subs_fetch(gid):
-            if gid not in subs_cache: subs_cache[gid] = get(f'/substitutions/game/{gid}')
+            if gid not in subs_cache: subs_cache[gid] = get(f'/substitutions/game/{gid}') or []
             return subs_cache[gid]
 
+    box_date = dict(zip(pd.read_csv('data/games_2026-27.csv').gameId.astype(int), pd.read_csv('data/games_2026-27.csv').date)) \
+        if os.path.exists('data/games_2026-27.csv') else {}
     new_tg, new_pg = [], []
     for gid, plays in games.items():
         tgs, pls = process_game(gid, plays, subs_fetch)
-        for t in tgs: t['date'] = et_date(plays[0]['gameStartDate'])
+        for t in tgs: t['date'] = et_date(plays[0]['gameStartDate']) if plays[0].get('gameStartDate') else box_date.get(int(gid))
         for p in pls: p['date'] = tgs[0]['date'] if tgs else p['date']
         new_tg += tgs; new_pg += pls
     new_tg, new_pg = pd.DataFrame(new_tg), pd.DataFrame(new_pg)

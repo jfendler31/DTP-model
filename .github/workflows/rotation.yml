@@ -1,8 +1,12 @@
 # Leverage-weighted rotation depth from CBBD play-by-play (jobs/rotation.py).
-# Runs every morning for yesterday's games; on demand via Actions -> Rotation depth,
+# Runs right after every Daily card run (the 4:15 AM card is kicked by push; GitHub's cron can run hours late),
+# with its own cron as a fallback; on demand via Actions -> Rotation depth,
 # or by putting "--start YYYY-MM-DD --end YYYY-MM-DD" in triggers/rotation.txt.
 name: Rotation depth
 on:
+  workflow_run:
+    workflows: ['Daily card']
+    types: [completed]
   workflow_dispatch:
   schedule:
     - cron: '22 11 * * *'
@@ -18,6 +22,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
