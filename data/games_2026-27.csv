@@ -1,871 +1,871 @@
 gameId,date,seasonType,team,opp,isHome,neutral,pts,poss,p2m,p2a,p3m,p3a,fta,fga,orb,drb,to,opp_pts,opp_poss,opp_p2m,opp_p2a,opp_p3m,opp_p3a,opp_fta,opp_fga,opp_orb,opp_drb,opp_to
-377909,2026-11-01,regular,Notre Dame,Villanova,False,True,74,70,14,41,9,24,25,65,17,20,11,72,70,13,21,11,31,18,52,10,27,20
 377909,2026-11-01,regular,Villanova,Notre Dame,True,True,72,70,13,21,11,31,18,52,10,27,20,74,70,14,41,9,24,25,65,17,20,11
-377910,2026-11-01,regular,High Point,Liberty,True,True,72,67,22,37,6,20,12,57,9,29,13,57,66,16,30,5,26,15,56,9,22,11
+377909,2026-11-01,regular,Notre Dame,Villanova,False,True,74,70,14,41,9,24,25,65,17,20,11,72,70,13,21,11,31,18,52,10,27,20
 377910,2026-11-01,regular,Liberty,High Point,False,True,57,66,16,30,5,26,15,56,9,22,11,72,67,22,37,6,20,12,57,9,29,13
-374556,2026-11-02,regular,Grambling,Northern Illinois,False,True,89,67,27,37,5,13,29,50,5,23,9,87,68,14,29,14,31,22,60,10,17,8
+377910,2026-11-01,regular,High Point,Liberty,True,True,72,67,22,37,6,20,12,57,9,29,13,57,66,16,30,5,26,15,56,9,22,11
 374556,2026-11-02,regular,Northern Illinois,Grambling,True,True,87,68,14,29,14,31,22,60,10,17,8,89,67,27,37,5,13,29,50,5,23,9
-374557,2026-11-02,regular,App State,Merrimack,False,True,63,57,13,20,8,30,20,50,16,26,14,49,57,14,36,5,18,12,54,13,17,10
+374556,2026-11-02,regular,Grambling,Northern Illinois,False,True,89,67,27,37,5,13,29,50,5,23,9,87,68,14,29,14,31,22,60,10,17,8
 374557,2026-11-02,regular,Merrimack,App State,True,True,49,57,14,36,5,18,12,54,13,17,10,63,57,13,20,8,30,20,50,16,26,14
-374558,2026-11-02,regular,Winthrop,Queens University,False,True,98,78,22,38,16,34,11,72,12,26,14,103,80,28,41,10,27,26,68,9,25,9
+374557,2026-11-02,regular,App State,Merrimack,False,True,63,57,13,20,8,30,20,50,16,26,14,49,57,14,36,5,18,12,54,13,17,10
 374558,2026-11-02,regular,Queens University,Winthrop,True,True,103,80,28,41,10,27,26,68,9,25,9,98,78,22,38,16,34,11,72,12,26,14
-377921,2026-11-02,regular,Mercer,Reinhardt,True,False,90,74,22,32,10,35,22,67,17,31,15,53,73,15,37,4,20,13,57,7,20,18
+374558,2026-11-02,regular,Winthrop,Queens University,False,True,98,78,22,38,16,34,11,72,12,26,14,103,80,28,41,10,27,26,68,9,25,9
 377921,2026-11-02,regular,Reinhardt,Mercer,False,False,53,73,15,37,4,20,13,57,7,20,18,90,74,22,32,10,35,22,67,17,31,15
-374559,2026-11-02,regular,Miami (OH)-Middletown,IU Indianapolis,False,False,76,88,19,44,4,15,40,59,16,28,25,113,89,29,46,11,37,29,83,19,29,11
+377921,2026-11-02,regular,Mercer,Reinhardt,True,False,90,74,22,32,10,35,22,67,17,31,15,53,73,15,37,4,20,13,57,7,20,18
 374559,2026-11-02,regular,IU Indianapolis,Miami (OH)-Middletown,True,False,113,89,29,46,11,37,29,83,19,29,11,76,88,19,44,4,15,40,59,16,28,25
-377916,2026-11-02,regular,Fisk,Middle Tennessee,False,False,73,78,18,41,8,22,17,63,12,17,18,117,78,26,41,16,35,22,76,18,29,10
+374559,2026-11-02,regular,Miami (OH)-Middletown,IU Indianapolis,False,False,76,88,19,44,4,15,40,59,16,28,25,113,89,29,46,11,37,29,83,19,29,11
 377916,2026-11-02,regular,Middle Tennessee,Fisk,True,False,117,78,26,41,16,35,22,76,18,29,10,73,78,18,41,8,22,17,63,12,17,18
-377922,2026-11-02,regular,Saint Joseph's Long Island,Hofstra,False,False,51,76,10,37,6,21,20,58,7,22,17,97,76,25,46,11,28,25,74,20,37,11
-372663,2026-11-02,regular,Murray State,Tennessee State,False,True,94,84,26,42,6,20,29,62,9,28,17,64,84,12,33,5,22,35,55,13,21,26
-372663,2026-11-02,regular,Tennessee State,Murray State,True,True,64,84,12,33,5,22,35,55,13,21,26,94,84,26,42,6,20,29,62,9,28,17
+377916,2026-11-02,regular,Fisk,Middle Tennessee,False,False,73,78,18,41,8,22,17,63,12,17,18,117,78,26,41,16,35,22,76,18,29,10
 377922,2026-11-02,regular,Hofstra,Saint Joseph's Long Island,True,False,97,76,25,46,11,28,25,74,20,37,11,51,76,10,37,6,21,20,58,7,22,17
-374560,2026-11-02,regular,Nicholls,North American,True,False,110,82,30,44,13,30,14,74,8,32,10,56,82,18,41,5,25,8,66,11,25,23
-374496,2026-11-02,regular,South Carolina State,Morris College,True,False,94,79,29,54,7,26,22,80,22,21,15,55,79,17,42,4,9,15,51,6,18,29
-374496,2026-11-02,regular,Morris College,South Carolina State,False,False,55,79,17,42,4,9,15,51,6,18,29,94,79,29,54,7,26,22,80,22,21,15
+372663,2026-11-02,regular,Tennessee State,Murray State,True,True,64,84,12,33,5,22,35,55,13,21,26,94,84,26,42,6,20,29,62,9,28,17
+372663,2026-11-02,regular,Murray State,Tennessee State,False,True,94,84,26,42,6,20,29,62,9,28,17,64,84,12,33,5,22,35,55,13,21,26
+377922,2026-11-02,regular,Saint Joseph's Long Island,Hofstra,False,False,51,76,10,37,6,21,20,58,7,22,17,97,76,25,46,11,28,25,74,20,37,11
 374560,2026-11-02,regular,North American,Nicholls,False,False,56,82,18,41,5,25,8,66,11,25,23,110,82,30,44,13,30,14,74,8,32,10
-372664,2026-11-02,regular,Northern Kentucky,UTEP,False,True,84,72,21,29,4,21,33,50,7,32,14,76,72,19,40,8,30,24,70,14,19,7
+374496,2026-11-02,regular,Morris College,South Carolina State,False,False,55,79,17,42,4,9,15,51,6,18,29,94,79,29,54,7,26,22,80,22,21,15
+374496,2026-11-02,regular,South Carolina State,Morris College,True,False,94,79,29,54,7,26,22,80,22,21,15,55,79,17,42,4,9,15,51,6,18,29
+374560,2026-11-02,regular,Nicholls,North American,True,False,110,82,30,44,13,30,14,74,8,32,10,56,82,18,41,5,25,8,66,11,25,23
 372664,2026-11-02,regular,UTEP,Northern Kentucky,True,True,76,72,19,40,8,30,24,70,14,19,7,84,72,21,29,4,21,33,50,7,32,14
-372669,2026-11-02,regular,UTSA,San José State,False,False,74,74,15,29,12,34,13,63,9,13,14,95,76,23,30,10,26,22,56,13,30,21
+372664,2026-11-02,regular,Northern Kentucky,UTEP,False,True,84,72,21,29,4,21,33,50,7,32,14,76,72,19,40,8,30,24,70,14,19,7
 372669,2026-11-02,regular,San José State,UTSA,True,False,95,76,23,30,10,26,22,56,13,30,21,74,74,15,29,12,34,13,63,9,13,14
-374561,2026-11-02,regular,Carnegie Mellon,Princeton,False,False,46,62,9,25,6,16,18,41,9,19,21,78,63,21,32,9,27,12,59,10,21,8
-374539,2026-11-02,regular,George Mason,UMBC,True,False,82,72,19,38,9,30,22,68,17,37,10,54,71,12,41,8,31,7,72,15,25,12
-374539,2026-11-02,regular,UMBC,George Mason,False,False,54,71,12,41,8,31,7,72,15,25,12,82,72,19,38,9,30,22,68,17,37,10
+372669,2026-11-02,regular,UTSA,San José State,False,False,74,74,15,29,12,34,13,63,9,13,14,95,76,23,30,10,26,22,56,13,30,21
 374561,2026-11-02,regular,Princeton,Carnegie Mellon,True,False,78,63,21,32,9,27,12,59,10,21,8,46,62,9,25,6,16,18,41,9,19,21
-377914,2026-11-02,regular,UIC,St. Francis (IL),True,False,96,67,31,41,5,21,27,62,16,24,9,47,66,8,24,6,20,17,44,7,14,22
+374539,2026-11-02,regular,UMBC,George Mason,False,False,54,71,12,41,8,31,7,72,15,25,12,82,72,19,38,9,30,22,68,17,37,10
+374539,2026-11-02,regular,George Mason,UMBC,True,False,82,72,19,38,9,30,22,68,17,37,10,54,71,12,41,8,31,7,72,15,25,12
+374561,2026-11-02,regular,Carnegie Mellon,Princeton,False,False,46,62,9,25,6,16,18,41,9,19,21,78,63,21,32,9,27,12,59,10,21,8
 377914,2026-11-02,regular,St. Francis (IL),UIC,False,False,47,66,8,24,6,20,17,44,7,14,22,96,67,31,41,5,21,27,62,16,24,9
-374562,2026-11-02,regular,McNeese,UAB,True,True,99,70,26,42,12,27,15,69,14,19,8,78,69,14,30,8,21,30,51,8,18,14
+377914,2026-11-02,regular,UIC,St. Francis (IL),True,False,96,67,31,41,5,21,27,62,16,24,9,47,66,8,24,6,20,17,44,7,14,22
 374562,2026-11-02,regular,UAB,McNeese,False,True,78,69,14,30,8,21,30,51,8,18,14,99,70,26,42,12,27,15,69,14,19,8
-374563,2026-11-02,regular,Virginia-Lynchburg,VMI,False,False,83,88,25,50,6,22,23,72,9,28,14,115,88,25,45,18,44,18,89,21,35,13
-377912,2026-11-02,regular,Mount Marty College,South Dakota,False,False,57,75,21,45,2,12,12,57,4,15,18,95,76,20,28,8,25,41,53,11,31,13
-377912,2026-11-02,regular,South Dakota,Mount Marty College,True,False,95,76,20,28,8,25,41,53,11,31,13,57,75,21,45,2,12,12,57,4,15,18
-372643,2026-11-02,regular,Bowling Green,Georgia State,False,False,76,69,19,34,8,21,26,55,11,30,13,73,70,11,29,15,35,12,64,7,21,10
-372643,2026-11-02,regular,Georgia State,Bowling Green,True,False,73,70,11,29,15,35,12,64,7,21,10,76,69,19,34,8,21,26,55,11,30,13
+374562,2026-11-02,regular,McNeese,UAB,True,True,99,70,26,42,12,27,15,69,14,19,8,78,69,14,30,8,21,30,51,8,18,14
 374563,2026-11-02,regular,VMI,Virginia-Lynchburg,True,False,115,88,25,45,18,44,18,89,21,35,13,83,88,25,50,6,22,23,72,9,28,14
-372661,2026-11-02,regular,Florida,Miami,True,True,77,70,12,27,11,26,35,53,12,32,12,67,69,17,43,4,17,30,60,13,26,11
+377912,2026-11-02,regular,South Dakota,Mount Marty College,True,False,95,76,20,28,8,25,41,53,11,31,13,57,75,21,45,2,12,12,57,4,15,18
+377912,2026-11-02,regular,Mount Marty College,South Dakota,False,False,57,75,21,45,2,12,12,57,4,15,18,95,76,20,28,8,25,41,53,11,31,13
+372643,2026-11-02,regular,Georgia State,Bowling Green,True,False,73,70,11,29,15,35,12,64,7,21,10,76,69,19,34,8,21,26,55,11,30,13
+372643,2026-11-02,regular,Bowling Green,Georgia State,False,False,76,69,19,34,8,21,26,55,11,30,13,73,70,11,29,15,35,12,64,7,21,10
+374563,2026-11-02,regular,Virginia-Lynchburg,VMI,False,False,83,88,25,50,6,22,23,72,9,28,14,115,88,25,45,18,44,18,89,21,35,13
 372661,2026-11-02,regular,Miami,Florida,False,True,67,69,17,43,4,17,30,60,13,26,11,77,70,12,27,11,26,35,53,12,32,12
-374506,2026-11-02,regular,Oakland,Michigan,False,False,68,70,14,37,6,26,30,63,21,23,15,84,70,24,37,7,34,20,71,16,26,9
-374566,2026-11-02,regular,Pepperdine,Cornell,False,False,85,74,21,36,8,30,28,66,16,22,13,86,74,19,35,14,29,10,64,10,22,16
-374566,2026-11-02,regular,Cornell,Pepperdine,True,False,86,74,19,35,14,29,10,64,10,22,16,85,74,21,36,8,30,28,66,16,22,13
+372661,2026-11-02,regular,Florida,Miami,True,True,77,70,12,27,11,26,35,53,12,32,12,67,69,17,43,4,17,30,60,13,26,11
 374506,2026-11-02,regular,Michigan,Oakland,True,False,84,70,24,37,7,34,20,71,16,26,9,68,70,14,37,6,26,30,63,21,23,15
-372651,2026-11-02,regular,Army,Duke,False,False,50,70,10,22,8,30,9,52,10,18,24,84,71,25,37,4,22,26,59,14,23,13
-374520,2026-11-02,regular,Loyola Maryland,Georgetown,False,False,58,66,14,35,10,28,2,63,12,23,14,80,67,22,37,7,26,17,63,10,28,8
-374520,2026-11-02,regular,Georgetown,Loyola Maryland,True,False,80,67,22,37,7,26,17,63,10,28,8,58,66,14,35,10,28,2,63,12,23,14
-374535,2026-11-02,regular,St. John's,Monmouth,True,False,78,74,20,42,6,20,25,62,12,28,13,63,74,16,36,8,20,14,56,5,26,18
-374569,2026-11-02,regular,Rice,Dallas Christian,True,False,100,85,23,39,14,43,18,82,22,36,14,55,84,14,40,5,21,16,61,9,25,24
-374569,2026-11-02,regular,Dallas Christian,Rice,False,False,55,84,14,40,5,21,16,61,9,25,24,100,85,23,39,14,43,18,82,22,36,14
-374501,2026-11-02,regular,Central Connecticut,Temple,False,False,56,67,13,39,8,21,13,60,10,25,12,68,67,19,29,8,30,10,59,8,31,10
-374501,2026-11-02,regular,Temple,Central Connecticut,True,False,68,67,19,29,8,30,10,59,8,31,10,56,67,13,39,8,21,13,60,10,25,12
-374512,2026-11-02,regular,UAlbany,Rhode Island College,True,False,74,73,23,44,7,23,13,67,13,34,13,67,72,15,39,10,25,19,64,13,27,11
-377919,2026-11-02,regular,Stony Brook,Old Westbury,True,False,97,73,24,32,12,35,26,67,15,38,9,47,72,9,29,8,25,11,54,3,24,16
-377919,2026-11-02,regular,Old Westbury,Stony Brook,False,False,47,72,9,29,8,25,11,54,3,24,16,97,73,24,32,12,35,26,67,15,38,9
-374535,2026-11-02,regular,Monmouth,St. John's,False,False,63,74,16,36,8,20,14,56,5,26,18,78,74,20,42,6,20,25,62,12,28,13
-374512,2026-11-02,regular,Rhode Island College,UAlbany,False,False,67,72,15,39,10,25,19,64,13,27,11,74,73,23,44,7,23,13,67,13,34,13
+374566,2026-11-02,regular,Cornell,Pepperdine,True,False,86,74,19,35,14,29,10,64,10,22,16,85,74,21,36,8,30,28,66,16,22,13
+374566,2026-11-02,regular,Pepperdine,Cornell,False,False,85,74,21,36,8,30,28,66,16,22,13,86,74,19,35,14,29,10,64,10,22,16
+374506,2026-11-02,regular,Oakland,Michigan,False,False,68,70,14,37,6,26,30,63,21,23,15,84,70,24,37,7,34,20,71,16,26,9
 372651,2026-11-02,regular,Duke,Army,True,False,84,71,25,37,4,22,26,59,14,23,13,50,70,10,22,8,30,9,52,10,18,24
-374564,2026-11-02,regular,Prairie View A&M,Paul Quinn,True,False,86,70,28,42,5,14,25,56,6,17,10,65,70,17,29,6,19,15,48,7,20,26
-374518,2026-11-02,regular,Florida Gulf Coast,UCF,False,False,95,76,17,31,12,33,27,64,12,25,13,96,78,22,40,9,18,38,58,6,21,9
-374517,2026-11-02,regular,Niagara,West Virginia,False,False,46,70,11,25,8,20,4,45,0,24,24,91,72,19,31,13,30,22,61,8,28,9
-374517,2026-11-02,regular,West Virginia,Niagara,True,False,91,72,19,31,13,30,22,61,8,28,9,46,70,11,25,8,20,4,45,0,24,24
-372635,2026-11-02,regular,Miami (OH),James Madison,False,False,86,75,23,44,8,24,17,68,13,31,11,77,74,13,36,14,34,16,70,16,23,12
-372635,2026-11-02,regular,James Madison,Miami (OH),True,False,77,74,13,36,14,34,16,70,16,23,12,86,75,23,44,8,24,17,68,13,31,11
+374520,2026-11-02,regular,Georgetown,Loyola Maryland,True,False,80,67,22,37,7,26,17,63,10,28,8,58,66,14,35,10,28,2,63,12,23,14
+374520,2026-11-02,regular,Loyola Maryland,Georgetown,False,False,58,66,14,35,10,28,2,63,12,23,14,80,67,22,37,7,26,17,63,10,28,8
+374535,2026-11-02,regular,Monmouth,St. John's,False,False,63,74,16,36,8,20,14,56,5,26,18,78,74,20,42,6,20,25,62,12,28,13
+374569,2026-11-02,regular,Dallas Christian,Rice,False,False,55,84,14,40,5,21,16,61,9,25,24,100,85,23,39,14,43,18,82,22,36,14
+374569,2026-11-02,regular,Rice,Dallas Christian,True,False,100,85,23,39,14,43,18,82,22,36,14,55,84,14,40,5,21,16,61,9,25,24
+374501,2026-11-02,regular,Temple,Central Connecticut,True,False,68,67,19,29,8,30,10,59,8,31,10,56,67,13,39,8,21,13,60,10,25,12
+374501,2026-11-02,regular,Central Connecticut,Temple,False,False,56,67,13,39,8,21,13,60,10,25,12,68,67,19,29,8,30,10,59,8,31,10
+374512,2026-11-02,regular,Rhode Island College,UAlbany,False,False,67,72,15,39,10,25,19,64,13,27,11,74,73,23,44,7,23,13,67,13,34,13
+377919,2026-11-02,regular,Old Westbury,Stony Brook,False,False,47,72,9,29,8,25,11,54,3,24,16,97,73,24,32,12,35,26,67,15,38,9
+377919,2026-11-02,regular,Stony Brook,Old Westbury,True,False,97,73,24,32,12,35,26,67,15,38,9,47,72,9,29,8,25,11,54,3,24,16
+374535,2026-11-02,regular,St. John's,Monmouth,True,False,78,74,20,42,6,20,25,62,12,28,13,63,74,16,36,8,20,14,56,5,26,18
+374512,2026-11-02,regular,UAlbany,Rhode Island College,True,False,74,73,23,44,7,23,13,67,13,34,13,67,72,15,39,10,25,19,64,13,27,11
+372651,2026-11-02,regular,Army,Duke,False,False,50,70,10,22,8,30,9,52,10,18,24,84,71,25,37,4,22,26,59,14,23,13
+374564,2026-11-02,regular,Paul Quinn,Prairie View A&M,False,False,65,70,17,29,6,19,15,48,7,20,26,86,70,28,42,5,14,25,56,6,17,10
 374518,2026-11-02,regular,UCF,Florida Gulf Coast,True,False,96,78,22,40,9,18,38,58,6,21,9,95,76,17,31,12,33,27,64,12,25,13
-374529,2026-11-02,regular,Presbyterian,St. Thomas-Minnesota,True,False,78,69,20,32,7,28,25,60,11,20,10,87,69,16,27,12,24,21,51,4,24,11
+374517,2026-11-02,regular,West Virginia,Niagara,True,False,91,72,19,31,13,30,22,61,8,28,9,46,70,11,25,8,20,4,45,0,24,24
+374517,2026-11-02,regular,Niagara,West Virginia,False,False,46,70,11,25,8,20,4,45,0,24,24,91,72,19,31,13,30,22,61,8,28,9
+372635,2026-11-02,regular,James Madison,Miami (OH),True,False,77,74,13,36,14,34,16,70,16,23,12,86,75,23,44,8,24,17,68,13,31,11
+372635,2026-11-02,regular,Miami (OH),James Madison,False,False,86,75,23,44,8,24,17,68,13,31,11,77,74,13,36,14,34,16,70,16,23,12
+374518,2026-11-02,regular,Florida Gulf Coast,UCF,False,False,95,76,17,31,12,33,27,64,12,25,13,96,78,22,40,9,18,38,58,6,21,9
 374529,2026-11-02,regular,St. Thomas-Minnesota,Presbyterian,False,False,87,69,16,27,12,24,21,51,4,24,11,78,69,20,32,7,28,25,60,11,20,10
-374572,2026-11-02,regular,Sacred Heart,Coast Guard,True,False,111,85,34,48,9,25,24,73,11,52,12,44,85,7,41,9,33,9,74,8,23,16
+374529,2026-11-02,regular,Presbyterian,St. Thomas-Minnesota,True,False,78,69,20,32,7,28,25,60,11,20,10,87,69,16,27,12,24,21,51,4,24,11
 374572,2026-11-02,regular,Coast Guard,Sacred Heart,False,False,44,85,7,41,9,33,9,74,8,23,16,111,85,34,48,9,25,24,73,11,52,12
-372653,2026-11-02,regular,Providence,Maine,True,False,83,72,21,38,10,30,19,68,16,27,8,56,71,7,20,8,23,28,43,8,24,23
-372626,2026-11-02,regular,Wright State,Air Force,True,False,102,75,28,41,10,23,21,64,13,29,14,71,74,15,42,7,26,32,68,23,13,13
+374572,2026-11-02,regular,Sacred Heart,Coast Guard,True,False,111,85,34,48,9,25,24,73,11,52,12,44,85,7,41,9,33,9,74,8,23,16
+372653,2026-11-02,regular,Maine,Providence,False,False,56,71,7,20,8,23,28,43,8,24,23,83,72,21,38,10,30,19,68,16,27,8
 372626,2026-11-02,regular,Air Force,Wright State,False,False,71,74,15,42,7,26,32,68,23,13,13,102,75,28,41,10,23,21,64,13,29,14
-372633,2026-11-02,regular,Ball State,Georgia Southern,False,False,55,68,11,22,5,37,25,59,15,32,15,67,69,15,34,5,19,36,53,11,28,10
-372629,2026-11-02,regular,Richmond,UNC Asheville,True,False,100,77,23,36,13,25,21,61,9,24,14,77,77,26,43,5,21,17,64,11,20,18
-372636,2026-11-02,regular,Massachusetts,Troy,False,False,71,68,21,41,7,24,15,65,16,31,13,60,69,15,36,7,28,14,64,12,28,9
-372636,2026-11-02,regular,Troy,Massachusetts,True,False,60,69,15,36,7,28,14,64,12,28,9,71,68,21,41,7,24,15,65,16,31,13
+372626,2026-11-02,regular,Wright State,Air Force,True,False,102,75,28,41,10,23,21,64,13,29,14,71,74,15,42,7,26,32,68,23,13,13
+372633,2026-11-02,regular,Georgia Southern,Ball State,True,False,67,69,15,34,5,19,36,53,11,28,10,55,68,11,22,5,37,25,59,15,32,15
 372629,2026-11-02,regular,UNC Asheville,Richmond,False,False,77,77,26,43,5,21,17,64,11,20,18,100,77,23,36,13,25,21,61,9,24,14
-377920,2026-11-02,regular,Kennesaw State,Midway University,True,False,116,83,27,37,16,45,21,82,20,44,11,57,82,14,33,6,34,19,67,8,19,15
-374575,2026-11-02,regular,Iona,Vermont,True,False,56,63,15,38,7,19,12,57,12,22,13,55,61,11,22,8,31,12,53,13,26,15
-374575,2026-11-02,regular,Vermont,Iona,False,False,55,61,11,22,8,31,12,53,13,26,15,56,63,15,38,7,19,12,57,12,22,13
+372636,2026-11-02,regular,Troy,Massachusetts,True,False,60,69,15,36,7,28,14,64,12,28,9,71,68,21,41,7,24,15,65,16,31,13
+372636,2026-11-02,regular,Massachusetts,Troy,False,False,71,68,21,41,7,24,15,65,16,31,13,60,69,15,36,7,28,14,64,12,28,9
+372629,2026-11-02,regular,Richmond,UNC Asheville,True,False,100,77,23,36,13,25,21,61,9,24,14,77,77,26,43,5,21,17,64,11,20,18
 377920,2026-11-02,regular,Midway University,Kennesaw State,False,False,57,82,14,33,6,34,19,67,8,19,15,116,83,27,37,16,45,21,82,20,44,11
-372618,2026-11-02,regular,Indiana,Eastern Illinois,True,False,91,71,20,34,9,24,32,58,13,21,11,57,69,22,36,3,14,7,50,5,21,22
-372652,2026-11-02,regular,Xavier,Mount St. Mary's,True,False,97,80,24,39,11,31,26,70,19,37,17,52,80,16,39,3,26,18,65,12,21,19
+374575,2026-11-02,regular,Vermont,Iona,False,False,55,61,11,22,8,31,12,53,13,26,15,56,63,15,38,7,19,12,57,12,22,13
+374575,2026-11-02,regular,Iona,Vermont,True,False,56,63,15,38,7,19,12,57,12,22,13,55,61,11,22,8,31,12,53,13,26,15
+377920,2026-11-02,regular,Kennesaw State,Midway University,True,False,116,83,27,37,16,45,21,82,20,44,11,57,82,14,33,6,34,19,67,8,19,15
+372618,2026-11-02,regular,Eastern Illinois,Indiana,False,False,57,69,22,36,3,14,7,50,5,21,22,91,71,20,34,9,24,32,58,13,21,11
 372652,2026-11-02,regular,Mount St. Mary's,Xavier,False,False,52,80,16,39,3,26,18,65,12,21,19,97,80,24,39,11,31,26,70,19,37,17
-374547,2026-11-02,regular,William & Mary,Bridgewater College (VA),True,False,80,72,15,26,11,30,26,56,10,34,14,66,72,16,41,7,25,20,66,12,28,9
+372652,2026-11-02,regular,Xavier,Mount St. Mary's,True,False,97,80,24,39,11,31,26,70,19,37,17,52,80,16,39,3,26,18,65,12,21,19
 374547,2026-11-02,regular,Bridgewater College (VA),William & Mary,False,False,66,72,16,41,7,25,20,66,12,28,9,80,72,15,26,11,30,26,56,10,34,14
-374580,2026-11-02,regular,East Carolina,South Carolina Upstate,True,False,83,70,15,32,12,25,25,57,11,20,11,70,70,22,39,7,20,8,59,10,21,20
+374547,2026-11-02,regular,William & Mary,Bridgewater College (VA),True,False,80,72,15,26,11,30,26,56,10,34,14,66,72,16,41,7,25,20,66,12,28,9
 374580,2026-11-02,regular,South Carolina Upstate,East Carolina,False,False,70,70,22,39,7,20,8,59,10,21,20,83,70,15,32,12,25,25,57,11,20,11
-374570,2026-11-02,regular,SIU Edwardsville,Eureka,True,False,91,73,33,52,4,16,21,68,14,29,8,39,73,7,31,5,16,13,47,7,22,28
+374580,2026-11-02,regular,East Carolina,South Carolina Upstate,True,False,83,70,15,32,12,25,25,57,11,20,11,70,70,22,39,7,20,8,59,10,21,20
 374570,2026-11-02,regular,Eureka,SIU Edwardsville,False,False,39,73,7,31,5,16,13,47,7,22,28,91,73,33,52,4,16,21,68,14,29,8
-374573,2026-11-02,regular,UMass Lowell,Rivier,True,False,121,80,36,50,11,22,28,72,16,39,10,57,78,11,36,9,33,11,69,10,16,13
+374570,2026-11-02,regular,SIU Edwardsville,Eureka,True,False,91,73,33,52,4,16,21,68,14,29,8,39,73,7,31,5,16,13,47,7,22,28
 374573,2026-11-02,regular,Rivier,UMass Lowell,False,False,57,78,11,36,9,33,11,69,10,16,13,121,80,36,50,11,22,28,72,16,39,10
-374503,2026-11-02,regular,Indiana State,Charlotte,True,False,70,66,21,41,6,20,12,61,8,17,7,78,66,14,27,12,25,19,52,12,28,16
+374573,2026-11-02,regular,UMass Lowell,Rivier,True,False,121,80,36,50,11,22,28,72,16,39,10,57,78,11,36,9,33,11,69,10,16,13
 374503,2026-11-02,regular,Charlotte,Indiana State,False,False,78,66,14,27,12,25,19,52,12,28,16,70,66,21,41,6,20,12,61,8,17,7
-377918,2026-11-02,regular,Delaware State,Saint Vincent,True,False,86,69,27,45,10,20,4,65,8,30,9,52,69,11,26,6,27,19,53,11,21,19
+374503,2026-11-02,regular,Indiana State,Charlotte,True,False,70,66,21,41,6,20,12,61,8,17,7,78,66,14,27,12,25,19,52,12,28,16
 377918,2026-11-02,regular,Saint Vincent,Delaware State,False,False,52,69,11,26,6,27,19,53,11,21,19,86,69,27,45,10,20,4,65,8,30,9
-377923,2026-11-02,regular,Eastern Kentucky,Kentucky Christian,True,False,105,84,31,45,11,39,14,84,18,34,11,54,83,21,41,2,17,8,58,2,24,24
+377918,2026-11-02,regular,Delaware State,Saint Vincent,True,False,86,69,27,45,10,20,4,65,8,30,9,52,69,11,26,6,27,19,53,11,21,19
 377923,2026-11-02,regular,Kentucky Christian,Eastern Kentucky,False,False,54,83,21,41,2,17,8,58,2,24,24,105,84,31,45,11,39,14,84,18,34,11
-374548,2026-11-02,regular,Stetson,Clemson,False,False,72,64,23,36,6,24,9,60,7,22,9,85,65,16,25,9,24,35,49,8,24,8
+377923,2026-11-02,regular,Eastern Kentucky,Kentucky Christian,True,False,105,84,31,45,11,39,14,84,18,34,11,54,83,21,41,2,17,8,58,2,24,24
 374548,2026-11-02,regular,Clemson,Stetson,True,False,85,65,16,25,9,24,35,49,8,24,8,72,64,23,36,6,24,9,60,7,22,9
-374531,2026-11-02,regular,Northeastern,Boston University,False,False,85,72,25,36,6,23,23,59,7,18,11,93,73,26,40,6,19,30,59,12,24,11
-374524,2026-11-02,regular,Jackson State,Texas Tech,False,False,42,71,8,19,6,29,14,48,7,26,24,76,70,18,25,7,30,31,55,10,27,10
-374524,2026-11-02,regular,Texas Tech,Jackson State,True,False,76,70,18,25,7,30,31,55,10,27,10,42,71,8,19,6,29,14,48,7,26,24
+374548,2026-11-02,regular,Stetson,Clemson,False,False,72,64,23,36,6,24,9,60,7,22,9,85,65,16,25,9,24,35,49,8,24,8
 374531,2026-11-02,regular,Boston University,Northeastern,True,False,93,73,26,40,6,19,30,59,12,24,11,85,72,25,36,6,23,23,59,7,18,11
-374579,2026-11-02,regular,Long Island University,Florida Atlantic,False,False,60,75,18,35,4,20,19,55,6,32,16,74,75,24,52,1,10,31,62,11,33,10
-374528,2026-11-02,regular,Jacksonville,Trinity Baptist,True,False,105,76,32,42,12,32,8,74,12,38,13,61,75,9,33,9,30,22,63,4,13,12
-374528,2026-11-02,regular,Trinity Baptist,Jacksonville,False,False,61,75,9,33,9,30,22,63,4,13,12,105,76,32,42,12,32,8,74,12,38,13
-374537,2026-11-02,regular,Dartmouth,Marist,False,False,69,69,16,28,8,25,24,53,10,26,16,62,70,10,32,7,14,26,46,8,22,18
-374537,2026-11-02,regular,Marist,Dartmouth,True,False,62,70,10,32,7,14,26,46,8,22,18,69,69,16,28,8,25,24,53,10,26,16
-372665,2026-11-02,regular,Brown,New Hampshire,True,False,55,63,15,31,6,19,14,50,7,27,16,59,63,9,23,6,22,32,45,7,24,11
-372665,2026-11-02,regular,New Hampshire,Brown,False,False,59,63,9,23,6,22,32,45,7,24,11,55,63,15,31,6,19,14,50,7,27,16
-374578,2026-11-02,regular,Stonehill,Curry College,True,False,84,79,18,32,8,30,32,62,15,42,16,56,78,14,36,6,23,18,59,4,22,15
-374578,2026-11-02,regular,Curry College,Stonehill,False,False,56,78,14,36,6,23,18,59,4,22,15,84,79,18,32,8,30,32,62,15,42,16
+374524,2026-11-02,regular,Texas Tech,Jackson State,True,False,76,70,18,25,7,30,31,55,10,27,10,42,71,8,19,6,29,14,48,7,26,24
+374524,2026-11-02,regular,Jackson State,Texas Tech,False,False,42,71,8,19,6,29,14,48,7,26,24,76,70,18,25,7,30,31,55,10,27,10
+374531,2026-11-02,regular,Northeastern,Boston University,False,False,85,72,25,36,6,23,23,59,7,18,11,93,73,26,40,6,19,30,59,12,24,11
 374579,2026-11-02,regular,Florida Atlantic,Long Island University,True,False,74,75,24,52,1,10,31,62,11,33,10,60,75,18,35,4,20,19,55,6,32,16
-372627,2026-11-02,regular,Youngstown State,St. Bonaventure,False,False,79,71,14,35,12,32,21,67,19,28,13,71,73,22,43,6,17,21,60,12,26,13
-374567,2026-11-02,regular,West Florida,Southeastern Baptist College,True,False,127,77,31,46,16,35,21,81,25,27,12,42,76,15,38,3,14,10,52,9,11,29
+374528,2026-11-02,regular,Trinity Baptist,Jacksonville,False,False,61,75,9,33,9,30,22,63,4,13,12,105,76,32,42,12,32,8,74,12,38,13
+374528,2026-11-02,regular,Jacksonville,Trinity Baptist,True,False,105,76,32,42,12,32,8,74,12,38,13,61,75,9,33,9,30,22,63,4,13,12
+374537,2026-11-02,regular,Marist,Dartmouth,True,False,62,70,10,32,7,14,26,46,8,22,18,69,69,16,28,8,25,24,53,10,26,16
+374537,2026-11-02,regular,Dartmouth,Marist,False,False,69,69,16,28,8,25,24,53,10,26,16,62,70,10,32,7,14,26,46,8,22,18
+372665,2026-11-02,regular,New Hampshire,Brown,False,False,59,63,9,23,6,22,32,45,7,24,11,55,63,15,31,6,19,14,50,7,27,16
+372665,2026-11-02,regular,Brown,New Hampshire,True,False,55,63,15,31,6,19,14,50,7,27,16,59,63,9,23,6,22,32,45,7,24,11
+374578,2026-11-02,regular,Curry College,Stonehill,False,False,56,78,14,36,6,23,18,59,4,22,15,84,79,18,32,8,30,32,62,15,42,16
+374578,2026-11-02,regular,Stonehill,Curry College,True,False,84,79,18,32,8,30,32,62,15,42,16,56,78,14,36,6,23,18,59,4,22,15
+374579,2026-11-02,regular,Long Island University,Florida Atlantic,False,False,60,75,18,35,4,20,19,55,6,32,16,74,75,24,52,1,10,31,62,11,33,10
 372627,2026-11-02,regular,St. Bonaventure,Youngstown State,True,False,71,73,22,43,6,17,21,60,12,26,13,79,71,14,35,12,32,21,67,19,28,13
 374567,2026-11-02,regular,Southeastern Baptist College,West Florida,False,False,42,76,15,38,3,14,10,52,9,11,29,127,77,31,46,16,35,21,81,25,27,12
-372621,2026-11-02,regular,Cincinnati,American University,True,False,79,73,21,42,8,27,18,69,16,32,13,53,72,8,25,7,29,20,54,9,23,18
+372627,2026-11-02,regular,Youngstown State,St. Bonaventure,False,False,79,71,14,35,12,32,21,67,19,28,13,71,73,22,43,6,17,21,60,12,26,13
+374567,2026-11-02,regular,West Florida,Southeastern Baptist College,True,False,127,77,31,46,16,35,21,81,25,27,12,42,76,15,38,3,14,10,52,9,11,29
 372621,2026-11-02,regular,American University,Cincinnati,False,False,53,72,8,25,7,29,20,54,9,23,18,79,73,21,42,8,27,18,69,16,32,13
-374511,2026-11-02,regular,Howard,Yale,False,False,62,65,17,41,7,27,16,68,21,20,11,72,66,16,41,7,23,22,64,22,29,14
-372646,2026-11-02,regular,Memphis,Iowa State,False,True,80,71,14,35,9,20,33,55,12,26,13,76,71,21,38,4,20,32,58,14,22,11
-372646,2026-11-02,regular,Iowa State,Memphis,True,True,76,71,21,38,4,20,32,58,14,22,11,80,71,14,35,9,20,33,55,12,26,13
-372633,2026-11-02,regular,Georgia Southern,Ball State,True,False,67,69,15,34,5,19,36,53,11,28,10,55,68,11,22,5,37,25,59,15,32,15
+372621,2026-11-02,regular,Cincinnati,American University,True,False,79,73,21,42,8,27,18,69,16,32,13,53,72,8,25,7,29,20,54,9,23,18
 374511,2026-11-02,regular,Yale,Howard,True,False,72,66,16,41,7,23,22,64,22,29,14,62,65,17,41,7,27,16,68,21,20,11
-372632,2026-11-02,regular,NJIT,Dayton,False,False,58,70,17,33,3,25,25,58,11,17,11,89,69,22,39,9,26,21,65,18,32,12
+372646,2026-11-02,regular,Iowa State,Memphis,True,True,76,71,21,38,4,20,32,58,14,22,11,80,71,14,35,9,20,33,55,12,26,13
+372646,2026-11-02,regular,Memphis,Iowa State,False,True,80,71,14,35,9,20,33,55,12,26,13,76,71,21,38,4,20,32,58,14,22,11
+372633,2026-11-02,regular,Ball State,Georgia Southern,False,False,55,68,11,22,5,37,25,59,15,32,15,67,69,15,34,5,19,36,53,11,28,10
+374511,2026-11-02,regular,Howard,Yale,False,False,62,65,17,41,7,27,16,68,21,20,11,72,66,16,41,7,23,22,64,22,29,14
 372632,2026-11-02,regular,Dayton,NJIT,True,False,89,69,22,39,9,26,21,65,18,32,12,58,70,17,33,3,25,25,58,11,17,11
-377917,2026-11-02,regular,Florida International,New College (FL),True,False,101,84,25,42,12,35,16,77,15,35,14,58,84,19,45,4,22,13,67,13,26,23
-372662,2026-11-02,regular,Lafayette,Butler,False,False,60,77,21,43,4,24,12,67,11,17,16,96,78,16,23,16,44,17,67,17,34,20
-372662,2026-11-02,regular,Butler,Lafayette,True,False,96,78,16,23,16,44,17,67,17,34,20,60,77,21,43,4,24,12,67,11,17,16
-372642,2026-11-02,regular,Marshall,Buffalo,True,False,92,75,23,37,11,26,19,63,7,34,11,65,74,18,35,5,27,21,62,6,25,10
-372642,2026-11-02,regular,Buffalo,Marshall,False,False,65,74,18,35,5,27,21,62,6,25,10,92,75,23,37,11,26,19,63,7,34,11
+372632,2026-11-02,regular,NJIT,Dayton,False,False,58,70,17,33,3,25,25,58,11,17,11,89,69,22,39,9,26,21,65,18,32,12
 377917,2026-11-02,regular,New College (FL),Florida International,False,False,58,84,19,45,4,22,13,67,13,26,23,101,84,25,42,12,35,16,77,15,35,14
-372650,2026-11-02,regular,Pittsburgh,Rider,True,False,95,73,18,39,14,26,24,65,12,31,10,57,72,11,33,7,24,20,57,10,24,17
-374577,2026-11-02,regular,VCU,Little Rock,True,False,82,70,12,27,8,25,48,52,18,21,13,72,70,20,43,5,16,21,59,13,26,16
-374577,2026-11-02,regular,Little Rock,VCU,False,False,72,70,20,43,5,16,21,59,13,26,16,82,70,12,27,8,25,48,52,18,21,13
-372617,2026-11-02,regular,Maryland,Bucknell,True,False,96,73,27,44,7,28,31,72,28,26,13,67,72,11,22,12,31,14,53,6,16,18
-372617,2026-11-02,regular,Bucknell,Maryland,False,False,67,72,11,22,12,31,14,53,6,16,18,96,73,27,44,7,28,31,72,28,26,13
-372639,2026-11-02,regular,Coastal Carolina,Eastern Michigan,True,False,70,67,19,37,7,24,16,61,14,26,13,71,66,15,39,6,14,29,53,8,24,7
-372618,2026-11-02,regular,Eastern Illinois,Indiana,False,False,57,69,22,36,3,14,7,50,5,21,22,91,71,20,34,9,24,32,58,13,21,11
-372639,2026-11-02,regular,Eastern Michigan,Coastal Carolina,False,False,71,66,15,39,6,14,29,53,8,24,7,70,67,19,37,7,24,16,61,14,26,13
-374576,2026-11-02,regular,Harvard,MIT,True,False,73,69,19,42,7,22,19,64,15,32,11,45,69,8,30,7,22,12,52,8,26,20
-374576,2026-11-02,regular,MIT,Harvard,False,False,45,69,8,30,7,22,12,52,8,26,20,73,69,19,42,7,22,19,64,15,32,11
-374574,2026-11-02,regular,Delaware,Notre Dame (Md),True,False,105,79,29,43,13,28,14,71,11,37,12,44,79,16,50,1,13,13,63,10,18,20
-377925,2026-11-02,regular,Mount Olive,UNC Wilmington,False,False,65,78,14,37,6,22,26,59,14,20,21,101,78,22,42,11,33,33,75,28,30,14
-377925,2026-11-02,regular,UNC Wilmington,Mount Olive,True,False,101,78,22,42,11,33,33,75,28,30,14,65,78,14,37,6,22,26,59,14,20,21
-374521,2026-11-02,regular,Elon,Columbia,False,False,84,67,26,48,7,12,12,60,11,20,13,71,67,25,48,2,9,20,57,14,17,13
-374521,2026-11-02,regular,Columbia,Elon,True,False,71,67,25,48,2,9,20,57,14,17,13,84,67,26,48,7,12,12,60,11,20,13
-374564,2026-11-02,regular,Paul Quinn,Prairie View A&M,False,False,65,70,17,29,6,19,15,48,7,20,26,86,70,28,42,5,14,25,56,6,17,10
-374510,2026-11-02,regular,Quinnipiac,Michigan State,False,False,59,72,14,35,6,21,24,56,11,16,16,96,73,27,39,9,23,26,62,14,32,12
-374510,2026-11-02,regular,Michigan State,Quinnipiac,True,False,96,73,27,39,9,23,26,62,14,32,12,59,72,14,35,6,21,24,56,11,16,16
-374574,2026-11-02,regular,Notre Dame (Md),Delaware,False,False,44,79,16,50,1,13,13,63,10,18,20,105,79,29,43,13,28,14,71,11,37,12
-372653,2026-11-02,regular,Maine,Providence,False,False,56,71,7,20,8,23,28,43,8,24,23,83,72,21,38,10,30,19,68,16,27,8
+372662,2026-11-02,regular,Butler,Lafayette,True,False,96,78,16,23,16,44,17,67,17,34,20,60,77,21,43,4,24,12,67,11,17,16
+372662,2026-11-02,regular,Lafayette,Butler,False,False,60,77,21,43,4,24,12,67,11,17,16,96,78,16,23,16,44,17,67,17,34,20
+372642,2026-11-02,regular,Buffalo,Marshall,False,False,65,74,18,35,5,27,21,62,6,25,10,92,75,23,37,11,26,19,63,7,34,11
+372642,2026-11-02,regular,Marshall,Buffalo,True,False,92,75,23,37,11,26,19,63,7,34,11,65,74,18,35,5,27,21,62,6,25,10
+377917,2026-11-02,regular,Florida International,New College (FL),True,False,101,84,25,42,12,35,16,77,15,35,14,58,84,19,45,4,22,13,67,13,26,23
 372650,2026-11-02,regular,Rider,Pittsburgh,False,False,57,72,11,33,7,24,20,57,10,24,17,95,73,18,39,14,26,24,65,12,31,10
-372649,2026-11-02,regular,Syracuse,New Haven,True,False,74,64,16,33,8,28,25,61,14,26,5,58,64,16,33,7,21,9,54,7,27,13
-374522,2026-11-02,regular,Vanderbilt,Bellarmine,True,False,93,70,26,36,7,19,25,55,11,27,14,47,70,12,25,5,21,13,46,6,14,23
-374522,2026-11-02,regular,Bellarmine,Vanderbilt,False,False,47,70,12,25,5,21,13,46,6,14,23,93,70,26,36,7,19,25,55,11,27,14
-377915,2026-11-02,regular,Cheyney (PA),Morgan State,False,False,52,78,11,44,5,23,25,67,13,21,15,103,78,26,46,12,29,24,75,20,42,11
-377915,2026-11-02,regular,Morgan State,Cheyney (PA),True,False,103,78,26,46,12,29,24,75,20,42,11,52,78,11,44,5,23,25,67,13,21,15
+374577,2026-11-02,regular,Little Rock,VCU,False,False,72,70,20,43,5,16,21,59,13,26,16,82,70,12,27,8,25,48,52,18,21,13
+374577,2026-11-02,regular,VCU,Little Rock,True,False,82,70,12,27,8,25,48,52,18,21,13,72,70,20,43,5,16,21,59,13,26,16
+372617,2026-11-02,regular,Bucknell,Maryland,False,False,67,72,11,22,12,31,14,53,6,16,18,96,73,27,44,7,28,31,72,28,26,13
+372617,2026-11-02,regular,Maryland,Bucknell,True,False,96,73,27,44,7,28,31,72,28,26,13,67,72,11,22,12,31,14,53,6,16,18
+372639,2026-11-02,regular,Eastern Michigan,Coastal Carolina,False,False,71,66,15,39,6,14,29,53,8,24,7,70,67,19,37,7,24,16,61,14,26,13
+372618,2026-11-02,regular,Indiana,Eastern Illinois,True,False,91,71,20,34,9,24,32,58,13,21,11,57,69,22,36,3,14,7,50,5,21,22
+372639,2026-11-02,regular,Coastal Carolina,Eastern Michigan,True,False,70,67,19,37,7,24,16,61,14,26,13,71,66,15,39,6,14,29,53,8,24,7
+374576,2026-11-02,regular,MIT,Harvard,False,False,45,69,8,30,7,22,12,52,8,26,20,73,69,19,42,7,22,19,64,15,32,11
+374576,2026-11-02,regular,Harvard,MIT,True,False,73,69,19,42,7,22,19,64,15,32,11,45,69,8,30,7,22,12,52,8,26,20
+374574,2026-11-02,regular,Notre Dame (Md),Delaware,False,False,44,79,16,50,1,13,13,63,10,18,20,105,79,29,43,13,28,14,71,11,37,12
+377925,2026-11-02,regular,UNC Wilmington,Mount Olive,True,False,101,78,22,42,11,33,33,75,28,30,14,65,78,14,37,6,22,26,59,14,20,21
+377925,2026-11-02,regular,Mount Olive,UNC Wilmington,False,False,65,78,14,37,6,22,26,59,14,20,21,101,78,22,42,11,33,33,75,28,30,14
+374521,2026-11-02,regular,Columbia,Elon,True,False,71,67,25,48,2,9,20,57,14,17,13,84,67,26,48,7,12,12,60,11,20,13
+374521,2026-11-02,regular,Elon,Columbia,False,False,84,67,26,48,7,12,12,60,11,20,13,71,67,25,48,2,9,20,57,14,17,13
+374564,2026-11-02,regular,Prairie View A&M,Paul Quinn,True,False,86,70,28,42,5,14,25,56,6,17,10,65,70,17,29,6,19,15,48,7,20,26
+374510,2026-11-02,regular,Michigan State,Quinnipiac,True,False,96,73,27,39,9,23,26,62,14,32,12,59,72,14,35,6,21,24,56,11,16,16
+374510,2026-11-02,regular,Quinnipiac,Michigan State,False,False,59,72,14,35,6,21,24,56,11,16,16,96,73,27,39,9,23,26,62,14,32,12
+374574,2026-11-02,regular,Delaware,Notre Dame (Md),True,False,105,79,29,43,13,28,14,71,11,37,12,44,79,16,50,1,13,13,63,10,18,20
+372653,2026-11-02,regular,Providence,Maine,True,False,83,72,21,38,10,30,19,68,16,27,8,56,71,7,20,8,23,28,43,8,24,23
+372650,2026-11-02,regular,Pittsburgh,Rider,True,False,95,73,18,39,14,26,24,65,12,31,10,57,72,11,33,7,24,20,57,10,24,17
 372649,2026-11-02,regular,New Haven,Syracuse,False,False,58,64,16,33,7,21,9,54,7,27,13,74,64,16,33,8,28,25,61,14,26,5
-372640,2026-11-02,regular,Old Dominion,Western Michigan,True,False,61,62,21,41,4,15,13,56,12,25,10,49,62,11,31,8,20,9,51,10,22,16
+374522,2026-11-02,regular,Bellarmine,Vanderbilt,False,False,47,70,12,25,5,21,13,46,6,14,23,93,70,26,36,7,19,25,55,11,27,14
+374522,2026-11-02,regular,Vanderbilt,Bellarmine,True,False,93,70,26,36,7,19,25,55,11,27,14,47,70,12,25,5,21,13,46,6,14,23
+377915,2026-11-02,regular,Morgan State,Cheyney (PA),True,False,103,78,26,46,12,29,24,75,20,42,11,52,78,11,44,5,23,25,67,13,21,15
+377915,2026-11-02,regular,Cheyney (PA),Morgan State,False,False,52,78,11,44,5,23,25,67,13,21,15,103,78,26,46,12,29,24,75,20,42,11
+372649,2026-11-02,regular,Syracuse,New Haven,True,False,74,64,16,33,8,28,25,61,14,26,5,58,64,16,33,7,21,9,54,7,27,13
 372640,2026-11-02,regular,Western Michigan,Old Dominion,False,False,49,62,11,31,8,20,9,51,10,22,16,61,62,21,41,4,15,13,56,12,25,10
-372620,2026-11-02,regular,North Carolina,Western Carolina,True,False,80,70,14,25,9,30,35,55,7,25,9,72,69,10,35,10,24,27,59,13,28,9
+372640,2026-11-02,regular,Old Dominion,Western Michigan,True,False,61,62,21,41,4,15,13,56,12,25,10,49,62,11,31,8,20,9,51,10,22,16
 372620,2026-11-02,regular,Western Carolina,North Carolina,False,False,72,69,10,35,10,24,27,59,13,28,9,80,70,14,25,9,30,35,55,7,25,9
-374584,2026-11-02,regular,Purdue,Gonzaga,True,True,72,69,21,34,5,21,21,55,7,24,10,78,69,17,37,6,16,34,53,10,24,10
-374568,2026-11-02,regular,Berry,Samford,False,False,58,68,14,44,8,21,11,65,11,22,11,87,68,25,32,7,22,17,54,1,32,7
-374568,2026-11-02,regular,Samford,Berry,True,False,87,68,25,32,7,22,17,54,1,32,7,58,68,14,44,8,21,11,65,11,22,11
-374534,2026-11-02,regular,Southeast Missouri State,Lipscomb,True,False,86,76,23,51,11,20,10,71,12,26,13,79,76,18,38,7,22,25,60,9,24,15
-374583,2026-11-02,regular,Longwood,Pfeiffer,True,False,123,89,41,64,11,23,18,87,18,32,11,67,89,15,42,6,21,24,63,13,22,27
-374583,2026-11-02,regular,Pfeiffer,Longwood,False,False,67,89,15,42,6,21,24,63,13,22,27,123,89,41,64,11,23,18,87,18,32,11
-374540,2026-11-02,regular,Le Moyne,Nebraska,False,False,64,71,12,27,10,29,13,56,7,22,17,106,72,21,35,14,30,28,65,12,29,8
-374540,2026-11-02,regular,Nebraska,Le Moyne,True,False,106,72,21,35,14,30,28,65,12,29,8,64,71,12,27,10,29,13,56,7,22,17
-374545,2026-11-02,regular,NC State,Campbell,True,False,83,68,19,31,11,25,18,56,8,30,13,64,68,19,40,7,30,8,70,14,20,10
-374545,2026-11-02,regular,Campbell,NC State,False,False,64,68,19,40,7,30,8,70,14,20,10,83,68,19,31,11,25,18,56,8,30,13
-372631,2026-11-02,regular,George Washington,Navy,True,False,91,70,17,29,14,27,16,56,7,33,13,39,70,12,40,2,18,13,58,10,18,19
-372631,2026-11-02,regular,Navy,George Washington,False,False,39,70,12,40,2,18,13,58,10,18,19,91,70,17,29,14,27,16,56,7,33,13
-374582,2026-11-02,regular,Stephen F. Austin,Lyon,True,False,120,78,12,22,26,56,25,78,24,38,11,61,77,9,30,10,30,21,60,6,21,11
-374582,2026-11-02,regular,Lyon,Stephen F. Austin,False,False,61,77,9,30,10,30,21,60,6,21,11,120,78,12,22,26,56,25,78,24,38,11
-372641,2026-11-02,regular,UL Monroe,Central Michigan,True,False,78,73,18,42,8,23,29,65,18,20,12,83,71,17,33,12,29,18,62,16,24,16
-372641,2026-11-02,regular,Central Michigan,UL Monroe,False,False,83,71,17,33,12,29,18,62,16,24,16,78,73,18,42,8,23,29,65,18,20,12
-374555,2026-11-02,regular,Canisius,Penn State,False,False,57,73,20,39,4,22,9,61,10,18,17,97,73,32,46,4,19,29,65,14,31,10
-374555,2026-11-02,regular,Penn State,Canisius,True,False,97,73,32,46,4,19,29,65,14,31,10,57,73,20,39,4,22,9,61,10,18,17
-374585,2026-11-02,regular,Belmont,Southern Indiana,True,False,72,73,21,32,6,20,19,52,7,29,19,54,72,16,40,4,21,19,61,16,25,19
-374585,2026-11-02,regular,Southern Indiana,Belmont,False,False,54,72,16,40,4,21,19,61,16,25,19,72,73,21,32,6,20,19,52,7,29,19
+372620,2026-11-02,regular,North Carolina,Western Carolina,True,False,80,70,14,25,9,30,35,55,7,25,9,72,69,10,35,10,24,27,59,13,28,9
 374584,2026-11-02,regular,Gonzaga,Purdue,False,True,78,69,17,37,6,16,34,53,10,24,10,72,69,21,34,5,21,21,55,7,24,10
-378670,2026-11-02,regular,Charleston,Southern Wesleyan,True,False,111,82,39,50,10,35,4,85,14,34,9,55,81,17,48,4,18,14,66,14,23,22
-378670,2026-11-02,regular,Southern Wesleyan,Charleston,False,False,55,81,17,48,4,18,14,66,14,23,22,111,82,39,50,10,35,4,85,14,34,9
-374526,2026-11-02,regular,Wisconsin,Denver,True,False,75,70,25,41,6,26,18,67,14,22,10,68,70,19,33,4,19,21,52,7,25,16
-374526,2026-11-02,regular,Denver,Wisconsin,False,False,68,70,19,33,4,19,21,52,7,25,16,75,70,25,41,6,26,18,67,14,22,10
-374525,2026-11-02,regular,Morehead State,Western Kentucky,False,False,58,68,14,26,7,32,12,58,9,26,13,83,69,20,41,10,28,15,69,13,30,6
-374525,2026-11-02,regular,Western Kentucky,Morehead State,True,False,83,69,20,41,10,28,15,69,13,30,6,58,68,14,26,7,32,12,58,9,26,13
-372660,2026-11-02,regular,Georgia,North Carolina Central,True,False,78,74,20,33,6,26,30,59,10,27,11,62,74,16,46,7,15,10,61,12,24,19
-372660,2026-11-02,regular,North Carolina Central,Georgia,False,False,62,74,16,46,7,15,10,61,12,24,19,78,74,20,33,6,26,30,59,10,27,11
-372637,2026-11-02,regular,Louisiana Tech,Kent State,True,False,85,67,20,32,8,22,30,54,10,30,9,75,67,20,46,7,28,22,74,23,22,7
-372637,2026-11-02,regular,Kent State,Louisiana Tech,False,False,75,67,20,46,7,28,22,74,23,22,7,85,67,20,32,8,22,30,54,10,30,9
-372659,2026-11-02,regular,Tennessee Tech,Mississippi State,False,False,88,75,23,34,9,32,20,66,10,16,12,106,76,23,36,12,24,32,60,12,27,15
-372659,2026-11-02,regular,Mississippi State,Tennessee Tech,True,False,106,76,23,36,12,24,32,60,12,27,15,88,75,23,34,9,32,20,66,10,16,12
+374568,2026-11-02,regular,Samford,Berry,True,False,87,68,25,32,7,22,17,54,1,32,7,58,68,14,44,8,21,11,65,11,22,11
+374568,2026-11-02,regular,Berry,Samford,False,False,58,68,14,44,8,21,11,65,11,22,11,87,68,25,32,7,22,17,54,1,32,7
 374534,2026-11-02,regular,Lipscomb,Southeast Missouri State,False,False,79,76,18,38,7,22,25,60,9,24,15,86,76,23,51,11,20,10,71,12,26,13
-377926,2026-11-02,regular,Green Bay,Lawrence University,True,False,94,67,15,28,15,26,26,54,8,33,9,51,67,8,28,7,23,25,51,9,19,15
+374583,2026-11-02,regular,Pfeiffer,Longwood,False,False,67,89,15,42,6,21,24,63,13,22,27,123,89,41,64,11,23,18,87,18,32,11
+374583,2026-11-02,regular,Longwood,Pfeiffer,True,False,123,89,41,64,11,23,18,87,18,32,11,67,89,15,42,6,21,24,63,13,22,27
+374540,2026-11-02,regular,Nebraska,Le Moyne,True,False,106,72,21,35,14,30,28,65,12,29,8,64,71,12,27,10,29,13,56,7,22,17
+374540,2026-11-02,regular,Le Moyne,Nebraska,False,False,64,71,12,27,10,29,13,56,7,22,17,106,72,21,35,14,30,28,65,12,29,8
+374545,2026-11-02,regular,Campbell,NC State,False,False,64,68,19,40,7,30,8,70,14,20,10,83,68,19,31,11,25,18,56,8,30,13
+374545,2026-11-02,regular,NC State,Campbell,True,False,83,68,19,31,11,25,18,56,8,30,13,64,68,19,40,7,30,8,70,14,20,10
+372631,2026-11-02,regular,Navy,George Washington,False,False,39,70,12,40,2,18,13,58,10,18,19,91,70,17,29,14,27,16,56,7,33,13
+372631,2026-11-02,regular,George Washington,Navy,True,False,91,70,17,29,14,27,16,56,7,33,13,39,70,12,40,2,18,13,58,10,18,19
+374582,2026-11-02,regular,Lyon,Stephen F. Austin,False,False,61,77,9,30,10,30,21,60,6,21,11,120,78,12,22,26,56,25,78,24,38,11
+374582,2026-11-02,regular,Stephen F. Austin,Lyon,True,False,120,78,12,22,26,56,25,78,24,38,11,61,77,9,30,10,30,21,60,6,21,11
+372641,2026-11-02,regular,Central Michigan,UL Monroe,False,False,83,71,17,33,12,29,18,62,16,24,16,78,73,18,42,8,23,29,65,18,20,12
+372641,2026-11-02,regular,UL Monroe,Central Michigan,True,False,78,73,18,42,8,23,29,65,18,20,12,83,71,17,33,12,29,18,62,16,24,16
+374555,2026-11-02,regular,Penn State,Canisius,True,False,97,73,32,46,4,19,29,65,14,31,10,57,73,20,39,4,22,9,61,10,18,17
+374555,2026-11-02,regular,Canisius,Penn State,False,False,57,73,20,39,4,22,9,61,10,18,17,97,73,32,46,4,19,29,65,14,31,10
+374585,2026-11-02,regular,Southern Indiana,Belmont,False,False,54,72,16,40,4,21,19,61,16,25,19,72,73,21,32,6,20,19,52,7,29,19
+374585,2026-11-02,regular,Belmont,Southern Indiana,True,False,72,73,21,32,6,20,19,52,7,29,19,54,72,16,40,4,21,19,61,16,25,19
+374584,2026-11-02,regular,Purdue,Gonzaga,True,True,72,69,21,34,5,21,21,55,7,24,10,78,69,17,37,6,16,34,53,10,24,10
+378670,2026-11-02,regular,Southern Wesleyan,Charleston,False,False,55,81,17,48,4,18,14,66,14,23,22,111,82,39,50,10,35,4,85,14,34,9
+378670,2026-11-02,regular,Charleston,Southern Wesleyan,True,False,111,82,39,50,10,35,4,85,14,34,9,55,81,17,48,4,18,14,66,14,23,22
+374526,2026-11-02,regular,Denver,Wisconsin,False,False,68,70,19,33,4,19,21,52,7,25,16,75,70,25,41,6,26,18,67,14,22,10
+374526,2026-11-02,regular,Wisconsin,Denver,True,False,75,70,25,41,6,26,18,67,14,22,10,68,70,19,33,4,19,21,52,7,25,16
+374525,2026-11-02,regular,Western Kentucky,Morehead State,True,False,83,69,20,41,10,28,15,69,13,30,6,58,68,14,26,7,32,12,58,9,26,13
+374525,2026-11-02,regular,Morehead State,Western Kentucky,False,False,58,68,14,26,7,32,12,58,9,26,13,83,69,20,41,10,28,15,69,13,30,6
+372660,2026-11-02,regular,North Carolina Central,Georgia,False,False,62,74,16,46,7,15,10,61,12,24,19,78,74,20,33,6,26,30,59,10,27,11
+372660,2026-11-02,regular,Georgia,North Carolina Central,True,False,78,74,20,33,6,26,30,59,10,27,11,62,74,16,46,7,15,10,61,12,24,19
+372637,2026-11-02,regular,Kent State,Louisiana Tech,False,False,75,67,20,46,7,28,22,74,23,22,7,85,67,20,32,8,22,30,54,10,30,9
+372637,2026-11-02,regular,Louisiana Tech,Kent State,True,False,85,67,20,32,8,22,30,54,10,30,9,75,67,20,46,7,28,22,74,23,22,7
+372659,2026-11-02,regular,Mississippi State,Tennessee Tech,True,False,106,76,23,36,12,24,32,60,12,27,15,88,75,23,34,9,32,20,66,10,16,12
+372659,2026-11-02,regular,Tennessee Tech,Mississippi State,False,False,88,75,23,34,9,32,20,66,10,16,12,106,76,23,36,12,24,32,60,12,27,15
+374534,2026-11-02,regular,Southeast Missouri State,Lipscomb,True,False,86,76,23,51,11,20,10,71,12,26,13,79,76,18,38,7,22,25,60,9,24,15
 377926,2026-11-02,regular,Lawrence University,Green Bay,False,False,51,67,8,28,7,23,25,51,9,19,15,94,67,15,28,15,26,26,54,8,33,9
-372654,2026-11-02,regular,Mercyhurst,Marquette,False,False,43,65,13,31,4,27,7,58,13,13,17,78,65,25,39,4,21,26,60,20,29,11
+377926,2026-11-02,regular,Green Bay,Lawrence University,True,False,94,67,15,28,15,26,26,54,8,33,9,51,67,8,28,7,23,25,51,9,19,15
 372654,2026-11-02,regular,Marquette,Mercyhurst,True,False,78,65,25,39,4,21,26,60,20,29,11,43,65,13,31,4,27,7,58,13,13,17
-374527,2026-11-02,regular,Seton Hall,Saint Peter's,True,False,66,61,15,29,7,19,24,48,10,27,12,42,61,6,27,7,23,13,50,10,18,16
+372654,2026-11-02,regular,Mercyhurst,Marquette,False,False,43,65,13,31,4,27,7,58,13,13,17,78,65,25,39,4,21,26,60,20,29,11
 374527,2026-11-02,regular,Saint Peter's,Seton Hall,False,False,42,61,6,27,7,23,13,50,10,18,16,66,61,15,29,7,19,24,48,10,27,12
-372625,2026-11-02,regular,South Florida,Charleston Southern,True,False,98,79,29,56,9,20,18,76,14,31,8,71,78,21,43,5,23,21,66,15,27,16
+374527,2026-11-02,regular,Seton Hall,Saint Peter's,True,False,66,61,15,29,7,19,24,48,10,27,12,42,61,6,27,7,23,13,50,10,18,16
 372625,2026-11-02,regular,Charleston Southern,South Florida,False,False,71,78,21,43,5,23,21,66,15,27,16,98,79,29,56,9,20,18,76,14,31,8
-374500,2026-11-02,regular,Tulsa,Ottawa (KS),True,False,98,71,13,24,19,40,24,64,17,27,10,50,70,9,23,9,26,7,49,3,19,22
+372625,2026-11-02,regular,South Florida,Charleston Southern,True,False,98,79,29,56,9,20,18,76,14,31,8,71,78,21,43,5,23,21,66,15,27,16
 374500,2026-11-02,regular,Ottawa (KS),Tulsa,False,False,50,70,9,23,9,26,7,49,3,19,22,98,71,13,24,19,40,24,64,17,27,10
-377931,2026-11-02,regular,Tarleton State,Cameron,True,False,86,76,29,47,5,18,19,65,12,35,12,60,75,15,31,7,36,15,67,14,22,18
-372638,2026-11-02,regular,Arkansas State,Toledo,True,False,71,76,14,33,11,37,23,70,18,28,10,70,76,23,46,6,27,8,73,15,35,16
-372655,2026-11-02,regular,West Georgia,DePaul,False,False,58,71,14,41,9,28,7,69,11,29,12,75,72,15,24,7,32,30,56,8,35,11
-372655,2026-11-02,regular,DePaul,West Georgia,True,False,75,72,15,24,7,32,30,56,8,35,11,58,71,14,41,9,28,7,69,11,29,12
-374549,2026-11-02,regular,California,Adams State,True,False,115,81,29,43,11,23,35,66,9,31,8,86,82,18,32,13,38,16,70,10,24,16
-374549,2026-11-02,regular,Adams State,California,False,False,86,82,18,32,13,38,16,70,10,24,16,115,81,29,43,11,23,35,66,9,31,8
-372638,2026-11-02,regular,Toledo,Arkansas State,False,False,70,76,23,46,6,27,8,73,15,35,16,71,76,14,33,11,37,23,70,18,28,10
-372648,2026-11-02,regular,Wake Forest,Maryland Eastern Shore,True,False,83,71,23,34,7,23,25,57,8,24,11,62,70,15,37,8,23,12,60,14,19,18
-372648,2026-11-02,regular,Maryland Eastern Shore,Wake Forest,False,False,62,70,15,37,8,23,12,60,14,19,18,83,71,23,34,7,23,25,57,8,24,11
-372630,2026-11-02,regular,Loyola Chicago,The Citadel,True,False,77,62,23,39,8,29,13,68,22,21,10,52,62,7,19,9,28,16,47,10,16,19
-372658,2026-11-02,regular,Oklahoma,East Texas A&M,True,False,64,66,16,32,5,20,32,52,14,20,15,68,65,14,30,11,27,13,57,14,19,15
-377924,2026-11-02,regular,Evansville,Indiana-Kokomo,True,False,80,68,21,38,8,27,20,65,11,19,6,70,68,17,30,8,18,18,48,6,27,19
-377924,2026-11-02,regular,Indiana-Kokomo,Evansville,False,False,70,68,17,30,8,18,18,48,6,27,19,80,68,21,38,8,27,20,65,11,19,6
-374550,2026-11-02,regular,Lane College,Austin Peay,False,False,65,81,14,30,7,26,24,56,9,26,22,109,82,33,56,8,22,25,78,16,29,9
-374550,2026-11-02,regular,Austin Peay,Lane College,True,False,109,82,33,56,8,22,25,78,16,29,9,65,81,14,30,7,26,24,56,9,26,22
-374508,2026-11-02,regular,Texas State,Texas A&M-Corpus Christi,True,False,67,62,20,36,4,13,21,49,8,18,12,55,61,18,34,3,17,14,51,10,17,15
-374508,2026-11-02,regular,Texas A&M-Corpus Christi,Texas State,False,False,55,61,18,34,3,17,14,51,10,17,15,67,62,20,36,4,13,21,49,8,18,12
-372634,2026-11-02,regular,South Alabama,Ohio,True,False,77,71,21,32,6,22,28,54,5,22,10,86,70,12,19,16,38,18,57,9,27,13
-372630,2026-11-02,regular,The Citadel,Loyola Chicago,False,False,52,62,7,19,9,28,16,47,10,16,19,77,62,23,39,8,29,13,68,22,21,10
-377930,2026-11-02,regular,North Dakota State,Minnesota Crookston,True,False,90,70,21,35,10,24,27,59,15,26,13,59,70,17,29,6,25,11,54,6,17,18
-377930,2026-11-02,regular,Minnesota Crookston,North Dakota State,False,False,59,70,17,29,6,25,11,54,6,17,18,90,70,21,35,10,24,27,59,15,26,13
-372634,2026-11-02,regular,Ohio,South Alabama,False,False,86,70,12,19,16,38,18,57,9,27,13,77,71,21,32,6,22,28,54,5,22,10
-372628,2026-11-02,regular,Lehigh,Saint Louis,False,False,67,72,16,31,5,27,27,58,10,22,12,92,72,25,32,8,23,27,55,6,32,10
-372628,2026-11-02,regular,Saint Louis,Lehigh,True,False,92,72,25,32,8,23,27,55,6,32,10,67,72,16,31,5,27,27,58,10,22,12
-374541,2026-11-02,regular,Lindenwood,TCU,False,False,59,75,19,39,5,21,21,60,16,21,20,98,76,20,45,10,19,38,64,18,28,13
-372658,2026-11-02,regular,East Texas A&M,Oklahoma,False,False,68,65,14,30,11,27,13,57,14,19,15,64,66,16,32,5,20,32,52,14,20,15
-374541,2026-11-02,regular,TCU,Lindenwood,True,False,98,76,20,45,10,19,38,64,18,28,13,59,75,19,39,5,21,21,60,16,21,20
-374588,2026-11-02,regular,Southern Illinois,Maryville University (MO),True,False,82,68,14,27,16,39,7,66,12,35,9,40,67,15,43,2,20,7,63,12,24,12
-374513,2026-11-02,regular,Siena,Bryant,False,False,75,81,18,37,6,27,32,64,11,30,15,80,81,16,30,10,35,25,65,11,36,14
-374543,2026-11-02,regular,UT Martin,Tulane,False,False,98,85,14,28,17,38,31,66,12,29,16,100,86,25,48,6,18,46,66,11,30,9
-374588,2026-11-02,regular,Maryville University (MO),Southern Illinois,False,False,40,67,15,43,2,20,7,63,12,24,12,82,68,14,27,16,39,7,66,12,35,9
-372645,2026-11-02,regular,Kansas,Fordham,True,False,95,76,26,35,9,25,30,60,15,35,17,65,76,9,36,13,33,13,69,15,18,16
-374543,2026-11-02,regular,Tulane,UT Martin,True,False,100,86,25,48,6,18,46,66,11,30,9,98,85,14,28,17,38,31,66,12,29,16
-374513,2026-11-02,regular,Bryant,Siena,True,False,80,81,16,30,10,35,25,65,11,36,14,75,81,18,37,6,27,32,64,11,30,15
-377934,2026-11-02,regular,Monmouth (IL),Bradley,False,False,41,67,11,28,4,18,12,46,3,22,17,85,66,20,33,12,34,17,67,16,29,7
-377934,2026-11-02,regular,Bradley,Monmouth (IL),True,False,85,66,20,33,12,34,17,67,16,29,7,41,67,11,28,4,18,12,46,3,22,17
-377928,2026-11-02,regular,Tougaloo,Southern Miss,False,False,35,78,12,45,2,22,13,67,18,25,22,82,78,19,36,9,30,21,66,17,40,18
-377928,2026-11-02,regular,Southern Miss,Tougaloo,True,False,82,78,19,36,9,30,21,66,17,40,18,35,78,12,45,2,22,13,67,18,25,22
-372656,2026-11-02,regular,Kansas City,Creighton,False,False,61,72,18,30,7,22,7,52,5,27,22,76,71,15,31,9,28,23,59,11,23,11
-372656,2026-11-02,regular,Creighton,Kansas City,True,False,76,71,15,31,9,28,23,59,11,23,11,61,72,18,30,7,22,7,52,5,27,22
-372644,2026-11-02,regular,Akron,Louisiana,False,False,75,66,13,21,10,29,23,50,11,34,16,61,66,9,35,9,28,22,63,11,18,7
-372644,2026-11-02,regular,Louisiana,Akron,True,False,61,66,9,35,9,28,22,63,11,18,7,75,66,13,21,10,29,23,50,11,34,16
-374587,2026-11-02,regular,Furman,Bethune-Cookman,False,True,79,65,10,21,12,31,30,52,10,23,11,70,64,17,39,8,19,16,58,8,21,10
-374587,2026-11-02,regular,Bethune-Cookman,Furman,True,True,70,64,17,39,8,19,16,58,8,21,10,79,65,10,21,12,31,30,52,10,23,11
-374532,2026-11-02,regular,Binghamton,Northwestern,False,False,60,63,16,34,5,18,15,52,6,17,12,86,63,17,22,12,30,25,52,10,24,8
-374532,2026-11-02,regular,Northwestern,Binghamton,True,False,86,63,17,22,12,30,25,52,10,24,8,60,63,16,34,5,18,15,52,6,17,12
-372619,2026-11-02,regular,Fairleigh Dickinson,Illinois,False,False,45,74,12,28,5,33,11,61,3,18,12,120,75,27,32,19,51,16,83,22,43,7
-372619,2026-11-02,regular,Illinois,Fairleigh Dickinson,True,False,120,75,27,32,19,51,16,83,22,43,7,45,74,12,28,5,33,11,61,3,18,12
-377933,2026-11-02,regular,Western Illinois,Valparaiso,False,False,58,69,16,37,4,14,23,51,8,22,16,80,69,20,34,4,16,43,50,11,27,9
-377933,2026-11-02,regular,Valparaiso,Western Illinois,True,False,80,69,20,34,4,16,43,50,11,27,9,58,69,16,37,4,14,23,51,8,22,16
-374589,2026-11-02,regular,Portland,Willamette,True,False,133,98,36,48,10,18,40,66,11,45,24,89,97,17,40,12,39,27,79,11,11,15
-374589,2026-11-02,regular,Willamette,Portland,False,False,89,97,17,40,12,39,27,79,11,11,15,133,98,36,48,10,18,40,66,11,45,24
-377932,2026-11-02,regular,UNT Dallas,UT Arlington,False,False,56,73,12,44,6,33,20,77,18,20,8,89,74,28,53,7,22,20,75,21,43,12
-377932,2026-11-02,regular,UT Arlington,UNT Dallas,True,False,89,74,28,53,7,22,20,75,21,43,12,56,73,12,44,6,33,20,77,18,20,8
-372645,2026-11-02,regular,Fordham,Kansas,False,False,65,76,9,36,13,33,13,69,15,18,16,95,76,26,35,9,25,30,60,15,35,17
-377929,2026-11-02,regular,Omaha,Mid-America Christian,True,False,73,68,14,25,9,25,31,50,10,32,15,65,68,19,36,5,21,18,57,5,24,7
-377929,2026-11-02,regular,Mid-America Christian,Omaha,False,False,65,68,19,36,5,21,18,57,5,24,7,73,68,14,25,9,25,31,50,10,32,15
-374544,2026-11-02,regular,SMU,Southern,True,False,85,74,16,28,7,17,40,45,9,24,21,72,74,18,38,8,21,15,59,9,17,18
-374544,2026-11-02,regular,Southern,SMU,False,False,72,74,18,38,8,21,15,59,9,17,18,85,74,16,28,7,17,40,45,9,24,21
-374536,2026-11-02,regular,Western Colorado,Utah Valley,False,False,63,84,13,39,6,21,27,60,17,23,28,84,84,26,50,6,15,20,65,12,28,20
-374536,2026-11-02,regular,Utah Valley,Western Colorado,True,False,84,84,26,50,6,15,20,65,12,28,20,63,84,13,39,6,21,27,60,17,23,28
+374500,2026-11-02,regular,Tulsa,Ottawa (KS),True,False,98,71,13,24,19,40,24,64,17,27,10,50,70,9,23,9,26,7,49,3,19,22
 377931,2026-11-02,regular,Cameron,Tarleton State,False,False,60,75,15,31,7,36,15,67,14,22,18,86,76,29,47,5,18,19,65,12,35,12
-377927,2026-11-02,regular,LaGrange,Jacksonville State,False,False,59,83,13,31,4,21,28,52,8,21,26,123,84,27,41,17,38,25,79,16,31,9
-374581,2026-11-02,regular,Oakwood,Alabama A&M,False,False,57,79,15,43,6,20,17,63,7,24,16,90,80,27,39,4,23,35,62,13,38,17
-374581,2026-11-02,regular,Alabama A&M,Oakwood,True,False,90,80,27,39,4,23,35,62,13,38,17,57,79,15,43,6,20,17,63,7,24,16
-374590,2026-11-02,regular,UT Rio Grande Valley,Texas A&M-Kingsville,True,False,81,82,24,40,8,24,21,64,12,36,20,51,80,13,34,6,33,13,67,15,29,21
-374590,2026-11-02,regular,Texas A&M-Kingsville,UT Rio Grande Valley,False,False,51,80,13,34,6,33,13,67,15,29,21,81,82,24,40,8,24,21,64,12,36,20
-374571,2026-11-02,regular,Lamar,Schreiner,True,False,124,87,37,56,10,29,31,85,25,39,13,62,86,15,34,9,31,10,65,5,19,21
-374571,2026-11-02,regular,Schreiner,Lamar,False,False,62,86,15,34,9,31,10,65,5,19,21,124,87,37,56,10,29,31,85,25,39,13
-374591,2026-11-02,regular,Oral Roberts,Central Arkansas,False,False,55,71,12,24,6,36,22,60,18,24,18,85,72,15,23,13,39,21,62,12,29,12
-374591,2026-11-02,regular,Central Arkansas,Oral Roberts,True,False,85,72,15,23,13,39,21,62,12,29,12,55,71,12,24,6,36,22,60,18,24,18
+372638,2026-11-02,regular,Toledo,Arkansas State,False,False,70,76,23,46,6,27,8,73,15,35,16,71,76,14,33,11,37,23,70,18,28,10
+372655,2026-11-02,regular,DePaul,West Georgia,True,False,75,72,15,24,7,32,30,56,8,35,11,58,71,14,41,9,28,7,69,11,29,12
+372655,2026-11-02,regular,West Georgia,DePaul,False,False,58,71,14,41,9,28,7,69,11,29,12,75,72,15,24,7,32,30,56,8,35,11
+374549,2026-11-02,regular,Adams State,California,False,False,86,82,18,32,13,38,16,70,10,24,16,115,81,29,43,11,23,35,66,9,31,8
+374549,2026-11-02,regular,California,Adams State,True,False,115,81,29,43,11,23,35,66,9,31,8,86,82,18,32,13,38,16,70,10,24,16
+372638,2026-11-02,regular,Arkansas State,Toledo,True,False,71,76,14,33,11,37,23,70,18,28,10,70,76,23,46,6,27,8,73,15,35,16
+372648,2026-11-02,regular,Maryland Eastern Shore,Wake Forest,False,False,62,70,15,37,8,23,12,60,14,19,18,83,71,23,34,7,23,25,57,8,24,11
+372648,2026-11-02,regular,Wake Forest,Maryland Eastern Shore,True,False,83,71,23,34,7,23,25,57,8,24,11,62,70,15,37,8,23,12,60,14,19,18
+372630,2026-11-02,regular,The Citadel,Loyola Chicago,False,False,52,62,7,19,9,28,16,47,10,16,19,77,62,23,39,8,29,13,68,22,21,10
+372658,2026-11-02,regular,East Texas A&M,Oklahoma,False,False,68,65,14,30,11,27,13,57,14,19,15,64,66,16,32,5,20,32,52,14,20,15
+377924,2026-11-02,regular,Indiana-Kokomo,Evansville,False,False,70,68,17,30,8,18,18,48,6,27,19,80,68,21,38,8,27,20,65,11,19,6
+377924,2026-11-02,regular,Evansville,Indiana-Kokomo,True,False,80,68,21,38,8,27,20,65,11,19,6,70,68,17,30,8,18,18,48,6,27,19
+374550,2026-11-02,regular,Austin Peay,Lane College,True,False,109,82,33,56,8,22,25,78,16,29,9,65,81,14,30,7,26,24,56,9,26,22
+374550,2026-11-02,regular,Lane College,Austin Peay,False,False,65,81,14,30,7,26,24,56,9,26,22,109,82,33,56,8,22,25,78,16,29,9
+374508,2026-11-02,regular,Texas A&M-Corpus Christi,Texas State,False,False,55,61,18,34,3,17,14,51,10,17,15,67,62,20,36,4,13,21,49,8,18,12
+374508,2026-11-02,regular,Texas State,Texas A&M-Corpus Christi,True,False,67,62,20,36,4,13,21,49,8,18,12,55,61,18,34,3,17,14,51,10,17,15
+372634,2026-11-02,regular,Ohio,South Alabama,False,False,86,70,12,19,16,38,18,57,9,27,13,77,71,21,32,6,22,28,54,5,22,10
+372630,2026-11-02,regular,Loyola Chicago,The Citadel,True,False,77,62,23,39,8,29,13,68,22,21,10,52,62,7,19,9,28,16,47,10,16,19
+377930,2026-11-02,regular,Minnesota Crookston,North Dakota State,False,False,59,70,17,29,6,25,11,54,6,17,18,90,70,21,35,10,24,27,59,15,26,13
+377930,2026-11-02,regular,North Dakota State,Minnesota Crookston,True,False,90,70,21,35,10,24,27,59,15,26,13,59,70,17,29,6,25,11,54,6,17,18
+372634,2026-11-02,regular,South Alabama,Ohio,True,False,77,71,21,32,6,22,28,54,5,22,10,86,70,12,19,16,38,18,57,9,27,13
+372628,2026-11-02,regular,Saint Louis,Lehigh,True,False,92,72,25,32,8,23,27,55,6,32,10,67,72,16,31,5,27,27,58,10,22,12
+372628,2026-11-02,regular,Lehigh,Saint Louis,False,False,67,72,16,31,5,27,27,58,10,22,12,92,72,25,32,8,23,27,55,6,32,10
+374541,2026-11-02,regular,TCU,Lindenwood,True,False,98,76,20,45,10,19,38,64,18,28,13,59,75,19,39,5,21,21,60,16,21,20
+372658,2026-11-02,regular,Oklahoma,East Texas A&M,True,False,64,66,16,32,5,20,32,52,14,20,15,68,65,14,30,11,27,13,57,14,19,15
+374541,2026-11-02,regular,Lindenwood,TCU,False,False,59,75,19,39,5,21,21,60,16,21,20,98,76,20,45,10,19,38,64,18,28,13
+374588,2026-11-02,regular,Maryville University (MO),Southern Illinois,False,False,40,67,15,43,2,20,7,63,12,24,12,82,68,14,27,16,39,7,66,12,35,9
+374513,2026-11-02,regular,Bryant,Siena,True,False,80,81,16,30,10,35,25,65,11,36,14,75,81,18,37,6,27,32,64,11,30,15
+374543,2026-11-02,regular,Tulane,UT Martin,True,False,100,86,25,48,6,18,46,66,11,30,9,98,85,14,28,17,38,31,66,12,29,16
+374588,2026-11-02,regular,Southern Illinois,Maryville University (MO),True,False,82,68,14,27,16,39,7,66,12,35,9,40,67,15,43,2,20,7,63,12,24,12
+372645,2026-11-02,regular,Fordham,Kansas,False,False,65,76,9,36,13,33,13,69,15,18,16,95,76,26,35,9,25,30,60,15,35,17
+374543,2026-11-02,regular,UT Martin,Tulane,False,False,98,85,14,28,17,38,31,66,12,29,16,100,86,25,48,6,18,46,66,11,30,9
+374513,2026-11-02,regular,Siena,Bryant,False,False,75,81,18,37,6,27,32,64,11,30,15,80,81,16,30,10,35,25,65,11,36,14
+377934,2026-11-02,regular,Bradley,Monmouth (IL),True,False,85,66,20,33,12,34,17,67,16,29,7,41,67,11,28,4,18,12,46,3,22,17
+377934,2026-11-02,regular,Monmouth (IL),Bradley,False,False,41,67,11,28,4,18,12,46,3,22,17,85,66,20,33,12,34,17,67,16,29,7
+377928,2026-11-02,regular,Southern Miss,Tougaloo,True,False,82,78,19,36,9,30,21,66,17,40,18,35,78,12,45,2,22,13,67,18,25,22
+377928,2026-11-02,regular,Tougaloo,Southern Miss,False,False,35,78,12,45,2,22,13,67,18,25,22,82,78,19,36,9,30,21,66,17,40,18
+372656,2026-11-02,regular,Creighton,Kansas City,True,False,76,71,15,31,9,28,23,59,11,23,11,61,72,18,30,7,22,7,52,5,27,22
+372656,2026-11-02,regular,Kansas City,Creighton,False,False,61,72,18,30,7,22,7,52,5,27,22,76,71,15,31,9,28,23,59,11,23,11
+372644,2026-11-02,regular,Louisiana,Akron,True,False,61,66,9,35,9,28,22,63,11,18,7,75,66,13,21,10,29,23,50,11,34,16
+372644,2026-11-02,regular,Akron,Louisiana,False,False,75,66,13,21,10,29,23,50,11,34,16,61,66,9,35,9,28,22,63,11,18,7
+374587,2026-11-02,regular,Bethune-Cookman,Furman,True,True,70,64,17,39,8,19,16,58,8,21,10,79,65,10,21,12,31,30,52,10,23,11
+374587,2026-11-02,regular,Furman,Bethune-Cookman,False,True,79,65,10,21,12,31,30,52,10,23,11,70,64,17,39,8,19,16,58,8,21,10
+374532,2026-11-02,regular,Northwestern,Binghamton,True,False,86,63,17,22,12,30,25,52,10,24,8,60,63,16,34,5,18,15,52,6,17,12
+374532,2026-11-02,regular,Binghamton,Northwestern,False,False,60,63,16,34,5,18,15,52,6,17,12,86,63,17,22,12,30,25,52,10,24,8
+372619,2026-11-02,regular,Illinois,Fairleigh Dickinson,True,False,120,75,27,32,19,51,16,83,22,43,7,45,74,12,28,5,33,11,61,3,18,12
+372619,2026-11-02,regular,Fairleigh Dickinson,Illinois,False,False,45,74,12,28,5,33,11,61,3,18,12,120,75,27,32,19,51,16,83,22,43,7
+377933,2026-11-02,regular,Valparaiso,Western Illinois,True,False,80,69,20,34,4,16,43,50,11,27,9,58,69,16,37,4,14,23,51,8,22,16
+377933,2026-11-02,regular,Western Illinois,Valparaiso,False,False,58,69,16,37,4,14,23,51,8,22,16,80,69,20,34,4,16,43,50,11,27,9
+374589,2026-11-02,regular,Willamette,Portland,False,False,89,97,17,40,12,39,27,79,11,11,15,133,98,36,48,10,18,40,66,11,45,24
+374589,2026-11-02,regular,Portland,Willamette,True,False,133,98,36,48,10,18,40,66,11,45,24,89,97,17,40,12,39,27,79,11,11,15
+377932,2026-11-02,regular,UT Arlington,UNT Dallas,True,False,89,74,28,53,7,22,20,75,21,43,12,56,73,12,44,6,33,20,77,18,20,8
+377932,2026-11-02,regular,UNT Dallas,UT Arlington,False,False,56,73,12,44,6,33,20,77,18,20,8,89,74,28,53,7,22,20,75,21,43,12
+372645,2026-11-02,regular,Kansas,Fordham,True,False,95,76,26,35,9,25,30,60,15,35,17,65,76,9,36,13,33,13,69,15,18,16
+377929,2026-11-02,regular,Mid-America Christian,Omaha,False,False,65,68,19,36,5,21,18,57,5,24,7,73,68,14,25,9,25,31,50,10,32,15
+377929,2026-11-02,regular,Omaha,Mid-America Christian,True,False,73,68,14,25,9,25,31,50,10,32,15,65,68,19,36,5,21,18,57,5,24,7
+374544,2026-11-02,regular,Southern,SMU,False,False,72,74,18,38,8,21,15,59,9,17,18,85,74,16,28,7,17,40,45,9,24,21
+374544,2026-11-02,regular,SMU,Southern,True,False,85,74,16,28,7,17,40,45,9,24,21,72,74,18,38,8,21,15,59,9,17,18
+374536,2026-11-02,regular,Utah Valley,Western Colorado,True,False,84,84,26,50,6,15,20,65,12,28,20,63,84,13,39,6,21,27,60,17,23,28
+374536,2026-11-02,regular,Western Colorado,Utah Valley,False,False,63,84,13,39,6,21,27,60,17,23,28,84,84,26,50,6,15,20,65,12,28,20
+377931,2026-11-02,regular,Tarleton State,Cameron,True,False,86,76,29,47,5,18,19,65,12,35,12,60,75,15,31,7,36,15,67,14,22,18
 377927,2026-11-02,regular,Jacksonville State,LaGrange,True,False,123,84,27,41,17,38,25,79,16,31,9,59,83,13,31,4,21,28,52,8,21,26
-374507,2026-11-02,regular,Alcorn State,Ole Miss,False,False,58,75,9,27,10,25,18,52,12,19,26,99,75,29,43,6,18,37,61,13,25,11
+374581,2026-11-02,regular,Alabama A&M,Oakwood,True,False,90,80,27,39,4,23,35,62,13,38,17,57,79,15,43,6,20,17,63,7,24,16
+374581,2026-11-02,regular,Oakwood,Alabama A&M,False,False,57,79,15,43,6,20,17,63,7,24,16,90,80,27,39,4,23,35,62,13,38,17
+374590,2026-11-02,regular,Texas A&M-Kingsville,UT Rio Grande Valley,False,False,51,80,13,34,6,33,13,67,15,29,21,81,82,24,40,8,24,21,64,12,36,20
+374590,2026-11-02,regular,UT Rio Grande Valley,Texas A&M-Kingsville,True,False,81,82,24,40,8,24,21,64,12,36,20,51,80,13,34,6,33,13,67,15,29,21
+374571,2026-11-02,regular,Schreiner,Lamar,False,False,62,86,15,34,9,31,10,65,5,19,21,124,87,37,56,10,29,31,85,25,39,13
+374571,2026-11-02,regular,Lamar,Schreiner,True,False,124,87,37,56,10,29,31,85,25,39,13,62,86,15,34,9,31,10,65,5,19,21
+374591,2026-11-02,regular,Central Arkansas,Oral Roberts,True,False,85,72,15,23,13,39,21,62,12,29,12,55,71,12,24,6,36,22,60,18,24,18
+374591,2026-11-02,regular,Oral Roberts,Central Arkansas,False,False,55,71,12,24,6,36,22,60,18,24,18,85,72,15,23,13,39,21,62,12,29,12
+377927,2026-11-02,regular,LaGrange,Jacksonville State,False,False,59,83,13,31,4,21,28,52,8,21,26,123,84,27,41,17,38,25,79,16,31,9
 374507,2026-11-02,regular,Ole Miss,Alcorn State,True,False,99,75,29,43,6,18,37,61,13,25,11,58,75,9,27,10,25,18,52,12,19,26
-374592,2026-11-02,regular,Utah,Long Beach State,True,False,66,65,21,34,5,17,19,51,9,31,15,63,65,11,28,10,25,18,53,6,21,10
-374546,2026-11-02,regular,Chattanooga,Louisville,False,False,70,72,13,24,12,33,14,57,11,27,18,84,73,21,33,9,35,26,68,18,24,10
-377913,2026-11-02,regular,Fresno Pacific,Fresno State,False,False,79,79,14,35,12,26,25,61,10,21,15,88,78,28,45,5,14,28,59,9,30,14
-377913,2026-11-02,regular,Fresno State,Fresno Pacific,True,False,88,78,28,45,5,14,28,59,9,30,14,79,79,14,35,12,26,25,61,10,21,15
+374507,2026-11-02,regular,Alcorn State,Ole Miss,False,False,58,75,9,27,10,25,18,52,12,19,26,99,75,29,43,6,18,37,61,13,25,11
 374592,2026-11-02,regular,Long Beach State,Utah,False,False,63,65,11,28,10,25,18,53,6,21,10,66,65,21,34,5,17,19,51,9,31,15
-372615,2026-11-02,regular,Ohio State,BYU,False,True,83,68,19,29,9,28,19,57,10,21,12,94,69,20,33,11,24,27,57,10,20,8
 374546,2026-11-02,regular,Louisville,Chattanooga,True,False,84,73,21,33,9,35,26,68,18,24,10,70,72,13,24,12,33,14,57,11,27,18
-374542,2026-11-02,regular,Incarnate Word,Oklahoma State,False,False,60,71,15,32,7,19,14,51,3,23,21,91,72,18,36,11,29,29,65,15,23,9
-374542,2026-11-02,regular,Oklahoma State,Incarnate Word,True,False,91,72,18,36,11,29,29,65,15,23,9,60,71,15,32,7,19,14,51,3,23,21
-372616,2026-11-02,regular,North Dakota,Minnesota,False,False,50,68,14,31,3,28,19,59,12,24,13,85,68,24,37,10,25,13,62,9,34,9
+377913,2026-11-02,regular,Fresno State,Fresno Pacific,True,False,88,78,28,45,5,14,28,59,9,30,14,79,79,14,35,12,26,25,61,10,21,15
+377913,2026-11-02,regular,Fresno Pacific,Fresno State,False,False,79,79,14,35,12,26,25,61,10,21,15,88,78,28,45,5,14,28,59,9,30,14
+374592,2026-11-02,regular,Utah,Long Beach State,True,False,66,65,21,34,5,17,19,51,9,31,15,63,65,11,28,10,25,18,53,6,21,10
 372615,2026-11-02,regular,BYU,Ohio State,True,True,94,69,20,33,11,24,27,57,10,20,8,83,68,19,29,9,28,19,57,10,21,12
-374509,2026-11-02,regular,Utah Tech,New Mexico,False,False,60,77,15,28,7,33,14,61,7,19,15,100,75,24,35,11,25,24,60,8,34,14
-374509,2026-11-02,regular,New Mexico,Utah Tech,True,False,100,75,24,35,11,25,24,60,8,34,14,60,77,15,28,7,33,14,61,7,19,15
-374505,2026-11-02,regular,Davidson,Washington State,False,False,76,66,17,30,12,23,12,53,7,31,14,61,66,19,44,5,24,11,68,15,21,9
-374504,2026-11-02,regular,La Salle,Houston,False,False,55,74,7,21,8,39,23,60,13,19,19,94,74,26,43,5,14,37,57,13,34,13
-374504,2026-11-02,regular,Houston,La Salle,True,False,94,74,26,43,5,14,37,57,13,34,13,55,74,7,21,8,39,23,60,13,19,19
-377935,2026-11-02,regular,San Francisco State,UC Santa Barbara,False,False,55,69,18,36,4,19,12,55,11,22,19,85,70,21,37,7,19,34,56,15,25,12
-377935,2026-11-02,regular,UC Santa Barbara,San Francisco State,True,False,85,70,21,37,7,19,34,56,15,25,12,55,69,18,36,4,19,12,55,11,22,19
-372647,2026-11-02,regular,Abilene Christian,Colorado,False,False,59,68,18,37,4,20,17,57,8,16,13,94,70,25,39,10,19,20,58,10,29,11
-372647,2026-11-02,regular,Colorado,Abilene Christian,True,False,94,70,25,39,10,19,20,58,10,29,11,59,68,18,37,4,20,17,57,8,16,13
-374505,2026-11-02,regular,Washington State,Davidson,True,False,61,66,19,44,5,24,11,68,15,21,9,76,66,17,30,12,23,12,53,7,31,14
+374546,2026-11-02,regular,Chattanooga,Louisville,False,False,70,72,13,24,12,33,14,57,11,27,18,84,73,21,33,9,35,26,68,18,24,10
+374542,2026-11-02,regular,Oklahoma State,Incarnate Word,True,False,91,72,18,36,11,29,29,65,15,23,9,60,71,15,32,7,19,14,51,3,23,21
+374542,2026-11-02,regular,Incarnate Word,Oklahoma State,False,False,60,71,15,32,7,19,14,51,3,23,21,91,72,18,36,11,29,29,65,15,23,9
 372616,2026-11-02,regular,Minnesota,North Dakota,True,False,85,68,24,37,10,25,13,62,9,34,9,50,68,14,31,3,28,19,59,12,24,13
-372667,2026-11-02,regular,Grand Canyon,Texas Southern,True,False,103,78,22,31,11,34,41,65,18,29,15,79,78,21,43,4,16,40,59,12,19,14
+372615,2026-11-02,regular,Ohio State,BYU,False,True,83,68,19,29,9,28,19,57,10,21,12,94,69,20,33,11,24,27,57,10,20,8
+374509,2026-11-02,regular,New Mexico,Utah Tech,True,False,100,75,24,35,11,25,24,60,8,34,14,60,77,15,28,7,33,14,61,7,19,15
+374509,2026-11-02,regular,Utah Tech,New Mexico,False,False,60,77,15,28,7,33,14,61,7,19,15,100,75,24,35,11,25,24,60,8,34,14
+374505,2026-11-02,regular,Washington State,Davidson,True,False,61,66,19,44,5,24,11,68,15,21,9,76,66,17,30,12,23,12,53,7,31,14
+374504,2026-11-02,regular,Houston,La Salle,True,False,94,74,26,43,5,14,37,57,13,34,13,55,74,7,21,8,39,23,60,13,19,19
+374504,2026-11-02,regular,La Salle,Houston,False,False,55,74,7,21,8,39,23,60,13,19,19,94,74,26,43,5,14,37,57,13,34,13
+377935,2026-11-02,regular,UC Santa Barbara,San Francisco State,True,False,85,70,21,37,7,19,34,56,15,25,12,55,69,18,36,4,19,12,55,11,22,19
+377935,2026-11-02,regular,San Francisco State,UC Santa Barbara,False,False,55,69,18,36,4,19,12,55,11,22,19,85,70,21,37,7,19,34,56,15,25,12
+372647,2026-11-02,regular,Colorado,Abilene Christian,True,False,94,70,25,39,10,19,20,58,10,29,11,59,68,18,37,4,20,17,57,8,16,13
+372647,2026-11-02,regular,Abilene Christian,Colorado,False,False,59,68,18,37,4,20,17,57,8,16,13,94,70,25,39,10,19,20,58,10,29,11
+374505,2026-11-02,regular,Davidson,Washington State,False,False,76,66,17,30,12,23,12,53,7,31,14,61,66,19,44,5,24,11,68,15,21,9
+372616,2026-11-02,regular,North Dakota,Minnesota,False,False,50,68,14,31,3,28,19,59,12,24,13,85,68,24,37,10,25,13,62,9,34,9
 372667,2026-11-02,regular,Texas Southern,Grand Canyon,False,False,79,78,21,43,4,16,40,59,12,19,14,103,78,22,31,11,34,41,65,18,29,15
-372624,2026-11-02,regular,UConn,Gardner-Webb,True,False,86,74,22,31,9,29,24,60,9,37,10,46,73,6,28,6,19,26,47,4,24,17
+372667,2026-11-02,regular,Grand Canyon,Texas Southern,True,False,103,78,22,31,11,34,41,65,18,29,15,79,78,21,43,4,16,40,59,12,19,14
 372624,2026-11-02,regular,Gardner-Webb,UConn,False,False,46,73,6,28,6,19,26,47,4,24,17,86,74,22,31,9,29,24,60,9,37,10
-372657,2026-11-02,regular,Chicago State,Texas,False,False,59,69,19,45,5,16,12,61,11,11,15,109,69,27,38,13,26,24,64,16,28,10
+372624,2026-11-02,regular,UConn,Gardner-Webb,True,False,86,74,22,31,9,29,24,60,9,37,10,46,73,6,28,6,19,26,47,4,24,17
 372657,2026-11-02,regular,Texas,Chicago State,True,False,109,69,27,38,13,26,24,64,16,28,10,59,69,19,45,5,16,12,61,11,11,15
-372666,2026-11-02,regular,Florida State,Florida A&M,True,True,112,78,31,47,8,24,34,71,15,32,7,69,78,14,35,10,27,15,62,8,22,17
+372657,2026-11-02,regular,Chicago State,Texas,False,False,59,69,19,45,5,16,12,61,11,11,15,109,69,27,38,13,26,24,64,16,28,10
 372666,2026-11-02,regular,Florida A&M,Florida State,False,True,69,78,14,35,10,27,15,62,8,22,17,112,78,31,47,8,24,34,71,15,32,7
-374502,2026-11-02,regular,Southwestern Christian,North Texas,False,False,50,81,11,27,9,38,7,65,10,17,21,122,82,34,56,10,21,36,77,22,39,11
+372666,2026-11-02,regular,Florida State,Florida A&M,True,True,112,78,31,47,8,24,34,71,15,32,7,69,78,14,35,10,27,15,62,8,22,17
 374502,2026-11-02,regular,North Texas,Southwestern Christian,True,False,122,82,34,56,10,21,36,77,22,39,11,50,81,11,27,9,38,7,65,10,17,21
-374498,2026-11-02,regular,Colorado College,Northern Colorado,False,False,64,76,15,38,7,23,24,61,9,16,13,117,78,21,35,16,30,36,65,16,34,14
+374502,2026-11-02,regular,Southwestern Christian,North Texas,False,False,50,81,11,27,9,38,7,65,10,17,21,122,82,34,56,10,21,36,77,22,39,11
 374498,2026-11-02,regular,Northern Colorado,Colorado College,True,False,117,78,21,35,16,30,36,65,16,34,14,64,76,15,38,7,23,24,61,9,16,13
-372668,2026-11-02,regular,Northwestern State,Baylor,False,False,65,76,17,36,5,23,24,59,9,26,16,87,77,22,36,9,29,29,65,17,32,16
+374498,2026-11-02,regular,Colorado College,Northern Colorado,False,False,64,76,15,38,7,23,24,61,9,16,13,117,78,21,35,16,30,36,65,16,34,14
 372668,2026-11-02,regular,Baylor,Northwestern State,True,False,87,77,22,36,9,29,29,65,17,32,16,65,76,17,36,5,23,24,59,9,26,16
-374552,2026-11-02,regular,Biola,San Diego,False,False,62,67,8,18,9,34,28,52,9,21,13,79,69,25,43,4,15,23,58,10,30,12
+372668,2026-11-02,regular,Northwestern State,Baylor,False,False,65,76,17,36,5,23,24,59,9,26,16,87,77,22,36,9,29,29,65,17,32,16
 374552,2026-11-02,regular,San Diego,Biola,True,False,79,69,25,43,4,15,23,58,10,30,12,62,67,8,18,9,34,28,52,9,21,13
-374495,2026-11-02,regular,Weber State,Oregon State,False,False,61,80,18,45,6,35,12,80,16,24,9,102,81,23,41,9,24,34,65,11,43,11
+374552,2026-11-02,regular,Biola,San Diego,False,False,62,67,8,18,9,34,28,52,9,21,13,79,69,25,43,4,15,23,58,10,30,12
 374495,2026-11-02,regular,Oregon State,Weber State,True,False,102,81,23,41,9,24,34,65,11,43,11,61,80,18,45,6,35,12,80,16,24,9
-374516,2026-11-02,regular,Idaho State,Utah State,False,False,58,72,17,32,3,25,24,57,11,14,15,94,73,31,45,5,17,22,62,15,33,14
+374495,2026-11-02,regular,Weber State,Oregon State,False,False,61,80,18,45,6,35,12,80,16,24,9,102,81,23,41,9,24,34,65,11,43,11
 374516,2026-11-02,regular,Utah State,Idaho State,True,False,94,73,31,45,5,17,22,62,15,33,14,58,72,17,32,3,25,24,57,11,14,15
-374553,2026-11-02,regular,Saint Mary's,Illinois State,True,False,90,74,30,51,4,17,26,68,16,25,11,85,74,15,31,13,27,23,58,10,23,18
-374499,2026-11-02,regular,Montana State,Colorado State,False,False,74,73,13,28,12,34,17,62,8,19,11,84,73,22,35,7,19,22,54,7,32,16
-374499,2026-11-02,regular,Colorado State,Montana State,True,False,84,73,22,35,7,19,22,54,7,32,16,74,73,13,28,12,34,17,62,8,19,11
-374497,2026-11-02,regular,Southern Utah,West Coast Baptist,True,False,134,82,49,60,7,23,20,83,17,37,6,69,82,15,34,8,31,18,65,5,14,15
-374593,2026-11-02,regular,Whittier,UC San Diego,False,False,75,79,16,34,10,30,21,64,8,29,12,100,80,27,46,9,29,26,75,15,34,8
-374593,2026-11-02,regular,UC San Diego,Whittier,True,False,100,80,27,46,9,29,26,75,15,34,8,75,79,16,34,10,30,21,64,8,29,12
-374514,2026-11-02,regular,Idaho,George Fox,True,False,97,74,21,37,13,36,24,73,19,39,10,56,73,11,37,8,28,12,65,8,21,10
-374514,2026-11-02,regular,George Fox,Idaho,False,False,56,73,11,37,8,28,12,65,8,21,10,97,74,21,37,13,36,24,73,19,39,10
-374519,2026-11-02,regular,East Tennessee State,Arizona State,False,False,65,61,18,38,7,17,12,55,12,19,13,75,62,15,27,8,26,26,53,14,20,10
-374519,2026-11-02,regular,Arizona State,East Tennessee State,True,False,75,62,15,27,8,26,26,53,14,20,10,65,61,18,38,7,17,12,55,12,19,13
-377936,2026-11-02,regular,La Verne,UC Riverside,False,False,47,77,10,39,5,18,19,57,11,27,23,110,77,29,44,13,29,30,73,15,36,7
-377936,2026-11-02,regular,UC Riverside,La Verne,True,False,110,77,29,44,13,29,30,73,15,36,7,47,77,10,39,5,18,19,57,11,27,23
-374515,2026-11-02,regular,Montana,Oregon,False,False,69,66,9,28,13,30,14,58,7,19,10,87,68,30,47,5,11,19,58,7,30,9
-374515,2026-11-02,regular,Oregon,Montana,True,False,87,68,30,47,5,11,19,58,7,30,9,69,66,9,28,13,30,14,58,7,19,10
-374594,2026-11-02,regular,Jessup University,Sacramento State,False,False,74,83,20,39,5,21,27,60,10,25,20,90,84,18,29,7,22,44,51,6,30,18
-374594,2026-11-02,regular,Sacramento State,Jessup University,True,False,90,84,18,29,7,22,44,51,6,30,18,74,83,20,39,5,21,27,60,10,25,20
-372623,2026-11-02,regular,Nevada,Robert Morris,True,False,86,68,24,42,8,26,23,68,21,26,8,49,68,10,31,3,18,23,49,11,21,19
-372623,2026-11-02,regular,Robert Morris,Nevada,False,False,49,68,10,31,3,18,23,49,11,21,19,86,68,24,42,8,26,23,68,21,26,8
-372622,2026-11-02,regular,North Alabama,UC Davis,False,False,79,75,14,23,10,26,28,49,6,28,19,75,75,15,32,8,25,30,57,10,21,15
-372622,2026-11-02,regular,UC Davis,North Alabama,True,False,75,75,15,32,8,25,30,57,10,21,15,79,75,14,23,10,26,28,49,6,28,19
-372670,2026-11-02,regular,UCLA,Arizona,False,True,84,74,17,42,10,29,25,71,16,29,7,75,76,15,30,7,30,30,60,12,32,11
-372670,2026-11-02,regular,Arizona,UCLA,True,True,75,76,15,30,7,30,30,60,12,32,11,84,74,17,42,10,29,25,71,16,29,7
-374551,2026-11-02,regular,Santa Clara,Towson,True,False,89,74,14,29,14,33,22,62,11,27,13,70,73,16,38,7,25,28,63,18,23,14
-374551,2026-11-02,regular,Towson,Santa Clara,False,False,70,73,16,38,7,25,28,63,18,23,14,89,74,14,29,14,33,22,62,11,27,13
-374523,2026-11-02,regular,Radford,San Francisco,False,False,62,66,15,29,7,21,16,50,8,24,19,76,68,17,31,7,26,35,57,16,23,9
-374523,2026-11-02,regular,San Francisco,Radford,True,False,76,68,17,31,7,26,35,57,16,23,9,62,66,15,29,7,21,16,50,8,24,19
-374497,2026-11-02,regular,West Coast Baptist,Southern Utah,False,False,69,82,15,34,8,31,18,65,5,14,15,134,82,49,60,7,23,20,83,17,37,6
-374530,2026-11-02,regular,Washington,Colgate,True,False,90,70,15,26,10,28,36,54,10,24,10,76,69,20,40,7,22,26,62,12,23,10
-374530,2026-11-02,regular,Colgate,Washington,False,False,76,69,20,40,7,22,26,62,12,23,10,90,70,15,26,10,28,36,54,10,24,10
-374533,2026-11-02,regular,Stanford,Eastern Washington,True,False,74,63,23,31,5,20,17,51,6,20,12,65,63,19,39,4,15,21,54,13,19,13
+374516,2026-11-02,regular,Idaho State,Utah State,False,False,58,72,17,32,3,25,24,57,11,14,15,94,73,31,45,5,17,22,62,15,33,14
 374553,2026-11-02,regular,Illinois State,Saint Mary's,False,False,85,74,15,31,13,27,23,58,10,23,18,90,74,30,51,4,17,26,68,16,25,11
+374499,2026-11-02,regular,Colorado State,Montana State,True,False,84,73,22,35,7,19,22,54,7,32,16,74,73,13,28,12,34,17,62,8,19,11
+374499,2026-11-02,regular,Montana State,Colorado State,False,False,74,73,13,28,12,34,17,62,8,19,11,84,73,22,35,7,19,22,54,7,32,16
+374497,2026-11-02,regular,West Coast Baptist,Southern Utah,False,False,69,82,15,34,8,31,18,65,5,14,15,134,82,49,60,7,23,20,83,17,37,6
+374593,2026-11-02,regular,UC San Diego,Whittier,True,False,100,80,27,46,9,29,26,75,15,34,8,75,79,16,34,10,30,21,64,8,29,12
+374593,2026-11-02,regular,Whittier,UC San Diego,False,False,75,79,16,34,10,30,21,64,8,29,12,100,80,27,46,9,29,26,75,15,34,8
+374514,2026-11-02,regular,George Fox,Idaho,False,False,56,73,11,37,8,28,12,65,8,21,10,97,74,21,37,13,36,24,73,19,39,10
+374514,2026-11-02,regular,Idaho,George Fox,True,False,97,74,21,37,13,36,24,73,19,39,10,56,73,11,37,8,28,12,65,8,21,10
+374519,2026-11-02,regular,Arizona State,East Tennessee State,True,False,75,62,15,27,8,26,26,53,14,20,10,65,61,18,38,7,17,12,55,12,19,13
+374519,2026-11-02,regular,East Tennessee State,Arizona State,False,False,65,61,18,38,7,17,12,55,12,19,13,75,62,15,27,8,26,26,53,14,20,10
+377936,2026-11-02,regular,UC Riverside,La Verne,True,False,110,77,29,44,13,29,30,73,15,36,7,47,77,10,39,5,18,19,57,11,27,23
+377936,2026-11-02,regular,La Verne,UC Riverside,False,False,47,77,10,39,5,18,19,57,11,27,23,110,77,29,44,13,29,30,73,15,36,7
+374515,2026-11-02,regular,Oregon,Montana,True,False,87,68,30,47,5,11,19,58,7,30,9,69,66,9,28,13,30,14,58,7,19,10
+374515,2026-11-02,regular,Montana,Oregon,False,False,69,66,9,28,13,30,14,58,7,19,10,87,68,30,47,5,11,19,58,7,30,9
+374594,2026-11-02,regular,Sacramento State,Jessup University,True,False,90,84,18,29,7,22,44,51,6,30,18,74,83,20,39,5,21,27,60,10,25,20
+374594,2026-11-02,regular,Jessup University,Sacramento State,False,False,74,83,20,39,5,21,27,60,10,25,20,90,84,18,29,7,22,44,51,6,30,18
+372623,2026-11-02,regular,Robert Morris,Nevada,False,False,49,68,10,31,3,18,23,49,11,21,19,86,68,24,42,8,26,23,68,21,26,8
+372623,2026-11-02,regular,Nevada,Robert Morris,True,False,86,68,24,42,8,26,23,68,21,26,8,49,68,10,31,3,18,23,49,11,21,19
+372622,2026-11-02,regular,UC Davis,North Alabama,True,False,75,75,15,32,8,25,30,57,10,21,15,79,75,14,23,10,26,28,49,6,28,19
+372622,2026-11-02,regular,North Alabama,UC Davis,False,False,79,75,14,23,10,26,28,49,6,28,19,75,75,15,32,8,25,30,57,10,21,15
+372670,2026-11-02,regular,Arizona,UCLA,True,True,75,76,15,30,7,30,30,60,12,32,11,84,74,17,42,10,29,25,71,16,29,7
+372670,2026-11-02,regular,UCLA,Arizona,False,True,84,74,17,42,10,29,25,71,16,29,7,75,76,15,30,7,30,30,60,12,32,11
+374551,2026-11-02,regular,Towson,Santa Clara,False,False,70,73,16,38,7,25,28,63,18,23,14,89,74,14,29,14,33,22,62,11,27,13
+374551,2026-11-02,regular,Santa Clara,Towson,True,False,89,74,14,29,14,33,22,62,11,27,13,70,73,16,38,7,25,28,63,18,23,14
+374523,2026-11-02,regular,San Francisco,Radford,True,False,76,68,17,31,7,26,35,57,16,23,9,62,66,15,29,7,21,16,50,8,24,19
+374523,2026-11-02,regular,Radford,San Francisco,False,False,62,66,15,29,7,21,16,50,8,24,19,76,68,17,31,7,26,35,57,16,23,9
+374497,2026-11-02,regular,Southern Utah,West Coast Baptist,True,False,134,82,49,60,7,23,20,83,17,37,6,69,82,15,34,8,31,18,65,5,14,15
+374530,2026-11-02,regular,Colgate,Washington,False,False,76,69,20,40,7,22,26,62,12,23,10,90,70,15,26,10,28,36,54,10,24,10
+374530,2026-11-02,regular,Washington,Colgate,True,False,90,70,15,26,10,28,36,54,10,24,10,76,69,20,40,7,22,26,62,12,23,10
 374533,2026-11-02,regular,Eastern Washington,Stanford,False,False,65,63,19,39,4,15,21,54,13,19,13,74,63,23,31,5,20,17,51,6,20,12
-374538,2026-11-02,regular,CSU San Marcos,Cal Poly,False,False,62,81,12,40,7,31,25,71,14,22,12,78,80,15,26,12,35,21,61,17,42,25
-377911,2026-11-02,regular,USC,Milwaukee,True,False,95,75,21,36,12,22,24,58,7,30,14,63,74,17,39,6,23,15,62,12,19,17
-377911,2026-11-02,regular,Milwaukee,USC,False,False,63,74,17,39,6,23,15,62,12,19,17,95,75,21,36,12,22,24,58,7,30,14
+374553,2026-11-02,regular,Saint Mary's,Illinois State,True,False,90,74,30,51,4,17,26,68,16,25,11,85,74,15,31,13,27,23,58,10,23,18
+374533,2026-11-02,regular,Stanford,Eastern Washington,True,False,74,63,23,31,5,20,17,51,6,20,12,65,63,19,39,4,15,21,54,13,19,13
 374538,2026-11-02,regular,Cal Poly,CSU San Marcos,True,False,78,80,15,26,12,35,21,61,17,42,25,62,81,12,40,7,31,25,71,14,22,12
-374554,2026-11-02,regular,Hawai'i,Seattle U,True,False,74,75,17,29,8,22,22,51,5,20,16,73,74,20,38,7,16,17,54,7,23,20
+377911,2026-11-02,regular,Milwaukee,USC,False,False,63,74,17,39,6,23,15,62,12,19,17,95,75,21,36,12,22,24,58,7,30,14
+377911,2026-11-02,regular,USC,Milwaukee,True,False,95,75,21,36,12,22,24,58,7,30,14,63,74,17,39,6,23,15,62,12,19,17
+374538,2026-11-02,regular,CSU San Marcos,Cal Poly,False,False,62,81,12,40,7,31,25,71,14,22,12,78,80,15,26,12,35,21,61,17,42,25
 374554,2026-11-02,regular,Seattle U,Hawai'i,False,False,73,74,20,38,7,16,17,54,7,23,20,74,75,17,29,8,22,22,51,5,20,16
-372673,2026-11-03,regular,Wofford,Tennessee,False,False,59,71,13,35,6,27,23,62,13,21,12,90,71,27,42,7,23,16,65,11,31,10
+374554,2026-11-02,regular,Hawai'i,Seattle U,True,False,74,75,17,29,8,22,22,51,5,20,16,73,74,20,38,7,16,17,54,7,23,20
 372673,2026-11-03,regular,Tennessee,Wofford,True,False,90,71,27,42,7,23,16,65,11,31,10,59,71,13,35,6,27,23,62,13,21,12
-374599,2026-11-03,regular,South Carolina,Stetson,True,False,81,57,23,34,8,27,16,61,15,20,5,55,58,13,28,6,16,20,44,7,14,13
-374596,2026-11-03,regular,Purdue Fort Wayne,Duquesne,False,False,71,71,11,35,13,26,12,61,10,18,14,78,71,24,39,5,16,20,55,8,29,15
-374606,2026-11-03,regular,Georgia Tech,Hampton,True,False,75,78,24,39,4,28,25,67,19,40,18,55,77,13,41,4,20,30,61,10,23,11
-374606,2026-11-03,regular,Hampton,Georgia Tech,False,False,55,77,13,41,4,20,30,61,10,23,11,75,78,24,39,4,28,25,67,19,40,18
-374601,2026-11-03,regular,Kentucky,Manhattan,True,False,85,66,20,29,12,31,11,60,14,26,14,57,66,12,28,7,26,23,54,12,14,13
-374595,2026-11-03,regular,UNC Greensboro,Milligan,True,False,96,76,30,41,7,25,22,66,10,43,10,43,75,13,52,3,15,13,67,10,21,13
+372673,2026-11-03,regular,Wofford,Tennessee,False,False,59,71,13,35,6,27,23,62,13,21,12,90,71,27,42,7,23,16,65,11,31,10
 374599,2026-11-03,regular,Stetson,South Carolina,False,False,55,58,13,28,6,16,20,44,7,14,13,81,57,23,34,8,27,16,61,15,20,5
+374596,2026-11-03,regular,Duquesne,Purdue Fort Wayne,True,False,78,71,24,39,5,16,20,55,8,29,15,71,71,11,35,13,26,12,61,10,18,14
+374606,2026-11-03,regular,Hampton,Georgia Tech,False,False,55,77,13,41,4,20,30,61,10,23,11,75,78,24,39,4,28,25,67,19,40,18
+374606,2026-11-03,regular,Georgia Tech,Hampton,True,False,75,78,24,39,4,28,25,67,19,40,18,55,77,13,41,4,20,30,61,10,23,11
 374601,2026-11-03,regular,Manhattan,Kentucky,False,False,57,66,12,28,7,26,23,54,12,14,13,85,66,20,29,12,31,11,60,14,26,14
-374611,2026-11-03,regular,Holy Cross,Rhode Island,False,False,59,72,14,32,7,23,16,55,7,22,16,103,73,25,36,12,31,23,67,10,31,5
 374595,2026-11-03,regular,Milligan,UNC Greensboro,False,False,43,75,13,52,3,15,13,67,10,21,13,96,76,30,41,7,25,22,66,10,43,10
+374599,2026-11-03,regular,South Carolina,Stetson,True,False,81,57,23,34,8,27,16,61,15,20,5,55,58,13,28,6,16,20,44,7,14,13
+374601,2026-11-03,regular,Kentucky,Manhattan,True,False,85,66,20,29,12,31,11,60,14,26,14,57,66,12,28,7,26,23,54,12,14,13
 374611,2026-11-03,regular,Rhode Island,Holy Cross,True,False,103,73,25,36,12,31,23,67,10,31,5,59,72,14,32,7,23,16,55,7,22,16
-374610,2026-11-03,regular,Virginia Tech,Coppin State,True,False,88,71,16,30,13,28,26,58,15,23,14,54,72,17,40,2,12,24,52,12,17,24
-372672,2026-11-03,regular,Boston College,Wagner,True,False,76,64,18,34,7,17,25,51,7,29,11,50,63,14,41,3,15,17,56,13,21,13
+374595,2026-11-03,regular,UNC Greensboro,Milligan,True,False,96,76,30,41,7,25,22,66,10,43,10,43,75,13,52,3,15,13,67,10,21,13
+374611,2026-11-03,regular,Holy Cross,Rhode Island,False,False,59,72,14,32,7,23,16,55,7,22,16,103,73,25,36,12,31,23,67,10,31,5
 374610,2026-11-03,regular,Coppin State,Virginia Tech,False,False,54,72,17,40,2,12,24,52,12,17,24,88,71,16,30,13,28,26,58,15,23,14
 372672,2026-11-03,regular,Wagner,Boston College,False,False,50,63,14,41,3,15,17,56,13,21,13,76,64,18,34,7,17,25,51,7,29,11
-374596,2026-11-03,regular,Duquesne,Purdue Fort Wayne,True,False,78,71,24,39,5,16,20,55,8,29,15,71,71,11,35,13,26,12,61,10,18,14
-374605,2026-11-03,regular,Drexel,Virginia,False,False,60,75,15,33,8,25,7,58,7,26,21,89,76,22,38,10,29,19,67,13,29,14
-372674,2026-11-03,regular,Sam Houston,Alabama,False,False,74,80,10,32,15,33,16,65,15,30,23,96,81,26,44,10,31,19,75,13,29,10
-372674,2026-11-03,regular,Alabama,Sam Houston,True,False,96,81,26,44,10,31,19,75,13,29,10,74,80,10,32,15,33,16,65,15,30,23
+374610,2026-11-03,regular,Virginia Tech,Coppin State,True,False,88,71,16,30,13,28,26,58,15,23,14,54,72,17,40,2,12,24,52,12,17,24
+372672,2026-11-03,regular,Boston College,Wagner,True,False,76,64,18,34,7,17,25,51,7,29,11,50,63,14,41,3,15,17,56,13,21,13
+374596,2026-11-03,regular,Purdue Fort Wayne,Duquesne,False,False,71,71,11,35,13,26,12,61,10,18,14,78,71,24,39,5,16,20,55,8,29,15
 374605,2026-11-03,regular,Virginia,Drexel,True,False,89,76,22,38,10,29,19,67,13,29,14,60,75,15,33,8,25,7,58,7,26,21
-374604,2026-11-03,regular,Lipscomb,Iowa,False,False,54,68,14,29,3,18,21,47,6,27,17,76,69,22,34,6,25,28,59,14,27,8
-377938,2026-11-03,regular,Cornell College (IA),Northern Iowa,False,False,70,90,14,36,9,26,19,62,10,29,29,106,90,27,44,8,30,41,74,15,31,10
-377938,2026-11-03,regular,Northern Iowa,Cornell College (IA),True,False,106,90,27,44,8,30,41,74,15,31,10,70,90,14,36,9,26,19,62,10,29,29
-377937,2026-11-03,regular,Arkansas,Arkansas-Pine Bluff,True,False,106,78,29,46,6,18,42,64,17,26,11,61,77,15,33,6,21,19,54,9,18,24
-377937,2026-11-03,regular,Arkansas-Pine Bluff,Arkansas,False,False,61,77,15,33,6,21,19,54,9,18,24,106,78,29,46,6,18,42,64,17,26,11
-372671,2026-11-03,regular,Kansas State,South Dakota State,True,False,66,67,14,25,8,28,18,53,6,28,12,68,66,15,33,10,24,13,57,7,20,10
-372671,2026-11-03,regular,South Dakota State,Kansas State,False,False,68,66,15,33,10,24,13,57,7,20,10,66,67,14,25,8,28,18,53,6,28,12
-374613,2026-11-03,regular,Houston Christian,Louisiana Christian,True,False,108,79,28,44,9,25,38,69,15,30,7,45,79,11,30,6,23,6,53,5,23,28
-374613,2026-11-03,regular,Louisiana Christian,Houston Christian,False,False,45,79,11,30,6,23,6,53,5,23,28,108,79,28,44,9,25,38,69,15,30,7
-374602,2026-11-03,regular,Cleveland State,Missouri,False,False,50,69,17,42,2,16,17,58,12,17,14,111,69,28,38,14,31,18,69,12,31,4
-374602,2026-11-03,regular,Missouri,Cleveland State,True,False,111,69,28,38,14,31,18,69,12,31,4,50,69,17,42,2,16,17,58,12,17,14
-377939,2026-11-03,regular,Lincoln (MO),Missouri State,False,False,60,70,14,38,10,29,5,67,13,18,15,88,69,23,41,11,21,15,62,12,32,12
-377939,2026-11-03,regular,Missouri State,Lincoln (MO),True,False,88,69,23,41,11,21,15,62,12,32,12,60,70,14,38,10,29,5,67,13,18,15
+372674,2026-11-03,regular,Alabama,Sam Houston,True,False,96,81,26,44,10,31,19,75,13,29,10,74,80,10,32,15,33,16,65,15,30,23
+372674,2026-11-03,regular,Sam Houston,Alabama,False,False,74,80,10,32,15,33,16,65,15,30,23,96,81,26,44,10,31,19,75,13,29,10
+374605,2026-11-03,regular,Drexel,Virginia,False,False,60,75,15,33,8,25,7,58,7,26,21,89,76,22,38,10,29,19,67,13,29,14
 374604,2026-11-03,regular,Iowa,Lipscomb,True,False,76,69,22,34,6,25,28,59,14,27,8,54,68,14,29,3,18,21,47,6,27,17
-374600,2026-11-03,regular,LSU,New Orleans,True,False,100,82,32,48,7,28,20,76,16,37,12,57,81,11,32,4,29,38,61,14,24,16
+377938,2026-11-03,regular,Northern Iowa,Cornell College (IA),True,False,106,90,27,44,8,30,41,74,15,31,10,70,90,14,36,9,26,19,62,10,29,29
+377938,2026-11-03,regular,Cornell College (IA),Northern Iowa,False,False,70,90,14,36,9,26,19,62,10,29,29,106,90,27,44,8,30,41,74,15,31,10
+377937,2026-11-03,regular,Arkansas-Pine Bluff,Arkansas,False,False,61,77,15,33,6,21,19,54,9,18,24,106,78,29,46,6,18,42,64,17,26,11
+377937,2026-11-03,regular,Arkansas,Arkansas-Pine Bluff,True,False,106,78,29,46,6,18,42,64,17,26,11,61,77,15,33,6,21,19,54,9,18,24
+372671,2026-11-03,regular,South Dakota State,Kansas State,False,False,68,66,15,33,10,24,13,57,7,20,10,66,67,14,25,8,28,18,53,6,28,12
+372671,2026-11-03,regular,Kansas State,South Dakota State,True,False,66,67,14,25,8,28,18,53,6,28,12,68,66,15,33,10,24,13,57,7,20,10
+374613,2026-11-03,regular,Louisiana Christian,Houston Christian,False,False,45,79,11,30,6,23,6,53,5,23,28,108,79,28,44,9,25,38,69,15,30,7
+374613,2026-11-03,regular,Houston Christian,Louisiana Christian,True,False,108,79,28,44,9,25,38,69,15,30,7,45,79,11,30,6,23,6,53,5,23,28
+374602,2026-11-03,regular,Missouri,Cleveland State,True,False,111,69,28,38,14,31,18,69,12,31,4,50,69,17,42,2,16,17,58,12,17,14
+374602,2026-11-03,regular,Cleveland State,Missouri,False,False,50,69,17,42,2,16,17,58,12,17,14,111,69,28,38,14,31,18,69,12,31,4
+377939,2026-11-03,regular,Missouri State,Lincoln (MO),True,False,88,69,23,41,11,21,15,62,12,32,12,60,70,14,38,10,29,5,67,13,18,15
+377939,2026-11-03,regular,Lincoln (MO),Missouri State,False,False,60,70,14,38,10,29,5,67,13,18,15,88,69,23,41,11,21,15,62,12,32,12
+374604,2026-11-03,regular,Lipscomb,Iowa,False,False,54,68,14,29,3,18,21,47,6,27,17,76,69,22,34,6,25,28,59,14,27,8
 374600,2026-11-03,regular,New Orleans,LSU,False,False,57,81,11,32,4,29,38,61,14,24,16,100,82,32,48,7,28,20,76,16,37,12
-374603,2026-11-03,regular,Texas A&M,Alabama State,True,False,97,82,22,39,8,23,48,62,14,29,11,66,82,14,43,8,24,19,67,16,28,25
+374600,2026-11-03,regular,LSU,New Orleans,True,False,100,82,32,48,7,28,20,76,16,37,12,57,81,11,32,4,29,38,61,14,24,16
 374603,2026-11-03,regular,Alabama State,Texas A&M,False,False,66,82,14,43,8,24,19,67,16,28,25,97,82,22,39,8,23,48,62,14,29,11
-377940,2026-11-03,regular,Western New Mexico,New Mexico State,False,False,66,69,19,45,5,23,16,68,19,27,14,73,68,17,37,7,21,22,58,10,27,10
+374603,2026-11-03,regular,Texas A&M,Alabama State,True,False,97,82,22,39,8,23,48,62,14,29,11,66,82,14,43,8,24,19,67,16,28,25
 377940,2026-11-03,regular,New Mexico State,Western New Mexico,True,False,73,68,17,37,7,21,22,58,10,27,10,66,69,19,45,5,23,16,68,19,27,14
-374597,2026-11-03,regular,Wyoming,Regis (CO),True,False,95,70,25,42,7,16,32,58,12,29,9,48,69,14,29,5,21,13,50,5,18,19
+377940,2026-11-03,regular,Western New Mexico,New Mexico State,False,False,66,69,19,45,5,23,16,68,19,27,14,73,68,17,37,7,21,22,58,10,27,10
 374597,2026-11-03,regular,Regis (CO),Wyoming,False,False,48,69,14,29,5,21,13,50,5,18,19,95,70,25,42,7,16,32,58,12,29,9
-374598,2026-11-03,regular,UNLV,Northern Arizona,True,False,89,68,21,40,8,21,32,61,18,19,10,77,67,14,25,11,23,24,48,8,18,18
+374597,2026-11-03,regular,Wyoming,Regis (CO),True,False,95,70,25,42,7,16,32,58,12,29,9,48,69,14,29,5,21,13,50,5,18,19
 374598,2026-11-03,regular,Northern Arizona,UNLV,False,False,77,67,14,25,11,23,24,48,8,18,18,89,68,21,40,8,21,32,61,18,19,10
-374614,2026-11-03,regular,Portland State,Lewis & Clark,True,False,111,79,26,35,11,28,43,63,21,46,14,59,78,9,34,10,34,20,68,10,14,9
-377941,2026-11-03,regular,Chapman,UC Irvine,False,False,66,76,11,34,13,37,13,71,11,19,11,92,77,26,42,7,19,33,61,16,40,16
-377941,2026-11-03,regular,UC Irvine,Chapman,True,False,92,77,26,42,7,19,33,61,16,40,16,66,76,11,34,13,37,13,71,11,19,11
-374615,2026-11-03,regular,North Florida,California Baptist,False,False,71,75,21,33,6,24,18,57,9,32,18,63,76,17,33,4,27,22,60,7,24,15
-374608,2026-11-03,regular,Pacific,Bethesda University,True,False,102,71,26,32,12,28,22,60,14,42,13,47,71,10,31,8,34,6,65,7,12,11
+374598,2026-11-03,regular,UNLV,Northern Arizona,True,False,89,68,21,40,8,21,32,61,18,19,10,77,67,14,25,11,23,24,48,8,18,18
 374614,2026-11-03,regular,Lewis & Clark,Portland State,False,False,59,78,9,34,10,34,20,68,10,14,9,111,79,26,35,11,28,43,63,21,46,14
+377941,2026-11-03,regular,UC Irvine,Chapman,True,False,92,77,26,42,7,19,33,61,16,40,16,66,76,11,34,13,37,13,71,11,19,11
+377941,2026-11-03,regular,Chapman,UC Irvine,False,False,66,76,11,34,13,37,13,71,11,19,11,92,77,26,42,7,19,33,61,16,40,16
 374615,2026-11-03,regular,California Baptist,North Florida,True,False,63,76,17,33,4,27,22,60,7,24,15,71,75,21,33,6,24,18,57,9,32,18
-374607,2026-11-03,regular,Cal State Fullerton,San Diego State,False,False,78,79,21,37,7,32,24,69,11,17,9,102,80,25,45,8,23,34,68,18,32,15
-374607,2026-11-03,regular,San Diego State,Cal State Fullerton,True,False,102,80,25,45,8,23,34,68,18,32,15,78,79,21,37,7,32,24,69,11,17,9
 374608,2026-11-03,regular,Bethesda University,Pacific,False,False,47,71,10,31,8,34,6,65,7,12,11,102,71,26,32,12,28,22,60,14,42,13
-374623,2026-11-04,regular,Dartmouth,Framingham State,True,False,107,75,27,39,15,40,11,79,18,31,7,50,74,14,41,3,15,19,56,7,19,19
+374614,2026-11-03,regular,Portland State,Lewis & Clark,True,False,111,79,26,35,11,28,43,63,21,46,14,59,78,9,34,10,34,20,68,10,14,9
+374615,2026-11-03,regular,North Florida,California Baptist,False,False,71,75,21,33,6,24,18,57,9,32,18,63,76,17,33,4,27,22,60,7,24,15
+374607,2026-11-03,regular,San Diego State,Cal State Fullerton,True,False,102,80,25,45,8,23,34,68,18,32,15,78,79,21,37,7,32,24,69,11,17,9
+374607,2026-11-03,regular,Cal State Fullerton,San Diego State,False,False,78,79,21,37,7,32,24,69,11,17,9,102,80,25,45,8,23,34,68,18,32,15
+374608,2026-11-03,regular,Pacific,Bethesda University,True,False,102,71,26,32,12,28,22,60,14,42,13,47,71,10,31,8,34,6,65,7,12,11
 374623,2026-11-04,regular,Framingham State,Dartmouth,False,False,50,74,14,41,3,15,19,56,7,19,19,107,75,27,39,15,40,11,79,18,31,7
-377946,2026-11-04,regular,Old Dominion,Regent,True,False,91,76,25,40,9,32,19,72,16,32,11,47,76,10,28,5,27,17,55,10,22,23
-372675,2026-11-04,regular,Butler,Fairleigh Dickinson,True,False,99,66,16,24,20,43,16,67,15,26,11,65,66,20,37,5,21,16,58,7,15,8
-372675,2026-11-04,regular,Fairleigh Dickinson,Butler,False,False,65,66,20,37,5,21,16,58,7,15,8,99,66,16,24,20,43,16,67,15,26,11
-374628,2026-11-04,regular,Longwood,Saint Joseph's,False,False,73,76,15,28,11,42,21,70,14,30,12,82,76,20,37,8,26,31,63,11,34,9
-374628,2026-11-04,regular,Saint Joseph's,Longwood,True,False,82,76,20,37,8,26,31,63,11,34,9,73,76,15,28,11,42,21,70,14,30,12
-374625,2026-11-04,regular,UNC Asheville,Erskine,True,False,101,77,17,21,15,38,34,59,13,27,15,74,76,23,37,5,24,22,61,12,18,16
-374625,2026-11-04,regular,Erskine,UNC Asheville,False,False,74,76,23,37,5,24,22,61,12,18,16,101,77,17,21,15,38,34,59,13,27,15
-374627,2026-11-04,regular,High Point,Maryland Eastern Shore,True,False,63,68,13,24,6,21,30,45,8,32,16,49,68,8,32,6,21,20,53,9,25,15
-374627,2026-11-04,regular,Maryland Eastern Shore,High Point,False,False,49,68,8,32,6,21,20,53,9,25,15,63,68,13,24,6,21,30,45,8,32,16
-374624,2026-11-04,regular,SIU Edwardsville,Concordia-Chicago,True,False,85,70,23,39,9,23,17,62,12,25,12,61,70,18,33,5,20,12,53,6,19,17
-374624,2026-11-04,regular,Concordia-Chicago,SIU Edwardsville,False,False,61,70,18,33,5,20,12,53,6,19,17,85,70,23,39,9,23,17,62,12,25,12
-377943,2026-11-04,regular,Morgan State,Virginia-Lynchburg,True,False,95,86,24,40,12,34,21,74,14,38,16,58,84,19,52,2,17,19,69,11,32,17
+374623,2026-11-04,regular,Dartmouth,Framingham State,True,False,107,75,27,39,15,40,11,79,18,31,7,50,74,14,41,3,15,19,56,7,19,19
 377946,2026-11-04,regular,Regent,Old Dominion,False,False,47,76,10,28,5,27,17,55,10,22,23,91,76,25,40,9,32,19,72,16,32,11
+372675,2026-11-04,regular,Fairleigh Dickinson,Butler,False,False,65,66,20,37,5,21,16,58,7,15,8,99,66,16,24,20,43,16,67,15,26,11
+372675,2026-11-04,regular,Butler,Fairleigh Dickinson,True,False,99,66,16,24,20,43,16,67,15,26,11,65,66,20,37,5,21,16,58,7,15,8
+374628,2026-11-04,regular,Saint Joseph's,Longwood,True,False,82,76,20,37,8,26,31,63,11,34,9,73,76,15,28,11,42,21,70,14,30,12
+374628,2026-11-04,regular,Longwood,Saint Joseph's,False,False,73,76,15,28,11,42,21,70,14,30,12,82,76,20,37,8,26,31,63,11,34,9
+374625,2026-11-04,regular,Erskine,UNC Asheville,False,False,74,76,23,37,5,24,22,61,12,18,16,101,77,17,21,15,38,34,59,13,27,15
+374625,2026-11-04,regular,UNC Asheville,Erskine,True,False,101,77,17,21,15,38,34,59,13,27,15,74,76,23,37,5,24,22,61,12,18,16
+374627,2026-11-04,regular,Maryland Eastern Shore,High Point,False,False,49,68,8,32,6,21,20,53,9,25,15,63,68,13,24,6,21,30,45,8,32,16
+374627,2026-11-04,regular,High Point,Maryland Eastern Shore,True,False,63,68,13,24,6,21,30,45,8,32,16,49,68,8,32,6,21,20,53,9,25,15
+374624,2026-11-04,regular,Concordia-Chicago,SIU Edwardsville,False,False,61,70,18,33,5,20,12,53,6,19,17,85,70,23,39,9,23,17,62,12,25,12
+374624,2026-11-04,regular,SIU Edwardsville,Concordia-Chicago,True,False,85,70,23,39,9,23,17,62,12,25,12,61,70,18,33,5,20,12,53,6,19,17
 377943,2026-11-04,regular,Virginia-Lynchburg,Morgan State,False,False,58,84,19,52,2,17,19,69,11,32,17,95,86,24,40,12,34,21,74,14,38,16
-374617,2026-11-04,regular,Bob Jones,Furman,False,False,52,76,9,29,8,37,11,66,11,19,16,121,77,30,43,15,38,21,81,17,39,3
-374630,2026-11-04,regular,Champion Christian,UL Monroe,False,False,55,70,13,22,8,34,11,56,6,18,15,99,71,20,32,13,36,26,68,19,33,9
-374630,2026-11-04,regular,UL Monroe,Champion Christian,True,False,99,71,20,32,13,36,26,68,19,33,9,55,70,13,22,8,34,11,56,6,18,15
-374633,2026-11-04,regular,Cal State Northridge,Wichita State,False,False,67,76,19,45,5,21,23,66,12,36,11,79,76,20,48,8,27,22,75,13,33,3
-374633,2026-11-04,regular,Wichita State,Cal State Northridge,True,False,79,76,20,48,8,27,22,75,13,33,3,67,76,19,45,5,21,23,66,12,36,11
-374616,2026-11-04,regular,Southeast Missouri State,Webster,True,False,90,85,28,47,6,21,30,68,8,35,15,65,83,18,52,2,10,28,62,6,27,19
-374616,2026-11-04,regular,Webster,Southeast Missouri State,False,False,65,83,18,52,2,10,28,62,6,27,19,90,85,28,47,6,21,30,68,8,35,15
-377947,2026-11-04,regular,Christendom,App State,False,False,43,74,15,33,3,25,6,58,3,17,17,108,74,27,39,15,39,15,78,19,35,8
-377947,2026-11-04,regular,App State,Christendom,True,False,108,74,27,39,15,39,15,78,19,35,8,43,74,15,33,3,25,6,58,3,17,17
-374629,2026-11-04,regular,Blue Mountain,Tennessee Tech,False,False,70,84,23,45,3,17,23,62,8,27,26,117,84,26,46,17,49,18,95,30,31,11
-374629,2026-11-04,regular,Tennessee Tech,Blue Mountain,True,False,117,84,26,46,17,49,18,95,30,31,11,70,84,23,45,3,17,23,62,8,27,26
-377945,2026-11-04,regular,Drake,Central College,True,False,101,73,30,46,9,26,26,72,22,29,11,48,72,8,18,7,32,14,50,9,18,24
-377945,2026-11-04,regular,Central College,Drake,False,False,48,72,8,18,7,32,14,50,9,18,24,101,73,30,46,9,26,26,72,22,29,11
+377946,2026-11-04,regular,Old Dominion,Regent,True,False,91,76,25,40,9,32,19,72,16,32,11,47,76,10,28,5,27,17,55,10,22,23
+377943,2026-11-04,regular,Morgan State,Virginia-Lynchburg,True,False,95,86,24,40,12,34,21,74,14,38,16,58,84,19,52,2,17,19,69,11,32,17
 374617,2026-11-04,regular,Furman,Bob Jones,True,False,121,77,30,43,15,38,21,81,17,39,3,52,76,9,29,8,37,11,66,11,19,16
-374632,2026-11-04,regular,Saint Mary of the Woods College,Southern Indiana,False,False,42,78,15,41,3,21,10,62,8,22,20,112,77,34,51,11,35,15,86,19,39,4
-374631,2026-11-04,regular,Randolph College,Norfolk State,False,False,71,75,17,40,6,26,27,66,18,28,15,78,75,20,38,7,25,21,63,11,29,13
-374619,2026-11-04,regular,Auburn,SE Louisiana,True,False,92,72,20,37,12,26,27,63,17,33,14,59,71,12,34,8,33,19,67,18,19,14
-377944,2026-11-04,regular,South Dakota,Northern Kentucky,True,False,94,79,25,39,9,25,21,64,10,16,15,102,78,26,42,9,14,32,56,8,21,14
-377944,2026-11-04,regular,Northern Kentucky,South Dakota,False,False,102,78,26,42,9,14,32,56,8,21,14,94,79,25,39,9,25,21,64,10,16,15
+374630,2026-11-04,regular,UL Monroe,Champion Christian,True,False,99,71,20,32,13,36,26,68,19,33,9,55,70,13,22,8,34,11,56,6,18,15
+374630,2026-11-04,regular,Champion Christian,UL Monroe,False,False,55,70,13,22,8,34,11,56,6,18,15,99,71,20,32,13,36,26,68,19,33,9
+374633,2026-11-04,regular,Wichita State,Cal State Northridge,True,False,79,76,20,48,8,27,22,75,13,33,3,67,76,19,45,5,21,23,66,12,36,11
+374633,2026-11-04,regular,Cal State Northridge,Wichita State,False,False,67,76,19,45,5,21,23,66,12,36,11,79,76,20,48,8,27,22,75,13,33,3
+374616,2026-11-04,regular,Webster,Southeast Missouri State,False,False,65,83,18,52,2,10,28,62,6,27,19,90,85,28,47,6,21,30,68,8,35,15
+374616,2026-11-04,regular,Southeast Missouri State,Webster,True,False,90,85,28,47,6,21,30,68,8,35,15,65,83,18,52,2,10,28,62,6,27,19
+377947,2026-11-04,regular,App State,Christendom,True,False,108,74,27,39,15,39,15,78,19,35,8,43,74,15,33,3,25,6,58,3,17,17
+377947,2026-11-04,regular,Christendom,App State,False,False,43,74,15,33,3,25,6,58,3,17,17,108,74,27,39,15,39,15,78,19,35,8
+374629,2026-11-04,regular,Tennessee Tech,Blue Mountain,True,False,117,84,26,46,17,49,18,95,30,31,11,70,84,23,45,3,17,23,62,8,27,26
+374629,2026-11-04,regular,Blue Mountain,Tennessee Tech,False,False,70,84,23,45,3,17,23,62,8,27,26,117,84,26,46,17,49,18,95,30,31,11
+377945,2026-11-04,regular,Central College,Drake,False,False,48,72,8,18,7,32,14,50,9,18,24,101,73,30,46,9,26,26,72,22,29,11
+377945,2026-11-04,regular,Drake,Central College,True,False,101,73,30,46,9,26,26,72,22,29,11,48,72,8,18,7,32,14,50,9,18,24
+374617,2026-11-04,regular,Bob Jones,Furman,False,False,52,76,9,29,8,37,11,66,11,19,16,121,77,30,43,15,38,21,81,17,39,3
+374632,2026-11-04,regular,Southern Indiana,Saint Mary of the Woods College,True,False,112,77,34,51,11,35,15,86,19,39,4,42,78,15,41,3,21,10,62,8,22,20
 374631,2026-11-04,regular,Norfolk State,Randolph College,True,False,78,75,20,38,7,25,21,63,11,29,13,71,75,17,40,6,26,27,66,18,28,15
 374619,2026-11-04,regular,SE Louisiana,Auburn,False,False,59,71,12,34,8,33,19,67,18,19,14,92,72,20,37,12,26,27,63,17,33,14
-374632,2026-11-04,regular,Southern Indiana,Saint Mary of the Woods College,True,False,112,77,34,51,11,35,15,86,19,39,4,42,78,15,41,3,21,10,62,8,22,20
-374626,2026-11-04,regular,Montana,Salish Kootenai,True,False,105,77,31,40,12,28,14,68,10,34,11,40,76,11,41,3,14,16,55,9,19,22
+377944,2026-11-04,regular,Northern Kentucky,South Dakota,False,False,102,78,26,42,9,14,32,56,8,21,14,94,79,25,39,9,25,21,64,10,16,15
+377944,2026-11-04,regular,South Dakota,Northern Kentucky,True,False,94,79,25,39,9,25,21,64,10,16,15,102,78,26,42,9,14,32,56,8,21,14
+374631,2026-11-04,regular,Randolph College,Norfolk State,False,False,71,75,17,40,6,26,27,66,18,28,15,78,75,20,38,7,25,21,63,11,29,13
+374619,2026-11-04,regular,Auburn,SE Louisiana,True,False,92,72,20,37,12,26,27,63,17,33,14,59,71,12,34,8,33,19,67,18,19,14
+374632,2026-11-04,regular,Saint Mary of the Woods College,Southern Indiana,False,False,42,78,15,41,3,21,10,62,8,22,20,112,77,34,51,11,35,15,86,19,39,4
 374626,2026-11-04,regular,Salish Kootenai,Montana,False,False,40,76,11,41,3,14,16,55,9,19,22,105,77,31,40,12,28,14,68,10,34,11
-374618,2026-11-04,regular,Grace University,Utah Tech,False,False,52,74,20,46,3,18,6,64,11,25,19,103,74,23,37,10,27,41,64,13,32,3
-377942,2026-11-04,regular,Boise State,West Coast Baptist,True,False,132,88,39,56,12,32,29,88,24,43,10,53,88,12,29,5,31,24,60,2,16,19
+374626,2026-11-04,regular,Montana,Salish Kootenai,True,False,105,77,31,40,12,28,14,68,10,34,11,40,76,11,41,3,14,16,55,9,19,22
 374618,2026-11-04,regular,Utah Tech,Grace University,True,False,103,74,23,37,10,27,41,64,13,32,3,52,74,20,46,3,18,6,64,11,25,19
-374620,2026-11-04,regular,California,Radford,True,False,84,73,12,24,17,35,14,59,7,28,14,70,73,20,36,7,29,15,65,13,25,13
 377942,2026-11-04,regular,West Coast Baptist,Boise State,False,False,53,88,12,29,5,31,24,60,2,16,19,132,88,39,56,12,32,29,88,24,43,10
+374618,2026-11-04,regular,Grace University,Utah Tech,False,False,52,74,20,46,3,18,6,64,11,25,19,103,74,23,37,10,27,41,64,13,32,3
 374620,2026-11-04,regular,Radford,California,False,False,70,73,20,36,7,29,15,65,13,25,13,84,73,12,24,17,35,14,59,7,28,14
-374622,2026-11-04,regular,Saint Mary's,North Dakota State,True,False,105,66,19,27,20,31,10,58,3,27,8,64,66,18,38,5,23,19,61,13,17,11
-374634,2026-11-04,regular,Loyola Marymount,Queens University,True,False,95,73,18,32,13,30,28,62,14,20,14,96,72,29,48,6,12,29,60,10,17,10
-374621,2026-11-04,regular,Milwaukee,Santa Clara,False,False,72,78,17,38,7,26,23,64,14,25,18,95,78,23,41,11,29,20,70,12,28,11
+377942,2026-11-04,regular,Boise State,West Coast Baptist,True,False,132,88,39,56,12,32,29,88,24,43,10,53,88,12,29,5,31,24,60,2,16,19
+374620,2026-11-04,regular,California,Radford,True,False,84,73,12,24,17,35,14,59,7,28,14,70,73,20,36,7,29,15,65,13,25,13
+374622,2026-11-04,regular,North Dakota State,Saint Mary's,False,False,64,66,18,38,5,23,19,61,13,17,11,105,66,19,27,20,31,10,58,3,27,8
 374634,2026-11-04,regular,Queens University,Loyola Marymount,False,False,96,72,29,48,6,12,29,60,10,17,10,95,73,18,32,13,30,28,62,14,20,14
 374621,2026-11-04,regular,Santa Clara,Milwaukee,True,False,95,78,23,41,11,29,20,70,12,28,11,72,78,17,38,7,26,23,64,14,25,18
-374622,2026-11-04,regular,North Dakota State,Saint Mary's,False,False,64,66,18,38,5,23,19,61,13,17,11,105,66,19,27,20,31,10,58,3,27,8
-374639,2026-11-05,regular,McNeese,North Texas,False,False,67,65,10,27,10,28,21,55,14,18,15,77,65,19,29,7,27,22,56,13,24,12
+374634,2026-11-04,regular,Loyola Marymount,Queens University,True,False,95,73,18,32,13,30,28,62,14,20,14,96,72,29,48,6,12,29,60,10,17,10
+374621,2026-11-04,regular,Milwaukee,Santa Clara,False,False,72,78,17,38,7,26,23,64,14,25,18,95,78,23,41,11,29,20,70,12,28,11
+374622,2026-11-04,regular,Saint Mary's,North Dakota State,True,False,105,66,19,27,20,31,10,58,3,27,8,64,66,18,38,5,23,19,61,13,17,11
 374639,2026-11-05,regular,North Texas,McNeese,True,False,77,65,19,29,7,27,22,56,13,24,12,67,65,10,27,10,28,21,55,14,18,15
-374647,2026-11-05,regular,Morehead State,Virginia-Lynchburg,True,False,114,75,29,42,15,31,16,73,14,35,11,60,74,13,37,9,32,7,69,10,15,12
+374639,2026-11-05,regular,McNeese,North Texas,False,False,67,65,10,27,10,28,21,55,14,18,15,77,65,19,29,7,27,22,56,13,24,12
 374647,2026-11-05,regular,Virginia-Lynchburg,Morehead State,False,False,60,74,13,37,9,32,7,69,10,15,12,114,75,29,42,15,31,16,73,14,35,11
-374640,2026-11-05,regular,Kings (PA),Lafayette,False,False,67,74,11,28,12,29,11,57,5,26,17,104,75,28,39,12,30,21,69,11,30,9
-372683,2026-11-05,regular,Wake Forest,Vanderbilt,False,False,51,68,13,28,6,26,14,54,7,26,12,74,66,18,45,10,27,11,72,17,31,7
-372676,2026-11-05,regular,Indiana,Bellarmine,True,False,92,68,19,28,12,34,25,62,18,24,12,69,67,19,34,6,18,20,52,8,18,12
-372692,2026-11-05,regular,Mount Saint Mary (NY),Army,False,False,41,69,8,38,6,23,12,61,11,16,13,118,70,23,30,18,30,25,60,5,39,6
+374647,2026-11-05,regular,Morehead State,Virginia-Lynchburg,True,False,114,75,29,42,15,31,16,73,14,35,11,60,74,13,37,9,32,7,69,10,15,12
 374640,2026-11-05,regular,Lafayette,Kings (PA),True,False,104,75,28,39,12,30,21,69,11,30,9,67,74,11,28,12,29,11,57,5,26,17
+372683,2026-11-05,regular,Vanderbilt,Wake Forest,True,False,74,66,18,45,10,27,11,72,17,31,7,51,68,13,28,6,26,14,54,7,26,12
 372676,2026-11-05,regular,Bellarmine,Indiana,False,False,69,67,19,34,6,18,20,52,8,18,12,92,68,19,28,12,34,25,62,18,24,12
 372692,2026-11-05,regular,Army,Mount Saint Mary (NY),True,False,118,70,23,30,18,30,25,60,5,39,6,41,69,8,38,6,23,12,61,11,16,13
-374655,2026-11-05,regular,Penn State,Chattanooga,True,False,97,75,18,30,6,23,49,53,15,25,13,93,73,23,36,11,30,23,66,13,17,11
+374640,2026-11-05,regular,Kings (PA),Lafayette,False,False,67,74,11,28,12,29,11,57,5,26,17,104,75,28,39,12,30,21,69,11,30,9
+372676,2026-11-05,regular,Indiana,Bellarmine,True,False,92,68,19,28,12,34,25,62,18,24,12,69,67,19,34,6,18,20,52,8,18,12
+372692,2026-11-05,regular,Mount Saint Mary (NY),Army,False,False,41,69,8,38,6,23,12,61,11,16,13,118,70,23,30,18,30,25,60,5,39,6
 374655,2026-11-05,regular,Chattanooga,Penn State,False,False,93,73,23,36,11,30,23,66,13,17,11,97,75,18,30,6,23,49,53,15,25,13
-372683,2026-11-05,regular,Vanderbilt,Wake Forest,True,False,74,66,18,45,10,27,11,72,17,31,7,51,68,13,28,6,26,14,54,7,26,12
-374651,2026-11-05,regular,Long Island University,Seton Hall,False,False,60,70,15,34,5,21,18,55,7,22,13,67,70,14,28,6,21,28,49,9,30,16
+374655,2026-11-05,regular,Penn State,Chattanooga,True,False,97,75,18,30,6,23,49,53,15,25,13,93,73,23,36,11,30,23,66,13,17,11
+372683,2026-11-05,regular,Wake Forest,Vanderbilt,False,False,51,68,13,28,6,26,14,54,7,26,12,74,66,18,45,10,27,11,72,17,31,7
 374651,2026-11-05,regular,Seton Hall,Long Island University,True,False,67,70,14,28,6,21,28,49,9,30,16,60,70,15,34,5,21,18,55,7,22,13
-374661,2026-11-05,regular,Maine,Sacred Heart,False,False,74,72,15,33,10,26,17,59,6,33,11,72,71,19,43,5,25,22,68,13,30,7
-377955,2026-11-05,regular,Richmond,Southern Virginia,True,False,107,72,32,49,12,23,12,72,14,27,9,46,71,9,27,7,25,8,52,10,18,25
-377955,2026-11-05,regular,Southern Virginia,Richmond,False,False,46,71,9,27,7,25,8,52,10,18,25,107,72,32,49,12,23,12,72,14,27,9
-377953,2026-11-05,regular,Lindenwood,Central Bible,True,False,120,77,32,48,16,27,11,75,16,36,13,46,77,6,31,8,30,12,61,11,14,21
-377953,2026-11-05,regular,Central Bible,Lindenwood,False,False,46,77,6,31,8,30,12,61,11,14,21,120,77,32,48,16,27,11,75,16,36,13
-374636,2026-11-05,regular,Charlotte,Georgia State,True,False,77,67,22,39,6,18,21,57,10,25,10,67,66,15,33,8,21,23,54,11,23,13
-374636,2026-11-05,regular,Georgia State,Charlotte,False,False,67,66,15,33,8,21,23,54,11,23,13,77,67,22,39,6,18,21,57,10,25,10
-374638,2026-11-05,regular,Howard,Alcorn State,False,False,94,67,26,38,6,18,36,56,11,23,10,83,67,21,37,9,28,23,65,14,12,11
-374638,2026-11-05,regular,Alcorn State,Howard,True,False,83,67,21,37,9,28,23,65,14,12,11,94,67,26,38,6,18,36,56,11,23,10
-374659,2026-11-05,regular,Lehigh,Cornell,True,False,71,71,15,39,7,20,26,59,11,31,12,64,70,18,32,5,31,18,63,12,28,11
-374659,2026-11-05,regular,Cornell,Lehigh,False,False,64,70,18,32,5,31,18,63,12,28,11,71,71,15,39,7,20,26,59,11,31,12
-374658,2026-11-05,regular,Hofstra,Princeton,False,False,58,62,20,33,4,17,8,50,9,29,18,60,62,6,19,12,40,17,59,12,18,8
-374658,2026-11-05,regular,Princeton,Hofstra,True,False,60,62,6,19,12,40,17,59,12,18,8,58,62,20,33,4,17,8,50,9,29,18
-374650,2026-11-05,regular,Notre Dame,Mercyhurst,True,False,83,63,13,20,15,32,14,52,9,26,13,56,62,12,27,7,24,14,51,5,17,11
-374650,2026-11-05,regular,Mercyhurst,Notre Dame,False,False,56,62,12,27,7,24,14,51,5,17,11,83,63,13,20,15,32,14,52,9,26,13
-374643,2026-11-05,regular,Quinnipiac,Bryant,True,False,66,64,17,41,8,15,18,56,14,24,16,56,63,14,31,7,30,13,61,12,17,12
-374643,2026-11-05,regular,Bryant,Quinnipiac,False,False,56,63,14,31,7,30,13,61,12,17,12,66,64,17,41,8,15,18,56,14,24,16
-374666,2026-11-05,regular,Fairfield,Vermont,True,False,67,66,20,36,4,25,16,61,11,19,8,79,66,23,38,8,20,14,58,12,27,14
-374666,2026-11-05,regular,Vermont,Fairfield,False,False,79,66,23,38,8,20,14,58,12,27,14,67,66,20,36,4,25,16,61,11,19,8
-374649,2026-11-05,regular,Mercer,Virginia Tech,False,False,67,73,16,34,6,20,27,54,10,24,18,96,72,26,48,8,22,26,70,14,25,4
-374649,2026-11-05,regular,Virginia Tech,Mercer,True,False,96,72,26,48,8,22,26,70,14,25,4,67,73,16,34,6,20,27,54,10,24,18
-374652,2026-11-05,regular,Chicago State,Incarnate Word,False,False,66,75,21,39,3,17,21,56,13,34,21,54,76,11,31,3,22,35,53,12,23,19
-374652,2026-11-05,regular,Incarnate Word,Chicago State,True,False,54,76,11,31,3,22,35,53,12,23,19,66,75,21,39,3,17,21,56,13,34,21
-372693,2026-11-05,regular,Columbia International,Charleston Southern,False,False,49,65,20,51,2,14,4,65,11,20,9,86,65,23,38,7,30,29,68,24,32,6
-372693,2026-11-05,regular,Charleston Southern,Columbia International,True,False,86,65,23,38,7,30,29,68,24,32,6,49,65,20,51,2,14,4,65,11,20,9
-372679,2026-11-05,regular,Binghamton,Saint Peter's,False,False,58,60,12,26,3,19,35,45,11,19,10,55,60,11,25,6,23,20,48,8,21,11
-372679,2026-11-05,regular,Saint Peter's,Binghamton,True,False,55,60,11,25,6,23,20,48,8,21,11,58,60,12,26,3,19,35,45,11,19,10
-372684,2026-11-05,regular,Central Connecticut,Syracuse,False,False,49,66,15,35,3,18,16,53,5,15,11,102,67,29,38,9,21,24,59,11,34,8
-372684,2026-11-05,regular,Syracuse,Central Connecticut,True,False,102,67,29,38,9,21,24,59,11,34,8,49,66,15,35,3,18,16,53,5,15,11
-372685,2026-11-05,regular,Pittsburgh,Buffalo,True,False,80,72,15,31,5,23,49,54,18,32,11,61,73,9,19,9,32,22,51,5,22,17
-372685,2026-11-05,regular,Buffalo,Pittsburgh,False,False,61,73,9,19,9,32,22,51,5,22,17,80,72,15,31,5,23,49,54,18,32,11
-377952,2026-11-05,regular,Fort Valley State,Florida A&M,False,False,75,72,19,39,8,25,20,64,13,23,13,70,73,17,33,7,18,30,51,13,26,20
-377952,2026-11-05,regular,Florida A&M,Fort Valley State,True,False,70,73,17,33,7,18,30,51,13,26,20,75,72,19,39,8,25,20,64,13,23,13
-377949,2026-11-05,regular,Howard Payne,Texas State,False,False,66,90,11,27,12,46,12,73,10,17,23,135,90,35,51,11,25,46,76,21,41,14
-377949,2026-11-05,regular,Texas State,Howard Payne,True,False,135,90,35,51,11,25,46,76,21,41,14,66,90,11,27,12,46,12,73,10,17,23
-377954,2026-11-05,regular,Western Michigan,Kalamazoo,True,False,99,74,18,29,17,43,18,72,21,42,15,52,72,9,36,7,26,22,62,10,20,8
-377954,2026-11-05,regular,Kalamazoo,Western Michigan,False,False,52,72,9,36,7,26,22,62,10,20,8,99,74,18,29,17,43,18,72,21,42,15
-374656,2026-11-05,regular,College Of Biblical Studies,Prairie View A&M,False,False,90,94,30,57,4,19,26,76,9,25,20,103,95,32,58,7,11,29,69,12,34,27
-374656,2026-11-05,regular,Prairie View A&M,College Of Biblical Studies,True,False,103,95,32,58,7,11,29,69,12,34,27,90,94,30,57,4,19,26,76,9,25,20
-374660,2026-11-05,regular,Old Westbury,Columbia,False,False,58,82,20,52,2,15,21,67,13,15,18,120,83,35,49,8,25,33,74,19,36,14
-374660,2026-11-05,regular,Columbia,Old Westbury,True,False,120,83,35,49,8,25,33,74,19,36,14,58,82,20,52,2,15,21,67,13,15,18
-374641,2026-11-05,regular,Green Bay,Cincinnati,False,False,64,65,16,26,7,22,17,48,7,18,21,81,65,18,27,10,30,22,57,12,17,9
-374641,2026-11-05,regular,Cincinnati,Green Bay,True,False,81,65,18,27,10,30,22,57,12,17,9,64,65,16,26,7,22,17,48,7,18,21
-374644,2026-11-05,regular,Merrimack,UMass Lowell,True,False,61,66,22,34,3,24,20,58,14,24,13,71,64,17,36,7,23,23,59,14,26,10
-374644,2026-11-05,regular,UMass Lowell,Merrimack,False,False,71,64,17,36,7,23,23,59,14,26,10,61,66,22,34,3,24,20,58,14,24,13
-374645,2026-11-05,regular,UAlbany,Manhattan,False,False,72,68,18,31,5,25,30,56,14,23,10,68,69,22,38,5,21,18,59,12,24,14
-374645,2026-11-05,regular,Manhattan,UAlbany,True,False,68,69,22,38,5,21,18,59,12,24,14,72,68,18,31,5,25,30,56,14,23,10
-374663,2026-11-05,regular,Delaware State,Navy,False,False,60,70,18,32,5,21,15,53,8,26,18,66,70,10,26,9,24,34,50,13,25,17
-374663,2026-11-05,regular,Navy,Delaware State,True,False,66,70,10,26,9,24,34,50,13,25,17,60,70,18,32,5,21,15,53,8,26,18
-374664,2026-11-05,regular,Marist,UMBC,True,False,88,76,16,32,11,30,32,62,13,23,15,80,75,22,40,4,11,29,51,5,27,19
-374664,2026-11-05,regular,UMBC,Marist,False,False,80,75,22,40,4,11,29,51,5,27,19,88,76,16,32,11,30,32,62,13,23,15
-374665,2026-11-05,regular,NJIT,Iona,False,False,49,66,13,37,5,26,10,63,10,16,8,72,66,21,29,8,24,10,53,10,35,17
-374665,2026-11-05,regular,Iona,NJIT,True,False,72,66,21,29,8,24,10,53,10,35,17,49,66,13,37,5,26,10,63,10,16,8
-374662,2026-11-05,regular,New Hampshire,Rider,False,False,66,67,18,31,4,15,27,46,5,31,14,55,68,14,41,2,20,31,61,21,23,13
-374662,2026-11-05,regular,Rider,New Hampshire,True,False,55,68,14,41,2,20,31,61,21,23,13,66,67,18,31,4,15,27,46,5,31,14
+374651,2026-11-05,regular,Long Island University,Seton Hall,False,False,60,70,15,34,5,21,18,55,7,22,13,67,70,14,28,6,21,28,49,9,30,16
 374661,2026-11-05,regular,Sacred Heart,Maine,True,False,72,71,19,43,5,25,22,68,13,30,7,74,72,15,33,10,26,17,59,6,33,11
-377956,2026-11-05,regular,North Alabama,Union (TN),True,False,76,71,19,36,6,22,26,58,11,24,12,66,71,15,28,9,27,14,55,9,25,19
-372690,2026-11-05,regular,Northwestern State,Mississippi State,False,False,44,62,10,32,4,15,25,47,10,24,12,82,62,18,36,8,28,31,64,20,30,6
-377950,2026-11-05,regular,Kentucky Wesleyan,Western Kentucky,False,False,48,70,7,24,9,26,13,50,7,27,20,82,71,24,54,8,23,14,77,21,29,9
-372681,2026-11-05,regular,Fordham,Stonehill,True,False,83,68,25,41,7,18,15,59,11,25,13,63,69,15,31,6,22,20,53,10,17,16
-372681,2026-11-05,regular,Stonehill,Fordham,False,False,63,69,15,31,6,22,20,53,10,17,16,83,68,25,41,7,18,15,59,11,25,13
-374653,2026-11-05,regular,Jackson State,Tulane,False,False,87,76,20,38,9,24,24,62,7,21,10,85,78,20,39,8,20,30,59,12,27,17
-374653,2026-11-05,regular,Tulane,Jackson State,True,False,85,78,20,39,8,20,30,59,12,27,17,87,76,20,38,9,24,24,62,7,21,10
-374667,2026-11-05,regular,Belmont,Centre College,True,False,75,68,19,33,9,29,16,62,18,34,15,45,68,10,31,6,26,13,57,10,16,15
-374667,2026-11-05,regular,Centre College,Belmont,False,False,45,68,10,31,6,26,13,57,10,16,15,75,68,19,33,9,29,16,62,18,34,15
-377957,2026-11-05,regular,Louisiana Tech,Arkansas-Monticello,True,False,76,62,24,37,6,20,14,57,9,30,7,17,60,4,21,2,17,4,38,3,19,23
+377955,2026-11-05,regular,Southern Virginia,Richmond,False,False,46,71,9,27,7,25,8,52,10,18,25,107,72,32,49,12,23,12,72,14,27,9
+377955,2026-11-05,regular,Richmond,Southern Virginia,True,False,107,72,32,49,12,23,12,72,14,27,9,46,71,9,27,7,25,8,52,10,18,25
+377953,2026-11-05,regular,Central Bible,Lindenwood,False,False,46,77,6,31,8,30,12,61,11,14,21,120,77,32,48,16,27,11,75,16,36,13
+377953,2026-11-05,regular,Lindenwood,Central Bible,True,False,120,77,32,48,16,27,11,75,16,36,13,46,77,6,31,8,30,12,61,11,14,21
+374636,2026-11-05,regular,Georgia State,Charlotte,False,False,67,66,15,33,8,21,23,54,11,23,13,77,67,22,39,6,18,21,57,10,25,10
+374636,2026-11-05,regular,Charlotte,Georgia State,True,False,77,67,22,39,6,18,21,57,10,25,10,67,66,15,33,8,21,23,54,11,23,13
+374638,2026-11-05,regular,Alcorn State,Howard,True,False,83,67,21,37,9,28,23,65,14,12,11,94,67,26,38,6,18,36,56,11,23,10
+374638,2026-11-05,regular,Howard,Alcorn State,False,False,94,67,26,38,6,18,36,56,11,23,10,83,67,21,37,9,28,23,65,14,12,11
+374659,2026-11-05,regular,Cornell,Lehigh,False,False,64,70,18,32,5,31,18,63,12,28,11,71,71,15,39,7,20,26,59,11,31,12
+374659,2026-11-05,regular,Lehigh,Cornell,True,False,71,71,15,39,7,20,26,59,11,31,12,64,70,18,32,5,31,18,63,12,28,11
+374658,2026-11-05,regular,Princeton,Hofstra,True,False,60,62,6,19,12,40,17,59,12,18,8,58,62,20,33,4,17,8,50,9,29,18
+374658,2026-11-05,regular,Hofstra,Princeton,False,False,58,62,20,33,4,17,8,50,9,29,18,60,62,6,19,12,40,17,59,12,18,8
+374650,2026-11-05,regular,Mercyhurst,Notre Dame,False,False,56,62,12,27,7,24,14,51,5,17,11,83,63,13,20,15,32,14,52,9,26,13
+374650,2026-11-05,regular,Notre Dame,Mercyhurst,True,False,83,63,13,20,15,32,14,52,9,26,13,56,62,12,27,7,24,14,51,5,17,11
+374643,2026-11-05,regular,Bryant,Quinnipiac,False,False,56,63,14,31,7,30,13,61,12,17,12,66,64,17,41,8,15,18,56,14,24,16
+374643,2026-11-05,regular,Quinnipiac,Bryant,True,False,66,64,17,41,8,15,18,56,14,24,16,56,63,14,31,7,30,13,61,12,17,12
+374666,2026-11-05,regular,Vermont,Fairfield,False,False,79,66,23,38,8,20,14,58,12,27,14,67,66,20,36,4,25,16,61,11,19,8
+374666,2026-11-05,regular,Fairfield,Vermont,True,False,67,66,20,36,4,25,16,61,11,19,8,79,66,23,38,8,20,14,58,12,27,14
+374649,2026-11-05,regular,Virginia Tech,Mercer,True,False,96,72,26,48,8,22,26,70,14,25,4,67,73,16,34,6,20,27,54,10,24,18
+374649,2026-11-05,regular,Mercer,Virginia Tech,False,False,67,73,16,34,6,20,27,54,10,24,18,96,72,26,48,8,22,26,70,14,25,4
+374652,2026-11-05,regular,Incarnate Word,Chicago State,True,False,54,76,11,31,3,22,35,53,12,23,19,66,75,21,39,3,17,21,56,13,34,21
+374652,2026-11-05,regular,Chicago State,Incarnate Word,False,False,66,75,21,39,3,17,21,56,13,34,21,54,76,11,31,3,22,35,53,12,23,19
+372693,2026-11-05,regular,Charleston Southern,Columbia International,True,False,86,65,23,38,7,30,29,68,24,32,6,49,65,20,51,2,14,4,65,11,20,9
+372693,2026-11-05,regular,Columbia International,Charleston Southern,False,False,49,65,20,51,2,14,4,65,11,20,9,86,65,23,38,7,30,29,68,24,32,6
+372679,2026-11-05,regular,Saint Peter's,Binghamton,True,False,55,60,11,25,6,23,20,48,8,21,11,58,60,12,26,3,19,35,45,11,19,10
+372679,2026-11-05,regular,Binghamton,Saint Peter's,False,False,58,60,12,26,3,19,35,45,11,19,10,55,60,11,25,6,23,20,48,8,21,11
+372684,2026-11-05,regular,Syracuse,Central Connecticut,True,False,102,67,29,38,9,21,24,59,11,34,8,49,66,15,35,3,18,16,53,5,15,11
+372684,2026-11-05,regular,Central Connecticut,Syracuse,False,False,49,66,15,35,3,18,16,53,5,15,11,102,67,29,38,9,21,24,59,11,34,8
+372685,2026-11-05,regular,Buffalo,Pittsburgh,False,False,61,73,9,19,9,32,22,51,5,22,17,80,72,15,31,5,23,49,54,18,32,11
+372685,2026-11-05,regular,Pittsburgh,Buffalo,True,False,80,72,15,31,5,23,49,54,18,32,11,61,73,9,19,9,32,22,51,5,22,17
+377952,2026-11-05,regular,Florida A&M,Fort Valley State,True,False,70,73,17,33,7,18,30,51,13,26,20,75,72,19,39,8,25,20,64,13,23,13
+377952,2026-11-05,regular,Fort Valley State,Florida A&M,False,False,75,72,19,39,8,25,20,64,13,23,13,70,73,17,33,7,18,30,51,13,26,20
+377949,2026-11-05,regular,Texas State,Howard Payne,True,False,135,90,35,51,11,25,46,76,21,41,14,66,90,11,27,12,46,12,73,10,17,23
+377949,2026-11-05,regular,Howard Payne,Texas State,False,False,66,90,11,27,12,46,12,73,10,17,23,135,90,35,51,11,25,46,76,21,41,14
+377954,2026-11-05,regular,Kalamazoo,Western Michigan,False,False,52,72,9,36,7,26,22,62,10,20,8,99,74,18,29,17,43,18,72,21,42,15
+377954,2026-11-05,regular,Western Michigan,Kalamazoo,True,False,99,74,18,29,17,43,18,72,21,42,15,52,72,9,36,7,26,22,62,10,20,8
+374656,2026-11-05,regular,Prairie View A&M,College Of Biblical Studies,True,False,103,95,32,58,7,11,29,69,12,34,27,90,94,30,57,4,19,26,76,9,25,20
+374656,2026-11-05,regular,College Of Biblical Studies,Prairie View A&M,False,False,90,94,30,57,4,19,26,76,9,25,20,103,95,32,58,7,11,29,69,12,34,27
+374660,2026-11-05,regular,Columbia,Old Westbury,True,False,120,83,35,49,8,25,33,74,19,36,14,58,82,20,52,2,15,21,67,13,15,18
+374660,2026-11-05,regular,Old Westbury,Columbia,False,False,58,82,20,52,2,15,21,67,13,15,18,120,83,35,49,8,25,33,74,19,36,14
+374641,2026-11-05,regular,Cincinnati,Green Bay,True,False,81,65,18,27,10,30,22,57,12,17,9,64,65,16,26,7,22,17,48,7,18,21
+374641,2026-11-05,regular,Green Bay,Cincinnati,False,False,64,65,16,26,7,22,17,48,7,18,21,81,65,18,27,10,30,22,57,12,17,9
+374644,2026-11-05,regular,UMass Lowell,Merrimack,False,False,71,64,17,36,7,23,23,59,14,26,10,61,66,22,34,3,24,20,58,14,24,13
+374644,2026-11-05,regular,Merrimack,UMass Lowell,True,False,61,66,22,34,3,24,20,58,14,24,13,71,64,17,36,7,23,23,59,14,26,10
+374645,2026-11-05,regular,Manhattan,UAlbany,True,False,68,69,22,38,5,21,18,59,12,24,14,72,68,18,31,5,25,30,56,14,23,10
+374645,2026-11-05,regular,UAlbany,Manhattan,False,False,72,68,18,31,5,25,30,56,14,23,10,68,69,22,38,5,21,18,59,12,24,14
+374663,2026-11-05,regular,Navy,Delaware State,True,False,66,70,10,26,9,24,34,50,13,25,17,60,70,18,32,5,21,15,53,8,26,18
+374663,2026-11-05,regular,Delaware State,Navy,False,False,60,70,18,32,5,21,15,53,8,26,18,66,70,10,26,9,24,34,50,13,25,17
+374664,2026-11-05,regular,UMBC,Marist,False,False,80,75,22,40,4,11,29,51,5,27,19,88,76,16,32,11,30,32,62,13,23,15
+374664,2026-11-05,regular,Marist,UMBC,True,False,88,76,16,32,11,30,32,62,13,23,15,80,75,22,40,4,11,29,51,5,27,19
+374665,2026-11-05,regular,Iona,NJIT,True,False,72,66,21,29,8,24,10,53,10,35,17,49,66,13,37,5,26,10,63,10,16,8
+374665,2026-11-05,regular,NJIT,Iona,False,False,49,66,13,37,5,26,10,63,10,16,8,72,66,21,29,8,24,10,53,10,35,17
+374662,2026-11-05,regular,Rider,New Hampshire,True,False,55,68,14,41,2,20,31,61,21,23,13,66,67,18,31,4,15,27,46,5,31,14
+374662,2026-11-05,regular,New Hampshire,Rider,False,False,66,67,18,31,4,15,27,46,5,31,14,55,68,14,41,2,20,31,61,21,23,13
+374661,2026-11-05,regular,Maine,Sacred Heart,False,False,74,72,15,33,10,26,17,59,6,33,11,72,71,19,43,5,25,22,68,13,30,7
+377956,2026-11-05,regular,Union (TN),North Alabama,False,False,66,71,15,28,9,27,14,55,9,25,19,76,71,19,36,6,22,26,58,11,24,12
 372690,2026-11-05,regular,Mississippi State,Northwestern State,True,False,82,62,18,36,8,28,31,64,20,30,6,44,62,10,32,4,15,25,47,10,24,12
 377950,2026-11-05,regular,Western Kentucky,Kentucky Wesleyan,True,False,82,71,24,54,8,23,14,77,21,29,9,48,70,7,24,9,26,13,50,7,27,20
+372681,2026-11-05,regular,Stonehill,Fordham,False,False,63,69,15,31,6,22,20,53,10,17,16,83,68,25,41,7,18,15,59,11,25,13
+372681,2026-11-05,regular,Fordham,Stonehill,True,False,83,68,25,41,7,18,15,59,11,25,13,63,69,15,31,6,22,20,53,10,17,16
+374653,2026-11-05,regular,Tulane,Jackson State,True,False,85,78,20,39,8,20,30,59,12,27,17,87,76,20,38,9,24,24,62,7,21,10
+374653,2026-11-05,regular,Jackson State,Tulane,False,False,87,76,20,38,9,24,24,62,7,21,10,85,78,20,39,8,20,30,59,12,27,17
+374667,2026-11-05,regular,Centre College,Belmont,False,False,45,68,10,31,6,26,13,57,10,16,15,75,68,19,33,9,29,16,62,18,34,15
+374667,2026-11-05,regular,Belmont,Centre College,True,False,75,68,19,33,9,29,16,62,18,34,15,45,68,10,31,6,26,13,57,10,16,15
 377957,2026-11-05,regular,Arkansas-Monticello,Louisiana Tech,False,False,17,60,4,21,2,17,4,38,3,19,23,76,62,24,37,6,20,14,57,9,30,7
-377956,2026-11-05,regular,Union (TN),North Alabama,False,False,66,71,15,28,9,27,14,55,9,25,19,76,71,19,36,6,22,26,58,11,24,12
-377958,2026-11-05,regular,Central State (OH),Illinois State,False,False,55,64,18,39,5,14,8,53,7,17,17,100,65,17,23,16,30,29,53,11,24,10
-372689,2026-11-05,regular,Gardner-Webb,Texas,False,False,50,70,10,22,5,23,23,45,7,16,23,98,71,28,38,6,18,31,56,9,28,10
-372689,2026-11-05,regular,Texas,Gardner-Webb,True,False,98,71,28,38,6,18,31,56,9,28,10,50,70,10,22,5,23,23,45,7,16,23
-372686,2026-11-05,regular,Coastal Carolina,Duke,False,False,52,79,15,41,4,22,17,63,11,16,17,113,80,27,40,11,22,41,62,14,39,15
-372686,2026-11-05,regular,Duke,Coastal Carolina,True,False,113,80,27,40,11,22,41,62,14,39,15,52,79,15,41,4,22,17,63,11,16,17
+372690,2026-11-05,regular,Northwestern State,Mississippi State,False,False,44,62,10,32,4,15,25,47,10,24,12,82,62,18,36,8,28,31,64,20,30,6
+377950,2026-11-05,regular,Kentucky Wesleyan,Western Kentucky,False,False,48,70,7,24,9,26,13,50,7,27,20,82,71,24,54,8,23,14,77,21,29,9
+377957,2026-11-05,regular,Louisiana Tech,Arkansas-Monticello,True,False,76,62,24,37,6,20,14,57,9,30,7,17,60,4,21,2,17,4,38,3,19,23
+377956,2026-11-05,regular,North Alabama,Union (TN),True,False,76,71,19,36,6,22,26,58,11,24,12,66,71,15,28,9,27,14,55,9,25,19
 377958,2026-11-05,regular,Illinois State,Central State (OH),True,False,100,65,17,23,16,30,29,53,11,24,10,55,64,18,39,5,14,8,53,7,17,17
-377899,2026-11-05,regular,Jacksonville State,South Alabama,False,False,80,78,11,25,16,39,17,64,10,30,14,83,78,28,44,5,27,17,71,10,28,9
-374668,2026-11-05,regular,Rice,East Texas A&M,True,False,71,69,15,40,9,27,20,67,19,22,10,72,67,14,39,10,28,24,67,25,29,15
-374668,2026-11-05,regular,East Texas A&M,Rice,False,False,72,67,14,39,10,28,24,67,25,29,15,71,69,15,40,9,27,20,67,19,22,10
-372691,2026-11-05,regular,Florida,Jacksonville,True,False,88,66,18,35,11,25,27,60,20,32,14,57,65,13,36,6,21,15,57,8,17,9
-372691,2026-11-05,regular,Jacksonville,Florida,False,False,57,65,13,36,6,21,15,57,8,17,9,88,66,18,35,11,25,27,60,20,32,14
-374637,2026-11-05,regular,Toledo,Michigan State,False,False,61,75,14,36,5,21,29,57,9,18,12,91,76,19,33,10,24,38,57,16,36,14
-374637,2026-11-05,regular,Michigan State,Toledo,True,False,91,76,19,33,10,24,38,57,16,36,14,61,75,14,36,5,21,29,57,9,18,12
+372689,2026-11-05,regular,Texas,Gardner-Webb,True,False,98,71,28,38,6,18,31,56,9,28,10,50,70,10,22,5,23,23,45,7,16,23
+372689,2026-11-05,regular,Gardner-Webb,Texas,False,False,50,70,10,22,5,23,23,45,7,16,23,98,71,28,38,6,18,31,56,9,28,10
+372686,2026-11-05,regular,Duke,Coastal Carolina,True,False,113,80,27,40,11,22,41,62,14,39,15,52,79,15,41,4,22,17,63,11,16,17
+372686,2026-11-05,regular,Coastal Carolina,Duke,False,False,52,79,15,41,4,22,17,63,11,16,17,113,80,27,40,11,22,41,62,14,39,15
+377958,2026-11-05,regular,Central State (OH),Illinois State,False,False,55,64,18,39,5,14,8,53,7,17,17,100,65,17,23,16,30,29,53,11,24,10
 377899,2026-11-05,regular,South Alabama,Jacksonville State,True,False,83,78,28,44,5,27,17,71,10,28,9,80,78,11,25,16,39,17,64,10,30,14
-374648,2026-11-05,regular,Tulsa,Northern Illinois,True,False,94,68,14,23,14,34,34,57,14,28,10,75,68,13,27,11,29,19,56,4,22,6
+374668,2026-11-05,regular,East Texas A&M,Rice,False,False,72,67,14,39,10,28,24,67,25,29,15,71,69,15,40,9,27,20,67,19,22,10
+374668,2026-11-05,regular,Rice,East Texas A&M,True,False,71,69,15,40,9,27,20,67,19,22,10,72,67,14,39,10,28,24,67,25,29,15
+372691,2026-11-05,regular,Jacksonville,Florida,False,False,57,65,13,36,6,21,15,57,8,17,9,88,66,18,35,11,25,27,60,20,32,14
+372691,2026-11-05,regular,Florida,Jacksonville,True,False,88,66,18,35,11,25,27,60,20,32,14,57,65,13,36,6,21,15,57,8,17,9
+374637,2026-11-05,regular,Michigan State,Toledo,True,False,91,76,19,33,10,24,38,57,16,36,14,61,75,14,36,5,21,29,57,9,18,12
+374637,2026-11-05,regular,Toledo,Michigan State,False,False,61,75,14,36,5,21,29,57,9,18,12,91,76,19,33,10,24,38,57,16,36,14
+377899,2026-11-05,regular,Jacksonville State,South Alabama,False,False,80,78,11,25,16,39,17,64,10,30,14,83,78,28,44,5,27,17,71,10,28,9
 374648,2026-11-05,regular,Northern Illinois,Tulsa,False,False,75,68,13,27,11,29,19,56,4,22,6,94,68,14,23,14,34,34,57,14,28,10
-374669,2026-11-05,regular,Tennessee State,East-West University,True,False,127,85,41,60,9,34,25,94,26,32,8,61,84,15,42,9,26,8,68,13,22,25
-374654,2026-11-05,regular,VMI,SMU,False,False,70,81,13,42,5,21,33,63,13,23,19,95,82,19,33,14,29,21,62,8,30,19
-374654,2026-11-05,regular,SMU,VMI,True,False,95,82,19,33,14,29,21,62,8,30,19,70,81,13,42,5,21,33,63,13,23,19
+374648,2026-11-05,regular,Tulsa,Northern Illinois,True,False,94,68,14,23,14,34,34,57,14,28,10,75,68,13,27,11,29,19,56,4,22,6
 374669,2026-11-05,regular,East-West University,Tennessee State,False,False,61,84,15,42,9,26,8,68,13,22,25,127,85,41,60,9,34,25,94,26,32,8
-372680,2026-11-05,regular,Loyola Chicago,West Georgia,True,False,76,66,21,31,7,24,15,55,7,26,11,53,66,10,33,6,27,18,60,16,18,17
+374654,2026-11-05,regular,SMU,VMI,True,False,95,82,19,33,14,29,21,62,8,30,19,70,81,13,42,5,21,33,63,13,23,19
+374654,2026-11-05,regular,VMI,SMU,False,False,70,81,13,42,5,21,33,63,13,23,19,95,82,19,33,14,29,21,62,8,30,19
+374669,2026-11-05,regular,Tennessee State,East-West University,True,False,127,85,41,60,9,34,25,94,26,32,8,61,84,15,42,9,26,8,68,13,22,25
 372680,2026-11-05,regular,West Georgia,Loyola Chicago,False,False,53,66,10,33,6,27,18,60,16,18,17,76,66,21,31,7,24,15,55,7,26,11
-372688,2026-11-05,regular,Creighton,Le Moyne,True,False,83,72,18,35,11,35,21,70,22,30,14,55,71,10,25,7,31,16,56,9,23,19
+372680,2026-11-05,regular,Loyola Chicago,West Georgia,True,False,76,66,21,31,7,24,15,55,7,26,11,53,66,10,33,6,27,18,60,16,18,17
 372688,2026-11-05,regular,Le Moyne,Creighton,False,False,55,71,10,25,7,31,16,56,9,23,19,83,72,18,35,11,35,21,70,22,30,14
-372677,2026-11-05,regular,Illinois,Pennsylvania,True,False,112,87,33,46,10,27,23,73,15,47,19,70,86,15,51,10,35,15,86,16,17,9
-377900,2026-11-05,regular,Grace University,Southern Utah,False,False,53,74,18,41,2,13,24,54,12,23,20,97,75,26,45,9,26,26,71,16,29,7
-372694,2026-11-05,regular,Air Force,Calumet College,True,False,107,87,30,56,9,31,30,87,21,28,7,58,86,13,27,9,30,9,57,9,34,34
-372687,2026-11-05,regular,South Florida,DePaul,False,False,80,64,19,32,9,26,19,58,9,21,6,82,65,14,28,14,32,17,60,9,22,10
-372694,2026-11-05,regular,Calumet College,Air Force,False,False,58,86,13,27,9,30,9,57,9,34,34,107,87,30,56,9,31,30,87,21,28,7
-377900,2026-11-05,regular,Southern Utah,Grace University,True,False,97,75,26,45,9,26,26,71,16,29,7,53,74,18,41,2,13,24,54,12,23,20
+372688,2026-11-05,regular,Creighton,Le Moyne,True,False,83,72,18,35,11,35,21,70,22,30,14,55,71,10,25,7,31,16,56,9,23,19
 372677,2026-11-05,regular,Pennsylvania,Illinois,False,False,70,86,15,51,10,35,15,86,16,17,9,112,87,33,46,10,27,23,73,15,47,19
+377900,2026-11-05,regular,Southern Utah,Grace University,True,False,97,75,26,45,9,26,26,71,16,29,7,53,74,18,41,2,13,24,54,12,23,20
+372694,2026-11-05,regular,Calumet College,Air Force,False,False,58,86,13,27,9,30,9,57,9,34,34,107,87,30,56,9,31,30,87,21,28,7
 372687,2026-11-05,regular,DePaul,South Florida,True,False,82,65,14,28,14,32,17,60,9,22,10,80,64,19,32,9,26,19,58,9,21,6
-372678,2026-11-05,regular,UC Davis,Menlo,True,False,65,73,17,36,4,21,31,57,15,34,16,52,73,12,34,5,23,24,57,12,27,16
-374642,2026-11-05,regular,Utah,Towson,True,False,67,66,12,21,8,23,24,44,8,27,18,57,67,16,36,6,20,16,56,11,19,13
-374646,2026-11-05,regular,Texas Tech,Bethune-Cookman,True,False,76,70,15,27,9,30,31,57,14,27,11,58,69,9,23,7,21,32,44,7,27,18
-374642,2026-11-05,regular,Towson,Utah,False,False,57,67,16,36,6,20,16,56,11,19,13,67,66,12,21,8,23,24,44,8,27,18
+372694,2026-11-05,regular,Air Force,Calumet College,True,False,107,87,30,56,9,31,30,87,21,28,7,58,86,13,27,9,30,9,57,9,34,34
+377900,2026-11-05,regular,Grace University,Southern Utah,False,False,53,74,18,41,2,13,24,54,12,23,20,97,75,26,45,9,26,26,71,16,29,7
+372677,2026-11-05,regular,Illinois,Pennsylvania,True,False,112,87,33,46,10,27,23,73,15,47,19,70,86,15,51,10,35,15,86,16,17,9
+372687,2026-11-05,regular,South Florida,DePaul,False,False,80,64,19,32,9,26,19,58,9,21,6,82,65,14,28,14,32,17,60,9,22,10
 372678,2026-11-05,regular,Menlo,UC Davis,False,False,52,73,12,34,5,23,24,57,12,27,16,65,73,17,36,4,21,31,57,15,34,16
+374642,2026-11-05,regular,Towson,Utah,False,False,57,67,16,36,6,20,16,56,11,19,13,67,66,12,21,8,23,24,44,8,27,18
 374646,2026-11-05,regular,Bethune-Cookman,Texas Tech,False,False,58,69,9,23,7,21,32,44,7,27,18,76,70,15,27,9,30,31,57,14,27,11
-374670,2026-11-05,regular,Stanton,Cal State Bakersfield,False,False,54,81,15,40,1,13,29,53,9,19,23,93,82,27,47,3,20,45,67,22,31,17
+374642,2026-11-05,regular,Utah,Towson,True,False,67,66,12,21,8,23,24,44,8,27,18,57,67,16,36,6,20,16,56,11,19,13
+372678,2026-11-05,regular,UC Davis,Menlo,True,False,65,73,17,36,4,21,31,57,15,34,16,52,73,12,34,5,23,24,57,12,27,16
+374646,2026-11-05,regular,Texas Tech,Bethune-Cookman,True,False,76,70,15,27,9,30,31,57,14,27,11,58,69,9,23,7,21,32,44,7,27,18
 374670,2026-11-05,regular,Cal State Bakersfield,Stanton,True,False,93,82,27,47,3,20,45,67,22,31,17,54,81,15,40,1,13,29,53,9,19,23
-377948,2026-11-05,regular,Pepperdine,La Sierra,True,False,106,78,22,29,13,37,29,66,17,31,15,66,78,14,33,7,27,23,60,9,18,16
-372682,2026-11-05,regular,Cal Poly,Arizona,False,False,84,80,13,29,16,37,21,66,13,17,19,104,81,32,52,4,14,36,66,15,29,13
-372682,2026-11-05,regular,Arizona,Cal Poly,True,False,104,81,32,52,4,14,36,66,15,29,13,84,80,13,29,16,37,21,66,13,17,19
+374670,2026-11-05,regular,Stanton,Cal State Bakersfield,False,False,54,81,15,40,1,13,29,53,9,19,23,93,82,27,47,3,20,45,67,22,31,17
 377948,2026-11-05,regular,La Sierra,Pepperdine,False,False,66,78,14,33,7,27,23,60,9,18,16,106,78,22,29,13,37,29,66,17,31,15
-372706,2026-11-06,regular,Boston College,Massachusetts,True,True,71,58,19,32,3,27,26,59,17,19,4,55,58,16,36,5,18,14,54,18,21,14
+372682,2026-11-05,regular,Arizona,Cal Poly,True,False,104,81,32,52,4,14,36,66,15,29,13,84,80,13,29,16,37,21,66,13,17,19
+372682,2026-11-05,regular,Cal Poly,Arizona,False,False,84,80,13,29,16,37,21,66,13,17,19,104,81,32,52,4,14,36,66,15,29,13
+377948,2026-11-05,regular,Pepperdine,La Sierra,True,False,106,78,22,29,13,37,29,66,17,31,15,66,78,14,33,7,27,23,60,9,18,16
 372706,2026-11-06,regular,Massachusetts,Boston College,False,True,55,58,16,36,5,18,14,54,18,21,14,71,58,19,32,3,27,26,59,17,19,4
-372712,2026-11-06,regular,Arkansas-Pine Bluff,Baylor,False,False,53,80,13,31,5,20,19,51,11,21,34,109,81,30,43,5,29,42,72,20,24,9
-374697,2026-11-06,regular,Virginia,Northeastern,True,False,97,77,22,32,12,31,21,63,11,26,14,72,76,18,29,6,23,22,52,5,22,19
+372706,2026-11-06,regular,Boston College,Massachusetts,True,True,71,58,19,32,3,27,26,59,17,19,4,55,58,16,36,5,18,14,54,18,21,14
 372712,2026-11-06,regular,Baylor,Arkansas-Pine Bluff,True,False,109,81,30,43,5,29,42,72,20,24,9,53,80,13,31,5,20,19,51,11,21,34
 374697,2026-11-06,regular,Northeastern,Virginia,False,False,72,76,18,29,6,23,22,52,5,22,19,97,77,22,32,12,31,21,63,11,26,14
-374675,2026-11-06,regular,Florida International,West Florida,True,False,85,77,15,28,10,34,27,62,11,33,12,75,76,17,50,6,23,28,73,21,26,11
+372712,2026-11-06,regular,Arkansas-Pine Bluff,Baylor,False,False,53,80,13,31,5,20,19,51,11,21,34,109,81,30,43,5,29,42,72,20,24,9
+374697,2026-11-06,regular,Virginia,Northeastern,True,False,97,77,22,32,12,31,21,63,11,26,14,72,76,18,29,6,23,22,52,5,22,19
 374675,2026-11-06,regular,West Florida,Florida International,False,False,75,76,17,50,6,23,28,73,21,26,11,85,77,15,28,10,34,27,62,11,33,12
-374695,2026-11-06,regular,Eastern Washington,Oregon,False,False,71,73,21,37,5,21,23,58,9,15,13,98,73,30,40,9,25,15,65,10,28,13
+374675,2026-11-06,regular,Florida International,West Florida,True,False,85,77,15,28,10,34,27,62,11,33,12,75,76,17,50,6,23,28,73,21,26,11
 374695,2026-11-06,regular,Oregon,Eastern Washington,True,False,98,73,30,40,9,25,15,65,10,28,13,71,73,21,37,5,21,23,58,9,15,13
-374709,2026-11-06,regular,South Carolina State,South Carolina Upstate,False,False,78,75,17,52,10,27,18,79,18,29,6,70,75,18,32,3,21,36,53,9,36,15
-372695,2026-11-06,regular,Ohio State,Youngstown State,True,False,89,74,24,40,4,19,34,59,15,31,12,65,73,14,30,9,31,17,61,9,18,13
+374695,2026-11-06,regular,Eastern Washington,Oregon,False,False,71,73,21,37,5,21,23,58,9,15,13,98,73,30,40,9,25,15,65,10,28,13
 374709,2026-11-06,regular,South Carolina Upstate,South Carolina State,True,False,70,75,18,32,3,21,36,53,9,36,15,78,75,17,52,10,27,18,79,18,29,6
-374673,2026-11-06,regular,Purdue,Valparaiso,True,False,80,76,19,36,5,28,32,64,13,33,11,83,78,26,44,7,27,16,71,10,27,9
-374673,2026-11-06,regular,Valparaiso,Purdue,False,False,83,78,26,44,7,27,16,71,10,27,9,80,76,19,36,5,28,32,64,13,33,11
 372695,2026-11-06,regular,Youngstown State,Ohio State,False,False,65,73,14,30,9,31,17,61,9,18,13,89,74,24,40,4,19,34,59,15,31,12
-372705,2026-11-06,regular,Florida State,Troy,True,False,91,69,18,30,7,28,39,58,18,28,12,68,69,14,29,9,26,21,55,5,16,11
-372707,2026-11-06,regular,Eastern Michigan,Xavier,False,False,53,67,10,35,6,23,18,58,18,21,22,76,69,26,41,3,14,25,55,9,24,12
-372707,2026-11-06,regular,Xavier,Eastern Michigan,True,False,76,69,26,41,3,14,25,55,9,24,12,53,67,10,35,6,23,18,58,18,21,22
-377959,2026-11-06,regular,Charleston,Newberry,True,False,112,80,32,46,11,29,21,75,15,31,11,66,80,17,40,6,20,22,60,11,19,20
-377959,2026-11-06,regular,Newberry,Charleston,False,False,66,80,17,40,6,20,22,60,11,19,20,112,80,32,46,11,29,21,75,15,31,11
-372710,2026-11-06,regular,Presbyterian,Georgia,False,False,77,67,19,32,5,16,32,48,10,20,13,91,66,22,41,10,26,28,67,19,19,3
-372710,2026-11-06,regular,Georgia,Presbyterian,True,False,91,66,22,41,10,26,28,67,19,19,3,77,67,19,32,5,16,32,48,10,20,13
-374671,2026-11-06,regular,The Citadel,Erskine,True,False,100,75,28,41,11,29,19,70,17,34,12,57,74,9,21,11,31,12,52,2,19,18
-374699,2026-11-06,regular,Georgia Tech,Georgia Southern,True,False,95,76,16,31,9,18,47,49,9,25,15,83,75,18,37,10,36,32,73,24,21,12
-374699,2026-11-06,regular,Georgia Southern,Georgia Tech,False,False,83,75,18,37,10,36,32,73,24,21,12,95,76,16,31,9,18,47,49,9,25,15
-374700,2026-11-06,regular,Coppin State,George Mason,False,False,51,64,14,32,4,15,14,47,7,20,18,68,65,20,38,3,13,25,51,10,21,13
-374700,2026-11-06,regular,George Mason,Coppin State,True,False,68,65,20,38,3,13,25,51,10,21,13,51,64,14,32,4,15,14,47,7,20,18
-372701,2026-11-06,regular,Indiana State,Ball State,False,False,69,69,14,38,8,17,23,55,11,25,14,66,69,21,38,3,16,26,54,11,25,14
-372701,2026-11-06,regular,Ball State,Indiana State,True,False,66,69,21,38,3,16,26,54,11,25,14,69,69,14,38,8,17,23,55,11,25,14
-374712,2026-11-06,regular,Loyola Maryland,Mount St. Mary's,False,False,57,69,9,30,9,31,20,61,12,30,10,68,69,16,32,8,27,21,59,10,33,10
-374712,2026-11-06,regular,Mount St. Mary's,Loyola Maryland,True,False,68,69,16,32,8,27,21,59,10,33,10,57,69,9,30,9,31,20,61,12,30,10
-374687,2026-11-06,regular,Holy Cross,Villanova,False,False,66,69,13,37,7,22,27,59,12,25,11,95,70,28,48,10,26,14,74,15,35,5
-374687,2026-11-06,regular,Villanova,Holy Cross,True,False,95,70,28,48,10,26,14,74,15,35,5,66,69,13,37,7,22,27,59,12,25,11
-374682,2026-11-06,regular,UCF,Yale,True,False,87,68,26,45,5,23,24,68,13,26,2,75,67,17,34,10,26,13,60,8,26,11
-374682,2026-11-06,regular,Yale,UCF,False,False,75,67,17,34,10,26,13,60,8,26,11,87,68,26,45,5,23,24,68,13,26,2
-374677,2026-11-06,regular,New College (FL),Florida Gulf Coast,False,False,67,75,24,49,4,23,15,72,15,22,12,89,76,18,30,14,31,14,61,10,34,16
-374677,2026-11-06,regular,Florida Gulf Coast,New College (FL),True,False,89,76,18,30,14,31,14,61,10,34,16,67,75,24,49,4,23,15,72,15,22,12
+374709,2026-11-06,regular,South Carolina State,South Carolina Upstate,False,False,78,75,17,52,10,27,18,79,18,29,6,70,75,18,32,3,21,36,53,9,36,15
+374673,2026-11-06,regular,Valparaiso,Purdue,False,False,83,78,26,44,7,27,16,71,10,27,9,80,76,19,36,5,28,32,64,13,33,11
+374673,2026-11-06,regular,Purdue,Valparaiso,True,False,80,76,19,36,5,28,32,64,13,33,11,83,78,26,44,7,27,16,71,10,27,9
+372695,2026-11-06,regular,Ohio State,Youngstown State,True,False,89,74,24,40,4,19,34,59,15,31,12,65,73,14,30,9,31,17,61,9,18,13
 372705,2026-11-06,regular,Troy,Florida State,False,False,68,69,14,29,9,26,21,55,5,16,11,91,69,18,30,7,28,39,58,18,28,12
-374711,2026-11-06,regular,Cleveland State,Michigan-Dearborn,True,False,103,71,31,39,6,22,26,61,12,24,9,79,71,16,27,11,28,17,55,6,13,16
-372713,2026-11-06,regular,Brown,Boston University,True,False,67,68,13,31,10,28,18,59,15,19,15,72,66,16,28,6,18,33,46,11,25,14
-372713,2026-11-06,regular,Boston University,Brown,False,False,72,66,16,28,6,18,33,46,11,25,14,67,68,13,31,10,28,18,59,15,19,15
-374704,2026-11-06,regular,East Tennessee State,NC State,False,False,63,62,16,24,8,24,10,48,5,20,14,77,64,13,25,13,33,12,58,12,21,12
-374704,2026-11-06,regular,NC State,East Tennessee State,True,False,77,64,13,25,13,33,12,58,12,21,12,63,62,16,24,8,24,10,48,5,20,14
-374705,2026-11-06,regular,Austin Peay,Kennesaw State,False,False,69,73,15,36,6,23,30,59,8,26,10,71,74,18,30,6,27,29,57,14,35,18
-374705,2026-11-06,regular,Kennesaw State,Austin Peay,True,False,71,74,18,30,6,27,29,57,14,35,18,69,73,15,36,6,23,30,59,8,26,10
-374672,2026-11-06,regular,New Haven,Rutgers,False,False,54,64,13,30,7,20,8,50,7,21,17,81,65,21,37,9,23,18,60,13,24,11
-374672,2026-11-06,regular,Rutgers,New Haven,True,False,81,65,21,37,9,23,18,60,13,24,11,54,64,13,30,7,20,8,50,7,21,17
+372707,2026-11-06,regular,Xavier,Eastern Michigan,True,False,76,69,26,41,3,14,25,55,9,24,12,53,67,10,35,6,23,18,58,18,21,22
+372707,2026-11-06,regular,Eastern Michigan,Xavier,False,False,53,67,10,35,6,23,18,58,18,21,22,76,69,26,41,3,14,25,55,9,24,12
+377959,2026-11-06,regular,Newberry,Charleston,False,False,66,80,17,40,6,20,22,60,11,19,20,112,80,32,46,11,29,21,75,15,31,11
+377959,2026-11-06,regular,Charleston,Newberry,True,False,112,80,32,46,11,29,21,75,15,31,11,66,80,17,40,6,20,22,60,11,19,20
+372710,2026-11-06,regular,Georgia,Presbyterian,True,False,91,66,22,41,10,26,28,67,19,19,3,77,67,19,32,5,16,32,48,10,20,13
+372710,2026-11-06,regular,Presbyterian,Georgia,False,False,77,67,19,32,5,16,32,48,10,20,13,91,66,22,41,10,26,28,67,19,19,3
 374671,2026-11-06,regular,Erskine,The Citadel,False,False,57,74,9,21,11,31,12,52,2,19,18,100,75,28,41,11,29,19,70,17,34,12
-374680,2026-11-06,regular,Kentucky,James Madison,True,False,89,69,22,35,10,28,19,63,11,29,7,80,68,12,23,15,45,15,68,14,22,7
-374680,2026-11-06,regular,James Madison,Kentucky,False,False,80,68,12,23,15,45,15,68,14,22,7,89,69,22,35,10,28,19,63,11,29,7
-372697,2026-11-06,regular,Wofford,North Carolina,False,False,70,77,16,44,7,25,24,69,17,25,13,109,78,28,48,10,25,29,73,14,35,8
-372697,2026-11-06,regular,North Carolina,Wofford,True,False,109,78,28,48,10,25,29,73,14,35,8,70,77,16,44,7,25,24,69,17,25,13
-372698,2026-11-06,regular,Clemson,American University,True,False,82,70,14,34,12,27,24,61,12,28,11,73,69,13,28,13,28,12,56,4,25,12
-372698,2026-11-06,regular,American University,Clemson,False,False,73,69,13,28,13,28,12,56,4,25,12,82,70,14,34,12,27,24,61,12,28,11
-377962,2026-11-06,regular,Kent State,Roberts Wesleyan,True,False,102,80,31,45,7,21,25,66,9,36,13,50,80,9,28,5,25,23,53,7,20,22
-377962,2026-11-06,regular,Roberts Wesleyan,Kent State,False,False,50,80,9,28,5,25,23,53,7,20,22,102,80,31,45,7,21,25,66,9,36,13
-372699,2026-11-06,regular,Missouri,Saint Louis,False,True,84,75,21,47,8,24,26,71,18,27,10,90,73,19,38,14,25,14,63,6,29,10
-372699,2026-11-06,regular,Saint Louis,Missouri,True,True,90,73,19,38,14,25,14,63,6,29,10,84,75,21,47,8,24,26,71,18,27,10
-377961,2026-11-06,regular,Eastern Kentucky,Midway University,True,False,106,81,23,35,13,36,27,71,18,37,13,68,80,19,38,7,32,12,70,8,19,12
-377961,2026-11-06,regular,Midway University,Eastern Kentucky,False,False,68,80,19,38,7,32,12,70,8,19,12,106,81,23,35,13,36,27,71,18,37,13
-372700,2026-11-06,regular,Alma,Central Michigan,False,False,50,74,12,35,6,23,16,58,8,19,17,93,75,24,36,10,30,20,66,13,34,13
-372700,2026-11-06,regular,Central Michigan,Alma,True,False,93,75,24,36,10,30,20,66,13,34,13,50,74,12,35,6,23,16,58,8,19,17
-374688,2026-11-06,regular,Elon,UNC Greensboro,True,False,74,68,23,40,4,18,21,58,14,31,11,65,67,16,29,8,28,11,57,3,19,10
-374688,2026-11-06,regular,UNC Greensboro,Elon,False,False,65,67,16,29,8,28,11,57,3,19,10,74,68,23,40,4,18,21,58,14,31,11
-374681,2026-11-06,regular,West Virginia,Stetson,True,False,91,68,18,31,13,31,23,62,13,33,7,53,67,11,23,8,31,20,54,11,21,13
-374681,2026-11-06,regular,Stetson,West Virginia,False,False,53,67,11,23,8,31,20,54,11,21,13,91,68,18,31,13,31,23,62,13,33,7
+374699,2026-11-06,regular,Georgia Southern,Georgia Tech,False,False,83,75,18,37,10,36,32,73,24,21,12,95,76,16,31,9,18,47,49,9,25,15
+374699,2026-11-06,regular,Georgia Tech,Georgia Southern,True,False,95,76,16,31,9,18,47,49,9,25,15,83,75,18,37,10,36,32,73,24,21,12
+374700,2026-11-06,regular,George Mason,Coppin State,True,False,68,65,20,38,3,13,25,51,10,21,13,51,64,14,32,4,15,14,47,7,20,18
+374700,2026-11-06,regular,Coppin State,George Mason,False,False,51,64,14,32,4,15,14,47,7,20,18,68,65,20,38,3,13,25,51,10,21,13
+372701,2026-11-06,regular,Ball State,Indiana State,True,False,66,69,21,38,3,16,26,54,11,25,14,69,69,14,38,8,17,23,55,11,25,14
+372701,2026-11-06,regular,Indiana State,Ball State,False,False,69,69,14,38,8,17,23,55,11,25,14,66,69,21,38,3,16,26,54,11,25,14
+374712,2026-11-06,regular,Mount St. Mary's,Loyola Maryland,True,False,68,69,16,32,8,27,21,59,10,33,10,57,69,9,30,9,31,20,61,12,30,10
+374712,2026-11-06,regular,Loyola Maryland,Mount St. Mary's,False,False,57,69,9,30,9,31,20,61,12,30,10,68,69,16,32,8,27,21,59,10,33,10
+374687,2026-11-06,regular,Villanova,Holy Cross,True,False,95,70,28,48,10,26,14,74,15,35,5,66,69,13,37,7,22,27,59,12,25,11
+374687,2026-11-06,regular,Holy Cross,Villanova,False,False,66,69,13,37,7,22,27,59,12,25,11,95,70,28,48,10,26,14,74,15,35,5
+374682,2026-11-06,regular,Yale,UCF,False,False,75,67,17,34,10,26,13,60,8,26,11,87,68,26,45,5,23,24,68,13,26,2
+374682,2026-11-06,regular,UCF,Yale,True,False,87,68,26,45,5,23,24,68,13,26,2,75,67,17,34,10,26,13,60,8,26,11
+374677,2026-11-06,regular,Florida Gulf Coast,New College (FL),True,False,89,76,18,30,14,31,14,61,10,34,16,67,75,24,49,4,23,15,72,15,22,12
+374677,2026-11-06,regular,New College (FL),Florida Gulf Coast,False,False,67,75,24,49,4,23,15,72,15,22,12,89,76,18,30,14,31,14,61,10,34,16
+372705,2026-11-06,regular,Florida State,Troy,True,False,91,69,18,30,7,28,39,58,18,28,12,68,69,14,29,9,26,21,55,5,16,11
 374711,2026-11-06,regular,Michigan-Dearborn,Cleveland State,False,False,79,71,16,27,11,28,17,55,6,13,16,103,71,31,39,6,22,26,61,12,24,9
-374691,2026-11-06,regular,Wisconsin,Delaware,True,False,73,66,15,33,10,30,18,63,12,30,8,64,66,9,34,12,25,11,59,6,26,9
-374703,2026-11-06,regular,UAB,Nicholls,True,False,70,74,15,30,6,25,28,55,12,38,17,63,73,15,37,8,35,16,72,15,23,8
-374713,2026-11-06,regular,Texas Lutheran,Stephen F. Austin,False,False,32,73,7,32,4,23,9,55,11,29,24,89,74,23,50,10,24,21,74,14,35,4
-372711,2026-11-06,regular,Alabama,Arkansas State,True,False,101,86,12,26,15,50,43,76,25,33,14,86,85,17,37,15,39,16,76,17,29,19
-372711,2026-11-06,regular,Arkansas State,Alabama,False,False,86,85,17,37,15,39,16,76,17,29,19,101,86,12,26,15,50,43,76,25,33,14
-374713,2026-11-06,regular,Stephen F. Austin,Texas Lutheran,True,False,89,74,23,50,10,24,21,74,14,35,4,32,73,7,32,4,23,9,55,11,29,24
+372713,2026-11-06,regular,Boston University,Brown,False,False,72,66,16,28,6,18,33,46,11,25,14,67,68,13,31,10,28,18,59,15,19,15
+372713,2026-11-06,regular,Brown,Boston University,True,False,67,68,13,31,10,28,18,59,15,19,15,72,66,16,28,6,18,33,46,11,25,14
+374704,2026-11-06,regular,NC State,East Tennessee State,True,False,77,64,13,25,13,33,12,58,12,21,12,63,62,16,24,8,24,10,48,5,20,14
+374704,2026-11-06,regular,East Tennessee State,NC State,False,False,63,62,16,24,8,24,10,48,5,20,14,77,64,13,25,13,33,12,58,12,21,12
+374705,2026-11-06,regular,Kennesaw State,Austin Peay,True,False,71,74,18,30,6,27,29,57,14,35,18,69,73,15,36,6,23,30,59,8,26,10
+374705,2026-11-06,regular,Austin Peay,Kennesaw State,False,False,69,73,15,36,6,23,30,59,8,26,10,71,74,18,30,6,27,29,57,14,35,18
+374672,2026-11-06,regular,Rutgers,New Haven,True,False,81,65,21,37,9,23,18,60,13,24,11,54,64,13,30,7,20,8,50,7,21,17
+374672,2026-11-06,regular,New Haven,Rutgers,False,False,54,64,13,30,7,20,8,50,7,21,17,81,65,21,37,9,23,18,60,13,24,11
+374671,2026-11-06,regular,The Citadel,Erskine,True,False,100,75,28,41,11,29,19,70,17,34,12,57,74,9,21,11,31,12,52,2,19,18
+374680,2026-11-06,regular,James Madison,Kentucky,False,False,80,68,12,23,15,45,15,68,14,22,7,89,69,22,35,10,28,19,63,11,29,7
+374680,2026-11-06,regular,Kentucky,James Madison,True,False,89,69,22,35,10,28,19,63,11,29,7,80,68,12,23,15,45,15,68,14,22,7
+372697,2026-11-06,regular,North Carolina,Wofford,True,False,109,78,28,48,10,25,29,73,14,35,8,70,77,16,44,7,25,24,69,17,25,13
+372697,2026-11-06,regular,Wofford,North Carolina,False,False,70,77,16,44,7,25,24,69,17,25,13,109,78,28,48,10,25,29,73,14,35,8
+372698,2026-11-06,regular,American University,Clemson,False,False,73,69,13,28,13,28,12,56,4,25,12,82,70,14,34,12,27,24,61,12,28,11
+372698,2026-11-06,regular,Clemson,American University,True,False,82,70,14,34,12,27,24,61,12,28,11,73,69,13,28,13,28,12,56,4,25,12
+377962,2026-11-06,regular,Roberts Wesleyan,Kent State,False,False,50,80,9,28,5,25,23,53,7,20,22,102,80,31,45,7,21,25,66,9,36,13
+377962,2026-11-06,regular,Kent State,Roberts Wesleyan,True,False,102,80,31,45,7,21,25,66,9,36,13,50,80,9,28,5,25,23,53,7,20,22
+372699,2026-11-06,regular,Saint Louis,Missouri,True,True,90,73,19,38,14,25,14,63,6,29,10,84,75,21,47,8,24,26,71,18,27,10
+372699,2026-11-06,regular,Missouri,Saint Louis,False,True,84,75,21,47,8,24,26,71,18,27,10,90,73,19,38,14,25,14,63,6,29,10
+377961,2026-11-06,regular,Midway University,Eastern Kentucky,False,False,68,80,19,38,7,32,12,70,8,19,12,106,81,23,35,13,36,27,71,18,37,13
+377961,2026-11-06,regular,Eastern Kentucky,Midway University,True,False,106,81,23,35,13,36,27,71,18,37,13,68,80,19,38,7,32,12,70,8,19,12
+372700,2026-11-06,regular,Central Michigan,Alma,True,False,93,75,24,36,10,30,20,66,13,34,13,50,74,12,35,6,23,16,58,8,19,17
+372700,2026-11-06,regular,Alma,Central Michigan,False,False,50,74,12,35,6,23,16,58,8,19,17,93,75,24,36,10,30,20,66,13,34,13
+374688,2026-11-06,regular,UNC Greensboro,Elon,False,False,65,67,16,29,8,28,11,57,3,19,10,74,68,23,40,4,18,21,58,14,31,11
+374688,2026-11-06,regular,Elon,UNC Greensboro,True,False,74,68,23,40,4,18,21,58,14,31,11,65,67,16,29,8,28,11,57,3,19,10
+374681,2026-11-06,regular,Stetson,West Virginia,False,False,53,67,11,23,8,31,20,54,11,21,13,91,68,18,31,13,31,23,62,13,33,7
+374681,2026-11-06,regular,West Virginia,Stetson,True,False,91,68,18,31,13,31,23,62,13,33,7,53,67,11,23,8,31,20,54,11,21,13
+374711,2026-11-06,regular,Cleveland State,Michigan-Dearborn,True,False,103,71,31,39,6,22,26,61,12,24,9,79,71,16,27,11,28,17,55,6,13,16
 374691,2026-11-06,regular,Delaware,Wisconsin,False,False,64,66,9,34,12,25,11,59,6,26,9,73,66,15,33,10,30,18,63,12,30,8
-374708,2026-11-06,regular,Florida Atlantic,Wright State,False,False,71,70,14,35,8,19,26,54,10,16,14,97,71,26,38,7,20,27,58,11,27,10
-374708,2026-11-06,regular,Wright State,Florida Atlantic,True,False,97,71,26,38,7,20,27,58,11,27,10,71,70,14,35,8,19,26,54,10,16,14
 374703,2026-11-06,regular,Nicholls,UAB,False,False,63,73,15,37,8,35,16,72,15,23,8,70,74,15,30,6,25,28,55,12,38,17
-374692,2026-11-06,regular,Texas A&M,Northern Kentucky,True,False,104,82,29,46,12,29,17,75,11,28,9,67,81,13,34,7,24,25,58,12,26,23
-372696,2026-11-06,regular,St. Thomas-Minnesota,Minnesota,False,False,62,64,11,23,9,36,18,59,9,22,6,76,63,12,25,11,35,22,60,17,33,11
-374710,2026-11-06,regular,Mississippi University For Women,Alabama A&M,False,False,47,78,14,37,1,13,19,50,11,22,29,103,79,29,54,9,21,32,75,25,26,13
-374710,2026-11-06,regular,Alabama A&M,Mississippi University For Women,True,False,103,79,29,54,9,21,32,75,25,26,13,47,78,14,37,1,13,19,50,11,22,29
-377964,2026-11-06,regular,Missouri State,Truman State,True,False,79,73,18,31,10,28,22,59,9,31,13,62,72,13,38,9,31,13,69,19,26,16
-377964,2026-11-06,regular,Truman State,Missouri State,False,False,62,72,13,38,9,31,13,69,19,26,16,79,73,18,31,10,28,22,59,9,31,13
-374696,2026-11-06,regular,UConn,Michigan,True,True,85,71,14,33,9,22,36,55,9,24,12,77,72,19,35,7,28,23,63,13,22,14
-374696,2026-11-06,regular,Michigan,UConn,False,True,77,72,19,35,7,28,23,63,13,22,14,85,71,14,33,9,22,36,55,9,24,12
-374701,2026-11-06,regular,Southern,TCU,False,False,54,71,17,44,2,11,18,55,13,17,22,106,73,19,38,13,27,34,65,19,24,11
-374701,2026-11-06,regular,TCU,Southern,True,False,106,73,19,38,13,27,34,65,19,24,11,54,71,17,44,2,11,18,55,13,17,22
-374714,2026-11-06,regular,Texas A&M-Corpus Christi,Louisiana,False,False,67,65,15,30,5,13,32,43,10,30,17,60,66,8,28,7,20,28,48,6,16,11
-374714,2026-11-06,regular,Louisiana,Texas A&M-Corpus Christi,True,False,60,66,8,28,7,20,28,48,6,16,11,67,65,15,30,5,13,32,43,10,30,17
-377963,2026-11-06,regular,Robert Morris,UIC,False,False,56,68,11,24,8,24,13,48,7,20,20,79,67,20,39,9,21,21,60,9,22,12
-377963,2026-11-06,regular,UIC,Robert Morris,True,False,79,67,20,39,9,21,21,60,9,22,12,56,68,11,24,8,24,13,48,7,20,20
-374679,2026-11-06,regular,LSU,Texas Southern,True,False,92,76,31,41,5,22,25,63,12,38,14,51,75,7,35,7,24,23,59,10,19,14
-374679,2026-11-06,regular,Texas Southern,LSU,False,False,51,75,7,35,7,24,23,59,10,19,14,92,76,31,41,5,22,25,63,12,38,14
-372696,2026-11-06,regular,Minnesota,St. Thomas-Minnesota,True,False,76,63,12,25,11,35,22,60,17,33,11,62,64,11,23,9,36,18,59,9,22,6
-372704,2026-11-06,regular,Iowa State,Southern Miss,True,False,83,70,23,39,4,12,36,51,12,26,15,57,69,11,32,8,20,22,52,11,17,18
-372704,2026-11-06,regular,Southern Miss,Iowa State,False,False,57,69,11,32,8,20,22,52,11,17,18,83,70,23,39,4,12,36,51,12,26,15
+374713,2026-11-06,regular,Stephen F. Austin,Texas Lutheran,True,False,89,74,23,50,10,24,21,74,14,35,4,32,73,7,32,4,23,9,55,11,29,24
+372711,2026-11-06,regular,Arkansas State,Alabama,False,False,86,85,17,37,15,39,16,76,17,29,19,101,86,12,26,15,50,43,76,25,33,14
+372711,2026-11-06,regular,Alabama,Arkansas State,True,False,101,86,12,26,15,50,43,76,25,33,14,86,85,17,37,15,39,16,76,17,29,19
+374713,2026-11-06,regular,Texas Lutheran,Stephen F. Austin,False,False,32,73,7,32,4,23,9,55,11,29,24,89,74,23,50,10,24,21,74,14,35,4
+374691,2026-11-06,regular,Wisconsin,Delaware,True,False,73,66,15,33,10,30,18,63,12,30,8,64,66,9,34,12,25,11,59,6,26,9
+374708,2026-11-06,regular,Wright State,Florida Atlantic,True,False,97,71,26,38,7,20,27,58,11,27,10,71,70,14,35,8,19,26,54,10,16,14
+374708,2026-11-06,regular,Florida Atlantic,Wright State,False,False,71,70,14,35,8,19,26,54,10,16,14,97,71,26,38,7,20,27,58,11,27,10
+374703,2026-11-06,regular,UAB,Nicholls,True,False,70,74,15,30,6,25,28,55,12,38,17,63,73,15,37,8,35,16,72,15,23,8
 374692,2026-11-06,regular,Northern Kentucky,Texas A&M,False,False,67,81,13,34,7,24,25,58,12,26,23,104,82,29,46,12,29,17,75,11,28,9
-374693,2026-11-06,regular,Stony Brook,Northwestern,False,False,65,61,13,22,7,29,25,51,10,17,9,78,62,13,29,12,23,19,52,11,25,11
+372696,2026-11-06,regular,Minnesota,St. Thomas-Minnesota,True,False,76,63,12,25,11,35,22,60,17,33,11,62,64,11,23,9,36,18,59,9,22,6
+374710,2026-11-06,regular,Alabama A&M,Mississippi University For Women,True,False,103,79,29,54,9,21,32,75,25,26,13,47,78,14,37,1,13,19,50,11,22,29
+374710,2026-11-06,regular,Mississippi University For Women,Alabama A&M,False,False,47,78,14,37,1,13,19,50,11,22,29,103,79,29,54,9,21,32,75,25,26,13
+377964,2026-11-06,regular,Truman State,Missouri State,False,False,62,72,13,38,9,31,13,69,19,26,16,79,73,18,31,10,28,22,59,9,31,13
+377964,2026-11-06,regular,Missouri State,Truman State,True,False,79,73,18,31,10,28,22,59,9,31,13,62,72,13,38,9,31,13,69,19,26,16
+374696,2026-11-06,regular,Michigan,UConn,False,True,77,72,19,35,7,28,23,63,13,22,14,85,71,14,33,9,22,36,55,9,24,12
+374696,2026-11-06,regular,UConn,Michigan,True,True,85,71,14,33,9,22,36,55,9,24,12,77,72,19,35,7,28,23,63,13,22,14
+374701,2026-11-06,regular,TCU,Southern,True,False,106,73,19,38,13,27,34,65,19,24,11,54,71,17,44,2,11,18,55,13,17,22
+374701,2026-11-06,regular,Southern,TCU,False,False,54,71,17,44,2,11,18,55,13,17,22,106,73,19,38,13,27,34,65,19,24,11
+374714,2026-11-06,regular,Louisiana,Texas A&M-Corpus Christi,True,False,60,66,8,28,7,20,28,48,6,16,11,67,65,15,30,5,13,32,43,10,30,17
+374714,2026-11-06,regular,Texas A&M-Corpus Christi,Louisiana,False,False,67,65,15,30,5,13,32,43,10,30,17,60,66,8,28,7,20,28,48,6,16,11
+377963,2026-11-06,regular,UIC,Robert Morris,True,False,79,67,20,39,9,21,21,60,9,22,12,56,68,11,24,8,24,13,48,7,20,20
+377963,2026-11-06,regular,Robert Morris,UIC,False,False,56,68,11,24,8,24,13,48,7,20,20,79,67,20,39,9,21,21,60,9,22,12
+374679,2026-11-06,regular,Texas Southern,LSU,False,False,51,75,7,35,7,24,23,59,10,19,14,92,76,31,41,5,22,25,63,12,38,14
+374679,2026-11-06,regular,LSU,Texas Southern,True,False,92,76,31,41,5,22,25,63,12,38,14,51,75,7,35,7,24,23,59,10,19,14
+372696,2026-11-06,regular,St. Thomas-Minnesota,Minnesota,False,False,62,64,11,23,9,36,18,59,9,22,6,76,63,12,25,11,35,22,60,17,33,11
+372704,2026-11-06,regular,Southern Miss,Iowa State,False,False,57,69,11,32,8,20,22,52,11,17,18,83,70,23,39,4,12,36,51,12,26,15
+372704,2026-11-06,regular,Iowa State,Southern Miss,True,False,83,70,23,39,4,12,36,51,12,26,15,57,69,11,32,8,20,22,52,11,17,18
+374692,2026-11-06,regular,Texas A&M,Northern Kentucky,True,False,104,82,29,46,12,29,17,75,11,28,9,67,81,13,34,7,24,25,58,12,26,23
 374693,2026-11-06,regular,Northwestern,Stony Brook,True,False,78,62,13,29,12,23,19,52,11,25,11,65,61,13,22,7,29,25,51,10,17,9
-372708,2026-11-06,regular,Detroit Mercy,Marquette,False,False,32,66,8,31,5,28,2,59,13,23,20,93,67,25,38,12,39,10,77,17,31,3
+374693,2026-11-06,regular,Stony Brook,Northwestern,False,False,65,61,13,22,7,29,25,51,10,17,9,78,62,13,29,12,23,19,52,11,25,11
 372708,2026-11-06,regular,Marquette,Detroit Mercy,True,False,93,67,25,38,12,39,10,77,17,31,3,32,66,8,31,5,28,2,59,13,23,20
-372709,2026-11-06,regular,Mississippi Valley State,Oklahoma,False,False,57,69,18,40,3,18,16,58,13,19,17,84,69,20,30,13,40,6,70,17,25,12
+372708,2026-11-06,regular,Detroit Mercy,Marquette,False,False,32,66,8,31,5,28,2,59,13,23,20,93,67,25,38,12,39,10,77,17,31,3
 372709,2026-11-06,regular,Oklahoma,Mississippi Valley State,True,False,84,69,20,30,13,40,6,70,17,25,12,57,69,18,40,3,18,16,58,13,19,17
-374706,2026-11-06,regular,Ole Miss,Central Arkansas,True,False,92,72,26,45,10,25,14,70,11,28,8,60,72,10,22,9,28,21,50,7,26,18
-374694,2026-11-06,regular,Iowa,Eastern Illinois,True,False,91,66,19,22,14,30,17,52,9,30,15,47,66,17,45,0,7,20,52,11,13,13
-374694,2026-11-06,regular,Eastern Illinois,Iowa,False,False,47,66,17,45,0,7,20,52,11,13,13,91,66,19,22,14,30,17,52,9,30,15
-374678,2026-11-06,regular,Idaho State,Wyoming,False,False,62,70,12,38,6,20,27,58,15,12,14,93,70,24,41,8,23,28,64,21,29,14
-374678,2026-11-06,regular,Wyoming,Idaho State,True,False,93,70,24,41,8,23,28,64,21,29,14,62,70,12,38,6,20,27,58,15,12,14
+372709,2026-11-06,regular,Mississippi Valley State,Oklahoma,False,False,57,69,18,40,3,18,16,58,13,19,17,84,69,20,30,13,40,6,70,17,25,12
 374706,2026-11-06,regular,Central Arkansas,Ole Miss,False,False,60,72,10,22,9,28,21,50,7,26,18,92,72,26,45,10,25,14,70,11,28,8
-372702,2026-11-06,regular,Kansas State,Cal State Northridge,True,False,95,82,14,22,17,41,25,63,9,28,17,78,80,19,41,7,26,26,67,16,27,17
-374683,2026-11-06,regular,BYU,Omaha,True,False,108,71,23,35,16,35,18,70,15,31,8,67,71,18,38,8,23,13,61,8,19,12
-374683,2026-11-06,regular,Omaha,BYU,False,False,67,71,18,38,8,23,13,61,8,19,12,108,71,23,35,16,35,18,70,15,31,8
-374674,2026-11-06,regular,Idaho,Colorado State,False,False,67,69,18,37,7,24,15,61,9,25,11,78,68,23,37,7,23,15,60,7,30,8
-374674,2026-11-06,regular,Colorado State,Idaho,True,False,78,68,23,37,7,23,15,60,7,30,8,67,69,18,37,7,24,15,61,9,25,11
-374686,2026-11-06,regular,Wagner,Miami,False,False,57,70,14,37,7,26,13,63,11,22,15,83,71,26,39,5,19,18,58,7,29,11
-374686,2026-11-06,regular,Miami,Wagner,True,False,83,71,26,39,5,19,18,58,7,29,11,57,70,14,37,7,26,13,63,11,22,15
-374684,2026-11-06,regular,Northern Colorado,Arizona State,False,False,63,68,16,38,8,18,16,56,9,23,12,90,67,28,43,7,22,19,65,11,29,5
+374694,2026-11-06,regular,Eastern Illinois,Iowa,False,False,47,66,17,45,0,7,20,52,11,13,13,91,66,19,22,14,30,17,52,9,30,15
+374694,2026-11-06,regular,Iowa,Eastern Illinois,True,False,91,66,19,22,14,30,17,52,9,30,15,47,66,17,45,0,7,20,52,11,13,13
+374678,2026-11-06,regular,Wyoming,Idaho State,True,False,93,70,24,41,8,23,28,64,21,29,14,62,70,12,38,6,20,27,58,15,12,14
+374678,2026-11-06,regular,Idaho State,Wyoming,False,False,62,70,12,38,6,20,27,58,15,12,14,93,70,24,41,8,23,28,64,21,29,14
+374706,2026-11-06,regular,Ole Miss,Central Arkansas,True,False,92,72,26,45,10,25,14,70,11,28,8,60,72,10,22,9,28,21,50,7,26,18
 372702,2026-11-06,regular,Cal State Northridge,Kansas State,False,False,78,80,19,41,7,26,26,67,16,27,17,95,82,14,22,17,41,25,63,9,28,17
-374702,2026-11-06,regular,Queens University,Oklahoma State,False,False,68,78,17,34,7,34,18,68,15,16,18,118,80,28,43,16,28,19,71,13,28,14
-374702,2026-11-06,regular,Oklahoma State,Queens University,True,False,118,80,28,43,16,28,19,71,13,28,14,68,78,17,34,7,34,18,68,15,16,18
+374683,2026-11-06,regular,Omaha,BYU,False,False,67,71,18,38,8,23,13,61,8,19,12,108,71,23,35,16,35,18,70,15,31,8
+374683,2026-11-06,regular,BYU,Omaha,True,False,108,71,23,35,16,35,18,70,15,31,8,67,71,18,38,8,23,13,61,8,19,12
+374674,2026-11-06,regular,Colorado State,Idaho,True,False,78,68,23,37,7,23,15,60,7,30,8,67,69,18,37,7,24,15,61,9,25,11
+374674,2026-11-06,regular,Idaho,Colorado State,False,False,67,69,18,37,7,24,15,61,9,25,11,78,68,23,37,7,23,15,60,7,30,8
+374686,2026-11-06,regular,Miami,Wagner,True,False,83,71,26,39,5,19,18,58,7,29,11,57,70,14,37,7,26,13,63,11,22,15
+374686,2026-11-06,regular,Wagner,Miami,False,False,57,70,14,37,7,26,13,63,11,22,15,83,71,26,39,5,19,18,58,7,29,11
 374684,2026-11-06,regular,Arizona State,Northern Colorado,True,False,90,67,28,43,7,22,19,65,11,29,5,63,68,16,38,8,18,16,56,9,23,12
-372703,2026-11-06,regular,Middle Tennessee,Kansas,False,False,45,69,10,41,7,27,9,68,18,17,16,89,70,28,37,7,19,22,56,9,32,12
+372702,2026-11-06,regular,Kansas State,Cal State Northridge,True,False,95,82,14,22,17,41,25,63,9,28,17,78,80,19,41,7,26,26,67,16,27,17
+374702,2026-11-06,regular,Oklahoma State,Queens University,True,False,118,80,28,43,16,28,19,71,13,28,14,68,78,17,34,7,34,18,68,15,16,18
+374702,2026-11-06,regular,Queens University,Oklahoma State,False,False,68,78,17,34,7,34,18,68,15,16,18,118,80,28,43,16,28,19,71,13,28,14
+374684,2026-11-06,regular,Northern Colorado,Arizona State,False,False,63,68,16,38,8,18,16,56,9,23,12,90,67,28,43,7,22,19,65,11,29,5
 372703,2026-11-06,regular,Kansas,Middle Tennessee,True,False,89,70,28,37,7,19,22,56,9,32,12,45,69,10,41,7,27,9,68,18,17,16
-374690,2026-11-06,regular,Kansas City,Southern Illinois,True,False,100,74,19,34,14,23,28,57,7,23,11,93,74,25,43,8,23,24,66,11,20,9
+372703,2026-11-06,regular,Middle Tennessee,Kansas,False,False,45,69,10,41,7,27,9,68,18,17,16,89,70,28,37,7,19,22,56,9,32,12
 374690,2026-11-06,regular,Southern Illinois,Kansas City,False,False,93,74,25,43,8,23,24,66,11,20,9,100,74,19,34,14,23,28,57,7,23,11
-377966,2026-11-06,regular,Portland,UT Arlington,False,True,85,78,18,32,11,23,27,55,6,25,21,89,78,20,37,11,25,25,62,9,21,13
-374707,2026-11-06,regular,Tarleton State,San Diego,False,False,90,76,17,27,10,25,39,52,9,22,18,96,78,13,37,12,28,39,65,18,18,14
-374707,2026-11-06,regular,San Diego,Tarleton State,True,False,96,78,13,37,12,28,39,65,18,18,14,90,76,17,27,10,25,39,52,9,22,18
-374698,2026-11-06,regular,Oregon State,California Baptist,True,False,96,67,26,33,12,35,8,68,12,23,6,68,66,15,30,9,23,17,53,6,17,12
-374698,2026-11-06,regular,California Baptist,Oregon State,False,False,68,66,15,30,9,23,17,53,6,17,12,96,67,26,33,12,35,8,68,12,23,6
-377965,2026-11-06,regular,Briar Cliff,South Dakota State,False,False,49,69,7,20,5,20,22,40,2,25,23,71,71,22,36,6,26,12,62,10,26,13
-377965,2026-11-06,regular,South Dakota State,Briar Cliff,True,False,71,71,22,36,6,26,12,62,10,26,13,49,69,7,20,5,20,22,40,2,25,23
+374690,2026-11-06,regular,Kansas City,Southern Illinois,True,False,100,74,19,34,14,23,28,57,7,23,11,93,74,25,43,8,23,24,66,11,20,9
 377966,2026-11-06,regular,UT Arlington,Portland,True,True,89,78,20,37,11,25,25,62,9,21,13,85,78,18,32,11,23,27,55,6,25,21
-374685,2026-11-06,regular,Oakland,Stanford,False,False,63,68,19,32,3,17,25,49,6,23,14,81,69,20,35,9,27,15,62,10,26,11
-374689,2026-11-06,regular,San Francisco,North Dakota State,True,False,79,67,12,24,12,25,28,49,12,26,15,70,66,16,33,10,37,13,70,18,18,12
-374715,2026-11-06,regular,Loyola Marymount,Lincoln University (CA),True,False,102,83,31,50,11,33,10,83,10,40,6,50,84,16,44,4,22,9,66,5,33,21
-374715,2026-11-06,regular,Lincoln University (CA),Loyola Marymount,False,False,50,84,16,44,4,22,9,66,5,33,21,102,83,31,50,11,33,10,83,10,40,6
-374689,2026-11-06,regular,North Dakota State,San Francisco,False,False,70,66,16,33,10,37,13,70,18,18,12,79,67,12,24,12,25,28,49,12,26,15
+374707,2026-11-06,regular,San Diego,Tarleton State,True,False,96,78,13,37,12,28,39,65,18,18,14,90,76,17,27,10,25,39,52,9,22,18
+374707,2026-11-06,regular,Tarleton State,San Diego,False,False,90,76,17,27,10,25,39,52,9,22,18,96,78,13,37,12,28,39,65,18,18,14
+374698,2026-11-06,regular,California Baptist,Oregon State,False,False,68,66,15,30,9,23,17,53,6,17,12,96,67,26,33,12,35,8,68,12,23,6
+374698,2026-11-06,regular,Oregon State,California Baptist,True,False,96,67,26,33,12,35,8,68,12,23,6,68,66,15,30,9,23,17,53,6,17,12
+377965,2026-11-06,regular,South Dakota State,Briar Cliff,True,False,71,71,22,36,6,26,12,62,10,26,13,49,69,7,20,5,20,22,40,2,25,23
+377965,2026-11-06,regular,Briar Cliff,South Dakota State,False,False,49,69,7,20,5,20,22,40,2,25,23,71,71,22,36,6,26,12,62,10,26,13
+377966,2026-11-06,regular,Portland,UT Arlington,False,True,85,78,18,32,11,23,27,55,6,25,21,89,78,20,37,11,25,25,62,9,21,13
 374685,2026-11-06,regular,Stanford,Oakland,True,False,81,69,20,35,9,27,15,62,10,26,11,63,68,19,32,3,17,25,49,6,23,14
-374676,2026-11-06,regular,UCLA,North Florida,True,False,114,79,24,41,14,29,34,70,14,35,8,63,78,10,29,10,34,20,63,9,25,17
+374689,2026-11-06,regular,North Dakota State,San Francisco,False,False,70,66,16,33,10,37,13,70,18,18,12,79,67,12,24,12,25,28,49,12,26,15
+374715,2026-11-06,regular,Lincoln University (CA),Loyola Marymount,False,False,50,84,16,44,4,22,9,66,5,33,21,102,83,31,50,11,33,10,83,10,40,6
+374715,2026-11-06,regular,Loyola Marymount,Lincoln University (CA),True,False,102,83,31,50,11,33,10,83,10,40,6,50,84,16,44,4,22,9,66,5,33,21
+374689,2026-11-06,regular,San Francisco,North Dakota State,True,False,79,67,12,24,12,25,28,49,12,26,15,70,66,16,33,10,37,13,70,18,18,12
+374685,2026-11-06,regular,Oakland,Stanford,False,False,63,68,19,32,3,17,25,49,6,23,14,81,69,20,35,9,27,15,62,10,26,11
 374676,2026-11-06,regular,North Florida,UCLA,False,False,63,78,10,29,10,34,20,63,9,25,17,114,79,24,41,14,29,34,70,14,35,8
-377967,2026-11-06,regular,Bethesda University,Hawai'i,False,False,44,77,11,37,4,20,14,57,6,17,18,116,78,33,47,12,37,21,84,26,36,11
+374676,2026-11-06,regular,UCLA,North Florida,True,False,114,79,24,41,14,29,34,70,14,35,8,63,78,10,29,10,34,20,63,9,25,17
 377967,2026-11-06,regular,Hawai'i,Bethesda University,True,False,116,78,33,47,12,37,21,84,26,36,11,44,77,11,37,4,20,14,57,6,17,18
-374739,2026-11-07,regular,North Dakota,Winthrop,False,False,93,75,25,42,3,20,41,62,18,20,11,90,76,22,35,11,29,23,64,15,20,15
+377967,2026-11-06,regular,Bethesda University,Hawai'i,False,False,44,77,11,37,4,20,14,57,6,17,18,116,78,33,47,12,37,21,84,26,36,11
 374739,2026-11-07,regular,Winthrop,North Dakota,True,False,90,76,22,35,11,29,23,64,15,20,15,93,75,25,42,3,20,41,62,18,20,11
-374734,2026-11-07,regular,Louisville,Morehead State,True,False,107,70,24,31,13,38,28,69,20,39,7,57,70,15,45,6,18,14,63,7,16,8
-374732,2026-11-07,regular,Fairleigh Dickinson,City College NY,True,False,93,72,23,37,9,24,24,61,8,26,8,56,72,8,24,11,24,10,48,2,22,22
-374732,2026-11-07,regular,City College NY,Fairleigh Dickinson,False,False,56,72,8,24,11,24,10,48,2,22,22,93,72,23,37,9,24,24,61,8,26,8
+374739,2026-11-07,regular,North Dakota,Winthrop,False,False,93,75,25,42,3,20,41,62,18,20,11,90,76,22,35,11,29,23,64,15,20,15
 374734,2026-11-07,regular,Morehead State,Louisville,False,False,57,70,15,45,6,18,14,63,7,16,8,107,70,24,31,13,38,28,69,20,39,7
-377969,2026-11-07,regular,Andrew,Georgia State,False,False,61,76,17,45,5,23,20,68,9,19,9,111,76,35,43,9,35,21,78,20,38,9
+374732,2026-11-07,regular,City College NY,Fairleigh Dickinson,False,False,56,72,8,24,11,24,10,48,2,22,22,93,72,23,37,9,24,24,61,8,26,8
+374732,2026-11-07,regular,Fairleigh Dickinson,City College NY,True,False,93,72,23,37,9,24,24,61,8,26,8,56,72,8,24,11,24,10,48,2,22,22
+374734,2026-11-07,regular,Louisville,Morehead State,True,False,107,70,24,31,13,38,28,69,20,39,7,57,70,15,45,6,18,14,63,7,16,8
 377969,2026-11-07,regular,Georgia State,Andrew,True,False,111,76,35,43,9,35,21,78,20,38,9,61,76,17,45,5,23,20,68,9,19,9
-374726,2026-11-07,regular,Ohio,North Carolina A&T,True,False,80,69,22,42,6,13,25,55,11,31,15,70,70,18,38,5,22,25,60,10,19,9
+377969,2026-11-07,regular,Andrew,Georgia State,False,False,61,76,17,45,5,23,20,68,9,19,9,111,76,35,43,9,35,21,78,20,38,9
 374726,2026-11-07,regular,North Carolina A&T,Ohio,False,False,70,70,18,38,5,22,25,60,10,19,9,80,69,22,42,6,13,25,55,11,31,15
-374740,2026-11-07,regular,East Carolina,UNC Wilmington,True,False,75,78,14,25,9,37,24,62,7,24,11,78,78,16,34,9,24,35,58,13,35,19
-374729,2026-11-07,regular,Colgate,Drexel,False,False,74,72,14,35,13,36,10,71,13,31,9,77,72,17,34,8,26,22,60,7,32,9
-374745,2026-11-07,regular,Cal State Fullerton,South Dakota,False,False,87,81,13,35,17,34,14,69,6,29,13,85,82,19,32,7,26,37,58,10,33,17
-374745,2026-11-07,regular,South Dakota,Cal State Fullerton,True,False,85,82,19,32,7,26,37,58,10,33,17,87,81,13,35,17,34,14,69,6,29,13
+374726,2026-11-07,regular,Ohio,North Carolina A&T,True,False,80,69,22,42,6,13,25,55,11,31,15,70,70,18,38,5,22,25,60,10,19,9
 374740,2026-11-07,regular,UNC Wilmington,East Carolina,False,False,78,78,16,34,9,24,35,58,13,35,19,75,78,14,25,9,37,24,62,7,24,11
 374729,2026-11-07,regular,Drexel,Colgate,True,False,77,72,17,34,8,26,22,60,7,32,9,74,72,14,35,13,36,10,71,13,31,9
-374735,2026-11-07,regular,Lamar,Abilene Christian,False,False,81,76,19,33,9,25,27,58,10,22,15,83,75,20,36,10,23,22,59,11,25,17
-374727,2026-11-07,regular,Toledo,Marshall,False,False,81,76,26,51,3,15,35,66,11,27,5,76,78,19,42,10,28,12,70,15,34,16
-374727,2026-11-07,regular,Marshall,Toledo,True,False,76,78,19,42,10,28,12,70,15,34,16,81,76,26,51,3,15,35,66,11,27,5
-374721,2026-11-07,regular,Loyola New Orleans,New Orleans,False,False,65,74,12,33,9,24,20,57,11,19,19,90,75,32,57,4,13,16,70,15,28,14
+374745,2026-11-07,regular,South Dakota,Cal State Fullerton,True,False,85,82,19,32,7,26,37,58,10,33,17,87,81,13,35,17,34,14,69,6,29,13
+374745,2026-11-07,regular,Cal State Fullerton,South Dakota,False,False,87,81,13,35,17,34,14,69,6,29,13,85,82,19,32,7,26,37,58,10,33,17
+374740,2026-11-07,regular,East Carolina,UNC Wilmington,True,False,75,78,14,25,9,37,24,62,7,24,11,78,78,16,34,9,24,35,58,13,35,19
+374729,2026-11-07,regular,Colgate,Drexel,False,False,74,72,14,35,13,36,10,71,13,31,9,77,72,17,34,8,26,22,60,7,32,9
 374735,2026-11-07,regular,Abilene Christian,Lamar,True,False,83,75,20,36,10,23,22,59,11,25,17,81,76,19,33,9,25,27,58,10,22,15
-377960,2026-11-07,regular,Boyce,Liberty,False,False,54,72,10,36,9,28,11,64,13,17,17,113,73,31,43,15,31,8,74,12,33,7
-377960,2026-11-07,regular,Liberty,Boyce,True,False,113,73,31,43,15,31,8,74,12,33,7,54,72,10,36,9,28,11,64,13,17,17
+374727,2026-11-07,regular,Marshall,Toledo,True,False,76,78,19,42,10,28,12,70,15,34,16,81,76,26,51,3,15,35,66,11,27,5
+374727,2026-11-07,regular,Toledo,Marshall,False,False,81,76,26,51,3,15,35,66,11,27,5,76,78,19,42,10,28,12,70,15,34,16
 374721,2026-11-07,regular,New Orleans,Loyola New Orleans,True,False,90,75,32,57,4,13,16,70,15,28,14,65,74,12,33,9,24,20,57,11,19,19
-374742,2026-11-07,regular,Long Beach State,Montana State,False,False,70,66,19,32,3,14,31,46,3,20,9,83,66,19,30,11,28,17,58,12,27,12
-374733,2026-11-07,regular,VCU,Memphis,False,False,88,72,13,30,13,24,27,54,7,21,13,89,72,17,32,10,22,38,54,8,22,8
-374743,2026-11-07,regular,North Carolina Central,Longwood,False,False,75,75,24,44,4,20,24,64,11,26,10,80,75,18,34,11,28,14,62,9,31,14
+374735,2026-11-07,regular,Lamar,Abilene Christian,False,False,81,76,19,33,9,25,27,58,10,22,15,83,75,20,36,10,23,22,59,11,25,17
+377960,2026-11-07,regular,Liberty,Boyce,True,False,113,73,31,43,15,31,8,74,12,33,7,54,72,10,36,9,28,11,64,13,17,17
+377960,2026-11-07,regular,Boyce,Liberty,False,False,54,72,10,36,9,28,11,64,13,17,17,113,73,31,43,15,31,8,74,12,33,7
+374721,2026-11-07,regular,Loyola New Orleans,New Orleans,False,False,65,74,12,33,9,24,20,57,11,19,19,90,75,32,57,4,13,16,70,15,28,14
 374742,2026-11-07,regular,Montana State,Long Beach State,True,False,83,66,19,30,11,28,17,58,12,27,12,70,66,19,32,3,14,31,46,3,20,9
-374743,2026-11-07,regular,Longwood,North Carolina Central,True,False,80,75,18,34,11,28,14,62,9,31,14,75,75,24,44,4,20,24,64,11,26,10
 374733,2026-11-07,regular,Memphis,VCU,True,False,89,72,17,32,10,22,38,54,8,22,8,88,72,13,30,13,24,27,54,7,21,13
-374731,2026-11-07,regular,La Salle,Long Island University,True,False,88,75,15,35,13,28,28,63,16,23,12,80,75,22,43,7,21,18,64,14,22,17
+374743,2026-11-07,regular,Longwood,North Carolina Central,True,False,80,75,18,34,11,28,14,62,9,31,14,75,75,24,44,4,20,24,64,11,26,10
+374742,2026-11-07,regular,Long Beach State,Montana State,False,False,70,66,19,32,3,14,31,46,3,20,9,83,66,19,30,11,28,17,58,12,27,12
+374743,2026-11-07,regular,North Carolina Central,Longwood,False,False,75,75,24,44,4,20,24,64,11,26,10,80,75,18,34,11,28,14,62,9,31,14
+374733,2026-11-07,regular,VCU,Memphis,False,False,88,72,13,30,13,24,27,54,7,21,13,89,72,17,32,10,22,38,54,8,22,8
 374731,2026-11-07,regular,Long Island University,La Salle,False,False,80,75,22,43,7,21,18,64,14,22,17,88,75,15,35,13,28,28,63,16,23,12
-372718,2026-11-07,regular,San Diego State,Colorado,True,True,77,73,15,32,8,15,31,47,7,31,20,66,74,12,32,9,25,25,57,8,19,13
+374731,2026-11-07,regular,La Salle,Long Island University,True,False,88,75,15,35,13,28,28,63,16,23,12,80,75,22,43,7,21,18,64,14,22,17
 372718,2026-11-07,regular,Colorado,San Diego State,False,True,66,74,12,32,9,25,25,57,8,19,13,77,73,15,32,8,15,31,47,7,31,20
-377970,2026-11-07,regular,Sam Houston,Howard Payne,True,False,102,84,33,49,7,27,28,76,23,43,18,59,83,13,37,7,35,18,72,12,19,14
+372718,2026-11-07,regular,San Diego State,Colorado,True,True,77,73,15,32,8,15,31,47,7,31,20,66,74,12,32,9,25,25,57,8,19,13
 377970,2026-11-07,regular,Howard Payne,Sam Houston,False,False,59,83,13,37,7,35,18,72,12,19,14,102,84,33,49,7,27,28,76,23,43,18
-374744,2026-11-07,regular,Saint Joseph's,Lafayette,True,False,67,80,20,44,3,22,31,66,10,27,11,57,78,13,29,7,27,11,56,6,35,25
-374730,2026-11-07,regular,Monmouth,Rhode Island,False,True,66,71,21,39,4,19,18,58,7,24,13,84,71,20,38,11,27,17,65,12,27,10
-374730,2026-11-07,regular,Rhode Island,Monmouth,True,True,84,71,20,38,11,27,17,65,12,27,10,66,71,21,39,4,19,18,58,7,24,13
-374724,2026-11-07,regular,Samford,UNLV,False,False,79,75,25,42,5,20,19,62,5,23,11,88,75,24,43,5,15,32,58,11,27,13
-377972,2026-11-07,regular,UC Santa Barbara,Oakland,True,False,90,65,12,29,18,29,18,58,9,26,6,67,64,13,27,10,22,16,49,3,22,11
-377972,2026-11-07,regular,Oakland,UC Santa Barbara,False,False,67,64,13,27,10,22,16,49,3,22,11,90,65,12,29,18,29,18,58,9,26,6
-377971,2026-11-07,regular,Omaha,Utah State,False,False,56,73,12,34,7,31,14,65,15,26,15,90,73,27,39,8,21,21,60,7,32,11
-377971,2026-11-07,regular,Utah State,Omaha,True,False,90,73,27,39,8,21,21,60,7,32,11,56,73,12,34,7,31,14,65,15,26,15
+377970,2026-11-07,regular,Sam Houston,Howard Payne,True,False,102,84,33,49,7,27,28,76,23,43,18,59,83,13,37,7,35,18,72,12,19,14
 374744,2026-11-07,regular,Lafayette,Saint Joseph's,False,False,57,78,13,29,7,27,11,56,6,35,25,67,80,20,44,3,22,31,66,10,27,11
+374730,2026-11-07,regular,Rhode Island,Monmouth,True,True,84,71,20,38,11,27,17,65,12,27,10,66,71,21,39,4,19,18,58,7,24,13
+374730,2026-11-07,regular,Monmouth,Rhode Island,False,True,66,71,21,39,4,19,18,58,7,24,13,84,71,20,38,11,27,17,65,12,27,10
 374724,2026-11-07,regular,UNLV,Samford,True,False,88,75,24,43,5,15,32,58,11,27,13,79,75,25,42,5,20,19,62,5,23,11
-374746,2026-11-07,regular,Mercyhurst,Penn State-Shenango,True,False,89,80,30,45,6,28,12,73,11,43,15,50,80,13,45,4,21,15,66,5,20,16
+377972,2026-11-07,regular,Oakland,UC Santa Barbara,False,False,67,64,13,27,10,22,16,49,3,22,11,90,65,12,29,18,29,18,58,9,26,6
+377972,2026-11-07,regular,UC Santa Barbara,Oakland,True,False,90,65,12,29,18,29,18,58,9,26,6,67,64,13,27,10,22,16,49,3,22,11
+377971,2026-11-07,regular,Utah State,Omaha,True,False,90,73,27,39,8,21,21,60,7,32,11,56,73,12,34,7,31,14,65,15,26,15
+377971,2026-11-07,regular,Omaha,Utah State,False,False,56,73,12,34,7,31,14,65,15,26,15,90,73,27,39,8,21,21,60,7,32,11
+374744,2026-11-07,regular,Saint Joseph's,Lafayette,True,False,67,80,20,44,3,22,31,66,10,27,11,57,78,13,29,7,27,11,56,6,35,25
+374724,2026-11-07,regular,Samford,UNLV,False,False,79,75,25,42,5,20,19,62,5,23,11,88,75,24,43,5,15,32,58,11,27,13
 374746,2026-11-07,regular,Penn State-Shenango,Mercyhurst,False,False,50,80,13,45,4,21,15,66,5,20,16,89,80,30,45,6,28,12,73,11,43,15
-374747,2026-11-07,regular,Maryland Eastern Shore,Cheyney (PA),True,False,81,74,19,40,10,23,27,63,19,30,14,55,73,13,29,5,20,27,49,7,23,19
+374746,2026-11-07,regular,Mercyhurst,Penn State-Shenango,True,False,89,80,30,45,6,28,12,73,11,43,15,50,80,13,45,4,21,15,66,5,20,16
 374747,2026-11-07,regular,Cheyney (PA),Maryland Eastern Shore,False,False,55,73,13,29,5,20,27,49,7,23,19,81,74,19,40,10,23,27,63,19,30,14
-377973,2026-11-07,regular,Lindenwood,East-West University,True,False,115,73,37,60,8,19,27,79,25,39,5,44,73,8,37,8,25,10,62,10,14,17
+374747,2026-11-07,regular,Maryland Eastern Shore,Cheyney (PA),True,False,81,74,19,40,10,23,27,63,19,30,14,55,73,13,29,5,20,27,49,7,23,19
 377973,2026-11-07,regular,East-West University,Lindenwood,False,False,44,73,8,37,8,25,10,62,10,14,17,115,73,37,60,8,19,27,79,25,39,5
-374748,2026-11-07,regular,IU Indianapolis,UT Martin,True,False,75,70,13,24,10,38,24,62,11,14,7,74,69,24,35,4,18,21,53,13,30,20
-374717,2026-11-07,regular,Northern Iowa,Furman,False,False,83,74,20,40,9,29,19,69,11,25,9,98,72,11,21,15,33,44,54,10,31,9
-377968,2026-11-07,regular,Gonzaga,New Mexico State,True,False,109,70,25,38,13,24,29,62,11,19,6,68,70,17,34,4,14,24,48,9,17,19
-374723,2026-11-07,regular,Bucknell,Old Dominion,True,False,62,64,11,27,7,24,22,51,5,15,8,82,63,11,23,17,31,11,54,10,27,15
-374723,2026-11-07,regular,Old Dominion,Bucknell,False,False,82,63,11,23,17,31,11,54,10,27,15,62,64,11,27,7,24,22,51,5,15,8
-374750,2026-11-07,regular,Washington State,High Point,False,False,71,63,12,27,12,26,14,53,13,16,16,83,63,19,24,8,22,29,46,8,19,12
-374750,2026-11-07,regular,High Point,Washington State,True,False,83,63,19,24,8,22,29,46,8,19,12,71,63,12,27,12,26,14,53,13,16,16
+377973,2026-11-07,regular,Lindenwood,East-West University,True,False,115,73,37,60,8,19,27,79,25,39,5,44,73,8,37,8,25,10,62,10,14,17
+374748,2026-11-07,regular,UT Martin,IU Indianapolis,False,False,74,69,24,35,4,18,21,53,13,30,20,75,70,13,24,10,38,24,62,11,14,7
 374717,2026-11-07,regular,Furman,Northern Iowa,True,False,98,72,11,21,15,33,44,54,10,31,9,83,74,20,40,9,29,19,69,11,25,9
 377968,2026-11-07,regular,New Mexico State,Gonzaga,False,False,68,70,17,34,4,14,24,48,9,17,19,109,70,25,38,13,24,29,62,11,19,6
-374748,2026-11-07,regular,UT Martin,IU Indianapolis,False,False,74,69,24,35,4,18,21,53,13,30,20,75,70,13,24,10,38,24,62,11,14,7
-374716,2026-11-07,regular,UTSA,VMI,True,False,70,70,21,37,7,30,12,67,12,18,9,68,69,16,32,6,24,26,56,17,30,18
-374749,2026-11-07,regular,SIU Edwardsville,Lipscomb,False,False,77,72,29,52,4,15,10,67,10,21,11,78,72,16,24,8,30,29,54,10,26,13
-374749,2026-11-07,regular,Lipscomb,SIU Edwardsville,True,False,78,72,16,24,8,30,29,54,10,26,13,77,72,29,52,4,15,10,67,10,21,11
-372717,2026-11-07,regular,Bellarmine,Miami (OH),False,False,73,68,27,43,3,23,10,66,10,21,10,80,68,14,21,10,34,26,55,10,26,10
-372717,2026-11-07,regular,Miami (OH),Bellarmine,True,False,80,68,14,21,10,34,26,55,10,26,10,73,68,27,43,3,23,10,66,10,21,10
+374723,2026-11-07,regular,Old Dominion,Bucknell,False,False,82,63,11,23,17,31,11,54,10,27,15,62,64,11,27,7,24,22,51,5,15,8
+374723,2026-11-07,regular,Bucknell,Old Dominion,True,False,62,64,11,27,7,24,22,51,5,15,8,82,63,11,23,17,31,11,54,10,27,15
+374750,2026-11-07,regular,High Point,Washington State,True,False,83,63,19,24,8,22,29,46,8,19,12,71,63,12,27,12,26,14,53,13,16,16
+374750,2026-11-07,regular,Washington State,High Point,False,False,71,63,12,27,12,26,14,53,13,16,16,83,63,19,24,8,22,29,46,8,19,12
+374717,2026-11-07,regular,Northern Iowa,Furman,False,False,83,74,20,40,9,29,19,69,11,25,9,98,72,11,21,15,33,44,54,10,31,9
+377968,2026-11-07,regular,Gonzaga,New Mexico State,True,False,109,70,25,38,13,24,29,62,11,19,6,68,70,17,34,4,14,24,48,9,17,19
+374748,2026-11-07,regular,IU Indianapolis,UT Martin,True,False,75,70,13,24,10,38,24,62,11,14,7,74,69,24,35,4,18,21,53,13,30,20
 374716,2026-11-07,regular,VMI,UTSA,False,False,68,69,16,32,6,24,26,56,17,30,18,70,70,21,37,7,30,12,67,12,18,9
-374751,2026-11-07,regular,Prairie View A&M,UT Rio Grande Valley,False,False,61,65,18,33,2,18,25,51,9,22,10,68,65,17,38,3,13,35,51,14,24,10
-374752,2026-11-07,regular,Western Carolina,UNC Asheville,False,False,83,68,15,30,8,22,38,52,10,23,9,75,68,14,29,11,29,24,58,13,24,12
+374749,2026-11-07,regular,Lipscomb,SIU Edwardsville,True,False,78,72,16,24,8,30,29,54,10,26,13,77,72,29,52,4,15,10,67,10,21,11
+374749,2026-11-07,regular,SIU Edwardsville,Lipscomb,False,False,77,72,29,52,4,15,10,67,10,21,11,78,72,16,24,8,30,29,54,10,26,13
+372717,2026-11-07,regular,Miami (OH),Bellarmine,True,False,80,68,14,21,10,34,26,55,10,26,10,73,68,27,43,3,23,10,66,10,21,10
+372717,2026-11-07,regular,Bellarmine,Miami (OH),False,False,73,68,27,43,3,23,10,66,10,21,10,80,68,14,21,10,34,26,55,10,26,10
+374716,2026-11-07,regular,UTSA,VMI,True,False,70,70,21,37,7,30,12,67,12,18,9,68,69,16,32,6,24,26,56,17,30,18
+374751,2026-11-07,regular,UT Rio Grande Valley,Prairie View A&M,True,False,68,65,17,38,3,13,35,51,14,24,10,63,65,18,33,2,18,27,51,9,22,10
 374752,2026-11-07,regular,UNC Asheville,Western Carolina,True,False,75,68,14,29,11,29,24,58,13,24,12,83,68,15,30,8,22,38,52,10,23,9
-374751,2026-11-07,regular,UT Rio Grande Valley,Prairie View A&M,True,False,68,65,17,38,3,13,35,51,14,24,10,61,65,18,33,2,18,25,51,9,22,10
-377974,2026-11-07,regular,George Washington,Hampton,True,False,75,67,17,34,8,21,23,55,12,31,12,61,68,13,34,7,21,21,55,7,20,10
+374752,2026-11-07,regular,Western Carolina,UNC Asheville,False,False,83,68,15,30,8,22,38,52,10,23,9,75,68,14,29,11,29,24,58,13,24,12
+374751,2026-11-07,regular,Prairie View A&M,UT Rio Grande Valley,False,False,63,65,18,33,2,18,27,51,9,22,10,68,65,17,38,3,13,35,51,14,24,10
+377974,2026-11-07,regular,Hampton,George Washington,False,False,61,68,13,34,7,21,21,55,7,20,10,75,67,17,34,8,21,23,55,12,31,12
 374725,2026-11-07,regular,Northern Arizona,New Mexico,False,False,65,65,13,17,6,29,27,46,10,24,16,94,66,27,44,7,26,24,70,16,19,2
 374725,2026-11-07,regular,New Mexico,Northern Arizona,True,False,94,66,27,44,7,26,24,70,16,19,2,65,65,13,17,6,29,27,46,10,24,16
-377974,2026-11-07,regular,Hampton,George Washington,False,False,61,68,13,34,7,21,21,55,7,20,10,75,67,17,34,8,21,23,55,12,31,12
-374753,2026-11-07,regular,Morgan State,Niagara,False,False,73,72,13,42,8,21,27,63,15,27,17,67,72,8,24,10,29,30,53,7,22,15
+377974,2026-11-07,regular,George Washington,Hampton,True,False,75,67,17,34,8,21,23,55,12,31,12,61,68,13,34,7,21,21,55,7,20,10
 374753,2026-11-07,regular,Niagara,Morgan State,True,False,67,72,8,24,10,29,30,53,7,22,15,73,72,13,42,8,21,27,63,15,27,17
+374753,2026-11-07,regular,Morgan State,Niagara,False,False,73,72,13,42,8,21,27,63,15,27,17,67,72,8,24,10,29,30,53,7,22,15
 374722,2026-11-07,regular,Houston Christian,Western Illinois,True,True,74,70,30,46,2,12,9,58,7,20,17,67,71,25,42,1,11,24,53,6,18,16
 374722,2026-11-07,regular,Western Illinois,Houston Christian,False,True,67,71,25,42,1,11,24,53,6,18,16,74,70,30,46,2,12,9,58,7,20,17
-372715,2026-11-07,regular,Canisius,St. Bonaventure,True,False,49,65,11,31,5,21,24,52,10,13,13,88,65,25,41,8,18,23,59,15,33,11
-377975,2026-11-07,regular,Purdue Fort Wayne,Albion,True,False,103,78,29,41,13,33,11,74,13,27,14,65,77,21,42,6,21,6,63,9,19,21
+372715,2026-11-07,regular,St. Bonaventure,Canisius,False,False,88,65,25,41,8,18,23,59,15,33,11,49,65,11,31,5,21,24,52,10,13,13
 377975,2026-11-07,regular,Albion,Purdue Fort Wayne,False,False,65,77,21,42,6,21,6,63,9,19,21,103,78,29,41,13,33,11,74,13,27,14
+377975,2026-11-07,regular,Purdue Fort Wayne,Albion,True,False,103,78,29,41,13,33,11,74,13,27,14,65,77,21,42,6,21,6,63,9,19,21
 372719,2026-11-07,regular,Providence,Nebraska,True,True,58,67,12,24,7,38,14,62,15,18,18,67,67,17,25,5,24,24,49,7,24,15
 372719,2026-11-07,regular,Nebraska,Providence,False,True,67,67,17,25,5,24,24,49,7,24,15,58,67,12,24,7,38,14,62,15,18,18
-374754,2026-11-07,regular,Davidson,Mercer,True,False,88,67,28,48,8,22,11,70,14,25,5,76,66,17,37,10,25,15,62,12,23,9
 374754,2026-11-07,regular,Mercer,Davidson,False,False,76,66,17,37,10,25,15,62,12,23,9,88,67,28,48,8,22,11,70,14,25,5
+374754,2026-11-07,regular,Davidson,Mercer,True,False,88,67,28,48,8,22,11,70,14,25,5,76,66,17,37,10,25,15,62,12,23,9
 372716,2026-11-07,regular,Northern Illinois,Dayton,False,False,81,77,10,25,12,30,31,55,13,30,20,76,78,20,32,2,17,41,49,6,23,13
-372715,2026-11-07,regular,St. Bonaventure,Canisius,False,False,88,65,25,41,8,18,23,59,15,33,11,49,65,11,31,5,21,24,52,10,13,13
+372715,2026-11-07,regular,Canisius,St. Bonaventure,True,False,49,65,11,31,5,21,24,52,10,13,13,88,65,25,41,8,18,23,59,15,33,11
 372716,2026-11-07,regular,Dayton,Northern Illinois,True,False,76,78,20,32,2,17,41,49,6,23,13,81,77,10,25,12,30,31,55,13,30,20
 372720,2026-11-07,regular,Maryland,Georgetown,False,False,74,67,23,43,3,20,24,63,19,18,14,86,67,12,22,15,30,25,52,10,17,14
-374756,2026-11-07,regular,Denver,UC Riverside,False,False,60,70,20,38,4,20,13,58,10,35,16,64,69,14,40,8,25,19,65,10,27,7
+374756,2026-11-07,regular,UC Riverside,Denver,True,False,64,69,14,40,8,25,19,65,10,27,7,60,70,20,38,4,20,13,58,10,35,16
 374719,2026-11-07,regular,Central State (OH),Duquesne,False,False,58,65,12,30,8,20,12,50,5,19,18,68,65,18,32,5,22,26,54,16,23,12
 374719,2026-11-07,regular,Duquesne,Central State (OH),True,False,68,65,18,32,5,22,26,54,16,23,12,58,65,12,30,8,20,12,50,5,19,18
-374756,2026-11-07,regular,UC Riverside,Denver,True,False,64,69,14,40,8,25,19,65,10,27,7,60,70,20,38,4,20,13,58,10,35,16
+374756,2026-11-07,regular,Denver,UC Riverside,False,False,60,70,20,38,4,20,13,58,10,35,16,64,69,14,40,8,25,19,65,10,27,7
 372720,2026-11-07,regular,Georgetown,Maryland,True,False,86,67,12,22,15,30,25,52,10,17,14,74,67,23,43,3,20,24,63,19,18,14
-374737,2026-11-07,regular,Pacific,Bradley,False,False,63,64,16,34,6,18,18,52,13,28,15,52,65,10,29,7,30,15,59,17,20,15
-377976,2026-11-07,regular,Northwestern Oklahoma State,Oral Roberts,False,False,39,73,8,33,5,19,20,52,15,19,25,94,74,25,35,9,35,21,70,18,32,12
-374755,2026-11-07,regular,Evansville,Southern Indiana,True,False,77,74,10,25,15,39,20,64,10,35,9,76,75,13,31,12,35,30,66,13,34,8
-374728,2026-11-07,regular,Little Rock,SE Louisiana,True,False,79,66,19,38,7,20,24,58,15,19,11,83,65,14,26,13,25,22,51,8,19,14
-374728,2026-11-07,regular,SE Louisiana,Little Rock,False,False,83,65,14,26,13,25,22,51,8,19,14,79,66,19,38,7,20,24,58,15,19,11
-374755,2026-11-07,regular,Southern Indiana,Evansville,False,False,76,75,13,31,12,35,30,66,13,34,8,77,74,10,25,15,39,20,64,10,35,9
-374720,2026-11-07,regular,Northwestern State,Murray State,False,False,71,71,19,40,7,12,16,52,5,22,18,93,73,17,29,14,32,24,61,13,23,13
-374720,2026-11-07,regular,Murray State,Northwestern State,True,False,93,73,17,29,14,32,24,61,13,23,13,71,71,19,40,7,12,16,52,5,22,18
-377976,2026-11-07,regular,Oral Roberts,Northwestern Oklahoma State,True,False,94,74,25,35,9,35,21,70,18,32,12,39,73,8,33,5,19,20,52,15,19,25
-372721,2026-11-07,regular,Bethune-Cookman,Grand Canyon,False,False,81,79,20,37,6,18,32,55,6,24,18,99,80,27,45,6,19,36,64,11,23,12
-372721,2026-11-07,regular,Grand Canyon,Bethune-Cookman,True,False,99,80,27,45,6,19,36,64,11,23,12,81,79,20,37,6,18,32,55,6,24,18
 374737,2026-11-07,regular,Bradley,Pacific,True,False,52,65,10,29,7,30,15,59,17,20,15,63,64,16,34,6,18,18,52,13,28,15
-378671,2026-11-07,regular,Bethesda University,Southern Utah,False,False,49,79,6,26,9,36,17,62,4,13,12,143,80,36,49,18,36,20,85,18,48,5
+377976,2026-11-07,regular,Oral Roberts,Northwestern Oklahoma State,True,False,94,74,25,35,9,35,21,70,18,32,12,39,73,8,33,5,19,20,52,15,19,25
+374755,2026-11-07,regular,Southern Indiana,Evansville,False,False,76,75,13,31,12,35,30,66,13,34,8,78,75,10,25,15,39,21,64,10,35,9
+374728,2026-11-07,regular,SE Louisiana,Little Rock,False,False,83,65,14,26,13,25,22,51,8,19,14,79,66,19,38,7,20,24,58,15,19,11
+374728,2026-11-07,regular,Little Rock,SE Louisiana,True,False,79,66,19,38,7,20,24,58,15,19,11,83,65,14,26,13,25,22,51,8,19,14
+374755,2026-11-07,regular,Evansville,Southern Indiana,True,False,78,75,10,25,15,39,21,64,10,35,9,76,75,13,31,12,35,30,66,13,34,8
+374720,2026-11-07,regular,Murray State,Northwestern State,True,False,93,73,17,29,14,32,24,61,13,23,13,71,71,19,40,7,12,16,52,5,22,18
+374720,2026-11-07,regular,Northwestern State,Murray State,False,False,71,71,19,40,7,12,16,52,5,22,18,93,73,17,29,14,32,24,61,13,23,13
+377976,2026-11-07,regular,Northwestern Oklahoma State,Oral Roberts,False,False,39,73,8,33,5,19,20,52,15,19,25,94,74,25,35,9,35,21,70,18,32,12
+372721,2026-11-07,regular,Grand Canyon,Bethune-Cookman,True,False,99,80,27,45,6,19,36,64,11,23,12,81,79,20,37,6,18,32,55,6,24,18
+372721,2026-11-07,regular,Bethune-Cookman,Grand Canyon,False,False,81,79,20,37,6,18,32,55,6,24,18,99,80,27,45,6,19,36,64,11,23,12
+374737,2026-11-07,regular,Pacific,Bradley,False,False,63,64,16,34,6,18,18,52,13,28,15,52,65,10,29,7,30,15,59,17,20,15
 378671,2026-11-07,regular,Southern Utah,Bethesda University,True,False,143,80,36,49,18,36,20,85,18,48,5,49,79,6,26,9,36,17,62,4,13,12
-374757,2026-11-07,regular,Weber State,Utah Valley,True,False,93,78,20,38,12,29,27,67,13,23,13,101,77,20,34,14,23,29,57,4,26,11
+378671,2026-11-07,regular,Bethesda University,Southern Utah,False,False,49,79,6,26,9,36,17,62,4,13,12,143,80,36,49,18,36,20,85,18,48,5
 374757,2026-11-07,regular,Utah Valley,Weber State,False,False,101,77,20,34,14,23,29,57,4,26,11,93,78,20,38,12,29,27,67,13,23,13
-378672,2026-11-07,regular,Bethesda University,Pepperdine,False,False,43,77,8,39,4,17,22,56,6,18,17,116,78,24,33,13,34,42,67,20,42,12
+374757,2026-11-07,regular,Weber State,Utah Valley,True,False,93,78,20,38,12,29,27,67,13,23,13,101,77,20,34,14,23,29,57,4,26,11
 378672,2026-11-07,regular,Pepperdine,Bethesda University,True,False,116,78,24,33,13,34,42,67,20,42,12,43,77,8,39,4,17,22,56,6,18,17
-372714,2026-11-07,regular,San José State,UC Irvine,False,False,79,74,16,32,13,32,11,64,6,18,11,91,75,27,44,6,19,27,63,16,30,15
-374736,2026-11-07,regular,Sacramento State,Santa Clara,False,False,77,84,15,31,9,30,31,61,7,35,15,83,85,19,41,10,31,20,72,11,34,14
+378672,2026-11-07,regular,Bethesda University,Pepperdine,False,False,43,77,8,39,4,17,22,56,6,18,17,116,78,24,33,13,34,42,67,20,42,12
 372714,2026-11-07,regular,UC Irvine,San José State,True,False,91,75,27,44,6,19,27,63,16,30,15,79,74,16,32,13,32,11,64,6,18,11
-374738,2026-11-07,regular,Seattle U,Portland State,True,False,79,68,23,39,4,13,30,52,11,28,12,60,69,15,37,5,20,24,57,12,18,13
-374758,2026-11-07,regular,Fresno State,UC San Diego,False,False,65,67,17,31,9,37,5,68,16,24,13,81,66,24,40,9,25,10,65,11,27,8
-374758,2026-11-07,regular,UC San Diego,Fresno State,True,False,81,66,24,40,9,25,10,65,11,27,8,65,67,17,31,9,37,5,68,16,24,13
-374738,2026-11-07,regular,Portland State,Seattle U,False,False,60,69,15,37,5,20,24,57,12,18,13,79,68,23,39,4,13,30,52,11,28,12
 374736,2026-11-07,regular,Santa Clara,Sacramento State,True,False,83,85,19,41,10,31,20,72,11,34,14,77,84,15,31,9,30,31,61,7,35,15
+372714,2026-11-07,regular,San José State,UC Irvine,False,False,79,74,16,32,13,32,11,64,6,18,11,91,75,27,44,6,19,27,63,16,30,15
+374738,2026-11-07,regular,Portland State,Seattle U,False,False,60,69,15,37,5,20,24,57,12,18,13,79,68,23,39,4,13,30,52,11,28,12
+374758,2026-11-07,regular,UC San Diego,Fresno State,True,False,81,66,24,40,9,25,10,65,11,27,8,65,67,17,31,9,37,5,68,16,24,13
+374758,2026-11-07,regular,Fresno State,UC San Diego,False,False,65,67,17,31,9,37,5,68,16,24,13,81,66,24,40,9,25,10,65,11,27,8
+374738,2026-11-07,regular,Seattle U,Portland State,True,False,79,68,23,39,4,13,30,52,11,28,12,60,69,15,37,5,20,24,57,12,18,13
+374736,2026-11-07,regular,Sacramento State,Santa Clara,False,False,77,84,15,31,9,30,31,61,7,35,15,83,85,19,41,10,31,20,72,11,34,14
