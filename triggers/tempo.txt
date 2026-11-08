@@ -1,2 +1,1 @@
---start 2026-11-06 --end 2026-11-06
-# Nov 6 games (GitHub cron late on Nov 7)
+--start 2026-11-01 --end 2026-11-07 --gap-fill 600
