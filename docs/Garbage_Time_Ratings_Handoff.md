@@ -1,0 +1,52 @@
+# Handoff: take garbage time out of the in-season ratings
+
+*Written Nov 8, 2026 from the daily-ops chat. Jon's decision (Nov 8): "I want garbage time out." This chat builds it in this repo. Start by reading the project docs `claude/Daily_Ops_Runbook.md`, `claude/Current_Files.md` and `claude/Tempo_Tracker_2026-27.md`. (This file lives in the repo because the project was out of room on Nov 8.)*
+
+## 1. The problem
+`jobs/ratings.py` builds every team's in-season rating from **CBBD box-score team totals**, i.e. every possession of every game, garbage time included. Bench-vs-bench possessions in blowouts mostly measure players who won't decide that team's competitive games, and how hard the leading team kept pressing.
+
+**How much garbage time there is (2026-27 D-I games through Nov 7, from `data/tempo/possessions_2026-11.csv.gz`, `lev` column):**
+- 300 D-I games; mean competitive share (mean `lev`) 0.82; 40 games under 0.60.
+- Central Connecticut at Syracuse (Nov 5): 46% of possessions low-leverage (`lev` < 0.5). Arkansas vs Arkansas-Pine Bluff: 37%. Virginia vs Drexel / Northeastern: 22% / 25%. Temple vs CCSU: 17%. Dartmouth at Marist: 0% (99% competitive).
+
+**Worked example (CCSU).** CCSU's whole in-season move (−2.0) came from two games: four-factor surprise −2.05 at Syracuse, −0.06 at Temple (games-1–2 method, averaged, λ = 0.2). Garbage time began at 17:21 of the 2nd half with Syracuse +27. Competitive 74 possessions: Syracuse +27 (+0.73 per possession pair). Garbage 62 possessions: +26 (+0.84). Whole game +53 (+0.78). So a competitive-only version moves CCSU only ~0.1–0.2 here, because the game was already lopsided. The effect varies game to game; don't generalize from this one.
+
+**Why the systematic bias is smaller than it first looks.** In games 1–2 a team moves by its surprise against what the priors expected, and that expectation regression was fit on composites that include garbage time too, so the average dilution is inside it. The main gain is less noise and fewer game-specific distortions, not removing a steady tilt. The SRS path (from game 3) has no such offset.
+
+## 2. How the ratings work now (decisions in force; runbook §4)
+- Pillars and weights: net 2PT% .32, OREB rate .26, TO rate .24, 3PT% .10, FTA rate .08 (`W` in `jobs/ratings.py`). Each pillar clipped at ±3 game SD.
+- From game 3: per-pillar ridge SRS (opponent/home-adjusted, `RIDGE` 0.5), composite z, blended with `z_prior` at λ = N/(N+K); K = 8 through Nov 30, ramp to 12 by Jan 15. Final margin is not an input.
+- Games 1–2 (option 2b): composite = a·home + b·(prior gap) fit across all games (Nov 8 fit on 300 games: a 0.077, b 0.365); a team's surprise = residual / b, averaged over its games; rating = z_prior + λ × surprise.
+- Games vs non-D-I opponents don't count. A team with no D-I games stays at its prior.
+- Card size curve (`jobs/card.py`): 0.20 pt per point of model spread beyond 10, **from Nov 8 only in non-conference games with the model favorite at home** (`size_curve` flag; Jon: it was fit on buy-game mismatches, 169 of 171 Nov 2–6 10+ games were home games). It was fit on week-one results that include garbage time, so it may be partly compensating.
+
+## 3. Data available
+- **CBBD play-by-play** is already pulled by `jobs/rotation.py` and `jobs/tempo.py`: date feed first, then `/plays/game/{id}` for the games the date feed skips (it returns about half a day's games). Reuse that fetch; don't write a third one.
+- **Leverage weights already exist** in the tempo/rotation jobs (`lev`, plus flags `half_end`, `short_clock`, `foul_seq`, `ot`). Use the same definition so "garbage time" means one thing everywhere. Exact definition and the raw-vs-competitive gate test: project doc `claude/Tempo_Tracker_2026-27.md`.
+- **What's missing:** the possession file has outcomes (`end_type`: made_fg / miss / to / ft …) and start types, but **no 2PT/3PT split, no FTA count, no offensive/defensive rebound credit**. A competitive-only composite needs a fuller parse of the plays: per team per game, over competitive possessions (or leverage-weighted): 2PM/2PA, 3PM/3PA, FTA, FGA, ORB, DRB, TO, possessions, both sides.
+- Box Out (repo jfendler31/Boxout) has its own nightly play-by-play pull; it doesn't feed DTP-model and shouldn't be wired in.
+
+## 4. Open decisions (put these to Jon; don't decide for him)
+1. **Hard cutoff vs leverage weighting.** Drop possessions below a threshold, or weight every possession by `lev`. Weighting avoids a cliff at the threshold; a cutoff is easier to explain.
+2. **Threshold** if a cutoff: reuse the tempo/rotation "competitive" definition unless there's a reason not to.
+3. **Free throws in foul sequences, end-of-half heaves, OT:** follow the tempo job's treatment unless Jon wants otherwise.
+4. **Rollout:** shadow first (both versions side by side) vs switch straight away. Recommended: shadow a few days, then switch on Jon's call.
+
+## 5. Build plan (suggested)
+1. Extend `jobs/tempo.py` (or add `jobs/pbp_factors.py`) to write `data/pbp/game_factors.csv`: one row per team-game, raw and competitive four-factor totals, keyed by CBBD gameId.
+2. In `jobs/ratings.py`, add a switch (e.g. `FACTOR_SRC = 'box' | 'competitive'`): use competitive totals where available, fall back to box totals for games missing play-by-play, log how many games used each.
+3. Refit what depends on the composite: the games-1–2 regression (refits each run) for sure; check whether K and the size curve still fit, ideally in the two-season backtest.
+4. **Shadow run:** write a second ratings file (e.g. `data/ratings_competitive.csv`) and a card column/edge for it without changing `data/ratings_current.csv`, so Jon can see how much ratings and edges move. Production ratings change only when Jon approves the switch.
+5. **Proper validation** needs the 2024-25 and 2025-26 CBBD game stores (not built yet; also needed for option 3, the K re-sweep and the size-curve sweep). Built from play-by-play, one pull covers all four.
+
+## 6. Constraints
+- Don't change `data/ratings_current.csv`, the card's model numbers, or the 4:15 AM pipeline until Jon approves the switch. `card.yml` runs on `triggers/card.txt` pushes; pushing code doesn't trigger it.
+- Jobs run on GitHub Actions via one-line pushes to `triggers/` (check for another chat's pending line first). Trigger files are passed whole as arguments: one line only, no comment lines (a `# refresh` line broke four player-box runs on Nov 7).
+- Commit messages end with the session's Co-Authored-By / Claude-Session lines.
+- Jon's conventions: lead with the answer; KenPom spelling; spreads on the half, model and edges to the tenth; no BET/PASS labels.
+
+## 7. Other Nov 8 changes the runbook doesn't have yet
+- **Betting Sheet tab** ships header-row ARRAYFORMULAs in Jon's Nov 7 form (`={"Header"; IF(F2:F500 …)}`), bounded to row 500, with cached results written by `jobs/xlsx_cache.py` (Google's import shows cached array results instead of recalculating). New column L `Size curve`.
+- **J sign:** the sheet computes edge = market − (model + J), so J is home-spread points: a home-team absence is **positive**, an away-team absence negative. The runbook line saying the reverse is wrong; Jon's own Nov 7 entries used the correct sign.
+- **Size curve** restricted as in §2.
+- Override added: Penn St. Roberts Blums out (broken finger, a few weeks), −0.60.
