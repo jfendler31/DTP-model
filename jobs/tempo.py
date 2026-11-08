@@ -344,6 +344,7 @@ def main():
     ap = argparse.ArgumentParser(); ap.add_argument('--start'); ap.add_argument('--end'); ap.add_argument('--from-json')
     ap.add_argument('--gap-fill', type=int, default=300, help='max /plays/game calls for D-I games the date feed skipped')
     ap.add_argument('--save-raw')
+    ap.add_argument('--refetch', action='store_true', help='gap-fill every missing game, even ones already parsed (after a parser change)')
     ap.add_argument('--diag', action='store_true', help='print what precedes unknown possession changes; write nothing')
     a = ap.parse_args()
     os.makedirs(OUT, exist_ok=True)
@@ -380,13 +381,21 @@ def main():
         # gap fill: games in the box-score store on these dates that the date feed left out (or failed on)
         if len(box) and a.gap_fill:
             want = box[(box.date >= start) & (box.date <= end) & box.isHome].gameId.astype(int).unique().tolist()
-            missing = [g for g in want if g not in games]
+            # games already parsed completely on an earlier run (both teams' possessions within 6 of the box count)
+            # aren't fetched again: the morning card job parses yesterday, and the Tempo tracker run after it only
+            # needs the games that weren't posted yet (saves CBBD calls)
+            done = set()
+            if len(old_tg) and 'poss_diff' in old_tg and not a.refetch:
+                ok = old_tg.groupby('gameId').poss_diff.apply(lambda v: len(v) == 2 and v.abs().max() <= 6)
+                done = set(int(g) for g in ok[ok].index)
+            missing = [g for g in want if g not in games and g not in done]
             fetched = 0
             for g in missing[:a.gap_fill]:
                 pl = get(f'/plays/game/{g}')
                 if pl:
                     games[g] = pl; fetched += 1
-            print(f'{len(games)} games tipping {start} to {end} (ET); gap fill fetched {fetched} of {len(missing)} missing'
+            print(f'{len(games)} games tipping {start} to {end} (ET); gap fill fetched {fetched} of {len(missing)} missing '
+                  f'({len([g for g in want if g in done and g not in games])} already parsed, skipped)'
                   + (f' (capped at {a.gap_fill})' if len(missing) > a.gap_fill else ''), flush=True)
 
     box_date = dict(zip(box.gameId.astype(int), box.date)) if len(box) else {}
