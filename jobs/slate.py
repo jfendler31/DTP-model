@@ -2,16 +2,18 @@
 Writes data/slate_<date>.csv in the card's format: date, tip_ET, away, home, venue (H/N), site.
 Team names are mapped to KenPom spelling (the names in data/prior_2026-27.csv). Games with a team that
 can't be mapped (non-D-I opponents, unknown spellings) are left out and listed in the log.
-Usage: python jobs/slate.py [--date YYYY-MM-DD] [--force]   (skips if the slate file already exists unless --force)"""
+Usage: python jobs/slate.py [--date YYYY-MM-DD] [--force]   (skips if the slate file already exists unless --force)
+--finals: writes data/finals/finals_<date>.csv instead (same rows plus status and scores; for grading when CBBD lags)."""
 import os, sys, json, argparse, datetime as dt
 from zoneinfo import ZoneInfo
 import pandas as pd, requests
 sys.path.insert(0, os.path.dirname(__file__)); from absence_sweep import make_fixer
 ET = ZoneInfo('America/New_York')
-ap = argparse.ArgumentParser(); ap.add_argument('--date'); ap.add_argument('--force', action='store_true'); ap.add_argument('--outdir', default='data'); a = ap.parse_args()
+ap = argparse.ArgumentParser(); ap.add_argument('--date'); ap.add_argument('--force', action='store_true'); ap.add_argument('--outdir', default='data'); ap.add_argument('--finals', action='store_true'); a = ap.parse_args()
 day = a.date or dt.datetime.now(ET).strftime('%Y-%m-%d')
-os.makedirs(a.outdir, exist_ok=True); out_f = f'{a.outdir}/slate_{day}.csv'
-if os.path.exists(out_f) and not a.force: print(out_f, 'already exists - skipping'); sys.exit(0)
+if a.finals: a.outdir = 'data/finals'
+os.makedirs(a.outdir, exist_ok=True); out_f = f'{a.outdir}/' + ('finals' if a.finals else 'slate') + f'_{day}.csv'
+if os.path.exists(out_f) and not a.force and not a.finals: print(out_f, 'already exists - skipping'); sys.exit(0)
 
 P = pd.read_csv('data/prior_2026-27.csv'); K = set(P.team); fix = make_fixer(P.team)
 xa = json.load(open('data/xwalk_oddsapi_cbbd.json')); xb = json.load(open('data/xwalk_cbbd_kp.json'))
@@ -54,7 +56,10 @@ for e in ev:
     v = c.get('venue', {}); city = v.get('address', {}).get('city', '')
     rows.append(dict(date=day, tip_ET=f"{t:%a %b} {t.day} {t:%-I:%M %p}", away=aw, home=hm,
                      venue='N' if c.get('neutralSite') else 'H', site=f"{v.get('fullName', '')}, {city}".strip(', ')))
-S = pd.DataFrame(rows, columns=['date', 'tip_ET', 'away', 'home', 'venue', 'site'])
+    if a.finals:
+        sc = {x['homeAway']: x.get('score') for x in c['competitors']}
+        rows[-1].update(status=c.get('status', {}).get('type', {}).get('name', ''), away_pts=sc.get('away'), home_pts=sc.get('home'))
+S = pd.DataFrame(rows, columns=['date', 'tip_ET', 'away', 'home', 'venue', 'site'] + (['status', 'away_pts', 'home_pts'] if a.finals else []))
 S.to_csv(out_f, index=False)
 print(f'{out_f}: {len(S)} games ({int((S.venue == "N").sum())} neutral); {len(skipped)} left out (team not in KenPom list):')
 for s in skipped: print('   ', s)
