@@ -66,4 +66,4 @@
 - **Card job order:** `ratings.py --games-only` (box pull) → `tempo.py` (play-by-play for yesterday, 15-min timeout; writes `data/pbp/game_factors.csv`) → `ratings.py --offline` → card. Late games CBBD hasn't posted play-by-play for by 4:15 use box totals that morning and switch to play-by-play the next day.
 - **Shadow** (`jobs/ratings_shadow.py`, end of every Tempo tracker run): production (`cw_gw`, self-checked against `ratings_current.csv`) vs equal-weight `cw` vs old `box`; `data/ratings_shadow/card_<date>.csv` shows each card game's model under all three.
 - **Size curve:** still fits. On Nov 5–7 home favorites with 10+ model spreads (86 games), the favorite beat the model by +3.5 under box and +3.3 under the new ratings — the curve isn't double-counting garbage time. K unchanged; both wait on the two-season sweep.
-- Nov 8 effect vs the old ratings: mean |Δ| 0.47 pts per team, 90th pct 1.1, max 3.9 (LSU New Orleans −2.9 among the larger).
+- Nov 8 effect vs the old ratings: mean |Δ| 0.47 pts per team, 90th pct 1.1, max 3.9 (Le Moyne −3.9, LSU New Orleans −2.9, New Haven −2.6, Tulsa +2.2).
