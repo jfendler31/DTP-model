@@ -2,6 +2,8 @@
 # Runs right after every Daily card run (the 4:15 AM card is kicked by push; GitHub's cron can run hours late) and on
 # its own cron as a fallback; on demand via Actions -> Tempo tracker,
 # or by putting "--start YYYY-MM-DD --end YYYY-MM-DD" in triggers/tempo.txt.
+# Also writes data/pbp/game_factors.csv (four-factor totals, raw / competitive) and runs jobs/ratings_shadow.py
+# (shadow ratings with garbage time out, beside production; data/ratings_current.csv is not touched).
 name: Tempo tracker
 on:
   workflow_run:
@@ -34,9 +36,13 @@ jobs:
           python jobs/tempo.py $ARGS
         env:
           CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
+      - name: Shadow ratings (garbage time out; production untouched)
+        continue-on-error: true
+        run: python jobs/ratings_shadow.py
       - name: Save
         run: |
           git config user.name "dtp-bot"; git config user.email "actions@users.noreply.github.com"
           git add data/tempo
+          for d in data/pbp data/ratings_shadow; do [ -d "$d" ] && git add "$d"; done; true
           git commit -m "tempo tracker" || echo "nothing new"
           git pull --rebase origin main && git push origin HEAD:main

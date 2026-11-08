@@ -31,6 +31,7 @@ Possession counts are checked against the box-score possessions in data/games_20
 Outputs (data/tempo/):
   possessions_<YYYY-MM>.csv.gz  one row per possession
   team_games.csv                one row per team-game: possession counts (parsed vs box), APL raw/comp
+  ../pbp/game_factors.csv       one row per team-game: four-factor totals raw / competitive (jobs/pbp_factors.py)
   teams_current.csv             one row per team (KenPom spelling), pooled over D-I games so far
 
 Usage: python jobs/tempo.py [--start YYYY-MM-DD] [--end YYYY-MM-DD] [--gap-fill N]
@@ -43,6 +44,15 @@ import pandas as pd
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from rotation import weight, make_clock, period_start, period_len, t_left, by_game, et_date, REG
+
+
+def game_factors(*a):
+    from pbp_factors import game_factors as gf
+    return gf(*a)
+
+def write_factors(rows):
+    from pbp_factors import write
+    return write(rows)
 
 
 def api():
@@ -381,6 +391,7 @@ def main():
 
     box_date = dict(zip(box.gameId.astype(int), box.date)) if len(box) else {}
     poss_all, tg_rows, unknown = [], [], collections.Counter()
+    fac_rows, fac_err = [], collections.Counter()   # four-factor totals for the garbage-time-free ratings (jobs/pbp_factors.py)
     for gid, plays in games.items():
         rows, meta = parse_game(gid, plays)
         if not rows: continue
@@ -389,6 +400,10 @@ def main():
         if not date: continue
         for r in rows: r['date'] = date
         poss_all += rows
+        try:
+            for f in game_factors(gid, plays, rows, meta): f['date'] = date; fac_rows.append(f)
+        except Exception as e:                      # never let the factor pass break the tempo outputs
+            fac_err[type(e).__name__] += 1
         pr = pd.DataFrame(rows)
         for team in (meta['home'], meta['away']):
             o = pr[pr.team == team]; oc = o[~(o.ot | o.half_end | o.short_clock | o.foul_seq)]
@@ -425,6 +440,11 @@ def main():
         new_tg['poss_diff'] = new_tg.poss_parsed - new_tg.poss_box
     tg = pd.concat([old_tg[~old_tg.gameId.isin(new_tg.gameId)] if len(old_tg) else old_tg, new_tg], ignore_index=True)
     tg = tg.sort_values(['date', 'gameId', 'team']); tg.to_csv(f_tg, index=False)
+    try:
+        nf = write_factors(fac_rows)
+        print(f'four-factor totals: {nf} team-games -> data/pbp/game_factors.csv' + (f'; failed on {dict(fac_err)}' if fac_err else ''))
+    except Exception as e:
+        print(f'four-factor totals not written: {type(e).__name__}: {e}')
 
     # profiles from the whole store
     store = pd.concat([pd.read_csv(f'{OUT}/{f}') for f in sorted(os.listdir(OUT)) if f.startswith('possessions_')], ignore_index=True)
