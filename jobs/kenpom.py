@@ -7,6 +7,7 @@ Outputs (data/kenpom/):
   ratings_<date>.csv    endpoint=ratings&y=<season>: AdjOE / AdjDE / AdjTempo / APL_Off / APL_Def ... as of the pull
   ratings_current.csv   copy of the latest
   fanmatch_<date>.csv   endpoint=fanmatch&d=<date>: GameID, Visitor, Home, VisitorPred, HomePred, HomeWP, PredTempo
+  preseason_<y>.csv     endpoint=archive&preseason=true&y=<y>: KenPom's preseason ratings for a past season (backtests)
 
 Usage: python jobs/kenpom.py [--date YYYY-MM-DD]   (default: today ET; season = 2027 for 2026-27)
 """
@@ -43,13 +44,16 @@ def season_for(d):
 
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument('--date'); ap.add_argument('--fanmatch-only', action='store_true', help='past date: FanMatch only, leave the ratings files alone'); ap.add_argument('--height', action='store_true')
+    ap = argparse.ArgumentParser(); ap.add_argument('--date'); ap.add_argument('--fanmatch-only', action='store_true', help='past date: FanMatch only, leave the ratings files alone'); ap.add_argument('--height', action='store_true'); ap.add_argument('--preseason', type=int, help='season (ending year): archived preseason ratings -> preseason_<y>.csv')
     a = ap.parse_args()
     d = dt.date.fromisoformat(a.date) if a.date else dt.datetime.now(ET).date()
     y = season_for(d)
     os.makedirs(OUT, exist_ok=True)
     get = getter()
 
+    if a.preseason:
+        p_ = pd.DataFrame(get('archive', preseason='true', y=a.preseason)); p_.to_csv(f'{OUT}/preseason_{a.preseason}.csv', index=False)
+        print(f'preseason y={a.preseason}: {len(p_)} teams; columns {list(p_.columns)}'); return
     if a.height:
         h = pd.DataFrame(get('height', y=y)); h.to_csv(f'{OUT}/height_{d}.csv', index=False)
         print(f'height y={y}: {len(h)} teams; columns {list(h.columns)}'); return
