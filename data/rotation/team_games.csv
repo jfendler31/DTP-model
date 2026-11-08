@@ -833,8 +833,8 @@ gameId,date,team,opponent,periods,source,reliable,team_min_raw,team_min_lev,comp
 374751,2026-11-07,UT Rio Grande Valley,Prairie View A&M,2,onFloor,True,200.0,197.0,0.985,7.81,7.85,10,Chris Uwayo / Bobby Crawford Jr. / B.B. Knight / Devon Pryor / Jace Posey,1.0,True,True,5,8.79
 374752,2026-11-07,UNC Asheville,Western Carolina,2,onFloor (scaled),True,200.0,198.7,0.993,7.95,7.96,9,Ja'Corey Lipkins / Tylon Chatman / Daniel Thomas / Myles Mayfield / Connor Dubsky,0.898,True,True,-8,8.21
 374752,2026-11-07,Western Carolina,UNC Asheville,2,onFloor,True,200.0,198.7,0.993,8.53,8.53,11,Jaxon Prunty / Malachi Brown / Jaeden Roberts / Tayeshaun Smith / Isaiah Manning,1.0,False,True,8,8.92
-374753,2026-11-07,Morgan State,Niagara,2,onFloor,True,200.0,199.7,0.999,7.0,7.0,10,Trent Edwards / Keith Richard / Jeremiah Kwarteng / Alfred Worrell Jr. / Oliver Spence,1.0,False,True,4,8.02
-374753,2026-11-07,Niagara,Morgan State,2,onFloor,True,200.0,199.7,0.999,8.52,8.53,11,Samuele Miccoli / Logan Woods / Ruey Ruey / Bastien Rieber / Fidel Rotta,1.0,True,True,-4,8.16
+374753,2026-11-07,Morgan State,Niagara,2,onFloor,True,200.0,199.7,0.999,7.0,7.0,10,Trent Edwards / Keith Richard / Jeremiah Kwarteng / Alfred Worrell Jr. / Oliver Spence,1.0,False,True,6,8.02
+374753,2026-11-07,Niagara,Morgan State,2,onFloor,True,200.0,199.7,0.999,8.52,8.53,11,Samuele Miccoli / Logan Woods / Ruey Ruey / Bastien Rieber / Fidel Rotta,1.0,True,True,-6,8.16
 374754,2026-11-07,Davidson,Mercer,2,onFloor,True,200.0,187.7,0.939,7.5,7.66,10,Josh Scovens / Sam Brown / Jackson Keith / Ian Platteeuw / Nick Janowski,1.0,True,True,12,7.99
 374754,2026-11-07,Mercer,Davidson,2,onFloor,True,200.0,187.7,0.939,6.68,6.75,8,Brady Shoulders / Karon Boyd / Quinton Perkins II / Derek Goodman / Makoi Mabor Makoi,1.0,False,True,-12,7.01
 374755,2026-11-07,Evansville,Southern Indiana,3,onFloor,True,225.0,225.0,1.0,7.08,7.08,9,Caden Symons / AJ Casey / Bryce Quinet / Makuei Riek / Aaron Gutman,1.0,True,True,2,7.34
