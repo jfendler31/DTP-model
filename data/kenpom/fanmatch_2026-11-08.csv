@@ -1,0 +1,30 @@
+Season,GameID,DateOfGame,Visitor,Home,Location,HomeRank,VisitorRank,HomePred,VisitorPred,HomeWP,PredTempo,ThrillScore
+2027,414,2026-11-08,Fairfield,Bryant,Home,312,264,72,73,49,71,30.5
+2027,415,2026-11-08,Manhattan,Maine,Home,335,329,71,69,57,69,28.0
+2027,417,2026-11-08,Sacred Heart,New Hampshire,Home,321,324,74,71,60,71,28.3
+2027,418,2026-11-08,Princeton,Siena,Home,303,152,70,76,31,70,29.0
+2027,419,2026-11-08,Marist,UMass Lowell,Home,276,293,75,71,63,72,28.6
+2027,421,2026-11-08,Central Connecticut,Dartmouth,Home,280,349,73,66,74,70,21.7
+2027,422,2026-11-08,Green Bay,St. Thomas,Home,154,221,79,72,72,69,29.3
+2027,423,2026-11-08,Quinnipiac,Vermont,Home,158,263,73,65,75,69,24.9
+2027,425,2026-11-08,Idaho St.,Air Force,Home,294,342,78,71,72,71,23.8
+2027,426,2026-11-08,Rider,Binghamton,Home,341,355,73,68,66,68,25.3
+2027,427,2026-11-08,North Dakota St.,Cal St. Bakersfield,Home,259,227,77,75,55,70,32.8
+2027,428,2026-11-08,Wichita St.,USC,Neutral,34,81,81,75,71,73,62.8
+2027,429,2026-11-08,Merrimack,Albany,Home,330,275,67,68,45,66,28.7
+2027,430,2026-11-08,Brown,Lehigh,Home,250,267,70,67,61,69,29.3
+2027,431,2026-11-08,Saint Peter's,NJIT,Home,356,325,66,67,46,67,27.5
+2027,432,2026-11-08,Pittsburgh,Penn St.,Neutral,97,65,75,79,36,72,58.5
+2027,433,2026-11-08,Southeast Missouri,South Carolina,Home,86,269,82,65,93,71,14.8
+2027,434,2026-11-08,Richmond,Temple,Semi-Home,127,125,76,75,54,71,46.6
+2027,435,2026-11-08,Arkansas,Virginia,Semi-Home,16,18,81,78,59,74,83.5
+2027,436,2026-11-08,Campbell,Western Michigan,Home,214,268,78,73,68,70,28.6
+2027,437,2026-11-08,Norfolk St.,William & Mary,Home,207,286,82,75,74,74,25.6
+2027,439,2026-11-08,Southern,Drake,Home,145,281,80,69,84,73,19.8
+2027,441,2026-11-08,Western Kentucky,Tennessee Tech,Home,211,122,78,82,35,74,38.3
+2027,442,2026-11-08,Butler,Boise St.,Home,60,83,78,73,69,71,56.0
+2027,443,2026-11-08,Houston,California,Neutral,101,3,64,81,7,70,37.1
+2027,445,2026-11-08,Saint Mary's,Nevada,Semi-Home,59,63,73,71,58,69,65.4
+2027,1005,2026-11-08,Iona,St. John's,Home,27,188,83,62,97,72,16.0
+2027,5767,2026-11-08,UT Arlington,Hawaii,Home,134,206,78,70,76,73,28.7
+2027,5776,2026-11-08,Incarnate Word,UTEP,Home,184,323,78,67,83,71,18.5

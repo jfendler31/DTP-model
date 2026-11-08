@@ -57,51 +57,80 @@ date,tip_ET,away,home,venue,early_total,kp_total,kp_tempo,ppp_game,net_eff_gap,g
 2026-11-06,Fri Nov 6 9:00 PM,CSUN,Kansas St.,H,164.0,156,76.0,1.0371,5.2,1,1,-0.75,Kansas St.,155.6,-8.4,U,1.32,CSUN,157.7,-6.3,U,False,False,173.0,,,L,L
 2026-11-06,Fri Nov 6 9:30 PM,Cal Baptist,Oregon St.,H,155.5,149,72.0,1.0407,17.9,1,1,2.21,Oregon St.,150.2,-5.3,U,2.2,Oregon St.,150.2,-5.3,U,False,False,164.0,,,L,L
 2026-11-06,Fri Nov 6 9:30 PM,Tarleton St.,San Diego,H,148.0,148,72.0,1.0377,2.6,0,0,,,,,,,,,,,False,False,186.0,,,W,W
-2026-11-07,Sat Nov 7 10:00 PM,Portland St.,Seattle,H,144.5,143,73.0,1.0166,11.6,0,1,,,,,,,,,,,False,False,,,,,
-2026-11-07,Sat Nov 7 10:00 PM,Fresno St.,UC San Diego,H,151.5,152,73.0,1.0496,10.6,0,0,,,,,,,,,,,False,False,,,,,
-2026-11-07,Sat Nov 7 10:00 PM,Sacramento St.,Santa Clara,H,167.5,165,76.0,1.0713,16.5,0,2,,,,,,,,,,,False,False,,,,,
-2026-11-07,Sat Nov 7 10:00 PM,San Jose St.,UC Irvine,H,146.5,144,71.0,1.0347,4.0,1,0,,,,,,,,,,,False,False,,,,,
-2026-11-07,Sat Nov 7 12:00 PM,Morehead St.,Louisville,H,152.0,150,71.0,1.0544,38.1,1,1,0.48,Louisville,150.1,-1.9,U,1.03,Louisville,150.1,-1.9,U,False,False,,,,,
-2026-11-07,Sat Nov 7 12:00 PM,North Dakota,Winthrop,H,159.5,162,74.0,1.0762,9.7,1,1,1.82,Winthrop,159.3,-0.2,U,1.29,Winthrop,159.3,-0.2,U,False,False,,,,,
-2026-11-07,Sat Nov 7 1:00 PM,North Carolina A&T,Ohio,H,161.0,159,73.0,1.0692,14.2,0,1,,,,,,,,,,,False,False,,,,,
-2026-11-07,Sat Nov 7 2:00 PM,Toledo,Marshall,H,158.5,155,73.0,1.055,2.7,2,1,1.19,Marshall,154.2,-4.3,U,0.23,Marshall,154.2,-4.3,U,False,False,,,,,
-2026-11-07,Sat Nov 7 2:00 PM,Colgate,Drexel,H,146.5,146,70.0,1.0487,2.1,1,1,-0.25,Colgate,146.5,0.0,,-0.42,Colgate,146.1,-0.4,U,False,False,,,,,
-2026-11-07,Sat Nov 7 2:00 PM,Cal St. Fullerton,South Dakota,H,174.0,165,76.0,1.0671,4.9,1,1,0.45,Cal St. Fullerton,162.2,-11.8,U,0.42,Cal St. Fullerton,162.2,-11.8,U,False,False,,,,,
-2026-11-07,Sat Nov 7 2:00 PM,UNC Wilmington,East Carolina,H,149.5,151,70.0,1.0659,8.3,0,1,,,,,,,,,,,False,False,,,,,
-2026-11-07,Sat Nov 7 2:00 PM,Lamar,Abilene Christian,H,163.5,144,71.0,1.0326,2.7,0,1,,,,,,,,,,,False,False,,,,,
-2026-11-07,Sat Nov 7 3:00 PM,North Carolina Central,Longwood,H,148.5,147,72.0,1.038,14.1,1,1,0.51,Longwood,149.8,1.3,O,0.46,Longwood,149.8,1.3,O,False,False,,,,,
-2026-11-07,Sat Nov 7 3:00 PM,VCU,Memphis,H,158.5,158,74.0,1.0565,2.0,1,1,-1.46,VCU,152.3,-6.2,U,-1.21,VCU,153.0,-5.5,U,False,False,,,,,
-2026-11-07,Sat Nov 7 3:00 PM,Long Beach St.,Montana St.,H,146.5,147,71.0,1.0475,8.6,1,1,0.97,Montana St.,149.1,2.6,O,0.96,Montana St.,149.1,2.6,O,False,False,,,,,
-2026-11-07,Sat Nov 7 3:30 PM,LIU,La Salle,H,146.5,146,72.0,1.0351,3.7,2,1,1.33,LIU,149.4,2.9,O,1.51,LIU,149.4,2.9,O,False,False,,,,,
-2026-11-07,Sat Nov 7 3:30 PM,San Diego St.,Colorado,N,154.5,154,73.0,1.0562,0.1,1,1,-0.77,Colorado,152.2,-2.3,U,-1.61,Colorado,149.8,-4.7,U,False,False,,,,,
-2026-11-07,Sat Nov 7 4:00 PM,Nebraska Omaha,Utah St.,H,152.5,151,70.0,1.0652,27.5,1,1,1.59,Utah St.,149.5,-3.0,U,1.45,Utah St.,149.5,-3.0,U,False,False,,,,,
-2026-11-07,Sat Nov 7 4:00 PM,Oakland,UC Santa Barbara,H,150.0,152,70.0,1.0665,10.9,2,0,,,,,,,,,,,False,False,,,,,
-2026-11-07,Sat Nov 7 4:00 PM,Samford,UNLV,H,156.5,155,72.0,1.0628,13.4,0,1,,,,,,,,,,,False,False,,,,,
-2026-11-07,Sat Nov 7 4:00 PM,Lafayette,Saint Joseph's,H,146.5,144,72.0,1.021,20.1,1,1,0.78,neither,147.5,1.0,O,0.82,neither,147.5,1.0,O,False,False,,,,,
-2026-11-07,Sat Nov 7 4:00 PM,Monmouth,Rhode Island,N,145.5,147,71.0,1.0423,7.2,1,1,0.3,Rhode Island,148.4,2.9,O,0.69,Rhode Island,148.4,2.9,O,False,False,,,,,
-2026-11-07,Sat Nov 7 5:00 PM,Washington St.,High Point,H,153.5,152,72.0,1.0534,10.1,1,2,-0.29,High Point,151.1,-2.4,U,-0.05,High Point,151.8,-1.7,U,False,False,,,,,
-2026-11-07,Sat Nov 7 5:00 PM,Bellarmine,Miami OH,H,159.5,157,71.0,1.0793,17.4,2,1,1.63,Miami OH,153.5,-6.0,U,1.55,Miami OH,153.5,-6.0,U,False,False,,,,,
-2026-11-07,Sat Nov 7 5:00 PM,Tennessee Martin,IU Indy,H,162.5,153,72.0,1.0524,1.6,1,0,,,,,,,,,,,False,False,,,,,
-2026-11-07,Sat Nov 7 5:00 PM,SIUE,Lipscomb,H,143.5,149,71.0,1.046,6.7,0,2,,,,,,,,,,,False,False,,,,,
-2026-11-07,Sat Nov 7 5:00 PM,Northern Iowa,Furman,H,149.5,147,69.0,1.0652,0.4,0,1,,,,,,,,,,,False,False,,,,,
-2026-11-07,Sat Nov 7 5:00 PM,VMI,UTSA,H,163.5,161,75.0,1.0632,5.5,1,1,-0.65,UTSA,157.6,-5.9,U,1.85,VMI,159.5,-4.0,U,False,False,,,,,
-2026-11-07,Sat Nov 7 5:00 PM,New Mexico St.,Gonzaga,H,151.5,149,71.0,1.0499,22.7,0,1,,,,,,,,,,,False,False,,,,,
-2026-11-07,Sat Nov 7 5:00 PM,Old Dominion,Bucknell,H,144.5,142,70.0,1.0353,10.0,1,1,-0.42,Old Dominion,144.3,-0.2,U,-0.72,Old Dominion,143.4,-1.1,U,False,False,,,,,
-2026-11-07,Sat Nov 7 5:30 PM,Prairie View A&M,UT Rio Grande Valley,H,149.5,151,73.0,1.0426,5.7,0,0,,,,,,,,,,,False,False,,,,,
-2026-11-07,Sat Nov 7 5:30 PM,Western Carolina,UNC Asheville,H,149.5,151,71.0,1.0532,10.4,1,1,0.92,Western Carolina,149.9,0.4,O,0.68,Western Carolina,149.9,0.4,O,False,False,,,,,
-2026-11-07,Sat Nov 7 6:00 PM,Hampton,George Washington,H,147.5,145,72.0,1.0292,16.1,1,1,0.68,George Washington,148.6,1.1,O,-0.11,George Washington,148.3,0.8,O,False,False,,,,,
-2026-11-07,Sat Nov 7 6:00 PM,Northern Arizona,New Mexico,H,155.5,153,71.0,1.0679,23.7,1,1,1.02,New Mexico,151.9,-3.6,U,0.78,New Mexico,151.9,-3.6,U,False,False,,,,,
-2026-11-07,Sat Nov 7 6:30 PM,Morgan St.,Niagara,H,150.5,153,71.0,1.0605,4.4,0,1,,,,,,,,,,,False,False,,,,,
-2026-11-07,Sat Nov 7 7:00 PM,Providence,Nebraska,N,156.5,156,73.0,1.0601,8.3,1,1,0.71,Providence,154.9,-1.6,U,0.74,Providence,154.9,-1.6,U,False,False,,,,,
-2026-11-07,Sat Nov 7 7:00 PM,St. Bonaventure,Canisius,H,147.5,144,70.0,1.0413,12.2,1,1,0.82,St. Bonaventure,146.3,-1.2,U,0.72,St. Bonaventure,146.3,-1.2,U,False,False,,,,,
-2026-11-07,Sat Nov 7 7:00 PM,Northern Illinois,Dayton,H,146.5,151,69.0,1.0677,25.9,2,1,1.71,Dayton,147.8,1.3,O,1.68,Dayton,147.8,1.3,O,False,False,,,,,
-2026-11-07,Sat Nov 7 7:00 PM,Mercer,Davidson,H,148.5,148,70.0,1.0521,12.8,1,1,-0.47,Davidson,146.4,-2.1,U,-0.23,Davidson,147.1,-1.4,U,False,False,,,,,
-2026-11-07,Sat Nov 7 7:00 PM,Houston Christian,Western Illinois,H,139.5,138,69.0,1.0286,16.9,0,1,,,,,,,,,,,False,False,,,,,
-2026-11-07,Sat Nov 7 7:30 PM,Denver,UC Riverside,H,154.5,154,72.0,1.0587,0.2,1,0,,,,,,,,,,,False,False,,,,,
-2026-11-07,Sat Nov 7 7:30 PM,Maryland,Georgetown,H,146.5,147,70.0,1.0549,5.6,1,1,0.65,Maryland,148.1,1.6,O,0.37,Maryland,148.1,1.6,O,False,False,,,,,
-2026-11-07,Sat Nov 7 8:00 PM,Northwestern St.,Murray St.,H,153.5,149,73.0,1.0363,21.9,2,1,0.53,Murray St.,151.6,-1.9,U,1.12,Murray St.,151.6,-1.9,U,False,False,,,,,
-2026-11-07,Sat Nov 7 8:00 PM,Southern Indiana,Evansville,H,146.0,142,72.0,1.0224,5.2,1,0,,,,,,,,,,,False,False,,,,,
-2026-11-07,Sat Nov 7 8:00 PM,Southeastern Louisiana,Little Rock,H,147.5,146,71.0,1.0405,6.0,1,1,-0.565,neither,146.6,-0.9,U,-1.94,Southeastern Louisiana,142.7,-4.8,U,False,False,,,,,
-2026-11-07,Sat Nov 7 8:00 PM,Pacific,Bradley,H,143.5,142,69.0,1.0388,4.0,0,0,,,,,,,,,,,False,False,,,,,
-2026-11-07,Sat Nov 7 8:00 PM,Bethune Cookman,Grand Canyon,H,152.5,150,73.0,1.0402,22.2,2,1,1.48,Grand Canyon,152.1,-0.4,U,1.96,Grand Canyon,152.1,-0.4,U,False,False,,,,,
-2026-11-07,Sat Nov 7 9:00 PM,Utah Valley,Weber St.,H,156.5,151,73.0,1.0397,16.6,0,1,,,,,,,,,,,False,False,,,,,
+2026-11-07,Sat Nov 7 10:00 PM,Portland St.,Seattle,H,144.5,143,73.0,1.0166,11.6,0,1,,,,,,,,,,,False,False,139.0,,,L,L
+2026-11-07,Sat Nov 7 10:00 PM,Fresno St.,UC San Diego,H,151.5,152,73.0,1.0496,10.6,0,0,,,,,,,,,,,False,False,146.0,,,L,L
+2026-11-07,Sat Nov 7 10:00 PM,Sacramento St.,Santa Clara,H,167.5,165,76.0,1.0713,16.5,0,2,,,,,,,,,,,False,False,160.0,,,L,L
+2026-11-07,Sat Nov 7 10:00 PM,San Jose St.,UC Irvine,H,146.5,144,71.0,1.0347,4.0,1,0,,,,,,,,,,,False,False,170.0,,,W,W
+2026-11-07,Sat Nov 7 12:00 PM,Morehead St.,Louisville,H,152.0,150,71.0,1.0544,38.1,1,1,0.48,Louisville,150.1,-1.9,U,1.03,Louisville,150.1,-1.9,U,False,False,164.0,151.0,151.5,L,L
+2026-11-07,Sat Nov 7 12:00 PM,North Dakota,Winthrop,H,159.5,162,74.0,1.0762,9.7,1,1,1.82,Winthrop,159.3,-0.2,U,1.29,Winthrop,159.3,-0.2,U,False,False,183.0,159.5,159.5,L,L
+2026-11-07,Sat Nov 7 1:00 PM,North Carolina A&T,Ohio,H,161.0,159,73.0,1.0692,14.2,0,1,,,,,,,,,,,False,False,150.0,161.5,161.5,L,L
+2026-11-07,Sat Nov 7 2:00 PM,Toledo,Marshall,H,158.5,155,73.0,1.055,2.7,2,1,1.19,Marshall,154.2,-4.3,U,0.23,Marshall,154.2,-4.3,U,False,False,157.0,157.5,158.5,W,W
+2026-11-07,Sat Nov 7 2:00 PM,Colgate,Drexel,H,146.5,146,70.0,1.0487,2.1,1,1,-0.25,Colgate,146.5,0.0,,-0.42,Colgate,146.1,-0.4,U,False,False,151.0,146.5,143.5,W,L
+2026-11-07,Sat Nov 7 2:00 PM,Cal St. Fullerton,South Dakota,H,174.0,165,76.0,1.0671,4.9,1,1,0.45,Cal St. Fullerton,162.2,-11.8,U,0.42,Cal St. Fullerton,162.2,-11.8,U,False,False,172.0,167.5,175.5,W,W
+2026-11-07,Sat Nov 7 2:00 PM,UNC Wilmington,East Carolina,H,149.5,151,70.0,1.0659,8.3,0,1,,,,,,,,,,,False,False,153.0,149.5,150.5,W,W
+2026-11-07,Sat Nov 7 2:00 PM,Lamar,Abilene Christian,H,163.5,144,71.0,1.0326,2.7,0,1,,,,,,,,,,,False,False,164.0,148.5,165.5,W,W
+2026-11-07,Sat Nov 7 3:00 PM,North Carolina Central,Longwood,H,148.5,147,72.0,1.038,14.1,1,1,0.51,Longwood,149.8,1.3,O,0.46,Longwood,149.8,1.3,O,False,False,155.0,148.5,149.0,W,W
+2026-11-07,Sat Nov 7 3:00 PM,VCU,Memphis,H,158.5,158,74.0,1.0565,2.0,1,1,-1.46,VCU,152.3,-6.2,U,-1.21,VCU,153.0,-5.5,U,False,False,177.0,157.5,159.0,L,L
+2026-11-07,Sat Nov 7 3:00 PM,Long Beach St.,Montana St.,H,146.5,147,71.0,1.0475,8.6,1,1,0.97,Montana St.,149.1,2.6,O,0.96,Montana St.,149.1,2.6,O,False,False,153.0,147.5,147.0,W,W
+2026-11-07,Sat Nov 7 3:30 PM,LIU,La Salle,H,146.5,146,72.0,1.0351,3.7,2,1,1.33,LIU,149.4,2.9,O,1.51,LIU,149.4,2.9,O,False,False,168.0,145.5,148.5,W,W
+2026-11-07,Sat Nov 7 3:30 PM,San Diego St.,Colorado,N,154.5,154,73.0,1.0562,0.1,1,1,-0.77,Colorado,152.2,-2.3,U,-1.61,Colorado,149.8,-4.7,U,False,False,143.0,155.5,153.5,W,W
+2026-11-07,Sat Nov 7 4:00 PM,Nebraska Omaha,Utah St.,H,152.5,151,70.0,1.0652,27.5,1,1,1.59,Utah St.,149.5,-3.0,U,1.45,Utah St.,149.5,-3.0,U,False,False,146.0,152.0,153.5,W,W
+2026-11-07,Sat Nov 7 4:00 PM,Oakland,UC Santa Barbara,H,150.0,152,70.0,1.0665,10.9,2,0,,,,,,,,,,,False,False,157.0,150.5,150.0,W,W
+2026-11-07,Sat Nov 7 4:00 PM,Samford,UNLV,H,156.5,155,72.0,1.0628,13.4,0,1,,,,,,,,,,,False,False,167.0,156.5,157.5,W,W
+2026-11-07,Sat Nov 7 4:00 PM,Lafayette,Saint Joseph's,H,146.5,144,72.0,1.021,20.1,1,1,0.78,neither,147.5,1.0,O,0.82,neither,147.5,1.0,O,False,False,124.0,146.5,147.0,L,L
+2026-11-07,Sat Nov 7 4:00 PM,Monmouth,Rhode Island,N,145.5,147,71.0,1.0423,7.2,1,1,0.3,Rhode Island,148.4,2.9,O,0.69,Rhode Island,148.4,2.9,O,False,False,150.0,145.5,145.0,W,W
+2026-11-07,Sat Nov 7 5:00 PM,Washington St.,High Point,H,153.5,152,72.0,1.0534,10.1,1,2,-0.29,High Point,151.1,-2.4,U,-0.05,High Point,151.8,-1.7,U,False,False,154.0,153.5,155.0,L,L
+2026-11-07,Sat Nov 7 5:00 PM,Bellarmine,Miami OH,H,159.5,157,71.0,1.0793,17.4,2,1,1.63,Miami OH,153.5,-6.0,U,1.55,Miami OH,153.5,-6.0,U,False,False,153.0,159.5,159.0,W,W
+2026-11-07,Sat Nov 7 5:00 PM,Tennessee Martin,IU Indy,H,162.5,153,72.0,1.0524,1.6,1,0,,,,,,,,,,,False,False,149.0,158.5,166.0,L,L
+2026-11-07,Sat Nov 7 5:00 PM,SIUE,Lipscomb,H,143.5,149,71.0,1.046,6.7,0,2,,,,,,,,,,,False,False,155.0,143.5,144.0,W,W
+2026-11-07,Sat Nov 7 5:00 PM,Northern Iowa,Furman,H,149.5,147,69.0,1.0652,0.4,0,1,,,,,,,,,,,False,False,181.0,150.0,149.5,W,W
+2026-11-07,Sat Nov 7 5:00 PM,VMI,UTSA,H,163.5,161,75.0,1.0632,5.5,1,1,-0.65,UTSA,157.6,-5.9,U,1.85,VMI,159.5,-4.0,U,False,False,138.0,163.0,164.0,W,W
+2026-11-07,Sat Nov 7 5:00 PM,New Mexico St.,Gonzaga,H,151.5,149,71.0,1.0499,22.7,0,1,,,,,,,,,,,False,False,177.0,149.0,151.5,W,W
+2026-11-07,Sat Nov 7 5:00 PM,Old Dominion,Bucknell,H,144.5,142,70.0,1.0353,10.0,1,1,-0.42,Old Dominion,144.3,-0.2,U,-0.72,Old Dominion,143.4,-1.1,U,False,False,144.0,144.5,142.5,W,W
+2026-11-07,Sat Nov 7 5:30 PM,Prairie View A&M,UT Rio Grande Valley,H,149.5,151,73.0,1.0426,5.7,0,0,,,,,,,,,,,False,False,129.0,149.5,149.5,L,L
+2026-11-07,Sat Nov 7 5:30 PM,Western Carolina,UNC Asheville,H,149.5,151,71.0,1.0532,10.4,1,1,0.92,Western Carolina,149.9,0.4,O,0.68,Western Carolina,149.9,0.4,O,False,False,158.0,149.5,151.0,W,W
+2026-11-07,Sat Nov 7 6:00 PM,Hampton,George Washington,H,147.5,145,72.0,1.0292,16.1,1,1,0.68,George Washington,148.6,1.1,O,-0.11,George Washington,148.3,0.8,O,False,False,136.0,147.5,147.5,L,L
+2026-11-07,Sat Nov 7 6:00 PM,Northern Arizona,New Mexico,H,155.5,153,71.0,1.0679,23.7,1,1,1.02,New Mexico,151.9,-3.6,U,0.78,New Mexico,151.9,-3.6,U,False,False,159.0,155.0,156.5,L,L
+2026-11-07,Sat Nov 7 6:30 PM,Morgan St.,Niagara,H,150.5,153,71.0,1.0605,4.4,0,1,,,,,,,,,,,False,False,140.0,150.0,149.0,L,L
+2026-11-07,Sat Nov 7 7:00 PM,Providence,Nebraska,N,156.5,156,73.0,1.0601,8.3,1,1,0.71,Providence,154.9,-1.6,U,0.74,Providence,154.9,-1.6,U,False,False,125.0,156.5,158.0,W,W
+2026-11-07,Sat Nov 7 7:00 PM,St. Bonaventure,Canisius,H,147.5,144,70.0,1.0413,12.2,1,1,0.82,St. Bonaventure,146.3,-1.2,U,0.72,St. Bonaventure,146.3,-1.2,U,False,False,137.0,147.0,148.5,W,W
+2026-11-07,Sat Nov 7 7:00 PM,Northern Illinois,Dayton,H,146.5,151,69.0,1.0677,25.9,2,1,1.71,Dayton,147.8,1.3,O,1.68,Dayton,147.8,1.3,O,False,False,157.0,146.5,147.5,W,W
+2026-11-07,Sat Nov 7 7:00 PM,Mercer,Davidson,H,148.5,148,70.0,1.0521,12.8,1,1,-0.47,Davidson,146.4,-2.1,U,-0.23,Davidson,147.1,-1.4,U,False,False,164.0,147.5,148.5,L,L
+2026-11-07,Sat Nov 7 7:00 PM,Houston Christian,Western Illinois,H,139.5,138,69.0,1.0286,16.9,0,1,,,,,,,,,,,False,False,141.0,139.5,138.0,W,W
+2026-11-07,Sat Nov 7 7:30 PM,Denver,UC Riverside,H,154.5,154,72.0,1.0587,0.2,1,0,,,,,,,,,,,False,False,124.0,,,L,L
+2026-11-07,Sat Nov 7 7:30 PM,Maryland,Georgetown,H,146.5,147,70.0,1.0549,5.6,1,1,0.65,Maryland,148.1,1.6,O,0.37,Maryland,148.1,1.6,O,False,False,160.0,,,W,W
+2026-11-07,Sat Nov 7 8:00 PM,Northwestern St.,Murray St.,H,153.5,149,73.0,1.0363,21.9,2,1,0.53,Murray St.,151.6,-1.9,U,1.12,Murray St.,151.6,-1.9,U,False,False,164.0,,,L,L
+2026-11-07,Sat Nov 7 8:00 PM,Southern Indiana,Evansville,H,146.0,142,72.0,1.0224,5.2,1,0,,,,,,,,,,,False,False,153.0,,,W,W
+2026-11-07,Sat Nov 7 8:00 PM,Southeastern Louisiana,Little Rock,H,147.5,146,71.0,1.0405,6.0,1,1,-0.565,neither,146.6,-0.9,U,-1.94,Southeastern Louisiana,142.7,-4.8,U,False,False,162.0,,,L,L
+2026-11-07,Sat Nov 7 8:00 PM,Pacific,Bradley,H,143.5,142,69.0,1.0388,4.0,0,0,,,,,,,,,,,False,False,115.0,,,L,L
+2026-11-07,Sat Nov 7 8:00 PM,Bethune Cookman,Grand Canyon,H,152.5,150,73.0,1.0402,22.2,2,1,1.48,Grand Canyon,152.1,-0.4,U,1.96,Grand Canyon,152.1,-0.4,U,False,False,180.0,,,L,L
+2026-11-07,Sat Nov 7 9:00 PM,Utah Valley,Weber St.,H,156.5,151,73.0,1.0397,16.6,0,1,,,,,,,,,,,False,False,194.0,,,W,W
+2026-11-08,Sun Nov 8 11:00 PM,USC,Wichita St.,N,156.5,156,73.0,1.0614,8.7,1,1,1.58,USC,155.1,-1.4,U,1.56,USC,155.1,-1.4,U,False,False,,,,,
+2026-11-08,Sun Nov 8 11:00 PM,UT Arlington,Hawaii,H,149.5,148,73.0,1.039,7.3,1,1,-1.42,Hawaii,148.0,-1.5,U,-0.07,UT Arlington,151.8,2.3,O,False,False,,,,,
+2026-11-08,Sun Nov 8 12:00 PM,Iona,St. John's,H,151.5,145,72.0,1.0321,25.5,2,1,1.56,St. John's,149.0,-2.5,U,1.68,St. John's,149.0,-2.5,U,False,False,,,,,
+2026-11-08,Sun Nov 8 1:00 PM,Arkansas,Virginia,N,162.5,159,74.0,1.0657,1.2,1,2,1.98,Arkansas,157.8,-4.7,U,1.5,Arkansas,157.8,-4.7,U,False,False,,,,,
+2026-11-08,Sun Nov 8 1:00 PM,Princeton,Siena,H,154.0,146,70.0,1.0477,11.6,1,1,2.53,Siena,147.1,-6.9,U,2.34,Siena,147.1,-6.9,U,False,False,,,,,
+2026-11-08,Sun Nov 8 1:00 PM,Southeast Missouri,South Carolina,H,145.0,147,71.0,1.0473,19.5,1,1,-1.81,South Carolina,144.0,-1.0,U,-1.29,South Carolina,145.4,0.4,O,False,False,,,,,
+2026-11-08,Sun Nov 8 1:00 PM,Marist,UMass Lowell,H,,146,72.0,1.0363,1.6,2,1,-2.16,UMass Lowell,143.5,,,-2.26,UMass Lowell,143.2,,,False,False,,,,,
+2026-11-08,Sun Nov 8 1:00 PM,Sacred Heart,New Hampshire,H,,145,71.0,1.0364,0.2,1,2,-2.19,New Hampshire,141.4,,,-2.27,New Hampshire,141.2,,,False,False,,,,,
+2026-11-08,Sun Nov 8 1:00 PM,Manhattan,Maine,H,,140,69.0,1.0337,0.7,2,2,-0.45,neither,142.0,,,-0.135,neither,142.9,,,False,False,,,,,
+2026-11-08,Sun Nov 8 1:00 PM,Fairfield,Bryant,H,,145,71.0,1.0417,4.2,1,2,-0.93,Fairfield,145.7,,,-1.01,Fairfield,145.5,,,False,False,,,,,
+2026-11-08,Sun Nov 8 2:00 PM,Brown,Lehigh,H,,137,69.0,1.0198,1.6,2,2,-0.98,Brown,138.7,,,-1.29,Brown,137.8,,,False,False,,,,,
+2026-11-08,Sun Nov 8 2:00 PM,Central Connecticut,Dartmouth,H,,139,70.0,1.0245,7.2,2,1,-0.66,Dartmouth,142.2,,,-0.67,Dartmouth,142.1,,,False,False,,,,,
+2026-11-08,Sun Nov 8 2:00 PM,Quinnipiac,Vermont,H,,138,69.0,1.0285,7.5,2,2,-1.55,Vermont,138.2,,,-1.73,Vermont,137.7,,,False,False,,,,,
+2026-11-08,Sun Nov 8 2:00 PM,Butler,Boise St.,H,157.0,151,71.0,1.0589,3.1,2,0,,,,,,,,,,,False,False,,,,,
+2026-11-08,Sun Nov 8 2:00 PM,Green Bay,St. Thomas,H,149.5,151,69.0,1.078,5.1,1,2,-1.06,neither,146.1,-3.4,U,-0.97,neither,146.3,-3.2,U,False,False,,,,,
+2026-11-08,Sun Nov 8 2:00 PM,Merrimack,Albany,H,,135,66.0,1.0343,5.1,2,1,0.16,Albany,137.3,,,-0.01,Albany,137.3,,,False,False,,,,,
+2026-11-08,Sun Nov 8 2:00 PM,Campbell,Western Michigan,H,149.0,151,70.0,1.0627,3.8,1,1,-2.17,Western Michigan,142.9,-6.1,U,-1.74,Western Michigan,144.1,-4.9,U,False,False,,,,,
+2026-11-08,Sun Nov 8 3:00 PM,Southern,Drake,H,,149,73.0,1.0421,10.9,2,0,,,,,,,,,,,False,False,,,,,
+2026-11-08,Sun Nov 8 3:00 PM,Western Kentucky,Tennessee Tech,H,162.5,160,74.0,1.0708,9.7,1,1,0.6,Western Kentucky,158.5,-4.0,U,0.31,Western Kentucky,158.5,-4.0,U,False,False,,,,,
+2026-11-08,Sun Nov 8 3:00 PM,Idaho St.,Air Force,H,160.5,149,71.0,1.0527,4.9,2,1,-0.4,neither,148.7,-11.8,U,-0.495,neither,148.4,-12.1,U,False,False,,,,,
+2026-11-08,Sun Nov 8 4:00 PM,Saint Peter's,NJIT,H,,133,67.0,1.0222,5.0,2,2,-1.55,NJIT,133.4,,,-1.09,NJIT,134.7,,,False,False,,,,,
+2026-11-08,Sun Nov 8 4:00 PM,Rider,Binghamton,H,,141,68.0,1.0442,2.9,2,2,-1.07,Binghamton,139.6,,,-0.64,Binghamton,140.8,,,False,False,,,,,
+2026-11-08,Sun Nov 8 4:30 PM,Saint Mary's,Nevada,N,146.5,144,69.0,1.047,0.5,2,1,-0.85,Nevada,142.6,-3.9,U,-1.12,Nevada,141.8,-4.7,U,False,False,,,,,
+2026-11-08,Sun Nov 8 5:00 PM,Richmond,Temple,N,152.0,151,71.0,1.0619,0.3,1,1,0.6,Temple,151.1,-0.9,U,3.49,Richmond,151.1,-0.9,U,False,False,,,,,
+2026-11-08,Sun Nov 8 6:00 PM,Norfolk St.,William & Mary,H,,157,74.0,1.0555,5.7,0,0,,,,,,,,,,,False,False,,,,,
+2026-11-08,Sun Nov 8 6:00 PM,North Dakota St.,Cal St. Bakersfield,H,,152,70.0,1.0697,2.2,2,0,,,,,,,,,,,False,False,,,,,
+2026-11-08,Sun Nov 8 7:00 PM,Incarnate Word,UTEP,H,,145,71.0,1.0393,10.3,2,1,-0.06,neither,147.8,,,-0.37,UTEP,147.0,,,False,False,,,,,
+2026-11-08,Sun Nov 8 8:00 PM,Pittsburgh,Penn St.,N,154.5,154,72.0,1.0662,5.6,2,2,0.22,Pittsburgh,153.8,-0.7,U,-0.05,Pittsburgh,153.6,-0.9,U,False,False,,,,,
+2026-11-08,Sun Nov 8 8:30 PM,Houston,California,N,145.5,145,70.0,1.0481,24.0,1,1,0.67,Houston,147.2,1.7,O,0.71,Houston,147.2,1.7,O,False,False,,,,,

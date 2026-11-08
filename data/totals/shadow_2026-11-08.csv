@@ -1,0 +1,30 @@
+date,tip_ET,away,home,venue,early_total,kp_total,kp_tempo,ppp_game,net_eff_gap,games_away,games_home,imp_raw,dom_raw,model_raw,diff_raw,lean_raw,imp_comp,dom_comp,model_comp,diff_comp,lean_comp,rule_raw,rule_comp
+2026-11-08,Sun Nov 8 12:00 PM,Iona,St. John's,H,151.5,145,72.0,1.0321,25.5,2,1,1.56,St. John's,149.0,-2.5,U,1.68,St. John's,149.0,-2.5,U,False,False
+2026-11-08,Sun Nov 8 1:00 PM,Arkansas,Virginia,N,162.5,159,74.0,1.0657,1.2,1,2,1.98,Arkansas,157.8,-4.7,U,1.5,Arkansas,157.8,-4.7,U,False,False
+2026-11-08,Sun Nov 8 1:00 PM,Princeton,Siena,H,154.0,146,70.0,1.0477,11.6,1,1,2.53,Siena,147.1,-6.9,U,2.34,Siena,147.1,-6.9,U,False,False
+2026-11-08,Sun Nov 8 1:00 PM,Southeast Missouri,South Carolina,H,145.0,147,71.0,1.0473,19.5,1,1,-1.81,South Carolina,144.0,-1.0,U,-1.29,South Carolina,145.4,0.4,O,False,False
+2026-11-08,Sun Nov 8 1:00 PM,Marist,UMass Lowell,H,,146,72.0,1.0363,1.6,2,1,-2.16,UMass Lowell,143.5,,,-2.26,UMass Lowell,143.2,,,False,False
+2026-11-08,Sun Nov 8 1:00 PM,Sacred Heart,New Hampshire,H,,145,71.0,1.0364,0.2,1,2,-2.19,New Hampshire,141.4,,,-2.27,New Hampshire,141.2,,,False,False
+2026-11-08,Sun Nov 8 1:00 PM,Manhattan,Maine,H,,140,69.0,1.0337,0.7,2,2,-0.45,neither,142.0,,,-0.135,neither,142.9,,,False,False
+2026-11-08,Sun Nov 8 1:00 PM,Fairfield,Bryant,H,,145,71.0,1.0417,4.2,1,2,-0.93,Fairfield,145.7,,,-1.01,Fairfield,145.5,,,False,False
+2026-11-08,Sun Nov 8 2:00 PM,Brown,Lehigh,H,,137,69.0,1.0198,1.6,2,2,-0.98,Brown,138.7,,,-1.29,Brown,137.8,,,False,False
+2026-11-08,Sun Nov 8 2:00 PM,Central Connecticut,Dartmouth,H,,139,70.0,1.0245,7.2,2,1,-0.66,Dartmouth,142.2,,,-0.67,Dartmouth,142.1,,,False,False
+2026-11-08,Sun Nov 8 2:00 PM,Quinnipiac,Vermont,H,,138,69.0,1.0285,7.5,2,2,-1.55,Vermont,138.2,,,-1.73,Vermont,137.7,,,False,False
+2026-11-08,Sun Nov 8 2:00 PM,Butler,Boise St.,H,157.0,151,71.0,1.0589,3.1,2,0,,,,,,,,,,,False,False
+2026-11-08,Sun Nov 8 2:00 PM,Green Bay,St. Thomas,H,149.5,151,69.0,1.078,5.1,1,2,-1.06,neither,146.1,-3.4,U,-0.97,neither,146.3,-3.2,U,False,False
+2026-11-08,Sun Nov 8 2:00 PM,Merrimack,Albany,H,,135,66.0,1.0343,5.1,2,1,0.16,Albany,137.3,,,-0.01,Albany,137.3,,,False,False
+2026-11-08,Sun Nov 8 2:00 PM,Campbell,Western Michigan,H,149.0,151,70.0,1.0627,3.8,1,1,-2.17,Western Michigan,142.9,-6.1,U,-1.74,Western Michigan,144.1,-4.9,U,False,False
+2026-11-08,Sun Nov 8 3:00 PM,Southern,Drake,H,,149,73.0,1.0421,10.9,2,0,,,,,,,,,,,False,False
+2026-11-08,Sun Nov 8 3:00 PM,Western Kentucky,Tennessee Tech,H,162.5,160,74.0,1.0708,9.7,1,1,0.6,Western Kentucky,158.5,-4.0,U,0.31,Western Kentucky,158.5,-4.0,U,False,False
+2026-11-08,Sun Nov 8 3:00 PM,Idaho St.,Air Force,H,160.5,149,71.0,1.0527,4.9,2,1,-0.4,neither,148.7,-11.8,U,-0.495,neither,148.4,-12.1,U,False,False
+2026-11-08,Sun Nov 8 4:00 PM,Saint Peter's,NJIT,H,,133,67.0,1.0222,5.0,2,2,-1.55,NJIT,133.4,,,-1.09,NJIT,134.7,,,False,False
+2026-11-08,Sun Nov 8 4:00 PM,Rider,Binghamton,H,,141,68.0,1.0442,2.9,2,2,-1.07,Binghamton,139.6,,,-0.64,Binghamton,140.8,,,False,False
+2026-11-08,Sun Nov 8 4:30 PM,Saint Mary's,Nevada,N,146.5,144,69.0,1.047,0.5,2,1,-0.85,Nevada,142.6,-3.9,U,-1.12,Nevada,141.8,-4.7,U,False,False
+2026-11-08,Sun Nov 8 5:00 PM,Richmond,Temple,N,152.0,151,71.0,1.0619,0.3,1,1,0.6,Temple,151.1,-0.9,U,3.49,Richmond,151.1,-0.9,U,False,False
+2026-11-08,Sun Nov 8 6:00 PM,Norfolk St.,William & Mary,H,,157,74.0,1.0555,5.7,0,0,,,,,,,,,,,False,False
+2026-11-08,Sun Nov 8 6:00 PM,North Dakota St.,Cal St. Bakersfield,H,,152,70.0,1.0697,2.2,2,0,,,,,,,,,,,False,False
+2026-11-08,Sun Nov 8 7:00 PM,Incarnate Word,UTEP,H,,145,71.0,1.0393,10.3,2,1,-0.06,neither,147.8,,,-0.37,UTEP,147.0,,,False,False
+2026-11-08,Sun Nov 8 8:00 PM,Pittsburgh,Penn St.,N,154.5,154,72.0,1.0662,5.6,2,2,0.22,Pittsburgh,153.8,-0.7,U,-0.05,Pittsburgh,153.6,-0.9,U,False,False
+2026-11-08,Sun Nov 8 8:30 PM,Houston,California,N,145.5,145,70.0,1.0481,24.0,1,1,0.67,Houston,147.2,1.7,O,0.71,Houston,147.2,1.7,O,False,False
+2026-11-08,Sun Nov 8 11:00 PM,USC,Wichita St.,N,156.5,156,73.0,1.0614,8.7,1,1,1.58,USC,155.1,-1.4,U,1.56,USC,155.1,-1.4,U,False,False
+2026-11-08,Sun Nov 8 11:00 PM,UT Arlington,Hawaii,H,149.5,148,73.0,1.039,7.3,1,1,-1.42,Hawaii,148.0,-1.5,U,-0.07,UT Arlington,151.8,2.3,O,False,False
