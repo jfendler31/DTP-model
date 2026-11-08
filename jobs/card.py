@@ -236,6 +236,11 @@ bs.freeze_panes = 'A2'; bs.auto_filter.ref = f'A1:K{BS_N}'
 wb.move_sheet(f'Ratings {MMDD}', offset=1 - wb.sheetnames.index(f'Ratings {MMDD}'))
 wb.active = 0
 xfn = f'cards/card_{card_date}.xlsx'; wb.save(xfn)
+# Google's xlsx import shows the cached results of array formulas rather than recalculating them on import; openpyxl
+# saves none, so write them in (jobs/xlsx_cache.py) or the Betting Sheet's E/H/I import blank.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from xlsx_cache import cache_betting_sheet
+cache_betting_sheet(xfn, f'Betting Sheet {MMDD}', SIZE_K, SIZE_KNEE)
 lined = int(C.market.ne('').sum())
 print(f'{fn}: {len(C)} games, {lined} with lines')
 if a.no_email: sys.exit(0)
