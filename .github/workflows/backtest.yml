@@ -1,0 +1,37 @@
+# Backtest stores for past seasons, Nov-Dec only (jobs/backtest_pull.py): box scores, CBBD lines and play-by-play
+# four-factor totals. On demand: put "--season 2025" (optionally --start/--end/--max-calls) in triggers/backtest.txt.
+name: Backtest pull
+on:
+  workflow_dispatch:
+  push:
+    paths: ['triggers/backtest.txt']
+permissions:
+  contents: write
+concurrency:
+  group: backtest
+  cancel-in-progress: false
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pandas
+      - name: Pull
+        run: |
+          ARGS="$(grep -v '^#' triggers/backtest.txt | head -1)"
+          python jobs/backtest_pull.py $ARGS
+        env:
+          CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
+      - name: Save
+        if: always()
+        run: |
+          git config user.name "dtp-bot"; git config user.email "actions@users.noreply.github.com"
+          [ -d data/backtest ] && git add data/backtest
+          git commit -m "backtest pull" || echo "nothing new"
+          git pull --rebase origin main && git push origin HEAD:main
