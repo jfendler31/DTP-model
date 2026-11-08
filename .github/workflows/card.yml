@@ -30,7 +30,13 @@ jobs:
           if [ -n "${{ github.event.inputs.date }}" ]; then ARGS="--date ${{ github.event.inputs.date }}"; fi
           if [ "${{ github.event_name }}" = "push" ]; then ARGS="$(grep -o -- '--date [0-9-]*' triggers/card.txt || true)"; fi
           python jobs/slate.py $ARGS
-          python jobs/ratings.py $ARGS || echo "ratings job failed - card falls back to the last ratings file / prior"
+          # ratings (garbage time out, Nov 8): box pull -> play-by-play pass for yesterday's games -> ratings from the stored box + pbp totals
+          if python jobs/ratings.py $ARGS --games-only; then
+            timeout 900 python jobs/tempo.py || echo "play-by-play pass failed or timed out - ratings use box totals for games it missed"
+            python jobs/ratings.py $ARGS --offline || echo "ratings job failed - card falls back to the last ratings file / prior"
+          else
+            echo "ratings job failed - card falls back to the last ratings file / prior"
+          fi
           python jobs/card.py $ARGS
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
@@ -42,5 +48,6 @@ jobs:
         run: |
           git config user.name "dtp-bot"; git config user.email "actions@users.noreply.github.com"
           git add cards data/lines data/slate_*.csv data/ratings data/ratings_current.csv data/games_2026-27.csv || true
+          git add data/tempo data/pbp || true
           git commit -m "card $(date -u +%F)" || echo "nothing new"
           git pull --rebase origin main && git push origin HEAD:main

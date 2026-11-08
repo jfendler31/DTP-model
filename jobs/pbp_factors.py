@@ -14,8 +14,8 @@ period are dropped by the parser) take the leverage at the play itself.
 
 Three versions per team-game:
   raw  every event and possession counts 1 (should match the box score; checked downstream)
-  cw   competitive, weighted: possession lev (0-1), with tempo's structural drops
-       (ot, half_end, short_clock, foul_seq possessions count 0)
+  cw   competitive, weighted: possession lev (0-1), with tempo's structural drops except overtime
+       (half_end, short_clock, foul_seq possessions count 0; OT kept at its leverage — Jon, Nov 8)
   cc   competitive, cutoff: possession counts 1 if lev >= 0.5 and not structurally dropped, else 0
 
 Columns per version v: poss_v, p2m_v, p2a_v, p3m_v, p3a_v, ftm_v, fta_v, orb_v, drb_v (player rebounds),
@@ -53,7 +53,8 @@ def shot_made(x):
 
 
 def structural(r):
-    return bool(r['ot'] or r['half_end'] or r['short_clock'] or r['foul_seq'])
+    # tempo also drops overtime; for the ratings OT is competitive play and stays in (Jon, Nov 8)
+    return bool(r['half_end'] or r['short_clock'] or r['foul_seq'])
 
 
 def game_factors(gid, plays, rows, meta):
@@ -97,8 +98,8 @@ def game_factors(gid, plays, rows, meta):
         wt = find(owner or team, t, back)
         if wt is None:
             orphans += 1
-            lv = 0.0 if period > 2 else weight(hs - as_, t_left(t))
-            wt = {'raw': 1.0, 'cw': lv, 'cc': 1.0 if lv >= CUT and period <= 2 else 0.0}
+            lv = weight(hs - as_, t_left(t))
+            wt = {'raw': 1.0, 'cw': lv, 'cc': 1.0 if lv >= CUT else 0.0}
         for v in VERSIONS: tot[team][f'{stat}_{v}'] += wt[v]
 
     hs = as_ = 0
