@@ -867,5 +867,5 @@ gameId,date,team,opponent,isHome,d1_game,periods,poss_parsed,poss_unknown,off_ap
 377976,2026-11-07,Oral Roberts,Northwestern Oklahoma State,True,False,2,75,0,14.35,14.8,0.454,55,74,1
 378671,2026-11-07,Bethesda University,Southern Utah,False,False,2,78,0,18.21,17.84,0.355,-94,79,-1
 378671,2026-11-07,Southern Utah,Bethesda University,True,False,2,82,0,11.16,10.91,0.365,94,80,2
-378672,2026-11-07,Bethesda University,Pepperdine,False,False,2,77,0,19.27,18.49,0.489,-73,77,0
-378672,2026-11-07,Pepperdine,Bethesda University,True,False,2,75,0,12.13,12.51,0.511,73,78,-3
+378672,2026-11-07,Bethesda University,Pepperdine,False,False,2,77,0,19.26,18.49,0.489,-73,77,0
+378672,2026-11-07,Pepperdine,Bethesda University,True,False,2,75,0,12.15,12.51,0.511,73,78,-3
