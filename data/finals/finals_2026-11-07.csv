@@ -1,0 +1,49 @@
+date,tip_ET,away,home,venue,site,status,away_pts,home_pts
+2026-11-07,Sat Nov 7 6:00 PM,Hampton,George Washington,H,"Charles E. Smith Center, Washington",STATUS_FINAL,61,75
+2026-11-07,Sat Nov 7 6:00 PM,Northern Arizona,New Mexico,H,"The Pit, Albuquerque",STATUS_FINAL,65,94
+2026-11-07,Sat Nov 7 6:30 PM,Morgan St.,Niagara,H,"Gallagher Center, Niagara Falls",STATUS_IN_PROGRESS,57,47
+2026-11-07,Sat Nov 7 7:00 PM,Mercer,Davidson,H,"John M. Belk Arena, Davidson",STATUS_IN_PROGRESS,42,49
+2026-11-07,Sat Nov 7 7:00 PM,Houston Christian,Western Illinois,H,"Western Hall, Macomb",STATUS_IN_PROGRESS,41,41
+2026-11-07,Sat Nov 7 7:00 PM,St. Bonaventure,Canisius,H,"Koessler Athletic Center, Buffalo",STATUS_IN_PROGRESS,45,16
+2026-11-07,Sat Nov 7 7:00 PM,Northern Illinois,Dayton,H,"UD Arena, Dayton",STATUS_HALFTIME,40,29
+2026-11-07,Sat Nov 7 7:00 PM,Providence,Nebraska,N,"Mohegan Sun Arena, Uncasville",STATUS_HALFTIME,25,30
+2026-11-07,Sat Nov 7 7:30 PM,Denver,UC Riverside,H,"SRC Arena, Riverside",STATUS_IN_PROGRESS,22,18
+2026-11-07,Sat Nov 7 7:30 PM,Maryland,Georgetown,H,"Capital One Arena, Washington",STATUS_IN_PROGRESS,25,32
+2026-11-07,Sat Nov 7 12:00 PM,Morehead St.,Louisville,H,"KFC Yum! Center, Louisville",STATUS_FINAL,57,107
+2026-11-07,Sat Nov 7 5:00 PM,New Mexico St.,Gonzaga,H,"McCarthey Athletic Center, Spokane",STATUS_FINAL,68,109
+2026-11-07,Sat Nov 7 12:00 PM,North Dakota,Winthrop,H,"Winthrop Coliseum, Rock Hill",STATUS_FINAL,93,90
+2026-11-07,Sat Nov 7 1:00 PM,North Carolina A&T,Ohio,H,"Convocation Center (OH), Athens",STATUS_FINAL,70,80
+2026-11-07,Sat Nov 7 2:00 PM,Toledo,Marshall,H,"Cam Henderson Center, Huntington",STATUS_FINAL,81,76
+2026-11-07,Sat Nov 7 2:00 PM,Colgate,Drexel,H,"Daskalakis Athletic Center, Philadelphia",STATUS_FINAL,74,77
+2026-11-07,Sat Nov 7 2:00 PM,Cal St. Fullerton,South Dakota,H,"Sanford Coyote Sports Center, Vermillion",STATUS_FINAL,87,85
+2026-11-07,Sat Nov 7 2:00 PM,UNC Wilmington,East Carolina,H,"Williams Arena at Minges Coliseum, Greenville",STATUS_FINAL,78,75
+2026-11-07,Sat Nov 7 2:00 PM,Lamar,Abilene Christian,H,"Moody Coliseum (Abilene), Abilene",STATUS_FINAL,81,83
+2026-11-07,Sat Nov 7 3:00 PM,Long Beach St.,Montana St.,H,"Worthington Arena, Bozeman",STATUS_FINAL,70,83
+2026-11-07,Sat Nov 7 3:00 PM,North Carolina Central,Longwood,H,"Joan Perry Brock Center, Farmville",STATUS_FINAL,75,80
+2026-11-07,Sat Nov 7 3:00 PM,VCU,Memphis,H,"FedExForum, Memphis",STATUS_FINAL,88,89
+2026-11-07,Sat Nov 7 3:30 PM,LIU,La Salle,H,"John Glaser Arena, Philadelphia",STATUS_FINAL,80,88
+2026-11-07,Sat Nov 7 3:30 PM,San Diego St.,Colorado,N,"Pechanga Arena, San Diego",STATUS_FINAL,77,66
+2026-11-07,Sat Nov 7 4:00 PM,Nebraska Omaha,Utah St.,H,"Dee Glen Smith Spectrum, Logan",STATUS_FINAL,56,90
+2026-11-07,Sat Nov 7 4:00 PM,Oakland,UC Santa Barbara,H,"The Thunderdome, Santa Barbara",STATUS_FINAL,67,90
+2026-11-07,Sat Nov 7 4:00 PM,Samford,UNLV,H,"Thomas & Mack Center, Las Vegas",STATUS_FINAL,79,88
+2026-11-07,Sat Nov 7 4:00 PM,Lafayette,Saint Joseph's,H,"Michael J. Hagan '85 Arena, Philadelphia",STATUS_FINAL,57,67
+2026-11-07,Sat Nov 7 4:00 PM,Monmouth,Rhode Island,N,"Mohegan Sun Arena, Uncasville",STATUS_FINAL,66,84
+2026-11-07,Sat Nov 7 5:00 PM,VMI,UTSA,H,"UTSA Convocation Center, San Antonio",STATUS_FINAL,68,70
+2026-11-07,Sat Nov 7 5:00 PM,Northern Iowa,Furman,H,"Timmons Arena, Greenville",STATUS_FINAL,83,98
+2026-11-07,Sat Nov 7 5:00 PM,Old Dominion,Bucknell,H,"Sojka Pavilion, Lewisburg",STATUS_FINAL,82,62
+2026-11-07,Sat Nov 7 5:00 PM,Tennessee Martin,IU Indy,H,"James T. Morris Arena, Indianapolis",STATUS_FINAL,74,75
+2026-11-07,Sat Nov 7 5:00 PM,SIUE,Lipscomb,H,"Allen Arena, Nashville",STATUS_FINAL,77,78
+2026-11-07,Sat Nov 7 5:00 PM,Washington St.,High Point,H,"Qubein Center, High Point",STATUS_FINAL,71,83
+2026-11-07,Sat Nov 7 5:00 PM,Bellarmine,Miami OH,H,"Millett Hall, Oxford",STATUS_FINAL,73,80
+2026-11-07,Sat Nov 7 5:30 PM,Prairie View A&M,UT Rio Grande Valley,H,"UTRGV Fieldhouse, Edinburg",STATUS_FINAL,63,68
+2026-11-07,Sat Nov 7 5:30 PM,Western Carolina,UNC Asheville,H,"Kimmel Arena, Asheville",STATUS_FINAL,83,75
+2026-11-07,Sat Nov 7 8:00 PM,Northwestern St.,Murray St.,H,"CFSB Center, Murray",STATUS_IN_PROGRESS,5,4
+2026-11-07,Sat Nov 7 8:00 PM,Southern Indiana,Evansville,H,"Ford Center, Evansville",STATUS_IN_PROGRESS,8,5
+2026-11-07,Sat Nov 7 8:00 PM,Southeastern Louisiana,Little Rock,H,"Jack Stephens Center, Little Rock",STATUS_IN_PROGRESS,7,10
+2026-11-07,Sat Nov 7 8:00 PM,Pacific,Bradley,H,"Carver Arena, Peoria",STATUS_IN_PROGRESS,9,6
+2026-11-07,Sat Nov 7 8:00 PM,Bethune Cookman,Grand Canyon,H,"Global Credit Union Arena, Phoenix",STATUS_IN_PROGRESS,2,9
+2026-11-07,Sat Nov 7 9:00 PM,Utah Valley,Weber St.,H,"Dee Events Center, Ogden",STATUS_SCHEDULED,0,0
+2026-11-07,Sat Nov 7 10:00 PM,Fresno St.,UC San Diego,H,"LionTree Arena, San Diego",STATUS_SCHEDULED,0,0
+2026-11-07,Sat Nov 7 10:00 PM,Sacramento St.,Santa Clara,H,"Leavey Center, Santa Clara",STATUS_SCHEDULED,0,0
+2026-11-07,Sat Nov 7 10:00 PM,Portland St.,Seattle,H,"Redhawk Center, Seattle",STATUS_SCHEDULED,0,0
+2026-11-07,Sat Nov 7 10:00 PM,San Jose St.,UC Irvine,H,"Bren Events Center, Irvine",STATUS_SCHEDULED,0,0
