@@ -5,7 +5,7 @@ import, so an array saved by openpyxl (formula only, no cached values) imports b
 the anchor cell carries its header as a string result and each filled cell carries its computed value.
 
 Columns (Betting Sheet tab): B away, C home, F market home spread, G raw model home spread, H size-adjusted model
-(array), I edge (array), J adjustment, E label (array). Size curve: SIZE_K pts per point of model spread beyond SIZE_KNEE.
+(array), I edge (array), J adjustment, L size-curve flag (1 = applies), E label (array). Size curve: SIZE_K pts per point of model spread beyond SIZE_KNEE.
 """
 import re, shutil, tempfile, zipfile, posixpath
 from xml.sax.saxutils import escape
@@ -16,10 +16,10 @@ def _vals(ws, size_k, size_knee):
     out = {}
     num = lambda v: v if isinstance(v, (int, float)) and not isinstance(v, bool) else None
     for r in range(2, ws.max_row + 1):
-        b, c, f, g, j = (ws[f'{x}{r}'].value for x in 'BCFGJ')
+        b, c, f, g, j, sc = (ws[f'{x}{r}'].value for x in 'BCFGJL')
         if not b and g is None: continue
         f, g, j = num(f), num(g), num(j) or 0.0
-        h = '' if g is None else round(g + (1 if g > 0 else -1 if g < 0 else 0) * size_k * max(abs(g) - size_knee, 0), 1)
+        h = '' if g is None else round(g + (1 if g > 0 else -1 if g < 0 else 0) * size_k * max(abs(g) - size_knee, 0) * (1 if sc == 1 else 0), 1)
         if f is None or h == '':
             e = i = ''
         else:

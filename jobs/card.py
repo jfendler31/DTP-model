@@ -40,7 +40,12 @@ def model(aw, hm, v): return round(-(9.5 * (Z[hm] - Z[aw]) + (H.get(hm, 3.0) if 
 # (244 games) favorites beat the model by ~+4 on every bucket from 15 up (least-squares k 0.25 from a knee of 10), the backtest said
 # 1-3 pts on 20+. 0.20 from 10 sits between them (20 -> +2.0, 25 -> +3.0, 30 -> +4.0). Provisional until the two-season sweep.
 SIZE_K, SIZE_KNEE = 0.20, 10
-def size_adj(m): return round(m + (1 if m > 0 else -1) * SIZE_K * max(abs(m) - SIZE_KNEE, 0), 1)
+# Nov 8 (Jon): the curve applies only to non-conference games where the model favorite is at home - the buy-game mismatches it was
+# fit on (Nov 2-6: 169 of 171 games with a 10+ model spread were home games; one was power-vs-power). Not on neutral sites, not to
+# road favorites, not in conference play (Houston vs Cal on a neutral, or Houston vs Colorado in January, gets no curve).
+CONF_OF = dict(zip(P.team, P.conf))
+def curve_ok(aw, hm, v, m): return v == 'H' and m < 0 and CONF_OF.get(aw) != CONF_OF.get(hm)
+def size_adj(m, ok=True): return round(m + (1 if m > 0 else -1) * SIZE_K * max(abs(m) - SIZE_KNEE, 0), 1) if ok else m
 # ---- lines
 if a.snapshot:
     L = pd.read_csv(a.snapshot); asof = os.path.basename(a.snapshot)
@@ -88,7 +93,7 @@ for g in S.itertuples():
     m = model(g.away, g.home, g.venue); x = G.get(frozenset((g.away, g.home)))
     hs = None if not x or x['cons'] is None else (x['cons'] if x['h'] == g.home else -x['cons'])
     e = None if hs is None else hs - m
-    ma = size_adj(m); ea = None if hs is None else hs - ma
+    ok = curve_ok(g.away, g.home, g.venue, m); ma = size_adj(m, ok); ea = None if hs is None else hs - ma
     side = lambda v: 'PK' if v == 0 else (f'{abbr(g.home)} -{abs(v):g}' if v < 0 else f'{abbr(g.away)} -{v:g}')
     out.append({'tip_ET': g.tip_ET, 'away': g.away, 'home': g.home, 'venue': g.venue,
                 'model': 'PK' if m == 0 else (f'{abbr(g.home)} -{abs(m):.1f}' if m < 0 else f'{abbr(g.away)} -{m:.1f}'),
@@ -99,7 +104,7 @@ for g in S.itertuples():
                 'edge_inseason_only': ins_edge(g, hs), 'prior_wt_away': f"{PW.get(g.away, 1.0):.0%}", 'prior_wt_home': f"{PW.get(g.home, 1.0):.0%}",
                 'notes': '; '.join(notes[g.away] + notes[g.home]),
                 'model_home_spread': m, 'market_home_spread': hs, 'edge_size': None if e is None else round(abs(e), 1),
-                'model_home_spread_adj': ma, 'edge_size_adj_num': None if ea is None else round(abs(ea), 1)})
+                'model_home_spread_adj': ma, 'edge_size_adj_num': None if ea is None else round(abs(ea), 1), 'size_curve': int(ok)})
 C = pd.DataFrame(out)
 C['_t'] = pd.to_datetime(C.tip_ET.str.replace(r'^\w+ ', '', regex=True) + f' {card_date[:4]}', format='%b %d %I:%M %p %Y', errors='coerce')
 C = C.sort_values('_t').drop(columns='_t')
@@ -139,7 +144,7 @@ def sheet(ws, df, widths, fmts):
 # Card tab in Jon's layout (Nov 6): sorted by size-adjusted edge, Helvetica 12, centered; working columns hidden but kept
 CARD_COLS = ['tip_ET', 'away', 'home', 'venue', 'model', 'market', 'n_books', 'total', 'edge', 'model_size_adj', 'edge_size_adj',
              'edge_inseason_only', 'prior_wt_away', 'prior_wt_home', 'notes', 'market_home_spread', 'model_home_spread', 'edge_size',
-             'model_home_spread_adj', 'edge_size_adj_num', 'adj_home', 'abbr_away', 'abbr_home']
+             'model_home_spread_adj', 'edge_size_adj_num', 'adj_home', 'abbr_away', 'abbr_home', 'size_curve']
 CARD_HDR = {'away': 'Away', 'home': 'Home', 'edge_size_adj': 'Edge Size Adj', 'market_home_spread': 'Market Home Spread',
             'model_home_spread': 'Model Home Spread', 'model_home_spread_adj': 'Home Spread Adj', 'edge_size_adj_num': 'Edge Size Adj',
             'adj_home': 'Adj To Home Side'}
@@ -147,7 +152,7 @@ CARD_HIDE = {'model', 'market', 'n_books', 'total', 'edge', 'model_size_adj', 'e
              'abbr_away', 'abbr_home'}
 CARD_W = {'tip_ET': 22, 'away': 21, 'home': 21, 'venue': 9, 'edge_size_adj': 19, 'market_home_spread': 11, 'model_home_spread': 11,
           'model_home_spread_adj': 11, 'edge_size_adj_num': 11, 'notes': 40, 'adj_home': 13}
-CARD_NUM = {'market_home_spread', 'model_home_spread', 'model_home_spread_adj', 'edge_size_adj_num', 'edge_size', 'adj_home'}
+CARD_NUM = {'size_curve', 'market_home_spread', 'model_home_spread', 'model_home_spread_adj', 'edge_size_adj_num', 'edge_size', 'adj_home'}
 CD = C.assign(adj_home=None, abbr_away=C.away.map(abbr), abbr_home=C.home.map(abbr))[CARD_COLS].copy()
 CD['_k'] = pd.to_numeric(CD.edge_size_adj_num, errors='coerce')
 CD = CD.sort_values('_k', ascending=False, na_position='last').drop(columns='_k')
@@ -168,10 +173,10 @@ for row in CD.itertuples(index=False):
 # Market Home Spread (P), Model Home Spread (Q) and Adj To Home Side (U), so a pasted current line or a manual adjustment
 # flips the side and re-sizes the edge in place. Values in the CSV stay as built.
 COL = {c: get_column_letter(i) for i, c in enumerate(CARD_COLS, 1)}
-P_, Q_, S_, U_, A_, H_ = (COL[c] for c in ('market_home_spread', 'model_home_spread', 'model_home_spread_adj', 'adj_home', 'abbr_away', 'abbr_home'))
+P_, Q_, S_, U_, A_, H_, SC_ = (COL[c] for c in ('market_home_spread', 'model_home_spread', 'model_home_spread_adj', 'adj_home', 'abbr_away', 'abbr_home', 'size_curve'))
 for r in range(2, ws.max_row + 1):
     fin = f'({S_}{r}+N({U_}{r}))'
-    ws[f'{S_}{r}'] = f'=IF({Q_}{r}="","",ROUND({Q_}{r}+SIGN({Q_}{r})*{SIZE_K}*MAX(ABS({Q_}{r})-{SIZE_KNEE},0),1))'
+    ws[f'{S_}{r}'] = f'=IF({Q_}{r}="","",ROUND({Q_}{r}+SIGN({Q_}{r})*{SIZE_K}*MAX(ABS({Q_}{r})-{SIZE_KNEE},0)*N({SC_}{r}),1))'
     ws[f'{COL["edge_size_adj_num"]}{r}'] = f'=IF({P_}{r}="","",ROUND(ABS({P_}{r}-{fin}),1))'
     ws[f'{COL["edge_size_adj"]}{r}'] = (f'=IF({P_}{r}="","",IF(ABS({P_}{r}-{fin})<0.05,"-",IF({P_}{r}-{fin}>0,{H_}{r},{A_}{r})'
                                         f'&" "&TEXT(ABS({P_}{r}-{fin}),"0.0")))')
@@ -204,35 +209,35 @@ BS = C.assign(tip_dt=pd.to_datetime(C.tip_ET.str.replace(r'^\w+ ', '', regex=Tru
 BS = BS.sort_values(['edge_k', 'tip_dt'], ascending=[False, True], na_position='last')
 bs = wb.create_sheet(f'Betting Sheet {MMDD}', 0)
 BS_HDR = ['tip_ET', 'Away', 'Home', 'venue', 'Edge Size Adj', 'Market Home Spread', 'Model Home Spread', 'Home Spread Adj',
-          'Edge Size Adj', 'Adj To Home Side', 'Notes']
+          'Edge Size Adj', 'Adj To Home Side', 'Notes', 'Size curve']
 bs.append(BS_HDR)
 def num(v):
     try: return None if v in (None, '') or (isinstance(v, float) and pd.isna(v)) else float(v)
     except (TypeError, ValueError): return None
 for g in BS.itertuples(index=False):
     bs.append([None if pd.isna(g.tip_dt) else g.tip_dt.to_pydatetime(), g.away, g.home, g.venue, None, num(g.market_home_spread),
-               num(g.model_home_spread), None, None, None, g.notes if isinstance(g.notes, str) and g.notes else None])
+               num(g.model_home_spread), None, None, None, g.notes if isinstance(g.notes, str) and g.notes else None, int(g.size_curve)])
 last = bs.max_row + 15            # formatted rows (slate + 15 spare); the arrays run to row BS_N
 BS_N = 500
 from openpyxl.worksheet.formula import ArrayFormula
 _R = lambda c: f'{c}2:{c}{BS_N}'
 _d = f'{_R("F")}-({_R("H")}+{_R("J")})'
 bs['H1'] = ArrayFormula(f'H1:H{BS_N}', f'={{"Home Spread Adj"; IF({_R("G")}="","",ROUND({_R("G")}+SIGN({_R("G")})*{SIZE_K}'
-                                         f'*(ABS({_R("G")})>{SIZE_KNEE})*(ABS({_R("G")})-{SIZE_KNEE}),1))}}')
+                                         f'*(ABS({_R("G")})>{SIZE_KNEE})*(ABS({_R("G")})-{SIZE_KNEE})*({_R("L")}=1),1))}}')
 bs['I1'] = ArrayFormula(f'I1:I{BS_N}', f'={{"Edge Size Adj"; IF({_R("F")}="","",ROUND(ABS({_d}),1))}}')
 bs['E1'] = ArrayFormula(f'E1:E{BS_N}', f'={{"Edge Size Adj"; IF({_R("F")}="","",IF(ABS({_d})<0.05,"-",IF({_d}>0,{_R("C")},{_R("B")})'
                                          f'&" "&TEXT(ABS({_d}),"0.0")))}}')
 for c in bs[1]: c.font, c.fill, c.alignment = HEAD, hdr_fill, MIDW
 bs.row_dimensions[1].height = 48
-for L, w in zip('ABCDEFGHIJK', (16, 22, 22, 8, 24, 11, 11, 11, 10, 11, 40)): bs.column_dimensions[L].width = w
-for row in bs.iter_rows(min_row=2, max_row=last, max_col=11):
+for L, w in zip('ABCDEFGHIJKL', (16, 22, 22, 8, 24, 11, 11, 11, 10, 11, 40, 8)): bs.column_dimensions[L].width = w
+for row in bs.iter_rows(min_row=2, max_row=last, max_col=12):
     for cell in row:
         cell.font, cell.alignment = BODY, MID
         if cell.column_letter == 'A': cell.number_format = 'ddd mmm d h:mm am/pm'
         elif cell.column_letter in 'FGHIJ': cell.number_format = '0.0'
 bs.conditional_formatting.add(f'I2:I{BS_N}', ColorScaleRule(start_type='min', start_color='FFE67C73',
                               mid_type='num', mid_value=2, mid_color='FFFFFFFF', end_type='max', end_color='FF57BB8A'))
-bs.freeze_panes = 'A2'; bs.auto_filter.ref = f'A1:K{BS_N}'
+bs.freeze_panes = 'A2'; bs.auto_filter.ref = f'A1:L{BS_N}'
 wb.move_sheet(f'Ratings {MMDD}', offset=1 - wb.sheetnames.index(f'Ratings {MMDD}'))
 wb.active = 0
 xfn = f'cards/card_{card_date}.xlsx'; wb.save(xfn)
@@ -251,7 +256,7 @@ msg.set_content(f"Ratings: {RSRC} + overrides. Lines as of {asof} (consensus = m
                 f"{len(C)} games, {lined} with lines. Workbook attached (Betting Sheet, Ratings and Card tabs); CSV of the card (tip-time order) also attached.\n"
                 f"Betting Sheet tab: your Google Sheet layout, sorted by edge. Type the current line in F and your adjustment in J; E/H/I are array formulas in the header row (rows 2-500), so sorting rows 2+ and adding games below both work.\n"
                 f"Ratings tab: points vs an average D-I team on a neutral floor (9.5 per SD), prior + in-season blend + overrides.\n"
-                f"edge_size_adj: model spread widened {SIZE_K} pt per point beyond {SIZE_KNEE} (size curve, Nov 7); regular edge unchanged.\n"
+                f"edge_size_adj: model spread widened {SIZE_K} pt per point beyond {SIZE_KNEE} (size curve) in non-conference games with the favorite at home only (Size curve = 1); regular edge unchanged.\n"
                 f"Card tab: Edge Size Adj, Home Spread Adj and the label recompute from Market Home Spread, Model Home Spread and Adj To Home Side.\n")
 msg.add_attachment(open(xfn, 'rb').read(), maintype='application', subtype='vnd.openxmlformats-officedocument.spreadsheetml.sheet',
                    filename=os.path.basename(xfn))
