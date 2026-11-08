@@ -67,3 +67,9 @@
 - **Shadow** (`jobs/ratings_shadow.py`, end of every Tempo tracker run): production (`cw_gw`, self-checked against `ratings_current.csv`) vs equal-weight `cw` vs old `box`; `data/ratings_shadow/card_<date>.csv` shows each card game's model under all three.
 - **Size curve:** still fits. On Nov 5–7 home favorites with 10+ model spreads (86 games), the favorite beat the model by +3.5 under box and +3.3 under the new ratings — the curve isn't double-counting garbage time. K unchanged; both wait on the two-season sweep.
 - Nov 8 effect vs the old ratings: mean |Δ| 0.47 pts per team, 90th pct 1.1, max 3.9 (Le Moyne −3.9, LSU New Orleans −2.9, New Haven −2.6, Tulsa +2.2).
+
+## 10. Backtest, 2025-26 November–December (Nov 8)
+`jobs/backtest_ratings.py --season 2026` → `data/backtest/results_2026.csv`. Walk-forward daily with `ratings_core.py` (production math), prior = KenPom preseason AdjEM z (`data/kenpom/preseason_2026.csv`, pulled with `kenpom.py --preseason`), production K schedule shifted to the season, current KenPom HCA. 2,182 D-I games, 2,167 with play-by-play pillars; 2,075 graded (Nov 4–Dec 31).
+- **Final margin MAE:** prior 9.85, box 9.42, cw 9.40, **cw_gw 9.39**. cw_gw − box −0.033 (se 0.023); cw_gw − cw −0.008 (se 0.009). Nov 9.67 → 9.63, Dec 9.13 → 9.11.
+- **vs CBBD close, home/away (1,773 games; market MAE 9.15):** model-side ATS box 50.0%, cw 50.5%, cw_gw 50.9%; edge ≥3: box 53.7% (497), cw_gw 54.9% (505).
+- Read: same direction as the live week, about a third the size, not significant on one season. 2024-25 pull waits on the CBBD Tier 3 upgrade (Jon); then the same run for `--season 2025`.
