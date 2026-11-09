@@ -58,7 +58,7 @@ def main():
     if a.history:
         y1, y2 = map(int, a.history.split('-')); os.makedirs(f'{OUT}/history', exist_ok=True)
         key = os.environ['KENPOM_API_KEY'].strip(); hdr = {'Authorization': f'Bearer {key}', 'Accept': 'application/json'}
-        for ep in ('ratings', 'four-factors', 'misc-stats', 'pointdist'):
+        for ep in ('ratings', 'four-factors', 'misc-stats', 'pointdist', 'height'):
             for yy in range(y1, y2 + 1):
                 try:
                     r = requests.get('https://kenpom.com/api.php', headers=hdr, params=dict(endpoint=ep, y=yy), timeout=90)
