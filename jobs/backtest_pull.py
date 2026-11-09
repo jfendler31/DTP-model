@@ -13,7 +13,7 @@ that the date feed left out. --max-calls caps CBBD calls per run (the plan's cal
 daily pipeline); a run that hits the cap stops after the current date and the next run resumes.
 Usage: python jobs/backtest_pull.py --season 2025 [--start YYYY-MM-DD] [--end YYYY-MM-DD] [--max-calls N] [--no-box]
 """
-import os, sys, json, time, argparse, statistics as st, datetime as dt
+import os, sys, json, gzip, time, argparse, statistics as st, datetime as dt
 from zoneinfo import ZoneInfo
 import pandas as pd
 
@@ -95,13 +95,14 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--season', type=int, required=True); ap.add_argument('--start'); ap.add_argument('--end')
     ap.add_argument('--max-calls', type=int, default=1800); ap.add_argument('--no-box', action='store_true')
+    ap.add_argument('--from-raw', action='store_true', help='re-parse the saved raw plays (data/backtest/raw_<S>/, from the workflow artifact) with no CBBD calls')
     ap.add_argument('--diag-game', type=int, help='print every rebound play of one game with the play before it, then stop')
     a = ap.parse_args()
     S = a.season
     start = dt.date.fromisoformat(a.start) if a.start else dt.date(S - 1, 11, 1)
     end = dt.date.fromisoformat(a.end) if a.end else dt.date(S - 1, 12, 31)
     os.makedirs(OUT, exist_ok=True)
-    get = api()
+    get = api() if not a.from_raw else None
     if a.diag_game:
         pl = sorted(get(f'/plays/game/{a.diag_game}') or [], key=lambda x: (x.get('period'), -x.get('secondsRemaining', 0), int(x.get('id') or 0)))
         for i, x in enumerate(pl):
@@ -126,26 +127,34 @@ def main():
     d = start
     while d <= end:
         ds = d.isoformat()
-        if ds in done: d += dt.timedelta(days=1); continue
+        if ds in done and not a.from_raw: d += dt.timedelta(days=1); continue
         want = d1[d1.date == ds].gameId.astype(int).unique().tolist()
         if not want: done.add(ds); d += dt.timedelta(days=1); continue
-        if CALLS + 2 + len(want) > a.max_calls:
+        if not a.from_raw and CALLS + 2 + len(want) > a.max_calls:
             print(f'stopping before {ds}: {CALLS} calls used, cap {a.max_calls} (next run resumes here)', flush=True); break
-        games = {}
-        for q in (d, d + dt.timedelta(days=1)):          # an ET evening can spill into the next date's feed
-            qs = q.isoformat()
-            if qs not in cache:
-                cache.clear() if len(cache) > 2 else None
-                cache[qs] = by_game(get('/plays/date', date=qs, utcOffset=-5) or [])
-            for gid, pl in cache[qs].items():
-                if int(gid) in want and et_date(pl[0]['gameStartDate']) == ds:
-                    have = games.setdefault(int(gid), {})
-                    for x in pl: have[x['id']] = x
-        games = {gid: list(v.values()) for gid, v in games.items()}
-        miss = [gid for gid in want if gid not in games]
-        for gid in miss:
-            pl = get(f'/plays/game/{gid}')
-            if pl: games[gid] = pl
+        raw = f'{OUT}/raw_{S}/{ds}.json.gz'
+        if a.from_raw:
+            if not os.path.exists(raw): print(f'{ds}: no raw file', flush=True); d += dt.timedelta(days=1); continue
+            with gzip.open(raw, 'rt') as fh: games = {int(k): v for k, v in json.load(fh).items()}
+            miss = []
+        else:
+          games = {}
+          for q in (d, d + dt.timedelta(days=1)):          # an ET evening can spill into the next date's feed
+              qs = q.isoformat()
+              if qs not in cache:
+                  cache.clear() if len(cache) > 2 else None
+                  cache[qs] = by_game(get('/plays/date', date=qs, utcOffset=-5) or [])
+              for gid, pl in cache[qs].items():
+                  if int(gid) in want and et_date(pl[0]['gameStartDate']) == ds:
+                      have = games.setdefault(int(gid), {})
+                      for x in pl: have[x['id']] = x
+          games = {gid: list(v.values()) for gid, v in games.items()}
+          miss = [gid for gid in want if gid not in games]
+          for gid in miss:
+              pl = get(f'/plays/game/{gid}')
+              if pl: games[gid] = pl
+          os.makedirs(os.path.dirname(raw), exist_ok=True)
+          with gzip.open(raw, 'wt') as fh: json.dump({str(k): v for k, v in games.items()}, fh)
         rows = []
         for gid, plays in games.items():
             try:

@@ -9,7 +9,8 @@ import numpy as np, pandas as pd
 W = {'net2pt': .32, 'netreb': .26, 'netto': .24, 'net3pt': .10, 'netfta': .08}; PILLARS = list(W)
 RIDGE, EARLY_N = 0.5, 3
 COLS = ('p2m', 'p2a', 'p3m', 'p3a', 'fta', 'fga', 'orb', 'drb', 'to', 'poss')
-REB_TEAM = False        # box rebounds exclude team (dead-ball) rebounds; so do ours (checked Nov 8: player rebounds match box to 0.00)
+REB_TEAM = False        # 2025-26 on: box rebounds exclude team rebounds; so do ours (player rebounds match box to 0.00).
+                        # 2024-25 box counts include them — backtests of that season pass reb_team=True.
 GATE = dict(fga=4, fta=3, to=3, reb=4)   # max |raw pbp - box| per team for a game to use its play-by-play totals
 
 
@@ -35,12 +36,13 @@ def load_factors(path):
     return {(int(r.gameId), r.team): r for r in F.itertuples(index=False)}
 
 
-def pbp_side(FX, gid, team, v):
+def pbp_side(FX, gid, team, v, reb_team=None):
+    rt = REB_TEAM if reb_team is None else reb_team
     r = FX.get((int(gid), team))
     if r is None: return None
     g = lambda s: float(getattr(r, f'{s}_{v}'))
     d = dict(p2m=g('p2m'), p2a=g('p2a'), p3m=g('p3m'), p3a=g('p3a'), fta=g('fta'), to=g('to'), poss=g('poss'),
-             orb=g('orb') + (g('orbt') if REB_TEAM else 0), drb=g('drb') + (g('drbt') if REB_TEAM else 0))
+             orb=g('orb') + (g('orbt') if rt else 0), drb=g('drb') + (g('drbt') if rt else 0))
     d['fga'] = d['p2a'] + d['p3a']
     return d
 
@@ -55,7 +57,7 @@ def gate(bs, bo, ps, po):
     return fails
 
 
-def build_games(TG, tix, XB, FX, src, log=None):
+def build_games(TG, tix, XB, FX, src, log=None, reb_team=None):
     """TG: games_2026-27.csv rows already filtered to finished games before the as-of date.
     src: 'box' or a game_factors version ('raw', 'cw', 'cc'). Each game also carries n_poss (possessions behind its
     pillars: competitive possessions for play-by-play games, box possessions otherwise) for optional game weighting.
@@ -74,11 +76,11 @@ def build_games(TG, tix, XB, FX, src, log=None):
         base = dict(gameId=int(gid), date=r.date, t=tix[tm], o=tix[op], home=not (pd.notna(r.neutral) and bool(r.neutral)))
         s_ = o_ = None
         if src != 'box':
-            ps, po = pbp_side(FX, gid, r.team, 'raw'), pbp_side(FX, gid, r.opp, 'raw')
+            ps, po = pbp_side(FX, gid, r.team, 'raw', reb_team), pbp_side(FX, gid, r.opp, 'raw', reb_team)
             if ps is None or po is None: tag = 'box (no play-by-play)'
             elif gate(bs, bo, ps, po): tag = 'box (play-by-play failed check)'
             else:
-                s_, o_ = pbp_side(FX, gid, r.team, src), pbp_side(FX, gid, r.opp, src)
+                s_, o_ = pbp_side(FX, gid, r.team, src, reb_team), pbp_side(FX, gid, r.opp, src, reb_team)
                 tag = 'play-by-play' if usable(s_) and usable(o_) else 'box (too few competitive possessions)'
                 if tag != 'play-by-play': s_ = o_ = None
         else:

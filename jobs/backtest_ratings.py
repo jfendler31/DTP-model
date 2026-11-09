@@ -40,7 +40,8 @@ def main():
     FX = load_factors(f'{B}/game_factors_{S}.csv')
     L = pd.read_csv(f'{B}/lines_{S}.csv').set_index('gameId')
     TG = TG[TG.pts.notna() & TG.opp_pts.notna()]
-    ALL = {v: build_games(TG, tix, XB, FX if src != 'box' else {}, src, collections.Counter())[0] for v, (src, _) in VERSIONS.items()}
+    RT = S <= 2025                       # the 2024-25 box counts include team rebounds
+    ALL = {v: build_games(TG, tix, XB, FX if src != 'box' else {}, src, collections.Counter(), reb_team=RT)[0] for v, (src, _) in VERSIONS.items()}
     srcs = collections.Counter(x['src'] for x in ALL['cw'])
     print(f'season {S}: {len(ALL["box"])} D-I games; cw pillars from play-by-play {srcs["pbp"]}, box fallback {srcs["box"]}')
     home = TG[TG.isHome == True].drop_duplicates('gameId').set_index('gameId')

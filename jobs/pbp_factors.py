@@ -129,7 +129,9 @@ def game_factors(gid, plays, rows, meta):
             add(team, t, 'fta', hs, as_, period, back=FT_BACK)
             ok = not missed(x)
             if ok: add(team, t, 'ftm', hs, as_, period, back=FT_BACK)
-            if t - last_tech > 2 and final_ft(x): last_miss = None if ok else team
+            if t - last_tech > 2:
+                # a miss that drew the foul has no rebound; only a missed last FT leaves one pending
+                last_miss = (None if ok else team) if final_ft(x) else None
         elif k in ('oreb', 'dreb') and team_reb(x, team):
             # 2024-25 feed: team rebounds come as "<Team> Offensive/Defensive Rebound." with no player (later seasons
             # log them as Deadball Team Rebound). Box scores leave team rebounds out, so treat them like dbreb.

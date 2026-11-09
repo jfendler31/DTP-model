@@ -28,6 +28,14 @@ jobs:
           python jobs/backtest_pull.py $ARGS
         env:
           CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
+      - name: Keep raw plays (re-parse later with --from-raw, no CBBD calls)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: backtest-raw
+          path: data/backtest/raw_*
+          retention-days: 90
+          if-no-files-found: ignore
       - name: Save
         if: always()
         run: |
