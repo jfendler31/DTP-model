@@ -43,6 +43,7 @@ jobs:
           python jobs/grade.py $ARGS
         env:
           CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
       - name: Save
         run: |
           git config user.name "dtp-bot"; git config user.email "actions@users.noreply.github.com"

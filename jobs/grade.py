@@ -4,7 +4,9 @@ For each game on cards/card_<D>.csv (the card as built, normally the 4:15 AM run
   reference number = the card's market_home_spread (the 4 AM number); for games the card had no line for (extra board),
                      the CBBD opening spread (median across books), flagged ref_src='cbbd_open'
   model side       = side of the reference vs the card's size-adjusted model (model_home_spread_adj, as built that day)
-  close            = CBBD closing spread, median across books (the `spread` field of /lines)
+  close            = CBBD closing spread, median across books (the `spread` field of /lines); where CBBD has no line
+                     (it stopped posting Nov 7's late games), the Odds API historical snapshot 5 minutes before tip,
+                     median across books (close_src='oddsapi_hist'; 10 credits per tip time, needs ODDS_API_KEY)
   result           = model side ATS vs the reference number and vs the close (W / L / P), from data/finals/finals_<D>.csv
   clv              = points the reference beat the close by, on the model side (+ = the market moved toward the model)
 
@@ -50,6 +52,42 @@ def cbbd_lines(start, end):
     return out
 
 
+ODDS_EXTRA = {'New Haven Chargers': 'New Haven', 'West Florida Argonauts': 'West Florida', 'New Orleans Privateers': 'LSU New Orleans',
+              'Miami Hurricanes': 'Miami FL', 'Miami (OH) RedHawks': 'Miami OH', 'Queens University Royals': 'Queens',
+              'Wright St Raiders': 'Wright St.', 'Air Force Falcons': 'Air Force'}
+
+
+def oddsapi_closes(need):
+    """need: list of (tip_ET string, away, home). Returns {(away, home): home spread median} from the Odds API
+    historical snapshot 5 minutes before each tip time (one call per distinct tip time)."""
+    key = os.environ.get('ODDS_API_KEY', '').strip()
+    if not key or not need: return {}
+    import requests
+    xa = json.load(open('data/xwalk_oddsapi_cbbd.json')); xb = {k: v.strip() for k, v in json.load(open('data/xwalk_cbbd_kp.json')).items()}
+    kp = lambda n: ODDS_EXTRA.get(n) or xb.get(xa.get(n, ''))
+    out, used = {}, 0
+    for tip in sorted({t for t, _, _ in need}):
+        when = pd.Timestamp(dt.datetime.strptime(tip.split(' ', 1)[1] + f' {dt.date.today().year}', '%b %d %I:%M %p %Y'), tz='America/New_York')
+        if when.month > dt.date.today().month + 1: when = when.replace(year=when.year - 1)
+        at = (when - pd.Timedelta(minutes=5)).tz_convert('UTC').strftime('%Y-%m-%dT%H:%M:%SZ')
+        try:
+            r = requests.get('https://api.the-odds-api.com/v4/historical/sports/basketball_ncaab/odds', timeout=60,
+                             params=dict(apiKey=key, regions='us', markets='spreads', oddsFormat='american', date=at))
+            r.raise_for_status()
+        except Exception as e:
+            print('Odds API historical unavailable for', tip, e); continue
+        used = r.headers.get('x-requests-used', used)
+        for g in r.json().get('data', []):
+            a, h = kp(g['away_team']), kp(g['home_team'])
+            pts = [o.get('point') for b in g.get('bookmakers', []) for mk in b.get('markets', []) if mk['key'] == 'spreads'
+                   for o in mk.get('outcomes', []) if o['name'] == g['home_team'] and o.get('point') is not None]
+            if a and h and pts:
+                out[(a, h)] = float(np.median(pts)); out[(h, a)] = -float(np.median(pts))
+        print(f'Odds API historical {at}: snapshot {r.json().get("timestamp")}')
+    print('Odds API requests used (account total):', used)
+    return out
+
+
 def res(home_margin, line, side_home):
     if pd.isna(line) or pd.isna(home_margin): return ''
     cov = home_margin + line
@@ -80,12 +118,25 @@ def grade_day(d, L):
         if pd.isna(ref) or pd.isna(model): continue
         e = ref - model; side_home = e > 0
         clv = np.nan if pd.isna(close) else ((ref - close) if side_home else (close - ref))
-        rows.append(dict(date=d, tip_ET=g.tip_ET, away=g.away, home=g.home, venue=g.venue, ref_src=src, ref=ref,
+        rows.append(dict(date=d, tip_ET=g.tip_ET, away=g.away, home=g.home, venue=g.venue, ref_src=src, ref=ref, side_home=side_home,
+                         close_src='' if pd.isna(close) else 'cbbd',
                          model_raw=g.model_home_spread, model_adj=model, edge=round(abs(e), 1),
                          side=g.home if side_home else g.away, close=close, n_books=0 if cb is None else cb['n_books'],
                          home_margin=hm, res_ref=res(hm, ref, side_home), res_close=res(hm, close, side_home),
                          clv=None if pd.isna(clv) else round(clv, 1)))
-    return pd.DataFrame(rows)
+    G = pd.DataFrame(rows)
+    if G.empty: return G
+    need = G[G.close.isna()]
+    if len(need):
+        oc = oddsapi_closes(list(zip(need.tip_ET, need.away, need.home)))
+        for i in need.index:
+            c = oc.get((G.at[i, 'away'], G.at[i, 'home']))
+            if c is None: continue
+            sh, ref = G.at[i, 'side_home'], G.at[i, 'ref']
+            G.at[i, 'close'], G.at[i, 'close_src'] = c, 'oddsapi_hist'
+            G.at[i, 'res_close'] = res(G.at[i, 'home_margin'], c, sh)
+            G.at[i, 'clv'] = round((ref - c) if sh else (c - ref), 1)
+    return G.drop(columns='side_home')
 
 
 def rec(s):
