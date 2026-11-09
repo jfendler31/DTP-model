@@ -1,13 +1,12 @@
-# Torvik shot mix (team + player, shot type and distance). Runs after each Daily card run for the current season;
-# for backfills put arguments for jobs/torvik_pbp.py in triggers/torvik.txt (e.g. --years 2025-2026).
+# Torvik shot mix (team + player, shot type and distance).
+# barttorvik.com returns 403 to GitHub's runners (Nov 9, 2026), so this parses pages saved from a browser:
+# drop the .html files in data/torvik/inbox/ and push. (triggers/torvik.txt still runs a live pull, e.g. "--years 2027",
+# in case the site ever allows it.)
 name: Torvik shot mix
 on:
-  workflow_run:
-    workflows: ['Daily card']
-    types: [completed]
   workflow_dispatch:
   push:
-    paths: ['triggers/torvik.txt']
+    paths: ['triggers/torvik.txt', 'data/torvik/inbox/**']
 permissions:
   contents: write
 jobs:
@@ -19,13 +18,13 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests pandas
-      - name: Pull
-        env:
-          EVENT: ${{ github.event_name }}
+      - name: Parse
         run: |
-          ARGS=""
-          if [ "$EVENT" = "push" ]; then ARGS="$(head -1 triggers/torvik.txt)"; fi
-          python jobs/torvik_pbp.py $ARGS
+          if ls data/torvik/inbox/*.htm* >/dev/null 2>&1; then
+            python jobs/torvik_pbp.py --ingest data/torvik/inbox
+          else
+            python jobs/torvik_pbp.py $(head -1 triggers/torvik.txt)
+          fi
       - name: Save
         run: |
           git config user.name "dtp-bot"; git config user.email "actions@users.noreply.github.com"

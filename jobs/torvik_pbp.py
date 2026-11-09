@@ -7,7 +7,13 @@ Four pages per season (polite: one request every few seconds, ~4 per run):
   player_dist   playerpbp.php?year=Y&conlimit=All&minrim=0&min2=0&min3=0&tot=0             per player by distance
 Raw pages are kept (gzipped) under data/torvik/raw/ so a parser change never needs a re-pull.
 Outputs: data/torvik/<page>_<Y>.csv (latest) and, for the current season, data/torvik/snapshots/<page>_<Y>_<date>.csv.
-Usage: python jobs/torvik_pbp.py [--years 2027] [--pages team_types,team_dist,player_types,player_dist] [--parse-only FILE.html --page KIND]"""
+Usage: python jobs/torvik_pbp.py [--years 2027] [--pages team_types,team_dist,player_types,player_dist] [--parse-only FILE.html]
+       python jobs/torvik_pbp.py --ingest data/torvik/inbox     # pages saved from a browser (Ctrl+S, "Webpage, HTML only")
+
+Nov 9, 2026: barttorvik.com returns 403 to GitHub's runners, so the live pull doesn't run on a schedule. The working path is
+--ingest: Jon saves the pages (the URLs above; each covers all of D-I) and drops them in data/torvik/inbox/ (or in a chat,
+and Claude commits them there). The page kind, season and any team filter are read from the page itself.
+Not done on purpose: disguising the request (browser User-Agent etc.) to get past the 403."""
 import argparse, datetime as dt, gzip, html as H, os, re, sys, time
 import pandas as pd
 BASE = 'https://barttorvik.com/'
@@ -93,9 +99,37 @@ def fetch(page, year, sess):
     if '<table' not in r.text: raise SystemExit(f'{page} {year}: no table in response (bot check?) — first 300 chars: {r.text[:300]!r}')
     return r.text
 
+def detect(page_html):
+    title = (re.search(r'<title>([^<]*)', page_html) or [0, ''])[1]
+    kind = 'player' if 'Player Shooting' in title else 'team' if 'Team Shooting' in title else None
+    if kind is None: raise SystemExit(f'not a Torvik shooting page: {title!r}')
+    tab = max(re.findall(r'<table.*?</table>', page_html, re.S), key=len)
+    m = re.search(r'<thead.*?</thead>', tab, re.S); head = m.group(0) if m else tab[:20000]
+    view = 'types' if re.search(r'Spot-Up|Pull-Up', head) else 'dist' if re.search(r'Close Twos|Dunks', head) else None
+    if view is None: raise SystemExit('could not tell shot-type view from distance view')
+    y = re.search(r'name=["\']year["\'] value=["\'](\d{4})', page_html) or re.search(r'<h1>\s*(\d{4})', page_html) or re.search(r'year=(\d{4})', page_html)
+    team = (re.search(r'name=["\']tvalue["\'] value=["\']([^"\']+)', page_html) or [0, ''])[1]
+    return f'{kind}_{view}', int(y.group(1)), (team if team not in ('', 'All') else None)
+
+def ingest(folder):
+    today = dt.datetime.now(dt.timezone(dt.timedelta(hours=-5))).date().isoformat()
+    os.makedirs('data/torvik/raw', exist_ok=True); os.makedirs('data/torvik/snapshots', exist_ok=True)
+    for fn in sorted(os.listdir(folder)):
+        if not fn.lower().endswith(('.html', '.htm')): continue
+        page_html = open(f'{folder}/{fn}', encoding='utf-8', errors='ignore').read()
+        page, y, team = detect(page_html); df = parse(page_html)
+        df.insert(0, 'pulled', today); df.insert(0, 'season', y)
+        tag = f'{page}_{y}' + (f"_{re.sub(r'[^A-Za-z0-9]+', '_', team)}" if team else '')
+        df.to_csv(f'data/torvik/{tag}.csv', index=False, encoding='utf-8-sig')
+        if y == CUR and not team: df.to_csv(f'data/torvik/snapshots/{tag}_{today}.csv', index=False, encoding='utf-8-sig')
+        with gzip.open(f'data/torvik/raw/{tag}_{today}.html.gz', 'wt', encoding='utf-8') as f: f.write(page_html)
+        os.remove(f'{folder}/{fn}')   # archived above as raw/<tag>_<date>.html.gz
+        print(f'{fn}: {tag} -> {len(df)} rows, {df.shape[1]} columns')
+
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('--years', default=str(CUR)); ap.add_argument('--pages', default=','.join(PAGES))
-    ap.add_argument('--parse-only'); ap.add_argument('--page'); a = ap.parse_args()
+    ap.add_argument('--parse-only'); ap.add_argument('--ingest'); a = ap.parse_args()
+    if a.ingest: ingest(a.ingest); return
     if a.parse_only:
         df = parse(open(a.parse_only, encoding='utf-8', errors='ignore').read()); print(df.shape); print(list(df.columns)); print(df.head(3).T.to_string()); return
     import requests
@@ -119,7 +153,7 @@ def main():
     cutoff = (dt.date.fromisoformat(today) - dt.timedelta(days=14)).isoformat()
     for fn in os.listdir('data/torvik/raw'):
         m = re.search(r'_(\d{4}-\d{2}-\d{2})\.html\.gz$', fn)
-        if m and m.group(1) < cutoff: os.remove(f'data/torvik/raw/{fn}')
+        if m and m.group(1) < cutoff and f'_{CUR}_' in fn: os.remove(f'data/torvik/raw/{fn}')
 
 if __name__ == '__main__':
     main()
