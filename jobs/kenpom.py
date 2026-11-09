@@ -44,13 +44,17 @@ def season_for(d):
 
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument('--date'); ap.add_argument('--fanmatch-only', action='store_true', help='past date: FanMatch only, leave the ratings files alone'); ap.add_argument('--height', action='store_true'); ap.add_argument('--preseason', type=int, help='season (ending year): archived preseason ratings -> preseason_<y>.csv'); ap.add_argument('--history', help='Y1-Y2: end-of-season ratings, four factors, misc stats, point distribution per season -> history/<endpoint>_<y>.csv (coach/scheme histories)')
+    ap = argparse.ArgumentParser(); ap.add_argument('--date'); ap.add_argument('--fanmatch-only', action='store_true', help='past date: FanMatch only, leave the ratings files alone'); ap.add_argument('--height', action='store_true'); ap.add_argument('--height-year', type=int, help='past season (ending year): height/experience/bench/continuity table -> history/height_<y>.csv'); ap.add_argument('--preseason', type=int, help='season (ending year): archived preseason ratings -> preseason_<y>.csv'); ap.add_argument('--history', help='Y1-Y2: end-of-season ratings, four factors, misc stats, point distribution per season -> history/<endpoint>_<y>.csv (coach/scheme histories)')
     a = ap.parse_args()
     d = dt.date.fromisoformat(a.date) if a.date else dt.datetime.now(ET).date()
     y = season_for(d)
     os.makedirs(OUT, exist_ok=True)
     get = getter()
 
+    if a.height_year:
+        os.makedirs(f'{OUT}/history', exist_ok=True)
+        h = pd.DataFrame(get('height', y=a.height_year)); h.to_csv(f'{OUT}/history/height_{a.height_year}.csv', index=False)
+        print(f'height y={a.height_year}: {len(h)} teams'); return
     if a.history:
         y1, y2 = map(int, a.history.split('-')); os.makedirs(f'{OUT}/history', exist_ok=True)
         key = os.environ['KENPOM_API_KEY'].strip(); hdr = {'Authorization': f'Bearer {key}', 'Accept': 'application/json'}
