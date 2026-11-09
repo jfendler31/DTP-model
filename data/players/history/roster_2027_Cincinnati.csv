@@ -1,0 +1,16 @@
+team,id,sourceId,name,firstName,lastName,jersey,position,height,weight,dateOfBirth,startSeason,endSeason,hometown.city,hometown.state,hometown.country,hometown.latitude,hometown.longitude,hometown.countyFips
+Cincinnati,376,4894452,Myles Colvin,Myles,Colvin,6,Guard,77,215,,2027,2027,Indianapolis,IN,,39.7683331,-86.1583502,18097
+Cincinnati,3673,4838752,Riley Allenspach,Riley,Allenspach,35,Center,83,245,,2027,2027,Charlotte,MI,,42.5637369,-84.8355792,26045
+Cincinnati,4558,5105401,MJ Collins Jr.,MJ,Collins Jr.,2,Guard,76,195,,2027,2027,Clover,SC,,35.1112886,-81.2265808,45091
+Cincinnati,4929,5242560,Javontae Campbell,Javontae,Campbell,3,Guard,75,185,,2027,2027,Muskogee,OK,,35.7478769,-95.3696909,40101
+Cincinnati,4971,5241471,Eric Mahaffey,Eric,Mahaffey,20,Guard,78,210,,2027,2027,Cincinnati,OH,,39.1014537,-84.5124602,39061
+Cincinnati,5742,4685671,Jayden Hastings,Jayden,Hastings,22,Forward,82,245,,2027,2027,Orlando,FL,,28.5421109,-81.3790304,12095
+Cincinnati,6869,5175148,Tyler Tejada,Tyler,Tejada,8,Guard,81,230,,2027,2027,Teaneck,NJ,,40.8860164,-74.0072568,34003
+Cincinnati,7161,5178210,Tylen Riley,Tylen,Riley,10,Guard,75,195,,2027,2027,Las Vegas,NM,,35.5939325,-105.223896,35047
+Cincinnati,199423,5101784,Akai Fleming,Akai,Fleming,5,Guard,76,200,,2027,2027,Marietta,OH,,39.4167742,-81.4548392,39167
+Cincinnati,201037,5314778,Trevian Carson,Trevian,Carson,0,Guard,75,205,,2027,2027,West Des Moines,IA,,41.5644476,-93.7594059,19153
+Cincinnati,202993,5195079,Adlan Elamin,Adlan,Elamin,9,Forward,82,200,,2027,2027,Arlington,VA,,38.8809358,-77.10792458724406,51013
+Cincinnati,202995,5255259,David Iweze,David,Iweze,11,Forward,81,245,,2027,2027,Roanoke,TX,,33.0040126,-97.2258483,48121
+Cincinnati,202999,5255260,Elijah Perryman,Elijah,Perryman,1,Guard,74,190,,2027,2027,San Francisco,CA,,37.7792588,-122.4193286,06075
+Cincinnati,223783,5455692,Deshaun Vaden,Deshaun,Vaden,32,,83,225,,2027,2027,Cleveland,MS,,33.7440023,-90.7248187,28011
+Cincinnati,573,5105282,Grant Darbyshire,Grant,Darbyshire,13,Guard,74,190,,2026,2027,Cincinnati,OH,,39.1014537,-84.5124602,39061

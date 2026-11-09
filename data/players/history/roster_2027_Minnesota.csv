@@ -1,0 +1,16 @@
+team,id,sourceId,name,firstName,lastName,jersey,position,height,weight,dateOfBirth,startSeason,endSeason,hometown.city,hometown.state,hometown.country,hometown.latitude,hometown.longitude,hometown.countyFips
+Minnesota,8311,5144165,Isaac Asuma,Isaac,Asuma,1,Guard,75,205,,2025,2027,Cherry,MN,,47.400765,-92.70713,27137
+Minnesota,8313,5239570,Grayson Grove,Grayson,Grove,2,Forward,81,220,,2025,2027,Alexandria,Egypt,,,,
+Minnesota,6785,4894462,Jaylen Crocker-Johnson,Jaylen,Crocker-Johnson,5,Forward,80,240,,2026,2027,San Antonio,TX,,29.4246002,-98.4951405,48029
+Minnesota,2329,5174568,Bobby Durkin,Bobby,Durkin,3,Forward,79,220,,2026,2027,Darien,WI,,42.6012747,-88.7077382,55127
+Minnesota,200573,5311996,Max Lorenson,Max,Lorenson,8,Guard,74,175,,2026,2027,Eden Prairie,MN,,44.8546856,-93.470786,27053
+Minnesota,200576,5254164,Kai Shinholster,Kai,Shinholster,9,Guard,77,175,,2026,2027,Woolwich Township,NJ,,39.741482500000004,-75.34805549921285,34015
+Minnesota,3295,5239554,Malachi Palmer,Malachi,Palmer,7,Guard,78,220,,2027,2027,Harrisburg,IL,,37.7385,-88.5405213,17165
+Minnesota,6786,5093253,Kyan Evans,Kyan,Evans,0,Guard,74,175,,2027,2027,Kansas City,MO,,39.100105,-94.5781416,29095
+Minnesota,200509,5174808,Winters Grady,Winters,Grady,15,Guard,78,210,,2027,2027,Tualatin,OR,,45.3809339,-122.7694369,41067
+Minnesota,200512,5311988,Malick Kordel,Malick,Kordel,4,Center,86,275,,2027,2027,Oberhausen,GER,,,,
+Minnesota,202573,5311929,Nolan Groves,Nolan,Groves,10,Guard,77,205,,2027,2027,Orono,ME,,44.883607,-68.672791,23019
+Minnesota,225574,5310820,Nolen Anderson,Nolen,Anderson,31,,80,205,,2027,2027,Eden Prairie,MN,,44.8546856,-93.470786,27053
+Minnesota,225584,5456491,Chadrack Mpoyi,Chadrack,Mpoyi,55,,83,245,,2027,2027,Likasi,DOM,,,,
+Minnesota,225585,5456490,Blake Nixon Jr.,Blake,Nixon Jr.,21,,75,170,,2027,2027,Minneapolis,MN,,44.9772995,-93.2654692,27053
+Minnesota,225588,5310821,Cedric Tomes,Cedric,Tomes,6,,73,170,,2027,2027,Woodbury,NY,,40.8183265,-73.47061511527805,36059
