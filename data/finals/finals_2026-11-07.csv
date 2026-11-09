@@ -1,7 +1,4 @@
 date,tip_ET,away,home,venue,site,status,away_pts,home_pts
-2026-11-07,Sat Nov 7 10:00 PM,Sacramento St.,Santa Clara,H,"Leavey Center, Santa Clara",STATUS_FINAL,77,83
-2026-11-07,Sat Nov 7 10:00 PM,Portland St.,Seattle,H,"Redhawk Center, Seattle",STATUS_FINAL,60,79
-2026-11-07,Sat Nov 7 10:00 PM,San Jose St.,UC Irvine,H,"Bren Events Center, Irvine",STATUS_FINAL,79,91
 2026-11-07,Sat Nov 7 12:00 PM,Morehead St.,Louisville,H,"KFC Yum! Center, Louisville",STATUS_FINAL,57,107
 2026-11-07,Sat Nov 7 5:00 PM,New Mexico St.,Gonzaga,H,"McCarthey Athletic Center, Spokane",STATUS_FINAL,68,109
 2026-11-07,Sat Nov 7 12:00 PM,North Dakota,Winthrop,H,"Winthrop Coliseum, Rock Hill",STATUS_FINAL,93,90
@@ -47,3 +44,6 @@ date,tip_ET,away,home,venue,site,status,away_pts,home_pts
 2026-11-07,Sat Nov 7 8:00 PM,Bethune Cookman,Grand Canyon,H,"Global Credit Union Arena, Phoenix",STATUS_FINAL,81,99
 2026-11-07,Sat Nov 7 9:00 PM,Utah Valley,Weber St.,H,"Dee Events Center, Ogden",STATUS_FINAL,101,93
 2026-11-07,Sat Nov 7 10:00 PM,Fresno St.,UC San Diego,H,"LionTree Arena, San Diego",STATUS_FINAL,65,81
+2026-11-07,Sat Nov 7 10:00 PM,Sacramento St.,Santa Clara,H,"Leavey Center, Santa Clara",STATUS_FINAL,77,83
+2026-11-07,Sat Nov 7 10:00 PM,Portland St.,Seattle,H,"Redhawk Center, Seattle",STATUS_FINAL,60,79
+2026-11-07,Sat Nov 7 10:00 PM,San Jose St.,UC Irvine,H,"Bren Events Center, Irvine",STATUS_FINAL,79,91

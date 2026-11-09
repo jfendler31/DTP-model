@@ -1,0 +1,59 @@
+date,tip_ET,away,home,venue,site,status,away_pts,home_pts
+2026-11-06,Fri Nov 6 8:00 PM,Connecticut,Michigan,N,"TD Garden, Boston",STATUS_FINAL,85,77
+2026-11-06,Fri Nov 6 5:00 PM,Northeastern,Virginia,H,"John Paul Jones Arena, Charlottesville",STATUS_FINAL,72,97
+2026-11-06,Fri Nov 6 9:00 PM,Wagner,Miami FL,H,"Watsco Center, Coral Gables",STATUS_FINAL,57,83
+2026-11-06,Fri Nov 6 9:00 PM,Middle Tennessee,Kansas,H,"Allen Fieldhouse, Lawrence",STATUS_FINAL,45,89
+2026-11-06,Fri Nov 6 8:00 PM,Southern Miss,Iowa St.,H,"Hilton Coliseum, Ames",STATUS_FINAL,57,83
+2026-11-06,Fri Nov 6 7:30 PM,Arkansas St.,Alabama,H,"Coleman Coliseum, Tuscaloosa",STATUS_FINAL,86,101
+2026-11-06,Fri Nov 6 10:30 PM,North Florida,UCLA,H,"Pauley Pavilion, Los Angeles",STATUS_FINAL,63,114
+2026-11-06,Fri Nov 6 7:00 PM,James Madison,Kentucky,H,"Rupp Arena, Lexington",STATUS_FINAL,80,89
+2026-11-06,Fri Nov 6 9:00 PM,Nebraska Omaha,BYU,H,"Marriott Center, Provo",STATUS_FINAL,67,108
+2026-11-06,Fri Nov 6 4:00 PM,Massachusetts,Boston College,N,"TD Garden, Boston",STATUS_FINAL,55,71
+2026-11-06,Fri Nov 6 5:00 PM,West Florida,FIU,H,"Ocean Bank Convocation Center, Miami",STATUS_FINAL,75,85
+2026-11-06,Fri Nov 6 5:00 PM,Arkansas Pine Bluff,Baylor,H,"Foster Pavilion, Waco",STATUS_FINAL,53,109
+2026-11-06,Fri Nov 6 6:00 PM,Eastern Washington,Oregon,H,"Matthew Knight Arena, Eugene",STATUS_FINAL,71,98
+2026-11-06,Fri Nov 6 6:30 PM,Valparaiso,Purdue,H,"Mackey Arena, West Lafayette",STATUS_FINAL,83,80
+2026-11-06,Fri Nov 6 6:30 PM,South Carolina St.,USC Upstate,H,"G.B. Hodge Center, Spartanburg",STATUS_FINAL,78,70
+2026-11-06,Fri Nov 6 6:30 PM,Youngstown St.,Ohio St.,H,"Schottenstein Center, Columbus",STATUS_FINAL,65,89
+2026-11-06,Fri Nov 6 7:00 PM,New Haven,Rutgers,H,"Jersey Mike’s Arena, Piscataway",STATUS_FINAL,54,81
+2026-11-06,Fri Nov 6 7:00 PM,Stetson,West Virginia,H,"Hope Coliseum, Morgantown",STATUS_FINAL,53,91
+2026-11-06,Fri Nov 6 7:00 PM,Yale,UCF,H,"Addition Financial Arena, Orlando",STATUS_FINAL,75,87
+2026-11-06,Fri Nov 6 7:00 PM,Holy Cross,Villanova,H,"Finneran Pavilion, Villanova",STATUS_FINAL,66,95
+2026-11-06,Fri Nov 6 7:00 PM,UNC Greensboro,Elon,H,"Schar Center, Elon",STATUS_FINAL,65,74
+2026-11-06,Fri Nov 6 7:00 PM,Loyola MD,Mount St. Mary's,H,"Knott Arena, Emmitsburg",STATUS_FINAL,57,68
+2026-11-06,Fri Nov 6 7:00 PM,Georgia Southern,Georgia Tech,H,"McCamish Pavilion, Atlanta",STATUS_FINAL,83,95
+2026-11-06,Fri Nov 6 7:00 PM,Coppin St.,George Mason,H,"EagleBank Arena, Fairfax",STATUS_FINAL,51,68
+2026-11-06,Fri Nov 6 7:00 PM,East Tennessee St.,N.C. State,H,"Lenovo Center, Raleigh",STATUS_FINAL,63,77
+2026-11-06,Fri Nov 6 7:00 PM,Austin Peay,Kennesaw St.,H,"VyStar Arena, Kennesaw",STATUS_FINAL,69,71
+2026-11-06,Fri Nov 6 7:00 PM,Wofford,North Carolina,H,"Dean E. Smith Center, Chapel Hill",STATUS_FINAL,70,109
+2026-11-06,Fri Nov 6 7:00 PM,Boston University,Brown,H,"Pizzitola Sports Center, Providence",STATUS_FINAL,72,67
+2026-11-06,Fri Nov 6 7:00 PM,Saint Louis,Missouri,N,"Enterprise Center, St. Louis",STATUS_FINAL,90,84
+2026-11-06,Fri Nov 6 7:00 PM,Indiana St.,Ball St.,H,"Worthen Arena, Muncie",STATUS_FINAL,69,66
+2026-11-06,Fri Nov 6 7:00 PM,Troy,Florida St.,H,"Tucker Center, Tallahassee",STATUS_FINAL,68,91
+2026-11-06,Fri Nov 6 7:00 PM,Eastern Michigan,Xavier,H,"Cintas Center, Cincinnati",STATUS_FINAL,53,76
+2026-11-06,Fri Nov 6 7:00 PM,Presbyterian,Georgia,H,"Stegeman Coliseum, Athens",STATUS_FINAL,77,91
+2026-11-06,Fri Nov 6 7:30 PM,Florida Atlantic,Wright St.,H,"Nutter Center, Dayton",STATUS_FINAL,71,97
+2026-11-06,Fri Nov 6 7:30 PM,Delaware,Wisconsin,H,"Kohl Center, Madison",STATUS_FINAL,64,73
+2026-11-06,Fri Nov 6 7:30 PM,Nicholls,UAB,H,"Bartow Arena, Birmingham",STATUS_FINAL,63,70
+2026-11-06,Fri Nov 6 8:00 PM,Robert Morris,Illinois Chicago,H,"Credit Union 1 Arena, Chicago",STATUS_FINAL,56,79
+2026-11-06,Fri Nov 6 8:00 PM,Texas A&M Corpus Chris,Louisiana,H,"Cajundome, Lafayette",STATUS_FINAL,67,60
+2026-11-06,Fri Nov 6 8:00 PM,Texas Southern,LSU,H,"Pete Maravich Assembly Center, Baton Rouge",STATUS_FINAL,51,92
+2026-11-06,Fri Nov 6 8:00 PM,Northern Kentucky,Texas A&M,H,"Reed Arena, College Station",STATUS_FINAL,67,104
+2026-11-06,Fri Nov 6 8:00 PM,Stony Brook,Northwestern,H,"Welsh-Ryan Arena, Evanston",STATUS_FINAL,65,78
+2026-11-06,Fri Nov 6 8:00 PM,Southern,TCU,H,"Schollmaier Arena, Fort Worth",STATUS_FINAL,54,106
+2026-11-06,Fri Nov 6 8:00 PM,St. Thomas,Minnesota,H,"The Barn by Blue Cross and Blue Shield of Minnesota, Minneapolis",STATUS_FINAL,62,76
+2026-11-06,Fri Nov 6 8:00 PM,Detroit Mercy,Marquette,H,"Fiserv Forum, Milwaukee",STATUS_FINAL,32,93
+2026-11-06,Fri Nov 6 8:00 PM,Mississippi Valley St.,Oklahoma,H,"Lloyd Noble Center, Norman",STATUS_FINAL,57,84
+2026-11-06,Fri Nov 6 8:30 PM,Idaho St.,Wyoming,H,"Arena-Auditorium, Laramie",STATUS_FINAL,62,93
+2026-11-06,Fri Nov 6 8:30 PM,Eastern Illinois,Iowa,H,"Carver-Hawkeye Arena, Iowa City",STATUS_FINAL,47,91
+2026-11-06,Fri Nov 6 8:30 PM,Central Arkansas,Mississippi,H,"The Sandy and John Black Pavilion at Ole Miss, Oxford",STATUS_FINAL,60,92
+2026-11-06,Fri Nov 6 9:00 PM,Idaho,Colorado St.,H,"Moby Arena, Fort Collins",STATUS_FINAL,67,78
+2026-11-06,Fri Nov 6 9:00 PM,Northern Colorado,Arizona St.,H,"Desert Financial Arena, Tempe",STATUS_FINAL,63,90
+2026-11-06,Fri Nov 6 9:00 PM,Queens,Oklahoma St.,H,"Gallagher-Iba Arena, Stillwater",STATUS_FINAL,68,118
+2026-11-06,Fri Nov 6 9:00 PM,CSUN,Kansas St.,H,"Bramlage Coliseum, Manhattan",STATUS_FINAL,78,95
+2026-11-06,Fri Nov 6 9:15 PM,Southern Illinois,Kansas City,H,"Swinney Center, Kansas City",STATUS_FINAL,93,100
+2026-11-06,Fri Nov 6 9:30 PM,UT Arlington,Portland,N,"Stan Sheriff Center, Honolulu",STATUS_FINAL,89,85
+2026-11-06,Fri Nov 6 9:30 PM,Cal Baptist,Oregon St.,H,"Gill Coliseum, Corvallis",STATUS_FINAL,68,96
+2026-11-06,Fri Nov 6 9:30 PM,Tarleton St.,San Diego,H,"Jenny Craig Pavilion, San Diego",STATUS_FINAL,90,96
+2026-11-06,Fri Nov 6 10:00 PM,Oakland,Stanford,H,"Maples Pavilion, Stanford",STATUS_FINAL,63,81
+2026-11-06,Fri Nov 6 10:00 PM,North Dakota St.,San Francisco,H,"The Sobrato Center, San Francisco",STATUS_FINAL,70,79

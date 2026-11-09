@@ -1,0 +1,11 @@
+﻿date,tip_ET,away,home,venue,ref_src,ref,model_raw,model_adj,edge,side,close,n_books,home_margin,res_ref,res_close,clv
+2026-11-04,Wed Nov 4 7:00 PM,Maryland Eastern Shore,High Point,H,card,-30.5,-28.9,-31.0,0.5,High Point,-34.5,1,14,L,L,4.0
+2026-11-04,Wed Nov 4 7:00 PM,Longwood,Saint Joseph's,H,card,-9.5,-8.8,-8.8,0.7,Longwood,-11.5,2,9,W,W,-2.0
+2026-11-04,Wed Nov 4 7:00 PM,Fairleigh Dickinson,Butler,H,card,-24.5,-22.7,-23.9,0.6,Fairleigh Dickinson,-28.75,2,34,L,L,-4.2
+2026-11-04,Wed Nov 4 7:30 PM,CSUN,Wichita St.,H,card,-14.5,-14.4,-14.4,0.1,CSUN,-15.5,2,12,W,W,-1.0
+2026-11-04,Wed Nov 4 8:00 PM,Northern Kentucky,South Dakota,H,card,2.5,0.7,0.7,1.8,South Dakota,2.25,2,-8,L,L,0.2
+2026-11-04,Wed Nov 4 8:00 PM,Southeastern Louisiana,Auburn,H,card,-26.5,-26.0,-27.6,1.1,Auburn,-29.5,2,33,W,W,3.0
+2026-11-04,Wed Nov 4 9:00 PM,Radford,California,H,card,-15.5,-16.8,-17.1,1.6,California,-16.25,2,14,L,L,0.8
+2026-11-04,Wed Nov 4 10:00 PM,Queens,Loyola Marymount,H,card,-6.5,-4.5,-4.5,2.0,Queens,-6.5,1,-1,W,W,0.0
+2026-11-04,Wed Nov 4 10:00 PM,Milwaukee,Santa Clara,H,card,-17.5,-13.3,-13.3,4.2,Milwaukee,-16.5,2,23,L,L,1.0
+2026-11-04,Wed Nov 4 10:00 PM,North Dakota St.,Saint Mary's,H,cbbd_open,-12.5,-11.3,-11.3,1.2,North Dakota St.,-12.5,1,41,L,L,0.0

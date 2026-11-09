@@ -1,0 +1,20 @@
+date,tip_ET,away,home,venue,site,status,away_pts,home_pts
+2026-11-03,Tue Nov 3 6:00 PM,Wofford,Tennessee,H,"Food City Center, Knoxville",STATUS_FINAL,59,90
+2026-11-03,Tue Nov 3 7:30 PM,Drexel,Virginia,H,"John Paul Jones Arena, Charlottesville",STATUS_FINAL,60,89
+2026-11-03,Tue Nov 3 8:00 PM,Arkansas Pine Bluff,Arkansas,H,"Bud Walton Arena, Fayetteville",STATUS_FINAL,61,106
+2026-11-03,Tue Nov 3 7:30 PM,Sam Houston St.,Alabama,H,"Coleman Coliseum, Tuscaloosa",STATUS_FINAL,74,96
+2026-11-03,Tue Nov 3 7:00 PM,Manhattan,Kentucky,H,"Rupp Arena, Lexington",STATUS_FINAL,57,85
+2026-11-03,Tue Nov 3 7:00 PM,Purdue Fort Wayne,Duquesne,H,"UPMC Cooper Fieldhouse, Pittsburgh",STATUS_FINAL,71,78
+2026-11-03,Tue Nov 3 7:00 PM,Stetson,South Carolina,H,"Colonial Life Arena, Columbia",STATUS_FINAL,55,81
+2026-11-03,Tue Nov 3 7:00 PM,Coppin St.,Virginia Tech,H,"Cassell Coliseum, Blacksburg",STATUS_FINAL,54,88
+2026-11-03,Tue Nov 3 7:00 PM,Hampton,Georgia Tech,H,"McCamish Pavilion, Atlanta",STATUS_FINAL,55,75
+2026-11-03,Tue Nov 3 7:00 PM,Holy Cross,Rhode Island,H,"Thomas M. Ryan Center, Kingston",STATUS_FINAL,59,103
+2026-11-03,Tue Nov 3 7:00 PM,Wagner,Boston College,H,"Conte Forum, Chestnut Hill",STATUS_FINAL,50,76
+2026-11-03,Tue Nov 3 8:00 PM,LSU New Orleans,LSU,H,"Pete Maravich Assembly Center, Baton Rouge",STATUS_FINAL,57,100
+2026-11-03,Tue Nov 3 8:00 PM,Cleveland St.,Missouri,H,"Mizzou Arena, Columbia",STATUS_FINAL,50,111
+2026-11-03,Tue Nov 3 8:00 PM,Alabama St.,Texas A&M,H,"Reed Arena, College Station",STATUS_FINAL,66,97
+2026-11-03,Tue Nov 3 8:00 PM,Lipscomb,Iowa,H,"Carver-Hawkeye Arena, Iowa City",STATUS_FINAL,54,76
+2026-11-03,Tue Nov 3 8:00 PM,South Dakota St.,Kansas St.,H,"Bramlage Coliseum, Manhattan",STATUS_FINAL,68,66
+2026-11-03,Tue Nov 3 10:00 PM,Northern Arizona,UNLV,H,"Thomas & Mack Center, Las Vegas",STATUS_FINAL,77,89
+2026-11-03,Tue Nov 3 10:00 PM,North Florida,Cal Baptist,H,"Dale E. and Sarah Ann Fowler Events Center, Riverside",STATUS_FINAL,71,63
+2026-11-03,Tue Nov 3 10:00 PM,Cal St. Fullerton,San Diego St.,H,"Viejas Arena, San Diego",STATUS_FINAL,78,102
