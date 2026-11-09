@@ -1,297 +1,297 @@
-﻿date,tip_ET,away,home,venue,ref_src,ref,model_raw,model_adj,edge,side,close,n_books,home_margin,res_ref,res_close,clv
-2026-11-02,Mon Nov 2 10:00 PM,Montana St.,Colorado St.,H,card,-11.0,-10.6,-10.6,0.4,Montana St.,-10.75,2,10,W,W,0.2
-2026-11-02,Mon Nov 2 10:00 PM,Eastern Washington,Stanford,H,card,-13.5,-12.4,-12.4,1.1,Eastern Washington,-14.5,1,9,W,W,-1.0
-2026-11-02,Mon Nov 2 10:00 PM,UCLA,Arizona,N,card,-4.5,-5.3,-5.3,0.8,Arizona,-5.25,2,-9,L,L,0.8
-2026-11-02,Mon Nov 2 10:00 PM,Towson,Santa Clara,H,card,-14.5,-12.7,-12.7,1.8,Towson,-13.5,1,19,L,L,1.0
-2026-11-02,Mon Nov 2 10:00 PM,Robert Morris,Nevada,H,card,-13.0,-12.7,-12.7,0.3,Robert Morris,-12.5,1,37,L,L,0.5
-2026-11-02,Mon Nov 2 10:00 PM,Montana,Oregon,H,card,-18.5,-18.0,-18.4,0.1,Montana,-19.25,2,18,W,W,-0.8
-2026-11-02,Mon Nov 2 10:00 PM,Colgate,Washington,H,card,-14.5,-15.2,-15.2,0.7,Washington,-14.5,1,14,L,L,0.0
-2026-11-02,Mon Nov 2 10:00 PM,Illinois St.,Saint Mary's,H,card,-6.5,-6.1,-6.1,0.4,Illinois St.,-6.5,1,5,W,W,0.0
-2026-11-02,Mon Nov 2 10:00 PM,Radford,San Francisco,H,card,-10.5,-10.1,-10.1,0.4,Radford,-14.0,2,14,L,P,-3.5
-2026-11-02,Mon Nov 2 10:30 PM,Milwaukee,USC,H,card,-26.0,-22.0,-23.1,2.9,Milwaukee,-26.5,2,32,L,L,-0.5
-2026-11-02,Mon Nov 2 11:30 AM,Tennessee St.,Murray St.,N,card,-10.5,-7.1,-7.1,3.4,Tennessee St.,-10.0,2,30,L,L,0.5
-2026-11-02,Mon Nov 2 2:00 PM,Northern Kentucky,UTEP,N,card,-2.5,-2.2,-2.2,0.3,Northern Kentucky,-3.75,2,-8,W,W,-1.2
-2026-11-02,Mon Nov 2 3:00 PM,UTSA,San Jose St.,H,card,-8.0,-6.2,-6.2,1.8,UTSA,-8.25,2,21,L,L,-0.2
-2026-11-02,Mon Nov 2 3:01 AM,Northern Illinois,Grambling St.,N,cbbd_open,6.0,5.7,5.7,0.3,Grambling St.,8.5,2,2,W,W,-2.5
-2026-11-02,Mon Nov 2 4:00 PM,UMBC,George Mason,H,card,-17.5,-15.8,-15.9,1.6,UMBC,-19.5,1,28,L,L,-2.0
-2026-11-02,Mon Nov 2 5:30 PM,McNeese,UAB,N,card,3.0,3.3,3.3,0.3,McNeese,3.0,2,-21,W,W,0.0
-2026-11-02,Mon Nov 2 6:00 AM,Merrimack,Appalachian St.,N,card,-8.5,4.1,4.1,12.6,Merrimack,3.25,2,14,L,L,11.8
-2026-11-02,Mon Nov 2 6:00 PM,Oakland,Michigan,H,card,-26.5,-24.7,-26.2,0.3,Oakland,-27.5,1,16,W,W,-1.0
-2026-11-02,Mon Nov 2 6:00 PM,Bowling Green,Georgia St.,H,card,-4.5,-0.6,-0.6,3.9,Bowling Green,-3.5,2,-3,W,W,1.0
-2026-11-02,Mon Nov 2 6:00 PM,Miami FL,Florida,N,card,-5.0,-7.8,-7.8,2.8,Florida,-6.0,2,10,W,W,1.0
-2026-11-02,Mon Nov 2 6:00 PM,Pepperdine,Cornell,H,card,3.5,0.3,0.3,3.2,Cornell,3.25,2,1,W,W,0.2
-2026-11-02,Mon Nov 2 6:30 PM,Army,Duke,H,card,-42.5,-41.4,-45.4,2.9,Duke,-44.5,2,34,L,L,2.0
-2026-11-02,Mon Nov 2 6:30 PM,Monmouth,St. John's,H,card,-27.5,-24.7,-26.2,1.3,Monmouth,-28.5,1,15,W,W,-1.0
-2026-11-02,Mon Nov 2 6:30 PM,Loyola MD,Georgetown,H,card,-23.5,-22.9,-24.1,0.6,Georgetown,-26.5,2,22,L,L,3.0
-2026-11-02,Mon Nov 2 7:00 PM,Rider,Pittsburgh,H,card,-27.5,-24.6,-26.0,1.5,Rider,-27.5,1,38,L,L,0.0
-2026-11-02,Mon Nov 2 7:00 PM,Western Michigan,Old Dominion,H,card,1.5,-0.2,-0.2,1.7,Old Dominion,1.5,1,12,W,W,0.0
-2026-11-02,Mon Nov 2 7:00 PM,Memphis,Iowa St.,N,card,-14.5,-14.8,-14.8,0.3,Iowa St.,-15.25,2,-4,L,L,0.8
-2026-11-02,Mon Nov 2 7:00 PM,Eastern Illinois,Indiana,H,card,-34.5,-31.8,-34.3,0.2,Eastern Illinois,-34.5,1,34,W,W,0.0
-2026-11-02,Mon Nov 2 7:00 PM,Western Carolina,North Carolina,H,card,-22.5,-21.0,-21.9,0.6,Western Carolina,-22.25,2,8,W,W,0.2
-2026-11-02,Mon Nov 2 7:00 PM,Howard,Yale,H,card,-6.0,-4.5,-4.5,1.5,Howard,-7.5,2,10,L,L,-1.5
-2026-11-02,Mon Nov 2 7:00 PM,St. Thomas,Presbyterian,H,card,2.5,0.9,0.9,1.6,Presbyterian,3.5,1,-9,L,L,-1.0
-2026-11-02,Mon Nov 2 7:00 PM,New Haven,Syracuse,H,card,-27.5,-25.9,-27.5,0.0,New Haven,-27.5,2,16,W,W,0.0
-2026-11-02,Mon Nov 2 7:00 PM,Mount St. Mary's,Xavier,H,card,-26.5,-24.4,-25.8,0.7,Mount St. Mary's,-26.5,1,45,L,L,0.0
-2026-11-02,Mon Nov 2 7:00 PM,New Hampshire,Brown,H,card,-8.5,-8.6,-8.6,0.1,Brown,-8.5,2,-4,L,L,0.0
-2026-11-02,Mon Nov 2 7:00 PM,Miami OH,James Madison,H,card,0.0,0.7,0.7,0.7,Miami OH,-0.25,2,-9,W,W,-0.2
-2026-11-02,Mon Nov 2 7:00 PM,USC Upstate,East Carolina,H,card,-14.5,-13.5,-13.5,1.0,USC Upstate,-15.5,1,13,W,W,-1.0
-2026-11-02,Mon Nov 2 7:00 PM,Jackson St.,Texas Tech,H,card,-34.5,-31.8,-34.3,0.2,Jackson St.,-38.5,2,34,W,W,-4.0
-2026-11-02,Mon Nov 2 7:00 PM,NJIT,Dayton,H,card,-22.5,-23.8,-25.1,2.6,Dayton,-23.5,2,31,W,W,1.0
-2026-11-02,Mon Nov 2 7:00 PM,Maine,Providence,H,card,-28.5,-26.1,-27.8,0.7,Maine,-32.0,2,27,W,W,-3.5
-2026-11-02,Mon Nov 2 7:00 PM,Northeastern,Boston University,H,card,-1.0,1.0,1.0,2.0,Northeastern,-2.0,2,8,L,L,-1.0
-2026-11-02,Mon Nov 2 7:00 PM,Lafayette,Butler,H,card,-20.5,-21.0,-21.9,1.4,Butler,-19.5,2,36,W,W,-1.0
-2026-11-02,Mon Nov 2 7:00 PM,UNC Asheville,Richmond,H,card,-12.0,-12.1,-12.1,0.1,Richmond,-15.5,2,23,W,W,3.5
-2026-11-02,Mon Nov 2 7:00 PM,Quinnipiac,Michigan St.,H,card,-29.5,-29.1,-31.2,1.7,Michigan St.,-30.25,2,37,W,W,0.8
-2026-11-02,Mon Nov 2 7:00 PM,Buffalo,Marshall,H,card,-1.5,-1.8,-1.8,0.3,Marshall,-2.25,2,27,W,W,0.8
-2026-11-02,Mon Nov 2 7:00 PM,Bellarmine,Vanderbilt,H,card,-32.5,-29.2,-31.3,1.2,Bellarmine,-36.0,2,46,L,L,-3.5
-2026-11-02,Mon Nov 2 7:00 PM,Vermont,Iona,H,card,-1.0,-0.3,-0.3,0.7,Vermont,1.5,2,1,P,L,2.5
-2026-11-02,Mon Nov 2 7:00 PM,LIU,Florida Atlantic,H,card,-10.0,-11.7,-11.7,1.7,Florida Atlantic,-11.0,2,14,W,W,1.0
-2026-11-02,Mon Nov 2 7:00 PM,Elon,Columbia,H,card,-3.5,-2.5,-2.5,1.0,Elon,-4.5,1,-13,W,W,-1.0
-2026-11-02,Mon Nov 2 7:00 PM,Florida Gulf Coast,UCF,H,card,-21.5,-20.5,-21.3,0.2,Florida Gulf Coast,-22.5,1,1,W,W,-1.0
-2026-11-02,Mon Nov 2 7:00 PM,Central Connecticut,Temple,H,card,-15.5,-16.7,-17.0,1.5,Temple,-14.5,2,12,L,L,-1.0
-2026-11-02,Mon Nov 2 7:00 PM,Charleston Southern,South Florida,H,card,-19.0,-18.1,-18.6,0.4,Charleston Southern,-21.5,2,27,L,L,-2.5
-2026-11-02,Mon Nov 2 7:00 PM,Ball St.,Georgia Southern,H,card,2.5,4.0,4.0,1.5,Ball St.,1.75,2,12,L,L,-0.8
-2026-11-02,Mon Nov 2 7:00 PM,Massachusetts,Troy,H,card,-3.5,-3.5,-3.5,0.0,Massachusetts,-2.75,2,-11,W,W,0.8
-2026-11-02,Mon Nov 2 7:00 PM,Niagara,West Virginia,H,card,-28.5,-27.7,-29.6,1.1,West Virginia,-28.5,1,45,W,W,0.0
-2026-11-02,Mon Nov 2 7:00 PM,Dartmouth,Marist,H,card,-6.5,-6.1,-6.1,0.4,Dartmouth,-7.5,1,-7,W,W,-1.0
-2026-11-02,Mon Nov 2 7:00 PM,Navy,George Washington,H,card,-16.5,-15.1,-15.1,1.4,Navy,-18.5,2,52,L,L,-2.0
-2026-11-02,Mon Nov 2 7:00 PM,Youngstown St.,St. Bonaventure,H,card,-10.5,-11.3,-11.3,0.8,St. Bonaventure,-10.5,1,-8,L,L,0.0
-2026-11-02,Mon Nov 2 7:00 PM,Bucknell,Maryland,H,card,-31.5,-27.5,-29.4,2.1,Bucknell,-31.5,1,29,W,W,0.0
-2026-11-02,Mon Nov 2 7:00 PM,Little Rock,VCU,H,card,-19.0,-20.2,-21.0,2.0,VCU,-19.0,2,10,L,L,0.0
-2026-11-02,Mon Nov 2 7:00 PM,Stetson,Clemson,H,card,-25.5,-23.3,-24.5,1.0,Stetson,-22.5,2,13,W,W,3.0
-2026-11-02,Mon Nov 2 7:00 PM,Air Force,Wright St.,H,card,-10.5,-10.7,-10.7,0.2,Wright St.,-12.25,2,31,W,W,1.8
-2026-11-02,Mon Nov 2 7:00 PM,Eastern Michigan,Coastal Carolina,H,card,-1.0,-1.4,-1.4,0.4,Coastal Carolina,-1.5,1,-1,L,L,0.5
-2026-11-02,Mon Nov 2 7:00 PM,Charlotte,Indiana St.,H,card,4.5,2.1,2.1,2.4,Indiana St.,5.25,2,-8,L,L,-0.8
-2026-11-02,Mon Nov 2 7:30 PM,Denver,Wisconsin,H,card,-23.0,-24.2,-25.6,2.6,Wisconsin,-25.25,2,7,L,L,2.2
-2026-11-02,Mon Nov 2 7:30 PM,Le Moyne,Nebraska,H,card,-33.5,-31.0,-33.4,0.1,Le Moyne,-35.0,2,42,L,L,-1.5
-2026-11-02,Mon Nov 2 7:30 PM,Central Michigan,Louisiana Monroe,H,card,3.0,4.3,4.3,1.3,Central Michigan,2.5,1,-5,W,W,-0.5
-2026-11-02,Mon Nov 2 7:30 PM,Saint Peter's,Seton Hall,H,card,-20.5,-19.2,-19.8,0.7,Saint Peter's,-19.5,1,24,L,L,1.0
-2026-11-02,Mon Nov 2 7:30 PM,Tennessee Tech,Mississippi St.,H,card,-17.5,-16.7,-17.0,0.5,Tennessee Tech,-18.25,2,18,L,W,-0.8
-2026-11-02,Mon Nov 2 7:30 PM,Lipscomb,Southeast Missouri,H,card,2.5,1.4,1.4,1.1,Southeast Missouri,1.5,1,7,W,W,1.0
-2026-11-02,Mon Nov 2 7:30 PM,Campbell,N.C. State,H,card,-23.5,-20.8,-21.7,1.8,Campbell,-23.5,1,19,W,W,0.0
-2026-11-02,Mon Nov 2 7:30 PM,Kent St.,Louisiana Tech,H,card,5.5,4.6,4.6,0.9,Louisiana Tech,5.25,2,10,W,W,0.2
-2026-11-02,Mon Nov 2 7:30 PM,Southern Indiana,Belmont,H,card,-17.5,-16.9,-17.2,0.3,Southern Indiana,-17.5,1,18,L,L,0.0
-2026-11-02,Mon Nov 2 7:30 PM,Canisius,Penn St.,H,card,-22.5,-21.3,-22.2,0.3,Canisius,-23.75,2,40,L,L,-1.2
-2026-11-02,Mon Nov 2 7:30 PM,North Carolina Central,Georgia,H,card,-38.0,-33.8,-36.6,1.4,North Carolina Central,-40.0,2,16,W,W,-2.0
-2026-11-02,Mon Nov 2 7:30 PM,Mercyhurst,Marquette,H,card,-31.0,-27.6,-29.5,1.5,Mercyhurst,-31.5,2,35,L,L,-0.5
-2026-11-02,Mon Nov 2 7:30 PM,Purdue,Gonzaga,N,card,-5.5,-3.9,-3.9,1.6,Purdue,-5.5,2,6,L,L,0.0
-2026-11-02,Mon Nov 2 7:30 PM,Morehead St.,Western Kentucky,H,card,-17.5,-15.5,-15.6,1.9,Morehead St.,-17.5,2,25,L,L,0.0
-2026-11-02,Mon Nov 2 8:00 PM,Lehigh,Saint Louis,H,card,-25.0,-22.6,-23.7,1.3,Lehigh,-24.75,2,25,P,L,0.2
-2026-11-02,Mon Nov 2 8:00 PM,Lindenwood,TCU,H,card,-28.5,-25.4,-27.0,1.5,Lindenwood,-29.5,2,39,L,L,-1.0
-2026-11-02,Mon Nov 2 8:00 PM,Siena,Bryant,H,card,3.5,1.6,1.6,1.9,Bryant,4.75,2,5,W,W,-1.2
-2026-11-02,Mon Nov 2 8:00 PM,Kansas City,Creighton,H,card,-26.5,-24.6,-26.0,0.5,Kansas City,-27.5,1,15,W,W,-1.0
-2026-11-02,Mon Nov 2 8:00 PM,Western Illinois,Valparaiso,H,card,-19.0,-20.6,-21.4,2.4,Valparaiso,-18.5,2,22,W,W,-0.5
-2026-11-02,Mon Nov 2 8:00 PM,Bethune Cookman,Furman,N,card,-4.5,-4.2,-4.2,0.3,Bethune Cookman,-4.5,1,9,L,L,0.0
-2026-11-02,Mon Nov 2 8:00 PM,Tennessee Martin,Tulane,H,card,-7.5,-10.2,-10.2,2.7,Tulane,-6.25,2,2,L,L,-1.2
-2026-11-02,Mon Nov 2 8:00 PM,Toledo,Arkansas St.,H,card,-3.5,-1.3,-1.3,2.2,Toledo,-3.5,1,1,W,W,0.0
-2026-11-02,Mon Nov 2 8:00 PM,Fairleigh Dickinson,Illinois,H,card,-37.0,-39.3,-42.9,5.9,Illinois,-39.25,2,75,W,W,2.2
-2026-11-02,Mon Nov 2 8:00 PM,Ohio,South Alabama,H,card,-1.0,3.6,3.6,4.6,Ohio,-0.25,2,-9,W,W,0.8
-2026-11-02,Mon Nov 2 8:00 PM,The Citadel,Loyola Chicago,H,card,-15.0,-15.4,-15.5,0.5,Loyola Chicago,-14.5,1,25,W,W,-0.5
-2026-11-02,Mon Nov 2 8:00 PM,Fordham,Kansas,H,card,-23.5,-24.0,-25.4,1.9,Kansas,-21.5,1,30,W,W,-2.0
-2026-11-02,Mon Nov 2 8:00 PM,East Texas A&M,Oklahoma,H,card,-31.5,-28.1,-30.1,1.4,East Texas A&M,-30.5,2,-4,W,W,1.0
-2026-11-02,Mon Nov 2 8:00 PM,Maryland Eastern Shore,Wake Forest,H,card,-30.0,-29.1,-31.2,1.2,Wake Forest,-32.5,1,21,L,L,2.5
-2026-11-02,Mon Nov 2 8:00 PM,West Georgia,DePaul,H,card,-24.5,-21.5,-22.5,2.0,West Georgia,-24.75,2,17,W,W,-0.2
-2026-11-02,Mon Nov 2 8:00 PM,Akron,Louisiana,H,card,5.5,6.8,6.8,1.3,Akron,5.5,1,-14,W,W,0.0
-2026-11-02,Mon Nov 2 8:00 PM,Southern,SMU,H,card,-25.5,-23.1,-24.3,1.2,Southern,-25.5,1,13,W,W,0.0
-2026-11-02,Mon Nov 2 8:00 PM,Texas A&M Corpus Chris,Texas St.,H,card,-10.5,-8.6,-8.6,1.9,Texas A&M Corpus Chris,-10.5,1,12,L,L,0.0
-2026-11-02,Mon Nov 2 8:00 PM,Binghamton,Northwestern,H,card,-22.5,-21.7,-22.7,0.2,Northwestern,-20.5,2,26,W,W,-2.0
-2026-11-02,Mon Nov 2 8:30 PM,Florida A&M,Florida St.,N,card,-25.5,-20.8,-21.7,3.8,Florida A&M,-27.75,2,43,L,L,-2.2
-2026-11-02,Mon Nov 2 8:30 PM,Alcorn St.,Mississippi,H,card,-29.5,-26.1,-27.8,1.7,Alcorn St.,-30.5,1,41,L,L,-1.0
-2026-11-02,Mon Nov 2 8:30 PM,Oral Roberts,Central Arkansas,H,card,-8.5,-7.3,-7.3,1.2,Oral Roberts,-8.75,2,30,L,L,-0.2
-2026-11-02,Mon Nov 2 9:00 AM,Queens,Winthrop,N,card,1.5,1.3,1.3,0.2,Winthrop,3.5,1,-5,L,L,-2.0
-2026-11-02,Mon Nov 2 9:00 PM,Long Beach St.,Utah,H,card,-19.5,-18.3,-18.8,0.7,Long Beach St.,-19.5,1,3,W,W,0.0
-2026-11-02,Mon Nov 2 9:00 PM,Davidson,Washington St.,H,card,-3.0,-2.5,-2.5,0.5,Davidson,-2.5,1,-15,W,W,0.5
-2026-11-02,Mon Nov 2 9:00 PM,North Alabama,UC Davis,H,card,-9.0,-8.4,-8.4,0.6,North Alabama,-9.5,2,-4,W,W,-0.5
-2026-11-02,Mon Nov 2 9:00 PM,Utah Tech,New Mexico,H,card,-21.5,-20.3,-21.1,0.4,Utah Tech,-23.0,2,40,L,L,-1.5
-2026-11-02,Mon Nov 2 9:00 PM,North Dakota,Minnesota,H,card,-26.0,-23.9,-25.2,0.8,North Dakota,-26.25,2,35,L,L,-0.2
-2026-11-02,Mon Nov 2 9:00 PM,Texas Southern,Grand Canyon,H,card,-28.5,-25.8,-27.4,1.1,Texas Southern,-28.5,1,24,W,W,0.0
-2026-11-02,Mon Nov 2 9:00 PM,Gardner Webb,Connecticut,H,card,-39.0,-39.4,-43.1,4.1,Connecticut,-40.75,2,40,W,L,1.8
-2026-11-02,Mon Nov 2 9:00 PM,Chattanooga,Louisville,H,card,-31.5,-29.1,-31.2,0.3,Chattanooga,-30.25,2,14,W,W,1.2
-2026-11-02,Mon Nov 2 9:00 PM,Abilene Christian,Colorado,H,card,-18.5,-16.7,-17.0,1.5,Abilene Christian,-18.5,2,35,L,L,0.0
-2026-11-02,Mon Nov 2 9:00 PM,Ohio St.,BYU,N,card,-3.5,-0.0,-0.0,3.5,Ohio St.,-3.5,1,11,L,L,0.0
-2026-11-02,Mon Nov 2 9:00 PM,Incarnate Word,Oklahoma St.,H,card,-27.5,-24.0,-25.4,2.1,Incarnate Word,-27.5,2,31,L,L,0.0
-2026-11-02,Mon Nov 2 9:00 PM,Chicago St.,Texas,H,card,-39.5,-35.9,-39.0,0.5,Chicago St.,-41.25,2,50,L,L,-1.8
-2026-11-02,Mon Nov 2 9:00 PM,La Salle,Houston,H,card,-29.5,-28.2,-30.2,0.7,Houston,-29.5,2,39,W,W,0.0
-2026-11-02,Mon Nov 2 9:30 PM,Northwestern St.,Baylor,H,card,-30.0,-27.1,-28.9,1.1,Northwestern St.,-32.0,2,22,W,W,-2.0
-2026-11-02,Mon Nov 2 9:30 PM,East Tennessee St.,Arizona St.,H,card,-17.5,-14.8,-14.8,2.7,East Tennessee St.,-19.25,2,10,W,W,-1.8
-2026-11-02,Mon Nov 2 9:30 PM,Idaho St.,Utah St.,H,card,-26.0,-26.7,-28.5,2.5,Utah St.,-26.75,2,36,W,W,0.8
-2026-11-02,Mon Nov 2 9:30 PM,Weber St.,Oregon St.,H,card,-17.5,-17.7,-18.1,0.6,Oregon St.,-17.5,2,41,W,W,0.0
-2026-11-02,Tue Nov 3 12:00 AM,Seattle,Hawaii,H,card,-2.0,-0.9,-0.9,1.1,Seattle,-1.5,1,1,W,W,0.5
-2026-11-03,Tue Nov 3 10:00 PM,North Florida,Cal Baptist,H,card,-11.5,-9.3,-9.3,2.2,North Florida,-10.75,2,-8,W,W,0.8
-2026-11-03,Tue Nov 3 10:00 PM,Northern Arizona,UNLV,H,card,-21.5,-17.8,-18.2,3.3,Northern Arizona,-20.75,2,12,W,W,0.8
-2026-11-03,Tue Nov 3 10:00 PM,Cal St. Fullerton,San Diego St.,H,card,-16.5,-17.2,-17.5,1.0,San Diego St.,-13.5,1,24,W,W,-3.0
-2026-11-03,Tue Nov 3 6:00 PM,Wofford,Tennessee,H,card,-25.5,-26.6,-28.3,2.8,Tennessee,-25.25,2,31,W,W,-0.2
-2026-11-03,Tue Nov 3 7:00 PM,Manhattan,Kentucky,H,card,-33.5,-32.2,-34.8,1.3,Kentucky,-33.25,2,28,L,L,-0.2
-2026-11-03,Tue Nov 3 7:00 PM,Purdue Fort Wayne,Duquesne,H,card,-10.0,-10.9,-10.9,0.9,Duquesne,-9.5,1,7,L,L,-0.5
-2026-11-03,Tue Nov 3 7:00 PM,Stetson,South Carolina,H,card,-19.5,-15.3,-15.3,4.2,Stetson,-19.0,2,26,L,L,0.5
-2026-11-03,Tue Nov 3 7:00 PM,Coppin St.,Virginia Tech,H,card,-31.0,-29.7,-31.9,0.9,Virginia Tech,-31.5,2,34,W,W,0.5
-2026-11-03,Tue Nov 3 7:00 PM,Hampton,Georgia Tech,H,card,-14.5,-11.1,-11.1,3.4,Hampton,-13.75,2,20,L,L,0.8
-2026-11-03,Tue Nov 3 7:00 PM,Holy Cross,Rhode Island,H,card,-20.5,-17.6,-18.0,2.5,Holy Cross,-19.5,2,44,L,L,1.0
-2026-11-03,Tue Nov 3 7:00 PM,Wagner,Boston College,H,card,-19.5,-18.6,-19.1,0.4,Wagner,-20.5,2,26,L,L,-1.0
-2026-11-03,Tue Nov 3 7:30 PM,Sam Houston St.,Alabama,H,card,-27.0,-25.6,-27.2,0.2,Alabama,-27.25,2,22,L,L,0.2
-2026-11-03,Tue Nov 3 7:30 PM,Drexel,Virginia,H,card,-31.0,-27.7,-29.6,1.4,Drexel,-31.75,2,29,W,W,-0.8
-2026-11-03,Tue Nov 3 8:00 PM,Arkansas Pine Bluff,Arkansas,H,card,-41.5,-37.7,-41.1,0.4,Arkansas Pine Bluff,-41.75,2,45,L,L,-0.2
-2026-11-03,Tue Nov 3 8:00 PM,LSU New Orleans,LSU,H,card,-27.5,-23.1,-24.3,3.2,LSU New Orleans,,0,43,L,,
-2026-11-03,Tue Nov 3 8:00 PM,Cleveland St.,Missouri,H,card,-26.5,-26.6,-28.3,1.8,Missouri,-26.5,2,61,W,W,0.0
-2026-11-03,Tue Nov 3 8:00 PM,Alabama St.,Texas A&M,H,card,-32.5,-27.1,-28.9,3.6,Alabama St.,-32.5,2,31,W,W,0.0
-2026-11-03,Tue Nov 3 8:00 PM,Lipscomb,Iowa,H,card,-23.0,-20.3,-21.1,1.9,Lipscomb,-23.25,2,22,W,W,-0.2
-2026-11-03,Tue Nov 3 8:00 PM,South Dakota St.,Kansas St.,H,card,-11.5,-14.1,-14.1,2.6,Kansas St.,-10.75,2,-2,L,L,-0.8
-2026-11-04,Wed Nov 4 10:00 PM,Queens,Loyola Marymount,H,card,-6.5,-4.5,-4.5,2.0,Queens,-6.5,1,-1,W,W,0.0
-2026-11-04,Wed Nov 4 10:00 PM,Milwaukee,Santa Clara,H,card,-17.5,-13.3,-13.3,4.2,Milwaukee,-16.5,2,23,L,L,1.0
-2026-11-04,Wed Nov 4 10:00 PM,North Dakota St.,Saint Mary's,H,cbbd_open,-12.5,-11.3,-11.3,1.2,North Dakota St.,-12.5,1,41,L,L,0.0
-2026-11-04,Wed Nov 4 7:00 PM,Maryland Eastern Shore,High Point,H,card,-30.5,-28.9,-31.0,0.5,High Point,-34.5,1,14,L,L,4.0
-2026-11-04,Wed Nov 4 7:00 PM,Longwood,Saint Joseph's,H,card,-9.5,-8.8,-8.8,0.7,Longwood,-11.5,2,9,W,W,-2.0
-2026-11-04,Wed Nov 4 7:00 PM,Fairleigh Dickinson,Butler,H,card,-24.5,-22.7,-23.9,0.6,Fairleigh Dickinson,-28.75,2,34,L,L,-4.2
-2026-11-04,Wed Nov 4 7:30 PM,CSUN,Wichita St.,H,card,-14.5,-14.4,-14.4,0.1,CSUN,-15.5,2,12,W,W,-1.0
-2026-11-04,Wed Nov 4 8:00 PM,Northern Kentucky,South Dakota,H,card,2.5,0.7,0.7,1.8,South Dakota,2.25,2,-8,L,L,0.2
-2026-11-04,Wed Nov 4 8:00 PM,Southeastern Louisiana,Auburn,H,card,-26.5,-26.0,-27.6,1.1,Auburn,-29.5,2,33,W,W,3.0
-2026-11-04,Wed Nov 4 9:00 PM,Radford,California,H,card,-15.5,-16.8,-17.1,1.6,California,-16.25,2,14,L,L,0.8
-2026-11-05,Thu Nov 5 10:30 PM,Cal Poly,Arizona,H,card,-30.5,-26.9,-28.7,1.8,Cal Poly,-30.75,2,20,W,W,-0.2
-2026-11-05,Thu Nov 5 5:00 PM,McNeese,North Texas,H,card,1.5,0.9,0.9,0.6,North Texas,1.75,2,10,W,W,-0.2
-2026-11-05,Thu Nov 5 6:00 PM,Wake Forest,Vanderbilt,H,card,-17.5,-15.9,-16.0,1.5,Wake Forest,-17.75,2,23,L,L,-0.2
-2026-11-05,Thu Nov 5 6:00 PM,Chicago St.,Incarnate Word,H,card,-7.5,-6.5,-6.5,1.0,Chicago St.,-8.5,2,-12,W,W,-1.0
-2026-11-05,Thu Nov 5 6:00 PM,Chattanooga,Penn St.,H,card,-12.5,-13.7,-13.7,1.2,Penn St.,-12.5,2,4,L,L,0.0
-2026-11-05,Thu Nov 5 6:00 PM,Bellarmine,Indiana,H,card,-26.5,-27.2,-29.0,2.5,Indiana,-30.25,2,23,L,L,3.8
-2026-11-05,Thu Nov 5 6:30 PM,LIU,Seton Hall,H,card,-17.5,-18.1,-18.6,1.1,Seton Hall,-17.5,2,7,L,L,0.0
-2026-11-05,Thu Nov 5 7:00 PM,Buffalo,Pittsburgh,H,card,-18.5,-14.9,-14.9,3.6,Buffalo,-17.5,2,19,L,L,1.0
-2026-11-05,Thu Nov 5 7:00 PM,Central Connecticut,Syracuse,H,card,-21.5,-23.1,-24.3,2.8,Syracuse,-23.25,2,53,W,W,1.8
-2026-11-05,Thu Nov 5 7:00 PM,Binghamton,Saint Peter's,H,card,-7.5,-7.5,-7.5,0.0,Binghamton,-7.5,2,-3,W,W,0.0
-2026-11-05,Thu Nov 5 7:00 PM,Mercer,Virginia Tech,H,card,-21.5,-18.7,-19.3,2.2,Mercer,-20.5,2,29,L,L,1.0
-2026-11-05,Thu Nov 5 7:00 PM,Vermont,Fairfield,H,card,-1.5,0.5,0.5,2.0,Vermont,1.5,2,-12,W,W,3.0
-2026-11-05,Thu Nov 5 7:00 PM,NJIT,Iona,H,card,-9.5,-8.9,-8.9,0.6,NJIT,-9.75,2,23,L,L,-0.2
-2026-11-05,Thu Nov 5 7:00 PM,UMBC,Marist,H,card,-3.5,-2.1,-2.1,1.4,UMBC,-4.5,1,8,L,L,-1.0
-2026-11-05,Thu Nov 5 7:00 PM,Delaware St.,Navy,H,card,-8.5,-9.2,-9.2,0.7,Navy,-9.5,2,6,L,L,1.0
-2026-11-05,Thu Nov 5 7:00 PM,Albany,Manhattan,H,card,-3.5,-2.4,-2.4,1.1,Albany,-3.5,1,-4,W,W,0.0
-2026-11-05,Thu Nov 5 7:00 PM,Mercyhurst,Notre Dame,H,card,-19.5,-21.2,-22.1,2.6,Notre Dame,-21.5,2,27,W,W,2.0
-2026-11-05,Thu Nov 5 7:00 PM,Bryant,Quinnipiac,H,card,-4.5,-6.5,-6.5,2.0,Quinnipiac,-6.5,2,10,W,W,2.0
-2026-11-05,Thu Nov 5 7:00 PM,UMass Lowell,Merrimack,H,card,-7.5,-8.4,-8.4,0.9,Merrimack,-9.5,2,-10,L,L,2.0
-2026-11-05,Thu Nov 5 7:00 PM,Howard,Alcorn St.,H,card,7.5,9.6,9.6,2.1,Howard,9.5,2,-11,W,W,2.0
-2026-11-05,Thu Nov 5 7:00 PM,Hofstra,Princeton,H,card,-3.0,-2.0,-2.0,1.0,Hofstra,-2.75,2,2,W,W,0.2
-2026-11-05,Thu Nov 5 7:00 PM,Georgia St.,Charlotte,H,card,-11.5,-12.7,-12.7,1.2,Charlotte,-11.5,2,10,L,L,0.0
-2026-11-05,Thu Nov 5 7:00 PM,Green Bay,Cincinnati,H,card,-24.5,-21.9,-22.9,1.6,Green Bay,-24.0,2,17,W,W,0.5
-2026-11-05,Thu Nov 5 7:00 PM,Maine,Sacred Heart,H,card,-5.5,-5.3,-5.3,0.2,Maine,-5.75,2,-2,W,W,-0.2
-2026-11-05,Thu Nov 5 7:00 PM,New Hampshire,Rider,H,card,-1.5,1.9,1.9,3.4,New Hampshire,1.5,2,-11,W,W,3.0
-2026-11-05,Thu Nov 5 7:00 PM,Cornell,Lehigh,H,card,1.5,-0.3,-0.3,1.8,Lehigh,0.25,2,7,W,W,1.2
-2026-11-05,Thu Nov 5 7:30 PM,Jackson St.,Tulane,H,card,-12.5,-11.3,-11.3,1.2,Jackson St.,-12.25,2,-2,W,W,0.2
-2026-11-05,Thu Nov 5 7:30 PM,Stonehill,Fordham,H,card,-17.5,-16.0,-16.1,1.4,Stonehill,-20.25,2,20,L,W,-2.8
-2026-11-05,Thu Nov 5 7:30 PM,Northwestern St.,Mississippi St.,H,card,-21.5,-19.5,-20.2,1.3,Northwestern St.,-21.5,2,38,L,L,0.0
-2026-11-05,Thu Nov 5 8:00 PM,Le Moyne,Creighton,H,card,-26.5,-25.9,-27.5,1.0,Creighton,-29.25,2,28,W,L,2.8
-2026-11-05,Thu Nov 5 8:00 PM,Northern Illinois,Tulsa,H,card,-14.0,-15.5,-15.6,1.6,Tulsa,-14.25,2,19,W,W,0.2
-2026-11-05,Thu Nov 5 8:00 PM,West Georgia,Loyola Chicago,H,card,-18.5,-15.9,-16.0,2.5,West Georgia,-17.5,2,23,L,L,1.0
-2026-11-05,Thu Nov 5 8:00 PM,VMI,SMU,H,card,-24.5,-23.9,-25.2,0.7,SMU,-24.75,2,25,W,W,0.2
-2026-11-05,Thu Nov 5 8:00 PM,East Texas A&M,Rice,H,card,-4.5,-3.5,-3.5,1.0,East Texas A&M,-3.5,2,-1,W,W,1.0
-2026-11-05,Thu Nov 5 8:00 PM,Coastal Carolina,Duke,H,card,-40.5,-35.7,-38.8,1.7,Coastal Carolina,-40.75,2,61,L,L,-0.2
-2026-11-05,Thu Nov 5 8:00 PM,Gardner Webb,Texas,H,card,-38.5,-37.4,-40.8,2.3,Texas,-41.25,2,48,W,W,2.8
-2026-11-05,Thu Nov 5 8:00 PM,Toledo,Michigan St.,H,card,-26.5,-25.5,-27.1,0.6,Michigan St.,-26.25,2,30,W,W,-0.2
-2026-11-05,Thu Nov 5 8:00 PM,Jacksonville,Florida,H,card,-33.5,-35.0,-38.0,4.5,Florida,-37.0,2,31,L,L,3.5
-2026-11-05,Thu Nov 5 8:00 PM,Jacksonville St.,South Alabama,H,card,-5.5,0.5,0.5,6.0,Jacksonville St.,-4.75,2,3,W,W,0.8
-2026-11-05,Thu Nov 5 8:30 PM,Penn,Illinois,H,cbbd_open,-29.5,-27.5,-29.4,0.1,Penn,-29.75,2,42,L,L,-0.2
-2026-11-05,Thu Nov 5 8:30 PM,South Florida,DePaul,H,card,-6.5,-5.8,-5.8,0.7,South Florida,-6.5,2,2,W,W,0.0
-2026-11-05,Thu Nov 5 9:00 PM,Towson,Utah,H,card,-9.5,-11.6,-11.6,2.1,Utah,-8.5,2,10,W,W,-1.0
-2026-11-05,Thu Nov 5 9:00 PM,Bethune Cookman,Texas Tech,H,card,-26.5,-28.0,-30.0,3.5,Texas Tech,-29.75,2,18,L,L,3.2
-2026-11-06,Fri Nov 6 10:00 PM,Oakland,Stanford,H,card,-14.5,-13.1,-13.1,1.4,Oakland,-14.25,2,18,L,L,0.2
-2026-11-06,Fri Nov 6 10:00 PM,North Dakota St.,San Francisco,H,cbbd_open,-8.25,-6.4,-6.4,1.8,North Dakota St.,-8.5,2,9,L,L,-0.2
-2026-11-06,Fri Nov 6 10:30 PM,North Florida,UCLA,H,card,-31.5,-29.6,-31.8,0.3,UCLA,-32.5,2,51,W,W,1.0
-2026-11-06,Fri Nov 6 10:30 PM,UT Arlington,Portland,N,card,-1.5,-0.5,-0.5,1.0,UT Arlington,-2.25,2,-4,W,W,-0.8
-2026-11-06,Fri Nov 6 4:00 PM,Massachusetts,Boston College,N,card,-5.5,-3.6,-3.6,1.9,Massachusetts,-5.25,2,16,L,L,0.2
-2026-11-06,Fri Nov 6 5:00 PM,Northeastern,Virginia,H,card,-34.5,-29.1,-31.2,3.3,Northeastern,-33.75,2,25,W,W,0.8
-2026-11-06,Fri Nov 6 5:00 PM,West Florida,FIU,H,card,-13.5,-14.6,-14.6,1.1,FIU,,0,10,L,,
-2026-11-06,Fri Nov 6 5:00 PM,Arkansas Pine Bluff,Baylor,H,card,-36.5,-34.0,-36.9,0.4,Baylor,-38.25,2,56,W,W,1.8
-2026-11-06,Fri Nov 6 6:00 PM,Eastern Washington,Oregon,H,card,-16.5,-16.0,-16.1,0.4,Eastern Washington,-16.25,2,27,L,L,0.2
-2026-11-06,Fri Nov 6 6:30 PM,Valparaiso,Purdue,H,card,-19.5,-20.4,-21.2,1.7,Purdue,-19.5,2,-3,L,L,0.0
-2026-11-06,Fri Nov 6 6:30 PM,South Carolina St.,USC Upstate,H,card,-7.5,-4.3,-4.3,3.2,South Carolina St.,-3.5,2,-8,W,W,4.0
-2026-11-06,Fri Nov 6 6:30 PM,Youngstown St.,Ohio St.,H,card,-25.5,-24.2,-25.6,0.1,Ohio St.,-25.5,2,24,L,L,0.0
-2026-11-06,Fri Nov 6 7:00 PM,Eastern Michigan,Xavier,H,card,-22.5,-20.8,-21.7,0.8,Eastern Michigan,-23.5,2,23,L,W,-1.0
-2026-11-06,Fri Nov 6 7:00 PM,Troy,Florida St.,H,card,-22.5,-15.7,-15.8,6.7,Troy,-22.5,2,23,L,L,0.0
-2026-11-06,Fri Nov 6 7:00 PM,Indiana St.,Ball St.,H,card,-3.0,-2.0,-2.0,1.0,Indiana St.,-1.75,2,-3,W,W,1.2
-2026-11-06,Fri Nov 6 7:00 PM,Saint Louis,Missouri,N,card,-2.5,-4.7,-4.7,2.2,Missouri,-2.5,2,-6,L,L,0.0
-2026-11-06,Fri Nov 6 7:00 PM,Boston University,Brown,H,card,-5.5,-3.3,-3.3,2.2,Boston University,-1.75,2,-5,W,W,3.8
-2026-11-06,Fri Nov 6 7:00 PM,Wofford,North Carolina,H,card,-23.0,-20.2,-21.0,2.0,Wofford,-20.5,2,39,L,L,2.5
-2026-11-06,Fri Nov 6 7:00 PM,Austin Peay,Kennesaw St.,H,cbbd_open,-6.25,-5.5,-5.5,0.8,Austin Peay,-5.75,2,2,W,W,0.5
-2026-11-06,Fri Nov 6 7:00 PM,East Tennessee St.,N.C. State,H,card,-16.5,-16.0,-16.1,0.4,East Tennessee St.,-17.5,2,14,W,W,-1.0
-2026-11-06,Fri Nov 6 7:00 PM,UNC Greensboro,Elon,H,card,-9.0,-5.5,-5.5,3.5,UNC Greensboro,-8.75,2,9,P,L,0.2
-2026-11-06,Fri Nov 6 7:00 PM,Georgia Southern,Georgia Tech,H,card,-18.0,-16.5,-16.7,1.3,Georgia Southern,-16.75,2,12,W,W,1.2
-2026-11-06,Fri Nov 6 7:00 PM,Loyola MD,Mount St. Mary's,H,card,-5.5,-3.9,-3.9,1.6,Loyola MD,-6.25,2,11,L,L,-0.8
-2026-11-06,Fri Nov 6 7:00 PM,Presbyterian,Georgia,H,card,-20.5,-19.1,-19.7,0.8,Presbyterian,-24.25,2,14,W,W,-3.8
-2026-11-06,Fri Nov 6 7:00 PM,Holy Cross,Villanova,H,card,-31.5,-33.3,-36.0,4.5,Villanova,-34.5,2,29,L,L,3.0
-2026-11-06,Fri Nov 6 7:00 PM,Yale,UCF,H,card,-9.5,-12.0,-12.0,2.5,UCF,-9.5,1,12,W,W,0.0
-2026-11-06,Fri Nov 6 7:00 PM,Stetson,West Virginia,H,card,-24.5,-27.1,-28.9,4.4,West Virginia,-27.25,2,38,W,W,2.8
-2026-11-06,Fri Nov 6 7:00 PM,New Haven,Rutgers,H,card,-24.5,-23.1,-24.3,0.2,New Haven,-24.5,2,27,L,L,0.0
-2026-11-06,Fri Nov 6 7:00 PM,James Madison,Kentucky,H,card,-25.5,-19.6,-20.3,5.2,James Madison,-23.75,2,9,W,W,1.8
-2026-11-06,Fri Nov 6 7:00 PM,Coppin St.,George Mason,H,card,-26.5,-23.9,-25.2,1.3,Coppin St.,-28.5,2,17,W,W,-2.0
-2026-11-06,Fri Nov 6 7:30 PM,Nicholls,UAB,H,card,-12.5,-11.9,-11.9,0.6,Nicholls,-15.25,2,7,W,W,-2.8
-2026-11-06,Fri Nov 6 7:30 PM,Delaware,Wisconsin,H,card,-24.5,-23.1,-24.3,0.2,Delaware,-25.75,2,9,W,W,-1.2
-2026-11-06,Fri Nov 6 7:30 PM,Arkansas St.,Alabama,H,card,-25.5,-24.0,-25.4,0.1,Arkansas St.,-25.75,2,15,W,W,-0.2
-2026-11-06,Fri Nov 6 7:30 PM,Florida Atlantic,Wright St.,H,card,-3.5,-0.9,-0.9,2.6,Florida Atlantic,-4.25,2,26,L,L,-0.8
-2026-11-06,Fri Nov 6 8:00 PM,Connecticut,Michigan,N,card,7.0,5.2,5.2,1.8,Michigan,7.5,2,-8,L,L,-0.5
-2026-11-06,Fri Nov 6 8:00 PM,Southern Miss,Iowa St.,H,card,-30.5,-28.0,-29.9,0.6,Southern Miss,-31.25,2,26,W,W,-0.8
-2026-11-06,Fri Nov 6 8:00 PM,Robert Morris,Illinois Chicago,H,card,-11.0,-11.6,-11.6,0.6,Illinois Chicago,-10.5,2,23,W,W,-0.5
-2026-11-06,Fri Nov 6 8:00 PM,Texas A&M Corpus Chris,Louisiana,H,card,-2.5,-1.8,-1.8,0.7,Texas A&M Corpus Chris,-3.5,1,-7,W,W,-1.0
-2026-11-06,Fri Nov 6 8:00 PM,Texas Southern,LSU,H,card,-30.5,-27.5,-29.4,1.1,Texas Southern,-36.0,2,41,L,L,-5.5
-2026-11-06,Fri Nov 6 8:00 PM,Northern Kentucky,Texas A&M,H,card,-26.0,-19.1,-19.7,6.3,Northern Kentucky,-27.25,2,37,L,L,-1.2
-2026-11-06,Fri Nov 6 8:00 PM,Stony Brook,Northwestern,H,card,-14.0,-15.0,-15.0,1.0,Northwestern,-12.0,2,13,L,W,-2.0
-2026-11-06,Fri Nov 6 8:00 PM,Southern,TCU,H,card,-23.5,-23.9,-25.2,1.7,TCU,-26.5,2,52,W,W,3.0
-2026-11-06,Fri Nov 6 8:00 PM,St. Thomas,Minnesota,H,card,-14.0,-14.4,-14.4,0.4,Minnesota,-14.5,1,14,P,L,0.5
-2026-11-06,Fri Nov 6 8:00 PM,Detroit Mercy,Marquette,H,card,-32.5,-27.4,-29.3,3.2,Detroit Mercy,-32.25,2,61,L,L,0.2
-2026-11-06,Fri Nov 6 8:00 PM,Mississippi Valley St.,Oklahoma,H,card,-38.5,-38.6,-42.1,3.6,Oklahoma,-40.5,2,27,L,L,2.0
-2026-11-06,Fri Nov 6 8:30 PM,Southern Illinois,Kansas City,H,card,2.0,2.3,2.3,0.3,Southern Illinois,1.5,1,7,L,L,-0.5
-2026-11-06,Fri Nov 6 8:30 PM,Central Arkansas,Mississippi,H,card,-18.5,-16.1,-16.3,2.2,Central Arkansas,-17.25,2,32,L,L,1.2
-2026-11-06,Fri Nov 6 8:30 PM,Idaho St.,Wyoming,H,card,-19.0,-17.0,-17.3,1.7,Idaho St.,-18.5,2,31,L,L,0.5
-2026-11-06,Fri Nov 6 8:30 PM,Eastern Illinois,Iowa,H,card,-35.5,-32.5,-35.1,0.4,Eastern Illinois,-34.75,2,44,L,L,0.8
-2026-11-06,Fri Nov 6 9:00 PM,Wagner,Miami FL,H,card,-33.5,-33.3,-36.0,2.5,Miami FL,-38.5,2,26,L,L,5.0
-2026-11-06,Fri Nov 6 9:00 PM,Middle Tennessee,Kansas,H,card,-29.5,-28.4,-30.4,0.9,Kansas,-28.5,2,44,W,W,-1.0
-2026-11-06,Fri Nov 6 9:00 PM,Nebraska Omaha,BYU,H,card,-31.5,-29.2,-31.3,0.2,Nebraska Omaha,-33.25,2,41,L,L,-1.8
-2026-11-06,Fri Nov 6 9:00 PM,Idaho,Colorado St.,H,card,-17.0,-16.9,-17.2,0.2,Colorado St.,-16.0,2,11,L,L,-1.0
-2026-11-06,Fri Nov 6 9:00 PM,Northern Colorado,Arizona St.,H,card,-18.5,-15.6,-15.7,2.8,Northern Colorado,-19.5,2,27,L,L,-1.0
-2026-11-06,Fri Nov 6 9:00 PM,Queens,Oklahoma St.,H,card,-19.5,-16.9,-17.2,2.3,Queens,-17.5,1,50,L,L,2.0
-2026-11-06,Fri Nov 6 9:00 PM,CSUN,Kansas St.,H,card,-10.0,-11.1,-11.1,1.1,Kansas St.,-11.25,2,17,W,W,1.2
-2026-11-06,Fri Nov 6 9:30 PM,Cal Baptist,Oregon St.,H,card,-18.0,-14.8,-14.8,3.2,Cal Baptist,-20.5,2,28,L,L,-2.5
-2026-11-06,Fri Nov 6 9:30 PM,Tarleton St.,San Diego,H,card,-6.0,-4.8,-4.8,1.2,Tarleton St.,-7.5,2,6,P,W,-1.5
-2026-11-07,Sat Nov 7 10:00 PM,Portland St.,Seattle,H,card,-10.5,-8.1,-8.1,2.4,Portland St.,,0,19,L,,
-2026-11-07,Sat Nov 7 10:00 PM,Fresno St.,UC San Diego,H,card,-9.5,-6.7,-6.7,2.8,Fresno St.,,0,16,L,,
-2026-11-07,Sat Nov 7 10:00 PM,Sacramento St.,Santa Clara,H,card,-20.0,-12.4,-12.9,7.1,Sacramento St.,,0,6,W,,
-2026-11-07,Sat Nov 7 10:00 PM,San Jose St.,UC Irvine,H,card,-8.0,-5.9,-5.9,2.1,San Jose St.,,0,12,L,,
-2026-11-07,Sat Nov 7 12:00 PM,Morehead St.,Louisville,H,card,-37.5,-32.1,-36.5,1.0,Morehead St.,-37.5,2,50,L,L,0.0
-2026-11-07,Sat Nov 7 12:00 PM,North Dakota,Winthrop,H,card,-9.5,-8.6,-8.6,0.9,North Dakota,-9.5,2,-3,W,W,0.0
-2026-11-07,Sat Nov 7 1:00 PM,North Carolina A&T,Ohio,H,card,-12.5,-11.7,-12.0,0.5,North Carolina A&T,-13.5,2,10,W,W,-1.0
-2026-11-07,Sat Nov 7 2:00 PM,Toledo,Marshall,H,card,-2.5,-0.4,-0.4,2.1,Toledo,-2.0,2,-5,W,W,0.5
-2026-11-07,Sat Nov 7 2:00 PM,Colgate,Drexel,H,card,-1.5,-0.8,-0.8,0.7,Colgate,0.0,2,3,L,L,1.5
-2026-11-07,Sat Nov 7 2:00 PM,Cal St. Fullerton,South Dakota,H,card,-1.5,1.4,1.4,2.9,Cal St. Fullerton,-1.5,1,-2,W,W,0.0
-2026-11-07,Sat Nov 7 2:00 PM,UNC Wilmington,East Carolina,H,card,3.5,3.0,3.0,0.5,East Carolina,4.5,2,-3,W,W,-1.0
-2026-11-07,Sat Nov 7 2:00 PM,Lamar,Abilene Christian,H,card,-2.5,-0.6,-0.6,1.9,Lamar,-0.5,2,2,W,L,2.0
-2026-11-07,Sat Nov 7 3:00 PM,North Carolina Central,Longwood,H,card,-11.5,-13.9,-14.7,3.2,Longwood,-12.0,2,5,L,L,0.5
-2026-11-07,Sat Nov 7 3:00 PM,VCU,Memphis,H,card,3.0,0.9,0.9,2.1,Memphis,2.5,2,1,W,W,0.5
-2026-11-07,Sat Nov 7 3:00 PM,Long Beach St.,Montana St.,H,card,-10.5,-10.6,-10.7,0.2,Montana St.,-10.5,2,13,W,W,0.0
-2026-11-07,Sat Nov 7 3:30 PM,LIU,La Salle,H,card,-4.5,-5.7,-5.7,1.2,La Salle,-4.5,2,8,W,W,0.0
-2026-11-07,Sat Nov 7 3:30 PM,San Diego St.,Colorado,N,card,2.5,0.7,0.7,1.8,Colorado,3.0,2,-11,L,L,-0.5
-2026-11-07,Sat Nov 7 4:00 PM,Nebraska Omaha,Utah St.,H,card,-26.5,-24.7,-27.6,1.1,Utah St.,-28.0,2,34,W,W,1.5
-2026-11-07,Sat Nov 7 4:00 PM,Oakland,UC Santa Barbara,H,card,-12.5,-9.2,-9.2,3.3,Oakland,-13.0,2,23,L,L,-0.5
-2026-11-07,Sat Nov 7 4:00 PM,Samford,UNLV,H,card,-11.0,-12.0,-12.4,1.4,UNLV,-11.0,2,9,L,L,0.0
-2026-11-07,Sat Nov 7 4:00 PM,Lafayette,Saint Joseph's,H,card,-17.5,-17.0,-18.4,0.9,Saint Joseph's,-17.0,2,10,L,L,-0.5
-2026-11-07,Sat Nov 7 4:00 PM,Monmouth,Rhode Island,N,card,-6.5,-5.1,-5.1,1.4,Monmouth,-6.5,2,18,L,L,0.0
-2026-11-07,Sat Nov 7 5:00 PM,Washington St.,High Point,H,card,-11.5,-10.0,-10.0,1.5,Washington St.,-12.5,2,12,L,W,-1.0
-2026-11-07,Sat Nov 7 5:00 PM,Bellarmine,Miami OH,H,card,-20.5,-17.0,-18.4,2.1,Bellarmine,-19.5,2,7,W,W,1.0
-2026-11-07,Sat Nov 7 5:00 PM,Tennessee Martin,IU Indy,H,card,2.5,-2.3,-2.3,4.8,IU Indy,2.0,2,1,W,W,0.5
-2026-11-07,Sat Nov 7 5:00 PM,SIUE,Lipscomb,H,card,-5.5,-5.5,-5.5,0.0,SIUE,-7.0,2,1,W,W,-1.5
-2026-11-07,Sat Nov 7 5:00 PM,Northern Iowa,Furman,H,card,-4.5,-3.0,-3.0,1.5,Northern Iowa,-5.0,2,15,L,L,-0.5
-2026-11-07,Sat Nov 7 5:00 PM,VMI,UTSA,H,card,-4.5,-5.2,-5.2,0.7,UTSA,-5.0,2,2,L,L,0.5
-2026-11-07,Sat Nov 7 5:00 PM,New Mexico St.,Gonzaga,H,card,-28.0,-23.4,-26.1,1.9,New Mexico St.,-29.0,2,41,L,L,-1.0
-2026-11-07,Sat Nov 7 5:00 PM,Old Dominion,Bucknell,H,card,4.5,7.2,7.2,2.7,Old Dominion,5.0,2,-20,W,W,0.5
-2026-11-07,Sat Nov 7 5:30 PM,Prairie View A&M,UT Rio Grande Valley,H,card,-8.5,-6.2,-6.2,2.3,Prairie View A&M,-8.5,2,5,W,W,0.0
-2026-11-07,Sat Nov 7 5:30 PM,Western Carolina,UNC Asheville,H,card,2.0,3.5,3.5,1.5,Western Carolina,3.0,2,-8,W,W,1.0
-2026-11-07,Sat Nov 7 6:00 PM,Hampton,George Washington,H,card,-19.0,-15.2,-16.2,2.8,Hampton,-20.0,2,14,W,W,-1.0
-2026-11-07,Sat Nov 7 6:00 PM,Northern Arizona,New Mexico,H,card,-26.5,-23.0,-25.6,0.9,Northern Arizona,-27.5,2,29,L,L,-1.0
-2026-11-07,Sat Nov 7 6:30 PM,Morgan St.,Niagara,H,card,-3.5,-3.4,-3.4,0.1,Morgan St.,-3.5,2,-6,W,W,0.0
-2026-11-07,Sat Nov 7 7:00 PM,Providence,Nebraska,N,card,-2.5,-4.8,-4.8,2.3,Nebraska,-2.5,2,9,W,W,0.0
-2026-11-07,Sat Nov 7 7:00 PM,St. Bonaventure,Canisius,H,card,8.5,12.2,12.6,4.1,St. Bonaventure,9.0,2,-39,W,W,0.5
-2026-11-07,Sat Nov 7 7:00 PM,Northern Illinois,Dayton,H,card,-19.5,-19.3,-21.2,1.7,Dayton,-19.5,2,-5,L,L,0.0
-2026-11-07,Sat Nov 7 7:00 PM,Mercer,Davidson,H,card,-11.5,-9.5,-9.5,2.0,Mercer,-11.5,2,12,L,L,0.0
-2026-11-07,Sat Nov 7 7:00 PM,Houston Christian,Western Illinois,H,card,9.5,8.8,8.8,0.7,Western Illinois,9.5,2,-7,W,W,0.0
-2026-11-07,Sat Nov 7 7:30 PM,Denver,UC Riverside,H,card,-2.0,-2.7,-2.7,0.7,UC Riverside,,0,4,W,,
-2026-11-07,Sat Nov 7 7:30 PM,Maryland,Georgetown,H,card,2.5,2.5,2.5,0.0,Maryland,,0,12,L,,
-2026-11-07,Sat Nov 7 8:00 PM,Northwestern St.,Murray St.,H,card,-22.5,-18.1,-19.7,2.8,Northwestern St.,,0,22,W,,
-2026-11-07,Sat Nov 7 8:00 PM,Southern Indiana,Evansville,H,card,-9.5,-6.8,-6.8,2.7,Southern Indiana,,0,2,W,,
-2026-11-07,Sat Nov 7 8:00 PM,Southeastern Louisiana,Little Rock,H,card,-5.5,-5.8,-5.8,0.3,Little Rock,,0,-4,L,,
-2026-11-07,Sat Nov 7 8:00 PM,Pacific,Bradley,H,card,-1.5,-2.8,-2.8,1.3,Bradley,,0,-11,L,,
-2026-11-07,Sat Nov 7 8:00 PM,Bethune Cookman,Grand Canyon,H,card,-21.5,-17.6,-19.1,2.4,Bethune Cookman,,0,18,W,,
-2026-11-07,Sat Nov 7 9:00 PM,Utah Valley,Weber St.,H,card,7.5,7.6,7.6,0.1,Utah Valley,,0,-8,W,,
+﻿date,tip_ET,away,home,venue,ref_src,ref,model_raw,model_adj,edge,side,close,n_books,home_margin,res_ref,res_close,clv,close_src
+2026-11-02,Mon Nov 2 10:00 PM,Montana St.,Colorado St.,H,card,-11.0,-10.6,-10.6,0.4,Montana St.,-10.75,2,10,W,W,0.2,cbbd
+2026-11-02,Mon Nov 2 10:00 PM,Eastern Washington,Stanford,H,card,-13.5,-12.4,-12.4,1.1,Eastern Washington,-14.5,1,9,W,W,-1.0,cbbd
+2026-11-02,Mon Nov 2 10:00 PM,UCLA,Arizona,N,card,-4.5,-5.3,-5.3,0.8,Arizona,-5.25,2,-9,L,L,0.8,cbbd
+2026-11-02,Mon Nov 2 10:00 PM,Towson,Santa Clara,H,card,-14.5,-12.7,-12.7,1.8,Towson,-13.5,1,19,L,L,1.0,cbbd
+2026-11-02,Mon Nov 2 10:00 PM,Robert Morris,Nevada,H,card,-13.0,-12.7,-12.7,0.3,Robert Morris,-12.5,1,37,L,L,0.5,cbbd
+2026-11-02,Mon Nov 2 10:00 PM,Montana,Oregon,H,card,-18.5,-18.0,-18.4,0.1,Montana,-19.25,2,18,W,W,-0.8,cbbd
+2026-11-02,Mon Nov 2 10:00 PM,Colgate,Washington,H,card,-14.5,-15.2,-15.2,0.7,Washington,-14.5,1,14,L,L,0.0,cbbd
+2026-11-02,Mon Nov 2 10:00 PM,Illinois St.,Saint Mary's,H,card,-6.5,-6.1,-6.1,0.4,Illinois St.,-6.5,1,5,W,W,0.0,cbbd
+2026-11-02,Mon Nov 2 10:00 PM,Radford,San Francisco,H,card,-10.5,-10.1,-10.1,0.4,Radford,-14.0,2,14,L,P,-3.5,cbbd
+2026-11-02,Mon Nov 2 10:30 PM,Milwaukee,USC,H,card,-26.0,-22.0,-23.1,2.9,Milwaukee,-26.5,2,32,L,L,-0.5,cbbd
+2026-11-02,Mon Nov 2 11:30 AM,Tennessee St.,Murray St.,N,card,-10.5,-7.1,-7.1,3.4,Tennessee St.,-10.0,2,30,L,L,0.5,cbbd
+2026-11-02,Mon Nov 2 2:00 PM,Northern Kentucky,UTEP,N,card,-2.5,-2.2,-2.2,0.3,Northern Kentucky,-3.75,2,-8,W,W,-1.2,cbbd
+2026-11-02,Mon Nov 2 3:00 PM,UTSA,San Jose St.,H,card,-8.0,-6.2,-6.2,1.8,UTSA,-8.25,2,21,L,L,-0.2,cbbd
+2026-11-02,Mon Nov 2 3:01 AM,Northern Illinois,Grambling St.,N,cbbd_open,6.0,5.7,5.7,0.3,Grambling St.,8.5,2,2,W,W,-2.5,cbbd
+2026-11-02,Mon Nov 2 4:00 PM,UMBC,George Mason,H,card,-17.5,-15.8,-15.9,1.6,UMBC,-19.5,1,28,L,L,-2.0,cbbd
+2026-11-02,Mon Nov 2 5:30 PM,McNeese,UAB,N,card,3.0,3.3,3.3,0.3,McNeese,3.0,2,-21,W,W,0.0,cbbd
+2026-11-02,Mon Nov 2 6:00 AM,Merrimack,Appalachian St.,N,card,-8.5,4.1,4.1,12.6,Merrimack,3.25,2,14,L,L,11.8,cbbd
+2026-11-02,Mon Nov 2 6:00 PM,Oakland,Michigan,H,card,-26.5,-24.7,-26.2,0.3,Oakland,-27.5,1,16,W,W,-1.0,cbbd
+2026-11-02,Mon Nov 2 6:00 PM,Bowling Green,Georgia St.,H,card,-4.5,-0.6,-0.6,3.9,Bowling Green,-3.5,2,-3,W,W,1.0,cbbd
+2026-11-02,Mon Nov 2 6:00 PM,Miami FL,Florida,N,card,-5.0,-7.8,-7.8,2.8,Florida,-6.0,2,10,W,W,1.0,cbbd
+2026-11-02,Mon Nov 2 6:00 PM,Pepperdine,Cornell,H,card,3.5,0.3,0.3,3.2,Cornell,3.25,2,1,W,W,0.2,cbbd
+2026-11-02,Mon Nov 2 6:30 PM,Army,Duke,H,card,-42.5,-41.4,-45.4,2.9,Duke,-44.5,2,34,L,L,2.0,cbbd
+2026-11-02,Mon Nov 2 6:30 PM,Monmouth,St. John's,H,card,-27.5,-24.7,-26.2,1.3,Monmouth,-28.5,1,15,W,W,-1.0,cbbd
+2026-11-02,Mon Nov 2 6:30 PM,Loyola MD,Georgetown,H,card,-23.5,-22.9,-24.1,0.6,Georgetown,-26.5,2,22,L,L,3.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Rider,Pittsburgh,H,card,-27.5,-24.6,-26.0,1.5,Rider,-27.5,1,38,L,L,0.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Western Michigan,Old Dominion,H,card,1.5,-0.2,-0.2,1.7,Old Dominion,1.5,1,12,W,W,0.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Memphis,Iowa St.,N,card,-14.5,-14.8,-14.8,0.3,Iowa St.,-15.25,2,-4,L,L,0.8,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Eastern Illinois,Indiana,H,card,-34.5,-31.8,-34.3,0.2,Eastern Illinois,-34.5,1,34,W,W,0.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Western Carolina,North Carolina,H,card,-22.5,-21.0,-21.9,0.6,Western Carolina,-22.25,2,8,W,W,0.2,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Howard,Yale,H,card,-6.0,-4.5,-4.5,1.5,Howard,-7.5,2,10,L,L,-1.5,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,St. Thomas,Presbyterian,H,card,2.5,0.9,0.9,1.6,Presbyterian,3.5,1,-9,L,L,-1.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,New Haven,Syracuse,H,card,-27.5,-25.9,-27.5,0.0,New Haven,-27.5,2,16,W,W,0.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Mount St. Mary's,Xavier,H,card,-26.5,-24.4,-25.8,0.7,Mount St. Mary's,-26.5,1,45,L,L,0.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,New Hampshire,Brown,H,card,-8.5,-8.6,-8.6,0.1,Brown,-8.5,2,-4,L,L,0.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Miami OH,James Madison,H,card,0.0,0.7,0.7,0.7,Miami OH,-0.25,2,-9,W,W,-0.2,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,USC Upstate,East Carolina,H,card,-14.5,-13.5,-13.5,1.0,USC Upstate,-15.5,1,13,W,W,-1.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Jackson St.,Texas Tech,H,card,-34.5,-31.8,-34.3,0.2,Jackson St.,-38.5,2,34,W,W,-4.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,NJIT,Dayton,H,card,-22.5,-23.8,-25.1,2.6,Dayton,-23.5,2,31,W,W,1.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Maine,Providence,H,card,-28.5,-26.1,-27.8,0.7,Maine,-32.0,2,27,W,W,-3.5,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Northeastern,Boston University,H,card,-1.0,1.0,1.0,2.0,Northeastern,-2.0,2,8,L,L,-1.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Lafayette,Butler,H,card,-20.5,-21.0,-21.9,1.4,Butler,-19.5,2,36,W,W,-1.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,UNC Asheville,Richmond,H,card,-12.0,-12.1,-12.1,0.1,Richmond,-15.5,2,23,W,W,3.5,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Quinnipiac,Michigan St.,H,card,-29.5,-29.1,-31.2,1.7,Michigan St.,-30.25,2,37,W,W,0.8,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Buffalo,Marshall,H,card,-1.5,-1.8,-1.8,0.3,Marshall,-2.25,2,27,W,W,0.8,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Bellarmine,Vanderbilt,H,card,-32.5,-29.2,-31.3,1.2,Bellarmine,-36.0,2,46,L,L,-3.5,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Vermont,Iona,H,card,-1.0,-0.3,-0.3,0.7,Vermont,1.5,2,1,P,L,2.5,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,LIU,Florida Atlantic,H,card,-10.0,-11.7,-11.7,1.7,Florida Atlantic,-11.0,2,14,W,W,1.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Elon,Columbia,H,card,-3.5,-2.5,-2.5,1.0,Elon,-4.5,1,-13,W,W,-1.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Florida Gulf Coast,UCF,H,card,-21.5,-20.5,-21.3,0.2,Florida Gulf Coast,-22.5,1,1,W,W,-1.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Central Connecticut,Temple,H,card,-15.5,-16.7,-17.0,1.5,Temple,-14.5,2,12,L,L,-1.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Charleston Southern,South Florida,H,card,-19.0,-18.1,-18.6,0.4,Charleston Southern,-21.5,2,27,L,L,-2.5,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Ball St.,Georgia Southern,H,card,2.5,4.0,4.0,1.5,Ball St.,1.75,2,12,L,L,-0.8,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Massachusetts,Troy,H,card,-3.5,-3.5,-3.5,0.0,Massachusetts,-2.75,2,-11,W,W,0.8,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Niagara,West Virginia,H,card,-28.5,-27.7,-29.6,1.1,West Virginia,-28.5,1,45,W,W,0.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Dartmouth,Marist,H,card,-6.5,-6.1,-6.1,0.4,Dartmouth,-7.5,1,-7,W,W,-1.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Navy,George Washington,H,card,-16.5,-15.1,-15.1,1.4,Navy,-18.5,2,52,L,L,-2.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Youngstown St.,St. Bonaventure,H,card,-10.5,-11.3,-11.3,0.8,St. Bonaventure,-10.5,1,-8,L,L,0.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Bucknell,Maryland,H,card,-31.5,-27.5,-29.4,2.1,Bucknell,-31.5,1,29,W,W,0.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Little Rock,VCU,H,card,-19.0,-20.2,-21.0,2.0,VCU,-19.0,2,10,L,L,0.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Stetson,Clemson,H,card,-25.5,-23.3,-24.5,1.0,Stetson,-22.5,2,13,W,W,3.0,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Air Force,Wright St.,H,card,-10.5,-10.7,-10.7,0.2,Wright St.,-12.25,2,31,W,W,1.8,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Eastern Michigan,Coastal Carolina,H,card,-1.0,-1.4,-1.4,0.4,Coastal Carolina,-1.5,1,-1,L,L,0.5,cbbd
+2026-11-02,Mon Nov 2 7:00 PM,Charlotte,Indiana St.,H,card,4.5,2.1,2.1,2.4,Indiana St.,5.25,2,-8,L,L,-0.8,cbbd
+2026-11-02,Mon Nov 2 7:30 PM,Denver,Wisconsin,H,card,-23.0,-24.2,-25.6,2.6,Wisconsin,-25.25,2,7,L,L,2.2,cbbd
+2026-11-02,Mon Nov 2 7:30 PM,Le Moyne,Nebraska,H,card,-33.5,-31.0,-33.4,0.1,Le Moyne,-35.0,2,42,L,L,-1.5,cbbd
+2026-11-02,Mon Nov 2 7:30 PM,Central Michigan,Louisiana Monroe,H,card,3.0,4.3,4.3,1.3,Central Michigan,2.5,1,-5,W,W,-0.5,cbbd
+2026-11-02,Mon Nov 2 7:30 PM,Saint Peter's,Seton Hall,H,card,-20.5,-19.2,-19.8,0.7,Saint Peter's,-19.5,1,24,L,L,1.0,cbbd
+2026-11-02,Mon Nov 2 7:30 PM,Tennessee Tech,Mississippi St.,H,card,-17.5,-16.7,-17.0,0.5,Tennessee Tech,-18.25,2,18,L,W,-0.8,cbbd
+2026-11-02,Mon Nov 2 7:30 PM,Lipscomb,Southeast Missouri,H,card,2.5,1.4,1.4,1.1,Southeast Missouri,1.5,1,7,W,W,1.0,cbbd
+2026-11-02,Mon Nov 2 7:30 PM,Campbell,N.C. State,H,card,-23.5,-20.8,-21.7,1.8,Campbell,-23.5,1,19,W,W,0.0,cbbd
+2026-11-02,Mon Nov 2 7:30 PM,Kent St.,Louisiana Tech,H,card,5.5,4.6,4.6,0.9,Louisiana Tech,5.25,2,10,W,W,0.2,cbbd
+2026-11-02,Mon Nov 2 7:30 PM,Southern Indiana,Belmont,H,card,-17.5,-16.9,-17.2,0.3,Southern Indiana,-17.5,1,18,L,L,0.0,cbbd
+2026-11-02,Mon Nov 2 7:30 PM,Canisius,Penn St.,H,card,-22.5,-21.3,-22.2,0.3,Canisius,-23.75,2,40,L,L,-1.2,cbbd
+2026-11-02,Mon Nov 2 7:30 PM,North Carolina Central,Georgia,H,card,-38.0,-33.8,-36.6,1.4,North Carolina Central,-40.0,2,16,W,W,-2.0,cbbd
+2026-11-02,Mon Nov 2 7:30 PM,Mercyhurst,Marquette,H,card,-31.0,-27.6,-29.5,1.5,Mercyhurst,-31.5,2,35,L,L,-0.5,cbbd
+2026-11-02,Mon Nov 2 7:30 PM,Purdue,Gonzaga,N,card,-5.5,-3.9,-3.9,1.6,Purdue,-5.5,2,6,L,L,0.0,cbbd
+2026-11-02,Mon Nov 2 7:30 PM,Morehead St.,Western Kentucky,H,card,-17.5,-15.5,-15.6,1.9,Morehead St.,-17.5,2,25,L,L,0.0,cbbd
+2026-11-02,Mon Nov 2 8:00 PM,Lehigh,Saint Louis,H,card,-25.0,-22.6,-23.7,1.3,Lehigh,-24.75,2,25,P,L,0.2,cbbd
+2026-11-02,Mon Nov 2 8:00 PM,Lindenwood,TCU,H,card,-28.5,-25.4,-27.0,1.5,Lindenwood,-29.5,2,39,L,L,-1.0,cbbd
+2026-11-02,Mon Nov 2 8:00 PM,Siena,Bryant,H,card,3.5,1.6,1.6,1.9,Bryant,4.75,2,5,W,W,-1.2,cbbd
+2026-11-02,Mon Nov 2 8:00 PM,Kansas City,Creighton,H,card,-26.5,-24.6,-26.0,0.5,Kansas City,-27.5,1,15,W,W,-1.0,cbbd
+2026-11-02,Mon Nov 2 8:00 PM,Western Illinois,Valparaiso,H,card,-19.0,-20.6,-21.4,2.4,Valparaiso,-18.5,2,22,W,W,-0.5,cbbd
+2026-11-02,Mon Nov 2 8:00 PM,Bethune Cookman,Furman,N,card,-4.5,-4.2,-4.2,0.3,Bethune Cookman,-4.5,1,9,L,L,0.0,cbbd
+2026-11-02,Mon Nov 2 8:00 PM,Tennessee Martin,Tulane,H,card,-7.5,-10.2,-10.2,2.7,Tulane,-6.25,2,2,L,L,-1.2,cbbd
+2026-11-02,Mon Nov 2 8:00 PM,Toledo,Arkansas St.,H,card,-3.5,-1.3,-1.3,2.2,Toledo,-3.5,1,1,W,W,0.0,cbbd
+2026-11-02,Mon Nov 2 8:00 PM,Fairleigh Dickinson,Illinois,H,card,-37.0,-39.3,-42.9,5.9,Illinois,-39.25,2,75,W,W,2.2,cbbd
+2026-11-02,Mon Nov 2 8:00 PM,Ohio,South Alabama,H,card,-1.0,3.6,3.6,4.6,Ohio,-0.25,2,-9,W,W,0.8,cbbd
+2026-11-02,Mon Nov 2 8:00 PM,The Citadel,Loyola Chicago,H,card,-15.0,-15.4,-15.5,0.5,Loyola Chicago,-14.5,1,25,W,W,-0.5,cbbd
+2026-11-02,Mon Nov 2 8:00 PM,Fordham,Kansas,H,card,-23.5,-24.0,-25.4,1.9,Kansas,-21.5,1,30,W,W,-2.0,cbbd
+2026-11-02,Mon Nov 2 8:00 PM,East Texas A&M,Oklahoma,H,card,-31.5,-28.1,-30.1,1.4,East Texas A&M,-30.5,2,-4,W,W,1.0,cbbd
+2026-11-02,Mon Nov 2 8:00 PM,Maryland Eastern Shore,Wake Forest,H,card,-30.0,-29.1,-31.2,1.2,Wake Forest,-32.5,1,21,L,L,2.5,cbbd
+2026-11-02,Mon Nov 2 8:00 PM,West Georgia,DePaul,H,card,-24.5,-21.5,-22.5,2.0,West Georgia,-24.75,2,17,W,W,-0.2,cbbd
+2026-11-02,Mon Nov 2 8:00 PM,Akron,Louisiana,H,card,5.5,6.8,6.8,1.3,Akron,5.5,1,-14,W,W,0.0,cbbd
+2026-11-02,Mon Nov 2 8:00 PM,Southern,SMU,H,card,-25.5,-23.1,-24.3,1.2,Southern,-25.5,1,13,W,W,0.0,cbbd
+2026-11-02,Mon Nov 2 8:00 PM,Texas A&M Corpus Chris,Texas St.,H,card,-10.5,-8.6,-8.6,1.9,Texas A&M Corpus Chris,-10.5,1,12,L,L,0.0,cbbd
+2026-11-02,Mon Nov 2 8:00 PM,Binghamton,Northwestern,H,card,-22.5,-21.7,-22.7,0.2,Northwestern,-20.5,2,26,W,W,-2.0,cbbd
+2026-11-02,Mon Nov 2 8:30 PM,Florida A&M,Florida St.,N,card,-25.5,-20.8,-21.7,3.8,Florida A&M,-27.75,2,43,L,L,-2.2,cbbd
+2026-11-02,Mon Nov 2 8:30 PM,Alcorn St.,Mississippi,H,card,-29.5,-26.1,-27.8,1.7,Alcorn St.,-30.5,1,41,L,L,-1.0,cbbd
+2026-11-02,Mon Nov 2 8:30 PM,Oral Roberts,Central Arkansas,H,card,-8.5,-7.3,-7.3,1.2,Oral Roberts,-8.75,2,30,L,L,-0.2,cbbd
+2026-11-02,Mon Nov 2 9:00 AM,Queens,Winthrop,N,card,1.5,1.3,1.3,0.2,Winthrop,3.5,1,-5,L,L,-2.0,cbbd
+2026-11-02,Mon Nov 2 9:00 PM,Long Beach St.,Utah,H,card,-19.5,-18.3,-18.8,0.7,Long Beach St.,-19.5,1,3,W,W,0.0,cbbd
+2026-11-02,Mon Nov 2 9:00 PM,Davidson,Washington St.,H,card,-3.0,-2.5,-2.5,0.5,Davidson,-2.5,1,-15,W,W,0.5,cbbd
+2026-11-02,Mon Nov 2 9:00 PM,North Alabama,UC Davis,H,card,-9.0,-8.4,-8.4,0.6,North Alabama,-9.5,2,-4,W,W,-0.5,cbbd
+2026-11-02,Mon Nov 2 9:00 PM,Utah Tech,New Mexico,H,card,-21.5,-20.3,-21.1,0.4,Utah Tech,-23.0,2,40,L,L,-1.5,cbbd
+2026-11-02,Mon Nov 2 9:00 PM,North Dakota,Minnesota,H,card,-26.0,-23.9,-25.2,0.8,North Dakota,-26.25,2,35,L,L,-0.2,cbbd
+2026-11-02,Mon Nov 2 9:00 PM,Texas Southern,Grand Canyon,H,card,-28.5,-25.8,-27.4,1.1,Texas Southern,-28.5,1,24,W,W,0.0,cbbd
+2026-11-02,Mon Nov 2 9:00 PM,Gardner Webb,Connecticut,H,card,-39.0,-39.4,-43.1,4.1,Connecticut,-40.75,2,40,W,L,1.8,cbbd
+2026-11-02,Mon Nov 2 9:00 PM,Chattanooga,Louisville,H,card,-31.5,-29.1,-31.2,0.3,Chattanooga,-30.25,2,14,W,W,1.2,cbbd
+2026-11-02,Mon Nov 2 9:00 PM,Abilene Christian,Colorado,H,card,-18.5,-16.7,-17.0,1.5,Abilene Christian,-18.5,2,35,L,L,0.0,cbbd
+2026-11-02,Mon Nov 2 9:00 PM,Ohio St.,BYU,N,card,-3.5,-0.0,-0.0,3.5,Ohio St.,-3.5,1,11,L,L,0.0,cbbd
+2026-11-02,Mon Nov 2 9:00 PM,Incarnate Word,Oklahoma St.,H,card,-27.5,-24.0,-25.4,2.1,Incarnate Word,-27.5,2,31,L,L,0.0,cbbd
+2026-11-02,Mon Nov 2 9:00 PM,Chicago St.,Texas,H,card,-39.5,-35.9,-39.0,0.5,Chicago St.,-41.25,2,50,L,L,-1.8,cbbd
+2026-11-02,Mon Nov 2 9:00 PM,La Salle,Houston,H,card,-29.5,-28.2,-30.2,0.7,Houston,-29.5,2,39,W,W,0.0,cbbd
+2026-11-02,Mon Nov 2 9:30 PM,Northwestern St.,Baylor,H,card,-30.0,-27.1,-28.9,1.1,Northwestern St.,-32.0,2,22,W,W,-2.0,cbbd
+2026-11-02,Mon Nov 2 9:30 PM,East Tennessee St.,Arizona St.,H,card,-17.5,-14.8,-14.8,2.7,East Tennessee St.,-19.25,2,10,W,W,-1.8,cbbd
+2026-11-02,Mon Nov 2 9:30 PM,Idaho St.,Utah St.,H,card,-26.0,-26.7,-28.5,2.5,Utah St.,-26.75,2,36,W,W,0.8,cbbd
+2026-11-02,Mon Nov 2 9:30 PM,Weber St.,Oregon St.,H,card,-17.5,-17.7,-18.1,0.6,Oregon St.,-17.5,2,41,W,W,0.0,cbbd
+2026-11-02,Tue Nov 3 12:00 AM,Seattle,Hawaii,H,card,-2.0,-0.9,-0.9,1.1,Seattle,-1.5,1,1,W,W,0.5,cbbd
+2026-11-03,Tue Nov 3 10:00 PM,North Florida,Cal Baptist,H,card,-11.5,-9.3,-9.3,2.2,North Florida,-10.75,2,-8,W,W,0.8,cbbd
+2026-11-03,Tue Nov 3 10:00 PM,Northern Arizona,UNLV,H,card,-21.5,-17.8,-18.2,3.3,Northern Arizona,-20.75,2,12,W,W,0.8,cbbd
+2026-11-03,Tue Nov 3 10:00 PM,Cal St. Fullerton,San Diego St.,H,card,-16.5,-17.2,-17.5,1.0,San Diego St.,-13.5,1,24,W,W,-3.0,cbbd
+2026-11-03,Tue Nov 3 6:00 PM,Wofford,Tennessee,H,card,-25.5,-26.6,-28.3,2.8,Tennessee,-25.25,2,31,W,W,-0.2,cbbd
+2026-11-03,Tue Nov 3 7:00 PM,Manhattan,Kentucky,H,card,-33.5,-32.2,-34.8,1.3,Kentucky,-33.25,2,28,L,L,-0.2,cbbd
+2026-11-03,Tue Nov 3 7:00 PM,Purdue Fort Wayne,Duquesne,H,card,-10.0,-10.9,-10.9,0.9,Duquesne,-9.5,1,7,L,L,-0.5,cbbd
+2026-11-03,Tue Nov 3 7:00 PM,Stetson,South Carolina,H,card,-19.5,-15.3,-15.3,4.2,Stetson,-19.0,2,26,L,L,0.5,cbbd
+2026-11-03,Tue Nov 3 7:00 PM,Coppin St.,Virginia Tech,H,card,-31.0,-29.7,-31.9,0.9,Virginia Tech,-31.5,2,34,W,W,0.5,cbbd
+2026-11-03,Tue Nov 3 7:00 PM,Hampton,Georgia Tech,H,card,-14.5,-11.1,-11.1,3.4,Hampton,-13.75,2,20,L,L,0.8,cbbd
+2026-11-03,Tue Nov 3 7:00 PM,Holy Cross,Rhode Island,H,card,-20.5,-17.6,-18.0,2.5,Holy Cross,-19.5,2,44,L,L,1.0,cbbd
+2026-11-03,Tue Nov 3 7:00 PM,Wagner,Boston College,H,card,-19.5,-18.6,-19.1,0.4,Wagner,-20.5,2,26,L,L,-1.0,cbbd
+2026-11-03,Tue Nov 3 7:30 PM,Sam Houston St.,Alabama,H,card,-27.0,-25.6,-27.2,0.2,Alabama,-27.25,2,22,L,L,0.2,cbbd
+2026-11-03,Tue Nov 3 7:30 PM,Drexel,Virginia,H,card,-31.0,-27.7,-29.6,1.4,Drexel,-31.75,2,29,W,W,-0.8,cbbd
+2026-11-03,Tue Nov 3 8:00 PM,Arkansas Pine Bluff,Arkansas,H,card,-41.5,-37.7,-41.1,0.4,Arkansas Pine Bluff,-41.75,2,45,L,L,-0.2,cbbd
+2026-11-03,Tue Nov 3 8:00 PM,LSU New Orleans,LSU,H,card,-27.5,-23.1,-24.3,3.2,LSU New Orleans,-27.5,0,43,L,L,0.0,oddsapi_hist
+2026-11-03,Tue Nov 3 8:00 PM,Cleveland St.,Missouri,H,card,-26.5,-26.6,-28.3,1.8,Missouri,-26.5,2,61,W,W,0.0,cbbd
+2026-11-03,Tue Nov 3 8:00 PM,Alabama St.,Texas A&M,H,card,-32.5,-27.1,-28.9,3.6,Alabama St.,-32.5,2,31,W,W,0.0,cbbd
+2026-11-03,Tue Nov 3 8:00 PM,Lipscomb,Iowa,H,card,-23.0,-20.3,-21.1,1.9,Lipscomb,-23.25,2,22,W,W,-0.2,cbbd
+2026-11-03,Tue Nov 3 8:00 PM,South Dakota St.,Kansas St.,H,card,-11.5,-14.1,-14.1,2.6,Kansas St.,-10.75,2,-2,L,L,-0.8,cbbd
+2026-11-04,Wed Nov 4 10:00 PM,Queens,Loyola Marymount,H,card,-6.5,-4.5,-4.5,2.0,Queens,-6.5,1,-1,W,W,0.0,cbbd
+2026-11-04,Wed Nov 4 10:00 PM,Milwaukee,Santa Clara,H,card,-17.5,-13.3,-13.3,4.2,Milwaukee,-16.5,2,23,L,L,1.0,cbbd
+2026-11-04,Wed Nov 4 10:00 PM,North Dakota St.,Saint Mary's,H,cbbd_open,-12.5,-11.3,-11.3,1.2,North Dakota St.,-12.5,1,41,L,L,0.0,cbbd
+2026-11-04,Wed Nov 4 7:00 PM,Maryland Eastern Shore,High Point,H,card,-30.5,-28.9,-31.0,0.5,High Point,-34.5,1,14,L,L,4.0,cbbd
+2026-11-04,Wed Nov 4 7:00 PM,Longwood,Saint Joseph's,H,card,-9.5,-8.8,-8.8,0.7,Longwood,-11.5,2,9,W,W,-2.0,cbbd
+2026-11-04,Wed Nov 4 7:00 PM,Fairleigh Dickinson,Butler,H,card,-24.5,-22.7,-23.9,0.6,Fairleigh Dickinson,-28.75,2,34,L,L,-4.2,cbbd
+2026-11-04,Wed Nov 4 7:30 PM,CSUN,Wichita St.,H,card,-14.5,-14.4,-14.4,0.1,CSUN,-15.5,2,12,W,W,-1.0,cbbd
+2026-11-04,Wed Nov 4 8:00 PM,Northern Kentucky,South Dakota,H,card,2.5,0.7,0.7,1.8,South Dakota,2.25,2,-8,L,L,0.2,cbbd
+2026-11-04,Wed Nov 4 8:00 PM,Southeastern Louisiana,Auburn,H,card,-26.5,-26.0,-27.6,1.1,Auburn,-29.5,2,33,W,W,3.0,cbbd
+2026-11-04,Wed Nov 4 9:00 PM,Radford,California,H,card,-15.5,-16.8,-17.1,1.6,California,-16.25,2,14,L,L,0.8,cbbd
+2026-11-05,Thu Nov 5 10:30 PM,Cal Poly,Arizona,H,card,-30.5,-26.9,-28.7,1.8,Cal Poly,-30.75,2,20,W,W,-0.2,cbbd
+2026-11-05,Thu Nov 5 5:00 PM,McNeese,North Texas,H,card,1.5,0.9,0.9,0.6,North Texas,1.75,2,10,W,W,-0.2,cbbd
+2026-11-05,Thu Nov 5 6:00 PM,Wake Forest,Vanderbilt,H,card,-17.5,-15.9,-16.0,1.5,Wake Forest,-17.75,2,23,L,L,-0.2,cbbd
+2026-11-05,Thu Nov 5 6:00 PM,Chicago St.,Incarnate Word,H,card,-7.5,-6.5,-6.5,1.0,Chicago St.,-8.5,2,-12,W,W,-1.0,cbbd
+2026-11-05,Thu Nov 5 6:00 PM,Chattanooga,Penn St.,H,card,-12.5,-13.7,-13.7,1.2,Penn St.,-12.5,2,4,L,L,0.0,cbbd
+2026-11-05,Thu Nov 5 6:00 PM,Bellarmine,Indiana,H,card,-26.5,-27.2,-29.0,2.5,Indiana,-30.25,2,23,L,L,3.8,cbbd
+2026-11-05,Thu Nov 5 6:30 PM,LIU,Seton Hall,H,card,-17.5,-18.1,-18.6,1.1,Seton Hall,-17.5,2,7,L,L,0.0,cbbd
+2026-11-05,Thu Nov 5 7:00 PM,Buffalo,Pittsburgh,H,card,-18.5,-14.9,-14.9,3.6,Buffalo,-17.5,2,19,L,L,1.0,cbbd
+2026-11-05,Thu Nov 5 7:00 PM,Central Connecticut,Syracuse,H,card,-21.5,-23.1,-24.3,2.8,Syracuse,-23.25,2,53,W,W,1.8,cbbd
+2026-11-05,Thu Nov 5 7:00 PM,Binghamton,Saint Peter's,H,card,-7.5,-7.5,-7.5,0.0,Binghamton,-7.5,2,-3,W,W,0.0,cbbd
+2026-11-05,Thu Nov 5 7:00 PM,Mercer,Virginia Tech,H,card,-21.5,-18.7,-19.3,2.2,Mercer,-20.5,2,29,L,L,1.0,cbbd
+2026-11-05,Thu Nov 5 7:00 PM,Vermont,Fairfield,H,card,-1.5,0.5,0.5,2.0,Vermont,1.5,2,-12,W,W,3.0,cbbd
+2026-11-05,Thu Nov 5 7:00 PM,NJIT,Iona,H,card,-9.5,-8.9,-8.9,0.6,NJIT,-9.75,2,23,L,L,-0.2,cbbd
+2026-11-05,Thu Nov 5 7:00 PM,UMBC,Marist,H,card,-3.5,-2.1,-2.1,1.4,UMBC,-4.5,1,8,L,L,-1.0,cbbd
+2026-11-05,Thu Nov 5 7:00 PM,Delaware St.,Navy,H,card,-8.5,-9.2,-9.2,0.7,Navy,-9.5,2,6,L,L,1.0,cbbd
+2026-11-05,Thu Nov 5 7:00 PM,Albany,Manhattan,H,card,-3.5,-2.4,-2.4,1.1,Albany,-3.5,1,-4,W,W,0.0,cbbd
+2026-11-05,Thu Nov 5 7:00 PM,Mercyhurst,Notre Dame,H,card,-19.5,-21.2,-22.1,2.6,Notre Dame,-21.5,2,27,W,W,2.0,cbbd
+2026-11-05,Thu Nov 5 7:00 PM,Bryant,Quinnipiac,H,card,-4.5,-6.5,-6.5,2.0,Quinnipiac,-6.5,2,10,W,W,2.0,cbbd
+2026-11-05,Thu Nov 5 7:00 PM,UMass Lowell,Merrimack,H,card,-7.5,-8.4,-8.4,0.9,Merrimack,-9.5,2,-10,L,L,2.0,cbbd
+2026-11-05,Thu Nov 5 7:00 PM,Howard,Alcorn St.,H,card,7.5,9.6,9.6,2.1,Howard,9.5,2,-11,W,W,2.0,cbbd
+2026-11-05,Thu Nov 5 7:00 PM,Hofstra,Princeton,H,card,-3.0,-2.0,-2.0,1.0,Hofstra,-2.75,2,2,W,W,0.2,cbbd
+2026-11-05,Thu Nov 5 7:00 PM,Georgia St.,Charlotte,H,card,-11.5,-12.7,-12.7,1.2,Charlotte,-11.5,2,10,L,L,0.0,cbbd
+2026-11-05,Thu Nov 5 7:00 PM,Green Bay,Cincinnati,H,card,-24.5,-21.9,-22.9,1.6,Green Bay,-24.0,2,17,W,W,0.5,cbbd
+2026-11-05,Thu Nov 5 7:00 PM,Maine,Sacred Heart,H,card,-5.5,-5.3,-5.3,0.2,Maine,-5.75,2,-2,W,W,-0.2,cbbd
+2026-11-05,Thu Nov 5 7:00 PM,New Hampshire,Rider,H,card,-1.5,1.9,1.9,3.4,New Hampshire,1.5,2,-11,W,W,3.0,cbbd
+2026-11-05,Thu Nov 5 7:00 PM,Cornell,Lehigh,H,card,1.5,-0.3,-0.3,1.8,Lehigh,0.25,2,7,W,W,1.2,cbbd
+2026-11-05,Thu Nov 5 7:30 PM,Jackson St.,Tulane,H,card,-12.5,-11.3,-11.3,1.2,Jackson St.,-12.25,2,-2,W,W,0.2,cbbd
+2026-11-05,Thu Nov 5 7:30 PM,Stonehill,Fordham,H,card,-17.5,-16.0,-16.1,1.4,Stonehill,-20.25,2,20,L,W,-2.8,cbbd
+2026-11-05,Thu Nov 5 7:30 PM,Northwestern St.,Mississippi St.,H,card,-21.5,-19.5,-20.2,1.3,Northwestern St.,-21.5,2,38,L,L,0.0,cbbd
+2026-11-05,Thu Nov 5 8:00 PM,Le Moyne,Creighton,H,card,-26.5,-25.9,-27.5,1.0,Creighton,-29.25,2,28,W,L,2.8,cbbd
+2026-11-05,Thu Nov 5 8:00 PM,Northern Illinois,Tulsa,H,card,-14.0,-15.5,-15.6,1.6,Tulsa,-14.25,2,19,W,W,0.2,cbbd
+2026-11-05,Thu Nov 5 8:00 PM,West Georgia,Loyola Chicago,H,card,-18.5,-15.9,-16.0,2.5,West Georgia,-17.5,2,23,L,L,1.0,cbbd
+2026-11-05,Thu Nov 5 8:00 PM,VMI,SMU,H,card,-24.5,-23.9,-25.2,0.7,SMU,-24.75,2,25,W,W,0.2,cbbd
+2026-11-05,Thu Nov 5 8:00 PM,East Texas A&M,Rice,H,card,-4.5,-3.5,-3.5,1.0,East Texas A&M,-3.5,2,-1,W,W,1.0,cbbd
+2026-11-05,Thu Nov 5 8:00 PM,Coastal Carolina,Duke,H,card,-40.5,-35.7,-38.8,1.7,Coastal Carolina,-40.75,2,61,L,L,-0.2,cbbd
+2026-11-05,Thu Nov 5 8:00 PM,Gardner Webb,Texas,H,card,-38.5,-37.4,-40.8,2.3,Texas,-41.25,2,48,W,W,2.8,cbbd
+2026-11-05,Thu Nov 5 8:00 PM,Toledo,Michigan St.,H,card,-26.5,-25.5,-27.1,0.6,Michigan St.,-26.25,2,30,W,W,-0.2,cbbd
+2026-11-05,Thu Nov 5 8:00 PM,Jacksonville,Florida,H,card,-33.5,-35.0,-38.0,4.5,Florida,-37.0,2,31,L,L,3.5,cbbd
+2026-11-05,Thu Nov 5 8:00 PM,Jacksonville St.,South Alabama,H,card,-5.5,0.5,0.5,6.0,Jacksonville St.,-4.75,2,3,W,W,0.8,cbbd
+2026-11-05,Thu Nov 5 8:30 PM,Penn,Illinois,H,cbbd_open,-29.5,-27.5,-29.4,0.1,Penn,-29.75,2,42,L,L,-0.2,cbbd
+2026-11-05,Thu Nov 5 8:30 PM,South Florida,DePaul,H,card,-6.5,-5.8,-5.8,0.7,South Florida,-6.5,2,2,W,W,0.0,cbbd
+2026-11-05,Thu Nov 5 9:00 PM,Towson,Utah,H,card,-9.5,-11.6,-11.6,2.1,Utah,-8.5,2,10,W,W,-1.0,cbbd
+2026-11-05,Thu Nov 5 9:00 PM,Bethune Cookman,Texas Tech,H,card,-26.5,-28.0,-30.0,3.5,Texas Tech,-29.75,2,18,L,L,3.2,cbbd
+2026-11-06,Fri Nov 6 10:00 PM,Oakland,Stanford,H,card,-14.5,-13.1,-13.1,1.4,Oakland,-14.25,2,18,L,L,0.2,cbbd
+2026-11-06,Fri Nov 6 10:00 PM,North Dakota St.,San Francisco,H,cbbd_open,-8.25,-6.4,-6.4,1.8,North Dakota St.,-8.5,2,9,L,L,-0.2,cbbd
+2026-11-06,Fri Nov 6 10:30 PM,North Florida,UCLA,H,card,-31.5,-29.6,-31.8,0.3,UCLA,-32.5,2,51,W,W,1.0,cbbd
+2026-11-06,Fri Nov 6 10:30 PM,UT Arlington,Portland,N,card,-1.5,-0.5,-0.5,1.0,UT Arlington,-2.25,2,-4,W,W,-0.8,cbbd
+2026-11-06,Fri Nov 6 4:00 PM,Massachusetts,Boston College,N,card,-5.5,-3.6,-3.6,1.9,Massachusetts,-5.25,2,16,L,L,0.2,cbbd
+2026-11-06,Fri Nov 6 5:00 PM,Northeastern,Virginia,H,card,-34.5,-29.1,-31.2,3.3,Northeastern,-33.75,2,25,W,W,0.8,cbbd
+2026-11-06,Fri Nov 6 5:00 PM,West Florida,FIU,H,card,-13.5,-14.6,-14.6,1.1,FIU,-16.0,0,10,L,L,2.5,oddsapi_hist
+2026-11-06,Fri Nov 6 5:00 PM,Arkansas Pine Bluff,Baylor,H,card,-36.5,-34.0,-36.9,0.4,Baylor,-38.25,2,56,W,W,1.8,cbbd
+2026-11-06,Fri Nov 6 6:00 PM,Eastern Washington,Oregon,H,card,-16.5,-16.0,-16.1,0.4,Eastern Washington,-16.25,2,27,L,L,0.2,cbbd
+2026-11-06,Fri Nov 6 6:30 PM,Valparaiso,Purdue,H,card,-19.5,-20.4,-21.2,1.7,Purdue,-19.5,2,-3,L,L,0.0,cbbd
+2026-11-06,Fri Nov 6 6:30 PM,South Carolina St.,USC Upstate,H,card,-7.5,-4.3,-4.3,3.2,South Carolina St.,-3.5,2,-8,W,W,4.0,cbbd
+2026-11-06,Fri Nov 6 6:30 PM,Youngstown St.,Ohio St.,H,card,-25.5,-24.2,-25.6,0.1,Ohio St.,-25.5,2,24,L,L,0.0,cbbd
+2026-11-06,Fri Nov 6 7:00 PM,Eastern Michigan,Xavier,H,card,-22.5,-20.8,-21.7,0.8,Eastern Michigan,-23.5,2,23,L,W,-1.0,cbbd
+2026-11-06,Fri Nov 6 7:00 PM,Troy,Florida St.,H,card,-22.5,-15.7,-15.8,6.7,Troy,-22.5,2,23,L,L,0.0,cbbd
+2026-11-06,Fri Nov 6 7:00 PM,Indiana St.,Ball St.,H,card,-3.0,-2.0,-2.0,1.0,Indiana St.,-1.75,2,-3,W,W,1.2,cbbd
+2026-11-06,Fri Nov 6 7:00 PM,Saint Louis,Missouri,N,card,-2.5,-4.7,-4.7,2.2,Missouri,-2.5,2,-6,L,L,0.0,cbbd
+2026-11-06,Fri Nov 6 7:00 PM,Boston University,Brown,H,card,-5.5,-3.3,-3.3,2.2,Boston University,-1.75,2,-5,W,W,3.8,cbbd
+2026-11-06,Fri Nov 6 7:00 PM,Wofford,North Carolina,H,card,-23.0,-20.2,-21.0,2.0,Wofford,-20.5,2,39,L,L,2.5,cbbd
+2026-11-06,Fri Nov 6 7:00 PM,Austin Peay,Kennesaw St.,H,cbbd_open,-6.25,-5.5,-5.5,0.8,Austin Peay,-5.75,2,2,W,W,0.5,cbbd
+2026-11-06,Fri Nov 6 7:00 PM,East Tennessee St.,N.C. State,H,card,-16.5,-16.0,-16.1,0.4,East Tennessee St.,-17.5,2,14,W,W,-1.0,cbbd
+2026-11-06,Fri Nov 6 7:00 PM,UNC Greensboro,Elon,H,card,-9.0,-5.5,-5.5,3.5,UNC Greensboro,-8.75,2,9,P,L,0.2,cbbd
+2026-11-06,Fri Nov 6 7:00 PM,Georgia Southern,Georgia Tech,H,card,-18.0,-16.5,-16.7,1.3,Georgia Southern,-16.75,2,12,W,W,1.2,cbbd
+2026-11-06,Fri Nov 6 7:00 PM,Loyola MD,Mount St. Mary's,H,card,-5.5,-3.9,-3.9,1.6,Loyola MD,-6.25,2,11,L,L,-0.8,cbbd
+2026-11-06,Fri Nov 6 7:00 PM,Presbyterian,Georgia,H,card,-20.5,-19.1,-19.7,0.8,Presbyterian,-24.25,2,14,W,W,-3.8,cbbd
+2026-11-06,Fri Nov 6 7:00 PM,Holy Cross,Villanova,H,card,-31.5,-33.3,-36.0,4.5,Villanova,-34.5,2,29,L,L,3.0,cbbd
+2026-11-06,Fri Nov 6 7:00 PM,Yale,UCF,H,card,-9.5,-12.0,-12.0,2.5,UCF,-9.5,1,12,W,W,0.0,cbbd
+2026-11-06,Fri Nov 6 7:00 PM,Stetson,West Virginia,H,card,-24.5,-27.1,-28.9,4.4,West Virginia,-27.25,2,38,W,W,2.8,cbbd
+2026-11-06,Fri Nov 6 7:00 PM,New Haven,Rutgers,H,card,-24.5,-23.1,-24.3,0.2,New Haven,-24.5,2,27,L,L,0.0,cbbd
+2026-11-06,Fri Nov 6 7:00 PM,James Madison,Kentucky,H,card,-25.5,-19.6,-20.3,5.2,James Madison,-23.75,2,9,W,W,1.8,cbbd
+2026-11-06,Fri Nov 6 7:00 PM,Coppin St.,George Mason,H,card,-26.5,-23.9,-25.2,1.3,Coppin St.,-28.5,2,17,W,W,-2.0,cbbd
+2026-11-06,Fri Nov 6 7:30 PM,Nicholls,UAB,H,card,-12.5,-11.9,-11.9,0.6,Nicholls,-15.25,2,7,W,W,-2.8,cbbd
+2026-11-06,Fri Nov 6 7:30 PM,Delaware,Wisconsin,H,card,-24.5,-23.1,-24.3,0.2,Delaware,-25.75,2,9,W,W,-1.2,cbbd
+2026-11-06,Fri Nov 6 7:30 PM,Arkansas St.,Alabama,H,card,-25.5,-24.0,-25.4,0.1,Arkansas St.,-25.75,2,15,W,W,-0.2,cbbd
+2026-11-06,Fri Nov 6 7:30 PM,Florida Atlantic,Wright St.,H,card,-3.5,-0.9,-0.9,2.6,Florida Atlantic,-4.25,2,26,L,L,-0.8,cbbd
+2026-11-06,Fri Nov 6 8:00 PM,Connecticut,Michigan,N,card,7.0,5.2,5.2,1.8,Michigan,7.5,2,-8,L,L,-0.5,cbbd
+2026-11-06,Fri Nov 6 8:00 PM,Southern Miss,Iowa St.,H,card,-30.5,-28.0,-29.9,0.6,Southern Miss,-31.25,2,26,W,W,-0.8,cbbd
+2026-11-06,Fri Nov 6 8:00 PM,Robert Morris,Illinois Chicago,H,card,-11.0,-11.6,-11.6,0.6,Illinois Chicago,-10.5,2,23,W,W,-0.5,cbbd
+2026-11-06,Fri Nov 6 8:00 PM,Texas A&M Corpus Chris,Louisiana,H,card,-2.5,-1.8,-1.8,0.7,Texas A&M Corpus Chris,-3.5,1,-7,W,W,-1.0,cbbd
+2026-11-06,Fri Nov 6 8:00 PM,Texas Southern,LSU,H,card,-30.5,-27.5,-29.4,1.1,Texas Southern,-36.0,2,41,L,L,-5.5,cbbd
+2026-11-06,Fri Nov 6 8:00 PM,Northern Kentucky,Texas A&M,H,card,-26.0,-19.1,-19.7,6.3,Northern Kentucky,-27.25,2,37,L,L,-1.2,cbbd
+2026-11-06,Fri Nov 6 8:00 PM,Stony Brook,Northwestern,H,card,-14.0,-15.0,-15.0,1.0,Northwestern,-12.0,2,13,L,W,-2.0,cbbd
+2026-11-06,Fri Nov 6 8:00 PM,Southern,TCU,H,card,-23.5,-23.9,-25.2,1.7,TCU,-26.5,2,52,W,W,3.0,cbbd
+2026-11-06,Fri Nov 6 8:00 PM,St. Thomas,Minnesota,H,card,-14.0,-14.4,-14.4,0.4,Minnesota,-14.5,1,14,P,L,0.5,cbbd
+2026-11-06,Fri Nov 6 8:00 PM,Detroit Mercy,Marquette,H,card,-32.5,-27.4,-29.3,3.2,Detroit Mercy,-32.25,2,61,L,L,0.2,cbbd
+2026-11-06,Fri Nov 6 8:00 PM,Mississippi Valley St.,Oklahoma,H,card,-38.5,-38.6,-42.1,3.6,Oklahoma,-40.5,2,27,L,L,2.0,cbbd
+2026-11-06,Fri Nov 6 8:30 PM,Southern Illinois,Kansas City,H,card,2.0,2.3,2.3,0.3,Southern Illinois,1.5,1,7,L,L,-0.5,cbbd
+2026-11-06,Fri Nov 6 8:30 PM,Central Arkansas,Mississippi,H,card,-18.5,-16.1,-16.3,2.2,Central Arkansas,-17.25,2,32,L,L,1.2,cbbd
+2026-11-06,Fri Nov 6 8:30 PM,Idaho St.,Wyoming,H,card,-19.0,-17.0,-17.3,1.7,Idaho St.,-18.5,2,31,L,L,0.5,cbbd
+2026-11-06,Fri Nov 6 8:30 PM,Eastern Illinois,Iowa,H,card,-35.5,-32.5,-35.1,0.4,Eastern Illinois,-34.75,2,44,L,L,0.8,cbbd
+2026-11-06,Fri Nov 6 9:00 PM,Wagner,Miami FL,H,card,-33.5,-33.3,-36.0,2.5,Miami FL,-38.5,2,26,L,L,5.0,cbbd
+2026-11-06,Fri Nov 6 9:00 PM,Middle Tennessee,Kansas,H,card,-29.5,-28.4,-30.4,0.9,Kansas,-28.5,2,44,W,W,-1.0,cbbd
+2026-11-06,Fri Nov 6 9:00 PM,Nebraska Omaha,BYU,H,card,-31.5,-29.2,-31.3,0.2,Nebraska Omaha,-33.25,2,41,L,L,-1.8,cbbd
+2026-11-06,Fri Nov 6 9:00 PM,Idaho,Colorado St.,H,card,-17.0,-16.9,-17.2,0.2,Colorado St.,-16.0,2,11,L,L,-1.0,cbbd
+2026-11-06,Fri Nov 6 9:00 PM,Northern Colorado,Arizona St.,H,card,-18.5,-15.6,-15.7,2.8,Northern Colorado,-19.5,2,27,L,L,-1.0,cbbd
+2026-11-06,Fri Nov 6 9:00 PM,Queens,Oklahoma St.,H,card,-19.5,-16.9,-17.2,2.3,Queens,-17.5,1,50,L,L,2.0,cbbd
+2026-11-06,Fri Nov 6 9:00 PM,CSUN,Kansas St.,H,card,-10.0,-11.1,-11.1,1.1,Kansas St.,-11.25,2,17,W,W,1.2,cbbd
+2026-11-06,Fri Nov 6 9:30 PM,Cal Baptist,Oregon St.,H,card,-18.0,-14.8,-14.8,3.2,Cal Baptist,-20.5,2,28,L,L,-2.5,cbbd
+2026-11-06,Fri Nov 6 9:30 PM,Tarleton St.,San Diego,H,card,-6.0,-4.8,-4.8,1.2,Tarleton St.,-7.5,2,6,P,W,-1.5,cbbd
+2026-11-07,Sat Nov 7 10:00 PM,Portland St.,Seattle,H,card,-10.5,-8.1,-8.1,2.4,Portland St.,-10.5,0,19,L,L,0.0,oddsapi_hist
+2026-11-07,Sat Nov 7 10:00 PM,Fresno St.,UC San Diego,H,card,-9.5,-6.7,-6.7,2.8,Fresno St.,-11.0,0,16,L,L,-1.5,oddsapi_hist
+2026-11-07,Sat Nov 7 10:00 PM,Sacramento St.,Santa Clara,H,card,-20.0,-12.4,-12.9,7.1,Sacramento St.,-19.5,0,6,W,W,0.5,oddsapi_hist
+2026-11-07,Sat Nov 7 10:00 PM,San Jose St.,UC Irvine,H,card,-8.0,-5.9,-5.9,2.1,San Jose St.,-8.5,0,12,L,L,-0.5,oddsapi_hist
+2026-11-07,Sat Nov 7 12:00 PM,Morehead St.,Louisville,H,card,-37.5,-32.1,-36.5,1.0,Morehead St.,-37.5,2,50,L,L,0.0,cbbd
+2026-11-07,Sat Nov 7 12:00 PM,North Dakota,Winthrop,H,card,-9.5,-8.6,-8.6,0.9,North Dakota,-9.5,2,-3,W,W,0.0,cbbd
+2026-11-07,Sat Nov 7 1:00 PM,North Carolina A&T,Ohio,H,card,-12.5,-11.7,-12.0,0.5,North Carolina A&T,-13.5,2,10,W,W,-1.0,cbbd
+2026-11-07,Sat Nov 7 2:00 PM,Toledo,Marshall,H,card,-2.5,-0.4,-0.4,2.1,Toledo,-2.0,2,-5,W,W,0.5,cbbd
+2026-11-07,Sat Nov 7 2:00 PM,Colgate,Drexel,H,card,-1.5,-0.8,-0.8,0.7,Colgate,0.0,2,3,L,L,1.5,cbbd
+2026-11-07,Sat Nov 7 2:00 PM,Cal St. Fullerton,South Dakota,H,card,-1.5,1.4,1.4,2.9,Cal St. Fullerton,-1.5,1,-2,W,W,0.0,cbbd
+2026-11-07,Sat Nov 7 2:00 PM,UNC Wilmington,East Carolina,H,card,3.5,3.0,3.0,0.5,East Carolina,4.5,2,-3,W,W,-1.0,cbbd
+2026-11-07,Sat Nov 7 2:00 PM,Lamar,Abilene Christian,H,card,-2.5,-0.6,-0.6,1.9,Lamar,-0.5,2,2,W,L,2.0,cbbd
+2026-11-07,Sat Nov 7 3:00 PM,North Carolina Central,Longwood,H,card,-11.5,-13.9,-14.7,3.2,Longwood,-12.0,2,5,L,L,0.5,cbbd
+2026-11-07,Sat Nov 7 3:00 PM,VCU,Memphis,H,card,3.0,0.9,0.9,2.1,Memphis,2.5,2,1,W,W,0.5,cbbd
+2026-11-07,Sat Nov 7 3:00 PM,Long Beach St.,Montana St.,H,card,-10.5,-10.6,-10.7,0.2,Montana St.,-10.5,2,13,W,W,0.0,cbbd
+2026-11-07,Sat Nov 7 3:30 PM,LIU,La Salle,H,card,-4.5,-5.7,-5.7,1.2,La Salle,-4.5,2,8,W,W,0.0,cbbd
+2026-11-07,Sat Nov 7 3:30 PM,San Diego St.,Colorado,N,card,2.5,0.7,0.7,1.8,Colorado,3.0,2,-11,L,L,-0.5,cbbd
+2026-11-07,Sat Nov 7 4:00 PM,Nebraska Omaha,Utah St.,H,card,-26.5,-24.7,-27.6,1.1,Utah St.,-28.0,2,34,W,W,1.5,cbbd
+2026-11-07,Sat Nov 7 4:00 PM,Oakland,UC Santa Barbara,H,card,-12.5,-9.2,-9.2,3.3,Oakland,-13.0,2,23,L,L,-0.5,cbbd
+2026-11-07,Sat Nov 7 4:00 PM,Samford,UNLV,H,card,-11.0,-12.0,-12.4,1.4,UNLV,-11.0,2,9,L,L,0.0,cbbd
+2026-11-07,Sat Nov 7 4:00 PM,Lafayette,Saint Joseph's,H,card,-17.5,-17.0,-18.4,0.9,Saint Joseph's,-17.0,2,10,L,L,-0.5,cbbd
+2026-11-07,Sat Nov 7 4:00 PM,Monmouth,Rhode Island,N,card,-6.5,-5.1,-5.1,1.4,Monmouth,-6.5,2,18,L,L,0.0,cbbd
+2026-11-07,Sat Nov 7 5:00 PM,Washington St.,High Point,H,card,-11.5,-10.0,-10.0,1.5,Washington St.,-12.5,2,12,L,W,-1.0,cbbd
+2026-11-07,Sat Nov 7 5:00 PM,Bellarmine,Miami OH,H,card,-20.5,-17.0,-18.4,2.1,Bellarmine,-19.5,2,7,W,W,1.0,cbbd
+2026-11-07,Sat Nov 7 5:00 PM,Tennessee Martin,IU Indy,H,card,2.5,-2.3,-2.3,4.8,IU Indy,2.0,2,1,W,W,0.5,cbbd
+2026-11-07,Sat Nov 7 5:00 PM,SIUE,Lipscomb,H,card,-5.5,-5.5,-5.5,0.0,SIUE,-7.0,2,1,W,W,-1.5,cbbd
+2026-11-07,Sat Nov 7 5:00 PM,Northern Iowa,Furman,H,card,-4.5,-3.0,-3.0,1.5,Northern Iowa,-5.0,2,15,L,L,-0.5,cbbd
+2026-11-07,Sat Nov 7 5:00 PM,VMI,UTSA,H,card,-4.5,-5.2,-5.2,0.7,UTSA,-5.0,2,2,L,L,0.5,cbbd
+2026-11-07,Sat Nov 7 5:00 PM,New Mexico St.,Gonzaga,H,card,-28.0,-23.4,-26.1,1.9,New Mexico St.,-29.0,2,41,L,L,-1.0,cbbd
+2026-11-07,Sat Nov 7 5:00 PM,Old Dominion,Bucknell,H,card,4.5,7.2,7.2,2.7,Old Dominion,5.0,2,-20,W,W,0.5,cbbd
+2026-11-07,Sat Nov 7 5:30 PM,Prairie View A&M,UT Rio Grande Valley,H,card,-8.5,-6.2,-6.2,2.3,Prairie View A&M,-8.5,2,5,W,W,0.0,cbbd
+2026-11-07,Sat Nov 7 5:30 PM,Western Carolina,UNC Asheville,H,card,2.0,3.5,3.5,1.5,Western Carolina,3.0,2,-8,W,W,1.0,cbbd
+2026-11-07,Sat Nov 7 6:00 PM,Hampton,George Washington,H,card,-19.0,-15.2,-16.2,2.8,Hampton,-20.0,2,14,W,W,-1.0,cbbd
+2026-11-07,Sat Nov 7 6:00 PM,Northern Arizona,New Mexico,H,card,-26.5,-23.0,-25.6,0.9,Northern Arizona,-27.5,2,29,L,L,-1.0,cbbd
+2026-11-07,Sat Nov 7 6:30 PM,Morgan St.,Niagara,H,card,-3.5,-3.4,-3.4,0.1,Morgan St.,-3.5,2,-6,W,W,0.0,cbbd
+2026-11-07,Sat Nov 7 7:00 PM,Providence,Nebraska,N,card,-2.5,-4.8,-4.8,2.3,Nebraska,-2.5,2,9,W,W,0.0,cbbd
+2026-11-07,Sat Nov 7 7:00 PM,St. Bonaventure,Canisius,H,card,8.5,12.2,12.6,4.1,St. Bonaventure,9.0,2,-39,W,W,0.5,cbbd
+2026-11-07,Sat Nov 7 7:00 PM,Northern Illinois,Dayton,H,card,-19.5,-19.3,-21.2,1.7,Dayton,-19.5,2,-5,L,L,0.0,cbbd
+2026-11-07,Sat Nov 7 7:00 PM,Mercer,Davidson,H,card,-11.5,-9.5,-9.5,2.0,Mercer,-11.5,2,12,L,L,0.0,cbbd
+2026-11-07,Sat Nov 7 7:00 PM,Houston Christian,Western Illinois,H,card,9.5,8.8,8.8,0.7,Western Illinois,9.5,2,-7,W,W,0.0,cbbd
+2026-11-07,Sat Nov 7 7:30 PM,Denver,UC Riverside,H,card,-2.0,-2.7,-2.7,0.7,UC Riverside,-0.5,0,4,W,W,-1.5,oddsapi_hist
+2026-11-07,Sat Nov 7 7:30 PM,Maryland,Georgetown,H,card,2.5,2.5,2.5,0.0,Maryland,-17.5,0,12,L,W,-20.0,oddsapi_hist
+2026-11-07,Sat Nov 7 8:00 PM,Northwestern St.,Murray St.,H,card,-22.5,-18.1,-19.7,2.8,Northwestern St.,-15.5,0,22,W,L,7.0,oddsapi_hist
+2026-11-07,Sat Nov 7 8:00 PM,Southern Indiana,Evansville,H,card,-9.5,-6.8,-6.8,2.7,Southern Indiana,1.5,0,2,W,L,11.0,oddsapi_hist
+2026-11-07,Sat Nov 7 8:00 PM,Southeastern Louisiana,Little Rock,H,card,-5.5,-5.8,-5.8,0.3,Little Rock,-1.5,0,-4,L,L,-4.0,oddsapi_hist
+2026-11-07,Sat Nov 7 8:00 PM,Pacific,Bradley,H,card,-1.5,-2.8,-2.8,1.3,Bradley,7.5,0,-11,L,L,-9.0,oddsapi_hist
+2026-11-07,Sat Nov 7 8:00 PM,Bethune Cookman,Grand Canyon,H,card,-21.5,-17.6,-19.1,2.4,Bethune Cookman,-24.5,0,18,W,W,-3.0,oddsapi_hist
+2026-11-07,Sat Nov 7 9:00 PM,Utah Valley,Weber St.,H,card,7.5,7.6,7.6,0.1,Utah Valley,7.5,0,-8,W,W,0.0,oddsapi_hist

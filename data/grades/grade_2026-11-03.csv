@@ -1,20 +1,20 @@
-﻿date,tip_ET,away,home,venue,ref_src,ref,model_raw,model_adj,edge,side,close,n_books,home_margin,res_ref,res_close,clv
-2026-11-03,Tue Nov 3 6:00 PM,Wofford,Tennessee,H,card,-25.5,-26.6,-28.3,2.8,Tennessee,-25.25,2,31,W,W,-0.2
-2026-11-03,Tue Nov 3 7:00 PM,Manhattan,Kentucky,H,card,-33.5,-32.2,-34.8,1.3,Kentucky,-33.25,2,28,L,L,-0.2
-2026-11-03,Tue Nov 3 7:00 PM,Purdue Fort Wayne,Duquesne,H,card,-10.0,-10.9,-10.9,0.9,Duquesne,-9.5,1,7,L,L,-0.5
-2026-11-03,Tue Nov 3 7:00 PM,Stetson,South Carolina,H,card,-19.5,-15.3,-15.3,4.2,Stetson,-19.0,2,26,L,L,0.5
-2026-11-03,Tue Nov 3 7:00 PM,Coppin St.,Virginia Tech,H,card,-31.0,-29.7,-31.9,0.9,Virginia Tech,-31.5,2,34,W,W,0.5
-2026-11-03,Tue Nov 3 7:00 PM,Hampton,Georgia Tech,H,card,-14.5,-11.1,-11.1,3.4,Hampton,-13.75,2,20,L,L,0.8
-2026-11-03,Tue Nov 3 7:00 PM,Holy Cross,Rhode Island,H,card,-20.5,-17.6,-18.0,2.5,Holy Cross,-19.5,2,44,L,L,1.0
-2026-11-03,Tue Nov 3 7:00 PM,Wagner,Boston College,H,card,-19.5,-18.6,-19.1,0.4,Wagner,-20.5,2,26,L,L,-1.0
-2026-11-03,Tue Nov 3 7:30 PM,Sam Houston St.,Alabama,H,card,-27.0,-25.6,-27.2,0.2,Alabama,-27.25,2,22,L,L,0.2
-2026-11-03,Tue Nov 3 7:30 PM,Drexel,Virginia,H,card,-31.0,-27.7,-29.6,1.4,Drexel,-31.75,2,29,W,W,-0.8
-2026-11-03,Tue Nov 3 8:00 PM,Arkansas Pine Bluff,Arkansas,H,card,-41.5,-37.7,-41.1,0.4,Arkansas Pine Bluff,-41.75,2,45,L,L,-0.2
-2026-11-03,Tue Nov 3 8:00 PM,LSU New Orleans,LSU,H,card,-27.5,-23.1,-24.3,3.2,LSU New Orleans,,0,43,L,,
-2026-11-03,Tue Nov 3 8:00 PM,Cleveland St.,Missouri,H,card,-26.5,-26.6,-28.3,1.8,Missouri,-26.5,2,61,W,W,0.0
-2026-11-03,Tue Nov 3 8:00 PM,Alabama St.,Texas A&M,H,card,-32.5,-27.1,-28.9,3.6,Alabama St.,-32.5,2,31,W,W,0.0
-2026-11-03,Tue Nov 3 8:00 PM,Lipscomb,Iowa,H,card,-23.0,-20.3,-21.1,1.9,Lipscomb,-23.25,2,22,W,W,-0.2
-2026-11-03,Tue Nov 3 8:00 PM,South Dakota St.,Kansas St.,H,card,-11.5,-14.1,-14.1,2.6,Kansas St.,-10.75,2,-2,L,L,-0.8
-2026-11-03,Tue Nov 3 10:00 PM,North Florida,Cal Baptist,H,card,-11.5,-9.3,-9.3,2.2,North Florida,-10.75,2,-8,W,W,0.8
-2026-11-03,Tue Nov 3 10:00 PM,Northern Arizona,UNLV,H,card,-21.5,-17.8,-18.2,3.3,Northern Arizona,-20.75,2,12,W,W,0.8
-2026-11-03,Tue Nov 3 10:00 PM,Cal St. Fullerton,San Diego St.,H,card,-16.5,-17.2,-17.5,1.0,San Diego St.,-13.5,1,24,W,W,-3.0
+﻿date,tip_ET,away,home,venue,ref_src,ref,close_src,model_raw,model_adj,edge,side,close,n_books,home_margin,res_ref,res_close,clv
+2026-11-03,Tue Nov 3 6:00 PM,Wofford,Tennessee,H,card,-25.5,cbbd,-26.6,-28.3,2.8,Tennessee,-25.25,2,31,W,W,-0.2
+2026-11-03,Tue Nov 3 7:00 PM,Manhattan,Kentucky,H,card,-33.5,cbbd,-32.2,-34.8,1.3,Kentucky,-33.25,2,28,L,L,-0.2
+2026-11-03,Tue Nov 3 7:00 PM,Purdue Fort Wayne,Duquesne,H,card,-10.0,cbbd,-10.9,-10.9,0.9,Duquesne,-9.5,1,7,L,L,-0.5
+2026-11-03,Tue Nov 3 7:00 PM,Stetson,South Carolina,H,card,-19.5,cbbd,-15.3,-15.3,4.2,Stetson,-19.0,2,26,L,L,0.5
+2026-11-03,Tue Nov 3 7:00 PM,Coppin St.,Virginia Tech,H,card,-31.0,cbbd,-29.7,-31.9,0.9,Virginia Tech,-31.5,2,34,W,W,0.5
+2026-11-03,Tue Nov 3 7:00 PM,Hampton,Georgia Tech,H,card,-14.5,cbbd,-11.1,-11.1,3.4,Hampton,-13.75,2,20,L,L,0.8
+2026-11-03,Tue Nov 3 7:00 PM,Holy Cross,Rhode Island,H,card,-20.5,cbbd,-17.6,-18.0,2.5,Holy Cross,-19.5,2,44,L,L,1.0
+2026-11-03,Tue Nov 3 7:00 PM,Wagner,Boston College,H,card,-19.5,cbbd,-18.6,-19.1,0.4,Wagner,-20.5,2,26,L,L,-1.0
+2026-11-03,Tue Nov 3 7:30 PM,Sam Houston St.,Alabama,H,card,-27.0,cbbd,-25.6,-27.2,0.2,Alabama,-27.25,2,22,L,L,0.2
+2026-11-03,Tue Nov 3 7:30 PM,Drexel,Virginia,H,card,-31.0,cbbd,-27.7,-29.6,1.4,Drexel,-31.75,2,29,W,W,-0.8
+2026-11-03,Tue Nov 3 8:00 PM,Arkansas Pine Bluff,Arkansas,H,card,-41.5,cbbd,-37.7,-41.1,0.4,Arkansas Pine Bluff,-41.75,2,45,L,L,-0.2
+2026-11-03,Tue Nov 3 8:00 PM,LSU New Orleans,LSU,H,card,-27.5,oddsapi_hist,-23.1,-24.3,3.2,LSU New Orleans,-27.5,0,43,L,L,0.0
+2026-11-03,Tue Nov 3 8:00 PM,Cleveland St.,Missouri,H,card,-26.5,cbbd,-26.6,-28.3,1.8,Missouri,-26.5,2,61,W,W,0.0
+2026-11-03,Tue Nov 3 8:00 PM,Alabama St.,Texas A&M,H,card,-32.5,cbbd,-27.1,-28.9,3.6,Alabama St.,-32.5,2,31,W,W,0.0
+2026-11-03,Tue Nov 3 8:00 PM,Lipscomb,Iowa,H,card,-23.0,cbbd,-20.3,-21.1,1.9,Lipscomb,-23.25,2,22,W,W,-0.2
+2026-11-03,Tue Nov 3 8:00 PM,South Dakota St.,Kansas St.,H,card,-11.5,cbbd,-14.1,-14.1,2.6,Kansas St.,-10.75,2,-2,L,L,-0.8
+2026-11-03,Tue Nov 3 10:00 PM,North Florida,Cal Baptist,H,card,-11.5,cbbd,-9.3,-9.3,2.2,North Florida,-10.75,2,-8,W,W,0.8
+2026-11-03,Tue Nov 3 10:00 PM,Northern Arizona,UNLV,H,card,-21.5,cbbd,-17.8,-18.2,3.3,Northern Arizona,-20.75,2,12,W,W,0.8
+2026-11-03,Tue Nov 3 10:00 PM,Cal St. Fullerton,San Diego St.,H,card,-16.5,cbbd,-17.2,-17.5,1.0,San Diego St.,-13.5,1,24,W,W,-3.0
