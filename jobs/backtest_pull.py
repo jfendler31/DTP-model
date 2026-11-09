@@ -95,12 +95,21 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--season', type=int, required=True); ap.add_argument('--start'); ap.add_argument('--end')
     ap.add_argument('--max-calls', type=int, default=1800); ap.add_argument('--no-box', action='store_true')
+    ap.add_argument('--diag-game', type=int, help='print every rebound play of one game with the play before it, then stop')
     a = ap.parse_args()
     S = a.season
     start = dt.date.fromisoformat(a.start) if a.start else dt.date(S - 1, 11, 1)
     end = dt.date.fromisoformat(a.end) if a.end else dt.date(S - 1, 12, 31)
     os.makedirs(OUT, exist_ok=True)
     get = api()
+    if a.diag_game:
+        pl = sorted(get(f'/plays/game/{a.diag_game}') or [], key=lambda x: (x.get('period'), -x.get('secondsRemaining', 0), int(x.get('id') or 0)))
+        for i, x in enumerate(pl):
+            if 'rebound' in (x.get('playType') or '').lower():
+                pv = pl[i - 1] if i else {}
+                print(f"{x.get('period')} {x.get('clock')} | prev: {pv.get('playType')} / {pv.get('playText')} || {x.get('playType')} / {x.get('playText')} "
+                      f"/ team {x.get('team')} / participants {[p.get('name') for p in (x.get('participants') or [])]}")
+        print('keys:', sorted(pl[0].keys()) if pl else None); return
     f_games, f_lines, f_fac, f_done = (f'{OUT}/{n}_{S}.{x}' for n, x in (('games', 'csv'), ('lines', 'csv'), ('game_factors', 'csv'), ('done', 'txt')))
 
     if a.no_box and os.path.exists(f_games):
