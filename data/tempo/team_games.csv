@@ -869,3 +869,71 @@ gameId,date,team,opponent,isHome,d1_game,periods,poss_parsed,poss_unknown,off_ap
 378671,2026-11-07,Southern Utah,Bethesda University,True,False,2,82,0,11.16,10.91,0.365,94,80,2
 378672,2026-11-07,Bethesda University,Pepperdine,False,False,2,77,0,19.26,18.49,0.489,-73,77,0
 378672,2026-11-07,Pepperdine,Bethesda University,True,False,2,75,0,12.15,12.51,0.511,73,78,-3
+372722,2026-11-08,Nevada,Saint Mary's,True,True,3,82,0,15.13,15.31,0.854,1,84,-2
+372722,2026-11-08,Saint Mary's,Nevada,False,True,3,81,0,16.67,17.11,0.851,-1,83,-2
+372723,2026-11-08,Brown,Lehigh,False,True,2,67,0,18.75,19.41,0.955,10,66,1
+372723,2026-11-08,Lehigh,Brown,True,True,2,67,0,16.84,17.29,0.951,-10,67,0
+372724,2026-11-08,Richmond,Temple,False,True,2,71,0,17.52,17.67,0.71,26,70,1
+372724,2026-11-08,Temple,Richmond,True,True,2,69,0,16.62,16.67,0.705,-26,71,-2
+372725,2026-11-08,Penn State,Pittsburgh,False,True,2,71,0,16.3,16.9,0.94,-6,71,0
+372725,2026-11-08,Pittsburgh,Penn State,True,True,2,71,0,17.42,17.83,0.939,6,71,0
+372726,2026-11-08,Boise State,Butler,True,True,2,79,0,14.39,14.55,0.758,19,81,-2
+372726,2026-11-08,Butler,Boise State,False,True,2,80,0,14.45,15.43,0.719,-19,81,-1
+372727,2026-11-08,Air Force,Idaho State,True,True,2,78,0,14.04,14.73,0.935,7,79,-1
+372727,2026-11-08,Idaho State,Air Force,False,True,2,76,0,16.45,17.08,0.945,-7,78,-2
+372728,2026-11-08,Binghamton,Rider,True,True,2,62,0,19.31,18.85,0.903,12,60,2
+372728,2026-11-08,Rider,Binghamton,False,True,2,57,0,18.14,18.6,0.877,-12,59,-2
+374759,2026-11-08,Norfolk State,William & Mary,False,True,2,74,1,17.73,18.15,0.688,-31,72,2
+374759,2026-11-08,William & Mary,Norfolk State,True,True,2,74,0,14.61,14.29,0.698,31,73,1
+374760,2026-11-08,Iona,St. John's,False,True,2,68,0,19.54,18.49,0.49,-39,70,-2
+374760,2026-11-08,St. John's,Iona,True,True,2,72,1,14.11,13.87,0.506,39,71,1
+374761,2026-11-08,Idaho,Lincoln University (CA),True,False,2,77,0,14.6,14.5,0.534,39,79,-2
+374761,2026-11-08,Lincoln University (CA),Idaho,False,False,2,77,1,16.47,16.91,0.498,-39,77,0
+374762,2026-11-08,South Carolina,Southeast Missouri State,True,True,2,70,0,16.31,16.6,0.944,10,69,1
+374762,2026-11-08,Southeast Missouri State,South Carolina,False,True,2,71,0,17.61,17.74,0.934,-10,70,1
+374763,2026-11-08,Merrimack,UAlbany,False,True,2,61,0,19.44,19.83,0.905,13,63,-2
+374763,2026-11-08,UAlbany,Merrimack,True,True,2,60,0,19.3,20.01,0.894,-13,63,-3
+374764,2026-11-08,New Hampshire,Sacred Heart,True,True,3,78,0,18.33,18.41,0.872,-5,80,-2
+374764,2026-11-08,Sacred Heart,New Hampshire,False,True,3,79,1,15.11,14.54,0.886,5,80,-1
+374765,2026-11-08,Bryant,Fairfield,True,True,2,71,0,18.17,18.31,0.93,-9,73,-2
+374765,2026-11-08,Fairfield,Bryant,False,True,2,70,0,15.56,15.94,0.933,9,71,-1
+374766,2026-11-08,NJIT,Saint Peter's,True,True,2,57,0,17.96,18.11,0.965,2,58,-1
+374766,2026-11-08,Saint Peter's,NJIT,False,True,2,57,0,22.74,23.27,0.965,-2,58,-1
+374767,2026-11-08,Campbell,Western Michigan,False,True,2,63,1,18.98,19.68,0.863,-16,64,-1
+374767,2026-11-08,Western Michigan,Campbell,True,True,2,63,0,19.06,18.67,0.879,16,63,0
+374770,2026-11-08,Princeton,Siena,False,True,2,75,0,17.99,18.65,0.866,-14,74,1
+374770,2026-11-08,Siena,Princeton,True,True,2,76,0,13.7,13.57,0.885,14,76,0
+374771,2026-11-08,Marist,UMass Lowell,False,True,2,63,0,19.06,19.05,0.968,-2,64,-1
+374771,2026-11-08,UMass Lowell,Marist,True,True,2,62,0,17.58,17.82,0.984,2,64,-2
+374772,2026-11-08,Central Penn,Navy,False,False,2,68,1,20.15,21.59,0.423,-56,68,0
+374772,2026-11-08,Navy,Central Penn,True,False,2,69,0,14.2,13.59,0.431,56,68,1
+374773,2026-11-08,Arkansas,Virginia,False,True,2,67,0,16.36,16.74,0.704,-19,68,-1
+374773,2026-11-08,Virginia,Arkansas,True,True,2,67,0,17.01,17.52,0.743,19,69,-2
+374774,2026-11-08,Chicago,Harvard,True,False,2,54,0,21.67,23.36,0.732,-16,57,-3
+374774,2026-11-08,Harvard,Chicago,False,False,2,58,0,19.5,20.14,0.741,16,56,2
+374775,2026-11-08,Allen University,Wofford,False,False,2,72,0,17.26,20.14,0.403,-33,75,-3
+374775,2026-11-08,Wofford,Allen University,True,False,2,74,0,14.8,16.25,0.413,33,76,-2
+374776,2026-11-08,Cornell,Keuka,True,False,2,77,0,12.58,13.25,0.579,40,76,1
+374776,2026-11-08,Keuka,Cornell,False,False,2,74,0,18.18,18.26,0.571,-40,76,-2
+374777,2026-11-08,Maine,Manhattan,True,True,2,65,0,18.12,18.79,0.938,-6,70,-5
+374777,2026-11-08,Manhattan,Maine,False,True,2,67,0,16.7,17.08,0.97,6,69,-2
+374778,2026-11-08,Green Bay,St. Thomas-Minnesota,False,True,2,68,0,16.99,17.49,0.954,9,67,1
+374778,2026-11-08,St. Thomas-Minnesota,Green Bay,True,True,2,67,0,18.46,18.59,0.976,-9,68,-1
+374779,2026-11-08,Quinnipiac,Vermont,False,True,2,62,0,19.03,19.18,0.984,3,62,0
+374779,2026-11-08,Vermont,Quinnipiac,True,True,2,63,0,18.54,18.68,0.984,-3,62,1
+374780,2026-11-08,Central Connecticut,Dartmouth,False,True,3,68,2,19.13,18.75,0.882,7,66,2
+374780,2026-11-08,Dartmouth,Central Connecticut,True,True,3,66,2,18.65,18.55,0.879,-7,66,0
+374781,2026-11-08,Tennessee Tech,Western Kentucky,True,True,2,81,0,14.54,15.39,0.933,3,82,-1
+374781,2026-11-08,Western Kentucky,Tennessee Tech,False,True,2,82,0,14.77,15.09,0.92,-3,83,-1
+374782,2026-11-08,Cal State Bakersfield,North Dakota State,True,True,2,63,0,14.79,15.6,0.935,11,70,-7
+374782,2026-11-08,North Dakota State,Cal State Bakersfield,False,True,2,63,0,18.98,19.18,0.931,-11,69,-6
+377977,2026-11-08,Drake,Southern,True,True,2,71,0,18.23,18.22,0.933,7,71,0
+377977,2026-11-08,Southern,Drake,False,True,2,70,0,15.61,15.95,0.936,-7,71,-1
+377978,2026-11-08,Milwaukee,Ripon,True,False,2,71,0,12.77,13.67,0.627,51,72,-1
+377978,2026-11-08,Ripon,Milwaukee,False,False,2,74,0,20.03,19.56,0.622,-51,73,1
+377979,2026-11-08,Incarnate Word,UTEP,False,True,2,68,0,17.32,17.63,0.849,-19,67,1
+377979,2026-11-08,UTEP,Incarnate Word,True,True,2,73,0,15.26,14.86,0.871,19,67,6
+377980,2026-11-08,Bethesda University,Portland,False,False,2,88,0,16.11,16.72,0.459,-74,87,1
+377980,2026-11-08,Portland,Bethesda University,True,False,2,88,0,10.49,10.72,0.474,74,87,1
+377981,2026-11-08,Hawai'i,UT Arlington,True,True,2,71,0,15.07,15.33,0.937,9,71,0
+377981,2026-11-08,UT Arlington,Hawai'i,False,True,2,69,0,17.68,18.03,0.951,-9,71,-2

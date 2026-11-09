@@ -1,35 +1,35 @@
 ﻿tip_ET,away,home,venue,model,market,n_books,total,edge,model_size_adj,edge_size_adj,edge_inseason_only,prior_wt_away,prior_wt_home,notes,model_home_spread,market_home_spread,edge_size,model_home_spread_adj,edge_size_adj_num,size_curve
 Mon Nov 9 6:00 PM,Marshall,Ohio St.,H,Ohio St -21.4,Ohio St -26,8,162.5,Marshall 4.6,Ohio St -23.7,Marshall 2.3,n/a (<5 games),80%,80%,,-21.4,-26.0,4.6,-23.7,2.3,1
 Mon Nov 9 6:30 PM,Howard,Penn,H,Penn -5.2,,0,,,Penn -5.2,,n/a (<5 games),80%,89%,,-5.2,,,-5.2,,1
-Mon Nov 9 6:30 PM,Syracuse,Indiana,N,Indiana -4.5,Indiana -4.5,9,148.5,-,Indiana -4.5,-,n/a (<5 games),80%,80%,Aiden Tobiason out (-0.5),-4.5,-4.5,0.0,-4.5,0.0,0
-Mon Nov 9 7:00 PM,Florida Gulf Coast,Georgia,H,Georgia -20.2,Georgia -24.5,8,161.5,FGCU 4.3,Georgia -22.2,FGCU 2.3,n/a (<5 games),89%,80%,,-20.2,-24.5,4.3,-22.2,2.3,1
-Mon Nov 9 7:00 PM,Minnesota,Cincinnati,H,Cincinnati -7.5,Cincinnati -6.5,9,143.0,Cincinnati 1.0,Cincinnati -7.5,Cincinnati 1.0,n/a (<5 games),80%,80%,Javontae Campbell out (-2.0),-7.5,-6.5,1.0,-7.5,1.0,1
+Mon Nov 9 6:30 PM,Syracuse,Indiana,N,Indiana -4.5,Indiana -5.5,9,148.0,Syracuse 1.0,Indiana -4.5,Syracuse 1.0,n/a (<5 games),80%,80%,Aiden Tobiason out (-0.5),-4.5,-5.5,1.0,-4.5,1.0,0
+Mon Nov 9 7:00 PM,Florida Gulf Coast,Georgia,H,Georgia -20.2,Georgia -23.5,9,163.5,FGCU 3.3,Georgia -22.2,FGCU 1.3,n/a (<5 games),89%,80%,,-20.2,-23.5,3.3,-22.2,1.3,1
+Mon Nov 9 7:00 PM,Minnesota,Cincinnati,H,Cincinnati -7.5,Cincinnati -6.5,9,144.0,Cincinnati 1.0,Cincinnati -7.5,Cincinnati 1.0,n/a (<5 games),80%,80%,Javontae Campbell out (-2.0),-7.5,-6.5,1.0,-7.5,1.0,1
 Mon Nov 9 7:00 PM,North Dakota,Clemson,H,Clemson -23.9,Clemson -21.5,9,153.5,Clemson 2.4,Clemson -26.7,Clemson 5.2,n/a (<5 games),80%,80%,,-23.9,-21.5,2.4,-26.7,5.2,1
-Mon Nov 9 7:00 PM,South Carolina St.,Chicago St.,H,Chicago St -4.7,Chicago St -5.5,7,149.5,SC St 0.8,Chicago St -4.7,SC St 0.8,n/a (<5 games),89%,80%,,-4.7,-5.5,0.8,-4.7,0.8,1
-Mon Nov 9 7:00 PM,LIU,Towson,H,Towson -7.7,Towson -5.5,6,141.5,Towson 2.2,Towson -7.7,Towson 2.2,n/a (<5 games),73%,80%,,-7.7,-5.5,2.2,-7.7,2.2,1
-Mon Nov 9 7:00 PM,Stonehill,Columbia,H,Columbia -10.1,Columbia -10.5,8,147.5,Stonehill 0.4,Columbia -10.1,Stonehill 0.4,n/a (<5 games),89%,89%,,-10.1,-10.5,0.4,-10.1,0.4,1
-Mon Nov 9 7:00 PM,Kansas City,Jacksonville,H,Jacksonville -5.3,Jacksonville -5.5,8,147.5,UMKC 0.2,Jacksonville -5.3,UMKC 0.2,n/a (<5 games),80%,89%,,-5.3,-5.5,0.2,-5.3,0.2,1
-Mon Nov 9 7:00 PM,Cleveland St.,Bowling Green,H,BGSU -12.2,BGSU -12.5,9,157.5,Cleveland St 0.3,BGSU -12.6,BGSU 0.1,n/a (<5 games),89%,89%,,-12.2,-12.5,0.3,-12.6,0.1,1
+Mon Nov 9 7:00 PM,South Carolina St.,Chicago St.,H,Chicago St -4.7,Chicago St -5.5,8,148.5,SC St 0.8,Chicago St -4.7,SC St 0.8,n/a (<5 games),89%,80%,,-4.7,-5.5,0.8,-4.7,0.8,1
+Mon Nov 9 7:00 PM,LIU,Towson,H,Towson -7.7,Towson -5.5,7,141.5,Towson 2.2,Towson -7.7,Towson 2.2,n/a (<5 games),73%,80%,,-7.7,-5.5,2.2,-7.7,2.2,1
+Mon Nov 9 7:00 PM,Stonehill,Columbia,H,Columbia -10.1,Columbia -10.5,9,144.5,Stonehill 0.4,Columbia -10.1,Stonehill 0.4,n/a (<5 games),89%,89%,,-10.1,-10.5,0.4,-10.1,0.4,1
+Mon Nov 9 7:00 PM,Kansas City,Jacksonville,H,Jacksonville -5.3,Jacksonville -5.5,9,145.5,UMKC 0.2,Jacksonville -5.3,UMKC 0.2,n/a (<5 games),80%,89%,,-5.3,-5.5,0.2,-5.3,0.2,1
+Mon Nov 9 7:00 PM,Cleveland St.,Bowling Green,H,BGSU -12.2,BGSU -13,9,157.5,Cleveland St 0.8,BGSU -12.6,Cleveland St 0.4,n/a (<5 games),89%,89%,,-12.2,-13.0,0.8,-12.6,0.4,1
 Mon Nov 9 7:00 PM,Eastern Illinois,Notre Dame,H,Notre Dame -26.7,Notre Dame -28,8,142.0,E Illinois 1.3,Notre Dame -30.0,Notre Dame 2.0,n/a (<5 games),80%,80%,,-26.7,-28.0,1.3,-30.0,2.0,1
-Mon Nov 9 7:00 PM,UNC Greensboro,Illinois Chicago,H,UIC -15.6,UIC -20,8,150.0,UNCG 4.4,UIC -16.7,UNCG 3.3,n/a (<5 games),89%,89%,Andy Johnson out (-0.8),-15.6,-20.0,4.4,-16.7,3.3,1
-Mon Nov 9 7:00 PM,North Florida,Miami FL,H,Miami -29.5,Miami -33.5,7,160.5,N Florida 4.0,Miami -33.4,N Florida 0.1,n/a (<5 games),80%,80%,,-29.5,-33.5,4.0,-33.4,0.1,1
-Mon Nov 9 7:00 PM,Radford,Tennessee,H,Tennessee -27.2,Tennessee -28.5,8,154.5,Radford 1.3,Tennessee -30.6,Tennessee 2.1,n/a (<5 games),80%,89%,,-27.2,-28.5,1.3,-30.6,2.1,1
-Mon Nov 9 7:00 PM,Grambling St.,Texas,H,Texas -35.1,Texas -35.5,8,151.5,Grambling 0.4,Texas -40.1,Texas 4.6,n/a (<5 games),89%,80%,,-35.1,-35.5,0.4,-40.1,4.6,1
-Mon Nov 9 7:00 PM,Wagner,Connecticut,H,UConn -37.5,UConn -38,8,140.5,Wagner 0.5,UConn -43.0,UConn 5.0,n/a (<5 games),80%,80%,,-37.5,-38.0,0.5,-43.0,5.0,1
-Mon Nov 9 7:00 PM,USC Upstate,Coastal Carolina,H,Coastal -8.4,Coastal -9.5,8,150.5,Upstate 1.1,Coastal -8.4,Upstate 1.1,n/a (<5 games),80%,80%,,-8.4,-9.5,1.1,-8.4,1.1,1
+Mon Nov 9 7:00 PM,UNC Greensboro,Illinois Chicago,H,UIC -15.5,UIC -20,8,150.0,UNCG 4.5,UIC -16.6,UNCG 3.4,n/a (<5 games),89%,89%,Andy Johnson out (-0.8),-15.5,-20.0,4.5,-16.6,3.4,1
+Mon Nov 9 7:00 PM,North Florida,Miami FL,H,Miami -29.5,Miami -34,8,162.5,N Florida 4.5,Miami -33.4,N Florida 0.6,n/a (<5 games),80%,80%,,-29.5,-34.0,4.5,-33.4,0.6,1
+Mon Nov 9 7:00 PM,Radford,Tennessee,H,Tennessee -27.2,Tennessee -28.5,9,153.5,Radford 1.3,Tennessee -30.6,Tennessee 2.1,n/a (<5 games),80%,89%,,-27.2,-28.5,1.3,-30.6,2.1,1
+Mon Nov 9 7:00 PM,Grambling St.,Texas,H,Texas -35.1,Texas -35.5,9,152.5,Grambling 0.4,Texas -40.1,Texas 4.6,n/a (<5 games),89%,80%,,-35.1,-35.5,0.4,-40.1,4.6,1
+Mon Nov 9 7:00 PM,Wagner,Connecticut,H,UConn -37.5,UConn -37.5,9,140.5,-,UConn -43.0,UConn 5.5,n/a (<5 games),80%,80%,,-37.5,-37.5,0.0,-43.0,5.5,1
+Mon Nov 9 7:00 PM,USC Upstate,Coastal Carolina,H,Coastal -8.4,Coastal -9.5,9,148.5,Upstate 1.1,Coastal -8.4,Upstate 1.1,n/a (<5 games),80%,80%,,-8.4,-9.5,1.1,-8.4,1.1,1
 Mon Nov 9 7:30 PM,Oakland,Alabama,H,Alabama -26.7,Alabama -32.5,9,171.5,Oakland 5.8,Alabama -30.0,Oakland 2.5,n/a (<5 games),73%,80%,,-26.7,-32.5,5.8,-30.0,2.5,1
-Mon Nov 9 7:30 PM,Florida A&M,UAB,H,UAB -17.0,UAB -15.5,7,155.5,UAB 1.5,UAB -18.4,UAB 2.9,n/a (<5 games),89%,80%,,-17.0,-15.5,1.5,-18.4,2.9,1
-Mon Nov 9 7:30 PM,Jackson St.,Mississippi St.,H,Miss St -20.7,Miss St -23.5,8,158.5,Jackson St 2.8,Miss St -22.8,Jackson St 0.7,n/a (<5 games),80%,80%,,-20.7,-23.5,2.8,-22.8,0.7,1
-Mon Nov 9 8:00 PM,North Alabama,Oklahoma,H,Oklahoma -23.0,Oklahoma -26.5,9,147.5,N Alabama 3.5,Oklahoma -25.6,N Alabama 0.9,n/a (<5 games),89%,80%,,-23.0,-26.5,3.5,-25.6,0.9,1
+Mon Nov 9 7:30 PM,Florida A&M,UAB,H,UAB -17.0,UAB -16.5,8,154.5,UAB 0.5,UAB -18.4,UAB 1.9,n/a (<5 games),89%,80%,,-17.0,-16.5,0.5,-18.4,1.9,1
+Mon Nov 9 7:30 PM,Jackson St.,Mississippi St.,H,Miss St -20.7,Miss St -23.5,9,158.5,Jackson St 2.8,Miss St -22.8,Jackson St 0.7,n/a (<5 games),80%,80%,,-20.7,-23.5,2.8,-22.8,0.7,1
+Mon Nov 9 8:00 PM,North Alabama,Oklahoma,H,Oklahoma -23.0,Oklahoma -27.5,9,147.5,N Alabama 4.5,Oklahoma -25.6,N Alabama 1.9,n/a (<5 games),89%,80%,,-23.0,-27.5,4.5,-25.6,1.9,1
 Mon Nov 9 8:00 PM,Louisiana Monroe,Texas A&M,H,Texas A&M -27.9,Texas A&M -36.5,9,168.0,ULM 8.6,Texas A&M -31.5,ULM 5.0,n/a (<5 games),89%,80%,Rylan Griffen out (-3.2),-27.9,-36.5,8.6,-31.5,5.0,1
-Mon Nov 9 8:00 PM,Louisiana Tech,LSU,H,LSU -24.2,LSU -31,9,151.5,La Tech 6.8,LSU -27.0,La Tech 4.0,n/a (<5 games),89%,80%,,-24.2,-31.0,6.8,-27.0,4.0,1
+Mon Nov 9 8:00 PM,Louisiana Tech,LSU,H,LSU -24.2,LSU -30.5,9,151.5,La Tech 6.3,LSU -27.0,La Tech 3.5,n/a (<5 games),89%,80%,,-24.2,-30.5,6.3,-27.0,3.5,1
 Mon Nov 9 8:00 PM,SIUE,Missouri,H,Missouri -27.0,Missouri -29.5,8,149.5,SIUE 2.5,Missouri -30.4,Missouri 0.9,n/a (<5 games),89%,80%,Jaylen Carey out (-0.5),-27.0,-29.5,2.5,-30.4,0.9,1
-Mon Nov 9 8:00 PM,Boston University,Northwestern,H,Northwestern -13.8,Northwestern -15.5,7,146.5,BU 1.7,Northwestern -14.6,BU 0.9,n/a (<5 games),80%,80%,,-13.8,-15.5,1.7,-14.6,0.9,1
-Mon Nov 9 8:30 PM,Illinois St.,Purdue,H,Purdue -16.4,Purdue -15.5,8,145.0,Purdue 0.9,Purdue -17.7,Purdue 2.2,n/a (<5 games),89%,80%,,-16.4,-15.5,0.9,-17.7,2.2,1
-Mon Nov 9 9:00 PM,Seton Hall,Charlotte,N,Seton Hall -5.8,Seton Hall -5,8,134.5,Seton Hall 0.8,Seton Hall -5.8,Seton Hall 0.8,n/a (<5 games),80%,80%,,5.8,5.0,0.8,5.8,0.8,0
+Mon Nov 9 8:00 PM,Boston University,Northwestern,H,Northwestern -13.8,Northwestern -16.5,8,147.5,BU 2.7,Northwestern -14.6,BU 1.9,n/a (<5 games),80%,80%,,-13.8,-16.5,2.7,-14.6,1.9,1
+Mon Nov 9 8:30 PM,Illinois St.,Purdue,H,Purdue -16.4,Purdue -15.5,8,144.5,Purdue 0.9,Purdue -17.7,Purdue 2.2,n/a (<5 games),89%,80%,,-16.4,-15.5,0.9,-17.7,2.2,1
+Mon Nov 9 9:00 PM,Seton Hall,Charlotte,N,Seton Hall -5.8,Seton Hall -5,8,132.0,Seton Hall 0.8,Seton Hall -5.8,Seton Hall 0.8,n/a (<5 games),80%,80%,,5.8,5.0,0.8,5.8,0.8,0
 Mon Nov 9 9:00 PM,Appalachian St.,Auburn,H,Auburn -20.2,Auburn -23.5,9,146.5,App St 3.3,Auburn -22.2,App St 1.3,n/a (<5 games),89%,89%,,-20.2,-23.5,3.3,-22.2,1.3,1
-Mon Nov 9 9:00 PM,Alabama A&M,DePaul,H,DePaul -19.7,DePaul -23,5,141.5,Alabama A&M 3.3,DePaul -21.6,Alabama A&M 1.4,n/a (<5 games),100%,80%,,-19.7,-23.0,3.3,-21.6,1.4,1
-Mon Nov 9 9:30 PM,Eastern Washington,Oregon St.,H,Ore St -10.6,Ore St -16.5,9,160.5,E Washington 5.9,Ore St -10.7,E Washington 5.8,n/a (<5 games),80%,80%,Andrew Cook out (-2.1),-10.6,-16.5,5.9,-10.7,5.8,1
-Mon Nov 9 10:00 PM,Rice,Stanford,H,Stanford -15.5,Stanford -17.5,8,145.5,Rice 2.0,Stanford -16.6,Rice 0.9,n/a (<5 games),89%,80%,,-15.5,-17.5,2.0,-16.6,0.9,1
-Mon Nov 9 10:00 PM,Mississippi Valley St.,Washington,H,Washington -30.8,Washington -32.5,7,152.5,MVSU 1.7,Washington -35.0,Washington 2.5,n/a (<5 games),89%,89%,,-30.8,-32.5,1.7,-35.0,2.5,1
-Mon Nov 9 11:59 PM,Portland,Hawaii,H,Hawaii -7.7,Hawaii -7.5,8,158.5,Hawaii 0.2,Hawaii -7.7,Hawaii 0.2,n/a (<5 games),89%,89%,Maidy Douglas out (-0.5),-7.7,-7.5,0.2,-7.7,0.2,1
+Mon Nov 9 9:00 PM,Alabama A&M,DePaul,H,DePaul -19.7,DePaul -22.5,6,138.5,Alabama A&M 2.8,DePaul -21.6,Alabama A&M 0.9,n/a (<5 games),100%,80%,,-19.7,-22.5,2.8,-21.6,0.9,1
+Mon Nov 9 9:30 PM,Eastern Washington,Oregon St.,H,Ore St -10.6,Ore St -16.5,9,161.5,E Washington 5.9,Ore St -10.7,E Washington 5.8,n/a (<5 games),80%,80%,Andrew Cook out (-2.1),-10.6,-16.5,5.9,-10.7,5.8,1
+Mon Nov 9 10:00 PM,Rice,Stanford,H,Stanford -15.5,Stanford -17.5,9,145.5,Rice 2.0,Stanford -16.6,Rice 0.9,n/a (<5 games),89%,80%,,-15.5,-17.5,2.0,-16.6,0.9,1
+Mon Nov 9 10:00 PM,Mississippi Valley St.,Washington,H,Washington -30.8,Washington -34.5,9,151.5,MVSU 3.7,Washington -35.0,Washington 0.5,n/a (<5 games),89%,89%,,-30.8,-34.5,3.7,-35.0,0.5,1
+Mon Nov 9 11:59 PM,Portland,Hawaii,H,Hawaii -8.0,Hawaii -6.5,9,157.5,Hawaii 1.5,Hawaii -8.0,Hawaii 1.5,n/a (<5 games),89%,80%,Maidy Douglas out (-0.5),-8.0,-6.5,1.5,-8.0,1.5,1
