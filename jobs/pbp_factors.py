@@ -107,12 +107,21 @@ def game_factors(gid, plays, rows, meta):
             wt = {'raw': 1.0, 'cw': lv, 'cc': 1.0 if lv >= CUT else 0.0}
         for v in VERSIONS: tot[team][f'{stat}_{v}'] += wt[v]
 
+    # last free throw of a trip: from "n of m" when the text has it; the 2024-25 feed doesn't, so then it's the
+    # last FT by that team with no other FT by them within 3 s after it
+    fts = [(i, t, x.get('team')) for i, (t, _, x) in enumerate(seq) if kind(x) == 'ft']
+    last_of_trip = set()
+    for j, (i, t, tm) in enumerate(fts):
+        if not any(tm2 == tm and 0 <= t2 - t <= 3 for _, t2, tm2 in fts[j + 1:j + 4]): last_of_trip.add(i)
+    def is_final(i, x):
+        return final_ft(x) if re.search(r'\d+\s*of\s*\d+', x.get('playText') or '', re.I) else i in last_of_trip
+
     hs = as_ = 0
     last_miss = None            # team whose missed shot / missed last FT is waiting on a rebound
     last_tech = -99
     to_seen = []                # (team, t) of Turnover plays, to pair with Steals
     steals = []
-    for t, _, x in seq:
+    for i_seq, (t, _, x) in enumerate(seq):
         period = int(x['period'])
         if x.get('homeScore') is not None: hs, as_ = x['homeScore'], x['awayScore']
         team = x.get('team')
@@ -131,7 +140,7 @@ def game_factors(gid, plays, rows, meta):
             if ok: add(team, t, 'ftm', hs, as_, period, back=FT_BACK)
             if t - last_tech > 2:
                 # a miss that drew the foul has no rebound; only a missed last FT leaves one pending
-                last_miss = (None if ok else team) if final_ft(x) else None
+                last_miss = (None if ok else team) if is_final(i_seq, x) else None
         elif k in ('oreb', 'dreb') and team_reb(x, team):
             # 2024-25 feed: team rebounds come as "<Team> Offensive/Defensive Rebound." with no player (later seasons
             # log them as Deadball Team Rebound). Box scores leave team rebounds out, so treat them like dbreb.
