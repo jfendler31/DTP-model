@@ -1,0 +1,51 @@
+# Daily grading (jobs/grade.py): yesterday's card vs CBBD closing spreads and final scores -> data/grades/.
+# Runs right after every Daily card run (GitHub's cron can run hours late), on demand via Actions -> Grade,
+# or by putting "--date YYYY-MM-DD" or "--start YYYY-MM-DD --end YYYY-MM-DD" in triggers/grade.txt (one line).
+# Pulls ESPN finals for each graded date first (jobs/slate.py --finals).
+name: Grade
+on:
+  workflow_run:
+    workflows: ['Daily card']
+    types: [completed]
+  workflow_dispatch:
+  push:
+    paths: ['triggers/grade.txt']
+permissions:
+  contents: write
+concurrency:
+  group: grade
+  cancel-in-progress: false
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pandas openpyxl
+      - name: Finals and grade
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then ARGS="$(grep -v '^#' triggers/grade.txt | head -1)"; else ARGS=""; fi
+          DATES=$(python - "$ARGS" <<'PY'
+          import sys, datetime as dt, shlex
+          from zoneinfo import ZoneInfo
+          a = shlex.split(sys.argv[1]); o = dict(zip(a[::2], a[1::2]))
+          y = (dt.datetime.now(ZoneInfo('America/New_York')).date() - dt.timedelta(days=1)).isoformat()
+          s = o.get('--start') or o.get('--date') or y; e = o.get('--end') or s
+          d0, d1 = dt.date.fromisoformat(s), dt.date.fromisoformat(e)
+          print(' '.join((d0 + dt.timedelta(days=i)).isoformat() for i in range((d1 - d0).days + 1)))
+          PY
+          )
+          for D in $DATES; do python jobs/slate.py --finals --date $D; done
+          python jobs/grade.py $ARGS
+        env:
+          CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
+      - name: Save
+        run: |
+          git config user.name "dtp-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/grades data/finals
+          git commit -m "grade" || echo "nothing new"
+          git pull --rebase origin main && git push origin HEAD:main
