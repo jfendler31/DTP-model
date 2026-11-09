@@ -102,8 +102,10 @@ def main():
     sess = requests.Session(); sess.headers['User-Agent'] = UA
     today = dt.datetime.now(dt.timezone(dt.timedelta(hours=-5))).date().isoformat()
     os.makedirs('data/torvik/raw', exist_ok=True); os.makedirs('data/torvik/snapshots', exist_ok=True)
-    years = [int(y) for y in re.split(r'[,\s]+', a.years) if y]
-    if len(years) == 1 and '-' in a.years: y1, y2 = map(int, a.years.split('-')); years = list(range(y1, y2 + 1))
+    years = []
+    for tok in re.split(r'[,\s]+', a.years.strip()):
+        if '-' in tok: y1, y2 = map(int, tok.split('-')); years += list(range(y1, y2 + 1))
+        elif tok: years.append(int(tok))
     for y in years:
         for page in a.pages.split(','):
             page_html = fetch(page, y, sess)
