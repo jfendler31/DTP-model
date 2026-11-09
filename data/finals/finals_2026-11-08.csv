@@ -1,8 +1,7 @@
 date,tip_ET,away,home,venue,site,status,away_pts,home_pts
-2026-11-08,Sun Nov 8 8:30 PM,California,Houston,N,"Tahoe Blue Event Center, Stateline",STATUS_IN_PROGRESS,22,33
-2026-11-08,Sun Nov 8 7:00 PM,Incarnate Word,UTEP,H,"Don Haskins Center, El Paso",STATUS_FINAL,60,79
-2026-11-08,Sun Nov 8 8:00 PM,Pittsburgh,Penn St.,N,"The Palestra, Philadelphia",STATUS_HALFTIME,42,38
+2026-11-08,Sun Nov 8 10:00 PM,UT Arlington,Hawaii,H,"Stan Sheriff Center, Honolulu",STATUS_HALFTIME,27,27
 2026-11-08,Sun Nov 8 1:00 PM,Arkansas,Virginia,N,"Capital One Arena, Washington",STATUS_FINAL,72,91
+2026-11-08,Sun Nov 8 8:30 PM,California,Houston,N,"Tahoe Blue Event Center, Stateline",STATUS_FINAL,68,86
 2026-11-08,Sun Nov 8 12:00 PM,Iona,St. John's,H,"Madison Square Garden, New York",STATUS_FINAL,65,104
 2026-11-08,Sun Nov 8 1:00 PM,Princeton,Siena,H,"MVP Arena, Albany",STATUS_FINAL,68,82
 2026-11-08,Sun Nov 8 1:00 PM,Southeast Missouri,South Carolina,H,"Colonial Life Arena, Columbia",STATUS_FINAL,68,78
@@ -26,5 +25,6 @@ date,tip_ET,away,home,venue,site,status,away_pts,home_pts
 2026-11-08,Sun Nov 8 5:00 PM,Richmond,Temple,N,"The Palestra, Philadelphia",STATUS_FINAL,79,53
 2026-11-08,Sun Nov 8 6:00 PM,Norfolk St.,William & Mary,H,"Kaplan Arena, Williamsburg",STATUS_FINAL,73,104
 2026-11-08,Sun Nov 8 6:00 PM,North Dakota St.,Cal St. Bakersfield,H,"Icardo Center, Bakersfield",STATUS_FINAL,80,91
-2026-11-08,Sun Nov 8 11:00 PM,Wichita St.,USC,N,"Tahoe Blue Event Center, Stateline",STATUS_SCHEDULED,0,0
-2026-11-08,Sun Nov 8 11:00 PM,UT Arlington,Hawaii,H,"Stan Sheriff Center, Honolulu",STATUS_SCHEDULED,0,0
+2026-11-08,Sun Nov 8 7:00 PM,Incarnate Word,UTEP,H,"Don Haskins Center, El Paso",STATUS_FINAL,60,79
+2026-11-08,Sun Nov 8 8:00 PM,Pittsburgh,Penn St.,N,"The Palestra, Philadelphia",STATUS_FINAL,82,76
+2026-11-08,Sun Nov 8 11:00 PM,Wichita St.,USC,N,"Tahoe Blue Event Center, Stateline",STATUS_IN_PROGRESS,0,2

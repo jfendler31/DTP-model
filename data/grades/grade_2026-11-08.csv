@@ -1,0 +1,28 @@
+﻿date,tip_ET,away,home,venue,ref_src,ref,close_src,model_raw,model_adj,edge,side,close,n_books,home_margin,res_ref,res_close,clv
+2026-11-08,Sun Nov 8 12:00 PM,Iona,St. John's,H,card,-28.5,cbbd,-25.3,-28.4,0.1,Iona,-27.5,2,39,L,L,1.0
+2026-11-08,Sun Nov 8 1:00 PM,Arkansas,Virginia,N,card,-3.0,cbbd,0.4,0.4,3.4,Arkansas,-3.75,2,19,L,L,-0.8
+2026-11-08,Sun Nov 8 1:00 PM,Princeton,Siena,H,card,0.0,cbbd,3.3,3.3,3.3,Princeton,0.75,2,14,L,L,0.8
+2026-11-08,Sun Nov 8 1:00 PM,Southeast Missouri,South Carolina,H,card,-17.5,cbbd,-16.6,-17.9,0.4,South Carolina,-17.5,1,10,L,L,0.0
+2026-11-08,Sun Nov 8 1:00 PM,Marist,UMass Lowell,H,cbbd_open,-1.5,cbbd,-0.9,-0.9,0.6,Marist,-1.5,1,2,L,L,0.0
+2026-11-08,Sun Nov 8 1:00 PM,Sacred Heart,New Hampshire,H,cbbd_open,-2.5,cbbd,-1.4,-1.4,1.1,Sacred Heart,-1.5,1,-5,W,W,1.0
+2026-11-08,Sun Nov 8 1:00 PM,Manhattan,Maine,H,cbbd_open,-2.5,cbbd,-1.4,-1.4,1.1,Manhattan,-2.5,1,-6,W,W,0.0
+2026-11-08,Sun Nov 8 1:00 PM,Fairfield,Bryant,H,cbbd_open,1.5,cbbd,1.3,1.3,0.2,Bryant,1.5,1,-9,L,L,0.0
+2026-11-08,Sun Nov 8 2:00 PM,Brown,Lehigh,H,cbbd_open,-4.5,cbbd,-3.6,-3.6,0.9,Brown,-5.5,1,-10,W,W,-1.0
+2026-11-08,Sun Nov 8 2:00 PM,Central Connecticut,Dartmouth,H,cbbd_open,-5.5,cbbd,-8.7,-8.7,3.2,Dartmouth,-8.5,1,-7,L,L,3.0
+2026-11-08,Sun Nov 8 2:00 PM,Quinnipiac,Vermont,H,cbbd_open,-7.5,cbbd,-6.4,-6.4,1.1,Quinnipiac,-8.5,1,-3,W,W,-1.0
+2026-11-08,Sun Nov 8 2:00 PM,Butler,Boise St.,H,card,-2.5,cbbd,-4.6,-4.6,2.1,Boise St.,-2.5,2,19,W,W,0.0
+2026-11-08,Sun Nov 8 2:00 PM,Green Bay,St. Thomas,H,card,-8.5,cbbd,-6.2,-6.2,2.3,Green Bay,-7.5,1,-9,W,W,1.0
+2026-11-08,Sun Nov 8 2:00 PM,Merrimack,Albany,H,cbbd_open,2.5,cbbd,3.0,3.0,0.5,Merrimack,2.5,1,-13,W,W,0.0
+2026-11-08,Sun Nov 8 2:00 PM,Campbell,Western Michigan,H,card,-5.5,cbbd,-2.6,-2.6,2.9,Campbell,-4.5,2,16,L,L,1.0
+2026-11-08,Sun Nov 8 3:00 PM,Southern,Drake,H,cbbd_open,-12.5,cbbd,-14.4,-15.3,2.8,Drake,-14.5,1,7,L,L,2.0
+2026-11-08,Sun Nov 8 3:00 PM,Western Kentucky,Tennessee Tech,H,card,3.0,cbbd,2.9,2.9,0.1,Tennessee Tech,3.5,2,3,W,W,-0.5
+2026-11-08,Sun Nov 8 3:00 PM,Idaho St.,Air Force,H,card,-6.0,cbbd,-5.7,-5.7,0.3,Idaho St.,-5.75,2,7,L,L,0.2
+2026-11-08,Sun Nov 8 4:00 PM,Saint Peter's,NJIT,H,cbbd_open,1.5,cbbd,-0.5,-0.5,2.0,NJIT,1.5,1,2,W,W,0.0
+2026-11-08,Sun Nov 8 4:00 PM,Rider,Binghamton,H,cbbd_open,-7.5,cbbd,-4.4,-4.4,3.1,Rider,-7.5,1,12,L,L,0.0
+2026-11-08,Sun Nov 8 4:30 PM,Saint Mary's,Nevada,N,card,-1.5,cbbd,-1.8,-1.8,0.3,Nevada,-1.5,1,1,L,L,0.0
+2026-11-08,Sun Nov 8 5:00 PM,Richmond,Temple,N,card,2.0,cbbd,-0.8,-0.8,2.8,Temple,1.75,2,-26,L,L,0.2
+2026-11-08,Sun Nov 8 6:00 PM,Norfolk St.,William & Mary,H,cbbd_open,-9.5,cbbd,-7.6,-7.6,1.9,Norfolk St.,-10.5,1,31,L,L,-1.0
+2026-11-08,Sun Nov 8 6:00 PM,North Dakota St.,Cal St. Bakersfield,H,cbbd_open,-1.5,cbbd,4.7,4.7,6.2,North Dakota St.,2.5,1,11,L,L,4.0
+2026-11-08,Sun Nov 8 7:00 PM,Incarnate Word,UTEP,H,cbbd_open,-10.5,cbbd,-11.8,-12.2,1.7,UTEP,-12.5,1,19,W,W,2.0
+2026-11-08,Sun Nov 8 8:00 PM,Pittsburgh,Penn St.,N,card,2.5,oddsapi_hist,3.8,3.8,1.3,Pittsburgh,2.5,0,-6,W,W,0.0
+2026-11-08,Sun Nov 8 8:30 PM,Houston,California,N,card,19.5,oddsapi_hist,19.7,21.6,2.1,Houston,19.5,0,-18,L,L,0.0
