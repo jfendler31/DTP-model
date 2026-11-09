@@ -1,1 +1,1 @@
---start 2026-11-08 --end 2026-11-08
+--start 2025-11-01 --end 2026-04-10 --season 2026 --team Minnesota
