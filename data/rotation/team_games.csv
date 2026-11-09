@@ -901,6 +901,10 @@ gameId,date,team,opponent,periods,source,reliable,team_min_raw,team_min_lev,comp
 374766,2026-11-08,Saint Peter's,NJIT,2,onFloor,True,200.0,200.0,1.0,7.45,7.45,10,Trey Patterson / Xavier Thomas / Jordan Mathews / Elijah Perkins / Bryce Eaton,1.0,False,True,-2,7.89
 374767,2026-11-08,Campbell,Western Michigan,2,onFloor,True,200.0,176.8,0.884,6.95,6.99,10,Lance Waddles / AJ Wright Jr. / Nordin Kapic / Ben Ritger / Rashawn Inglemon,1.0,False,True,-16,7.13
 374767,2026-11-08,Western Michigan,Campbell,2,onFloor,True,200.0,176.8,0.884,7.43,7.52,9,Jaylen Washington Jr. / Augustinas Kiudulas / Tanner Hayhurst / Rob Lee Jr. / Adam Harakow,1.0,True,True,16,7.51
+374768,2026-11-08,USC,Wichita State,2,onFloor,True,200.0,199.8,0.999,7.39,7.39,11,Alijah Arenas / Rodney Rice / Adonis Ratliff / Joshua Hughes / Aaron Hunkin-Claytor,1.0,False,True,7,7.46
+374768,2026-11-08,Wichita State,USC,2,onFloor,True,200.0,199.8,0.999,8.38,8.38,10,Dillon Battie / William Berg / Jordan Frison / Kenyon Giles / Bryce Heard,1.0,True,True,-7,7.76
+374769,2026-11-08,California,Houston,2,onFloor,True,200.0,160.5,0.803,9.26,9.46,12,Michael Cooper / Semetri Carr / Amier Ali / Dhiaukuei Manyiel Dut / Jordan Ross,1.0,True,True,-18,9.16
+374769,2026-11-08,Houston,California,2,onFloor,True,200.0,160.5,0.803,8.23,8.3,11,Dedan Thomas Jr. / Delrecco Gillespie / Mercy Miller / Corey Hadnot II / Braden East,1.0,False,True,18,8.21
 374770,2026-11-08,Princeton,Siena,2,onFloor,True,200.0,178.2,0.891,8.61,7.91,15,Jackson Hicke / Jack Stanton / Landon Clark / Malik Abdullahi / Dalen Davis,1.0,False,True,-14,7.51
 374770,2026-11-08,Siena,Princeton,2,onFloor,True,200.0,178.2,0.891,7.28,6.92,11,Reid Ducharme / Trent Egbiremolen / Pace Prosser / Tan Yildizoglu / Tim Ibukunoluwa,1.0,True,True,14,7.02
 374771,2026-11-08,Marist,UMass Lowell,2,onFloor,True,200.0,200.0,1.0,7.75,7.75,9,Jack Graham / Dywane Chess / Jadin Collins-Roberts / Myles Parker / Jordan Gabriel,1.0,False,True,-2,8.28
