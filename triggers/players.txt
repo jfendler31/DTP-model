@@ -1,1 +1,1 @@
---start 2024-11-01 --end 2025-04-10 --season 2025 --team Colorado_State
+--start 2025-11-01 --end 2026-04-10 --season 2026 --team South_Alabama
