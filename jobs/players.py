@@ -5,6 +5,7 @@ Past-season or single-team pulls are written to data/players/history/."""
 import os, time, argparse, datetime as dt
 import pandas as pd, requests
 ap = argparse.ArgumentParser(); ap.add_argument('--start', required=True); ap.add_argument('--end'); ap.add_argument('--season', type=int, default=2027); ap.add_argument('--team'); a = ap.parse_args()
+if a.team: a.team = a.team.replace('_', ' ')   # trigger files are split on spaces
 end = a.end or a.start
 hdr = {'Authorization': f"Bearer {os.environ['CBBD_API_KEY'].strip()}", 'Accept': 'application/json'}
 def get(path, **p):
