@@ -1,0 +1,34 @@
+# Torvik shot mix (team + player, shot type and distance). Runs after each Daily card run for the current season;
+# for backfills put arguments for jobs/torvik_pbp.py in triggers/torvik.txt (e.g. --years 2025-2026).
+name: Torvik shot mix
+on:
+  workflow_run:
+    workflows: ['Daily card']
+    types: [completed]
+  workflow_dispatch:
+  push:
+    paths: ['triggers/torvik.txt']
+permissions:
+  contents: write
+jobs:
+  torvik:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pandas
+      - name: Pull
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          ARGS=""
+          if [ "$EVENT" = "push" ]; then ARGS="$(head -1 triggers/torvik.txt)"; fi
+          python jobs/torvik_pbp.py $ARGS
+      - name: Save
+        run: |
+          git config user.name "dtp-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/torvik
+          git commit -m "torvik shot mix" || echo "nothing new"
+          git pull --rebase origin main && git push origin HEAD:main
