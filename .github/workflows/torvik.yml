@@ -1,12 +1,12 @@
 # Torvik shot mix (team + player, shot type and distance).
 # barttorvik.com returns 403 to GitHub's runners (Nov 9, 2026), so this parses pages saved from a browser:
-# drop the .html files in data/torvik/inbox/ and push. (triggers/torvik.txt still runs a live pull, e.g. "--years 2027",
-# in case the site ever allows it.)
+# drop the .html files in data/torvik/inbox/ and push. (The live pull, jobs/torvik_pbp.py --years Y, is kept in the code
+# in case the site ever allows it; this workflow doesn't call it.)
 name: Torvik shot mix
 on:
   workflow_dispatch:
   push:
-    paths: ['triggers/torvik.txt', 'data/torvik/inbox/**']
+    paths: ['data/torvik/inbox/**']
 permissions:
   contents: write
 jobs:
@@ -23,7 +23,7 @@ jobs:
           if ls data/torvik/inbox/*.htm* >/dev/null 2>&1; then
             python jobs/torvik_pbp.py --ingest data/torvik/inbox
           else
-            python jobs/torvik_pbp.py $(head -1 triggers/torvik.txt)
+            echo "inbox empty"
           fi
       - name: Save
         run: |
