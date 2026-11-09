@@ -52,6 +52,11 @@ def shot_made(x):
     return not missed(x)
 
 
+def team_reb(x, team):
+    """a rebound credited to the team, not a player (2024-25 feed style)"""
+    return not x.get('participants') and (x.get('playText') or '').strip().lower().startswith(str(team or '').lower() + ' ')
+
+
 def structural(r):
     # tempo also drops overtime; for the ratings OT is competitive play and stays in (Jon, Nov 8)
     return bool(r['half_end'] or r['short_clock'] or r['foul_seq'])
@@ -125,6 +130,12 @@ def game_factors(gid, plays, rows, meta):
             ok = not missed(x)
             if ok: add(team, t, 'ftm', hs, as_, period, back=FT_BACK)
             if t - last_tech > 2 and final_ft(x): last_miss = None if ok else team
+        elif k in ('oreb', 'dreb') and team_reb(x, team):
+            # 2024-25 feed: team rebounds come as "<Team> Offensive/Defensive Rebound." with no player (later seasons
+            # log them as Deadball Team Rebound). Box scores leave team rebounds out, so treat them like dbreb.
+            if last_miss is None: continue          # between free throws
+            add(team, t, 'orbt' if team == last_miss else 'drbt', hs, as_, period, back=REB_BACK, owner=last_miss)
+            last_miss = None
         elif k in ('oreb', 'dreb'):
             shooter = team if k == 'oreb' else opp(team)       # rebound rides on the missing team's possession
             add(team, t, 'orb' if k == 'oreb' else 'drb', hs, as_, period, back=REB_BACK, owner=shooter)
