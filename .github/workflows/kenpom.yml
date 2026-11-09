@@ -22,7 +22,14 @@ jobs:
       - name: Pull
         run: |
           for d in $(grep -v "^#" triggers/kenpom.txt | grep -oE "history[0-9]{4}-[0-9]{4}|height[0-9]{4}|preseason[0-9]{4}|[0-9]{4}-[0-9]{2}-[0-9]{2}|today|height"); do
-            if [ "${d#history}" != "$d" ]; then python jobs/kenpom.py --history ${d#history}; elif [ "${d#height}" != "$d" ] && [ "$d" != "height" ]; then python jobs/kenpom.py --height-year ${d#height}; elif [ "${d#preseason}" != "$d" ]; then python jobs/kenpom.py --preseason ${d#preseason}; elif [ "$d" = "height" ]; then python jobs/kenpom.py --height; elif [ "$d" = "today" ]; then python jobs/kenpom.py; else python jobs/kenpom.py --date $d --fanmatch-only; fi
+            case "$d" in
+              history*)   python jobs/kenpom.py --history "${d:7}" ;;
+              height????) python jobs/kenpom.py --height-year "${d:6}" ;;
+              preseason*) python jobs/kenpom.py --preseason "${d:9}" ;;
+              height)     python jobs/kenpom.py --height ;;
+              today)      python jobs/kenpom.py ;;
+              *)          python jobs/kenpom.py --date "$d" --fanmatch-only ;;
+            esac
           done
         env:
           KENPOM_API_KEY: ${{ secrets.KENPOM_API_KEY }}
