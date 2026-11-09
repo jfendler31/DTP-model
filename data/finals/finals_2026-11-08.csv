@@ -1,0 +1,30 @@
+date,tip_ET,away,home,venue,site,status,away_pts,home_pts
+2026-11-08,Sun Nov 8 8:30 PM,California,Houston,N,"Tahoe Blue Event Center, Stateline",STATUS_IN_PROGRESS,22,33
+2026-11-08,Sun Nov 8 7:00 PM,Incarnate Word,UTEP,H,"Don Haskins Center, El Paso",STATUS_FINAL,60,79
+2026-11-08,Sun Nov 8 8:00 PM,Pittsburgh,Penn St.,N,"The Palestra, Philadelphia",STATUS_HALFTIME,42,38
+2026-11-08,Sun Nov 8 1:00 PM,Arkansas,Virginia,N,"Capital One Arena, Washington",STATUS_FINAL,72,91
+2026-11-08,Sun Nov 8 12:00 PM,Iona,St. John's,H,"Madison Square Garden, New York",STATUS_FINAL,65,104
+2026-11-08,Sun Nov 8 1:00 PM,Princeton,Siena,H,"MVP Arena, Albany",STATUS_FINAL,68,82
+2026-11-08,Sun Nov 8 1:00 PM,Southeast Missouri,South Carolina,H,"Colonial Life Arena, Columbia",STATUS_FINAL,68,78
+2026-11-08,Sun Nov 8 1:00 PM,Marist,UMass Lowell,H,"Kennedy Family Athletic Complex, Lowell",STATUS_FINAL,61,63
+2026-11-08,Sun Nov 8 1:00 PM,Sacred Heart,New Hampshire,H,"Lundholm Gymnasium, Durham",STATUS_FINAL,81,76
+2026-11-08,Sun Nov 8 1:00 PM,Manhattan,Maine,H,"Skip Chappelle Court in Memorial Gymnasium, Orono",STATUS_FINAL,68,62
+2026-11-08,Sun Nov 8 1:00 PM,Fairfield,Bryant,H,"Chace Athletic Center, Smithfield",STATUS_FINAL,68,59
+2026-11-08,Sun Nov 8 2:00 PM,Merrimack,Albany,H,"Broadview Center, Albany",STATUS_FINAL,73,60
+2026-11-08,Sun Nov 8 2:00 PM,Green Bay,St. Thomas,H,"Lee & Penny Anderson Arena, Saint Paul",STATUS_FINAL,76,67
+2026-11-08,Sun Nov 8 2:00 PM,Campbell,Western Michigan,H,"University Arena (MI), Kalamazoo",STATUS_FINAL,71,87
+2026-11-08,Sun Nov 8 2:00 PM,Quinnipiac,Vermont,H,"Patrick Gymnasium, Burlington",STATUS_FINAL,79,76
+2026-11-08,Sun Nov 8 2:00 PM,Central Connecticut,Dartmouth,H,"Leede Arena, Hanover",STATUS_FINAL,78,71
+2026-11-08,Sun Nov 8 2:00 PM,Brown,Lehigh,H,"Stabler Arena, Bethlehem",STATUS_FINAL,65,55
+2026-11-08,Sun Nov 8 2:00 PM,Butler,Boise St.,H,"ExtraMile Arena, Boise",STATUS_FINAL,81,100
+2026-11-08,Sun Nov 8 3:00 PM,Southern,Drake,H,"Knapp Center, Des Moines",STATUS_FINAL,68,75
+2026-11-08,Sun Nov 8 3:00 PM,Western Kentucky,Tennessee Tech,H,"Hooper Eblen Center, Cookeville",STATUS_FINAL,94,97
+2026-11-08,Sun Nov 8 3:00 PM,Idaho St.,Air Force,H,"Clune Arena, Colorado Springs",STATUS_FINAL,82,89
+2026-11-08,Sun Nov 8 4:00 PM,Saint Peter's,NJIT,H,"Joel & Diane Bloom Wellness and Events Center, Newark",STATUS_FINAL,52,54
+2026-11-08,Sun Nov 8 4:00 PM,Rider,Binghamton,H,"Events Center (Binghamton), Binghamton",STATUS_FINAL,63,75
+2026-11-08,Sun Nov 8 4:30 PM,Saint Mary's,Nevada,N,"Tahoe Blue Event Center, Stateline",STATUS_FINAL,95,96
+2026-11-08,Sun Nov 8 5:00 PM,Richmond,Temple,N,"The Palestra, Philadelphia",STATUS_FINAL,79,53
+2026-11-08,Sun Nov 8 6:00 PM,Norfolk St.,William & Mary,H,"Kaplan Arena, Williamsburg",STATUS_FINAL,73,104
+2026-11-08,Sun Nov 8 6:00 PM,North Dakota St.,Cal St. Bakersfield,H,"Icardo Center, Bakersfield",STATUS_FINAL,80,91
+2026-11-08,Sun Nov 8 11:00 PM,Wichita St.,USC,N,"Tahoe Blue Event Center, Stateline",STATUS_SCHEDULED,0,0
+2026-11-08,Sun Nov 8 11:00 PM,UT Arlington,Hawaii,H,"Stan Sheriff Center, Honolulu",STATUS_SCHEDULED,0,0
