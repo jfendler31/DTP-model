@@ -53,18 +53,21 @@ def cache_betting_sheet(path, sheet_name, size_k=0.2, size_knee=10):
              re.search(rf'<Relationship [^>]*Target="([^"]+)"[^>]*Id="{rid}"', rels)
     part = posixpath.normpath(posixpath.join('xl', target.group(1).lstrip('/').replace('xl/', '', 1)))
     xml = z.read(part).decode()
-    # anchors: string result = header text
+    # anchors: string result = header text. Tolerant of both serializers (lxml writes <v></v>, the pure-Python writer
+    # GitHub's runner uses writes <v />) and of a t= attribute anywhere in the open tag.
     for c in 'EHI':
-        xml, n = re.subn(rf'(<c r="{c}1"[^>]*?)(?: t="[^"]*")?(>\s*<f t="array"[^>]*>.*?</f>)\s*(?:<v>.*?</v>|<v/>)?\s*</c>',
-                         lambda m, c=c: f'{m.group(1)} t="str"{m.group(2)}<v>{escape(heads[c])}</v></c>', xml, flags=re.S)
-        assert n == 1, f'anchor {c}1 not found'
+        m = re.search(rf'<c r="{c}1"(?P<attrs>[^>]*)>(?P<f>\s*<f t="array"[^>]*>.*?</f>)\s*(?:<v>.*?</v>|<v\s*/>)?\s*</c>', xml, flags=re.S)
+        assert m, f'anchor {c}1 not found'
+        attrs = re.sub(r'\s+t="[^"]*"', '', m.group('attrs'))
+        xml = xml[:m.start()] + f'<c r="{c}1"{attrs} t="str">{m.group("f")}<v>{escape(heads[c])}</v></c>' + xml[m.end():]
     # filled cells
     for r, row in vals.items():
         for c in 'EHI':
             ref = f'{c}{r}'
-            m = re.search(rf'<c r="{ref}"(?: s="(\d+)")?[^>]*?(?:/>|>.*?</c>)', xml, flags=re.S)
+            m = re.search(rf'<c r="{ref}"(?P<attrs>[^>]*?)(?:/>|>.*?</c>)', xml, flags=re.S)
             if m:
-                xml = xml[:m.start()] + _cell_xml(ref, m.group(1), row[c]) + xml[m.end():]
+                st_ = re.search(r's="(\d+)"', m.group('attrs'))
+                xml = xml[:m.start()] + _cell_xml(ref, st_.group(1) if st_ else None, row[c]) + xml[m.end():]
             else:   # cell element missing: insert it in column order within its row
                 rm = re.search(rf'<row r="{r}"[^>]*>(.*?)</row>', xml, flags=re.S)
                 if not rm: continue
