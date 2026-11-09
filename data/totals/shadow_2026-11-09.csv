@@ -1,0 +1,35 @@
+date,tip_ET,away,home,venue,early_total,kp_total,kp_tempo,ppp_game,net_eff_gap,games_away,games_home,imp_raw,dom_raw,model_raw,diff_raw,lean_raw,imp_comp,dom_comp,model_comp,diff_comp,lean_comp,rule_raw,rule_comp
+2026-11-09,Mon Nov 9 6:00 PM,Marshall,Ohio St.,H,162.5,157,72.0,1.0675,24.8,2,2,1.04,Ohio St.,153.9,-8.6,U,0.75,Ohio St.,153.9,-8.6,U,False,False
+2026-11-09,Mon Nov 9 6:30 PM,Howard,Penn,H,,160,75.0,1.064,5.3,2,1,0.92,Howard,159.6,,,0.34,Howard,159.6,,,False,False
+2026-11-09,Mon Nov 9 6:30 PM,Syracuse,Indiana,N,148.0,147,69.0,1.0603,5.9,2,2,-1.62,Indiana,142.1,-5.9,U,-1.75,Indiana,141.8,-6.2,U,False,False
+2026-11-09,Mon Nov 9 7:00 PM,Florida Gulf Coast,Georgia,H,163.5,159,72.0,1.0797,21.8,1,2,0.24,Georgia,155.6,-7.9,U,0.07,Georgia,155.6,-7.9,U,False,False
+2026-11-09,Mon Nov 9 7:00 PM,Minnesota,Cincinnati,H,144.0,140,68.0,1.0402,1.9,2,2,0.02,Cincinnati,142.1,-1.9,U,-0.55,Cincinnati,140.5,-3.5,U,False,False
+2026-11-09,Mon Nov 9 7:00 PM,North Dakota,Clemson,H,153.5,154,70.0,1.0769,26.9,2,2,-0.86,Clemson,148.6,-4.9,U,-0.58,Clemson,149.4,-4.1,U,False,False
+2026-11-09,Mon Nov 9 7:00 PM,South Carolina St.,Chicago St.,H,148.5,143,73.0,1.0219,3.9,1,2,1.19,South Carolina St.,149.6,1.1,O,0.695,neither,149.6,1.1,O,False,False
+2026-11-09,Mon Nov 9 7:00 PM,LIU,Towson,H,141.5,141,70.0,1.0322,3.7,3,2,1.16,LIU,145.0,3.5,O,1.28,LIU,145.0,3.5,O,False,False
+2026-11-09,Mon Nov 9 7:00 PM,Stonehill,Columbia,H,144.5,145,69.0,1.0503,8.9,1,1,-1.44,Columbia,141.4,-3.1,U,-1.16,Columbia,142.2,-2.3,U,False,False
+2026-11-09,Mon Nov 9 7:00 PM,Kansas City,Jacksonville,H,145.5,148,68.0,1.0726,2.1,2,1,0.23,neither,146.3,0.8,O,0.12,neither,146.3,0.8,O,False,False
+2026-11-09,Mon Nov 9 7:00 PM,Cleveland St.,Bowling Green,H,157.5,158,73.0,1.0698,8.2,1,1,-0.54,Bowling Green,154.7,-2.8,U,-0.56,Bowling Green,154.7,-2.8,U,False,False
+2026-11-09,Mon Nov 9 7:00 PM,Eastern Illinois,Notre Dame,H,142.0,139,69.0,1.0342,35.2,2,2,-0.23,Notre Dame,142.7,0.7,O,-0.1,Notre Dame,143.0,1.0,O,False,False
+2026-11-09,Mon Nov 9 7:00 PM,UNC Greensboro,Illinois Chicago,H,150.0,149,71.0,1.0548,17.6,1,1,-0.02,Illinois Chicago,150.1,0.1,O,-1.45,UNC Greensboro,146.0,-4.0,U,False,False
+2026-11-09,Mon Nov 9 7:00 PM,North Florida,Miami FL,H,162.5,158,74.0,1.0576,34.1,2,2,-0.11,Miami FL,156.3,-6.2,U,-0.61,Miami FL,154.9,-7.6,U,False,False
+2026-11-09,Mon Nov 9 7:00 PM,Radford,Tennessee,H,153.5,152,71.0,1.0626,32.1,2,1,-0.92,Radford,148.5,-5.0,U,-0.35,Tennessee,150.2,-3.3,U,False,False
+2026-11-09,Mon Nov 9 7:00 PM,Grambling St.,Texas,H,152.5,153,71.0,1.0702,39.8,1,2,-0.37,Texas,151.2,-1.3,U,0.28,Texas,152.2,-0.3,U,False,False
+2026-11-09,Mon Nov 9 7:00 PM,Wagner,Connecticut,H,140.5,139,69.0,1.0313,41.9,2,2,0.37,Connecticut,142.9,2.4,O,-0.05,Connecticut,142.8,2.3,O,False,False
+2026-11-09,Mon Nov 9 7:00 PM,USC Upstate,Coastal Carolina,H,148.5,149,72.0,1.0464,9.3,2,2,0.31,USC Upstate,151.0,2.5,O,-0.205,neither,150.4,1.9,O,False,False
+2026-11-09,Mon Nov 9 7:30 PM,Oakland,Alabama,H,171.5,169,76.0,1.0831,30.3,3,2,1.7,Alabama,164.6,-6.9,U,1.47,Alabama,164.6,-6.9,U,False,False
+2026-11-09,Mon Nov 9 7:30 PM,Florida A&M,UAB,H,154.5,156,73.0,1.0609,15.0,1,2,0.755,neither,155.1,0.6,O,0.84,neither,155.1,0.6,O,False,False
+2026-11-09,Mon Nov 9 7:30 PM,Jackson St.,Mississippi St.,H,158.5,154,73.0,1.057,25.9,2,2,-0.57,Mississippi St.,152.9,-5.6,U,-0.1,neither,154.2,-4.3,U,False,False
+2026-11-09,Mon Nov 9 8:00 PM,North Alabama,Oklahoma,H,147.5,145,70.0,1.0483,27.0,1,2,-0.03,Oklahoma,147.1,-0.4,U,-0.19,Oklahoma,146.7,-0.8,U,False,False
+2026-11-09,Mon Nov 9 8:00 PM,Louisiana Monroe,Texas A&M,H,168.0,166,75.0,1.076,38.0,1,2,1.74,Texas A&M,161.4,-6.6,U,1.79,Texas A&M,161.4,-6.6,U,False,False
+2026-11-09,Mon Nov 9 8:00 PM,Louisiana Tech,LSU,H,151.5,150,70.0,1.06,27.6,1,2,2.14,LSU,148.8,-2.7,U,1.57,LSU,148.8,-2.7,U,False,False
+2026-11-09,Mon Nov 9 8:00 PM,SIUE,Missouri,H,149.5,150,69.0,1.0688,32.5,1,2,1.43,Missouri,147.9,-1.6,U,1.26,Missouri,147.9,-1.6,U,False,False
+2026-11-09,Mon Nov 9 8:00 PM,Boston University,Northwestern,H,147.5,146,66.0,1.0795,20.0,2,2,-1.81,Northwestern,137.8,-9.7,U,-1.53,Northwestern,138.6,-8.9,U,False,False
+2026-11-09,Mon Nov 9 8:30 PM,Illinois St.,Purdue,H,144.5,148,67.0,1.0759,13.1,1,2,-0.68,neither,142.7,-1.8,U,-1.15,Illinois St.,141.3,-3.2,U,False,False
+2026-11-09,Mon Nov 9 9:00 PM,Seton Hall,Charlotte,N,132.0,139,67.0,1.0435,6.5,2,2,-0.78,Seton Hall,138.3,6.3,O,-0.72,Seton Hall,138.5,6.5,O,False,False
+2026-11-09,Mon Nov 9 9:00 PM,Appalachian St.,Auburn,H,146.5,144,68.0,1.0583,27.9,1,1,-2.7,Appalachian St.,136.7,-9.8,U,-2.13,Appalachian St.,138.4,-8.1,U,False,False
+2026-11-09,Mon Nov 9 9:00 PM,Alabama A&M,DePaul,H,138.5,141,69.0,1.0411,26.3,0,2,,,,,,,,,,,False,False
+2026-11-09,Mon Nov 9 9:30 PM,Eastern Washington,Oregon St.,H,161.5,157,71.0,1.0819,11.2,2,2,0.85,Oregon St.,153.8,-7.7,U,0.73,Oregon St.,153.8,-7.7,U,False,False
+2026-11-09,Mon Nov 9 10:00 PM,Rice,Stanford,H,145.5,144,68.0,1.0542,19.5,1,2,-1.11,Rice,140.8,-4.7,U,-1.11,Rice,140.8,-4.7,U,False,False
+2026-11-09,Mon Nov 9 10:00 PM,Mississippi Valley St.,Washington,H,151.5,151,71.0,1.0613,38.8,1,1,-0.47,neither,149.7,-1.8,U,-0.425,neither,149.8,-1.7,U,False,False
+2026-11-09,Mon Nov 9 11:59 PM,Portland,Hawaii,H,157.5,154,74.0,1.0468,6.5,1,2,-0.09,Portland,154.8,-2.7,U,-0.05,Portland,155.0,-2.5,U,False,False

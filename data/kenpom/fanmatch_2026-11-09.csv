@@ -1,0 +1,35 @@
+Season,GameID,DateOfGame,Visitor,Home,Location,HomeRank,VisitorRank,HomePred,VisitorPred,HomeWP,PredTempo,ThrillScore
+2027,448,2026-11-09,Howard,Penn,Home,135,179,83,77,71,75,33.7
+2027,453,2026-11-09,USC Upstate,Coastal Carolina,Home,261,349,79,70,80,72,19.4
+2027,454,2026-11-09,Stonehill,Columbia,Home,260,346,77,68,76,69,21.6
+2027,455,2026-11-09,Kansas City,Jacksonville,Home,227,262,76,72,65,68,29.8
+2027,463,2026-11-09,Cleveland St.,Bowling Green,Home,186,297,83,75,78,73,23.5
+2027,464,2026-11-09,Minnesota,Cincinnati,Home,31,43,73,67,68,68,67.4
+2027,465,2026-11-09,North Dakota,Clemson,Home,68,319,88,66,97,70,10.4
+2027,466,2026-11-09,Wagner,Connecticut,Home,11,331,86,53,100,69,7.8
+2027,467,2026-11-09,Florida Gulf Coast,Georgia,Home,55,228,89,70,95,72,15.9
+2027,468,2026-11-09,Syracuse,Indiana,Semi-Home,46,77,76,71,69,69,60.9
+2027,470,2026-11-09,North Florida,Miami FL,Home,23,295,93,65,99,74,10.7
+2027,471,2026-11-09,Eastern Illinois,Notre Dame,Home,70,362,83,56,99,69,6.9
+2027,472,2026-11-09,Marshall,Ohio St.,Home,26,173,89,68,97,72,17.5
+2027,473,2026-11-09,Illinois St.,Purdue,Home,41,114,80,68,85,67,36.4
+2027,474,2026-11-09,Charlotte,Seton Hall,Neutral,79,118,72,67,65,67,51.1
+2027,475,2026-11-09,Radford,Tennessee,Home,21,268,89,63,99,71,11.1
+2027,476,2026-11-09,LIU,Towson,Home,187,243,73,68,68,70,29.1
+2027,477,2026-11-09,Oakland,Alabama,Home,16,213,98,71,99,76,14.4
+2027,478,2026-11-09,Appalachian St.,Auburn,Home,22,209,83,61,98,68,13.7
+2027,479,2026-11-09,South Carolina St.,Chicago St.,Home,323,350,74,69,69,73,24.7
+2027,480,2026-11-09,Alabama A&M,DePaul,Home,66,308,81,60,97,69,10.3
+2027,481,2026-11-09,UNC Greensboro,Illinois Chicago,Home,99,277,82,67,91,71,16.3
+2027,482,2026-11-09,Louisiana Tech,LSU,Home,33,242,86,64,98,70,13.3
+2027,483,2026-11-09,Jackson St.,Mississippi St.,Home,63,300,88,66,98,73,10.7
+2027,484,2026-11-09,SIUE,Missouri,Home,27,285,88,62,99,69,10.3
+2027,485,2026-11-09,Boston University,Northwestern,Home,86,279,81,65,92,66,15.1
+2027,486,2026-11-09,North Alabama,Oklahoma,Home,53,289,84,61,98,70,10.3
+2027,487,2026-11-09,Grambling St.,Texas,Home,8,301,92,61,100,71,9.6
+2027,488,2026-11-09,Louisiana Monroe,Texas A&M,Home,24,338,99,67,100,75,9.1
+2027,489,2026-11-09,Florida A&M,UAB,Home,145,330,85,71,89,73,15.0
+2027,490,2026-11-09,Eastern Washington,Oregon St.,Home,85,155,84,73,84,71,28.1
+2027,491,2026-11-09,Rice,Stanford,Home,75,240,80,64,93,68,15.9
+2027,492,2026-11-09,Mississippi Valley St.,Washington,Home,78,365,91,60,100,71,6.7
+2027,5768,2026-11-09,Portland,Hawaii,Home,132,195,81,73,74,74,30.9
