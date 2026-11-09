@@ -901,6 +901,10 @@ gameId,date,team,opponent,isHome,d1_game,periods,poss_parsed,poss_unknown,off_ap
 374766,2026-11-08,Saint Peter's,NJIT,False,True,2,57,0,22.74,23.27,0.965,-2,58,-1
 374767,2026-11-08,Campbell,Western Michigan,False,True,2,63,1,18.98,19.68,0.863,-16,64,-1
 374767,2026-11-08,Western Michigan,Campbell,True,True,2,63,0,19.06,18.67,0.879,16,63,0
+374768,2026-11-08,USC,Wichita State,False,True,2,79,0,14.85,15.68,0.937,7,78,1
+374768,2026-11-08,Wichita State,USC,True,True,2,75,0,14.87,15.35,0.947,-7,78,-3
+374769,2026-11-08,California,Houston,True,True,2,69,0,18.07,18.55,0.8,-18,70,-1
+374769,2026-11-08,Houston,California,False,True,2,71,0,15.42,14.75,0.837,18,70,1
 374770,2026-11-08,Princeton,Siena,False,True,2,75,0,17.99,18.65,0.866,-14,74,1
 374770,2026-11-08,Siena,Princeton,True,True,2,76,0,13.7,13.57,0.885,14,76,0
 374771,2026-11-08,Marist,UMass Lowell,False,True,2,63,0,19.06,19.05,0.968,-2,64,-1
