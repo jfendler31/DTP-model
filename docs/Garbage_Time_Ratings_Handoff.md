@@ -73,3 +73,9 @@
 - **Final margin MAE:** prior 9.85, box 9.42, cw 9.40, **cw_gw 9.39**. cw_gw − box −0.033 (se 0.023); cw_gw − cw −0.008 (se 0.009). Nov 9.67 → 9.63, Dec 9.13 → 9.11.
 - **vs CBBD close, home/away (1,773 games; market MAE 9.15):** model-side ATS box 50.0%, cw 50.5%, cw_gw 50.9%; edge ≥3: box 53.7% (497), cw_gw 54.9% (505).
 - Read: same direction as the live week, about a third the size, not significant on one season. 2024-25 pull waits on the CBBD Tier 3 upgrade (Jon); then the same run for `--season 2025`.
+
+### 2024-25 November–December (Nov 9) and the two-season read
+Feed differences fixed first (2024-25 logs team rebounds as player-less "Team Offensive/Defensive Rebound" plays and FTs without "n of m"; the box counts *include* team rebounds that season, so `backtest_ratings.py` uses `reb_team=True` for S ≤ 2025). After the fix play-by-play rebounds match box to +0.4 / +0.3 per team-game; 2,026 of 2,078 games use play-by-play pillars. Raw plays kept as the `backtest-raw` workflow artifact (re-parse with `--from-raw --raw-run <id>`, no CBBD calls).
+- **Final margin MAE:** prior 9.49, box 9.27, cw 9.26, cw_gw 9.27 (cw_gw − box −0.004, se 0.023; cw_gw − cw +0.011, se 0.010). Nov 9.49 → 9.54 (worse), Dec 9.01 → 8.94 (better).
+- **vs close, home/away (1,655):** model-side ATS box 49.9%, cw 51.1%, cw_gw 51.7%; edge ≥3 51.8% → 52.8%.
+- **Two-season read:** garbage time out is neutral-to-slightly-better on margin both seasons (−0.033, −0.004) and improves model-side ATS both seasons (+0.9, +1.8 pts); December better both years, November mixed. **Game weighting does not replicate on margin** (−0.008, +0.011 vs equal weight; both within noise) though its ATS is a hair better both years. Neither season reverses the switch.
