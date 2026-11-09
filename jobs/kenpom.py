@@ -44,13 +44,27 @@ def season_for(d):
 
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument('--date'); ap.add_argument('--fanmatch-only', action='store_true', help='past date: FanMatch only, leave the ratings files alone'); ap.add_argument('--height', action='store_true'); ap.add_argument('--preseason', type=int, help='season (ending year): archived preseason ratings -> preseason_<y>.csv')
+    ap = argparse.ArgumentParser(); ap.add_argument('--date'); ap.add_argument('--fanmatch-only', action='store_true', help='past date: FanMatch only, leave the ratings files alone'); ap.add_argument('--height', action='store_true'); ap.add_argument('--preseason', type=int, help='season (ending year): archived preseason ratings -> preseason_<y>.csv'); ap.add_argument('--history', help='Y1-Y2: end-of-season ratings, four factors, misc stats, point distribution per season -> history/<endpoint>_<y>.csv (coach/scheme histories)')
     a = ap.parse_args()
     d = dt.date.fromisoformat(a.date) if a.date else dt.datetime.now(ET).date()
     y = season_for(d)
     os.makedirs(OUT, exist_ok=True)
     get = getter()
 
+    if a.history:
+        y1, y2 = map(int, a.history.split('-')); os.makedirs(f'{OUT}/history', exist_ok=True)
+        key = os.environ['KENPOM_API_KEY'].strip(); hdr = {'Authorization': f'Bearer {key}', 'Accept': 'application/json'}
+        for ep in ('ratings', 'four-factors', 'misc-stats', 'pointdist'):
+            for yy in range(y1, y2 + 1):
+                try:
+                    r = requests.get('https://kenpom.com/api.php', headers=hdr, params=dict(endpoint=ep, y=yy), timeout=90)
+                except requests.RequestException as e:
+                    print(f'{ep} y={yy}: {type(e).__name__}'); continue
+                if r.status_code != 200: print(f'{ep} y={yy}: HTTP {r.status_code} {r.text[:120]}'); break
+                data = r.json(); data = data if isinstance(data, list) else data.get('data', data)
+                df = pd.DataFrame(data); df.to_csv(f'{OUT}/history/{ep}_{yy}.csv', index=False)
+                print(f'{ep} y={yy}: {len(df)} teams'); time.sleep(0.5)
+        return
     if a.preseason:
         p_ = pd.DataFrame(get('archive', preseason='true', y=a.preseason)); p_.to_csv(f'{OUT}/preseason_{a.preseason}.csv', index=False)
         print(f'preseason y={a.preseason}: {len(p_)} teams; columns {list(p_.columns)}'); return
