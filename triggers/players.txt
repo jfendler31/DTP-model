@@ -1,1 +1,1 @@
---start 2025-11-01 --end 2026-04-10 --season 2026 --team South_Alabama
+--start 2026-11-01 --end 2026-11-09
