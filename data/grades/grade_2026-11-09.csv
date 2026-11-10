@@ -1,0 +1,35 @@
+﻿date,tip_ET,away,home,venue,ref_src,ref,close_src,model_raw,model_adj,edge,side,close,n_books,home_margin,res_ref,res_close,clv
+2026-11-09,Mon Nov 9 6:00 PM,Marshall,Ohio St.,H,card,-26.0,cbbd,-21.4,-23.7,2.3,Marshall,-25.75,2,10,W,W,0.2
+2026-11-09,Mon Nov 9 6:30 PM,Howard,Penn,H,cbbd_open,-5.5,cbbd,-5.2,-5.2,0.3,Howard,-5.5,2,13,L,L,0.0
+2026-11-09,Mon Nov 9 6:30 PM,Syracuse,Indiana,N,card,-5.5,cbbd,-4.5,-4.5,1.0,Syracuse,-5.5,2,3,W,W,0.0
+2026-11-09,Mon Nov 9 7:00 PM,Florida Gulf Coast,Georgia,H,card,-23.5,cbbd,-20.2,-22.2,1.3,Florida Gulf Coast,-23.0,2,8,W,W,0.5
+2026-11-09,Mon Nov 9 7:00 PM,Minnesota,Cincinnati,H,card,-6.5,cbbd,-7.5,-7.5,1.0,Cincinnati,-7.25,2,-2,L,L,0.8
+2026-11-09,Mon Nov 9 7:00 PM,North Dakota,Clemson,H,card,-21.5,cbbd,-23.9,-26.7,5.2,Clemson,-22.75,2,15,L,L,1.2
+2026-11-09,Mon Nov 9 7:00 PM,South Carolina St.,Chicago St.,H,card,-5.5,cbbd,-4.7,-4.7,0.8,South Carolina St.,-3.0,2,-15,W,W,2.5
+2026-11-09,Mon Nov 9 7:00 PM,LIU,Towson,H,card,-5.5,cbbd,-7.7,-7.7,2.2,Towson,-6.5,2,20,W,W,1.0
+2026-11-09,Mon Nov 9 7:00 PM,Stonehill,Columbia,H,card,-10.5,cbbd,-10.1,-10.1,0.4,Stonehill,-12.0,2,20,L,L,-1.5
+2026-11-09,Mon Nov 9 7:00 PM,Kansas City,Jacksonville,H,card,-5.5,cbbd,-5.3,-5.3,0.2,Kansas City,-3.5,1,18,L,L,2.0
+2026-11-09,Mon Nov 9 7:00 PM,Cleveland St.,Bowling Green,H,card,-13.0,cbbd,-12.2,-12.6,0.4,Cleveland St.,-13.25,2,16,L,L,-0.2
+2026-11-09,Mon Nov 9 7:00 PM,Eastern Illinois,Notre Dame,H,card,-28.0,cbbd,-26.7,-30.0,2.0,Notre Dame,-28.25,2,24,L,L,0.2
+2026-11-09,Mon Nov 9 7:00 PM,UNC Greensboro,Illinois Chicago,H,card,-20.0,cbbd,-15.5,-16.6,3.4,UNC Greensboro,-19.75,2,10,W,W,0.2
+2026-11-09,Mon Nov 9 7:00 PM,North Florida,Miami FL,H,card,-34.0,cbbd,-29.5,-33.4,0.6,North Florida,-35.0,2,38,L,L,-1.0
+2026-11-09,Mon Nov 9 7:00 PM,Radford,Tennessee,H,card,-28.5,cbbd,-27.2,-30.6,2.1,Tennessee,-29.0,2,23,L,L,0.5
+2026-11-09,Mon Nov 9 7:00 PM,Grambling St.,Texas,H,card,-35.5,cbbd,-35.1,-40.1,4.6,Texas,-36.5,2,31,L,L,1.0
+2026-11-09,Mon Nov 9 7:00 PM,Wagner,Connecticut,H,card,-37.5,cbbd,-37.5,-43.0,5.5,Connecticut,-38.5,2,42,W,W,1.0
+2026-11-09,Mon Nov 9 7:00 PM,USC Upstate,Coastal Carolina,H,card,-9.5,cbbd,-8.4,-8.4,1.1,USC Upstate,-10.0,2,9,W,W,-0.5
+2026-11-09,Mon Nov 9 7:30 PM,Oakland,Alabama,H,card,-32.5,oddsapi_hist,-26.7,-30.0,2.5,Oakland,-32.0,0,41,L,L,0.5
+2026-11-09,Mon Nov 9 7:30 PM,Florida A&M,UAB,H,card,-16.5,oddsapi_hist,-17.0,-18.4,1.9,UAB,-18.5,0,28,W,W,2.0
+2026-11-09,Mon Nov 9 7:30 PM,Jackson St.,Mississippi St.,H,card,-23.5,oddsapi_hist,-20.7,-22.8,0.7,Jackson St.,-24.5,0,41,L,L,-1.0
+2026-11-09,Mon Nov 9 8:00 PM,North Alabama,Oklahoma,H,card,-27.5,oddsapi_hist,-23.0,-25.6,1.9,North Alabama,-28.25,0,9,W,W,-0.8
+2026-11-09,Mon Nov 9 8:00 PM,Louisiana Monroe,Texas A&M,H,card,-36.5,oddsapi_hist,-27.9,-31.5,5.0,Louisiana Monroe,-36.5,0,41,L,L,0.0
+2026-11-09,Mon Nov 9 8:00 PM,Louisiana Tech,LSU,H,card,-30.5,oddsapi_hist,-24.2,-27.0,3.5,Louisiana Tech,-29.5,0,40,L,L,1.0
+2026-11-09,Mon Nov 9 8:00 PM,SIUE,Missouri,H,card,-29.5,oddsapi_hist,-27.0,-30.4,0.9,Missouri,-29.5,0,38,W,W,0.0
+2026-11-09,Mon Nov 9 8:00 PM,Boston University,Northwestern,H,card,-16.5,oddsapi_hist,-13.8,-14.6,1.9,Boston University,-13.5,0,17,L,L,3.0
+2026-11-09,Mon Nov 9 8:30 PM,Illinois St.,Purdue,H,card,-15.5,oddsapi_hist,-16.4,-17.7,2.2,Purdue,-15.5,0,17,W,W,0.0
+2026-11-09,Mon Nov 9 9:00 PM,Seton Hall,Charlotte,N,card,5.0,oddsapi_hist,5.8,5.8,0.8,Seton Hall,4.0,0,-6,W,W,-1.0
+2026-11-09,Mon Nov 9 9:00 PM,Appalachian St.,Auburn,H,card,-23.5,oddsapi_hist,-20.2,-22.2,1.3,Appalachian St.,-23.5,0,22,W,W,0.0
+2026-11-09,Mon Nov 9 9:00 PM,Alabama A&M,DePaul,H,card,-22.5,oddsapi_hist,-19.7,-21.6,0.9,Alabama A&M,-24.0,0,37,L,L,-1.5
+2026-11-09,Mon Nov 9 9:30 PM,Eastern Washington,Oregon St.,H,card,-16.5,oddsapi_hist,-10.6,-10.7,5.8,Eastern Washington,-17.25,0,10,W,W,-0.8
+2026-11-09,Mon Nov 9 10:00 PM,Rice,Stanford,H,card,-17.5,oddsapi_hist,-15.5,-16.6,0.9,Rice,-18.5,0,18,L,W,-1.0
+2026-11-09,Mon Nov 9 10:00 PM,Mississippi Valley St.,Washington,H,card,-34.5,oddsapi_hist,-30.8,-35.0,0.5,Washington,-31.5,0,13,L,L,-3.0
+2026-11-09,Mon Nov 9 11:59 PM,Portland,Hawaii,H,card,-6.5,oddsapi_hist,-8.0,-8.0,1.5,Hawaii,-8.0,0,-7,L,L,1.5

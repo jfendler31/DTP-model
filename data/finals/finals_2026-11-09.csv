@@ -1,6 +1,4 @@
 date,tip_ET,away,home,venue,site,status,away_pts,home_pts
-2026-11-09,Mon Nov 9 10:00 PM,Mississippi Valley St.,Washington,H,"Alaska Airlines Arena, Seattle",STATUS_FINAL,64,77
-2026-11-09,Mon Nov 9 10:00 PM,Rice,Stanford,H,"Maples Pavilion, Stanford",STATUS_IN_PROGRESS,69,86
 2026-11-09,Mon Nov 9 7:00 PM,Wagner,Connecticut,H,"M&T Bank Center at Gampel Pavilion, Storrs",STATUS_FINAL,41,83
 2026-11-09,Mon Nov 9 7:00 PM,Grambling St.,Texas,H,"Moody Center, Austin",STATUS_FINAL,62,93
 2026-11-09,Mon Nov 9 7:00 PM,Radford,Tennessee,H,"Food City Center, Knoxville",STATUS_FINAL,47,70
@@ -32,4 +30,6 @@ date,tip_ET,away,home,venue,site,status,away_pts,home_pts
 2026-11-09,Mon Nov 9 9:00 PM,Appalachian St.,Auburn,H,"Neville Arena, Auburn",STATUS_FINAL,53,75
 2026-11-09,Mon Nov 9 9:00 PM,Alabama A&M,DePaul,H,"Wintrust Arena, Chicago",STATUS_FINAL,47,84
 2026-11-09,Mon Nov 9 9:30 PM,Eastern Washington,Oregon St.,H,"Gill Coliseum, Corvallis",STATUS_FINAL,84,94
-2026-11-09,Mon Nov 9 11:59 PM,Portland,Hawaii,H,"Stan Sheriff Center, Honolulu",STATUS_SCHEDULED,0,0
+2026-11-09,Mon Nov 9 10:00 PM,Mississippi Valley St.,Washington,H,"Alaska Airlines Arena, Seattle",STATUS_FINAL,64,77
+2026-11-09,Mon Nov 9 10:00 PM,Rice,Stanford,H,"Maples Pavilion, Stanford",STATUS_FINAL,73,91
+2026-11-09,Mon Nov 9 11:59 PM,Portland,Hawaii,H,"Stan Sheriff Center, Honolulu",STATUS_FINAL,73,66
