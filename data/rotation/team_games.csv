@@ -987,8 +987,8 @@ gameId,date,team,opponent,periods,source,reliable,team_min_raw,team_min_lev,comp
 374791,2026-11-09,Washington College (MD),Loyola Maryland,2,onFloor,True,200.0,141.9,0.71,13.03,10.96,16,Jae Harris / Julian Garcia / DJay Snead / Jacob Becker / Kevin New Jr.,1.0,False,False,-42,10.89
 374792,2026-11-09,Rice,Stanford,2,onFloor,True,200.0,138.8,0.694,11.16,10.48,12,Bodey Howell / Dallas Hobbs / Alexander Leeth / Kaiden Myers / Zalan Flasar,1.0,False,True,-18,10.67
 374792,2026-11-09,Stanford,Rice,2,onFloor,True,200.0,138.8,0.694,8.38,7.71,11,Nick Townsend / Christian Bliss / Evan Stinson / Elias Obenyah / Aidan Cammann,1.0,True,True,18,7.66
-374793,2026-11-09,Charlotte,Seton Hall,2,onFloor,True,200.0,199.0,0.995,9.29,9.29,11,Frank Oguche / Keyshuan Tillery / Mike Walz / Miguel Allen / Chaze Harris,1.0,False,True,6,9.32
-374793,2026-11-09,Seton Hall,Charlotte,2,onFloor,True,200.0,199.0,0.995,8.78,8.79,12,Simeon Wilcher / Elijah Fisher / Roddie Anderson / Mihailo Petrovic / Terry Copeland Jr.,1.0,True,True,-6,9.68
+374793,2026-11-09,Charlotte,Seton Hall,2,onFloor,True,200.0,198.4,0.992,9.29,9.29,11,Frank Oguche / Keyshuan Tillery / Mike Walz / Miguel Allen / Chaze Harris,1.0,False,True,-6,9.32
+374793,2026-11-09,Seton Hall,Charlotte,2,onFloor,True,200.0,198.4,0.992,8.78,8.8,12,Simeon Wilcher / Elijah Fisher / Roddie Anderson / Mihailo Petrovic / Terry Copeland Jr.,1.0,True,True,6,9.68
 374794,2026-11-09,Jacksonville,Kansas City,2,onFloor,True,200.0,148.2,0.741,8.67,8.2,12,Hayden Wood / Jamie Phillips Jr. / James Morrow / Jaden Newell / Evan Sterck,1.0,True,True,18,8.29
 374794,2026-11-09,Kansas City,Jacksonville,2,onFloor (scaled),True,200.0,148.2,0.741,9.36,8.34,14,Lincoln Goodwin / Jaylen Smith / Jibbe Sicking / Atuka Bakhtadze / Carl Daughtery Jr.,0.866,False,True,-18,8.31
 374795,2026-11-09,App State,Auburn,2,onFloor,True,200.0,170.8,0.854,8.32,7.77,13,Jaylen Colon / Chad Moodie / Da'Mori Lytch / Eren Banks / Ben Kopetzki,1.0,False,True,-22,8.16
