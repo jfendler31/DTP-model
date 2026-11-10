@@ -1,0 +1,483 @@
+away,home,book,home_spread,total
+Florida Gators,Florida St Seminoles,betonlineag,9.5,167.0
+Florida Gators,Florida St Seminoles,lowvig,9.5,167.0
+Florida Gators,Florida St Seminoles,fanatics,9.5,166.5
+Florida Gators,Florida St Seminoles,draftkings,9.5,166.5
+Florida Gators,Florida St Seminoles,fanduel,9.5,166.5
+Florida Gators,Florida St Seminoles,williamhill_us,9.5,166.5
+Florida Gators,Florida St Seminoles,betmgm,9.5,166.5
+Florida Gators,Florida St Seminoles,betus,9.5,167.0
+Florida Gators,Florida St Seminoles,bovada,9.5,167.0
+Delaware St Hornets,Georgetown Hoyas,fanduel,-27.5,143.5
+Delaware St Hornets,Georgetown Hoyas,fanatics,-28.0,143.0
+Delaware St Hornets,Georgetown Hoyas,williamhill_us,-27.5,142.5
+Delaware St Hornets,Georgetown Hoyas,betonlineag,-28.0,142.5
+Delaware St Hornets,Georgetown Hoyas,lowvig,-28.0,142.5
+Delaware St Hornets,Georgetown Hoyas,draftkings,-27.5,142.5
+Delaware St Hornets,Georgetown Hoyas,betmgm,-28.5,142.5
+Delaware St Hornets,Georgetown Hoyas,bovada,-27.5,142.5
+NJIT Highlanders,Rutgers Scarlet Knights,fanduel,-23.5,144.5
+NJIT Highlanders,Rutgers Scarlet Knights,fanatics,-25.0,144.5
+NJIT Highlanders,Rutgers Scarlet Knights,betonlineag,-25.0,144.0
+NJIT Highlanders,Rutgers Scarlet Knights,lowvig,-25.0,144.0
+NJIT Highlanders,Rutgers Scarlet Knights,draftkings,-24.5,144.5
+NJIT Highlanders,Rutgers Scarlet Knights,williamhill_us,-24.5,144.5
+NJIT Highlanders,Rutgers Scarlet Knights,betmgm,-24.5,144.5
+NJIT Highlanders,Rutgers Scarlet Knights,bovada,-24.5,143.5
+Maryland-Eastern Shore Hawks,Boston College Eagles,fanduel,-24.5,131.5
+Maryland-Eastern Shore Hawks,Boston College Eagles,fanatics,-25.5,132.0
+Maryland-Eastern Shore Hawks,Boston College Eagles,williamhill_us,-25.5,131.5
+Maryland-Eastern Shore Hawks,Boston College Eagles,betonlineag,-25.5,131.0
+Maryland-Eastern Shore Hawks,Boston College Eagles,lowvig,-25.5,131.0
+Maryland-Eastern Shore Hawks,Boston College Eagles,draftkings,-25.5,131.5
+Maryland-Eastern Shore Hawks,Boston College Eagles,betmgm,-25.5,131.5
+Maryland-Eastern Shore Hawks,Boston College Eagles,bovada,-25.5,131.5
+Bradley Braves,Davidson Wildcats,betonlineag,-11.0,139.0
+Bradley Braves,Davidson Wildcats,lowvig,-11.0,139.0
+Bradley Braves,Davidson Wildcats,fanduel,-11.5,138.5
+Bradley Braves,Davidson Wildcats,fanatics,-11.5,139.5
+Bradley Braves,Davidson Wildcats,draftkings,-11.5,139.5
+Bradley Braves,Davidson Wildcats,betmgm,-11.5,139.5
+Bradley Braves,Davidson Wildcats,betus,-11.0,139.0
+Bradley Braves,Davidson Wildcats,bovada,-11.0,139.0
+Bryant Bulldogs,Providence Friars,fanduel,-29.5,148.5
+Bryant Bulldogs,Providence Friars,fanatics,-29.5,148.5
+Bryant Bulldogs,Providence Friars,lowvig,-29.5,147.5
+Bryant Bulldogs,Providence Friars,betonlineag,-29.5,147.5
+Bryant Bulldogs,Providence Friars,draftkings,-29.5,147.5
+Bryant Bulldogs,Providence Friars,williamhill_us,-29.5,147.5
+Bryant Bulldogs,Providence Friars,betmgm,-29.5,148.5
+Bryant Bulldogs,Providence Friars,bovada,-29.5,147.5
+Youngstown St Penguins,Central Michigan Chippewas,betonlineag,-3.5,152.0
+Youngstown St Penguins,Central Michigan Chippewas,lowvig,-3.5,152.0
+Youngstown St Penguins,Central Michigan Chippewas,fanduel,-3.5,152.5
+Youngstown St Penguins,Central Michigan Chippewas,williamhill_us,-3.5,152.5
+Youngstown St Penguins,Central Michigan Chippewas,fanatics,,152.5
+Youngstown St Penguins,Central Michigan Chippewas,draftkings,-3.5,152.5
+Youngstown St Penguins,Central Michigan Chippewas,betmgm,-3.5,152.5
+Youngstown St Penguins,Central Michigan Chippewas,betus,-3.5,152.0
+Youngstown St Penguins,Central Michigan Chippewas,bovada,-3.5,152.5
+Charleston Southern Buccaneers,Wake Forest Demon Deacons,fanduel,-18.5,155.5
+Charleston Southern Buccaneers,Wake Forest Demon Deacons,fanatics,-18.5,154.5
+Charleston Southern Buccaneers,Wake Forest Demon Deacons,betonlineag,-19.0,154.0
+Charleston Southern Buccaneers,Wake Forest Demon Deacons,lowvig,-19.0,154.0
+Charleston Southern Buccaneers,Wake Forest Demon Deacons,williamhill_us,-18.5,154.5
+Charleston Southern Buccaneers,Wake Forest Demon Deacons,draftkings,-18.5,154.5
+Charleston Southern Buccaneers,Wake Forest Demon Deacons,betmgm,-18.5,154.5
+Charleston Southern Buccaneers,Wake Forest Demon Deacons,bovada,-18.5,154.5
+Siena Saints,Dayton Flyers,betonlineag,-12.5,159.0
+Siena Saints,Dayton Flyers,lowvig,-12.5,159.0
+Siena Saints,Dayton Flyers,fanduel,-12.5,158.5
+Siena Saints,Dayton Flyers,fanatics,-12.5,159.0
+Siena Saints,Dayton Flyers,draftkings,-12.5,158.5
+Siena Saints,Dayton Flyers,williamhill_us,-12.5,158.5
+Siena Saints,Dayton Flyers,betmgm,-12.5,158.5
+Siena Saints,Dayton Flyers,betus,-12.5,159.0
+Siena Saints,Dayton Flyers,bovada,-12.5,159.0
+Detroit Mercy Titans,Xavier Musketeers,betonlineag,-33.0,159.0
+Detroit Mercy Titans,Xavier Musketeers,lowvig,-33.0,159.0
+Detroit Mercy Titans,Xavier Musketeers,fanduel,-31.5,159.5
+Detroit Mercy Titans,Xavier Musketeers,fanatics,-32.0,158.5
+Detroit Mercy Titans,Xavier Musketeers,draftkings,-32.5,158.5
+Detroit Mercy Titans,Xavier Musketeers,betmgm,-32.5,158.5
+Detroit Mercy Titans,Xavier Musketeers,williamhill_us,-32.0,159.5
+Detroit Mercy Titans,Xavier Musketeers,betus,-33.0,159.0
+Detroit Mercy Titans,Xavier Musketeers,bovada,-32.0,158.5
+Michigan St Spartans,Duke Blue Devils,williamhill_us,-6.5,148.0
+Michigan St Spartans,Duke Blue Devils,draftkings,-6.5,147.5
+Michigan St Spartans,Duke Blue Devils,fanatics,-6.5,148.5
+Michigan St Spartans,Duke Blue Devils,bovada,-6.5,148.5
+Michigan St Spartans,Duke Blue Devils,fanduel,-6.5,148.5
+Michigan St Spartans,Duke Blue Devils,lowvig,-6.5,148.0
+Michigan St Spartans,Duke Blue Devils,betonlineag,-6.5,148.0
+Michigan St Spartans,Duke Blue Devils,betmgm,-6.5,147.5
+Michigan St Spartans,Duke Blue Devils,betus,-6.5,148.0
+Washington St Cougars,Duquesne Dukes,betonlineag,-5.0,149.0
+Washington St Cougars,Duquesne Dukes,lowvig,-5.0,149.0
+Washington St Cougars,Duquesne Dukes,fanduel,-4.5,148.5
+Washington St Cougars,Duquesne Dukes,fanatics,-5.0,148.5
+Washington St Cougars,Duquesne Dukes,draftkings,-4.5,148.5
+Washington St Cougars,Duquesne Dukes,williamhill_us,-4.5,148.5
+Washington St Cougars,Duquesne Dukes,betmgm,-4.5,148.5
+Washington St Cougars,Duquesne Dukes,betus,-5.0,149.0
+Washington St Cougars,Duquesne Dukes,bovada,-5.0,148.5
+Eastern Kentucky Colonels,Georgia Tech Yellow Jackets,betonlineag,-16.0,164.5
+Eastern Kentucky Colonels,Georgia Tech Yellow Jackets,lowvig,-16.0,164.5
+Eastern Kentucky Colonels,Georgia Tech Yellow Jackets,fanduel,-16.5,163.5
+Eastern Kentucky Colonels,Georgia Tech Yellow Jackets,fanatics,-16.5,164.0
+Eastern Kentucky Colonels,Georgia Tech Yellow Jackets,williamhill_us,-16.5,163.5
+Eastern Kentucky Colonels,Georgia Tech Yellow Jackets,draftkings,-16.5,163.5
+Eastern Kentucky Colonels,Georgia Tech Yellow Jackets,betmgm,-16.5,163.5
+Eastern Kentucky Colonels,Georgia Tech Yellow Jackets,betus,-16.0,164.5
+Eastern Kentucky Colonels,Georgia Tech Yellow Jackets,bovada,-16.5,164.5
+Elon Phoenix,GW Revolutionaries,betonlineag,-14.5,148.5
+Elon Phoenix,GW Revolutionaries,lowvig,-14.5,148.5
+Elon Phoenix,GW Revolutionaries,fanduel,-13.5,148.5
+Elon Phoenix,GW Revolutionaries,williamhill_us,-14.5,149.0
+Elon Phoenix,GW Revolutionaries,fanatics,-14.5,149.0
+Elon Phoenix,GW Revolutionaries,draftkings,-14.5,148.5
+Elon Phoenix,GW Revolutionaries,betmgm,-14.5,148.5
+Elon Phoenix,GW Revolutionaries,betus,-14.5,148.5
+Elon Phoenix,GW Revolutionaries,bovada,-14.5,149.0
+Iona Gaels,Fordham Rams,betonlineag,-12.0,139.5
+Iona Gaels,Fordham Rams,lowvig,-12.0,139.5
+Iona Gaels,Fordham Rams,fanduel,-11.5,139.5
+Iona Gaels,Fordham Rams,fanatics,,139.5
+Iona Gaels,Fordham Rams,draftkings,-11.5,139.5
+Iona Gaels,Fordham Rams,williamhill_us,-11.5,139.5
+Iona Gaels,Fordham Rams,betmgm,-11.5,139.5
+Iona Gaels,Fordham Rams,betus,-12.0,139.5
+Iona Gaels,Fordham Rams,bovada,-11.5,139.5
+Mercer Bears,Georgia Southern Eagles,betonlineag,-1.0,164.0
+Mercer Bears,Georgia Southern Eagles,lowvig,-1.0,164.0
+Mercer Bears,Georgia Southern Eagles,fanduel,-0.5,163.5
+Mercer Bears,Georgia Southern Eagles,fanatics,-1.0,164.0
+Mercer Bears,Georgia Southern Eagles,draftkings,-1.5,164.5
+Mercer Bears,Georgia Southern Eagles,williamhill_us,-1.0,164.0
+Mercer Bears,Georgia Southern Eagles,betmgm,-1.5,164.5
+Mercer Bears,Georgia Southern Eagles,betus,-1.0,164.0
+Mercer Bears,Georgia Southern Eagles,bovada,-1.0,164.0
+Harvard Crimson,Northeastern Huskies,betonlineag,3.0,147.0
+Harvard Crimson,Northeastern Huskies,lowvig,3.0,147.0
+Harvard Crimson,Northeastern Huskies,fanduel,3.5,146.5
+Harvard Crimson,Northeastern Huskies,fanatics,3.5,147.0
+Harvard Crimson,Northeastern Huskies,draftkings,3.5,146.5
+Harvard Crimson,Northeastern Huskies,williamhill_us,3.5,146.5
+Harvard Crimson,Northeastern Huskies,betmgm,3.5,146.5
+Harvard Crimson,Northeastern Huskies,betus,3.0,147.0
+Harvard Crimson,Northeastern Huskies,bovada,4.0,146.5
+Virginia Tech Hokies,Iowa Hawkeyes,betonlineag,-5.5,142.0
+Virginia Tech Hokies,Iowa Hawkeyes,lowvig,-5.5,142.0
+Virginia Tech Hokies,Iowa Hawkeyes,fanduel,-4.5,141.5
+Virginia Tech Hokies,Iowa Hawkeyes,draftkings,-5.5,142.5
+Virginia Tech Hokies,Iowa Hawkeyes,williamhill_us,-5.0,142.0
+Virginia Tech Hokies,Iowa Hawkeyes,betmgm,-5.5,141.5
+Virginia Tech Hokies,Iowa Hawkeyes,betus,-5.5,142.0
+Virginia Tech Hokies,Iowa Hawkeyes,bovada,-5.0,142.5
+Winthrop Eagles,Kennesaw St Owls,fanduel,-9.5,167.5
+Winthrop Eagles,Kennesaw St Owls,fanatics,,167.0
+Winthrop Eagles,Kennesaw St Owls,betonlineag,-9.5,166.0
+Winthrop Eagles,Kennesaw St Owls,lowvig,-9.5,166.0
+Winthrop Eagles,Kennesaw St Owls,williamhill_us,-9.5,166.5
+Winthrop Eagles,Kennesaw St Owls,draftkings,-9.5,166.5
+Winthrop Eagles,Kennesaw St Owls,betmgm,-9.5,166.5
+Winthrop Eagles,Kennesaw St Owls,bovada,-9.5,166.5
+La Salle Explorers,Villanova Wildcats,betonlineag,-23.5,160.0
+La Salle Explorers,Villanova Wildcats,lowvig,-23.5,160.0
+La Salle Explorers,Villanova Wildcats,fanduel,-23.5,159.5
+La Salle Explorers,Villanova Wildcats,fanatics,-23.0,159.5
+La Salle Explorers,Villanova Wildcats,draftkings,-22.5,159.5
+La Salle Explorers,Villanova Wildcats,williamhill_us,-23.0,159.5
+La Salle Explorers,Villanova Wildcats,betmgm,-23.5,159.5
+La Salle Explorers,Villanova Wildcats,betus,-23.5,160.0
+La Salle Explorers,Villanova Wildcats,bovada,-23.0,159.5
+Loyola Marymount Lions,Troy Trojans,betonlineag,1.5,146.0
+Loyola Marymount Lions,Troy Trojans,lowvig,1.5,146.0
+Loyola Marymount Lions,Troy Trojans,fanduel,1.5,145.5
+Loyola Marymount Lions,Troy Trojans,fanatics,1.5,146.5
+Loyola Marymount Lions,Troy Trojans,williamhill_us,1.0,146.5
+Loyola Marymount Lions,Troy Trojans,draftkings,1.5,146.5
+Loyola Marymount Lions,Troy Trojans,betmgm,1.5,146.5
+Loyola Marymount Lions,Troy Trojans,betus,1.5,146.0
+Loyola Marymount Lions,Troy Trojans,bovada,1.0,146.5
+Maine Black Bears,Rhode Island Rams,fanduel,-17.5,142.5
+Maine Black Bears,Rhode Island Rams,fanatics,-18.5,141.0
+Maine Black Bears,Rhode Island Rams,williamhill_us,-18.5,140.5
+Maine Black Bears,Rhode Island Rams,betonlineag,-19.0,140.5
+Maine Black Bears,Rhode Island Rams,lowvig,-19.0,140.5
+Maine Black Bears,Rhode Island Rams,draftkings,-18.5,140.5
+Maine Black Bears,Rhode Island Rams,betmgm,-18.5,140.5
+Maine Black Bears,Rhode Island Rams,bovada,-18.5,140.5
+Presbyterian Blue Hose,NC State Wolfpack,fanduel,-19.5,146.5
+Presbyterian Blue Hose,NC State Wolfpack,fanatics,-19.0,147.5
+Presbyterian Blue Hose,NC State Wolfpack,betonlineag,-18.5,148.0
+Presbyterian Blue Hose,NC State Wolfpack,lowvig,-18.5,148.0
+Presbyterian Blue Hose,NC State Wolfpack,draftkings,-19.5,148.5
+Presbyterian Blue Hose,NC State Wolfpack,betmgm,-19.5,148.5
+Presbyterian Blue Hose,NC State Wolfpack,williamhill_us,-19.5,148.5
+Presbyterian Blue Hose,NC State Wolfpack,bovada,-19.5,147.5
+Wyoming Cowboys,North Carolina Tar Heels,betonlineag,-14.0,155.5
+Wyoming Cowboys,North Carolina Tar Heels,lowvig,-14.0,155.5
+Wyoming Cowboys,North Carolina Tar Heels,fanduel,-13.5,154.5
+Wyoming Cowboys,North Carolina Tar Heels,fanatics,-14.0,155.5
+Wyoming Cowboys,North Carolina Tar Heels,draftkings,-14.5,155.5
+Wyoming Cowboys,North Carolina Tar Heels,betmgm,-14.5,155.5
+Wyoming Cowboys,North Carolina Tar Heels,betus,-14.0,155.5
+Wyoming Cowboys,North Carolina Tar Heels,bovada,-14.0,155.5
+Wyoming Cowboys,North Carolina Tar Heels,williamhill_us,-14.5,155.5
+South Alabama Jaguars,UCF Knights,betonlineag,-14.5,151.5
+South Alabama Jaguars,UCF Knights,lowvig,-14.5,151.5
+South Alabama Jaguars,UCF Knights,fanduel,-14.5,151.5
+South Alabama Jaguars,UCF Knights,fanatics,-15.0,151.5
+South Alabama Jaguars,UCF Knights,draftkings,-15.5,151.5
+South Alabama Jaguars,UCF Knights,williamhill_us,-15.0,151.5
+South Alabama Jaguars,UCF Knights,betmgm,-14.5,151.5
+South Alabama Jaguars,UCF Knights,betus,-14.5,151.5
+South Alabama Jaguars,UCF Knights,bovada,-15.0,152.0
+Wright St Raiders,Toledo Rockets,betonlineag,1.0,159.5
+Wright St Raiders,Toledo Rockets,lowvig,1.0,159.5
+Wright St Raiders,Toledo Rockets,fanduel,1.5,159.5
+Wright St Raiders,Toledo Rockets,fanatics,1.5,159.5
+Wright St Raiders,Toledo Rockets,draftkings,1.5,159.5
+Wright St Raiders,Toledo Rockets,williamhill_us,1.5,159.5
+Wright St Raiders,Toledo Rockets,betmgm,1.5,159.5
+Wright St Raiders,Toledo Rockets,betus,1.0,159.5
+Wright St Raiders,Toledo Rockets,bovada,2.0,159.5
+Army Knights,New Haven Chargers,fanduel,-0.5,132.5
+Army Knights,New Haven Chargers,fanatics,1.5,132.0
+Army Knights,New Haven Chargers,lowvig,2.0,131.5
+Army Knights,New Haven Chargers,betonlineag,2.0,131.5
+Army Knights,New Haven Chargers,williamhill_us,1.5,131.5
+Army Knights,New Haven Chargers,draftkings,1.5,131.5
+Army Knights,New Haven Chargers,betmgm,1.5,131.5
+Army Knights,New Haven Chargers,bovada,1.5,131.5
+Memphis Tigers,Vanderbilt Commodores,betonlineag,-17.0,160.5
+Memphis Tigers,Vanderbilt Commodores,lowvig,-17.0,160.5
+Memphis Tigers,Vanderbilt Commodores,fanduel,-15.5,159.5
+Memphis Tigers,Vanderbilt Commodores,draftkings,-16.5,160.5
+Memphis Tigers,Vanderbilt Commodores,fanatics,-16.5,160.5
+Memphis Tigers,Vanderbilt Commodores,williamhill_us,-17.0,160.5
+Memphis Tigers,Vanderbilt Commodores,betmgm,-16.5,160.5
+Memphis Tigers,Vanderbilt Commodores,betus,-17.0,160.5
+Memphis Tigers,Vanderbilt Commodores,bovada,-16.0,160.0
+Evansville Purple Aces,Middle Tennessee Blue Raiders,betonlineag,-7.5,143.5
+Evansville Purple Aces,Middle Tennessee Blue Raiders,lowvig,-7.5,143.5
+Evansville Purple Aces,Middle Tennessee Blue Raiders,fanduel,-7.5,144.5
+Evansville Purple Aces,Middle Tennessee Blue Raiders,fanatics,-8.0,144.5
+Evansville Purple Aces,Middle Tennessee Blue Raiders,draftkings,-7.5,144.5
+Evansville Purple Aces,Middle Tennessee Blue Raiders,williamhill_us,-7.5,144.5
+Evansville Purple Aces,Middle Tennessee Blue Raiders,betmgm,-7.5,144.5
+Evansville Purple Aces,Middle Tennessee Blue Raiders,betus,-7.5,143.5
+Evansville Purple Aces,Middle Tennessee Blue Raiders,bovada,-7.5,144.5
+Nicholls St Colonels,Tulane Green Wave,betonlineag,-7.5,151.5
+Nicholls St Colonels,Tulane Green Wave,lowvig,-7.5,151.5
+Nicholls St Colonels,Tulane Green Wave,fanatics,-7.5,151.5
+Nicholls St Colonels,Tulane Green Wave,betmgm,-7.5,151.5
+Nicholls St Colonels,Tulane Green Wave,draftkings,-7.5,151.5
+Nicholls St Colonels,Tulane Green Wave,williamhill_us,-7.5,151.5
+Nicholls St Colonels,Tulane Green Wave,bovada,-7.5,151.5
+Nicholls St Colonels,Tulane Green Wave,fanduel,-7.5,151.5
+Texas State Bobcats,UT Rio Grande Valley Vaqueros,fanduel,6.5,144.5
+Texas State Bobcats,UT Rio Grande Valley Vaqueros,fanatics,7.0,144.0
+Texas State Bobcats,UT Rio Grande Valley Vaqueros,betonlineag,7.0,143.5
+Texas State Bobcats,UT Rio Grande Valley Vaqueros,lowvig,7.0,143.5
+Texas State Bobcats,UT Rio Grande Valley Vaqueros,williamhill_us,6.5,143.5
+Texas State Bobcats,UT Rio Grande Valley Vaqueros,betmgm,6.5,143.5
+Texas State Bobcats,UT Rio Grande Valley Vaqueros,draftkings,6.5,143.5
+Texas State Bobcats,UT Rio Grande Valley Vaqueros,bovada,6.5,143.5
+Alcorn St Braves,Murray St Racers,fanduel,-25.5,162.5
+Alcorn St Braves,Murray St Racers,fanatics,-26.5,163.5
+Alcorn St Braves,Murray St Racers,betonlineag,-26.5,164.5
+Alcorn St Braves,Murray St Racers,lowvig,-26.5,164.5
+Alcorn St Braves,Murray St Racers,draftkings,-26.5,164.5
+Alcorn St Braves,Murray St Racers,betmgm,-26.5,164.5
+Alcorn St Braves,Murray St Racers,williamhill_us,-26.5,164.5
+Alcorn St Braves,Murray St Racers,bovada,-26.5,164.5
+Tenn-Martin Skyhawks,Arkansas St Red Wolves,betonlineag,-6.5,154.0
+Tenn-Martin Skyhawks,Arkansas St Red Wolves,lowvig,-6.5,154.0
+Tenn-Martin Skyhawks,Arkansas St Red Wolves,fanduel,-6.5,153.5
+Tenn-Martin Skyhawks,Arkansas St Red Wolves,williamhill_us,-6.5,153.5
+Tenn-Martin Skyhawks,Arkansas St Red Wolves,fanatics,-7.0,154.0
+Tenn-Martin Skyhawks,Arkansas St Red Wolves,draftkings,-6.5,153.5
+Tenn-Martin Skyhawks,Arkansas St Red Wolves,betmgm,-6.5,153.5
+Tenn-Martin Skyhawks,Arkansas St Red Wolves,betus,-6.5,154.0
+Tenn-Martin Skyhawks,Arkansas St Red Wolves,bovada,-6.5,153.5
+Yale Bulldogs,Baylor Bears,betonlineag,-22.0,157.5
+Yale Bulldogs,Baylor Bears,lowvig,-22.0,157.5
+Yale Bulldogs,Baylor Bears,fanduel,-21.5,156.5
+Yale Bulldogs,Baylor Bears,fanatics,,157.5
+Yale Bulldogs,Baylor Bears,draftkings,-21.5,157.5
+Yale Bulldogs,Baylor Bears,williamhill_us,-21.5,157.5
+Yale Bulldogs,Baylor Bears,betmgm,-21.5,157.5
+Yale Bulldogs,Baylor Bears,betus,-22.0,157.5
+Yale Bulldogs,Baylor Bears,bovada,-21.5,157.5
+Belmont Bruins,Lipscomb Bisons,fanduel,4.5,157.5
+Belmont Bruins,Lipscomb Bisons,fanatics,3.5,156.5
+Belmont Bruins,Lipscomb Bisons,williamhill_us,3.5,155.5
+Belmont Bruins,Lipscomb Bisons,betonlineag,3.0,155.5
+Belmont Bruins,Lipscomb Bisons,lowvig,3.0,155.5
+Belmont Bruins,Lipscomb Bisons,betmgm,3.5,155.5
+Belmont Bruins,Lipscomb Bisons,draftkings,3.5,155.5
+Belmont Bruins,Lipscomb Bisons,bovada,3.5,155.5
+Green Bay Phoenix,Northern Iowa Panthers,betonlineag,-3.5,152.0
+Green Bay Phoenix,Northern Iowa Panthers,lowvig,-3.5,152.0
+Green Bay Phoenix,Northern Iowa Panthers,fanduel,-2.5,151.5
+Green Bay Phoenix,Northern Iowa Panthers,fanatics,-3.5,151.0
+Green Bay Phoenix,Northern Iowa Panthers,draftkings,-3.5,151.5
+Green Bay Phoenix,Northern Iowa Panthers,williamhill_us,-3.5,151.5
+Green Bay Phoenix,Northern Iowa Panthers,betmgm,-3.5,151.5
+Green Bay Phoenix,Northern Iowa Panthers,betus,-3.5,152.0
+Green Bay Phoenix,Northern Iowa Panthers,bovada,-3.5,151.0
+Houston Christian Huskies,South Dakota Coyotes,fanduel,-2.5,155.5
+Houston Christian Huskies,South Dakota Coyotes,fanatics,-2.5,156.0
+Houston Christian Huskies,South Dakota Coyotes,betonlineag,-3.0,157.0
+Houston Christian Huskies,South Dakota Coyotes,lowvig,-3.0,157.0
+Houston Christian Huskies,South Dakota Coyotes,betmgm,-2.5,156.5
+Houston Christian Huskies,South Dakota Coyotes,williamhill_us,-2.5,155.5
+Houston Christian Huskies,South Dakota Coyotes,draftkings,-2.5,156.5
+Houston Christian Huskies,South Dakota Coyotes,bovada,-2.5,156.5
+Illinois Fighting Illini,Texas Tech Red Raiders,draftkings,2.5,167.5
+Illinois Fighting Illini,Texas Tech Red Raiders,fanatics,2.0,167.0
+Illinois Fighting Illini,Texas Tech Red Raiders,bovada,2.5,167.5
+Illinois Fighting Illini,Texas Tech Red Raiders,fanduel,2.5,167.5
+Illinois Fighting Illini,Texas Tech Red Raiders,lowvig,1.5,167.0
+Illinois Fighting Illini,Texas Tech Red Raiders,betonlineag,1.5,167.0
+Illinois Fighting Illini,Texas Tech Red Raiders,betmgm,2.5,167.5
+Illinois Fighting Illini,Texas Tech Red Raiders,betus,1.5,167.0
+Southern Jaguars,Iowa State Cyclones,fanduel,-33.5,147.5
+Southern Jaguars,Iowa State Cyclones,fanatics,-34.0,147.5
+Southern Jaguars,Iowa State Cyclones,betonlineag,-34.0,147.5
+Southern Jaguars,Iowa State Cyclones,lowvig,-34.0,147.5
+Southern Jaguars,Iowa State Cyclones,betmgm,-33.5,147.5
+Southern Jaguars,Iowa State Cyclones,williamhill_us,-33.5,147.5
+Southern Jaguars,Iowa State Cyclones,draftkings,-33.5,147.5
+Southern Jaguars,Iowa State Cyclones,bovada,-33.5,147.5
+Northern Kentucky Norse,Saint Louis Billikens,betonlineag,-23.5,169.5
+Northern Kentucky Norse,Saint Louis Billikens,lowvig,-23.5,169.5
+Northern Kentucky Norse,Saint Louis Billikens,fanduel,-23.5,167.5
+Northern Kentucky Norse,Saint Louis Billikens,williamhill_us,-23.5,169.0
+Northern Kentucky Norse,Saint Louis Billikens,fanatics,-23.0,169.0
+Northern Kentucky Norse,Saint Louis Billikens,draftkings,-23.5,169.5
+Northern Kentucky Norse,Saint Louis Billikens,betmgm,-23.5,169.5
+Northern Kentucky Norse,Saint Louis Billikens,betus,-23.5,169.5
+Northern Kentucky Norse,Saint Louis Billikens,bovada,-23.0,169.0
+Prairie View Panthers,SMU Mustangs,fanduel,-24.5,159.5
+Prairie View Panthers,SMU Mustangs,fanatics,-24.5,160.0
+Prairie View Panthers,SMU Mustangs,williamhill_us,-24.5,160.5
+Prairie View Panthers,SMU Mustangs,betonlineag,-25.0,160.0
+Prairie View Panthers,SMU Mustangs,lowvig,-25.0,160.0
+Prairie View Panthers,SMU Mustangs,betmgm,,160.5
+Prairie View Panthers,SMU Mustangs,draftkings,-24.5,160.5
+Prairie View Panthers,SMU Mustangs,bovada,-24.5,160.5
+Fairfield Stags,Wisconsin Badgers,betonlineag,-23.5,151.0
+Fairfield Stags,Wisconsin Badgers,lowvig,-23.5,151.0
+Fairfield Stags,Wisconsin Badgers,fanduel,-23.5,149.5
+Fairfield Stags,Wisconsin Badgers,fanatics,-23.5,150.0
+Fairfield Stags,Wisconsin Badgers,draftkings,-23.5,150.5
+Fairfield Stags,Wisconsin Badgers,williamhill_us,-23.5,150.0
+Fairfield Stags,Wisconsin Badgers,betmgm,-23.5,150.5
+Fairfield Stags,Wisconsin Badgers,betus,-23.5,151.0
+Fairfield Stags,Wisconsin Badgers,bovada,-23.5,150.0
+SE Louisiana Lions,Ole Miss Rebels,fanduel,-25.5,146.5
+SE Louisiana Lions,Ole Miss Rebels,fanatics,-25.5,147.0
+SE Louisiana Lions,Ole Miss Rebels,betonlineag,-25.0,147.5
+SE Louisiana Lions,Ole Miss Rebels,lowvig,-25.0,147.5
+SE Louisiana Lions,Ole Miss Rebels,williamhill_us,-25.5,147.5
+SE Louisiana Lions,Ole Miss Rebels,betmgm,-25.5,147.5
+SE Louisiana Lions,Ole Miss Rebels,draftkings,-25.5,147.5
+SE Louisiana Lions,Ole Miss Rebels,bovada,-25.5,147.5
+Hofstra Pride,Arizona St Sun Devils,betonlineag,-17.0,134.0
+Hofstra Pride,Arizona St Sun Devils,lowvig,-17.0,134.0
+Hofstra Pride,Arizona St Sun Devils,fanduel,-16.5,133.5
+Hofstra Pride,Arizona St Sun Devils,fanatics,-17.0,134.0
+Hofstra Pride,Arizona St Sun Devils,draftkings,-16.5,133.5
+Hofstra Pride,Arizona St Sun Devils,williamhill_us,-17.0,133.5
+Hofstra Pride,Arizona St Sun Devils,betmgm,-16.5,133.5
+Hofstra Pride,Arizona St Sun Devils,betus,-17.0,134.0
+Hofstra Pride,Arizona St Sun Devils,bovada,-16.5,133.5
+Northern Arizona Lumberjacks,Arizona Wildcats,betonlineag,-37.0,157.0
+Northern Arizona Lumberjacks,Arizona Wildcats,lowvig,-37.0,157.0
+Northern Arizona Lumberjacks,Arizona Wildcats,fanduel,-36.5,156.5
+Northern Arizona Lumberjacks,Arizona Wildcats,fanatics,-36.5,156.0
+Northern Arizona Lumberjacks,Arizona Wildcats,draftkings,-36.5,156.5
+Northern Arizona Lumberjacks,Arizona Wildcats,betmgm,-37.5,156.5
+Northern Arizona Lumberjacks,Arizona Wildcats,williamhill_us,-37.0,156.5
+Northern Arizona Lumberjacks,Arizona Wildcats,betus,-37.0,157.0
+Northern Arizona Lumberjacks,Arizona Wildcats,bovada,-36.5,156.0
+Arkansas-Little Rock Trojans,New Mexico Lobos,betonlineag,-22.5,158.0
+Arkansas-Little Rock Trojans,New Mexico Lobos,lowvig,-22.5,158.0
+Arkansas-Little Rock Trojans,New Mexico Lobos,fanduel,-22.5,157.5
+Arkansas-Little Rock Trojans,New Mexico Lobos,fanatics,-22.5,157.5
+Arkansas-Little Rock Trojans,New Mexico Lobos,draftkings,-22.5,157.5
+Arkansas-Little Rock Trojans,New Mexico Lobos,williamhill_us,-22.5,157.5
+Arkansas-Little Rock Trojans,New Mexico Lobos,betmgm,-22.5,157.5
+Arkansas-Little Rock Trojans,New Mexico Lobos,betus,-22.5,158.0
+Arkansas-Little Rock Trojans,New Mexico Lobos,bovada,-22.5,157.5
+Queens University Royals,BYU Cougars,fanduel,-27.5,180.5
+Queens University Royals,BYU Cougars,fanatics,-28.0,181.0
+Queens University Royals,BYU Cougars,betonlineag,-28.0,181.5
+Queens University Royals,BYU Cougars,lowvig,-28.0,181.5
+Queens University Royals,BYU Cougars,betmgm,-28.5,180.5
+Queens University Royals,BYU Cougars,williamhill_us,-28.5,181.5
+Queens University Royals,BYU Cougars,draftkings,-28.5,181.5
+Queens University Royals,BYU Cougars,bovada,-28.5,181.5
+Bucknell Bison,Virginia Cavaliers,fanduel,-37.5,148.5
+Bucknell Bison,Virginia Cavaliers,fanatics,-37.5,148.5
+Bucknell Bison,Virginia Cavaliers,williamhill_us,-37.5,148.5
+Bucknell Bison,Virginia Cavaliers,betonlineag,-38.0,148.5
+Bucknell Bison,Virginia Cavaliers,lowvig,-38.0,148.5
+Bucknell Bison,Virginia Cavaliers,betmgm,-37.5,148.5
+Bucknell Bison,Virginia Cavaliers,draftkings,-37.5,148.5
+Bucknell Bison,Virginia Cavaliers,bovada,-37.5,148.5
+San Diego Toreros,Colorado Buffaloes,betonlineag,-13.5,153.0
+San Diego Toreros,Colorado Buffaloes,lowvig,-13.5,153.0
+San Diego Toreros,Colorado Buffaloes,fanduel,-12.5,151.5
+San Diego Toreros,Colorado Buffaloes,fanatics,-13.0,152.0
+San Diego Toreros,Colorado Buffaloes,draftkings,-13.5,152.5
+San Diego Toreros,Colorado Buffaloes,williamhill_us,-13.0,152.0
+San Diego Toreros,Colorado Buffaloes,betmgm,-13.5,152.5
+San Diego Toreros,Colorado Buffaloes,betus,-13.5,153.0
+San Diego Toreros,Colorado Buffaloes,bovada,-13.0,152.0
+Creighton Bluejays,Kansas St Wildcats,betonlineag,3.0,157.5
+Creighton Bluejays,Kansas St Wildcats,lowvig,3.0,157.5
+Creighton Bluejays,Kansas St Wildcats,fanduel,3.5,158.5
+Creighton Bluejays,Kansas St Wildcats,fanatics,3.5,158.0
+Creighton Bluejays,Kansas St Wildcats,williamhill_us,3.5,158.0
+Creighton Bluejays,Kansas St Wildcats,draftkings,3.5,158.5
+Creighton Bluejays,Kansas St Wildcats,betmgm,3.5,158.5
+Creighton Bluejays,Kansas St Wildcats,betus,3.0,157.5
+Creighton Bluejays,Kansas St Wildcats,bovada,3.0,158.0
+Georgia St Panthers,Fresno St Bulldogs,betonlineag,-6.0,148.5
+Georgia St Panthers,Fresno St Bulldogs,lowvig,-6.0,148.5
+Georgia St Panthers,Fresno St Bulldogs,fanduel,-6.5,149.5
+Georgia St Panthers,Fresno St Bulldogs,williamhill_us,-6.0,148.5
+Georgia St Panthers,Fresno St Bulldogs,fanatics,-6.5,149.0
+Georgia St Panthers,Fresno St Bulldogs,draftkings,-6.5,148.5
+Georgia St Panthers,Fresno St Bulldogs,betmgm,-6.5,149.5
+Georgia St Panthers,Fresno St Bulldogs,betus,-6.0,148.5
+Georgia St Panthers,Fresno St Bulldogs,bovada,-6.0,148.5
+UL Monroe Warhawks,TCU Horned Frogs,betonlineag,-35.5,161.5
+UL Monroe Warhawks,TCU Horned Frogs,lowvig,-35.5,161.5
+UL Monroe Warhawks,TCU Horned Frogs,fanduel,-34.5,160.5
+UL Monroe Warhawks,TCU Horned Frogs,fanatics,-35.5,161.0
+UL Monroe Warhawks,TCU Horned Frogs,draftkings,-35.5,161.5
+UL Monroe Warhawks,TCU Horned Frogs,williamhill_us,-35.0,160.5
+UL Monroe Warhawks,TCU Horned Frogs,betmgm,-35.5,160.5
+UL Monroe Warhawks,TCU Horned Frogs,betus,-35.5,161.5
+UL Monroe Warhawks,TCU Horned Frogs,bovada,-35.0,160.5
+Utah Tech Trailblazers,Utah State Aggies,betonlineag,-26.5,155.0
+Utah Tech Trailblazers,Utah State Aggies,lowvig,-26.5,155.0
+Utah Tech Trailblazers,Utah State Aggies,fanduel,-25.5,154.5
+Utah Tech Trailblazers,Utah State Aggies,fanatics,-26.0,155.0
+Utah Tech Trailblazers,Utah State Aggies,draftkings,-25.5,155.5
+Utah Tech Trailblazers,Utah State Aggies,betmgm,-25.5,154.5
+Utah Tech Trailblazers,Utah State Aggies,williamhill_us,-25.5,154.5
+Utah Tech Trailblazers,Utah State Aggies,betus,-26.5,155.0
+Utah Tech Trailblazers,Utah State Aggies,bovada,-25.5,155.0
+Weber State Wildcats,Utah Utes,betonlineag,-18.0,155.0
+Weber State Wildcats,Utah Utes,lowvig,-18.0,155.0
+Weber State Wildcats,Utah Utes,fanduel,-18.5,154.5
+Weber State Wildcats,Utah Utes,fanatics,-18.0,155.0
+Weber State Wildcats,Utah Utes,draftkings,-18.5,155.5
+Weber State Wildcats,Utah Utes,betmgm,-18.5,155.5
+Weber State Wildcats,Utah Utes,williamhill_us,-18.0,155.5
+Weber State Wildcats,Utah Utes,betus,-18.0,155.0
+Weber State Wildcats,Utah Utes,bovada,-18.0,155.0
+Kansas Jayhawks,Kentucky Wildcats,williamhill_us,4.0,155.5
+Kansas Jayhawks,Kentucky Wildcats,draftkings,4.5,155.5
+Kansas Jayhawks,Kentucky Wildcats,fanatics,4.5,155.5
+Kansas Jayhawks,Kentucky Wildcats,bovada,4.0,155.5
+Kansas Jayhawks,Kentucky Wildcats,fanduel,4.5,155.5
+Kansas Jayhawks,Kentucky Wildcats,betonlineag,4.0,155.0
+Kansas Jayhawks,Kentucky Wildcats,lowvig,4.0,155.0
+Kansas Jayhawks,Kentucky Wildcats,betmgm,4.5,155.5
+Kansas Jayhawks,Kentucky Wildcats,betus,4.0,155.0
+Montana Grizzlies,San Francisco Dons,betonlineag,-12.0,147.5
+Montana Grizzlies,San Francisco Dons,lowvig,-12.0,147.5
+Montana Grizzlies,San Francisco Dons,fanduel,-11.5,148.5
+Montana Grizzlies,San Francisco Dons,fanatics,-12.0,148.0
+Montana Grizzlies,San Francisco Dons,draftkings,-11.5,148.5
+Montana Grizzlies,San Francisco Dons,betmgm,-11.5,148.5
+Montana Grizzlies,San Francisco Dons,williamhill_us,-11.5,148.5
+Montana Grizzlies,San Francisco Dons,betus,-12.0,147.5
+Montana Grizzlies,San Francisco Dons,bovada,-11.5,148.5

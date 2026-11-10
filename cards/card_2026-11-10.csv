@@ -1,0 +1,57 @@
+﻿tip_ET,away,home,venue,model,market,n_books,total,edge,model_size_adj,edge_size_adj,edge_inseason_only,prior_wt_away,prior_wt_home,notes,model_home_spread,market_home_spread,edge_size,model_home_spread_adj,edge_size_adj_num,size_curve
+Tue Nov 10 6:00 PM,Florida,Florida St.,H,Florida -9.7,Florida -9.5,9,166.5,Florida 0.2,Florida -9.7,Florida 0.2,n/a (<5 games),80%,80%,,9.7,9.5,0.2,9.7,0.2,0
+Tue Nov 10 6:30 PM,NJIT,Rutgers,H,Rutgers -26.8,Rutgers -24.5,8,144.5,Rutgers 2.3,Rutgers -30.2,Rutgers 5.7,n/a (<5 games),73%,89%,,-26.8,-24.5,2.3,-30.2,5.7,1
+Tue Nov 10 6:30 PM,Delaware St.,Georgetown,H,Georgetown -27.0,Georgetown -27.5,8,142.5,Delaware St 0.5,Georgetown -30.4,Georgetown 2.9,n/a (<5 games),89%,80%,,-27.0,-27.5,0.5,-30.4,2.9,1
+Tue Nov 10 7:00 PM,Maryland Eastern Shore,Boston College,H,BC -25.1,BC -25.5,8,131.5,UMES 0.4,BC -28.1,BC 2.6,n/a (<5 games),80%,80%,Jacob Furphy out (-0.4),-25.1,-25.5,0.4,-28.1,2.6,1
+Tue Nov 10 7:00 PM,Charleston Southern,Wake Forest,H,Wake -20.1,Wake -18.5,8,154.5,Wake 1.6,Wake -22.1,Wake 3.6,n/a (<5 games),89%,80%,,-20.1,-18.5,1.6,-22.1,3.6,1
+Tue Nov 10 7:00 PM,Youngstown St.,Central Michigan,H,C Michigan -1.1,C Michigan -3.5,8,152.5,YSU 2.4,C Michigan -1.1,YSU 2.4,n/a (<5 games),80%,89%,,-1.1,-3.5,2.4,-1.1,2.4,1
+Tue Nov 10 7:00 PM,Siena,Dayton,H,Dayton -15.0,Dayton -12.5,9,159.0,Dayton 2.5,Dayton -16.0,Dayton 3.5,n/a (<5 games),80%,80%,Jalen Haynes out (-1.8); Zaide Lowery out (-0.2),-15.0,-12.5,2.5,-16.0,3.5,1
+Tue Nov 10 7:00 PM,Iona,Fordham,H,Fordham -9.2,Fordham -11.5,8,139.5,Iona 2.3,Fordham -9.2,Iona 2.3,n/a (<5 games),73%,80%,,-9.2,-11.5,2.3,-9.2,2.3,1
+Tue Nov 10 7:00 PM,Elon,George Washington,H,George Washington -11.8,George Washington -14.5,9,148.5,Elon 2.7,George Washington -12.2,Elon 2.3,n/a (<5 games),80%,80%,Aidan Shaw out (-0.7),-11.8,-14.5,2.7,-12.2,2.3,1
+Tue Nov 10 7:00 PM,Army,New Haven,H,Army -4.8,Army -1.5,8,131.5,Army 3.3,Army -4.8,Army 3.3,n/a (<5 games),89%,80%,,4.8,1.5,3.3,4.8,3.3,0
+Tue Nov 10 7:00 PM,Wyoming,North Carolina,H,UNC -10.9,UNC -14,9,155.5,Wyoming 3.1,UNC -11.1,Wyoming 2.9,n/a (<5 games),89%,80%,,-10.9,-14.0,3.1,-11.1,2.9,1
+Tue Nov 10 7:00 PM,Loyola Marymount,Troy,H,LMU -0.6,LMU -1.5,9,146.5,Troy 0.9,LMU -0.6,Troy 0.9,n/a (<5 games),89%,80%,,0.6,1.5,0.9,0.6,0.9,0
+Tue Nov 10 7:00 PM,Presbyterian,N.C. State,H,NC State -17.7,NC State -19.5,8,148.5,Presbyterian 1.8,NC State -19.2,Presbyterian 0.3,n/a (<5 games),80%,80%,,-17.7,-19.5,1.8,-19.2,0.3,1
+Tue Nov 10 7:00 PM,Maine,Rhode Island,H,Rhode Island -19.8,Rhode Island -18.5,8,140.5,Rhode Island 1.3,Rhode Island -21.8,Rhode Island 3.3,n/a (<5 games),73%,80%,,-19.8,-18.5,1.3,-21.8,3.3,1
+Tue Nov 10 7:00 PM,Eastern Kentucky,Georgia Tech,H,Ga Tech -14.5,Ga Tech -16.5,9,164.0,EKU 2.0,Ga Tech -15.4,EKU 1.1,n/a (<5 games),100%,80%,,-14.5,-16.5,2.0,-15.4,1.1,1
+Tue Nov 10 7:00 PM,Harvard,Northeastern,H,Harvard -5.9,Harvard -3.5,9,146.5,Harvard 2.4,Harvard -5.9,Harvard 2.4,n/a (<5 games),100%,80%,,5.9,3.5,2.4,5.9,2.4,0
+Tue Nov 10 7:00 PM,Virginia Tech,Iowa,N,Iowa -2.4,Iowa -5.5,8,142.0,Va Tech 3.1,Iowa -2.4,Va Tech 3.1,n/a (<5 games),80%,80%,,-2.4,-5.5,3.1,-2.4,3.1,0
+Tue Nov 10 7:00 PM,Mercer,Georgia Southern,H,Ga Southern -2.0,Ga Southern -1,9,164.0,Ga Southern 1.0,Ga Southern -2.0,Ga Southern 1.0,n/a (<5 games),80%,80%,,-2.0,-1.0,1.0,-2.0,1.0,1
+Tue Nov 10 7:00 PM,South Alabama,UCF,H,UCF -17.7,UCF -14.5,9,151.5,UCF 3.2,UCF -19.2,UCF 4.7,n/a (<5 games),80%,80%,,-17.7,-14.5,3.2,-19.2,4.7,1
+Tue Nov 10 7:00 PM,La Salle,Villanova,H,Villanova -20.1,Villanova -23.5,9,159.5,La Salle 3.4,Villanova -22.1,La Salle 1.4,n/a (<5 games),80%,80%,,-20.1,-23.5,3.4,-22.1,1.4,1
+Tue Nov 10 7:00 PM,Winthrop,Kennesaw St.,H,Kennesaw -8.5,,0,,,Kennesaw -8.5,,n/a (<5 games),80%,89%,,-8.5,,,-8.5,,1
+Tue Nov 10 7:00 PM,Bradley,Davidson,H,Davidson -8.6,Davidson -11,8,139.0,Bradley 2.4,Davidson -8.6,Bradley 2.4,n/a (<5 games),89%,80%,,-8.6,-11.0,2.4,-8.6,2.4,1
+Tue Nov 10 7:00 PM,Washington St.,Duquesne,H,Duquesne -5.8,Duquesne -5,9,148.5,Duquesne 0.8,Duquesne -5.8,Duquesne 0.8,n/a (<5 games),80%,89%,Ronnie Harrison out (+0.0),-5.8,-5.0,0.8,-5.8,0.8,1
+Tue Nov 10 7:00 PM,Wright St.,Toledo,H,Wright St -0.1,Wright St -1.5,9,159.5,Toledo 1.4,Wright St -0.1,Toledo 1.4,n/a (<5 games),80%,73%,,0.1,1.5,1.4,0.1,1.4,0
+Tue Nov 10 7:00 PM,Michigan St.,Duke,N,Duke -3.6,Duke -6.5,9,148.0,Mich St 2.9,Duke -3.6,Mich St 2.9,n/a (<5 games),80%,80%,,-3.6,-6.5,2.9,-3.6,2.9,0
+Tue Nov 10 7:00 PM,Detroit Mercy,Xavier,H,Xavier -27.4,Xavier -32.5,9,158.5,Detroit 5.1,Xavier -30.9,Detroit 1.6,n/a (<5 games),89%,80%,,-27.4,-32.5,5.1,-30.9,1.6,1
+Tue Nov 10 7:00 PM,Bryant,Providence,H,Providence -23.0,Providence -29.5,8,147.5,Bryant 6.5,Providence -25.6,Bryant 3.9,n/a (<5 games),73%,80%,,-23.0,-29.5,6.5,-25.6,3.9,1
+Tue Nov 10 7:15 PM,Memphis,Vanderbilt,H,Vanderbilt -13.1,Vanderbilt -17,9,160.5,Memphis 3.9,Vanderbilt -13.7,Memphis 3.3,n/a (<5 games),80%,80%,,-13.1,-17.0,3.9,-13.7,3.3,1
+Tue Nov 10 7:30 PM,Evansville,Middle Tennessee,H,MTSU -10.2,MTSU -7.5,9,144.5,MTSU 2.7,MTSU -10.2,MTSU 2.7,n/a (<5 games),89%,89%,,-10.2,-7.5,2.7,-10.2,2.7,1
+Tue Nov 10 7:30 PM,Texas St.,UT Rio Grande Valley,H,Texas St -5.5,Texas St -6.5,8,143.5,UTRGV 1.0,Texas St -5.5,UTRGV 1.0,n/a (<5 games),89%,89%,,5.5,6.5,1.0,5.5,1.0,0
+Tue Nov 10 7:30 PM,Nicholls,Tulane,H,Tulane -8.4,Tulane -7.5,8,151.5,Tulane 0.9,Tulane -8.4,Tulane 0.9,n/a (<5 games),89%,80%,,-8.4,-7.5,0.9,-8.4,0.9,1
+Tue Nov 10 8:00 PM,Illinois,Texas Tech,H,PK,Illinois -2.5,8,167.0,Texas Tech 2.5,PK,Texas Tech 2.5,n/a (<5 games),80%,80%,David Mirkovic out (-4.3); JT Toppin out (-2.0),-0.0,2.5,2.5,-0.0,2.5,0
+Tue Nov 10 8:00 PM,Green Bay,Northern Iowa,H,UNI -4.4,UNI -3.5,9,151.5,UNI 0.9,UNI -4.4,UNI 0.9,n/a (<5 games),80%,89%,,-4.4,-3.5,0.9,-4.4,0.9,1
+Tue Nov 10 8:00 PM,Tennessee Martin,Arkansas St.,H,Ark St -9.5,Ark St -6.5,9,153.5,Ark St 3.0,Ark St -9.5,Ark St 3.0,n/a (<5 games),80%,80%,,-9.5,-6.5,3.0,-9.5,3.0,1
+Tue Nov 10 8:00 PM,Alcorn St.,Murray St.,H,Murray St -22.7,Murray St -26.5,8,164.5,Alcorn 3.8,Murray St -25.2,Alcorn 1.3,n/a (<5 games),80%,80%,Mark Padjen out (-1.4),-22.7,-26.5,3.8,-25.2,1.3,1
+Tue Nov 10 8:00 PM,Houston Christian,South Dakota,H,S Dakota -4.2,S Dakota -2.5,8,156.5,S Dakota 1.7,S Dakota -4.2,S Dakota 1.7,n/a (<5 games),89%,80%,,-4.2,-2.5,1.7,-4.2,1.7,1
+Tue Nov 10 8:00 PM,Belmont,Lipscomb,H,Belmont -1.1,Belmont -3.5,8,155.5,Lipscomb 2.4,Belmont -1.1,Lipscomb 2.4,n/a (<5 games),89%,73%,,1.1,3.5,2.4,1.1,2.4,0
+Tue Nov 10 8:00 PM,Prairie View A&M,SMU,H,SMU -22.5,SMU -24.5,7,160.5,Prairie View 2.0,SMU -25.0,SMU 0.5,n/a (<5 games),89%,80%,,-22.5,-24.5,2.0,-25.0,0.5,1
+Tue Nov 10 8:00 PM,Northern Kentucky,Saint Louis,H,SLU -18.9,SLU -23.5,9,169.5,NKU 4.6,SLU -20.7,NKU 2.8,n/a (<5 games),73%,80%,,-18.9,-23.5,4.6,-20.7,2.8,1
+Tue Nov 10 8:00 PM,Southern,Iowa St.,H,Iowa St -31.5,Iowa St -33.5,8,147.5,Southern 2.0,Iowa St -35.8,Iowa St 2.3,n/a (<5 games),73%,80%,,-31.5,-33.5,2.0,-35.8,2.3,1
+Tue Nov 10 8:00 PM,Yale,Baylor,H,Baylor -19.6,Baylor -21.5,8,157.5,Yale 1.9,Baylor -21.5,-,n/a (<5 games),80%,80%,,-19.6,-21.5,1.9,-21.5,0.0,1
+Tue Nov 10 8:30 PM,Southeastern Louisiana,Mississippi,H,Ole Miss -22.8,Ole Miss -25.5,8,147.5,SE Louisiana 2.7,Ole Miss -25.4,SE Louisiana 0.1,n/a (<5 games),80%,80%,Micah Handlogten out (-0.5),-22.8,-25.5,2.7,-25.4,0.1,1
+Tue Nov 10 8:30 PM,Fairfield,Wisconsin,H,Wisconsin -21.9,Wisconsin -23.5,9,150.5,Fairfield 1.6,Wisconsin -24.3,Wisconsin 0.8,n/a (<5 games),80%,80%,,-21.9,-23.5,1.6,-24.3,0.8,1
+Tue Nov 10 9:00 PM,Bucknell,Virginia,H,UVA -34.1,UVA -37.5,8,148.5,Bucknell 3.4,UVA -38.9,UVA 1.4,n/a (<5 games),80%,73%,,-34.1,-37.5,3.4,-38.9,1.4,1
+Tue Nov 10 9:00 PM,Northern Arizona,Arizona,H,Arizona -33.5,Arizona -37,9,156.5,N Arizona 3.5,Arizona -38.2,Arizona 1.2,n/a (<5 games),80%,80%,RJ Godfrey out (-2.1),-33.5,-37.0,3.5,-38.2,1.2,1
+Tue Nov 10 9:00 PM,Queens,BYU,H,BYU -22.2,BYU -28.5,8,181.5,Queens 6.3,BYU -24.6,Queens 3.9,n/a (<5 games),73%,80%,,-22.2,-28.5,6.3,-24.6,3.9,1
+Tue Nov 10 9:00 PM,Georgia St.,Fresno St.,H,Fresno St -7.2,Fresno St -6,9,148.5,Fresno St 1.2,Fresno St -7.2,Fresno St 1.2,n/a (<5 games),80%,89%,DJ Stickman out (-0.7); Nathan Zulemie out (+0.0),-7.2,-6.0,1.2,-7.2,1.2,1
+Tue Nov 10 9:00 PM,Utah Tech,Utah St.,H,Utah St -22.1,Utah St -25.5,9,155.0,Utah Tech 3.4,Utah St -24.5,Utah Tech 1.0,n/a (<5 games),89%,80%,,-22.1,-25.5,3.4,-24.5,1.0,1
+Tue Nov 10 9:00 PM,Little Rock,New Mexico,H,New Mexico -15.8,New Mexico -22.5,9,157.5,Little Rock 6.7,New Mexico -17.0,Little Rock 5.5,n/a (<5 games),80%,80%,Rytis Petraitis out (-1.7),-15.8,-22.5,6.7,-17.0,5.5,1
+Tue Nov 10 9:00 PM,Hofstra,Arizona St.,H,Arizona St -13.6,Arizona St -17,9,133.5,Hofstra 3.4,Arizona St -14.3,Hofstra 2.7,n/a (<5 games),89%,80%,,-13.6,-17.0,3.4,-14.3,2.7,1
+Tue Nov 10 9:00 PM,Weber St.,Utah,H,Utah -17.7,Utah -18,9,155.0,Weber St 0.3,Utah -19.2,Utah 1.2,n/a (<5 games),80%,80%,,-17.7,-18.0,0.3,-19.2,1.2,1
+Tue Nov 10 9:00 PM,Louisiana Monroe,TCU,H,TCU -28.0,TCU -35.5,9,161.0,ULM 7.5,TCU -31.6,ULM 3.9,n/a (<5 games),80%,80%,,-28.0,-35.5,7.5,-31.6,3.9,1
+Tue Nov 10 9:00 PM,San Diego,Colorado,H,Colorado -14.4,Colorado -13.5,9,152.5,Colorado 0.9,Colorado -15.3,Colorado 1.8,n/a (<5 games),89%,80%,Iaroslav Niagu out (+0.0),-14.4,-13.5,0.9,-15.3,1.8,1
+Tue Nov 10 9:00 PM,Creighton,Kansas St.,H,Creighton -4.4,Creighton -3.5,9,158.0,Creighton 0.9,Creighton -4.4,Creighton 0.9,n/a (<5 games),80%,80%,,4.4,3.5,0.9,4.4,0.9,0
+Tue Nov 10 9:30 PM,Kansas,Kentucky,N,Kansas -6.3,Kansas -4,9,155.5,Kansas 2.3,Kansas -6.3,Kansas 2.3,n/a (<5 games),80%,80%,Melvin Council Jr out (-2.3); Kam Williams out (-1.1),6.3,4.0,2.3,6.3,2.3,0
+Tue Nov 10 10:00 PM,Montana,San Francisco,H,San Francisco -9.0,San Francisco -11.5,9,148.5,Montana 2.5,San Francisco -9.0,Montana 2.5,n/a (<5 games),89%,80%,,-9.0,-11.5,2.5,-9.0,2.5,1

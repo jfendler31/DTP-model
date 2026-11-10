@@ -941,3 +941,101 @@ gameId,date,team,opponent,isHome,d1_game,periods,poss_parsed,poss_unknown,off_ap
 377980,2026-11-08,Portland,Bethesda University,True,False,2,88,0,10.49,10.72,0.474,74,87,1
 377981,2026-11-08,Hawai'i,UT Arlington,True,True,2,71,0,15.07,15.33,0.937,9,71,0
 377981,2026-11-08,UT Arlington,Hawai'i,False,True,2,69,0,17.68,18.03,0.951,-9,71,-2
+372729,2026-11-09,Marshall,Ohio State,False,True,2,75,0,15.03,15.5,0.922,-10,75,0
+372729,2026-11-09,Ohio State,Marshall,True,True,2,76,0,16.68,16.77,0.953,10,77,-1
+372730,2026-11-09,Cincinnati,Minnesota,True,True,2,67,0,17.94,18.59,0.955,-2,66,1
+372730,2026-11-09,Minnesota,Cincinnati,False,True,2,65,0,17.54,18.33,0.938,2,66,-1
+372731,2026-11-09,Bowling Green,Cleveland State,True,True,2,61,0,19.34,18.57,0.87,16,62,-1
+372731,2026-11-09,Cleveland State,Bowling Green,False,True,2,63,0,19.37,20.39,0.864,-16,62,1
+372732,2026-11-09,Buffalo,Penn State-Schuylkill,True,False,2,89,1,12.29,12.34,0.524,42,88,1
+372732,2026-11-09,Penn State-Schuylkill,Buffalo,False,False,2,88,0,14.8,14.18,0.505,-42,87,1
+372733,2026-11-09,Ball State,Brescia,True,False,2,72,0,17.57,18.19,0.716,25,72,0
+372733,2026-11-09,Brescia,Ball State,False,False,2,73,0,14.6,15.23,0.685,-25,72,1
+372734,2026-11-09,Indiana,Syracuse,True,True,2,68,0,16.46,16.8,0.941,3,69,-1
+372734,2026-11-09,Syracuse,Indiana,False,True,2,68,0,18.76,19.38,0.956,-3,69,-1
+372735,2026-11-09,Alabama A&M,DePaul,False,True,2,68,0,18.25,18.5,0.692,-37,67,1
+372735,2026-11-09,DePaul,Alabama A&M,True,True,2,68,1,16.87,16.63,0.696,37,68,0
+372736,2026-11-09,Grambling,Texas,False,True,2,72,0,19.31,18.69,0.504,-31,72,0
+372736,2026-11-09,Texas,Grambling,True,True,2,71,0,14.06,12.42,0.516,31,74,-3
+372737,2026-11-09,Radford,Tennessee,False,True,2,70,0,20.0,21.15,0.746,-23,71,-1
+372737,2026-11-09,Tennessee,Radford,True,True,2,70,0,13.44,13.86,0.743,23,70,0
+372738,2026-11-09,North Alabama,Oklahoma,False,True,2,68,0,17.13,18.67,0.812,-9,68,0
+372738,2026-11-09,Oklahoma,North Alabama,True,True,2,63,0,17.16,17.15,0.832,9,68,-5
+372739,2026-11-09,Jackson State,Mississippi State,False,True,2,75,2,17.43,17.58,0.578,-41,72,3
+372739,2026-11-09,Mississippi State,Jackson State,True,True,2,73,0,14.96,14.93,0.575,41,72,1
+372740,2026-11-09,Florida Gulf Coast,Georgia,False,True,2,68,1,19.9,19.92,0.909,-8,66,2
+372740,2026-11-09,Georgia,Florida Gulf Coast,True,True,2,71,1,14.69,14.48,0.918,8,66,5
+372741,2026-11-09,Alabama,Oakland,True,True,2,72,0,14.43,13.23,0.501,41,72,0
+372741,2026-11-09,Oakland,Alabama,False,True,2,71,0,19.15,20.93,0.493,-41,71,0
+374783,2026-11-09,UIC,UNC Greensboro,True,True,2,64,0,18.98,18.49,0.916,10,63,1
+374783,2026-11-09,UNC Greensboro,UIC,False,True,2,62,1,18.06,18.4,0.874,-10,64,-2
+374784,2026-11-09,Illinois State,Purdue,False,True,2,59,0,20.63,21.36,0.842,-17,59,0
+374784,2026-11-09,Purdue,Illinois State,True,True,2,61,0,18.59,19.35,0.848,17,60,1
+374785,2026-11-09,Mississippi Valley State,Washington,False,True,2,65,0,17.65,17.79,0.919,-13,65,0
+374785,2026-11-09,Washington,Mississippi Valley State,True,True,2,62,0,17.65,16.98,0.904,13,65,-3
+374786,2026-11-09,Eastern Illinois,Notre Dame,False,True,2,73,0,17.68,18.63,0.684,-24,73,0
+374786,2026-11-09,Notre Dame,Eastern Illinois,True,True,2,72,0,14.6,14.53,0.662,24,72,0
+374787,2026-11-09,Coastal Carolina,South Carolina Upstate,True,True,2,67,0,16.7,16.91,0.939,9,67,0
+374787,2026-11-09,South Carolina Upstate,Coastal Carolina,False,True,2,65,0,18.8,19.22,0.94,-9,66,-1
+374788,2026-11-09,Missouri,SIU Edwardsville,True,True,2,63,0,15.76,15.91,0.553,38,65,-2
+374788,2026-11-09,SIU Edwardsville,Missouri,False,True,2,66,0,21.17,21.39,0.54,-38,65,1
+374789,2026-11-09,LSU,Louisiana Tech,True,True,2,68,0,13.96,13.42,0.434,40,72,-4
+374789,2026-11-09,Louisiana Tech,LSU,False,True,2,71,0,19.55,22.08,0.447,-40,71,0
+374790,2026-11-09,Miami,North Florida,True,True,2,82,1,13.73,13.24,0.624,38,80,2
+374790,2026-11-09,North Florida,Miami,False,True,2,79,1,16.08,16.53,0.625,-38,79,0
+374791,2026-11-09,Loyola Maryland,Washington College (MD),True,False,2,77,0,15.34,16.4,0.659,42,77,0
+374791,2026-11-09,Washington College (MD),Loyola Maryland,False,False,2,78,2,14.97,15.93,0.642,-42,76,2
+374792,2026-11-09,Rice,Stanford,False,True,2,73,0,14.9,16.13,0.663,-18,74,-1
+374792,2026-11-09,Stanford,Rice,True,True,2,75,1,17.48,17.55,0.662,18,74,1
+374793,2026-11-09,Charlotte,Seton Hall,False,True,2,67,0,15.63,16.95,0.891,6,66,1
+374793,2026-11-09,Seton Hall,Charlotte,True,True,2,63,1,20.37,21.2,0.937,-6,65,-2
+374794,2026-11-09,Jacksonville,Kansas City,True,True,2,68,0,18.29,17.89,0.742,18,65,3
+374794,2026-11-09,Kansas City,Jacksonville,False,True,2,63,0,18.35,19.85,0.716,-18,63,0
+374795,2026-11-09,App State,Auburn,False,True,2,57,0,20.0,19.1,0.83,-22,59,-2
+374795,2026-11-09,Auburn,App State,True,True,2,60,3,16.95,17.5,0.843,22,58,2
+374796,2026-11-09,Boston University,Northwestern,False,True,2,66,0,16.67,16.87,0.877,-17,65,1
+374796,2026-11-09,Northwestern,Boston University,True,True,2,65,0,19.23,19.83,0.9,17,65,0
+374797,2026-11-09,Eastern Washington,Oregon State,False,True,2,75,0,16.71,17.85,0.821,-10,74,1
+374797,2026-11-09,Oregon State,Eastern Washington,True,True,2,77,1,14.86,15.01,0.838,10,75,2
+374798,2026-11-09,UConn,Wagner,True,True,2,64,0,17.06,16.79,0.535,42,64,0
+374798,2026-11-09,Wagner,UConn,False,True,2,63,0,20.67,20.09,0.518,-42,64,-1
+374799,2026-11-09,Columbia,Stonehill,True,True,2,65,0,17.66,18.07,0.838,20,66,-1
+374799,2026-11-09,Stonehill,Columbia,False,True,2,66,0,17.27,17.53,0.833,-20,66,0
+374800,2026-11-09,Long Island University,Towson,False,True,2,66,0,18.7,18.93,0.737,-20,66,0
+374800,2026-11-09,Towson,Long Island University,True,True,2,66,0,17.45,18.71,0.738,20,66,0
+374801,2026-11-09,Chicago State,South Carolina State,True,True,2,67,0,19.13,19.33,0.812,-15,68,-1
+374801,2026-11-09,South Carolina State,Chicago State,False,True,2,68,0,15.62,15.36,0.847,15,68,0
+374802,2026-11-09,Florida A&M,UAB,False,True,2,73,0,17.37,18.47,0.724,-28,74,-1
+374802,2026-11-09,UAB,Florida A&M,True,True,2,71,0,15.08,15.57,0.727,28,74,-3
+374804,2026-11-09,Clemson,North Dakota,True,True,2,65,0,17.43,17.45,0.929,15,66,-1
+374804,2026-11-09,North Dakota,Clemson,False,True,2,66,1,19.12,19.68,0.926,-15,64,2
+374805,2026-11-09,Texas A&M,UL Monroe,True,True,2,82,1,11.9,12.37,0.588,41,84,-2
+374805,2026-11-09,UL Monroe,Texas A&M,False,True,2,84,0,15.52,15.02,0.566,-41,83,1
+374806,2026-11-09,Cheyney (PA),Coppin State,False,False,2,69,0,17.2,19.78,0.563,-37,71,-2
+374806,2026-11-09,Coppin State,Cheyney (PA),True,False,2,70,0,15.23,13.68,0.582,37,70,0
+374808,2026-11-09,Baptist (Fl),West Florida,False,False,2,85,0,16.36,16.45,0.49,-51,83,2
+374808,2026-11-09,West Florida,Baptist (Fl),True,False,2,84,0,11.98,11.17,0.479,51,82,2
+374809,2026-11-09,Howard,Pennsylvania,False,True,2,78,1,15.17,16.03,0.875,-13,78,0
+374809,2026-11-09,Pennsylvania,Howard,True,True,2,78,0,15.55,15.39,0.896,13,78,0
+374810,2026-11-09,McDaniel,UMBC,False,False,2,76,0,16.78,16.4,0.558,-30,76,0
+374810,2026-11-09,UMBC,McDaniel,True,False,2,75,0,14.95,14.21,0.57,30,77,-2
+374811,2026-11-09,Canisius,Hiram,True,False,2,79,0,13.68,13.26,0.394,57,79,0
+374811,2026-11-09,Hiram,Canisius,False,False,2,77,0,17.03,19.8,0.385,-57,78,-1
+374812,2026-11-09,Chattanooga,Covenant,True,False,2,77,0,15.05,13.69,0.494,30,79,-2
+374812,2026-11-09,Covenant,Chattanooga,False,False,2,78,0,15.15,16.25,0.494,-30,79,-1
+374813,2026-11-09,Elmira,Le Moyne,False,False,2,77,1,17.19,17.7,0.401,-70,75,2
+374813,2026-11-09,Le Moyne,Elmira,True,False,2,75,0,13.67,14.69,0.41,70,76,-1
+374814,2026-11-09,College Of Biblical Studies,McNeese,False,False,2,88,0,13.64,12.83,0.601,-48,86,2
+374814,2026-11-09,McNeese,College Of Biblical Studies,True,False,2,86,0,13.94,15.14,0.628,48,88,-2
+374815,2026-11-09,Fisk,Tennessee State,False,False,2,93,0,15.26,16.47,0.509,-50,93,0
+374815,2026-11-09,Tennessee State,Fisk,True,False,2,92,1,10.55,11.17,0.542,50,93,-1
+377982,2026-11-09,Simpson College (IA),Western Illinois,False,False,2,65,0,17.32,17.28,0.604,-42,69,-4
+377982,2026-11-09,Western Illinois,Simpson College (IA),True,False,2,68,0,17.9,18.67,0.601,42,69,-1
+377983,2026-11-09,Akron,Muskingum,True,False,2,78,0,14.01,14.44,0.396,48,78,0
+377983,2026-11-09,Muskingum,Akron,False,False,2,77,0,16.95,17.15,0.4,-48,76,1
+377984,2026-11-09,Louisiana,Southern-New Orleans,True,False,2,71,0,18.24,18.07,0.789,17,72,-1
+377984,2026-11-09,Southern-New Orleans,Louisiana,False,False,2,71,0,14.72,15.24,0.789,-17,71,0
+377985,2026-11-09,Bethesda University,UT Arlington,False,False,2,86,0,15.19,14.64,0.541,-51,84,2
+377985,2026-11-09,UT Arlington,Bethesda University,True,False,2,82,0,13.28,13.08,0.527,51,84,-2
+377986,2026-11-09,Hawai'i,Portland,True,True,2,62,0,20.1,20.85,0.938,-7,66,-4
+377986,2026-11-09,Portland,Hawai'i,False,True,2,64,0,16.97,17.67,0.943,7,66,-2
