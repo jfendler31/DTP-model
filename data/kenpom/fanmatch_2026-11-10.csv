@@ -1,0 +1,57 @@
+Season,GameID,DateOfGame,Visitor,Home,Location,HomeRank,VisitorRank,HomePred,VisitorPred,HomeWP,PredTempo,ThrillScore
+2027,493,2026-11-10,Youngstown St.,Central Michigan,Home,272,192,76,77,45,71,33.5
+2027,494,2026-11-10,Bradley,Davidson,Home,110,209,75,64,82,67,24.9
+2027,495,2026-11-10,Mercer,Georgia Southern,Home,256,230,80,79,54,74,33.8
+2027,497,2026-11-10,Maine,Rhode Island,Home,111,341,79,61,95,70,10.4
+2027,500,2026-11-10,Nicholls,Tulane,Home,187,273,80,73,73,72,26.9
+2027,501,2026-11-10,Belmont,Lipscomb,Home,226,136,76,80,38,73,36.9
+2027,504,2026-11-10,Maryland Eastern Shore,Boston College,Home,96,356,78,56,97,66,8.0
+2027,505,2026-11-10,Siena,Dayton,Home,93,269,82,65,93,72,14.6
+2027,506,2026-11-10,Washington St.,Duquesne,Home,129,134,78,74,61,70,42.5
+2027,507,2026-11-10,Florida,Florida St.,Home,54,2,75,86,16,74,62.7
+2027,508,2026-11-10,Iona,Fordham,Home,116,210,76,66,80,69,26.5
+2027,509,2026-11-10,Elon,George Washington,Home,95,175,80,69,82,70,27.7
+2027,510,2026-11-10,Delaware St.,Georgetown,Home,68,364,85,57,99,70,6.9
+2027,511,2026-11-10,Eastern Kentucky,Georgia Tech,Home,106,280,85,70,91,73,16.2
+2027,513,2026-11-10,Winthrop,Kennesaw St.,Home,158,245,86,78,75,76,28.0
+2027,515,2026-11-10,Presbyterian,N.C. State,Home,71,234,84,67,93,68,16.7
+2027,516,2026-11-10,Army,New Haven,Home,355,330,68,69,48,67,27.9
+2027,517,2026-11-10,Wyoming,North Carolina,Home,45,115,83,70,87,71,34.4
+2027,518,2026-11-10,Harvard,Northeastern,Home,265,135,73,78,32,71,32.4
+2027,519,2026-11-10,Bryant,Providence,Home,52,320,84,59,99,72,9.2
+2027,520,2026-11-10,NJIT,Rutgers,Home,81,353,84,60,99,69,7.7
+2027,522,2026-11-10,Wright St.,Toledo,Home,137,119,80,79,50,72,47.2
+2027,523,2026-11-10,South Alabama,UCF,Home,63,249,84,66,95,69,14.8
+2027,524,2026-11-10,La Salle,Villanova,Home,42,181,87,68,95,71,18.0
+2027,525,2026-11-10,Bucknell,Virginia,Home,10,344,92,57,100,70,7.8
+2027,526,2026-11-10,Charleston Southern,Wake Forest,Home,90,316,86,65,97,74,10.4
+2027,527,2026-11-10,Detroit Mercy,Xavier,Home,43,303,91,65,99,73,9.8
+2027,528,2026-11-10,Tennessee Martin,Arkansas St.,Home,165,288,78,69,79,72,22.3
+2027,530,2026-11-10,Yale,Baylor,Home,38,132,85,70,92,71,26.1
+2027,531,2026-11-10,Michigan St.,Duke,Neutral,1,6,78,73,64,71,85.2
+2027,532,2026-11-10,Virginia Tech,Iowa,Semi-Home,40,48,73,70,59,67,72.8
+2027,533,2026-11-10,Southern,Iowa St.,Home,14,278,87,58,100,71,9.9
+2027,534,2026-11-10,Kansas,Kentucky,Neutral,29,5,76,83,27,72,75.0
+2027,535,2026-11-10,Creighton,Kansas St.,Home,117,49,74,79,33,72,57.9
+2027,536,2026-11-10,Evansville,Middle Tennessee,Home,183,274,76,68,76,69,23.7
+2027,537,2026-11-10,Southeastern Louisiana,Mississippi,Home,34,255,84,62,98,70,13.0
+2027,539,2026-11-10,Alcorn St.,Murray St.,Home,91,332,91,70,97,75,10.7
+2027,540,2026-11-10,Green Bay,Northern Iowa,Home,155,185,77,72,67,69,33.3
+2027,541,2026-11-10,Prairie View A&M,SMU,Home,76,307,88,66,97,74,10.8
+2027,542,2026-11-10,Northern Kentucky,Saint Louis,Home,44,188,93,73,96,75,17.0
+2027,543,2026-11-10,Houston Christian,South Dakota,Home,275,236,78,77,54,73,32.6
+2027,544,2026-11-10,Louisiana Monroe,TCU,Home,41,338,93,64,100,73,8.4
+2027,547,2026-11-10,Illinois,Texas Tech,Home,17,4,79,80,47,71,88.0
+2027,548,2026-11-10,Loyola Marymount,Troy,Home,200,153,75,74,51,70,37.5
+2027,549,2026-11-10,Texas St.,UT Rio Grande Valley,Home,247,105,68,75,25,67,31.2
+2027,550,2026-11-10,Memphis,Vanderbilt,Home,7,73,86,71,90,72,43.8
+2027,551,2026-11-10,Fairfield,Wisconsin,Home,51,250,84,63,96,71,13.6
+2027,552,2026-11-10,Northern Arizona,Arizona,Home,13,294,93,63,100,71,9.8
+2027,553,2026-11-10,Hofstra,Arizona St.,Home,70,143,75,63,85,66,28.2
+2027,554,2026-11-10,Queens,BYU,Home,21,189,100,76,98,74,16.2
+2027,555,2026-11-10,San Diego,Colorado,Home,82,180,82,69,89,71,21.7
+2027,556,2026-11-10,Little Rock,New Mexico,Home,64,217,87,69,94,72,16.3
+2027,558,2026-11-10,Weber St.,Utah,Home,100,296,84,66,95,72,11.9
+2027,559,2026-11-10,Utah Tech,Utah St.,Home,46,253,87,65,98,71,12.3
+2027,560,2026-11-10,Georgia St.,Fresno St.,Home,186,220,77,73,65,72,31.8
+2027,561,2026-11-10,Montana,San Francisco,Home,149,243,77,69,74,70,27.3

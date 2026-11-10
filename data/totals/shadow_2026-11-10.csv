@@ -1,0 +1,57 @@
+date,tip_ET,away,home,venue,early_total,kp_total,kp_tempo,ppp_game,net_eff_gap,games_away,games_home,imp_raw,dom_raw,model_raw,diff_raw,lean_raw,imp_comp,dom_comp,model_comp,diff_comp,lean_comp,rule_raw,rule_comp
+2026-11-10,Tue Nov 10 6:00 PM,Florida,Florida St.,H,166.5,161,74.0,1.0756,18.7,2,2,0.02,Florida St.,159.2,-7.3,U,-0.78,Florida St.,156.9,-9.6,U,False,False
+2026-11-10,Tue Nov 10 6:30 PM,NJIT,Rutgers,H,144.5,144,69.0,1.0515,30.1,3,1,-1.62,Rutgers,141.0,-3.5,U,-2.05,NJIT,139.8,-4.7,U,False,False
+2026-11-10,Tue Nov 10 6:30 PM,Delaware St.,Georgetown,H,142.5,142,70.0,1.037,36.0,1,2,0.85,Delaware St.,145.7,3.2,O,-0.83,Georgetown,143.3,0.8,O,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Maryland Eastern Shore,Boston College,H,131.5,134,66.0,1.0346,28.0,2,2,-2.28,Boston College,131.0,-0.5,U,-2.13,Boston College,131.4,-0.1,U,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Charleston Southern,Wake Forest,H,154.5,151,74.0,1.0395,22.6,1,2,-0.4,Wake Forest,152.9,-1.6,U,0.02,Wake Forest,154.1,-0.4,U,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Youngstown St.,Central Michigan,H,152.5,153,71.0,1.0641,5.6,2,1,-0.04,neither,151.3,-1.2,U,-0.02,neither,151.3,-1.2,U,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Siena,Dayton,H,159.0,147,72.0,1.0402,18.6,2,2,1.48,Siena,150.1,-8.9,U,1.58,Siena,150.1,-8.9,U,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Iona,Fordham,H,139.5,142,69.0,1.0384,10.5,3,2,0.67,Fordham,143.9,4.4,O,0.78,Fordham,143.9,4.4,O,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Elon,George Washington,H,148.5,149,70.0,1.0598,10.7,2,2,-0.96,George Washington,146.0,-2.5,U,-1.5,George Washington,144.5,-4.0,U,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Army,New Haven,H,131.5,137,67.0,1.0339,3.8,1,2,-1.305,neither,135.6,4.1,O,-0.78,neither,137.1,5.6,O,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Wyoming,North Carolina,H,155.5,153,71.0,1.0701,12.5,1,2,1.32,Wyoming,152.2,-3.3,U,2.47,Wyoming,152.2,-3.3,U,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Loyola Marymount,Troy,H,146.5,149,70.0,1.0616,3.4,1,2,0.3,neither,149.0,2.5,O,0.005,neither,149.0,2.5,O,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Presbyterian,N.C. State,H,148.5,151,68.0,1.0857,19.7,2,2,-1.07,N.C. State,144.9,-3.6,U,-1.02,N.C. State,145.1,-3.4,U,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Maine,Rhode Island,H,140.5,140,70.0,1.0324,22.4,3,2,0.76,Rhode Island,145.1,4.6,O,1.03,Rhode Island,145.1,4.6,O,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Eastern Kentucky,Georgia Tech,H,164.0,155,73.0,1.0605,17.3,0,2,,,,,,,,,,,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Harvard,Northeastern,H,146.5,151,71.0,1.0642,10.7,0,2,,,,,,,,,,,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Virginia Tech,Iowa,N,142.0,143,67.0,1.0657,1.6,2,2,0.78,Iowa,143.4,1.4,O,0.11,Virginia Tech,143.4,1.4,O,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Mercer,Georgia Southern,H,164.0,159,74.0,1.0688,1.7,2,2,0.04,Georgia Southern,158.2,-5.8,U,0.08,Georgia Southern,158.2,-5.8,U,False,False
+2026-11-10,Tue Nov 10 7:00 PM,South Alabama,UCF,H,151.5,150,69.0,1.066,21.6,2,2,0.36,UCF,147.5,-4.0,U,0.22,UCF,147.5,-4.0,U,False,False
+2026-11-10,Tue Nov 10 7:00 PM,La Salle,Villanova,H,159.5,155,71.0,1.0763,22.2,2,2,1.26,La Salle,153.1,-6.4,U,-1.09,Villanova,149.9,-9.6,U,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Winthrop,Kennesaw St.,H,,164,76.0,1.0695,5.9,2,1,1.5,Kennesaw St.,162.6,,,1.43,Kennesaw St.,162.6,,,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Bradley,Davidson,H,139.0,139,67.0,1.0473,11.7,1,2,-2.35,Bradley,134.3,-4.7,U,-2.24,Bradley,134.6,-4.4,U,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Washington St.,Duquesne,H,148.5,152,70.0,1.0691,0.8,2,1,0.5,Duquesne,150.0,1.5,O,0.04,Duquesne,150.0,1.5,O,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Wright St.,Toledo,H,159.5,159,72.0,1.0763,3.2,2,3,0.56,Wright St.,155.1,-4.4,U,0.53,Wright St.,155.1,-4.4,U,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Michigan St.,Duke,N,148.0,151,71.0,1.0612,5.9,2,2,1.07,Duke,151.0,3.0,O,0.86,Duke,151.0,3.0,O,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Detroit Mercy,Xavier,H,158.5,156,73.0,1.0605,31.3,1,2,1.03,Xavier,155.0,-3.5,U,-0.29,Xavier,154.2,-4.3,U,False,False
+2026-11-10,Tue Nov 10 7:00 PM,Bryant,Providence,H,147.5,143,72.0,1.0274,30.0,3,2,-1.11,Providence,145.3,-2.2,U,-1.25,Providence,144.9,-2.6,U,False,False
+2026-11-10,Tue Nov 10 7:15 PM,Memphis,Vanderbilt,H,160.5,157,72.0,1.07,15.4,2,2,-0.3,Vanderbilt,153.4,-7.1,U,-0.3,Vanderbilt,153.4,-7.1,U,False,False
+2026-11-10,Tue Nov 10 7:30 PM,Evansville,Middle Tennessee,H,144.5,144,69.0,1.0461,6.3,1,1,-0.215,neither,144.3,-0.2,U,-0.165,neither,144.4,-0.1,U,False,False
+2026-11-10,Tue Nov 10 7:30 PM,Texas St.,UT Rio Grande Valley,H,143.5,143,67.0,1.0578,14.6,1,1,-2.76,Texas St.,134.4,-9.1,U,-2.65,Texas St.,134.8,-8.7,U,False,False
+2026-11-10,Tue Nov 10 7:30 PM,Nicholls,Tulane,H,151.5,153,72.0,1.0613,6.2,1,2,1.91,Nicholls,153.1,1.6,O,1.51,Nicholls,153.1,1.6,O,False,False
+2026-11-10,Tue Nov 10 8:00 PM,Illinois,Texas Tech,H,167.0,159,71.0,1.087,7.4,2,2,-0.22,Texas Tech,153.9,-13.1,U,2.58,Illinois,154.5,-12.5,U,False,False
+2026-11-10,Tue Nov 10 8:00 PM,Green Bay,Northern Iowa,H,151.5,149,69.0,1.0718,2.3,2,1,1.52,Northern Iowa,148.3,-3.2,U,-0.72,Green Bay,146.2,-5.3,U,False,False
+2026-11-10,Tue Nov 10 8:00 PM,Tennessee Martin,Arkansas St.,H,153.5,147,72.0,1.0385,9.2,2,2,2.84,Arkansas St.,149.9,-3.6,U,2.59,Arkansas St.,149.9,-3.6,U,False,False
+2026-11-10,Tue Nov 10 8:00 PM,Alcorn St.,Murray St.,H,164.5,161,75.0,1.0655,24.5,2,2,0.19,Murray St.,159.8,-4.7,U,0.46,Murray St.,159.8,-4.7,U,False,False
+2026-11-10,Tue Nov 10 8:00 PM,Houston Christian,South Dakota,H,156.5,155,73.0,1.0584,2.9,1,2,1.44,Houston Christian,154.7,-1.8,U,1.29,Houston Christian,154.7,-1.8,U,False,False
+2026-11-10,Tue Nov 10 8:00 PM,Belmont,Lipscomb,H,155.5,156,73.0,1.059,7.9,1,3,-1.27,Belmont,151.2,-4.3,U,-0.83,Belmont,152.4,-3.1,U,False,False
+2026-11-10,Tue Nov 10 8:00 PM,Prairie View A&M,SMU,H,160.5,154,74.0,1.05,25.1,1,2,0.88,SMU,155.6,-4.9,U,0.78,SMU,155.6,-4.9,U,False,False
+2026-11-10,Tue Nov 10 8:00 PM,Northern Kentucky,Saint Louis,H,169.5,166,75.0,1.0802,21.8,3,2,1.74,Saint Louis,162.0,-7.5,U,1.06,Saint Louis,162.0,-7.5,U,False,False
+2026-11-10,Tue Nov 10 8:00 PM,Southern,Iowa St.,H,147.5,145,71.0,1.0373,35.6,3,2,-0.35,Iowa St.,146.7,-0.8,U,-0.63,Iowa St.,145.9,-1.6,U,False,False
+2026-11-10,Tue Nov 10 8:00 PM,Yale,Baylor,H,157.5,155,71.0,1.0768,17.3,2,2,1.58,Baylor,153.1,-4.4,U,2.11,Baylor,153.1,-4.4,U,False,False
+2026-11-10,Tue Nov 10 8:30 PM,Southeastern Louisiana,Mississippi,H,147.5,146,70.0,1.0476,27.9,2,2,0.63,Mississippi,147.1,-0.4,U,0.24,Mississippi,147.1,-0.4,U,False,False
+2026-11-10,Tue Nov 10 8:30 PM,Fairfield,Wisconsin,H,150.5,147,71.0,1.0457,24.3,2,2,0.61,Fairfield,148.9,-1.6,U,0.53,Fairfield,148.9,-1.6,U,False,False
+2026-11-10,Tue Nov 10 9:00 PM,Bucknell,Virginia,H,148.5,149,70.0,1.0602,44.0,2,3,1.7,Virginia,148.8,0.3,O,1.31,Virginia,148.8,0.3,O,False,False
+2026-11-10,Tue Nov 10 9:00 PM,Northern Arizona,Arizona,H,156.5,156,71.0,1.0768,37.5,2,2,1.87,Arizona,153.1,-3.4,U,1.32,Arizona,153.1,-3.4,U,False,False
+2026-11-10,Tue Nov 10 9:00 PM,Queens,BYU,H,181.5,176,74.0,1.1212,26.7,3,2,-0.37,BYU,164.8,-16.7,U,-0.77,BYU,163.5,-18.0,U,False,False
+2026-11-10,Tue Nov 10 9:00 PM,Georgia St.,Fresno St.,H,148.5,150,72.0,1.0518,2.5,2,1,-1.09,Georgia St.,148.6,0.1,O,-0.97,Georgia St.,149.0,0.5,O,False,False
+2026-11-10,Tue Nov 10 9:00 PM,Utah Tech,Utah St.,H,155.0,152,71.0,1.066,25.7,1,2,0.79,Utah St.,151.7,-3.3,U,0.87,Utah St.,151.7,-3.3,U,False,False
+2026-11-10,Tue Nov 10 9:00 PM,Little Rock,New Mexico,H,157.5,156,72.0,1.0727,19.5,2,2,0.64,New Mexico,154.7,-2.8,U,0.46,New Mexico,154.7,-2.8,U,False,False
+2026-11-10,Tue Nov 10 9:00 PM,Hofstra,Arizona St.,H,133.5,138,66.0,1.0542,12.8,1,2,-1.17,Arizona St.,136.5,3.0,O,-1.79,Arizona St.,134.7,1.2,O,False,False
+2026-11-10,Tue Nov 10 9:00 PM,Weber St.,Utah,H,155.0,150,72.0,1.0516,19.4,2,2,-1.51,Utah,147.4,-7.6,U,-1.39,Utah,147.8,-7.2,U,False,False
+2026-11-10,Tue Nov 10 9:00 PM,Louisiana Monroe,TCU,H,161.0,157,73.0,1.0658,34.9,2,2,1.05,TCU,155.8,-5.2,U,0.59,TCU,155.8,-5.2,U,False,False
+2026-11-10,Tue Nov 10 9:00 PM,San Diego,Colorado,H,152.5,151,71.0,1.0571,13.7,1,2,-2.13,San Diego,144.3,-8.2,U,-1.87,San Diego,145.1,-7.4,U,False,False
+2026-11-10,Tue Nov 10 9:00 PM,Creighton,Kansas St.,H,158.0,153,72.0,1.0568,12.1,2,2,0.78,Creighton,152.4,-5.6,U,1.45,Creighton,152.4,-5.6,U,False,False
+2026-11-10,Tue Nov 10 9:30 PM,Kansas,Kentucky,N,155.5,159,72.0,1.0803,9.7,2,2,0.37,Kansas,155.7,0.2,O,-0.38,Kansas,154.6,-0.9,U,False,False
+2026-11-10,Tue Nov 10 10:00 PM,Montana,San Francisco,H,148.5,146,70.0,1.0532,7.0,1,2,-1.55,San Francisco,143.5,-5.0,U,-1.46,San Francisco,143.7,-4.8,U,False,False
