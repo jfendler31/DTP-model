@@ -1,0 +1,464 @@
+pulled_ET,tip_ET,away,home,book,book_updated,home_spread,home_price,total,over_price
+2026-11-10 22:18,2026-11-10 20:00,Alcorn St Braves,Murray St Racers,fanduel,2026-11-11T03:14:59Z,-36.5,-130.0,,
+2026-11-10 22:18,2026-11-10 20:00,Alcorn St Braves,Murray St Racers,fanatics,2026-11-11T03:13:39Z,-36.5,-150.0,,
+2026-11-10 22:18,2026-11-10 20:00,Alcorn St Braves,Murray St Racers,draftkings,2026-11-11T03:13:14Z,-36.5,-145.0,,
+2026-11-10 22:18,2026-11-10 20:00,Alcorn St Braves,Murray St Racers,betmgm,2026-11-11T03:13:50Z,-36.5,-130.0,153.5,-140.0
+2026-11-10 22:18,2026-11-10 20:00,Alcorn St Braves,Murray St Racers,bovada,2026-11-11T03:11:33Z,-38.5,-110.0,,
+2026-11-10 22:18,2026-11-10 20:00,Alcorn St Braves,Murray St Racers,betrivers,2026-11-11T03:11:10Z,-38.5,-195.0,149.5,-190.0
+2026-11-10 22:18,2026-11-10 20:00,Yale Bulldogs,Baylor Bears,fanduel,2026-11-11T03:06:56Z,-28.5,-110.0,,
+2026-11-10 22:18,2026-11-10 20:00,Yale Bulldogs,Baylor Bears,fanatics,2026-11-11T03:06:19Z,-26.5,100.0,153.5,-125.0
+2026-11-10 22:18,2026-11-10 20:00,Yale Bulldogs,Baylor Bears,draftkings,2026-11-11T03:05:59Z,-27.5,-130.0,153.5,-115.0
+2026-11-10 22:18,2026-11-10 20:00,Yale Bulldogs,Baylor Bears,williamhill_us,2026-11-11T03:04:48Z,-26.5,110.0,155.5,100.0
+2026-11-10 22:18,2026-11-10 20:00,Yale Bulldogs,Baylor Bears,betmgm,2026-11-11T03:06:41Z,-27.5,105.0,155.5,-130.0
+2026-11-10 22:18,2026-11-10 20:00,Yale Bulldogs,Baylor Bears,bovada,2026-11-11T03:04:53Z,-26.5,-130.0,155.5,110.0
+2026-11-10 22:18,2026-11-10 20:00,Yale Bulldogs,Baylor Bears,betrivers,2026-11-11T03:06:36Z,-27.5,-121.0,153.5,110.0
+2026-11-10 22:18,2026-11-10 20:02,Illinois Fighting Illini,Texas Tech Red Raiders,draftkings,2026-11-11T03:14:07Z,-7.5,-130.0,161.5,-115.0
+2026-11-10 22:18,2026-11-10 20:02,Illinois Fighting Illini,Texas Tech Red Raiders,betrivers,2026-11-11T03:11:10Z,-4.5,-112.0,161.5,-124.0
+2026-11-10 22:18,2026-11-10 20:02,Illinois Fighting Illini,Texas Tech Red Raiders,fanduel,2026-11-11T03:13:13Z,-5.5,-125.0,163.5,-106.0
+2026-11-10 22:18,2026-11-10 20:02,Illinois Fighting Illini,Texas Tech Red Raiders,betmgm,2026-11-11T03:13:50Z,-7.5,125.0,160.5,-145.0
+2026-11-10 22:18,2026-11-10 20:03,Tenn-Martin Skyhawks,Arkansas St Red Wolves,fanatics,2026-11-11T03:03:35Z,,,148.5,-120.0
+2026-11-10 22:18,2026-11-10 20:03,Tenn-Martin Skyhawks,Arkansas St Red Wolves,draftkings,2026-11-11T03:03:17Z,18.5,100.0,148.5,-135.0
+2026-11-10 22:18,2026-11-10 20:03,Tenn-Martin Skyhawks,Arkansas St Red Wolves,betmgm,2026-11-11T03:04:51Z,18.5,160.0,147.5,118.0
+2026-11-10 22:18,2026-11-10 20:05,Houston Christian Huskies,South Dakota Coyotes,betmgm,2026-11-11T03:09:21Z,11.5,-700.0,163.5,280.0
+2026-11-10 22:18,2026-11-10 20:30,SE Louisiana Lions,Ole Miss Rebels,fanduel,2026-11-11T03:17:43Z,-44.5,-110.0,145.5,-130.0
+2026-11-10 22:18,2026-11-10 20:30,SE Louisiana Lions,Ole Miss Rebels,fanatics,2026-11-11T03:18:02Z,-45.5,-115.0,146.5,100.0
+2026-11-10 22:18,2026-11-10 20:30,SE Louisiana Lions,Ole Miss Rebels,betmgm,2026-11-11T03:17:27Z,-40.5,-130.0,146.5,-125.0
+2026-11-10 22:18,2026-11-10 20:30,SE Louisiana Lions,Ole Miss Rebels,draftkings,2026-11-11T03:17:44Z,-44.5,-105.0,145.5,-125.0
+2026-11-10 22:18,2026-11-10 20:30,SE Louisiana Lions,Ole Miss Rebels,bovada,2026-11-11T03:16:16Z,-41.5,-120.0,148.5,-110.0
+2026-11-10 22:18,2026-11-10 20:30,SE Louisiana Lions,Ole Miss Rebels,betrivers,2026-11-11T03:17:27Z,-44.5,-106.0,146.5,-107.0
+2026-11-10 22:18,2026-11-10 20:34,Fairfield Stags,Wisconsin Badgers,fanduel,2026-11-11T03:17:43Z,-46.5,-132.0,133.5,-122.0
+2026-11-10 22:18,2026-11-10 20:34,Fairfield Stags,Wisconsin Badgers,fanatics,2026-11-11T03:18:02Z,-46.5,-150.0,132.5,215.0
+2026-11-10 22:18,2026-11-10 20:34,Fairfield Stags,Wisconsin Badgers,draftkings,2026-11-11T03:17:44Z,-46.5,100.0,133.5,-105.0
+2026-11-10 22:18,2026-11-10 20:34,Fairfield Stags,Wisconsin Badgers,williamhill_us,2026-11-11T03:16:46Z,-44.5,-105.0,,
+2026-11-10 22:18,2026-11-10 20:34,Fairfield Stags,Wisconsin Badgers,betmgm,2026-11-11T03:17:27Z,-43.5,-105.0,132.5,-110.0
+2026-11-10 22:18,2026-11-10 20:34,Fairfield Stags,Wisconsin Badgers,bovada,2026-11-11T03:16:16Z,-42.5,-120.0,131.5,-125.0
+2026-11-10 22:18,2026-11-10 20:34,Fairfield Stags,Wisconsin Badgers,betrivers,2026-11-11T03:17:27Z,-45.5,-143.0,132.5,-136.0
+2026-11-10 22:18,2026-11-10 21:00,Hofstra Pride,Arizona St Sun Devils,fanduel,2026-11-11T03:17:43Z,-22.5,-118.0,140.5,-118.0
+2026-11-10 22:18,2026-11-10 21:00,Hofstra Pride,Arizona St Sun Devils,fanatics,2026-11-11T03:18:02Z,-26.5,-110.0,142.5,-105.0
+2026-11-10 22:18,2026-11-10 21:00,Hofstra Pride,Arizona St Sun Devils,draftkings,2026-11-11T03:17:44Z,-25.5,-115.0,142.5,-125.0
+2026-11-10 22:18,2026-11-10 21:00,Hofstra Pride,Arizona St Sun Devils,williamhill_us,2026-11-11T03:16:46Z,-20.5,-120.0,140.5,-120.0
+2026-11-10 22:18,2026-11-10 21:00,Hofstra Pride,Arizona St Sun Devils,betmgm,2026-11-11T03:17:27Z,-23.5,-145.0,142.5,-170.0
+2026-11-10 22:18,2026-11-10 21:00,Hofstra Pride,Arizona St Sun Devils,bovada,2026-11-11T03:16:16Z,-18.5,-120.0,141.5,-110.0
+2026-11-10 22:18,2026-11-10 21:00,Hofstra Pride,Arizona St Sun Devils,betrivers,2026-11-11T03:17:27Z,-23.5,-115.0,143.5,-118.0
+2026-11-10 22:18,2026-11-10 21:00,Northern Arizona Lumberjacks,Arizona Wildcats,fanduel,2026-11-11T03:17:43Z,-34.5,-110.0,155.5,-106.0
+2026-11-10 22:18,2026-11-10 21:00,Northern Arizona Lumberjacks,Arizona Wildcats,fanatics,2026-11-11T03:18:02Z,-35.5,-105.0,155.5,-115.0
+2026-11-10 22:18,2026-11-10 21:00,Northern Arizona Lumberjacks,Arizona Wildcats,draftkings,2026-11-11T03:17:44Z,-35.5,-105.0,155.5,-105.0
+2026-11-10 22:18,2026-11-10 21:00,Northern Arizona Lumberjacks,Arizona Wildcats,betmgm,2026-11-11T03:17:27Z,-35.5,-115.0,155.5,-110.0
+2026-11-10 22:18,2026-11-10 21:00,Northern Arizona Lumberjacks,Arizona Wildcats,williamhill_us,2026-11-11T03:16:46Z,-34.5,-120.0,155.5,-115.0
+2026-11-10 22:18,2026-11-10 21:00,Northern Arizona Lumberjacks,Arizona Wildcats,bovada,2026-11-11T03:16:16Z,-35.5,-105.0,155.5,-105.0
+2026-11-10 22:18,2026-11-10 21:00,Northern Arizona Lumberjacks,Arizona Wildcats,betrivers,2026-11-11T03:17:27Z,-35.5,-120.0,155.5,-132.0
+2026-11-10 22:18,2026-11-10 21:00,Arkansas-Little Rock Trojans,New Mexico Lobos,fanduel,2026-11-11T03:17:43Z,-23.5,-110.0,162.5,-125.0
+2026-11-10 22:18,2026-11-10 21:00,Arkansas-Little Rock Trojans,New Mexico Lobos,fanatics,2026-11-11T03:18:02Z,-24.5,-120.0,165.5,-110.0
+2026-11-10 22:18,2026-11-10 21:00,Arkansas-Little Rock Trojans,New Mexico Lobos,draftkings,2026-11-11T03:17:45Z,-23.5,-125.0,162.5,-120.0
+2026-11-10 22:18,2026-11-10 21:00,Arkansas-Little Rock Trojans,New Mexico Lobos,williamhill_us,2026-11-11T03:16:46Z,-23.5,-115.0,163.5,-110.0
+2026-11-10 22:18,2026-11-10 21:00,Arkansas-Little Rock Trojans,New Mexico Lobos,betmgm,2026-11-11T03:17:27Z,-23.5,-105.0,163.5,-115.0
+2026-11-10 22:18,2026-11-10 21:00,Arkansas-Little Rock Trojans,New Mexico Lobos,betrivers,2026-11-11T03:17:27Z,-23.5,-130.0,164.5,-125.0
+2026-11-10 22:18,2026-11-10 21:00,Queens University Royals,BYU Cougars,fanduel,2026-11-11T03:17:43Z,-21.5,-122.0,184.5,-110.0
+2026-11-10 22:18,2026-11-10 21:00,Queens University Royals,BYU Cougars,fanatics,2026-11-11T03:18:02Z,-22.5,-125.0,186.5,-125.0
+2026-11-10 22:18,2026-11-10 21:00,Queens University Royals,BYU Cougars,betmgm,2026-11-11T03:17:27Z,-21.5,-105.0,184.5,-105.0
+2026-11-10 22:18,2026-11-10 21:00,Queens University Royals,BYU Cougars,williamhill_us,2026-11-11T03:16:46Z,-19.5,-120.0,185.5,-120.0
+2026-11-10 22:18,2026-11-10 21:00,Queens University Royals,BYU Cougars,draftkings,2026-11-11T03:17:44Z,-22.5,-115.0,186.5,-125.0
+2026-11-10 22:18,2026-11-10 21:00,Queens University Royals,BYU Cougars,bovada,2026-11-11T03:16:16Z,-17.5,-115.0,184.5,-120.0
+2026-11-10 22:18,2026-11-10 21:00,Queens University Royals,BYU Cougars,betrivers,2026-11-11T03:17:27Z,-21.5,-134.0,185.5,-122.0
+2026-11-10 22:18,2026-11-10 21:00,Bucknell Bison,Virginia Cavaliers,fanduel,2026-11-11T03:17:43Z,-40.5,-114.0,165.5,-104.0
+2026-11-10 22:18,2026-11-10 21:00,Bucknell Bison,Virginia Cavaliers,fanatics,2026-11-11T03:18:02Z,-39.5,-120.0,163.5,-110.0
+2026-11-10 22:18,2026-11-10 21:00,Bucknell Bison,Virginia Cavaliers,williamhill_us,2026-11-11T03:16:46Z,-37.5,-110.0,163.5,-115.0
+2026-11-10 22:18,2026-11-10 21:00,Bucknell Bison,Virginia Cavaliers,betmgm,2026-11-11T03:17:27Z,-39.5,-118.0,166.5,-110.0
+2026-11-10 22:18,2026-11-10 21:00,Bucknell Bison,Virginia Cavaliers,draftkings,2026-11-11T03:17:44Z,-39.5,-125.0,163.5,-110.0
+2026-11-10 22:18,2026-11-10 21:00,Bucknell Bison,Virginia Cavaliers,bovada,2026-11-11T03:16:16Z,-37.5,-110.0,162.5,-110.0
+2026-11-10 22:18,2026-11-10 21:00,Bucknell Bison,Virginia Cavaliers,betrivers,2026-11-11T03:17:27Z,-39.5,-122.0,164.5,-125.0
+2026-11-10 22:18,2026-11-10 21:00,San Diego Toreros,Colorado Buffaloes,fanduel,2026-11-11T03:17:43Z,-5.5,-106.0,152.5,-104.0
+2026-11-10 22:18,2026-11-10 21:00,San Diego Toreros,Colorado Buffaloes,fanatics,2026-11-11T03:18:02Z,-5.5,-115.0,150.5,100.0
+2026-11-10 22:18,2026-11-10 21:00,San Diego Toreros,Colorado Buffaloes,draftkings,2026-11-11T03:17:44Z,-5.5,-120.0,150.5,-110.0
+2026-11-10 22:18,2026-11-10 21:00,San Diego Toreros,Colorado Buffaloes,williamhill_us,2026-11-11T03:16:46Z,-5.5,-115.0,149.5,-105.0
+2026-11-10 22:18,2026-11-10 21:00,San Diego Toreros,Colorado Buffaloes,betmgm,2026-11-11T03:17:27Z,-4.5,-102.0,150.5,-118.0
+2026-11-10 22:18,2026-11-10 21:00,San Diego Toreros,Colorado Buffaloes,bovada,2026-11-11T03:16:16Z,-3.5,-125.0,148.5,-120.0
+2026-11-10 22:18,2026-11-10 21:00,San Diego Toreros,Colorado Buffaloes,betrivers,2026-11-11T03:17:27Z,-4.5,-117.0,149.5,-129.0
+2026-11-10 22:18,2026-11-10 21:00,Creighton Bluejays,Kansas St Wildcats,fanduel,2026-11-11T03:17:43Z,2.5,-125.0,164.5,-122.0
+2026-11-10 22:18,2026-11-10 21:00,Creighton Bluejays,Kansas St Wildcats,fanatics,2026-11-11T03:18:02Z,2.5,-115.0,164.5,-120.0
+2026-11-10 22:18,2026-11-10 21:00,Creighton Bluejays,Kansas St Wildcats,betrivers,2026-11-11T03:17:27Z,1.5,-115.0,164.5,-118.0
+2026-11-10 22:18,2026-11-10 21:00,Creighton Bluejays,Kansas St Wildcats,williamhill_us,2026-11-11T03:16:46Z,2.5,100.0,165.5,-105.0
+2026-11-10 22:18,2026-11-10 21:00,Creighton Bluejays,Kansas St Wildcats,draftkings,2026-11-11T03:17:45Z,2.5,-120.0,165.5,-105.0
+2026-11-10 22:18,2026-11-10 21:00,Creighton Bluejays,Kansas St Wildcats,betmgm,2026-11-11T03:17:27Z,2.5,-125.0,164.5,-115.0
+2026-11-10 22:18,2026-11-10 21:00,Creighton Bluejays,Kansas St Wildcats,bovada,2026-11-11T03:16:16Z,2.5,-110.0,165.0,-110.0
+2026-11-10 22:18,2026-11-10 21:00,Georgia St Panthers,Fresno St Bulldogs,fanduel,2026-11-11T03:17:43Z,-7.5,-106.0,162.5,-106.0
+2026-11-10 22:18,2026-11-10 21:00,Georgia St Panthers,Fresno St Bulldogs,williamhill_us,2026-11-11T03:16:46Z,-8.5,-110.0,158.5,-115.0
+2026-11-10 22:18,2026-11-10 21:00,Georgia St Panthers,Fresno St Bulldogs,fanatics,2026-11-11T03:18:02Z,-8.5,-105.0,159.5,-115.0
+2026-11-10 22:18,2026-11-10 21:00,Georgia St Panthers,Fresno St Bulldogs,draftkings,2026-11-11T03:17:44Z,-7.5,-105.0,162.5,-105.0
+2026-11-10 22:18,2026-11-10 21:00,Georgia St Panthers,Fresno St Bulldogs,betmgm,2026-11-11T03:17:27Z,-7.5,-110.0,161.5,-118.0
+2026-11-10 22:18,2026-11-10 21:00,Georgia St Panthers,Fresno St Bulldogs,bovada,2026-11-11T03:16:16Z,-8.5,-105.0,160.5,-110.0
+2026-11-10 22:18,2026-11-10 21:00,Georgia St Panthers,Fresno St Bulldogs,betrivers,2026-11-11T03:17:27Z,-6.5,-134.0,160.5,-130.0
+2026-11-10 22:18,2026-11-10 21:00,UL Monroe Warhawks,TCU Horned Frogs,fanduel,2026-11-11T03:14:59Z,-20.5,-114.0,158.5,-114.0
+2026-11-10 22:18,2026-11-10 21:00,UL Monroe Warhawks,TCU Horned Frogs,fanatics,2026-11-11T03:13:39Z,-20.5,-105.0,157.5,-125.0
+2026-11-10 22:18,2026-11-10 21:00,UL Monroe Warhawks,TCU Horned Frogs,draftkings,2026-11-11T03:17:45Z,-18.5,-125.0,162.5,-115.0
+2026-11-10 22:18,2026-11-10 21:00,UL Monroe Warhawks,TCU Horned Frogs,williamhill_us,2026-11-11T03:16:46Z,-17.5,-125.0,160.5,-125.0
+2026-11-10 22:18,2026-11-10 21:00,UL Monroe Warhawks,TCU Horned Frogs,betmgm,2026-11-11T03:17:27Z,-20.5,-110.0,164.5,-125.0
+2026-11-10 22:18,2026-11-10 21:00,UL Monroe Warhawks,TCU Horned Frogs,betrivers,2026-11-11T03:13:49Z,-21.5,-125.0,158.5,-129.0
+2026-11-10 22:18,2026-11-10 21:00,Utah Tech Trailblazers,Utah State Aggies,fanduel,2026-11-11T03:17:43Z,-26.5,-110.0,180.5,-110.0
+2026-11-10 22:18,2026-11-10 21:00,Utah Tech Trailblazers,Utah State Aggies,fanatics,2026-11-11T03:18:02Z,-28.5,-115.0,182.5,-115.0
+2026-11-10 22:18,2026-11-10 21:00,Utah Tech Trailblazers,Utah State Aggies,draftkings,2026-11-11T03:17:45Z,-27.5,-120.0,182.5,-120.0
+2026-11-10 22:18,2026-11-10 21:00,Utah Tech Trailblazers,Utah State Aggies,betmgm,2026-11-11T03:17:27Z,-25.5,-118.0,182.5,-110.0
+2026-11-10 22:18,2026-11-10 21:00,Utah Tech Trailblazers,Utah State Aggies,williamhill_us,2026-11-11T03:16:46Z,-25.5,-110.0,179.5,-105.0
+2026-11-10 22:18,2026-11-10 21:00,Utah Tech Trailblazers,Utah State Aggies,bovada,2026-11-11T03:16:16Z,-25.5,-125.0,181.5,-120.0
+2026-11-10 22:18,2026-11-10 21:00,Utah Tech Trailblazers,Utah State Aggies,betrivers,2026-11-11T03:17:27Z,-27.5,-110.0,181.5,-121.0
+2026-11-10 22:18,2026-11-10 21:00,Weber State Wildcats,Utah Utes,fanduel,2026-11-11T03:17:43Z,-8.5,-122.0,148.5,-112.0
+2026-11-10 22:18,2026-11-10 21:00,Weber State Wildcats,Utah Utes,fanatics,2026-11-11T03:18:02Z,-9.5,120.0,147.5,110.0
+2026-11-10 22:18,2026-11-10 21:00,Weber State Wildcats,Utah Utes,draftkings,2026-11-11T03:17:44Z,-7.5,-125.0,146.5,-120.0
+2026-11-10 22:18,2026-11-10 21:00,Weber State Wildcats,Utah Utes,betmgm,2026-11-11T03:17:27Z,-7.5,-118.0,145.5,-118.0
+2026-11-10 22:18,2026-11-10 21:00,Weber State Wildcats,Utah Utes,williamhill_us,2026-11-11T03:16:46Z,-8.5,-115.0,145.5,-120.0
+2026-11-10 22:18,2026-11-10 21:00,Weber State Wildcats,Utah Utes,bovada,2026-11-11T03:16:16Z,-7.5,-120.0,147.5,-115.0
+2026-11-10 22:18,2026-11-10 21:00,Weber State Wildcats,Utah Utes,betrivers,2026-11-11T03:17:27Z,-9.5,-118.0,147.5,-127.0
+2026-11-10 22:18,2026-11-10 21:59,Kansas Jayhawks,Kentucky Wildcats,williamhill_us,2026-11-11T03:16:46Z,3.5,-125.0,162.5,-110.0
+2026-11-10 22:18,2026-11-10 21:59,Kansas Jayhawks,Kentucky Wildcats,draftkings,2026-11-11T03:17:45Z,3.5,-125.0,157.5,-110.0
+2026-11-10 22:18,2026-11-10 21:59,Kansas Jayhawks,Kentucky Wildcats,fanatics,2026-11-11T03:18:02Z,3.5,-125.0,157.5,-115.0
+2026-11-10 22:18,2026-11-10 21:59,Kansas Jayhawks,Kentucky Wildcats,bovada,2026-11-11T03:16:16Z,2.5,-110.0,162.0,-115.0
+2026-11-10 22:18,2026-11-10 21:59,Kansas Jayhawks,Kentucky Wildcats,betrivers,2026-11-11T03:17:27Z,2.5,-122.0,159.5,-122.0
+2026-11-10 22:18,2026-11-10 21:59,Kansas Jayhawks,Kentucky Wildcats,fanduel,2026-11-11T03:17:43Z,3.5,-122.0,159.5,-110.0
+2026-11-10 22:18,2026-11-10 21:59,Kansas Jayhawks,Kentucky Wildcats,betmgm,2026-11-11T03:17:27Z,2.5,-115.0,159.5,-118.0
+2026-11-10 22:18,2026-11-10 22:00,Montana Grizzlies,San Francisco Dons,betonlineag,2026-11-11T03:06:23Z,-11.5,-105.0,148.0,-106.0
+2026-11-10 22:18,2026-11-10 22:00,Montana Grizzlies,San Francisco Dons,lowvig,2026-11-11T03:06:21Z,-11.5,-101.0,148.0,-104.0
+2026-11-10 22:18,2026-11-10 22:00,Montana Grizzlies,San Francisco Dons,fanduel,2026-11-11T03:17:43Z,-8.5,-125.0,139.5,-110.0
+2026-11-10 22:18,2026-11-10 22:00,Montana Grizzlies,San Francisco Dons,fanatics,2026-11-11T03:18:02Z,-8.5,-110.0,141.5,-110.0
+2026-11-10 22:18,2026-11-10 22:00,Montana Grizzlies,San Francisco Dons,draftkings,2026-11-11T03:17:45Z,-7.5,-120.0,140.5,-120.0
+2026-11-10 22:18,2026-11-10 22:00,Montana Grizzlies,San Francisco Dons,betus,2026-11-11T03:04:48Z,-11.5,-110.0,148.0,-110.0
+2026-11-10 22:18,2026-11-10 22:00,Montana Grizzlies,San Francisco Dons,bovada,2026-11-11T03:16:16Z,-9.5,-110.0,141.5,-115.0
+2026-11-10 22:18,2026-11-10 22:00,Montana Grizzlies,San Francisco Dons,betrivers,2026-11-11T03:17:27Z,-8.5,-129.0,139.5,-114.0
+2026-11-10 22:18,2026-11-11 11:30,Fairleigh Dickinson Knights,East Texas A&M Lions,fanduel,2026-11-11T03:17:43Z,-10.5,-110.0,139.5,-110.0
+2026-11-10 22:18,2026-11-11 11:30,Fairleigh Dickinson Knights,East Texas A&M Lions,fanatics,2026-11-11T03:18:02Z,-11.0,-105.0,140.0,-110.0
+2026-11-10 22:18,2026-11-11 11:30,Fairleigh Dickinson Knights,East Texas A&M Lions,betonlineag,2026-11-11T03:18:01Z,-10.5,-110.0,140.0,-110.0
+2026-11-10 22:18,2026-11-11 11:30,Fairleigh Dickinson Knights,East Texas A&M Lions,lowvig,2026-11-11T03:17:10Z,-10.5,-106.0,140.0,-108.0
+2026-11-10 22:18,2026-11-11 12:00,UMKC Kangaroos,Florida A&M Rattlers,betonlineag,2026-11-11T03:18:01Z,6.5,-110.0,151.0,-110.0
+2026-11-10 22:18,2026-11-11 12:00,UMKC Kangaroos,Florida A&M Rattlers,lowvig,2026-11-11T03:17:10Z,6.5,-106.0,151.0,-108.0
+2026-11-10 22:18,2026-11-11 12:00,UMKC Kangaroos,Florida A&M Rattlers,fanatics,2026-11-11T03:18:02Z,6.5,-110.0,151.5,-105.0
+2026-11-10 22:18,2026-11-11 12:00,UMKC Kangaroos,Florida A&M Rattlers,betmgm,2026-11-11T03:17:27Z,,,150.5,-115.0
+2026-11-10 22:18,2026-11-11 13:00,Dartmouth Big Green,Albany Great Danes,fanduel,2026-11-11T03:17:43Z,2.5,-120.0,144.5,-106.0
+2026-11-10 22:18,2026-11-11 13:00,Dartmouth Big Green,Albany Great Danes,fanatics,2026-11-11T03:18:02Z,2.5,-110.0,144.0,-110.0
+2026-11-10 22:18,2026-11-11 13:00,Dartmouth Big Green,Albany Great Danes,betonlineag,2026-11-11T03:18:01Z,3.0,-110.0,144.0,-105.0
+2026-11-10 22:18,2026-11-11 13:00,Dartmouth Big Green,Albany Great Danes,lowvig,2026-11-11T03:17:10Z,3.0,-106.0,144.0,-103.0
+2026-11-10 22:18,2026-11-11 13:00,Dartmouth Big Green,Albany Great Danes,draftkings,2026-11-11T03:17:45Z,2.5,-105.0,143.5,-110.0
+2026-11-10 22:18,2026-11-11 13:00,Dartmouth Big Green,Albany Great Danes,williamhill_us,2026-11-11T03:16:46Z,2.5,-110.0,143.5,-110.0
+2026-11-10 22:18,2026-11-11 13:00,Dartmouth Big Green,Albany Great Danes,betmgm,2026-11-11T03:17:27Z,2.5,-105.0,143.5,-110.0
+2026-11-10 22:18,2026-11-11 14:11,Incarnate Word Cardinals,UC Davis Aggies,betonlineag,2026-11-11T03:18:01Z,-12.0,-110.0,146.0,-110.0
+2026-11-10 22:18,2026-11-11 14:11,Incarnate Word Cardinals,UC Davis Aggies,lowvig,2026-11-11T03:17:10Z,-12.0,-106.0,146.0,-108.0
+2026-11-10 22:18,2026-11-11 14:11,Incarnate Word Cardinals,UC Davis Aggies,fanatics,2026-11-11T03:18:02Z,-12.0,-110.0,146.0,-110.0
+2026-11-10 22:18,2026-11-11 14:11,Incarnate Word Cardinals,UC Davis Aggies,betmgm,2026-11-11T03:17:27Z,-11.5,-118.0,146.5,-105.0
+2026-11-10 22:18,2026-11-11 15:00,Loyola (Chi) Ramblers,Air Force Falcons,betonlineag,2026-11-11T03:18:01Z,9.5,-110.0,160.5,-110.0
+2026-11-10 22:18,2026-11-11 15:00,Loyola (Chi) Ramblers,Air Force Falcons,lowvig,2026-11-11T03:17:10Z,9.5,-106.0,160.5,-108.0
+2026-11-10 22:18,2026-11-11 15:00,Loyola (Chi) Ramblers,Air Force Falcons,fanatics,2026-11-11T03:18:02Z,9.5,-110.0,160.0,-110.0
+2026-11-10 22:18,2026-11-11 15:00,Loyola (Chi) Ramblers,Air Force Falcons,draftkings,2026-11-11T03:17:45Z,9.5,-108.0,160.5,-115.0
+2026-11-10 22:18,2026-11-11 15:00,Loyola (Chi) Ramblers,Air Force Falcons,fanduel,2026-11-11T03:17:43Z,9.5,-120.0,159.5,-110.0
+2026-11-10 22:18,2026-11-11 15:00,Loyola (Chi) Ramblers,Air Force Falcons,bovada,2026-11-11T03:16:16Z,9.5,-110.0,160.5,-115.0
+2026-11-10 22:18,2026-11-11 15:00,Loyola (Chi) Ramblers,Air Force Falcons,betmgm,2026-11-11T03:17:27Z,9.5,-115.0,160.5,-105.0
+2026-11-10 22:18,2026-11-11 15:00,Loyola (Chi) Ramblers,Air Force Falcons,betus,2026-11-11T03:17:42Z,9.5,-110.0,160.5,-110.0
+2026-11-10 22:18,2026-11-11 15:00,South Florida Bulls,Saint Joseph's Hawks,betonlineag,2026-11-11T03:18:01Z,7.5,-110.0,153.0,-115.0
+2026-11-10 22:18,2026-11-11 15:00,South Florida Bulls,Saint Joseph's Hawks,lowvig,2026-11-11T03:17:10Z,7.5,-106.0,153.0,-113.0
+2026-11-10 22:18,2026-11-11 15:00,South Florida Bulls,Saint Joseph's Hawks,fanatics,2026-11-11T03:18:02Z,7.5,-110.0,152.0,-110.0
+2026-11-10 22:18,2026-11-11 15:00,South Florida Bulls,Saint Joseph's Hawks,fanduel,2026-11-11T03:17:43Z,7.5,-114.0,151.5,-110.0
+2026-11-10 22:18,2026-11-11 15:00,South Florida Bulls,Saint Joseph's Hawks,betrivers,2026-11-11T03:17:27Z,7.5,-113.0,151.5,-112.0
+2026-11-10 22:18,2026-11-11 15:00,South Florida Bulls,Saint Joseph's Hawks,draftkings,2026-11-11T03:17:45Z,7.5,-105.0,152.5,-108.0
+2026-11-10 22:18,2026-11-11 15:00,South Florida Bulls,Saint Joseph's Hawks,williamhill_us,2026-11-11T03:16:46Z,7.5,-110.0,151.5,-110.0
+2026-11-10 22:18,2026-11-11 15:00,South Florida Bulls,Saint Joseph's Hawks,bovada,2026-11-11T03:16:16Z,7.5,-105.0,152.5,-110.0
+2026-11-10 22:18,2026-11-11 15:00,South Florida Bulls,Saint Joseph's Hawks,betmgm,2026-11-11T03:17:27Z,,,152.5,-110.0
+2026-11-10 22:18,2026-11-11 15:00,South Florida Bulls,Saint Joseph's Hawks,betus,2026-11-11T03:17:42Z,7.5,-110.0,153.0,-115.0
+2026-11-10 22:18,2026-11-11 16:00,North Carolina A&T Aggies,East Carolina Pirates,betonlineag,2026-11-11T03:18:01Z,-10.5,-110.0,151.5,-110.0
+2026-11-10 22:18,2026-11-11 16:00,North Carolina A&T Aggies,East Carolina Pirates,lowvig,2026-11-11T03:17:10Z,-10.5,-106.0,151.5,-108.0
+2026-11-10 22:18,2026-11-11 16:00,North Carolina A&T Aggies,East Carolina Pirates,fanatics,2026-11-11T03:18:02Z,-10.5,-110.0,152.0,-110.0
+2026-11-10 22:18,2026-11-11 16:00,North Carolina A&T Aggies,East Carolina Pirates,draftkings,2026-11-11T03:17:45Z,-10.5,-110.0,151.5,-110.0
+2026-11-10 22:18,2026-11-11 16:00,North Carolina A&T Aggies,East Carolina Pirates,fanduel,2026-11-11T03:17:43Z,-10.5,-110.0,152.5,-115.0
+2026-11-10 22:18,2026-11-11 16:00,North Carolina A&T Aggies,East Carolina Pirates,williamhill_us,2026-11-11T03:16:46Z,-10.5,-110.0,151.5,-110.0
+2026-11-10 22:18,2026-11-11 16:00,North Carolina A&T Aggies,East Carolina Pirates,bovada,2026-11-11T03:16:16Z,-10.5,-110.0,151.5,-110.0
+2026-11-10 22:18,2026-11-11 16:00,North Carolina A&T Aggies,East Carolina Pirates,betmgm,2026-11-11T03:17:27Z,-10.5,-110.0,152.5,-105.0
+2026-11-10 22:18,2026-11-11 16:00,North Carolina A&T Aggies,East Carolina Pirates,betus,2026-11-11T03:17:42Z,-10.5,-110.0,151.5,-110.0
+2026-11-10 22:18,2026-11-11 16:00,North Carolina A&T Aggies,East Carolina Pirates,betrivers,2026-11-11T03:17:27Z,-10.5,-117.0,154.5,-108.0
+2026-11-10 22:18,2026-11-11 17:00,Bethune-Cookman Wildcats,San Diego St Aztecs,fanduel,2026-11-11T03:17:43Z,-18.5,-115.0,152.5,-110.0
+2026-11-10 22:18,2026-11-11 17:00,Bethune-Cookman Wildcats,San Diego St Aztecs,fanatics,2026-11-11T03:18:02Z,-18.5,-110.0,152.5,-110.0
+2026-11-10 22:18,2026-11-11 17:00,Bethune-Cookman Wildcats,San Diego St Aztecs,betonlineag,2026-11-11T03:18:01Z,-18.0,-110.0,152.0,-110.0
+2026-11-10 22:18,2026-11-11 17:00,Bethune-Cookman Wildcats,San Diego St Aztecs,lowvig,2026-11-11T03:17:10Z,-18.0,-106.0,152.0,-108.0
+2026-11-10 22:18,2026-11-11 17:00,Bethune-Cookman Wildcats,San Diego St Aztecs,draftkings,2026-11-11T03:17:45Z,-18.5,-105.0,152.5,-105.0
+2026-11-10 22:18,2026-11-11 17:00,Bethune-Cookman Wildcats,San Diego St Aztecs,betmgm,2026-11-11T03:17:27Z,-18.5,-110.0,152.5,-105.0
+2026-11-10 22:18,2026-11-11 17:00,Bethune-Cookman Wildcats,San Diego St Aztecs,williamhill_us,2026-11-11T03:16:46Z,-18.5,-110.0,152.5,-110.0
+2026-11-10 22:18,2026-11-11 17:30,Pennsylvania Quakers,Navy Midshipmen,fanduel,2026-11-11T03:17:43Z,10.5,-120.0,148.5,-115.0
+2026-11-10 22:18,2026-11-11 17:30,Pennsylvania Quakers,Navy Midshipmen,fanatics,2026-11-11T03:18:02Z,10.0,-115.0,149.0,-110.0
+2026-11-10 22:18,2026-11-11 17:30,Pennsylvania Quakers,Navy Midshipmen,betonlineag,2026-11-11T03:18:01Z,9.5,-110.0,149.0,-110.0
+2026-11-10 22:18,2026-11-11 17:30,Pennsylvania Quakers,Navy Midshipmen,lowvig,2026-11-11T03:17:10Z,9.5,-106.0,149.0,-108.0
+2026-11-10 22:18,2026-11-11 17:30,Pennsylvania Quakers,Navy Midshipmen,draftkings,2026-11-11T03:17:45Z,9.5,-110.0,149.5,-105.0
+2026-11-10 22:18,2026-11-11 17:30,Pennsylvania Quakers,Navy Midshipmen,williamhill_us,2026-11-11T03:16:46Z,9.5,-110.0,148.5,-110.0
+2026-11-10 22:18,2026-11-11 17:30,Pennsylvania Quakers,Navy Midshipmen,betmgm,2026-11-11T03:17:27Z,9.5,-110.0,149.5,-105.0
+2026-11-10 22:18,2026-11-11 18:00,North Carolina Central Eagles,VMI Keydets,fanduel,2026-11-11T03:17:43Z,-5.5,-120.0,151.5,-110.0
+2026-11-10 22:18,2026-11-11 18:00,North Carolina Central Eagles,VMI Keydets,fanatics,2026-11-11T03:18:02Z,-6.5,-105.0,151.0,-110.0
+2026-11-10 22:18,2026-11-11 18:00,North Carolina Central Eagles,VMI Keydets,betonlineag,2026-11-11T03:18:01Z,-6.5,-110.0,151.0,-110.0
+2026-11-10 22:18,2026-11-11 18:00,North Carolina Central Eagles,VMI Keydets,lowvig,2026-11-11T03:17:10Z,-6.5,-106.0,151.0,-108.0
+2026-11-10 22:18,2026-11-11 18:00,North Carolina Central Eagles,VMI Keydets,draftkings,2026-11-11T03:17:45Z,-6.5,-110.0,151.5,-105.0
+2026-11-10 22:18,2026-11-11 18:00,North Carolina Central Eagles,VMI Keydets,williamhill_us,2026-11-11T03:16:46Z,-6.5,-110.0,151.5,-110.0
+2026-11-10 22:18,2026-11-11 18:00,North Carolina Central Eagles,VMI Keydets,betmgm,2026-11-11T03:17:27Z,-6.5,-110.0,151.5,-105.0
+2026-11-10 22:18,2026-11-11 18:30,Charleston Cougars,Temple Owls,betonlineag,2026-11-11T03:18:01Z,0.0,-115.0,155.5,-115.0
+2026-11-10 22:18,2026-11-11 18:30,Charleston Cougars,Temple Owls,lowvig,2026-11-11T03:17:10Z,0.0,-111.0,155.5,-113.0
+2026-11-10 22:18,2026-11-11 18:30,Charleston Cougars,Temple Owls,draftkings,2026-11-11T03:17:45Z,-1.5,-102.0,155.5,-112.0
+2026-11-10 22:18,2026-11-11 18:30,Charleston Cougars,Temple Owls,fanatics,2026-11-11T03:18:02Z,-1.0,-110.0,155.0,-110.0
+2026-11-10 22:18,2026-11-11 18:30,Charleston Cougars,Temple Owls,fanduel,2026-11-11T03:17:43Z,1.5,-122.0,154.5,-114.0
+2026-11-10 22:18,2026-11-11 18:30,Charleston Cougars,Temple Owls,bovada,2026-11-11T03:16:16Z,-1.5,100.0,155.5,-110.0
+2026-11-10 22:18,2026-11-11 18:30,Charleston Cougars,Temple Owls,betmgm,2026-11-11T03:17:27Z,-1.5,100.0,155.5,-110.0
+2026-11-10 22:18,2026-11-11 18:30,Charleston Cougars,Temple Owls,williamhill_us,2026-11-11T03:16:46Z,-1.0,-110.0,155.5,-110.0
+2026-11-10 22:18,2026-11-11 18:30,Charleston Cougars,Temple Owls,betus,2026-11-11T03:17:42Z,0.0,-115.0,155.5,-115.0
+2026-11-10 22:18,2026-11-11 18:30,Southern Indiana Screaming Eagles,IUPUI Jaguars,betonlineag,2026-11-11T03:18:01Z,-7.5,-110.0,164.0,-115.0
+2026-11-10 22:18,2026-11-11 18:30,Southern Indiana Screaming Eagles,IUPUI Jaguars,lowvig,2026-11-11T03:17:10Z,-7.5,-106.0,164.0,-113.0
+2026-11-10 22:18,2026-11-11 18:30,Southern Indiana Screaming Eagles,IUPUI Jaguars,fanduel,2026-11-11T03:17:43Z,-7.5,-105.0,163.5,-110.0
+2026-11-10 22:18,2026-11-11 18:30,Southern Indiana Screaming Eagles,IUPUI Jaguars,fanatics,2026-11-11T03:18:02Z,-7.5,-110.0,164.0,-110.0
+2026-11-10 22:18,2026-11-11 18:30,Southern Indiana Screaming Eagles,IUPUI Jaguars,draftkings,2026-11-11T03:17:45Z,-7.5,-112.0,163.5,-115.0
+2026-11-10 22:18,2026-11-11 18:30,Southern Indiana Screaming Eagles,IUPUI Jaguars,williamhill_us,2026-11-11T03:16:46Z,-7.5,-110.0,163.5,-110.0
+2026-11-10 22:18,2026-11-11 18:30,Southern Indiana Screaming Eagles,IUPUI Jaguars,bovada,2026-11-11T03:16:16Z,-7.5,-110.0,164.5,-105.0
+2026-11-10 22:18,2026-11-11 18:30,Southern Indiana Screaming Eagles,IUPUI Jaguars,betmgm,2026-11-11T03:17:27Z,-7.5,-110.0,164.5,-105.0
+2026-11-10 22:18,2026-11-11 18:30,Southern Indiana Screaming Eagles,IUPUI Jaguars,betus,2026-11-11T03:17:42Z,-7.5,-110.0,164.0,-115.0
+2026-11-10 22:18,2026-11-11 19:00,American Eagles,Drexel Dragons,betonlineag,2026-11-11T03:18:01Z,-1.0,-110.0,141.0,-110.0
+2026-11-10 22:18,2026-11-11 19:00,American Eagles,Drexel Dragons,lowvig,2026-11-11T03:17:10Z,-1.0,-106.0,141.0,-108.0
+2026-11-10 22:18,2026-11-11 19:00,American Eagles,Drexel Dragons,fanatics,2026-11-11T03:18:02Z,-1.0,-110.0,141.0,-110.0
+2026-11-10 22:18,2026-11-11 19:00,American Eagles,Drexel Dragons,betmgm,2026-11-11T03:17:27Z,-1.5,-102.0,140.5,-115.0
+2026-11-10 22:18,2026-11-11 19:00,Campbell Fighting Camels,East Tennessee St Buccaneers,betonlineag,2026-11-11T03:18:01Z,-4.5,-110.0,147.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Campbell Fighting Camels,East Tennessee St Buccaneers,lowvig,2026-11-11T03:17:10Z,-4.5,-106.0,147.5,-108.0
+2026-11-10 22:18,2026-11-11 19:00,Campbell Fighting Camels,East Tennessee St Buccaneers,draftkings,2026-11-11T03:17:45Z,-4.5,-110.0,147.5,-105.0
+2026-11-10 22:18,2026-11-11 19:00,Campbell Fighting Camels,East Tennessee St Buccaneers,fanatics,2026-11-11T03:18:02Z,-5.0,-105.0,147.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Campbell Fighting Camels,East Tennessee St Buccaneers,williamhill_us,2026-11-11T03:16:46Z,-4.5,-110.0,145.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Campbell Fighting Camels,East Tennessee St Buccaneers,bovada,2026-11-11T03:16:16Z,-4.5,-110.0,147.5,-105.0
+2026-11-10 22:18,2026-11-11 19:00,Campbell Fighting Camels,East Tennessee St Buccaneers,betmgm,2026-11-11T03:17:27Z,,,147.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Campbell Fighting Camels,East Tennessee St Buccaneers,betus,2026-11-11T03:17:42Z,-4.5,-110.0,147.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Colgate Raiders,St. John's Red Storm,betonlineag,2026-11-11T03:18:01Z,-27.5,-110.0,156.5,-115.0
+2026-11-10 22:18,2026-11-11 19:00,Colgate Raiders,St. John's Red Storm,lowvig,2026-11-11T03:17:10Z,-27.5,-106.0,156.5,-113.0
+2026-11-10 22:18,2026-11-11 19:00,Colgate Raiders,St. John's Red Storm,fanduel,2026-11-11T03:17:43Z,-26.5,-106.0,156.5,-106.0
+2026-11-10 22:18,2026-11-11 19:00,Colgate Raiders,St. John's Red Storm,fanatics,2026-11-11T03:18:02Z,-26.5,-110.0,155.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Colgate Raiders,St. John's Red Storm,betmgm,2026-11-11T03:17:27Z,,,156.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Cornell Big Red,St. Bonaventure Bonnies,betonlineag,2026-11-11T03:18:01Z,-9.0,-110.0,156.0,-115.0
+2026-11-10 22:18,2026-11-11 19:00,Cornell Big Red,St. Bonaventure Bonnies,lowvig,2026-11-11T03:17:10Z,-9.0,-106.0,156.0,-113.0
+2026-11-10 22:18,2026-11-11 19:00,Cornell Big Red,St. Bonaventure Bonnies,draftkings,2026-11-11T03:17:45Z,-8.5,-112.0,156.5,-108.0
+2026-11-10 22:18,2026-11-11 19:00,Cornell Big Red,St. Bonaventure Bonnies,fanatics,2026-11-11T03:18:02Z,-9.0,-115.0,156.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Cornell Big Red,St. Bonaventure Bonnies,bovada,2026-11-11T03:16:16Z,-8.5,-110.0,156.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Cornell Big Red,St. Bonaventure Bonnies,betmgm,2026-11-11T03:17:27Z,-8.5,-115.0,155.5,-115.0
+2026-11-10 22:18,2026-11-11 19:00,Cornell Big Red,St. Bonaventure Bonnies,williamhill_us,2026-11-11T03:16:46Z,-9.0,-110.0,155.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Cornell Big Red,St. Bonaventure Bonnies,betus,2026-11-11T03:17:42Z,-9.0,-110.0,156.0,-115.0
+2026-11-10 22:18,2026-11-11 19:00,James Madison Dukes,Delaware Blue Hens,betonlineag,2026-11-11T03:18:01Z,3.5,-105.0,150.0,-115.0
+2026-11-10 22:18,2026-11-11 19:00,James Madison Dukes,Delaware Blue Hens,lowvig,2026-11-11T03:17:10Z,3.5,-101.0,150.0,-113.0
+2026-11-10 22:18,2026-11-11 19:00,James Madison Dukes,Delaware Blue Hens,draftkings,2026-11-11T03:17:45Z,3.5,-105.0,150.5,-105.0
+2026-11-10 22:18,2026-11-11 19:00,James Madison Dukes,Delaware Blue Hens,fanatics,2026-11-11T03:18:02Z,4.0,-115.0,149.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,James Madison Dukes,Delaware Blue Hens,williamhill_us,2026-11-11T03:16:46Z,3.5,-110.0,150.0,-110.0
+2026-11-10 22:18,2026-11-11 19:00,James Madison Dukes,Delaware Blue Hens,fanduel,2026-11-11T03:17:43Z,4.5,-120.0,149.5,-115.0
+2026-11-10 22:18,2026-11-11 19:00,James Madison Dukes,Delaware Blue Hens,bovada,2026-11-11T03:16:16Z,3.5,-105.0,150.5,-105.0
+2026-11-10 22:18,2026-11-11 19:00,James Madison Dukes,Delaware Blue Hens,betmgm,2026-11-11T03:17:27Z,3.5,-105.0,150.5,-105.0
+2026-11-10 22:18,2026-11-11 19:00,James Madison Dukes,Delaware Blue Hens,betus,2026-11-11T03:17:42Z,3.5,-105.0,150.0,-115.0
+2026-11-10 22:18,2026-11-11 19:00,William & Mary Tribe,Florida Atlantic Owls,betonlineag,2026-11-11T03:18:01Z,-4.5,-110.0,166.0,-115.0
+2026-11-10 22:18,2026-11-11 19:00,William & Mary Tribe,Florida Atlantic Owls,lowvig,2026-11-11T03:17:10Z,-4.5,-106.0,166.0,-113.0
+2026-11-10 22:18,2026-11-11 19:00,William & Mary Tribe,Florida Atlantic Owls,draftkings,2026-11-11T03:17:45Z,-5.5,-102.0,165.5,-112.0
+2026-11-10 22:18,2026-11-11 19:00,William & Mary Tribe,Florida Atlantic Owls,fanduel,2026-11-11T03:17:43Z,-4.5,-120.0,164.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,William & Mary Tribe,Florida Atlantic Owls,fanatics,2026-11-11T03:18:02Z,-5.0,-110.0,165.0,-110.0
+2026-11-10 22:18,2026-11-11 19:00,William & Mary Tribe,Florida Atlantic Owls,bovada,2026-11-11T03:16:16Z,-4.5,-120.0,165.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,William & Mary Tribe,Florida Atlantic Owls,betmgm,2026-11-11T03:17:27Z,-4.5,-115.0,165.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,William & Mary Tribe,Florida Atlantic Owls,williamhill_us,2026-11-11T03:16:46Z,-5.0,-110.0,165.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,William & Mary Tribe,Florida Atlantic Owls,betus,2026-11-11T03:17:42Z,-4.5,-110.0,166.0,-115.0
+2026-11-10 22:18,2026-11-11 19:00,Furman Paladins,Holy Cross Crusaders,fanduel,2026-11-11T03:17:43Z,12.5,-120.0,147.5,-115.0
+2026-11-10 22:18,2026-11-11 19:00,Furman Paladins,Holy Cross Crusaders,fanatics,2026-11-11T03:18:02Z,12.5,-105.0,149.0,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Furman Paladins,Holy Cross Crusaders,betonlineag,2026-11-11T03:18:01Z,12.5,-110.0,149.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Furman Paladins,Holy Cross Crusaders,lowvig,2026-11-11T03:17:10Z,12.5,-106.0,149.5,-108.0
+2026-11-10 22:18,2026-11-11 19:00,Furman Paladins,Holy Cross Crusaders,draftkings,2026-11-11T03:17:45Z,12.5,-112.0,149.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Furman Paladins,Holy Cross Crusaders,williamhill_us,2026-11-11T03:16:46Z,12.5,-110.0,149.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Furman Paladins,Holy Cross Crusaders,betmgm,2026-11-11T03:17:27Z,12.5,-115.0,149.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Milwaukee Panthers,Indiana St Sycamores,betonlineag,2026-11-11T03:18:01Z,-4.5,-110.0,153.0,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Milwaukee Panthers,Indiana St Sycamores,lowvig,2026-11-11T03:17:10Z,-4.5,-106.0,153.0,-108.0
+2026-11-10 22:18,2026-11-11 19:00,Milwaukee Panthers,Indiana St Sycamores,draftkings,2026-11-11T03:17:45Z,-4.5,-112.0,152.5,-115.0
+2026-11-10 22:18,2026-11-11 19:00,Milwaukee Panthers,Indiana St Sycamores,fanatics,2026-11-11T03:18:02Z,-5.0,-105.0,153.0,-105.0
+2026-11-10 22:18,2026-11-11 19:00,Milwaukee Panthers,Indiana St Sycamores,bovada,2026-11-11T03:16:16Z,-4.5,-110.0,152.5,-115.0
+2026-11-10 22:18,2026-11-11 19:00,Milwaukee Panthers,Indiana St Sycamores,betmgm,2026-11-11T03:17:27Z,-4.5,-115.0,152.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Milwaukee Panthers,Indiana St Sycamores,williamhill_us,2026-11-11T03:16:46Z,-5.0,-110.0,152.0,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Milwaukee Panthers,Indiana St Sycamores,betus,2026-11-11T03:17:42Z,-4.5,-110.0,153.0,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Kent State Golden Flashes,UNC Wilmington Seahawks,betonlineag,2026-11-11T03:18:01Z,-7.0,-110.0,155.0,-115.0
+2026-11-10 22:18,2026-11-11 19:00,Kent State Golden Flashes,UNC Wilmington Seahawks,lowvig,2026-11-11T03:17:10Z,-7.0,-106.0,155.0,-113.0
+2026-11-10 22:18,2026-11-11 19:00,Kent State Golden Flashes,UNC Wilmington Seahawks,draftkings,2026-11-11T03:17:45Z,-7.5,-112.0,155.5,-105.0
+2026-11-10 22:18,2026-11-11 19:00,Kent State Golden Flashes,UNC Wilmington Seahawks,fanatics,2026-11-11T03:18:02Z,-7.5,-105.0,155.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Kent State Golden Flashes,UNC Wilmington Seahawks,williamhill_us,2026-11-11T03:16:46Z,-7.5,-110.0,155.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Kent State Golden Flashes,UNC Wilmington Seahawks,bovada,2026-11-11T03:16:16Z,-7.5,-110.0,155.5,-105.0
+2026-11-10 22:18,2026-11-11 19:00,Kent State Golden Flashes,UNC Wilmington Seahawks,betmgm,2026-11-11T03:17:27Z,-7.5,-105.0,155.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Kent State Golden Flashes,UNC Wilmington Seahawks,betus,2026-11-11T03:17:42Z,-7.0,-110.0,155.0,-115.0
+2026-11-10 22:18,2026-11-11 19:00,Kent State Golden Flashes,UNC Wilmington Seahawks,fanduel,2026-11-11T03:17:43Z,-7.5,-106.0,155.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Marquette Golden Eagles,Michigan Wolverines,betonlineag,2026-11-11T03:18:01Z,-3.5,-108.0,157.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Marquette Golden Eagles,Michigan Wolverines,lowvig,2026-11-11T03:17:10Z,-3.5,-104.0,157.5,-108.0
+2026-11-10 22:18,2026-11-11 19:00,Marquette Golden Eagles,Michigan Wolverines,williamhill_us,2026-11-11T03:16:46Z,-3.5,-110.0,157.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Marquette Golden Eagles,Michigan Wolverines,fanatics,2026-11-11T03:18:02Z,-3.5,-110.0,158.0,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Marquette Golden Eagles,Michigan Wolverines,fanduel,2026-11-11T03:17:43Z,-3.5,-110.0,156.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Marquette Golden Eagles,Michigan Wolverines,draftkings,2026-11-11T03:17:45Z,-3.5,-112.0,157.5,-108.0
+2026-11-10 22:18,2026-11-11 19:00,Marquette Golden Eagles,Michigan Wolverines,bovada,2026-11-11T03:16:16Z,-3.5,-110.0,157.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Marquette Golden Eagles,Michigan Wolverines,betmgm,2026-11-11T03:17:27Z,-3.5,-110.0,157.5,-105.0
+2026-11-10 22:18,2026-11-11 19:00,Marquette Golden Eagles,Michigan Wolverines,betus,2026-11-11T03:17:42Z,-3.5,-110.0,157.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Marquette Golden Eagles,Michigan Wolverines,betrivers,2026-11-11T03:17:27Z,-3.5,-113.0,156.5,-112.0
+2026-11-10 22:18,2026-11-11 19:00,UMass Lowell River Hawks,Massachusetts Minutemen,betonlineag,2026-11-11T03:18:01Z,-11.0,-110.0,146.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,UMass Lowell River Hawks,Massachusetts Minutemen,lowvig,2026-11-11T03:17:10Z,-11.0,-106.0,146.5,-108.0
+2026-11-10 22:18,2026-11-11 19:00,UMass Lowell River Hawks,Massachusetts Minutemen,fanatics,2026-11-11T03:18:02Z,-11.0,-110.0,146.0,-110.0
+2026-11-10 22:18,2026-11-11 19:00,UMass Lowell River Hawks,Massachusetts Minutemen,betmgm,2026-11-11T03:17:27Z,-10.5,-118.0,146.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,NJIT Highlanders,VCU Rams,fanduel,2026-11-11T03:17:43Z,-29.5,-110.0,148.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,NJIT Highlanders,VCU Rams,fanatics,2026-11-11T03:18:02Z,-30.0,-115.0,148.0,-110.0
+2026-11-10 22:18,2026-11-11 19:00,NJIT Highlanders,VCU Rams,betonlineag,2026-11-11T03:18:01Z,-30.5,-110.0,147.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,NJIT Highlanders,VCU Rams,lowvig,2026-11-11T03:17:10Z,-30.5,-106.0,147.5,-108.0
+2026-11-10 22:18,2026-11-11 19:00,NJIT Highlanders,VCU Rams,draftkings,2026-11-11T03:17:45Z,-30.5,-110.0,147.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,NJIT Highlanders,VCU Rams,betmgm,2026-11-11T03:17:27Z,-30.5,-105.0,147.5,-115.0
+2026-11-10 22:18,2026-11-11 19:00,NJIT Highlanders,VCU Rams,williamhill_us,2026-11-11T03:16:46Z,-30.5,-110.0,147.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Old Dominion Monarchs,Norfolk St Spartans,betonlineag,2026-11-11T03:18:01Z,5.5,-115.0,146.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Old Dominion Monarchs,Norfolk St Spartans,lowvig,2026-11-11T03:17:10Z,5.5,-111.0,146.5,-108.0
+2026-11-10 22:18,2026-11-11 19:00,Old Dominion Monarchs,Norfolk St Spartans,fanatics,2026-11-11T03:18:02Z,5.5,-115.0,145.5,-105.0
+2026-11-10 22:18,2026-11-11 19:00,Old Dominion Monarchs,Norfolk St Spartans,williamhill_us,2026-11-11T03:16:46Z,5.5,-115.0,146.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Old Dominion Monarchs,Norfolk St Spartans,betmgm,2026-11-11T03:17:27Z,5.5,-115.0,146.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,South Carolina St Bulldogs,Notre Dame Fighting Irish,betonlineag,2026-11-11T03:18:01Z,-26.0,-110.0,148.0,-110.0
+2026-11-10 22:18,2026-11-11 19:00,South Carolina St Bulldogs,Notre Dame Fighting Irish,lowvig,2026-11-11T03:17:10Z,-26.0,-106.0,148.0,-108.0
+2026-11-10 22:18,2026-11-11 19:00,South Carolina St Bulldogs,Notre Dame Fighting Irish,fanatics,2026-11-11T03:18:02Z,-26.0,-110.0,148.0,-110.0
+2026-11-10 22:18,2026-11-11 19:00,South Carolina St Bulldogs,Notre Dame Fighting Irish,betmgm,2026-11-11T03:17:27Z,-26.5,-102.0,148.5,-105.0
+2026-11-10 22:18,2026-11-11 19:00,Stony Brook Seawolves,Princeton Tigers,betonlineag,2026-11-11T03:18:01Z,-5.0,-110.0,138.0,-105.0
+2026-11-10 22:18,2026-11-11 19:00,Stony Brook Seawolves,Princeton Tigers,lowvig,2026-11-11T03:17:10Z,-5.0,-106.0,138.0,-103.0
+2026-11-10 22:18,2026-11-11 19:00,Stony Brook Seawolves,Princeton Tigers,draftkings,2026-11-11T03:17:45Z,-5.5,-102.0,137.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Stony Brook Seawolves,Princeton Tigers,fanatics,2026-11-11T03:18:02Z,-5.0,-110.0,137.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Stony Brook Seawolves,Princeton Tigers,bovada,2026-11-11T03:16:16Z,-4.5,-115.0,137.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Stony Brook Seawolves,Princeton Tigers,betmgm,2026-11-11T03:17:27Z,-5.5,-102.0,137.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Stony Brook Seawolves,Princeton Tigers,betus,2026-11-11T03:17:42Z,-5.0,-110.0,138.0,-105.0
+2026-11-10 22:18,2026-11-11 19:00,Stony Brook Seawolves,Princeton Tigers,williamhill_us,2026-11-11T03:16:46Z,-5.0,-110.0,138.0,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Saint Peter's Peacocks,South Carolina Gamecocks,betonlineag,2026-11-11T03:18:01Z,-23.0,-110.0,130.0,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Saint Peter's Peacocks,South Carolina Gamecocks,lowvig,2026-11-11T03:17:10Z,-23.0,-106.0,130.0,-108.0
+2026-11-10 22:18,2026-11-11 19:00,Saint Peter's Peacocks,South Carolina Gamecocks,draftkings,2026-11-11T03:17:45Z,-22.5,-115.0,129.5,-105.0
+2026-11-10 22:18,2026-11-11 19:00,Saint Peter's Peacocks,South Carolina Gamecocks,fanatics,2026-11-11T03:18:02Z,-22.5,-110.0,129.0,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Saint Peter's Peacocks,South Carolina Gamecocks,fanduel,2026-11-11T03:17:43Z,-22.5,-110.0,128.5,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Saint Peter's Peacocks,South Carolina Gamecocks,bovada,2026-11-11T03:16:16Z,-22.5,-115.0,129.5,-105.0
+2026-11-10 22:18,2026-11-11 19:00,Saint Peter's Peacocks,South Carolina Gamecocks,williamhill_us,2026-11-11T03:16:46Z,-22.5,-110.0,129.0,-110.0
+2026-11-10 22:18,2026-11-11 19:00,Saint Peter's Peacocks,South Carolina Gamecocks,betmgm,2026-11-11T03:17:27Z,-22.5,-115.0,129.5,-105.0
+2026-11-10 22:18,2026-11-11 19:00,Saint Peter's Peacocks,South Carolina Gamecocks,betus,2026-11-11T03:17:42Z,-23.0,-110.0,130.0,-110.0
+2026-11-10 22:18,2026-11-11 19:00,UNC Asheville Bulldogs,West Georgia Wolves,betonlineag,2026-11-11T03:18:01Z,-1.5,-110.0,148.0,-110.0
+2026-11-10 22:18,2026-11-11 19:00,UNC Asheville Bulldogs,West Georgia Wolves,lowvig,2026-11-11T03:17:10Z,-1.5,-106.0,148.0,-108.0
+2026-11-10 22:18,2026-11-11 19:00,UNC Asheville Bulldogs,West Georgia Wolves,fanatics,2026-11-11T03:18:02Z,-1.5,-110.0,148.0,-110.0
+2026-11-10 22:18,2026-11-11 19:00,UNC Asheville Bulldogs,West Georgia Wolves,williamhill_us,2026-11-11T03:16:46Z,-1.5,-110.0,,
+2026-11-10 22:18,2026-11-11 19:00,UNC Asheville Bulldogs,West Georgia Wolves,betmgm,2026-11-11T03:17:27Z,-1.5,-110.0,147.5,-115.0
+2026-11-10 22:18,2026-11-11 19:30,Pepperdine Waves,Sam Houston St Bearkats,betonlineag,2026-11-11T03:18:01Z,1.5,-105.0,161.0,-115.0
+2026-11-10 22:18,2026-11-11 19:30,Pepperdine Waves,Sam Houston St Bearkats,lowvig,2026-11-11T03:17:10Z,1.5,-101.0,161.0,-113.0
+2026-11-10 22:18,2026-11-11 19:30,Pepperdine Waves,Sam Houston St Bearkats,draftkings,2026-11-11T03:17:45Z,1.5,-108.0,161.5,-110.0
+2026-11-10 22:18,2026-11-11 19:30,Pepperdine Waves,Sam Houston St Bearkats,fanatics,2026-11-11T03:18:02Z,1.5,-110.0,160.5,-110.0
+2026-11-10 22:18,2026-11-11 19:30,Pepperdine Waves,Sam Houston St Bearkats,bovada,2026-11-11T03:16:16Z,1.5,-110.0,161.5,-110.0
+2026-11-10 22:18,2026-11-11 19:30,Pepperdine Waves,Sam Houston St Bearkats,betmgm,2026-11-11T03:17:27Z,1.5,-115.0,161.5,-110.0
+2026-11-10 22:18,2026-11-11 19:30,Pepperdine Waves,Sam Houston St Bearkats,williamhill_us,2026-11-11T03:16:46Z,1.5,-110.0,161.5,-110.0
+2026-11-10 22:18,2026-11-11 19:30,Pepperdine Waves,Sam Houston St Bearkats,betus,2026-11-11T03:17:42Z,1.5,-105.0,161.0,-115.0
+2026-11-10 22:18,2026-11-11 19:30,Pepperdine Waves,Sam Houston St Bearkats,betrivers,2026-11-11T03:17:27Z,-0.5,108.0,159.5,-108.0
+2026-11-10 22:18,2026-11-11 20:00,Stephen F. Austin Lumberjacks,Abilene Christian Wildcats,betonlineag,2026-11-11T03:18:01Z,4.0,-110.0,143.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Stephen F. Austin Lumberjacks,Abilene Christian Wildcats,lowvig,2026-11-11T03:17:10Z,4.0,-106.0,143.5,-108.0
+2026-11-10 22:18,2026-11-11 20:00,Stephen F. Austin Lumberjacks,Abilene Christian Wildcats,betmgm,2026-11-11T03:17:27Z,3.5,-102.0,143.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Stephen F. Austin Lumberjacks,Abilene Christian Wildcats,fanatics,2026-11-11T03:18:02Z,4.0,-110.0,143.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Robert Morris Colonials,Arkansas Razorbacks,betonlineag,2026-11-11T03:18:01Z,-33.0,-110.0,158.0,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Robert Morris Colonials,Arkansas Razorbacks,lowvig,2026-11-11T03:17:10Z,-33.0,-106.0,158.0,-108.0
+2026-11-10 22:18,2026-11-11 20:00,Robert Morris Colonials,Arkansas Razorbacks,draftkings,2026-11-11T03:17:45Z,-32.5,-110.0,158.5,-108.0
+2026-11-10 22:18,2026-11-11 20:00,Robert Morris Colonials,Arkansas Razorbacks,fanatics,2026-11-11T03:18:02Z,-32.5,-110.0,157.0,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Robert Morris Colonials,Arkansas Razorbacks,fanduel,2026-11-11T03:17:43Z,-31.5,-105.0,156.5,-115.0
+2026-11-10 22:18,2026-11-11 20:00,Robert Morris Colonials,Arkansas Razorbacks,williamhill_us,2026-11-11T03:16:46Z,-32.5,-110.0,158.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Robert Morris Colonials,Arkansas Razorbacks,bovada,2026-11-11T03:16:16Z,-32.5,-110.0,158.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Robert Morris Colonials,Arkansas Razorbacks,betmgm,2026-11-11T03:17:27Z,-32.5,-110.0,158.5,-105.0
+2026-11-10 22:18,2026-11-11 20:00,Robert Morris Colonials,Arkansas Razorbacks,betus,2026-11-11T03:17:42Z,-33.0,-110.0,158.0,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Jacksonville St Gamecocks,Houston Cougars,betonlineag,2026-11-11T03:18:01Z,-37.0,-115.0,135.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Jacksonville St Gamecocks,Houston Cougars,lowvig,2026-11-11T03:17:10Z,-37.0,-111.0,135.5,-108.0
+2026-11-10 22:18,2026-11-11 20:00,Jacksonville St Gamecocks,Houston Cougars,fanduel,2026-11-11T03:17:43Z,-35.5,-118.0,136.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Jacksonville St Gamecocks,Houston Cougars,fanatics,2026-11-11T03:18:02Z,-36.5,-110.0,136.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Jacksonville St Gamecocks,Houston Cougars,draftkings,2026-11-11T03:17:45Z,-37.5,-105.0,136.5,-105.0
+2026-11-10 22:18,2026-11-11 20:00,Jacksonville St Gamecocks,Houston Cougars,williamhill_us,2026-11-11T03:16:46Z,-37.0,-110.0,136.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Jacksonville St Gamecocks,Houston Cougars,bovada,2026-11-11T03:16:16Z,-37.5,-105.0,135.5,-115.0
+2026-11-10 22:18,2026-11-11 20:00,Jacksonville St Gamecocks,Houston Cougars,betmgm,2026-11-11T03:17:27Z,-37.5,-105.0,135.5,-115.0
+2026-11-10 22:18,2026-11-11 20:00,Jacksonville St Gamecocks,Houston Cougars,betus,2026-11-11T03:17:42Z,-37.0,-115.0,135.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Jackson St Tigers,Southern Miss Golden Eagles,betonlineag,2026-11-11T03:18:01Z,-9.0,-115.0,151.0,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Jackson St Tigers,Southern Miss Golden Eagles,lowvig,2026-11-11T03:17:10Z,-9.0,-111.0,151.0,-108.0
+2026-11-10 22:18,2026-11-11 20:00,Jackson St Tigers,Southern Miss Golden Eagles,betmgm,2026-11-11T03:17:27Z,-9.5,-105.0,150.5,-115.0
+2026-11-10 22:18,2026-11-11 20:00,Jackson St Tigers,Southern Miss Golden Eagles,fanatics,2026-11-11T03:18:02Z,-9.5,-105.0,151.0,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Santa Clara Broncos,North Texas Mean Green,betonlineag,2026-11-11T03:18:01Z,2.5,-110.0,150.0,-120.0
+2026-11-10 22:18,2026-11-11 20:00,Santa Clara Broncos,North Texas Mean Green,lowvig,2026-11-11T03:17:10Z,2.5,-106.0,150.0,-119.0
+2026-11-10 22:18,2026-11-11 20:00,Santa Clara Broncos,North Texas Mean Green,draftkings,2026-11-11T03:17:45Z,2.5,-105.0,150.5,-115.0
+2026-11-10 22:18,2026-11-11 20:00,Santa Clara Broncos,North Texas Mean Green,fanatics,2026-11-11T03:18:02Z,2.5,-110.0,151.0,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Santa Clara Broncos,North Texas Mean Green,bovada,2026-11-11T03:16:16Z,2.5,-105.0,150.5,-115.0
+2026-11-10 22:18,2026-11-11 20:00,Santa Clara Broncos,North Texas Mean Green,betmgm,2026-11-11T03:17:27Z,2.5,-110.0,150.5,-115.0
+2026-11-10 22:18,2026-11-11 20:00,Santa Clara Broncos,North Texas Mean Green,williamhill_us,2026-11-11T03:16:46Z,2.5,-110.0,150.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Santa Clara Broncos,North Texas Mean Green,betus,2026-11-11T03:17:42Z,2.5,-110.0,150.0,-120.0
+2026-11-10 22:18,2026-11-11 20:00,Oral Roberts Golden Eagles,Tulsa Golden Hurricane,betonlineag,2026-11-11T03:18:01Z,-17.0,-110.0,154.0,-115.0
+2026-11-10 22:18,2026-11-11 20:00,Oral Roberts Golden Eagles,Tulsa Golden Hurricane,lowvig,2026-11-11T03:17:10Z,-17.0,-106.0,154.0,-113.0
+2026-11-10 22:18,2026-11-11 20:00,Oral Roberts Golden Eagles,Tulsa Golden Hurricane,draftkings,2026-11-11T03:17:45Z,-17.5,-102.0,154.5,-108.0
+2026-11-10 22:18,2026-11-11 20:00,Oral Roberts Golden Eagles,Tulsa Golden Hurricane,fanatics,2026-11-11T03:18:02Z,-17.5,-105.0,154.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Oral Roberts Golden Eagles,Tulsa Golden Hurricane,williamhill_us,2026-11-11T03:16:46Z,-17.0,-110.0,155.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Oral Roberts Golden Eagles,Tulsa Golden Hurricane,bovada,2026-11-11T03:16:16Z,-16.5,-120.0,154.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Oral Roberts Golden Eagles,Tulsa Golden Hurricane,betmgm,2026-11-11T03:17:27Z,-17.5,-105.0,154.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Oral Roberts Golden Eagles,Tulsa Golden Hurricane,betus,2026-11-11T03:17:42Z,-17.0,-110.0,154.0,-115.0
+2026-11-10 22:18,2026-11-11 20:00,Oral Roberts Golden Eagles,Tulsa Golden Hurricane,fanduel,2026-11-11T03:17:43Z,-17.5,-110.0,154.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Valparaiso Beacons,South Dakota St Jackrabbits,betonlineag,2026-11-11T03:18:01Z,1.0,-115.0,142.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Valparaiso Beacons,South Dakota St Jackrabbits,lowvig,2026-11-11T03:17:10Z,1.0,-111.0,142.5,-108.0
+2026-11-10 22:18,2026-11-11 20:00,Valparaiso Beacons,South Dakota St Jackrabbits,draftkings,2026-11-11T03:17:45Z,-1.5,110.0,142.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Valparaiso Beacons,South Dakota St Jackrabbits,fanatics,2026-11-11T03:18:02Z,1.0,-115.0,142.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Valparaiso Beacons,South Dakota St Jackrabbits,bovada,2026-11-11T03:16:16Z,1.5,-130.0,142.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Valparaiso Beacons,South Dakota St Jackrabbits,betmgm,2026-11-11T03:17:27Z,1.5,-115.0,142.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Valparaiso Beacons,South Dakota St Jackrabbits,williamhill_us,2026-11-11T03:16:46Z,-1.5,-110.0,142.5,-110.0
+2026-11-10 22:18,2026-11-11 20:00,Valparaiso Beacons,South Dakota St Jackrabbits,betus,2026-11-11T03:17:42Z,1.0,-115.0,142.5,-110.0
+2026-11-10 22:18,2026-11-11 21:00,Arkansas-Pine Bluff Golden Lions,UCLA Bruins,betonlineag,2026-11-11T03:18:01Z,-43.0,-110.0,156.0,-115.0
+2026-11-10 22:18,2026-11-11 21:00,Arkansas-Pine Bluff Golden Lions,UCLA Bruins,lowvig,2026-11-11T03:17:10Z,-43.0,-106.0,156.0,-113.0
+2026-11-10 22:18,2026-11-11 21:00,Arkansas-Pine Bluff Golden Lions,UCLA Bruins,betmgm,2026-11-11T03:17:27Z,-43.5,-102.0,156.5,-110.0
+2026-11-10 22:18,2026-11-11 21:00,Arkansas-Pine Bluff Golden Lions,UCLA Bruins,fanatics,2026-11-11T03:18:02Z,-43.0,-110.0,156.5,-110.0
+2026-11-10 22:18,2026-11-11 21:00,Oakland Golden Grizzlies,Boise State Broncos,betonlineag,2026-11-11T03:18:01Z,-18.0,-110.0,162.5,-118.0
+2026-11-10 22:18,2026-11-11 21:00,Oakland Golden Grizzlies,Boise State Broncos,lowvig,2026-11-11T03:17:10Z,-18.0,-106.0,162.5,-117.0
+2026-11-10 22:18,2026-11-11 21:00,Oakland Golden Grizzlies,Boise State Broncos,williamhill_us,2026-11-11T03:16:46Z,-18.0,-110.0,162.5,-115.0
+2026-11-10 22:18,2026-11-11 21:00,Oakland Golden Grizzlies,Boise State Broncos,betus,2026-11-11T03:17:42Z,-18.0,-110.0,162.5,-120.0
+2026-11-10 22:18,2026-11-11 21:00,Oakland Golden Grizzlies,Boise State Broncos,fanatics,2026-11-11T03:18:02Z,-18.0,-110.0,163.5,-110.0
+2026-11-10 22:18,2026-11-11 21:00,Oakland Golden Grizzlies,Boise State Broncos,betmgm,2026-11-11T03:17:27Z,-17.5,-118.0,163.5,-105.0
+2026-11-10 22:18,2026-11-11 21:00,Cal Poly Mustangs,Grand Canyon Antelopes,betonlineag,2026-11-11T03:18:01Z,-18.5,-110.0,180.0,-110.0
+2026-11-10 22:18,2026-11-11 21:00,Cal Poly Mustangs,Grand Canyon Antelopes,lowvig,2026-11-11T03:17:10Z,-18.5,-106.0,180.0,-108.0
+2026-11-10 22:18,2026-11-11 21:00,Cal Poly Mustangs,Grand Canyon Antelopes,draftkings,2026-11-11T03:17:45Z,-18.5,-110.0,180.5,-108.0
+2026-11-10 22:18,2026-11-11 21:00,Cal Poly Mustangs,Grand Canyon Antelopes,fanatics,2026-11-11T03:18:02Z,-18.0,-115.0,179.5,-110.0
+2026-11-10 22:18,2026-11-11 21:00,Cal Poly Mustangs,Grand Canyon Antelopes,williamhill_us,2026-11-11T03:16:46Z,-18.5,-110.0,180.5,-110.0
+2026-11-10 22:18,2026-11-11 21:00,Cal Poly Mustangs,Grand Canyon Antelopes,betmgm,2026-11-11T03:17:27Z,,,179.5,-115.0
+2026-11-10 22:18,2026-11-11 21:00,Cal Poly Mustangs,Grand Canyon Antelopes,betus,2026-11-11T03:17:42Z,-18.5,-110.0,180.0,-110.0
+2026-11-10 22:18,2026-11-11 21:00,Cal Poly Mustangs,Grand Canyon Antelopes,fanduel,2026-11-11T03:17:43Z,-17.5,-110.0,179.5,-106.0
+2026-11-10 22:18,2026-11-11 21:00,Portland St Vikings,Colorado St Rams,betonlineag,2026-11-11T03:18:01Z,-15.0,-110.0,147.5,-115.0
+2026-11-10 22:18,2026-11-11 21:00,Portland St Vikings,Colorado St Rams,lowvig,2026-11-11T03:17:10Z,-15.0,-106.0,147.5,-113.0
+2026-11-10 22:18,2026-11-11 21:00,Portland St Vikings,Colorado St Rams,draftkings,2026-11-11T03:17:45Z,-14.5,-118.0,148.5,-112.0
+2026-11-10 22:18,2026-11-11 21:00,Portland St Vikings,Colorado St Rams,fanatics,2026-11-11T03:18:02Z,-15.0,-110.0,148.0,-110.0
+2026-11-10 22:18,2026-11-11 21:00,Portland St Vikings,Colorado St Rams,williamhill_us,2026-11-11T03:16:46Z,-15.0,-110.0,148.5,-110.0
+2026-11-10 22:18,2026-11-11 21:00,Portland St Vikings,Colorado St Rams,betmgm,2026-11-11T03:17:27Z,-14.5,-118.0,148.5,-105.0
+2026-11-10 22:18,2026-11-11 21:00,Portland St Vikings,Colorado St Rams,betus,2026-11-11T03:17:42Z,-15.0,-110.0,147.5,-115.0
+2026-11-10 22:18,2026-11-11 21:00,Lindenwood Lions,Nebraska Cornhuskers,betonlineag,2026-11-11T03:18:01Z,-35.0,-110.0,151.0,-115.0
+2026-11-10 22:18,2026-11-11 21:00,Lindenwood Lions,Nebraska Cornhuskers,lowvig,2026-11-11T03:17:10Z,-35.0,-106.0,151.0,-113.0
+2026-11-10 22:18,2026-11-11 21:00,Lindenwood Lions,Nebraska Cornhuskers,draftkings,2026-11-11T03:17:45Z,-34.5,-115.0,151.5,-108.0
+2026-11-10 22:18,2026-11-11 21:00,Lindenwood Lions,Nebraska Cornhuskers,williamhill_us,2026-11-11T03:16:46Z,-35.0,-110.0,151.5,-110.0
+2026-11-10 22:18,2026-11-11 21:00,Lindenwood Lions,Nebraska Cornhuskers,fanatics,2026-11-11T03:18:02Z,-35.0,-110.0,151.5,-110.0
+2026-11-10 22:18,2026-11-11 21:00,Lindenwood Lions,Nebraska Cornhuskers,betmgm,2026-11-11T03:17:27Z,-35.5,-102.0,151.5,-110.0
+2026-11-10 22:18,2026-11-11 21:00,Lindenwood Lions,Nebraska Cornhuskers,betus,2026-11-11T03:17:42Z,-35.0,-110.0,151.0,-115.0
+2026-11-10 22:18,2026-11-11 21:00,Nevada Wolf Pack,UC Santa Barbara Gauchos,betonlineag,2026-11-11T03:18:01Z,0.0,-115.0,143.0,-110.0
+2026-11-10 22:18,2026-11-11 21:00,Nevada Wolf Pack,UC Santa Barbara Gauchos,lowvig,2026-11-11T03:17:10Z,0.0,-111.0,143.0,-108.0
+2026-11-10 22:18,2026-11-11 21:00,Nevada Wolf Pack,UC Santa Barbara Gauchos,fanduel,2026-11-11T03:17:43Z,1.5,-115.0,144.5,-115.0
+2026-11-10 22:18,2026-11-11 21:00,Nevada Wolf Pack,UC Santa Barbara Gauchos,fanatics,2026-11-11T03:18:02Z,1.5,-110.0,144.0,-110.0
+2026-11-10 22:18,2026-11-11 21:00,Nevada Wolf Pack,UC Santa Barbara Gauchos,draftkings,2026-11-11T03:17:45Z,1.5,-115.0,143.5,-115.0
+2026-11-10 22:18,2026-11-11 21:00,Nevada Wolf Pack,UC Santa Barbara Gauchos,williamhill_us,2026-11-11T03:16:46Z,1.5,-110.0,143.5,-110.0
+2026-11-10 22:18,2026-11-11 21:00,Nevada Wolf Pack,UC Santa Barbara Gauchos,betmgm,2026-11-11T03:17:27Z,1.5,-115.0,143.5,-115.0
+2026-11-10 22:18,2026-11-11 21:00,Nevada Wolf Pack,UC Santa Barbara Gauchos,betus,2026-11-11T03:17:42Z,0.0,-115.0,143.0,-110.0
+2026-11-10 22:18,2026-11-11 22:00,Chicago St Cougars,Cal Baptist Lancers,betonlineag,2026-11-11T03:18:01Z,-10.5,-115.0,141.0,-115.0
+2026-11-10 22:18,2026-11-11 22:00,Chicago St Cougars,Cal Baptist Lancers,lowvig,2026-11-11T03:17:10Z,-10.5,-111.0,141.0,-113.0
+2026-11-10 22:18,2026-11-11 22:00,Chicago St Cougars,Cal Baptist Lancers,fanduel,2026-11-11T03:17:43Z,-10.5,-110.0,146.5,-115.0
+2026-11-10 22:18,2026-11-11 22:00,Chicago St Cougars,Cal Baptist Lancers,fanatics,2026-11-11T03:18:02Z,-10.5,-110.0,145.0,-110.0
+2026-11-10 22:18,2026-11-11 22:00,Chicago St Cougars,Cal Baptist Lancers,betmgm,2026-11-11T03:17:27Z,-10.5,-110.0,146.5,-115.0
+2026-11-10 22:18,2026-11-11 22:00,Pacific Tigers,Long Beach St 49ers,betonlineag,2026-11-11T03:18:01Z,6.0,-110.0,136.5,-110.0
+2026-11-10 22:18,2026-11-11 22:00,Pacific Tigers,Long Beach St 49ers,lowvig,2026-11-11T03:17:10Z,6.0,-106.0,136.5,-108.0
+2026-11-10 22:18,2026-11-11 22:00,Pacific Tigers,Long Beach St 49ers,draftkings,2026-11-11T03:17:45Z,6.5,-118.0,136.5,-108.0
+2026-11-10 22:18,2026-11-11 22:00,Pacific Tigers,Long Beach St 49ers,fanatics,2026-11-11T03:18:02Z,6.0,-110.0,137.0,-110.0
+2026-11-10 22:18,2026-11-11 22:00,Pacific Tigers,Long Beach St 49ers,fanduel,2026-11-11T03:17:43Z,6.5,-118.0,137.5,-115.0
+2026-11-10 22:18,2026-11-11 22:00,Pacific Tigers,Long Beach St 49ers,betmgm,2026-11-11T03:17:27Z,6.5,-118.0,136.5,-115.0
+2026-11-10 22:18,2026-11-11 22:00,Pacific Tigers,Long Beach St 49ers,williamhill_us,2026-11-11T03:16:46Z,6.0,-110.0,136.5,-110.0
+2026-11-10 22:18,2026-11-11 22:00,Pacific Tigers,Long Beach St 49ers,betus,2026-11-11T03:17:42Z,6.0,-110.0,136.5,-110.0
+2026-11-10 22:18,2026-11-11 22:00,Miss Valley St Delta Devils,Oregon Ducks,betonlineag,2026-11-11T03:18:01Z,-37.5,-115.0,148.0,-110.0
+2026-11-10 22:18,2026-11-11 22:00,Miss Valley St Delta Devils,Oregon Ducks,lowvig,2026-11-11T03:17:10Z,-37.5,-111.0,148.0,-108.0
+2026-11-10 22:18,2026-11-11 22:00,Miss Valley St Delta Devils,Oregon Ducks,fanduel,2026-11-11T03:17:43Z,-36.5,-110.0,148.5,-114.0
+2026-11-10 22:18,2026-11-11 22:00,Miss Valley St Delta Devils,Oregon Ducks,fanatics,2026-11-11T03:18:02Z,-36.5,-110.0,148.0,-110.0
+2026-11-10 22:18,2026-11-11 22:00,Miss Valley St Delta Devils,Oregon Ducks,betmgm,2026-11-11T03:17:27Z,-36.5,-110.0,148.5,-110.0
+2026-11-10 22:18,2026-11-11 22:00,UTSA Roadrunners,Seattle Redhawks,betonlineag,2026-11-11T03:18:01Z,-15.0,-110.0,150.0,-115.0
+2026-11-10 22:18,2026-11-11 22:00,UTSA Roadrunners,Seattle Redhawks,lowvig,2026-11-11T03:17:10Z,-15.0,-106.0,150.0,-113.0
+2026-11-10 22:18,2026-11-11 22:00,UTSA Roadrunners,Seattle Redhawks,draftkings,2026-11-11T03:17:45Z,-15.5,-102.0,150.5,-110.0
+2026-11-10 22:18,2026-11-11 22:00,UTSA Roadrunners,Seattle Redhawks,fanatics,2026-11-11T03:18:02Z,-15.5,-110.0,150.0,-110.0
+2026-11-10 22:18,2026-11-11 22:00,UTSA Roadrunners,Seattle Redhawks,betmgm,2026-11-11T03:17:27Z,-15.5,-110.0,150.5,-110.0
+2026-11-10 22:18,2026-11-11 22:00,UTSA Roadrunners,Seattle Redhawks,betus,2026-11-11T03:17:42Z,-15.0,-110.0,150.0,-115.0
+2026-11-10 22:18,2026-11-11 22:00,UTSA Roadrunners,Seattle Redhawks,williamhill_us,2026-11-11T03:16:46Z,-15.0,-110.0,150.5,-110.0
+2026-11-10 22:18,2026-11-11 22:00,UTSA Roadrunners,Seattle Redhawks,fanduel,2026-11-11T03:17:43Z,-15.5,-120.0,148.5,-115.0
+2026-11-10 22:18,2026-11-11 23:00,USC Trojans,California Golden Bears,betonlineag,2026-11-11T03:18:01Z,8.5,-105.0,162.0,-120.0
+2026-11-10 22:18,2026-11-11 23:00,USC Trojans,California Golden Bears,lowvig,2026-11-11T03:17:10Z,8.5,-101.0,162.0,-119.0
+2026-11-10 22:18,2026-11-11 23:00,USC Trojans,California Golden Bears,draftkings,2026-11-11T03:17:45Z,8.5,-105.0,161.5,-115.0
+2026-11-10 22:18,2026-11-11 23:00,USC Trojans,California Golden Bears,fanatics,2026-11-11T03:18:02Z,7.5,-105.0,161.5,-110.0
+2026-11-10 22:18,2026-11-11 23:00,USC Trojans,California Golden Bears,fanduel,2026-11-11T03:17:43Z,7.5,-108.0,161.5,-115.0
+2026-11-10 22:18,2026-11-11 23:00,USC Trojans,California Golden Bears,williamhill_us,2026-11-11T03:16:46Z,8.5,-110.0,162.0,-110.0
+2026-11-10 22:18,2026-11-11 23:00,USC Trojans,California Golden Bears,betmgm,2026-11-11T03:17:27Z,8.5,-110.0,162.5,-105.0
+2026-11-10 22:18,2026-11-11 23:00,USC Trojans,California Golden Bears,betus,2026-11-11T03:17:42Z,8.5,-105.0,162.0,-120.0
