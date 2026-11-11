@@ -1055,12 +1055,16 @@ gameId,date,team,opponent,isHome,d1_game,periods,poss_parsed,poss_unknown,off_ap
 372748,2026-11-10,Siena,Dayton,False,True,2,75,0,14.32,15.4,0.907,10,77.0,-2.0
 372749,2026-11-10,Central Michigan,Youngstown State,True,True,2,69,0,17.59,17.81,0.885,13,71.0,-2.0
 372749,2026-11-10,Youngstown State,Central Michigan,False,True,2,69,0,16.41,16.37,0.888,-13,71.0,-2.0
+372750,2026-11-10,Kansas,Kentucky,True,True,2,75,0,16.56,16.0,0.831,20,75.0,0.0
+372750,2026-11-10,Kentucky,Kansas,False,True,2,74,0,15.45,15.6,0.812,-20,75.0,-1.0
 372751,2026-11-10,Iowa State,Southern,True,True,2,78,0,15.29,14.95,0.558,37,77.0,1.0
 372751,2026-11-10,Southern,Iowa State,False,True,2,78,0,15.36,16.07,0.54,-37,77.0,1.0
 372752,2026-11-10,Colorado,San Diego,True,True,2,69,0,15.0,15.53,0.957,8,70.0,-1.0
 372752,2026-11-10,San Diego,Colorado,False,True,2,71,0,19.17,19.55,0.944,-8,71.0,0.0
 372753,2026-11-10,Baylor,Yale,True,True,2,68,0,16.32,17.56,0.75,29,69.0,-1.0
 372753,2026-11-10,Yale,Baylor,False,True,2,67,0,18.45,18.8,0.74,-29,67.0,0.0
+372754,2026-11-10,Arizona,Northern Arizona,True,True,2,63,0,13.63,13.5,0.688,31,64.0,-1.0
+372754,2026-11-10,Northern Arizona,Arizona,False,True,2,63,0,23.63,23.52,0.679,-31,63.0,0.0
 372755,2026-11-10,Charleston Southern,Wake Forest,False,True,2,66,0,17.18,17.03,0.708,-18,68.0,-2.0
 372755,2026-11-10,Wake Forest,Charleston Southern,True,True,2,68,1,17.06,17.34,0.7,18,68.0,0.0
 372756,2026-11-10,Duke,Michigan State,True,True,2,68,0,16.9,17.28,0.956,-6,71.0,-3.0
@@ -1099,6 +1103,8 @@ gameId,date,team,opponent,isHome,d1_game,periods,poss_parsed,poss_unknown,off_ap
 374826,2026-11-10,UCF,South Alabama,True,True,2,59,0,18.97,19.34,0.955,7,61.0,-2.0
 374827,2026-11-10,BYU,Queens University,True,True,2,76,0,14.88,14.08,0.872,16,76.0,0.0
 374827,2026-11-10,Queens University,BYU,False,True,2,72,0,16.82,17.25,0.832,-16,75.0,-3.0
+374828,2026-11-10,Arizona State,Hofstra,True,True,2,64,0,15.55,15.37,0.681,22,65.0,-1.0
+374828,2026-11-10,Hofstra,Arizona State,False,True,2,65,0,19.31,20.5,0.69,-22,64.0,1.0
 374829,2026-11-10,Utah,Weber State,True,True,2,66,1,18.09,18.57,0.86,21,66.0,0.0
 374829,2026-11-10,Weber State,Utah,False,True,2,64,0,17.95,18.36,0.864,-21,65.0,-1.0
 374830,2026-11-10,Montana,San Francisco,False,True,2,65,0,17.14,17.51,0.938,-5,67.0,-2.0
@@ -1121,6 +1127,8 @@ gameId,date,team,opponent,isHome,d1_game,periods,poss_parsed,poss_unknown,off_ap
 374840,2026-11-10,SMU,Prairie View A&M,True,True,2,75,1,13.49,13.53,0.572,35,77.0,-2.0
 374841,2026-11-10,NC State,Presbyterian,True,True,2,70,0,15.74,15.72,0.664,34,70.0,0.0
 374841,2026-11-10,Presbyterian,NC State,False,True,2,71,0,18.07,18.41,0.647,-34,71.0,0.0
+374842,2026-11-10,TCU,UL Monroe,True,True,4,90,0,16.17,16.36,0.767,8,87.0,3.0
+374842,2026-11-10,UL Monroe,TCU,False,True,4,87,0,17.68,17.61,0.793,-8,86.0,1.0
 374844,2026-11-10,Loyola Marymount,Troy,False,True,3,69,0,18.46,19.07,0.87,-5,71.0,-2.0
 374844,2026-11-10,Troy,Loyola Marymount,True,True,3,67,0,18.16,18.38,0.896,5,69.0,-2.0
 374845,2026-11-10,Bradley,Davidson,False,True,2,66,0,16.74,16.84,0.895,-17,67.0,-1.0
