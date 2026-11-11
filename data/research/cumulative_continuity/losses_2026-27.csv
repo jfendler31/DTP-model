@@ -1,0 +1,365 @@
+team,conf,dep_26_share,dep_3yr_share,multi_3yr_share,n_multi,starter_seasons,shared,cum,transferred_out_3yr,multi_names
+Notre Dame,ACC,0.657,0.416,0.199,2,7,4,11,0.289,"Markus Burton(2), Kebba Njie(2)"
+William & Mary,CAA,0.996,0.466,0.114,1,7,5,12,0.155,Chase Lowe(2)
+Minnesota,Big Ten,0.395,0.132,0.0,0,2,1,3,0.071,
+Wofford,SoCon,0.676,0.238,0.0,0,3,2,5,0.215,
+Alabama,SEC,0.664,0.314,0.088,1,5,3,8,0.093,Labaron Philon Jr.(2)
+Binghamton,Am. East,0.634,0.258,0.093,1,5,3,8,0.042,Wes Peterson Jr.(2)
+Mercer,SoCon,0.758,0.266,0.0,0,3,2,5,0.15,
+Lafayette,Patriot,0.746,0.514,0.345,3,8,5,13,0.424,"Mark Butler(3), Andrew Phillips(2), Caleb Williams(2)"
+UMass Lowell,Am. East,0.888,0.302,0.0,0,5,4,9,0.241,
+Georgia State,Sun Belt,0.976,0.422,0.192,2,7,5,12,0.379,"Malachi Brown(2), Jelani Hamilton(2)"
+St. John's,Big East,0.822,0.372,0.123,1,7,5,12,0.148,Zuby Ejiofor(2)
+Navy,Patriot,0.594,0.527,0.426,3,9,6,15,0.0,"Austin Benigni(3), Aidan Kehoe(2), Donovan Draper(3)"
+Marist,Metro,0.731,0.45,0.199,2,7,4,11,0.129,"Elijah Lewis(2), Jaden Daughtry(3)"
+Northern Colorado,Big Sky,0.749,0.445,0.352,3,10,7,17,0.041,"Zach Bloch(3), Quinn Denker(2), Brock Wisne(3)"
+Monmouth,CAA,0.695,0.357,0.105,1,5,3,8,0.278,Cornelius Robinson III(2)
+Longwood,Big South,0.733,0.41,0.0,0,5,4,9,0.184,
+Quinnipiac,Metro,0.742,0.399,0.233,2,7,4,11,0.349,"Amarri Monroe(3), Jaden Zimmerman(2)"
+IU Indianapolis,Horizon,0.868,0.292,0.0,0,5,4,9,0.158,
+Hofstra,CAA,0.887,0.471,0.242,2,5,3,8,0.219,"Cruz Davis(2), German Plotnikov(2)"
+Canisius,Metro,0.998,0.405,0.0,0,5,3,8,0.211,
+Duquesne,A-10,0.712,0.412,0.089,1,5,3,8,0.152,Jakub Necas(2)
+Brown,Ivy,0.125,0.089,0.086,1,2,0,2,0.0,Landon Lewis(2)
+Murray State,MVC,0.724,0.242,0.0,0,5,4,9,0.125,
+SE Louisiana,Southland,0.973,0.42,0.092,1,5,3,8,0.126,Jeremy Elyzee(2)
+USC,Big Ten,0.76,0.256,0.0,0,2,1,3,0.076,
+Elon,CAA,0.721,0.303,0.099,1,5,3,8,0.173,Isaac Harrell(2)
+UC Santa Barbara,Big West,0.447,0.285,0.095,1,5,2,7,0.22,Jason Fontenet II(2)
+Western Michigan,MAC,1.0,0.408,0.089,1,4,2,6,0.285,Max Burton(2)
+Radford,Big South,0.909,0.298,0.0,0,5,4,9,0.159,
+Akron,MAC,0.741,0.463,0.227,2,6,4,10,0.291,"Tavari Johnson(2), Shammah Scott(2)"
+Abilene Christian,UAC,0.778,0.36,0.163,2,6,4,10,0.195,"Rich Smith(2), Bradyn Hubbard(2)"
+Southeast Missouri State,OVC,0.749,0.507,0.208,2,6,4,10,0.282,"BJ Ward(2), Brendan Terry(2)"
+Loyola Maryland,Patriot,0.681,0.506,0.338,3,9,6,15,0.354,"Braeden Speed(2), Jordan Stiemke(2), Tyson Commander(3)"
+La Salle,A-10,0.669,0.231,0.0,0,2,1,3,0.117,
+Memphis,American,0.888,0.302,0.0,0,1,0,1,0.142,
+Dartmouth,Ivy,0.673,0.494,0.338,3,10,7,17,0.15,"Connor Amundsen(2), Brandon Mitchell-Day(3), Jackson Munro(3)"
+Colgate,Patriot,0.465,0.327,0.129,1,5,3,8,0.177,Jalen Cox(2)
+Troy,Sun Belt,0.91,0.538,0.136,1,7,4,11,0.392,Thomas Dowd(3)
+Furman,SoCon,0.587,0.365,0.213,2,6,4,10,0.249,"Ben Vander Wal(2), Cooper Bowser(2)"
+Fairfield,Metro,0.498,0.226,0.093,1,3,1,4,0.071,Braden Sparks(2)
+Butler,Big East,0.882,0.36,0.123,1,4,2,6,0.255,Finley Bizjack(2)
+Northern Iowa,MVC,0.904,0.583,0.334,3,9,6,15,0.433,"Trey Campbell(3), Ben Schwieger(2), Max Weisbrod(2)"
+Fordham,A-10,0.506,0.174,0.0,0,2,1,3,0.065,
+Kentucky,SEC,0.786,0.361,0.104,1,4,2,6,0.253,Otega Oweh(2)
+Bellarmine,ASUN,0.516,0.23,0.0,0,2,1,3,0.116,
+Xavier,Big East,0.714,0.234,0.0,0,4,3,7,0.157,
+Drexel,CAA,0.774,0.408,0.185,2,6,4,10,0.227,"Shane Blakeney(2), Victor Panov(2)"
+UTEP,CUSA,1.0,0.387,0.0,0,5,4,9,0.194,
+UC Irvine,Big West,0.585,0.337,0.096,1,5,2,7,0.253,Jurian Dixon(2)
+Pittsburgh,ACC,0.98,0.41,0.103,1,7,5,12,0.201,Cameron Corhen(2)
+Tulane,American,0.745,0.394,0.227,2,6,4,10,0.187,"Rowan Brumbaugh(2), Asher Woods(2)"
+North Carolina,ACC,0.83,0.336,0.109,1,6,4,10,0.255,Seth Trimble(2)
+Virginia,ACC,0.486,0.173,0.0,0,2,1,3,0.05,
+Grambling,SWAC,0.949,0.328,0.0,0,5,4,9,0.069,
+UT Arlington,UAC,0.939,0.355,0.088,1,4,2,6,0.177,Raysean Seamster(2)
+Kent State,MAC,0.846,0.39,0.192,2,7,5,12,0.295,"Cian Medley(2), Delrecco Gillespie(2)"
+Kansas City,Summit,1.0,0.421,0.13,1,7,5,12,0.22,Jayson Petty(2)
+Denver,Summit,0.73,0.278,0.0,0,4,3,7,0.051,
+Georgetown,Big East,0.69,0.298,0.11,1,4,2,6,0.247,Malik Mack(2)
+Rice,American,0.64,0.322,0.1,1,4,2,6,0.061,Trae Broadnax(2)
+Texas Tech,Big 12,0.658,0.265,0.11,1,4,2,6,0.126,Christian Anderson(2)
+West Georgia,ASUN,0.811,0.637,0.318,2,6,4,10,0.113,"Shelton Williams-Dryden(2), Kolten Griffin(2)"
+George Mason,A-10,0.85,0.279,0.0,0,4,3,7,0.178,
+Eastern Washington,Big Sky,0.735,0.307,0.0,0,4,3,7,0.0,
+Western Kentucky,CUSA,0.62,0.271,0.0,0,2,1,3,0.035,
+Montana,Big Sky,0.67,0.35,0.219,2,6,4,10,0.146,"Money Williams(2), Te'Jon Sawyer(2)"
+Florida A&M,SWAC,0.718,0.358,0.121,1,5,2,7,0.022,Jordan Chatman(3)
+Alabama State,SWAC,0.95,0.361,0.0,0,5,4,9,0.098,
+Wichita State,American,0.289,0.102,0.0,0,1,0,1,0.102,
+Chattanooga,SoCon,0.771,0.295,0.0,0,4,3,7,0.147,
+Arizona State,Big 12,0.908,0.312,0.0,0,5,4,9,0.242,
+Harvard,Ivy,0.167,0.157,0.155,1,3,0,3,0.0,Chandler Pigge(3)
+Little Rock,OVC,0.978,0.446,0.209,2,7,5,12,0.114,"Johnathan Lawson(2), Tuongthach Gatkek(2)"
+Indiana,Big Ten,0.828,0.275,0.0,0,4,3,7,0.081,
+Purdue,Big Ten,0.588,0.49,0.443,3,9,6,15,0.124,"Braden Smith(3), Fletcher Loyer(3), Trey Kaufman-Renn(2)"
+Youngstown State,Horizon,0.948,0.397,0.166,2,6,4,10,0.099,"Cris Carroll(2), Jason Nelson(2)"
+Northeastern,CAA,0.66,0.367,0.0,0,4,2,6,0.36,
+South Alabama,Sun Belt,0.884,0.435,0.0,0,6,4,10,0.247,
+Ohio State,Big Ten,0.666,0.406,0.285,2,6,3,9,0.173,"Bruce Thornton(3), Devin Royal(2)"
+Samford,SoCon,0.644,0.215,0.0,0,3,2,5,0.098,
+South Carolina,SEC,0.897,0.402,0.099,1,5,3,8,0.125,Meechie Johnson(2)
+UT Rio Grande Valley,Southland,0.923,0.389,0.0,0,5,4,9,0.244,
+UIC,MVC,0.414,0.146,0.0,0,2,1,3,0.039,
+Saint Mary's,WCC,0.733,0.357,0.098,1,5,3,8,0.297,Paulius Murauskas(2)
+Gardner-Webb,Big South,0.676,0.241,0.0,0,3,2,5,0.145,
+Vermont,Am. East,0.728,0.416,0.237,2,6,3,9,0.118,"TJ Hurley(3), TJ Long(2)"
+Texas Southern,SWAC,0.788,0.48,0.088,1,7,5,12,0.0,Zaire Hayes(2)
+Stony Brook,CAA,0.657,0.241,0.0,0,4,3,7,0.081,
+Louisville,ACC,0.886,0.392,0.103,1,5,3,8,0.097,J'Vonne Hadley(2)
+North Texas,American,0.565,0.183,0.0,0,2,1,3,0.105,
+Rider,Metro,1.0,0.399,0.177,2,6,4,10,0.163,"Flash Burton(2), Zion Cruz(2)"
+Florida Gulf Coast,ASUN,0.806,0.419,0.199,2,7,5,12,0.203,"Rahmir Barno(2), Michael Duax(2)"
+UNC Greensboro,SoCon,0.979,0.356,0.0,0,6,5,11,0.245,
+Cal State Northridge,Big West,0.829,0.412,0.125,1,4,2,6,0.114,Mahmoud Fofana(2)
+Oklahoma,SEC,0.616,0.242,0.0,0,3,2,5,0.028,
+Bryant,Am. East,0.733,0.272,0.0,0,3,2,5,0.191,
+Oklahoma State,Big 12,0.679,0.265,0.0,0,4,3,7,0.161,
+East Carolina,American,0.932,0.363,0.114,1,5,3,8,0.156,Jordan Riley(2)
+Indiana State,MVC,1.0,0.443,0.152,2,7,5,12,0.263,"Camp Wagner(2), Bruno Alocen(2)"
+California,ACC,0.795,0.35,0.0,0,6,4,10,0.154,
+Arkansas-Pine Bluff,SWAC,0.973,0.406,0.0,0,5,4,9,0.107,
+UCLA,Big Ten,0.524,0.271,0.167,2,5,3,8,0.138,"Tyler Bilodeau(2), Skyy Clark(2)"
+Georgia,SEC,0.558,0.252,0.0,0,2,1,3,0.204,
+Georgia Tech,ACC,0.858,0.452,0.23,2,8,5,13,0.328,"Kowacie Reeves Jr.(2), Baye Ndongo(3)"
+Saint Louis,A-10,0.414,0.194,0.097,1,3,1,4,0.028,Robbie Avila(2)
+North Carolina Central,MEAC,0.969,0.367,0.0,0,5,4,9,0.059,
+Le Moyne,NEC,0.96,0.381,0.0,0,5,4,9,0.276,
+Creighton,Big East,0.608,0.206,0.0,0,2,1,3,0.11,
+Colorado State,Mountain West,0.421,0.142,0.0,0,2,1,3,0.093,
+Stetson,ASUN,0.611,0.239,0.0,0,4,2,6,0.145,
+NJIT,Am. East,0.622,0.431,0.31,3,7,4,11,0.36,"Ari Fulton(2), Jordan Rogers(2), Sebastian Robinson(3)"
+California Baptist,UAC,0.865,0.438,0.147,1,6,3,9,0.146,Dominique Daniels Jr.(3)
+Iowa,Big Ten,0.436,0.155,0.0,0,3,2,5,0.037,
+Mississippi State,SEC,0.79,0.32,0.0,0,4,3,7,0.085,
+Southern Indiana,OVC,0.85,0.299,0.0,0,4,3,7,0.148,
+Mississippi Valley State,SWAC,0.949,0.406,0.0,0,5,3,8,0.072,
+Missouri State,CUSA,0.781,0.373,0.181,2,6,4,10,0.175,"Zaxton King(2), Michael Osei-Bonsu(2)"
+New Mexico State,CUSA,0.785,0.265,0.0,0,3,2,5,0.027,
+Massachusetts,MAC,0.584,0.267,0.108,1,5,3,8,0.037,Daniel Hankins-Sanford(2)
+Ball State,MAC,0.834,0.278,0.0,0,4,3,7,0.151,
+UTSA,American,0.869,0.305,0.0,0,4,3,7,0.2,
+Boston College,ACC,1.0,0.458,0.12,1,7,5,12,0.421,Donald Hand Jr.(2)
+Eastern Michigan,MAC,0.656,0.245,0.0,0,1,0,1,0.041,
+Saint Joseph's,A-10,0.633,0.389,0.185,2,6,4,10,0.204,"Derek Simpson(2), Justice Ajogbor(2)"
+Campbell,CAA,1.0,0.476,0.106,1,6,4,10,0.135,Cam Gregory(2)
+Purdue Fort Wayne,Horizon,0.718,0.379,0.234,2,6,4,10,0.12,"Corey Hadnot II(2), Maximus Nelson(2)"
+Auburn,SEC,0.655,0.226,0.0,0,3,2,5,0.189,
+Portland,WCC,0.743,0.304,0.0,0,4,3,7,0.159,
+Temple,American,0.655,0.261,0.0,0,2,1,3,0.179,
+Cornell,Ivy,0.572,0.394,0.23,2,6,3,9,0.261,"Cooper Noard(3), Jake Fiegen(2)"
+Coastal Carolina,Sun Belt,0.793,0.35,0.112,1,6,4,10,0.203,Rasheed Jones(2)
+Southern Miss,Sun Belt,0.849,0.324,0.0,0,5,4,9,0.09,
+Stanford,ACC,0.83,0.421,0.085,1,6,4,10,0.281,Ryan Agarwal(2)
+Sacred Heart,Metro,0.84,0.431,0.262,3,8,6,14,0.209,"Nyle Ralph-Beyer(2), Mekhi Conner(2), Anquan Hill(2)"
+Bucknell,Patriot,0.653,0.43,0.219,2,7,4,11,0.168,"Achile Spadone(2), Ruot Bijiek(2)"
+Stonehill,NEC,0.896,0.475,0.23,2,9,7,16,0.3,"Hermann Koffi(2), Chas Stinson(2)"
+New Mexico,Mountain West,0.675,0.231,0.0,0,4,3,7,0.112,
+South Carolina State,MEAC,0.704,0.347,0.0,0,2,1,3,0.18,
+East Tennessee State,SoCon,0.756,0.336,0.0,0,5,4,9,0.098,
+Delaware State,MEAC,0.682,0.274,0.0,0,3,2,5,0.115,
+VCU,A-10,0.406,0.208,0.0,0,4,2,6,0.128,
+Utah Tech,UAC,0.781,0.316,0.0,0,5,4,9,0.155,
+Holy Cross,Patriot,0.611,0.326,0.124,1,6,3,9,0.303,DeAndre Williams(3)
+Norfolk State,MEAC,0.93,0.304,0.0,0,4,3,7,0.0,
+Sacramento State,Big Sky,0.67,0.215,0.0,0,3,2,5,0.127,
+Richmond,A-10,0.779,0.448,0.088,1,6,4,10,0.262,Mike Walz(2)
+Villanova,Big East,0.732,0.234,0.0,0,4,3,7,0.198,
+Wyoming,Mountain West,0.57,0.244,0.0,0,2,1,3,0.125,
+Oral Roberts,Summit,0.484,0.17,0.0,0,2,1,3,0.087,
+Southern Utah,UAC,0.758,0.294,0.0,0,4,3,7,0.091,
+South Florida,American,0.866,0.335,0.08,1,5,3,8,0.176,CJ Brown(2)
+St. Thomas-Minnesota,Summit,0.716,0.365,0.096,1,5,3,8,0.292,Nolan Minessale(2)
+Portland State,Big Sky,0.963,0.46,0.288,3,7,5,12,0.132,"Jaylin Henderson(2), Terri Miller Jr.(2), Tre-Vaughn Minott(2)"
+Mount St. Mary's,Metro,0.675,0.315,0.112,1,5,3,8,0.038,Xavier Lipscomb(2)
+Pepperdine,WCC,0.949,0.337,0.0,0,5,4,9,0.183,
+UC Davis,Big West,0.474,0.29,0.114,1,5,2,7,0.169,Niko Rocak(3)
+South Dakota State,Summit,0.576,0.298,0.105,1,4,2,6,0.158,Matthew Mors(2)
+Austin Peay,ASUN,0.708,0.388,0.166,2,6,4,10,0.18,"Tate McCubbin(2), Anton Brookshire(2)"
+UNLV,Mountain West,0.767,0.27,0.0,0,3,2,5,0.174,
+Davidson,A-10,0.55,0.321,0.0,0,3,2,5,0.319,
+Central Arkansas,ASUN,0.433,0.181,0.0,0,2,1,3,0.088,
+Kennesaw State,CUSA,0.692,0.465,0.213,2,6,3,9,0.311,"Braedan Lue(2), Simeon Cottle(2)"
+San Diego,WCC,0.957,0.34,0.0,0,4,3,7,0.13,
+Hampton,CAA,0.846,0.362,0.097,1,4,2,6,0.158,Xzavier Long(2)
+Weber State,Big Sky,0.908,0.444,0.187,2,8,6,14,0.359,"Viljami Vartiainen(2), Nigel Burris(2)"
+Incarnate Word,Southland,0.995,0.514,0.198,2,6,4,10,0.197,"Davion Bailey(2), Jordan Pyke(2)"
+South Dakota,Summit,0.786,0.392,0.0,0,4,2,6,0.335,
+San Francisco,WCC,0.986,0.497,0.213,2,8,6,14,0.419,"Ryan Beasley(2), Tyrone Riley IV(2)"
+Sam Houston,CUSA,0.764,0.319,0.088,1,6,4,10,0.146,Damon Nicholas Jr.(2)
+Princeton,Ivy,0.0,0.0,0.0,0,0,0,0,0.0,
+North Dakota,Summit,0.797,0.392,0.144,1,5,2,7,0.143,Eli King(3)
+UCF,Big 12,0.688,0.22,0.0,0,3,2,5,0.13,
+Army,Patriot,0.438,0.166,0.0,0,2,1,3,0.098,
+Winthrop,Big South,0.889,0.349,0.0,0,4,3,7,0.05,
+North Carolina A&T,CAA,0.87,0.309,0.0,0,4,3,7,0.209,
+Miami,ACC,0.574,0.204,0.0,0,3,2,5,0.084,
+Niagara,Metro,0.898,0.356,0.079,1,5,3,8,0.225,Justin Page(2)
+Maryland,Big Ten,0.755,0.244,0.0,0,4,3,7,0.127,
+East Texas A&M,Southland,0.932,0.378,0.0,0,5,3,8,0.117,
+VMI,SoCon,0.542,0.29,0.175,2,5,3,8,0.29,"Tan Yildizoglu(2), Linus Holmstrom(2)"
+Northwestern,Big Ten,0.782,0.449,0.161,1,6,3,9,0.231,Nick Martinelli(3)
+Baylor,Big 12,0.749,0.242,0.0,0,5,4,9,0.095,
+Coppin State,MEAC,0.481,0.215,0.0,0,2,0,2,0.083,
+Jacksonville State,CUSA,1.0,0.361,0.0,0,5,4,9,0.181,
+Cal State Fullerton,Big West,0.507,0.176,0.0,0,3,2,5,0.062,
+Yale,Ivy,0.632,0.427,0.4,4,8,6,14,0.323,"Nick Townsend(2), Isaac Celiscar(2), Casey Simmons(2), Samson Aletan(2)"
+Washington,Big Ten,0.791,0.336,0.09,1,4,2,6,0.182,Zoom Diallo(2)
+UL Monroe,Sun Belt,0.999,0.364,0.0,0,5,4,9,0.205,
+Fairleigh Dickinson,NEC,0.748,0.257,0.0,0,4,3,7,0.042,
+UC Riverside,Big West,0.825,0.257,0.0,0,4,3,7,0.113,
+Long Beach State,Big West,0.95,0.337,0.0,0,7,5,12,0.239,
+Oregon State,WCC,0.832,0.32,0.0,0,2,1,3,0.281,
+Duke,ACC,0.568,0.238,0.0,0,3,2,5,0.054,
+Chicago State,NEC,0.923,0.385,0.0,0,5,3,8,0.088,
+Charlotte,American,0.91,0.373,0.0,0,4,2,6,0.186,
+Oakland,Horizon,0.901,0.353,0.123,1,7,5,12,0.097,Tuburu Naivalurua(2)
+Omaha,Summit,0.802,0.478,0.303,3,8,5,13,0.144,"Lance Waddles(2), Tony Osburn(3), Ja'Sean Glover(2)"
+UAB,American,0.903,0.278,0.0,0,4,3,7,0.174,
+Kansas State,Big 12,0.95,0.365,0.0,0,3,2,5,0.28,
+Northwestern State,Southland,0.74,0.441,0.181,2,5,3,8,0.179,"Micah Thomas(2), Willie Williams(2)"
+Nicholls,Southland,0.9,0.39,0.08,1,5,3,8,0.042,Trae English(2)
+American University,Patriot,0.152,0.099,0.0,0,1,0,1,0.094,
+South Carolina Upstate,Big South,0.928,0.528,0.201,2,6,4,10,0.251,"Carmelo Adkins(2), Karmani Gregory(2)"
+Seton Hall,Big East,0.821,0.307,0.0,0,5,4,9,0.262,
+Eastern Kentucky,ASUN,0.72,0.354,0.202,2,6,4,10,0.116,"Montavious Myrick(2), Turner Buttry(2)"
+Colorado,Big 12,0.635,0.312,0.0,0,3,2,5,0.255,
+UConn,Big East,0.527,0.359,0.163,1,4,1,5,0.089,Alex Karaban(3)
+UNC Wilmington,CAA,0.763,0.423,0.318,3,8,6,14,0.053,"Nolan Hodge(2), Greedy Williams(2), Noah Ross(2)"
+Howard,MEAC,0.351,0.182,0.117,1,2,0,2,0.028,Bryce Harris(2)
+Jackson State,SWAC,0.45,0.195,0.095,1,3,1,4,0.134,Jayme Mitchell Jr.(2)
+NC State,ACC,0.719,0.232,0.0,0,4,3,7,0.166,
+Florida Atlantic,American,0.865,0.332,0.079,1,6,4,10,0.332,Niccolo Moretti(2)
+Cincinnati,Big 12,0.998,0.476,0.242,2,8,5,13,0.133,"Day Day Thomas(3), Jizzle James(2)"
+Syracuse,ACC,0.844,0.399,0.146,1,7,4,11,0.297,J.J. Starling(3)
+McNeese,Southland,0.693,0.404,0.251,2,8,5,13,0.132,"Javohn Garcia(3), DJ Richards Jr.(3)"
+Vanderbilt,SEC,0.746,0.35,0.18,2,7,5,12,0.069,"Tyler Nickel(2), Devin McGlockton(2)"
+Belmont,MVC,0.616,0.405,0.1,1,5,3,8,0.338,Tyler Lundblade(2)
+Towson,CAA,0.743,0.447,0.29,2,7,4,11,0.306,"Dylan Williamson(3), Tyler Tejada(3)"
+Presbyterian,Big South,0.295,0.14,0.0,0,2,1,3,0.045,
+Tarleton State,UAC,0.836,0.352,0.081,1,4,2,6,0.189,Jordan Mizell(2)
+Old Dominion,Sun Belt,0.71,0.338,0.098,1,5,3,8,0.13,Robert Davis Jr.(2)
+Evansville,MVC,0.676,0.36,0.126,1,5,3,8,0.23,Joshua Hughes(2)
+Lehigh,Patriot,0.194,0.143,0.119,1,2,0,2,0.119,Nasir Whitlock(2)
+Southern Illinois,MVC,0.698,0.332,0.094,1,5,3,8,0.2,Drew Steffe(2)
+Cal State Bakersfield,Big West,0.939,0.427,0.083,1,7,4,11,0.072,Tom Mark(2)
+Marshall,Sun Belt,0.743,0.344,0.099,1,3,1,4,0.084,Jalen Speer(2)
+Marquette,Big East,0.398,0.36,0.246,2,4,2,6,0.112,"Chase Ross(2), Ben Gold(2)"
+George Washington,A-10,0.878,0.51,0.291,3,9,6,15,0.348,"Trey Autry(2), Christian Jones(2), Rafael Castro(2)"
+Detroit Mercy,Horizon,0.613,0.423,0.261,3,8,6,14,0.324,"Orlando Lovejoy(2), TJ Nadeau(2), Legend Geeter(2)"
+Virginia Tech,ACC,0.628,0.29,0.156,2,6,4,10,0.176,"Jaden Schutt(2), Tobi Lawal(2)"
+Maryland Eastern Shore,MEAC,0.931,0.404,0.0,0,6,4,10,0.089,
+Loyola Marymount,WCC,0.8,0.365,0.086,1,5,3,8,0.193,Myron Amey Jr.(2)
+Saint Peter's,Metro,0.735,0.337,0.101,1,4,2,6,0.206,Brent Bland(2)
+High Point,Big South,0.683,0.294,0.0,0,4,2,6,0.027,
+Nevada,Mountain West,0.639,0.309,0.0,0,3,1,4,0.197,
+Eastern Illinois,OVC,0.899,0.465,0.229,2,6,4,10,0.178,"Kooper Jacobi(2), Zion Fruster(2)"
+Grand Canyon,Mountain West,0.528,0.167,0.0,0,3,2,5,0.058,
+Gonzaga,WCC,0.863,0.387,0.124,1,7,4,11,0.119,Graham Ike(3)
+Columbia,Ivy,0.441,0.454,0.368,3,7,4,11,0.323,"Kenny Noland(2), Blair Thompson(3), Avery Brown(2)"
+Illinois State,MVC,0.66,0.345,0.166,2,6,4,10,0.171,"Ty Pence(2), Landon Wolf(2)"
+Texas State,Sun Belt,0.458,0.148,0.0,0,2,1,3,0.044,
+Montana State,Big Sky,0.331,0.148,0.084,1,3,1,4,0.001,Patrick McMahon(2)
+LSU,SEC,1.0,0.405,0.0,0,6,4,10,0.242,
+UMBC,Am. East,0.922,0.455,0.215,2,8,5,13,0.283,"Ace Valentine(3), Josh Odunowo(2)"
+Texas,SEC,0.868,0.431,0.176,2,7,5,12,0.272,"Jordan Pope(2), Tramon Mark(2)"
+North Dakota State,Summit,0.768,0.403,0.214,2,7,4,11,0.325,"Damari Wheeler-Thomas(2), Noah Feddersen(3)"
+Maine,Am. East,0.729,0.29,0.0,0,4,3,7,0.131,
+TCU,Big 12,0.493,0.239,0.081,1,4,2,6,0.18,David Punch(2)
+Rhode Island,A-10,0.686,0.252,0.0,0,4,3,7,0.009,
+Idaho,Big Sky,0.862,0.457,0.18,2,8,5,13,0.303,"Kolton Mitchell(2), Jack Payne(2)"
+New Haven,NEC,0.759,0.759,0.0,0,4,3,7,0.494,
+Cleveland State,Horizon,1.0,0.313,0.0,0,6,5,11,0.139,
+Iowa State,Big 12,0.469,0.331,0.311,3,7,4,11,0.155,"Milan Momcilovic(3), Joshua Jefferson(2), Nate Heise(2)"
+BYU,Big 12,0.733,0.377,0.189,2,7,4,11,0.094,"Richie Saunders(3), Keba Keita(2)"
+Milwaukee,Horizon,0.712,0.322,0.0,0,4,2,6,0.132,
+Long Island University,NEC,0.988,0.52,0.305,3,8,6,14,0.125,"Jamal Fuller(2), Malachi Davis(2), Shadrak Lasu(2)"
+Morehead State,OVC,0.608,0.27,0.0,0,3,2,5,0.069,
+San Diego State,Mountain West,0.854,0.508,0.188,2,6,4,10,0.414,"Miles Byrd(2), BJ Davis(2)"
+Valparaiso,MVC,0.526,0.178,0.0,0,3,2,5,0.068,
+Louisiana Tech,CUSA,0.9,0.411,0.083,1,5,3,8,0.317,Kaden Cooper(2)
+Air Force,Mountain West,0.017,0.046,0.0,0,1,0,1,0.044,
+Northern Illinois,MAC,1.0,0.323,0.0,0,5,4,9,0.283,
+Boston University,Patriot,0.584,0.426,0.202,2,8,5,13,0.238,"Mike McNair Jr.(2), Ben Roy(2)"
+Bethune-Cookman,SWAC,0.757,0.392,0.217,2,5,2,7,0.042,"Jakobi Heady(2), Seneca Willoughby(2)"
+New Hampshire,Am. East,0.563,0.22,0.0,0,3,2,5,0.149,
+Florida International,CUSA,1.0,0.369,0.0,0,6,4,10,0.208,
+Penn State,Big Ten,0.736,0.295,0.085,1,5,3,8,0.247,Freddie Dilione V(2)
+Pacific,WCC,0.914,0.36,0.111,1,7,5,12,0.051,Elias Ralph(2)
+Wake Forest,ACC,0.955,0.428,0.102,1,4,2,6,0.294,Tre'Von Spillers(2)
+Iona,Metro,0.726,0.237,0.0,0,4,3,7,0.08,
+DePaul,Big East,0.653,0.286,0.088,1,5,3,8,0.078,CJ Gunn(2)
+Georgia Southern,Sun Belt,0.868,0.389,0.095,1,5,2,7,0.031,Tyren Moore(2)
+Missouri,SEC,0.638,0.299,0.103,1,5,3,8,0.172,Anthony Robinson II(2)
+SMU,ACC,0.842,0.441,0.307,3,8,6,14,0.241,"Boopie Miller(2), Samet Yigitoglu(2), B.J. Edwards(2)"
+Texas A&M-Corpus Christi,Southland,0.849,0.354,0.0,0,2,1,3,0.014,
+Lipscomb,ASUN,0.574,0.277,0.0,0,4,3,7,0.074,
+Northern Kentucky,Horizon,0.762,0.367,0.126,1,7,4,11,0.174,LJ Wells(3)
+Rutgers,Big Ten,0.467,0.205,0.0,0,1,0,1,0.138,
+Manhattan,Metro,0.926,0.512,0.277,2,8,5,13,0.451,"Jaden Winston(3), Devin Dinkins(2)"
+Santa Clara,WCC,0.448,0.216,0.0,0,3,2,5,0.097,
+Oregon,Big Ten,0.793,0.473,0.325,3,8,5,13,0.357,"Kwame Evans Jr.(2), Nate Bittle(2), Jackson Shelstad(2)"
+Western Illinois,OVC,0.832,0.271,0.0,0,3,2,5,0.0,
+Pennsylvania,Ivy,0.224,0.206,0.088,1,2,0,2,0.179,Ethan Roberts(2)
+Kansas,Big 12,0.608,0.277,0.0,0,2,1,3,0.237,
+Ohio,MAC,0.613,0.356,0.118,1,4,2,6,0.209,Aidan Hadaway(2)
+Southern,SWAC,0.874,0.433,0.088,1,4,2,6,0.166,Michael Jacobs(2)
+Houston Christian,Southland,0.795,0.381,0.097,1,6,4,10,0.11,Trent Johnson(2)
+Stephen F. Austin,Southland,0.757,0.383,0.223,2,7,4,11,0.13,"Keon Thompson(2), Chrishawn Christmas(3)"
+Utah Valley,UAC,0.62,0.335,0.126,1,4,2,6,0.285,Trevan Leonhardt(2)
+Fresno State,Mountain West,1.0,0.382,0.093,1,5,3,8,0.277,Zaon Collins(2)
+Nebraska,Big Ten,0.602,0.389,0.302,3,7,4,11,0.076,"Sam Hoiberg(2), Rienk Mast(2), Jamarques Lawrence(2)"
+North Florida,ASUN,0.571,0.237,0.093,1,3,1,4,0.111,Kamrin Oriol(2)
+Liberty,CUSA,0.895,0.649,0.469,3,11,8,19,0.223,"Zach Cleveland(3), Kaden Metheny(3), Colin Porter(3)"
+App State,Sun Belt,0.769,0.326,0.088,1,6,4,10,0.233,Alonzo Dodd(2)
+Bradley,MVC,0.87,0.408,0.0,0,5,4,9,0.194,
+Michigan,Big Ten,0.64,0.392,0.126,1,5,2,7,0.045,Nimari Burnett(2)
+Wagner,NEC,1.0,0.364,0.0,0,6,4,10,0.256,
+UNC Asheville,Big South,0.728,0.355,0.22,2,6,4,10,0.09,"Kam Taylor(2), Toyaz Solomon(2)"
+Texas A&M,SEC,0.74,0.244,0.0,0,4,3,7,0.095,
+Middle Tennessee,CUSA,0.753,0.38,0.0,0,5,4,9,0.158,
+Miami (OH),MAC,0.515,0.333,0.227,2,5,3,8,0.228,"Eian Elmer(2), Peter Suder(2)"
+Louisiana,Sun Belt,0.704,0.285,0.0,0,2,1,3,0.22,
+North Alabama,ASUN,0.865,0.456,0.188,2,7,4,11,0.233,"Dallas Howell(2), Corneilous Williams(2)"
+Loyola Chicago,A-10,0.854,0.399,0.118,1,4,2,6,0.279,Miles Rubin(2)
+Tennessee State,OVC,0.927,0.453,0.099,1,7,5,12,0.111,Aaron Nkrumah(2)
+Seattle U,WCC,0.542,0.312,0.187,2,4,1,5,0.082,"Brayden Maldonado(2), John Christofilis(2)"
+Robert Morris,Horizon,0.759,0.288,0.096,1,5,3,8,0.204,Ryan Prather Jr.(2)
+Providence,Big East,0.874,0.406,0.111,1,6,3,9,0.179,Corey Floyd Jr.(2)
+SIU Edwardsville,OVC,0.647,0.353,0.0,0,4,2,6,0.043,
+New Orleans,Southland,0.81,0.334,0.089,1,5,3,8,0.191,MJ Thomas(2)
+Western Carolina,SoCon,0.851,0.472,0.184,2,7,5,12,0.347,"Marcus Kell(2), Cord Stansberry(2)"
+UAlbany,Am. East,0.802,0.301,0.0,0,4,3,7,0.192,
+Queens University,ASUN,0.6,0.346,0.142,1,5,2,7,0.184,Chris Ashby(3)
+Lamar,Southland,1.0,0.608,0.324,3,10,7,17,0.134,"Andrew Holifield(2), Cody Pennebaker(3), Errol White(2)"
+Mercyhurst,NEC,0.778,0.58,0.133,1,5,3,8,0.248,Bernie Blunt III(2)
+Houston,Big 12,0.766,0.419,0.245,2,7,4,11,0.034,"Milos Uzan(2), Emanuel Sharp(3)"
+Ole Miss,SEC,0.703,0.294,0.077,1,3,1,4,0.194,Malik Dia(2)
+Tulsa,American,0.849,0.353,0.0,0,6,4,10,0.221,
+Wright State,Horizon,0.684,0.353,0.082,1,6,4,10,0.254,Solomon Callaghan(2)
+Green Bay,Horizon,0.683,0.337,0.144,1,6,3,9,0.141,Preston Ruedinger(3)
+Hawai'i,Big West,0.903,0.414,0.075,1,7,5,12,0.098,Gytis Nemeiksa(2)
+Utah State,Mountain West,0.745,0.332,0.0,0,2,1,3,0.207,
+Toledo,MAC,0.64,0.323,0.164,1,6,3,9,0.226,Sonny Wilson(3)
+Bowling Green,MAC,0.797,0.339,0.104,1,6,4,10,0.142,Javontae Campbell(2)
+Tennessee Tech,OVC,0.828,0.328,0.0,0,2,1,3,0.119,
+Wisconsin,Big Ten,0.555,0.265,0.134,1,4,2,6,0.171,John Blackwell(2)
+Central Michigan,MAC,0.603,0.196,0.0,0,3,2,5,0.0,
+Dayton,A-10,0.755,0.377,0.153,1,6,3,9,0.241,Javon Bennett(3)
+Jacksonville,ASUN,0.742,0.352,0.0,0,4,2,6,0.237,
+San José State,Mountain West,0.918,0.358,0.0,0,5,4,9,0.278,
+St. Bonaventure,A-10,0.86,0.314,0.0,0,5,4,9,0.159,
+Tennessee,SEC,0.905,0.389,0.086,1,5,3,8,0.183,Felix Okpara(2)
+West Virginia,Big 12,0.788,0.28,0.0,0,3,2,5,0.1,
+Florida State,ACC,0.841,0.3,0.0,0,4,3,7,0.164,
+Alabama A&M,SWAC,0.611,0.213,0.0,0,3,2,5,0.027,
+Washington State,WCC,0.999,0.41,0.0,0,6,5,11,0.336,
+Arkansas,SEC,0.843,0.458,0.097,1,7,5,12,0.16,DJ Wagner(2)
+Alcorn State,SWAC,1.0,0.391,0.078,1,7,5,12,0.225,Davian Williams(2)
+UC San Diego,Big West,0.364,0.126,0.0,0,2,1,3,0.088,
+Boise State,Mountain West,0.725,0.38,0.196,2,7,5,12,0.308,"Andrew Meadow(2), Javan Buchanan(2)"
+Merrimack,Metro,0.637,0.263,0.0,0,3,2,5,0.156,
+UT Martin,OVC,0.818,0.407,0.077,1,5,3,8,0.344,Afan Trnka(2)
+Utah,Big 12,0.916,0.316,0.0,0,4,3,7,0.236,
+Charleston Southern,Big South,0.807,0.368,0.09,1,5,2,7,0.16,A'lahn Sumler(2)
+Illinois,Big Ten,0.427,0.236,0.168,2,5,3,8,0.008,"Kylan Boswell(2), Ben Humrichous(2)"
+Idaho State,Big Sky,0.964,0.428,0.093,1,6,4,10,0.145,Connor Hollenbeck(2)
+Prairie View A&M,SWAC,0.954,0.405,0.0,0,5,3,8,0.0,
+Michigan State,Big Ten,0.396,0.233,0.09,1,3,1,4,0.106,Jaxon Kohler(2)
+Delaware,CUSA,0.742,0.393,0.102,1,6,3,9,0.366,Cavan Reilly(2)
+Florida,SEC,0.212,0.104,0.0,0,1,0,1,0.104,
+Lindenwood,OVC,1.0,0.549,0.201,2,9,6,15,0.202,"Anias Futrell(2), Jadis Jones(2)"
+Charleston,CAA,0.849,0.277,0.0,0,3,2,5,0.185,
+Arkansas State,Sun Belt,0.945,0.289,0.0,0,5,4,9,0.144,
+Central Connecticut,NEC,0.647,0.264,0.0,0,4,3,7,0.238,
+Clemson,ACC,0.716,0.321,0.0,0,6,5,11,0.136,
+Buffalo,MAC,0.964,0.504,0.262,2,9,6,15,0.327,"Ryan Sabol(3), Noah Batchelor(2)"
+Siena,Metro,0.784,0.414,0.231,2,5,3,8,0.236,"Gavin Doty(2), Justice Shoats(2)"
+Arizona,Big 12,0.725,0.401,0.141,1,6,4,10,0.026,Jaden Bradley(2)
+Morgan State,MEAC,0.768,0.354,0.124,1,4,2,6,0.076,Rob Lawson(2)
+Drake,MVC,0.544,0.176,0.0,0,3,2,5,0.071,
+James Madison,Sun Belt,0.852,0.333,0.083,1,5,3,8,0.158,Eddie Ricks III(2)
+Northern Arizona,Big Sky,0.622,0.332,0.0,0,2,0,2,0.099,
+The Citadel,SoCon,0.862,0.413,0.172,2,7,5,12,0.173,"Sola Adebisi(2), Christian Moore(2)"
+Cal Poly,Big West,0.178,0.122,0.092,1,2,0,2,0.092,Peter Bandelj(2)
