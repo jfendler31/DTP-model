@@ -1,6 +1,6 @@
 """Player histories from CollegeBasketballData.
   --seasons 2023-2026   /stats/player/season for each season (all D-I players) -> data/players/history/season_stats_<y>.csv
-  --rosters A,B         /teams/roster for the current season (height, weight, class, hometown) -> data/players/history/roster_<y>_<team>.csv
+  --rosters A,B         /teams/roster (ALL = every team) for the current season (height, weight, class, hometown) -> data/players/history/roster_<y>_<team>.csv
 Usage: python jobs/player_hist.py --seasons 2023-2026 --rosters "Minnesota,Cincinnati" [--roster-season 2027]"""
 import os, time, argparse
 import pandas as pd, requests
@@ -22,7 +22,7 @@ if a.seasons:
         df.to_csv(f'{out}/season_stats_{y}.csv', index=False); print(f'season stats {y}: {len(df)} players; columns {list(df.columns)[:40]}')
 if a.rosters:
     for t in [s.strip() for s in a.rosters.split(',') if s.strip()]:
-        data = get('/teams/roster', season=a.roster_season, team=t)
+        data = get('/teams/roster', season=a.roster_season) if t == 'ALL' else get('/teams/roster', season=a.roster_season, team=t)   # ALL = every D-I team
         rows = []
         for tm in data or []:
             for pl in tm.get('players') or []:
