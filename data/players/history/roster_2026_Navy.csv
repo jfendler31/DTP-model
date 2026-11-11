@@ -1,0 +1,26 @@
+team,id,sourceId,name,firstName,lastName,jersey,position,height,weight,dateOfBirth,startSeason,endSeason,hometown.city,hometown.state,hometown.country,hometown.latitude,hometown.longitude,hometown.countyFips
+Navy,3494,5176091,Jordan Pennick,Jordan,Pennick,21,Guard,72,185,,2024,2027,Randallstown,MD,,39.36907005,-76.79586413775866,24005
+Navy,3492,5176087,Donovan Draper,Donovan,Draper,11,Forward,78,207,,2024,2026,West Palm Beach,FL,,26.715364,-80.0532942,12099
+Navy,3493,5105698,Aidan Kehoe,Aidan,Kehoe,99,Center,83,246,,2023,2026,Montvale,NJ,,41.0467635,-74.0229173,34003
+Navy,3495,5105691,Austin Benigni,Austin,Benigni,1,Guard,71,171,,2023,2026,The Woodlands,TX,,30.1734194,-95.504686,48339
+Navy,3497,5105694,Mike Woods,Mike,Woods,30,Forward,76,211,,2023,2026,Upper Marlboro,MD,,38.8162451,-76.751708,24033
+Navy,3502,5105695,Sam Krist,Sam,Krist,8,Guard,77,190,,2023,2026,Rockford,MI,,43.119721,-85.559604,26081
+Navy,200760,5314524,C.J. Kearns,C.J.,Kearns,40,Forward,80,215,,2026,2026,Rockledge,FL,,28.330831,-80.7349162,12009
+Navy,200765,5314522,Jordan McConnell,Jordan,McConnell,32,Center,82,235,,2026,2026,Hanover,NH,,43.7023545,-72.2892164,33009
+Navy,200766,5314520,Steven McLeod,Steven,McLeod,24,Guard,73,181,,2026,2026,Durham,NC,,35.996653,-78.9018053,37063
+Navy,200767,5314523,Luke Morgan,Luke,Morgan,35,Forward,80,200,,2026,2026,Asheboro,NC,,35.7079146,-79.8136446,37151
+Navy,3509,5176085,Reiss Whitaker,Reiss,Whitaker,9,Forward,79,211,,2024,2026,Haymarket,VA,,38.8121398,-77.6368038,51153
+Navy,3511,5242957,Davyn de Jongh,Davyn,de Jongh,18,Guard,73,170,,2025,2026,New York,NY,,40.7127281,-74.0060152,36061
+Navy,3512,5242956,Julien King,Julien,King,16,Guard,74,199,,2025,2026,Garner,NC,,35.7112642,-78.6141709,37183
+Navy,3515,5105693,Cam Cormany,Cam,Cormany,14,Guard,72,183,,2023,2026,Radford,VA,,37.1343148,-80.5749169,51750
+Navy,3500,5176086,Jinwoo Kim,Jinwoo,Kim,10,Guard,75,204,,2024,2027,Overland Park,KS,,38.9742502,-94.6851702,20091
+Navy,3501,5176084,Cam Cole,Cam,Cole,2,Guard,74,170,,2024,2027,Bristow,VA,,38.7233263,-77.5365669,51153
+Navy,3503,5242962,Owen Gray,Owen,Gray,14,Forward,81,236,,2025,2027,Rockville,VA,,37.7259779,-77.6783239,51085
+Navy,3504,5242961,Cooper Jackson,Cooper,Jackson,42,Forward,79,223,,2025,2027,Lewisville,NC,,36.0970819,-80.4192216,37067
+Navy,3505,5242960,Tobi Raji,Tobi,Raji,33,Forward,79,214,,2025,2027,Greenbelt,MD,,39.004607,-76.8756838,24033
+Navy,3510,5242959,David Burnett,David,Burnett,7,Guard,76,212,,2025,2027,Albany,GA,,31.5782062,-84.1556809,13095
+Navy,3513,5176094,Nyles Howard,Nyles,Howard,0,Guard,76,185,,2024,2027,Concord,NC,,35.4094178,-80.5800049,37025
+Navy,3514,5176093,Julian Gabbidon,Julian,Gabbidon,3,Guard,75,183,,2024,2027,Harrisburg,PA,,40.2663107,-76.8861122,42043
+Navy,200748,5314521,Jerry Ashley Jr.,Jerry,Ashley Jr.,11,Forward,80,229,,2026,2027,Cape Coral,FL,,26.5625742,-81.9438802,12071
+Navy,200756,5314518,Matt Gaffney,Matt,Gaffney,24,Guard,71,160,,2026,2027,Wakefield,MA,,42.506484,-71.0728306,25017
+Navy,200769,5314519,Colin Pollock,Colin,Pollock,8,Forward,80,210,,2026,2027,Ashburn,VA,,39.029784,-77.4744147959966,51107
