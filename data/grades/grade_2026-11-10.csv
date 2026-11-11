@@ -1,0 +1,57 @@
+﻿date,tip_ET,away,home,venue,ref_src,ref,close_src,model_raw,model_adj,edge,side,close,n_books,home_margin,res_ref,res_close,clv
+2026-11-10,Tue Nov 10 6:00 PM,Florida,Florida St.,H,card,9.5,cbbd,9.7,9.7,0.2,Florida,9.0,2,-9,L,P,-0.5
+2026-11-10,Tue Nov 10 6:30 PM,NJIT,Rutgers,H,card,-24.5,cbbd,-26.8,-30.2,5.7,Rutgers,-25.0,2,37,W,W,0.5
+2026-11-10,Tue Nov 10 6:30 PM,Delaware St.,Georgetown,H,card,-27.5,cbbd,-27.0,-30.4,2.9,Georgetown,-29.0,2,5,L,L,1.5
+2026-11-10,Tue Nov 10 7:00 PM,Maryland Eastern Shore,Boston College,H,card,-25.5,cbbd,-25.1,-28.1,2.6,Boston College,-26.5,1,28,W,W,1.0
+2026-11-10,Tue Nov 10 7:00 PM,Charleston Southern,Wake Forest,H,card,-18.5,cbbd,-20.1,-22.1,3.6,Wake Forest,-18.5,2,18,L,L,0.0
+2026-11-10,Tue Nov 10 7:00 PM,Youngstown St.,Central Michigan,H,card,-3.5,cbbd,-1.1,-1.1,2.4,Youngstown St.,-3.5,2,13,L,L,0.0
+2026-11-10,Tue Nov 10 7:00 PM,Siena,Dayton,H,card,-12.5,cbbd,-15.0,-16.0,3.5,Dayton,-13.5,2,-10,L,L,1.0
+2026-11-10,Tue Nov 10 7:00 PM,Iona,Fordham,H,card,-11.5,cbbd,-9.2,-9.2,2.3,Iona,-11.5,2,6,W,W,0.0
+2026-11-10,Tue Nov 10 7:00 PM,Elon,George Washington,H,card,-14.5,cbbd,-11.8,-12.2,2.3,Elon,-14.0,2,19,L,L,0.5
+2026-11-10,Tue Nov 10 7:00 PM,Army,New Haven,H,card,1.5,cbbd,4.8,4.8,3.3,Army,1.5,2,8,L,L,0.0
+2026-11-10,Tue Nov 10 7:00 PM,Wyoming,North Carolina,H,card,-14.0,cbbd,-10.9,-11.1,2.9,Wyoming,-13.25,2,13,W,W,0.8
+2026-11-10,Tue Nov 10 7:00 PM,Loyola Marymount,Troy,H,card,1.5,cbbd,0.6,0.6,0.9,Troy,1.25,2,5,W,W,0.2
+2026-11-10,Tue Nov 10 7:00 PM,Presbyterian,N.C. State,H,card,-19.5,cbbd,-17.7,-19.2,0.3,Presbyterian,-19.0,2,34,L,L,0.5
+2026-11-10,Tue Nov 10 7:00 PM,Maine,Rhode Island,H,card,-18.5,cbbd,-19.8,-21.8,3.3,Rhode Island,-20.5,2,6,L,L,2.0
+2026-11-10,Tue Nov 10 7:00 PM,Eastern Kentucky,Georgia Tech,H,card,-16.5,cbbd,-14.5,-15.4,1.1,Eastern Kentucky,-16.0,2,14,W,W,0.5
+2026-11-10,Tue Nov 10 7:00 PM,Harvard,Northeastern,H,card,3.5,cbbd,5.9,5.9,2.4,Harvard,2.75,2,4,L,L,-0.8
+2026-11-10,Tue Nov 10 7:00 PM,Virginia Tech,Iowa,N,card,-5.5,cbbd,-2.4,-2.4,3.1,Virginia Tech,-4.25,2,-5,W,W,1.2
+2026-11-10,Tue Nov 10 7:00 PM,Mercer,Georgia Southern,H,card,-1.0,cbbd,-2.0,-2.0,1.0,Georgia Southern,-1.25,2,-6,L,L,0.2
+2026-11-10,Tue Nov 10 7:00 PM,South Alabama,UCF,H,card,-14.5,cbbd,-17.7,-19.2,4.7,UCF,-13.5,1,7,L,L,-1.0
+2026-11-10,Tue Nov 10 7:00 PM,La Salle,Villanova,H,card,-23.5,cbbd,-20.1,-22.1,1.4,La Salle,-21.75,2,21,W,W,1.8
+2026-11-10,Tue Nov 10 7:00 PM,Winthrop,Kennesaw St.,H,cbbd_open,-9.5,cbbd,-8.5,-8.5,1.0,Winthrop,-10.0,2,9,W,W,-0.5
+2026-11-10,Tue Nov 10 7:00 PM,Bradley,Davidson,H,card,-11.0,cbbd,-8.6,-8.6,2.4,Bradley,-10.25,2,17,L,L,0.8
+2026-11-10,Tue Nov 10 7:00 PM,Washington St.,Duquesne,H,card,-5.0,cbbd,-5.8,-5.8,0.8,Duquesne,-4.25,2,1,L,L,-0.8
+2026-11-10,Tue Nov 10 7:00 PM,Wright St.,Toledo,H,card,1.5,cbbd,0.1,0.1,1.4,Toledo,1.75,2,-8,L,L,-0.2
+2026-11-10,Tue Nov 10 7:00 PM,Michigan St.,Duke,N,card,-6.5,cbbd,-3.6,-3.6,2.9,Michigan St.,-7.0,2,-6,W,W,-0.5
+2026-11-10,Tue Nov 10 7:00 PM,Detroit Mercy,Xavier,H,card,-32.5,cbbd,-27.4,-30.9,1.6,Detroit Mercy,-33.75,2,45,L,L,-1.2
+2026-11-10,Tue Nov 10 7:00 PM,Bryant,Providence,H,card,-29.5,cbbd,-23.0,-25.6,3.9,Bryant,-29.5,2,23,W,W,0.0
+2026-11-10,Tue Nov 10 7:15 PM,Memphis,Vanderbilt,H,card,-17.0,oddsapi_hist,-13.1,-13.7,3.3,Memphis,-13.5,0,24,L,L,3.5
+2026-11-10,Tue Nov 10 7:30 PM,Evansville,Middle Tennessee,H,card,-7.5,oddsapi_hist,-10.2,-10.2,2.7,Middle Tennessee,-9.5,0,5,L,L,2.0
+2026-11-10,Tue Nov 10 7:30 PM,Texas St.,UT Rio Grande Valley,H,card,6.5,oddsapi_hist,5.5,5.5,1.0,UT Rio Grande Valley,5.5,0,-7,L,L,1.0
+2026-11-10,Tue Nov 10 7:30 PM,Nicholls,Tulane,H,card,-7.5,oddsapi_hist,-8.4,-8.4,0.9,Tulane,-9.0,0,14,W,W,1.5
+2026-11-10,Tue Nov 10 8:00 PM,Illinois,Texas Tech,H,card,2.5,oddsapi_hist,-0.0,-0.0,2.5,Texas Tech,2.5,0,6,W,W,0.0
+2026-11-10,Tue Nov 10 8:00 PM,Green Bay,Northern Iowa,H,card,-3.5,oddsapi_hist,-4.4,-4.4,0.9,Northern Iowa,-3.5,0,13,W,W,0.0
+2026-11-10,Tue Nov 10 8:00 PM,Tennessee Martin,Arkansas St.,H,card,-6.5,oddsapi_hist,-9.5,-9.5,3.0,Arkansas St.,-5.5,0,-17,L,L,-1.0
+2026-11-10,Tue Nov 10 8:00 PM,Alcorn St.,Murray St.,H,card,-26.5,oddsapi_hist,-22.7,-25.2,1.3,Alcorn St.,-31.5,0,37,L,L,-5.0
+2026-11-10,Tue Nov 10 8:00 PM,Houston Christian,South Dakota,H,card,-2.5,oddsapi_hist,-4.2,-4.2,1.7,South Dakota,-4.0,0,-11,L,L,1.5
+2026-11-10,Tue Nov 10 8:00 PM,Belmont,Lipscomb,H,card,3.5,oddsapi_hist,1.1,1.1,2.4,Lipscomb,3.5,0,13,W,W,0.0
+2026-11-10,Tue Nov 10 8:00 PM,Prairie View A&M,SMU,H,card,-24.5,oddsapi_hist,-22.5,-25.0,0.5,SMU,-27.5,0,35,W,W,3.0
+2026-11-10,Tue Nov 10 8:00 PM,Northern Kentucky,Saint Louis,H,card,-23.5,oddsapi_hist,-18.9,-20.7,2.8,Northern Kentucky,-23.0,0,62,L,L,0.5
+2026-11-10,Tue Nov 10 8:00 PM,Southern,Iowa St.,H,card,-33.5,oddsapi_hist,-31.5,-35.8,2.3,Iowa St.,-35.5,0,37,W,W,2.0
+2026-11-10,Tue Nov 10 8:00 PM,Yale,Baylor,H,card,-21.5,oddsapi_hist,-19.6,-21.5,0.0,Yale,-19.5,0,29,L,L,2.0
+2026-11-10,Tue Nov 10 8:30 PM,Southeastern Louisiana,Mississippi,H,card,-25.5,oddsapi_hist,-22.8,-25.4,0.1,Southeastern Louisiana,-26.0,0,40,L,L,-0.5
+2026-11-10,Tue Nov 10 8:30 PM,Fairfield,Wisconsin,H,card,-23.5,oddsapi_hist,-21.9,-24.3,0.8,Wisconsin,-25.5,0,47,W,W,2.0
+2026-11-10,Tue Nov 10 9:00 PM,Bucknell,Virginia,H,card,-37.5,oddsapi_hist,-34.1,-38.9,1.4,Virginia,-38.5,0,34,L,L,1.0
+2026-11-10,Tue Nov 10 9:00 PM,Northern Arizona,Arizona,H,card,-37.0,oddsapi_hist,-33.5,-38.2,1.2,Arizona,-36.0,0,31,L,L,-1.0
+2026-11-10,Tue Nov 10 9:00 PM,Queens,BYU,H,card,-28.5,oddsapi_hist,-22.2,-24.6,3.9,Queens,-28.5,0,16,W,W,0.0
+2026-11-10,Tue Nov 10 9:00 PM,Georgia St.,Fresno St.,H,card,-6.0,oddsapi_hist,-7.2,-7.2,1.2,Fresno St.,-6.0,0,3,L,L,0.0
+2026-11-10,Tue Nov 10 9:00 PM,Utah Tech,Utah St.,H,card,-25.5,oddsapi_hist,-22.1,-24.5,1.0,Utah Tech,-26.0,0,32,L,L,-0.5
+2026-11-10,Tue Nov 10 9:00 PM,Little Rock,New Mexico,H,card,-22.5,oddsapi_hist,-15.8,-17.0,5.5,Little Rock,-23.5,0,25,L,L,-1.0
+2026-11-10,Tue Nov 10 9:00 PM,Hofstra,Arizona St.,H,card,-17.0,oddsapi_hist,-13.6,-14.3,2.7,Hofstra,-18.5,0,22,L,L,-1.5
+2026-11-10,Tue Nov 10 9:00 PM,Weber St.,Utah,H,card,-18.0,oddsapi_hist,-17.7,-19.2,1.2,Utah,-16.5,0,21,W,W,-1.5
+2026-11-10,Tue Nov 10 9:00 PM,Louisiana Monroe,TCU,H,card,-35.5,oddsapi_hist,-28.0,-31.6,3.9,Louisiana Monroe,-33.5,0,8,W,W,2.0
+2026-11-10,Tue Nov 10 9:00 PM,San Diego,Colorado,H,card,-13.5,oddsapi_hist,-14.4,-15.3,1.8,Colorado,-12.5,0,8,L,L,-1.0
+2026-11-10,Tue Nov 10 9:00 PM,Creighton,Kansas St.,H,card,3.5,oddsapi_hist,4.4,4.4,0.9,Creighton,3.25,0,7,L,L,-0.2
+2026-11-10,Tue Nov 10 9:30 PM,Kansas,Kentucky,N,card,4.0,oddsapi_hist,6.3,6.3,2.3,Kansas,5.0,0,-20,W,W,1.0
+2026-11-10,Tue Nov 10 10:00 PM,Montana,San Francisco,H,card,-11.5,oddsapi_hist,-9.0,-9.0,2.5,Montana,-11.5,0,5,W,W,0.0
