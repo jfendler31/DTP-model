@@ -1,0 +1,16 @@
+team,id,sourceId,name,firstName,lastName,jersey,position,height,weight,dateOfBirth,startSeason,endSeason,hometown.city,hometown.state,hometown.country,hometown.latitude,hometown.longitude,hometown.countyFips
+Charleston,198578,5313547,Martin Kalu,Martin,Kalu,5,Guard,78,210.0,,2026,2027,Quakenbrueck,,Germany,,,
+Charleston,198580,5313551,Will Mortimore,Will,Mortimore,23,Forward,82,220.0,,2026,2027,Maitland,NSW,Australia,,,
+Charleston,735,5174638,Djordje Curcic,Djordje,Curcic,4,Guard,75,190.0,,2025,2027,Cacak,,Serbia,,,
+Charleston,198575,5313549,AJ Fowler,AJ,Fowler,7,Guard,77,160.0,,2026,2027,Fayetteville,AR,,36.0625843,-94.1574328,05143
+Charleston,2670,5239902,Trey Scott,Trey,Scott,9,Forward,83,225.0,,2027,2027,Atlanta,GA,,33.7489924,-84.3902644,13121
+Charleston,3294,5142360,Braden Pierce,Braden,Pierce,11,Center,84,245.0,,2027,2027,Woodstock,GA,,34.1014112,-84.5192192,13057
+Charleston,4963,5108059,Tavari Johnson,Tavari,Johnson,8,Guard,72,180.0,,2027,2027,La Grange Park,IL,,41.8333646,-87.8677324,17031
+Charleston,4970,5241472,Conner Groce,Conner,Groce,1,Guard,73,170.0,,2027,2027,Champaign,IL,,40.1164841,-88.2430932,17019
+Charleston,5124,5239828,Ben Bradford,Ben,Bradford,3,Guard,77,200.0,,2027,2027,Gaithersburg,MD,,39.1399187,-77.1929215,24031
+Charleston,5404,5242943,Max Green,Max,Green,10,Guard,79,190.0,,2027,2027,La Grange,KY,,38.4075527,-85.3788246,21185
+Charleston,201050,5312176,Xavier Abreu,Xavier,Abreu,0,Guard,76,180.0,,2027,2027,Lynn,MA,,42.466763,-70.9494939,25009
+Charleston,202048,5101774,Eli Ellis,Eli,Ellis,15,Guard,72,195.0,,2027,2027,Hickory,NC,,35.7333312,-81.3442915,37035
+Charleston,229005,5222131,Kobe Edwards,Kobe,Edwards,2,,74,,,2027,2027,Wilson,NC,,35.7241718,-77.9115243,37195
+Charleston,229012,5458741,JaShawn Ladd,JaShawn,Ladd,24,,76,,,2027,2027,Indianapolis,IN,,39.7683331,-86.1583502,18097
+Charleston,229016,5458740,Nicolo Virginio,Nicolo,Virginio,18,,81,220.0,,2027,2027,Varese,,Italy,,,
