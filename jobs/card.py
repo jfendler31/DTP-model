@@ -252,7 +252,9 @@ if a.no_email: sys.exit(0)
 msg = EmailMessage()
 msg['Subject'] = f"DTP card — {dt.datetime.strptime(card_date, '%Y-%m-%d'):%a %b %-d} — {len(C)} games"
 msg['From'] = os.environ['GMAIL_USER'].strip(); msg['To'] = os.environ['CARD_TO'].strip()
-msg.set_content(f"Ratings: {RSRC} + overrides. Lines as of {asof} (consensus = most common number across books).\n"
+sync_fn = f'data/tracker/sync_{card_date}.txt'
+sync_txt = (open(sync_fn).read().strip() + "\n\n") if os.path.exists(sync_fn) else "Player sync did not run today (no data/tracker/sync file); overrides used as-is.\n\n"
+msg.set_content(sync_txt + f"Ratings: {RSRC} + overrides. Lines as of {asof} (consensus = most common number across books).\n"
                 f"{len(C)} games, {lined} with lines. Workbook attached (Betting Sheet, Ratings and Card tabs); CSV of the card (tip-time order) also attached.\n"
                 f"Betting Sheet tab: your Google Sheet layout, sorted by edge. Type the current line in F and your adjustment in J; E/H/I are array formulas in the header row (rows 2-500), so sorting rows 2+ and adding games below both work.\n"
                 f"Ratings tab: points vs an average D-I team on a neutral floor (9.5 per SD), prior + in-season blend + overrides.\n"

@@ -37,6 +37,8 @@ jobs:
           else
             echo "ratings job failed - card falls back to the last ratings file / prior"
           fi
+          # player sync (Nov 10): retire overrides for players who have played (box score controls) or whom the tracker clears; flag gaps
+          python jobs/sync_overrides.py $(echo $ARGS | grep -o -- '--date [0-9-]*') || echo "override sync failed - card uses overrides as-is"
           python jobs/card.py $ARGS
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
@@ -47,7 +49,7 @@ jobs:
       - name: Save the card and line snapshot
         run: |
           git config user.name "dtp-bot"; git config user.email "actions@users.noreply.github.com"
-          git add cards data/lines data/slate_*.csv data/ratings data/ratings_current.csv data/games_2026-27.csv || true
+          git add cards data/lines data/slate_*.csv data/ratings data/ratings_current.csv data/games_2026-27.csv data/overrides.csv data/tracker || true
           git add data/tempo data/pbp || true
           git commit -m "card $(date -u +%F)" || echo "nothing new"
           git pull --rebase origin main && git push origin HEAD:main
