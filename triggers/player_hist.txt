@@ -1,1 +1,1 @@
---seasons 2023-2026 --rosters Minnesota,Cincinnati
+--seasons 2022-2022 --rosters Navy --roster-season 2026
