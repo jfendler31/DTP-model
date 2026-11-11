@@ -109,6 +109,7 @@ def detect(page_html):
     if view is None: raise SystemExit('could not tell shot-type view from distance view')
     y = re.search(r'name=["\']year["\'] value=["\'](\d{4})', page_html) or re.search(r'<h1>\s*(\d{4})', page_html) or re.search(r'year=(\d{4})', page_html)
     team = (re.search(r'name=["\']tvalue["\'] value=["\']([^"\']+)', page_html) or [0, ''])[1]
+    team = H.unescape(team)
     return f'{kind}_{view}', int(y.group(1)), (team if team not in ('', 'All') else None)
 
 def ingest(folder):
