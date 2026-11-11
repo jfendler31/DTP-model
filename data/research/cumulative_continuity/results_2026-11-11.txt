@@ -1,0 +1,100 @@
+team-seasons: 5447; seasons [np.int64(2020), np.int64(2021), np.int64(2022), np.int64(2023), np.int64(2024), np.int64(2025), np.int64(2026)]; with preseason KP: 1775; with Jan 3 KP: 1775
+
+Navy check:
+ season  n_departed  dep_min_share  starter_seasons_lost  shared_bonus  cum_loss  kp_continuity                                                                                                         departed
+   2020           6          2.189                     2             1         3         0.5497 Hasan Abdullah (1), George Kiernan (1), Josiah Strong (0), Danny Ogele (0), Isaiah Burnett (0), Ryan Pearson (0)
+   2021           2          0.711                     2             0         2         0.6106                                                                              Evan Wieck (2), Dave Kasanganay (0)
+   2022           3          0.912                     4             1         5         0.7229                                                                    Cam Davis (3), Alec Loehr (0), Luke Loehr (1)
+   2023           5          2.535                     8             4        12         0.4481                 John Carter Jr. (4), Greg Summers (3), Jaylen Walker (1), Richard Njoku (0), Christian Silva (0)
+   2024           6          3.449                     8             5        13         0.2816   Tyler Nelson (2), Sean Yoder (2), Daniel Deaver (1), Patrick Dorsey (2), Christian Jones (1), Nate Allison (0)
+   2025           3          1.304                     3             1         4         0.6128                                                              Mac MacDonald (1), Austin Inge (2), Kam Summers (0)
+   2026           4          0.752                     0             0         0         0.8129                                Lysander Rehnstrom (0), Carnegie Johnson (0), Mitch Fischer (0), Jack Medalie (0)
+
+==================== d_01-03
+Patriot + Ivy (d_01-03): n=90  corr(cum_loss, outcome)=+0.150  corr(kp_continuity, outcome)=-0.165
+   low cum_loss   n= 35  cum_loss  2.7  KP cont   0.6  mean d_01-03 -0.85  (SE 0.77)  below-preseason share 0.57
+   mid            n= 30  cum_loss  7.4  KP cont   0.5  mean d_01-03 +0.66  (SE 0.74)  below-preseason share 0.47
+   high cum_loss  n= 25  cum_loss 12.6  KP cont   0.3  mean d_01-03 +0.19  (SE 0.76)  below-preseason share 0.40
+   regression d_01-03 = a + b1*KPcontinuity + b2*cum_loss:  b1=-2.557 (SE 2.630)  b2=+0.084 (SE 0.116)  per extra starter-season lost
+rest of D-I (d_01-03): n=1685  corr(cum_loss, outcome)=-0.038  corr(kp_continuity, outcome)=-0.035
+   low cum_loss   n=636  cum_loss  3.6  KP cont   0.5  mean d_01-03 +0.40  (SE 0.18)  below-preseason share 0.45
+   mid            n=540  cum_loss  8.5  KP cont   0.3  mean d_01-03 -0.32  (SE 0.19)  below-preseason share 0.52
+   high cum_loss  n=509  cum_loss 14.0  KP cont   0.2  mean d_01-03 -0.25  (SE 0.22)  below-preseason share 0.53
+   regression d_01-03 = a + b1*KPcontinuity + b2*cum_loss:  b1=-2.316 (SE 0.765)  b2=-0.093 (SE 0.030)  per extra starter-season lost
+all D-I (d_01-03): n=1775  corr(cum_loss, outcome)=-0.030  corr(kp_continuity, outcome)=-0.040
+   low cum_loss   n=679  cum_loss  3.6  KP cont   0.5  mean d_01-03 +0.36  (SE 0.18)  below-preseason share 0.46
+   mid            n=564  cum_loss  8.5  KP cont   0.3  mean d_01-03 -0.29  (SE 0.19)  below-preseason share 0.52
+   high cum_loss  n=532  cum_loss 13.9  KP cont   0.2  mean d_01-03 -0.23  (SE 0.21)  below-preseason share 0.52
+   regression d_01-03 = a + b1*KPcontinuity + b2*cum_loss:  b1=-2.295 (SE 0.730)  b2=-0.085 (SE 0.029)  per extra starter-season lost
+
+==================== d_01-17
+Patriot + Ivy (d_01-17): n=90  corr(cum_loss, outcome)=+0.195  corr(kp_continuity, outcome)=-0.149
+   low cum_loss   n= 35  cum_loss  2.7  KP cont   0.6  mean d_01-17 -1.00  (SE 0.85)  below-preseason share 0.57
+   mid            n= 30  cum_loss  7.4  KP cont   0.5  mean d_01-17 +0.67  (SE 0.75)  below-preseason share 0.43
+   high cum_loss  n= 25  cum_loss 12.6  KP cont   0.3  mean d_01-17 +0.73  (SE 0.69)  below-preseason share 0.44
+   regression d_01-17 = a + b1*KPcontinuity + b2*cum_loss:  b1=-1.467 (SE 2.733)  b2=+0.160 (SE 0.121)  per extra starter-season lost
+rest of D-I (d_01-17): n=1685  corr(cum_loss, outcome)=-0.037  corr(kp_continuity, outcome)=-0.038
+   low cum_loss   n=636  cum_loss  3.6  KP cont   0.5  mean d_01-17 +0.44  (SE 0.19)  below-preseason share 0.45
+   mid            n=540  cum_loss  8.5  KP cont   0.3  mean d_01-17 -0.38  (SE 0.22)  below-preseason share 0.51
+   high cum_loss  n=509  cum_loss 14.0  KP cont   0.2  mean d_01-17 -0.22  (SE 0.24)  below-preseason share 0.51
+   regression d_01-17 = a + b1*KPcontinuity + b2*cum_loss:  b1=-2.690 (SE 0.846)  b2=-0.105 (SE 0.033)  per extra starter-season lost
+all D-I (d_01-17): n=1775  corr(cum_loss, outcome)=-0.028  corr(kp_continuity, outcome)=-0.042
+   low cum_loss   n=679  cum_loss  3.6  KP cont   0.5  mean d_01-17 +0.39  (SE 0.19)  below-preseason share 0.46
+   mid            n=564  cum_loss  8.5  KP cont   0.3  mean d_01-17 -0.36  (SE 0.22)  below-preseason share 0.51
+   high cum_loss  n=532  cum_loss 13.9  KP cont   0.2  mean d_01-17 -0.18  (SE 0.23)  below-preseason share 0.51
+   regression d_01-17 = a + b1*KPcontinuity + b2*cum_loss:  b1=-2.554 (SE 0.806)  b2=-0.092 (SE 0.032)  per extra starter-season lost
+
+==================== d_final
+Patriot + Ivy (d_final): n=90  corr(cum_loss, outcome)=+0.109  corr(kp_continuity, outcome)=-0.113
+   low cum_loss   n= 35  cum_loss  2.7  KP cont   0.6  mean d_final -1.18  (SE 0.85)  below-preseason share 0.60
+   mid            n= 30  cum_loss  7.4  KP cont   0.5  mean d_final +0.34  (SE 0.84)  below-preseason share 0.50
+   high cum_loss  n= 25  cum_loss 12.6  KP cont   0.3  mean d_final +0.30  (SE 1.04)  below-preseason share 0.52
+   regression d_final = a + b1*KPcontinuity + b2*cum_loss:  b1=-1.949 (SE 3.139)  b2=+0.078 (SE 0.139)  per extra starter-season lost
+rest of D-I (d_final): n=1685  corr(cum_loss, outcome)=-0.041  corr(kp_continuity, outcome)=-0.042
+   low cum_loss   n=636  cum_loss  3.6  KP cont   0.5  mean d_final +0.46  (SE 0.23)  below-preseason share 0.46
+   mid            n=540  cum_loss  8.5  KP cont   0.3  mean d_final -0.27  (SE 0.26)  below-preseason share 0.52
+   high cum_loss  n=509  cum_loss 14.0  KP cont   0.2  mean d_final -0.27  (SE 0.27)  below-preseason share 0.53
+   regression d_final = a + b1*KPcontinuity + b2*cum_loss:  b1=-3.422 (SE 0.977)  b2=-0.134 (SE 0.038)  per extra starter-season lost
+all D-I (d_final): n=1775  corr(cum_loss, outcome)=-0.035  corr(kp_continuity, outcome)=-0.046
+   low cum_loss   n=679  cum_loss  3.6  KP cont   0.5  mean d_final +0.38  (SE 0.22)  below-preseason share 0.47
+   mid            n=564  cum_loss  8.5  KP cont   0.3  mean d_final -0.24  (SE 0.26)  below-preseason share 0.52
+   high cum_loss  n=532  cum_loss 13.9  KP cont   0.2  mean d_final -0.26  (SE 0.26)  below-preseason share 0.53
+   regression d_final = a + b1*KPcontinuity + b2*cum_loss:  b1=-3.325 (SE 0.931)  b2=-0.124 (SE 0.037)  per extra starter-season lost
+
+==== Patriot + Ivy by season: mean d_01-03 for teams losing 2+ multi-year starters together (shared_bonus >= 2) vs the rest
+       count        mean      
+multi  False True  False True 
+season                        
+2022       8    10 -0.26  0.20
+2023       8    10  1.71  0.45
+2024       7    11 -2.44  0.44
+2025      12     6 -2.23  2.38
+2026       3    15  2.91 -0.47
+pooled:
+      d_01-03       d_01-17       d_final      
+        count  mean   count  mean   count  mean
+multi                                          
+False      38 -0.62      38 -0.70      38 -1.17
+True       52  0.36      52  0.58      52  0.40
+
+==== Patriot + Ivy: KP continuity terciles (the catch-all number on its own)
+   low continuity   n= 30 KP cont 0.27 cum_loss 10.3  d_01-03 +0.82  d_01-17 +1.07  d_final +0.28
+   mid              n= 30 KP cont 0.50 cum_loss  6.9  d_01-03 -0.45  d_01-17 -0.65  d_final -0.50
+   high continuity  n= 30 KP cont 0.67 cum_loss  3.8  d_01-03 -0.54  d_01-17 -0.31  d_final -0.56
+
+==== Patriot + Ivy, teams with cum_loss >= 12 (Navy 2026-27 would score 14):
+ season              team  cum_loss  kp_continuity   em_pre  d_01-03  d_01-17  d_final                                                                                                                           departed
+   2024 Boston University        20         0.2162 -11.2350   3.2871   2.2590   0.7647 Jonas Harper (4), Walter Whyte (4), Fletcher Tynen (2), Ethan Brittain-Watts (2), Nevin Zink (0), Daman Tate (0), Caelan Jones (0)
+   2026          American        20         0.4008 -11.7033   5.3133   6.5032   5.2222                                        Elijah Stephens (4), Matt Rogers (4), Lincoln Ball (2), Colin Smalls (2), Eric Michaels (0)
+   2025           Colgate        16         0.5030  -4.5416  -3.6519  -0.8916  -3.4238                                                           Braeden Smith (2), Ryan Moffatt (4), Keegan Records (4), Sam Thomson (0)
+   2025         Loyola MD        14         0.4432 -17.0079   5.4725   4.1138   4.5869                                                             Deon Perry (2), Golden Dike (4), D'Angelo Stines (1), Alonso Faure (2)
+   2022           Harvard        14         0.0000  -2.2930   1.3765   0.3307  -2.3843  Justin Bassey (2), Chris Lewis (2), Robert Baker (1), Christian Juzang (2), Danilo Djuricic (1), Rio Haskett (0), Bryce Aiken (0)
+   2024         Loyola MD        13         0.5035 -10.6072  -4.2884  -6.8517  -9.6637                                  Kenneth Jones (4), Jaylin Andrews (5), Isaiah Alexander (0), Veljko Ilic (0), Markese Redding (0)
+   2024              Penn        13         0.4000  -3.8229   2.0612   2.6969  -0.2588                 Jordan Dingle (3), Max Martz (3), Lucas Monroe (1), Jonah Charles (0), Max Lorca-Lloyd (0), Michael Moshkovitz (1)
+   2024              Navy        13         0.2816  -9.9007   0.9148  -0.2285  -4.3994                     Tyler Nelson (2), Sean Yoder (2), Daniel Deaver (1), Patrick Dorsey (2), Christian Jones (1), Nate Allison (0)
+   2022          Columbia        12         0.0000 -16.9090  -3.5007  -1.6530  -4.1065                    Mike Smith (1), Jake Killingsworth (2), Tai Bibbs (1), Randall Brumant (2), Jack Forrest (1), Joseph Smoyer (0)
+   2022           Cornell        12         0.0000 -10.2160   6.4119   5.6957   8.6005                    Terrance McBride (2), Josh Warren (2), Bryan Knapp (1), Jimmy Boeheim (2), Riley Voss (0), Thurston McCarty (0)
+   2024           Harvard        12         0.2740  -4.5407   2.5101   0.6998  -0.4074                       Sam Silverstein (2), Chris Ledlum (1), Evan Nelson (1), Luka Sakota (2), Idan Tretout (1), Josh Hemmings (0)
+   2023              Navy        12         0.4481  -4.1750   1.4109  -1.5335   3.4653                                   John Carter Jr. (4), Greg Summers (3), Jaylen Walker (1), Richard Njoku (0), Christian Silva (0)
+   2026             Brown        12         0.4278  -1.8224  -4.5404  -5.7143  -9.1146                                                         Kino Lilly Jr. (4), Aaron Cooley (2), Lyndel Erold (1), AJ Lesburt Jr. (1)
+   2026          Bucknell        12         0.3151 -10.3272  -2.7327  -3.4447  -6.4450                                           Josh Bascoe (2), Noah Williamson (2), Elvin Edmonds IV (4), Pip Ajayi (0), Ian Motta (0)
