@@ -8,6 +8,7 @@ import numpy as np, pandas as pd
 
 W = {'net2pt': .32, 'netreb': .26, 'netto': .24, 'net3pt': .10, 'netfta': .08}; PILLARS = list(W)
 RIDGE, EARLY_N = 0.5, 3
+OPP_CURRENT = True   # games 1-2 judged against opponents' current ratings (Nov 11); False = Nov 3-10 production
 COLS = ('p2m', 'p2a', 'p3m', 'p3a', 'fta', 'fga', 'orb', 'drb', 'to', 'poss')
 REB_TEAM = False        # 2025-26 on: box rebounds exclude team rebounds; so do ours (player rebounds match box to 0.00).
                         # 2024-25 box counts include them — backtests of that season pass reb_team=True.
@@ -129,10 +130,26 @@ def rate(G, n, zp, asof, game_wt=False):
         gap = np.array([zp[x['t']] - zp[x['o']] for x in G]); hm = np.array([1.0 if x['home'] else 0.0 for x in G])
         X = np.column_stack([hm, gap]); (a_h, b), *_ = np.linalg.lstsq(X * sw[:, None], c * sw, rcond=None)
         res = (c - X @ np.array([a_h, b])) / b
-        acc = collections.defaultdict(list)
-        for x, r, wi in zip(G, res, w): acc[x['t']].append((r, wi)); acc[x['o']].append((-r, wi))
+        acc = collections.defaultdict(list); gidx = collections.defaultdict(list)
+        for gi, (x, r, wi) in enumerate(zip(G, res, w)):
+            acc[x['t']].append((r, wi)); acc[x['o']].append((-r, wi)); gidx[x['t']].append(gi); gidx[x['o']].append(gi)
         for i, v in acc.items(): surprise[i] = sum(r * wi for r, wi in v) / sum(wi for _, wi in v)
         zb = np.where(method == 'early', zp + lam * np.nan_to_num(surprise), zb)
+        if OPP_CURRENT:
+            # Nov 11 (Jon): judge games 1-2 against each opponent's CURRENT rating, not its preseason prior.
+            # Opponent rating is leave-one-out for early-method opponents (this game's own surprise removed),
+            # the pass-1 blend for SRS opponents (one game of 3+ at lam <= .27 is a small share). One pass.
+            def loo(j, gi):
+                if method[j] != 'early': return zb[j] - zp[j]
+                rest = [(r, wi) for (r, wi), g in zip(acc[j], gidx[j]) if g != gi]
+                if not rest: return 0.0
+                n1 = N[j] - 1; l1 = n1 / (n1 + K)
+                return l1 * sum(r * wi for r, wi in rest) / sum(wi for _, wi in rest)
+            acc2 = collections.defaultdict(list)
+            for gi, (x, r, wi) in enumerate(zip(G, res, w)):
+                acc2[x['t']].append((r + loo(x['o'], gi), wi)); acc2[x['o']].append((-r + loo(x['t'], gi), wi))
+            for i, v in acc2.items(): surprise[i] = sum(r * wi for r, wi in v) / sum(wi for _, wi in v)
+            zb = np.where(method == 'early', zp + lam * np.nan_to_num(surprise), zb)
         r2 = 1 - np.var(c - X @ np.array([a_h, b])) / np.var(c)
         fit = f'composite = {a_h:.3f}*home + {b:.3f}*prior gap (z), R^2 {r2:.2f}'
     return dict(z_blend=zb, z_in=np.where(mask, z_in, np.nan), surprise=surprise, N=N, lam=lam, method=method, K=K, fit=fit)

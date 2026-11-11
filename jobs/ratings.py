@@ -7,6 +7,9 @@
                Not re-standardized (Nov 3 decision): a team with no D-I games stays exactly at its prior.
 Early games (option 2b, Nov 3): teams with <3 D-I games move by lam x their four-factor surprise vs the priors' expectation
                instead of the SRS read (which splits a single game evenly around average); SRS blend from game 3.
+               Nov 11 (Jon): each game is judged against the opponent's CURRENT rating (leave-one-out for early-method
+               opponents), not its preseason prior, so beating/losing to a team that has since risen or fallen is scored
+               against what that team now looks like (OPP_CURRENT in ratings_core.py; max effect 0.6 pts on Nov 11).
 Garbage time out (Jon, Nov 8): the pillars come from play-by-play competitive totals (data/pbp/game_factors.csv, version
                FACTOR_SRC = 'cw': every possession weighted by its leverage; end-of-half heaves, possessions starting under
                35 s in a period and late intentional-foul possessions dropped; overtime kept). A game with no play-by-play,
