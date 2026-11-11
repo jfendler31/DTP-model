@@ -1,14 +1,14 @@
 team,games,eff_lev,eff_raw,comp_share,weighted_games,minutes_leader,closing_group,last_date
 South Dakota State,1,6.31,6.31,1.0,1.0,Kalen Garry,Joe Sayler / Kalen Garry / EJ Ryans / Davis Kern / Jon Mekonnen,2026-11-03
 Georgia State,3,6.47,6.46,0.989,3.09,Jacob Meyer,Jaden Jackson / Jacolb Fredson-Cole / Jacob Meyer / David Thomas / Chris Jones,2026-11-10
-Buffalo,1,6.64,7.07,0.573,0.57,Antoine Lorick III,Antoine Lorick III / Mikkel Tyne / Drew Steffe / Dylan Ducommun / J.J. Starling,2026-11-02
 Harvard,1,6.64,6.64,1.0,1.12,Ben Eisendrath,Thomas Batties II / Ben Eisendrath / Tey Barbour / Jason Singleton / Robert Hinton,2026-11-10
+Buffalo,1,6.64,7.07,0.573,0.57,Antoine Lorick III,Antoine Lorick III / Mikkel Tyne / Drew Steffe / Dylan Ducommun / J.J. Starling,2026-11-02
 Northeastern,3,6.67,6.89,0.915,2.86,Mike Loughnane,Mike Loughnane / Louis Bond / Dorian Grosber / Rashad King / Brayden Young,2026-11-10
 Fresno State,2,6.71,6.69,0.959,2.04,Roger Fabrega Urpina,Roger Fabrega Urpina / Ross Candelino / Dragos Lungu / Bradey Henige / Brian Amuneke,2026-11-10
 Pacific,1,6.77,6.73,0.954,0.95,Adriel Nyorha,Jaden Winston / Gavin Ripp / Adriel Nyorha / Jaion Pitt / CJ Jones,2026-11-07
 UMass Lowell,2,6.79,6.77,0.981,1.96,Christian Jones,Jayden Harris / Jakai Newton / Christian Jones / Jasiah Cannady / Victor Okojie,2026-11-08
+Arizona State,3,6.81,7.49,0.776,2.33,Paulius Murauskas,Paulius Murauskas / Dillan Shaw / Joel Foxwell / Ben Defty / Bryce Ford,2026-11-10
 Siena,3,6.82,6.93,0.958,2.87,Pace Prosser,Trent Egbiremolen / Pace Prosser / Tim Ibukunoluwa / Brendan Coyle / Tan Yildizoglu,2026-11-10
-Arizona State,2,6.87,7.35,0.816,1.63,Paulius Murauskas,Paulius Murauskas / Dillan Shaw / Joel Foxwell / Bryce Ford / Filip Malesevic,2026-11-06
 Lamar,1,6.88,6.88,0.998,1.01,Niccolo Moretti,Niccolo Moretti / Mike Collins / Quante Berry / Caden Hinker / Dominic Eason,2026-11-07
 Drake,1,6.89,6.82,0.955,0.95,Owen Larson,Owen Larson / Justin Burns / Dre Kindell / Andrew Alia / Jon Carroll,2026-11-08
 Boston College,3,6.91,7.12,0.813,2.44,Money Williams,Money Williams / Armoni Zeigler / Zak Smrekar / Ernest Shelton / Brandon Benjamin,2026-11-10
@@ -27,11 +27,11 @@ Gonzaga,2,7.21,8.06,0.896,1.79,Davis Fogle,Braden Huff / Davis Fogle / Xaivian L
 Evansville,2,7.22,7.21,0.995,2.11,Bryce Quinet,AJ Casey / Caden Symons / Bryce Quinet / Max Langenfeld / Aaron Gutman,2026-11-10
 South Florida,2,7.23,7.96,0.884,1.77,Sonny Wilson,Chris Davis Jr. / Sonny Wilson / Mike James / Zayden High / Garrett Johnson,2026-11-05
 Loyola Marymount,2,7.24,7.24,1.0,2.13,All Wright,All Wright / Mazi Mosley / Aaron McBride / Zion Sensley / Jevon Porter,2026-11-10
-Tulane,2,7.24,7.24,1.0,2.25,KJ Greene,Krystian Lewis / Tyler Ringgold / KJ Greene / Joah Chappelle / Josiah Moore,2026-11-05
 Minnesota,3,7.27,7.77,0.845,2.53,Bobby Durkin,Isaac Asuma / Kyan Evans / Jaylen Crocker-Johnson / Bobby Durkin / Grayson Grove,2026-11-09
 Samford,1,7.28,7.23,0.979,0.98,Cooper Noard,Cooper Noard / Isaiah Campbell-Finch / Cade Norris / Ty Davis / Will Shaver,2026-11-07
 Binghamton,3,7.29,7.75,0.891,2.67,Demetrius Lilley,Jayden Kelsey / Demetrius Lilley / Jeremiah Quigley / Dylan Godfrey / Jake Blackburn,2026-11-08
 Cal State Bakersfield,1,7.3,7.29,0.978,0.98,Bryce Cofield,Jaden Alexander / Bryce Cofield / Tom Koppens / Kjay Bradley / Sean Pouedet,2026-11-08
+Tulane,3,7.35,7.34,0.974,3.17,Krystian Lewis,Krystian Lewis / Joah Chappelle / KJ Greene / Tyler Ringgold / Josiah Moore,2026-11-10
 Delaware,1,7.35,8.45,0.868,0.87,DeShawn Harris-Smith,DeShawn Harris-Smith / Alex Kazanecki / Chuck Bailey III / Nick Petronio / Steven Solano,2026-11-06
 Ohio,2,7.36,7.37,0.97,1.94,Dusan Makitan,Dusan Makitan / Jackson Paveletzke / Siebe Ledegen / Javan Simmons / Kolton Mitchell,2026-11-07
 Austin Peay,1,7.37,7.37,1.0,1.0,Zyree Collins,Zyree Collins / Chuck Love III / Cam Ryans / Felipe Minzer / Alex Davis,2026-11-06
@@ -40,256 +40,256 @@ Army,1,7.4,7.1,0.726,0.73,Jacen Holloway,Jacen Holloway / Ryan Curry / Kevin McC
 Utah State,3,7.4,8.26,0.651,1.95,Dallin Hall,Dallin Hall / Will Hornseth / Mason Falslev / Solomon Callaghan / Kingston Tosi,2026-11-10
 UCLA,2,7.41,8.48,0.727,1.45,Nikola Kusturica,Nikola Kusturica / Trent Perry / Eric Dailey Jr. / Jaylen Petty / Xavier Booker,2026-11-06
 Mercer,3,7.43,7.71,0.89,2.78,Brady Shoulders,Karon Boyd / Quinton Perkins II / Brady Shoulders / Makoi Mabor Makoi / Derek Goodman,2026-11-10
+Portland,2,7.45,7.44,0.993,1.99,James O'Donnell,Jaxon Olvera / Hunter Adam / Riley Parker / James O'Donnell / RJ Nance Jr.,2026-11-09
+Middle Tennessee,2,7.45,8.4,0.778,1.56,Jahvin Carter,Jahvin Carter / Quintero Barnett / Ofri Naveh / Marcus Whitlock Jr. / Kaleb Siler,2026-11-10
 Le Moyne,2,7.45,9.78,0.481,0.96,Jayden Teat,Damien King / Jayden Teat / Trevor Roe / Ty Francis / Kaden Stuckey,2026-11-05
 Bucknell,3,7.45,8.52,0.722,2.17,Aleksander Pachucki,Aleksander Pachucki / Luca Soroa Schaller / Jayden Williams / Rocco Lamuno / Patrick O'Brien,2026-11-10
-Middle Tennessee,2,7.45,8.4,0.778,1.56,Jahvin Carter,Jahvin Carter / Quintero Barnett / Ofri Naveh / Marcus Whitlock Jr. / Kaleb Siler,2026-11-10
-Portland,2,7.45,7.44,0.993,1.99,James O'Donnell,Jaxon Olvera / Hunter Adam / Riley Parker / James O'Donnell / RJ Nance Jr.,2026-11-09
 Saint Joseph's,2,7.46,7.45,0.991,2.11,Jaiden Glover-Toscano,Jaiden Glover-Toscano / Khaafiq Myers / Austin Williford / Sean Logan / BJ Ranson,2026-11-07
 Florida International,1,7.46,7.46,0.979,0.98,Tijan Saine Jr.,Tijan Saine Jr. / Noah Mendy / Trey Beamer / Justin Roman / Seydina N'Diaye,2026-11-06
 Villanova,3,7.46,8.16,0.852,2.56,Jake Fiegen,Jake Fiegen / Devin Royal / Elijah Crawford / Tyler Perkins / Luigi Suigo,2026-11-10
-Bowling Green,2,7.47,7.39,0.928,1.86,Josiah Shackelford,Makhi Leach / Josiah Shackelford / Zach Howell / Preston Squire / Tristan Beckford,2026-11-09
 McNeese,2,7.47,8.07,0.885,1.77,Larry Johnson,Jaylon Dean-Vines / Elijah Moore / Larry Johnson / Jerrell Colbert / Christian Nitu,2026-11-05
+Bowling Green,2,7.47,7.39,0.928,1.86,Josiah Shackelford,Makhi Leach / Josiah Shackelford / Zach Howell / Preston Squire / Tristan Beckford,2026-11-09
 Hawai'i,2,7.48,7.48,0.979,1.96,Chance Trujillo,Bol Dengdit / Chance Trujillo / Kellen Hampton / Zack Davidson / Tanner Cuff,2026-11-09
-Hofstra,1,7.48,7.48,0.997,1.0,Justin Moore,Nick Jefferson / Joshua DeCady / Justin Moore / Tanner Thomas / Imanuel Zorgvol,2026-11-05
 UNC Wilmington,1,7.5,7.5,1.0,1.0,Patrick Wessler,Jahnathan Lamothe / CJ Luster II / Patrick Wessler / Tahlan Pettway / Gavin Walsh,2026-11-07
 Northern Kentucky,4,7.53,8.3,0.787,3.15,Eric Acker,Eric Acker / Willie Foster / Gabrielius Jokubauskas / Noah Pagotto / Ryan Tolliver,2026-11-10
 Sacred Heart,2,7.54,7.54,1.0,2.12,Jaylen Robinson,Jaden Slaughter / Kedrick Curtis / Jaylen Robinson / Griffin Barrouk / Jojo Wallace,2026-11-08
+Texas Tech,3,7.56,8.08,0.816,2.45,Cruz Davis,Cruz Davis / Donovan Atwell / Darrion Williams / Dra Gibbs-Lawhorn / Damarion Dennis,2026-11-10
 Northwestern,3,7.56,7.66,0.861,2.58,Angelo Ciaravino,Jake West / Angelo Ciaravino / Okku Federiko / LA Pratt / Phoenix Gill,2026-11-09
 LSU,3,7.56,8.26,0.512,1.54,Donovan Dent,Donovan Dent / Skyy Clark / Saliou Niang / Brice Dessert / Mo Dioubate,2026-11-09
-Texas Tech,3,7.56,8.08,0.816,2.45,Cruz Davis,Cruz Davis / Donovan Atwell / Darrion Williams / Dra Gibbs-Lawhorn / Damarion Dennis,2026-11-10
 South Carolina,2,7.57,8.23,0.82,1.64,Kory Mincy,Jakub Necas / Camden Heide / Kory Mincy / Aleksas Bieliauskas / Juan Fernandez,2026-11-08
-Arizona,2,7.59,7.96,0.856,1.71,Ivan Kharchenkov,Derek Dixon / Ivan Kharchenkov / JJ Mandaquit / Motiejus Krivas / Caleb Holt,2026-11-05
 Idaho,1,7.59,7.63,0.968,0.97,Miles Klapper,Miles Klapper / Kase Wynott / Hudson Ward / Seth Joba / Brady Kennison,2026-11-06
-Tennessee State,1,7.62,8.7,0.743,0.74,Deondrea Lindsey,Deondrea Lindsey / Kavien Jones / Ty-Laur Johnson / Arterio Morris / Jayden Jones,2026-11-02
-Liberty,1,7.62,8.3,0.86,0.86,Eli Sancomb,Eli Herbert / Matthew Shelton / Dillon Claussen / Eli Sancomb / Osmar Garcia-Araujo,2026-11-01
+Arizona,3,7.61,8.21,0.795,2.38,Derek Dixon,Derek Dixon / Ivan Kharchenkov / Motiejus Krivas / JJ Mandaquit / Caleb Holt,2026-11-10
 Wofford,2,7.62,8.8,0.672,1.34,Chace Watley,Luke Flynn / Chace Watley / Cam Lowe / Chris Arias / Cutter Sisk,2026-11-06
+Liberty,1,7.62,8.3,0.86,0.86,Eli Sancomb,Eli Herbert / Matthew Shelton / Dillon Claussen / Eli Sancomb / Osmar Garcia-Araujo,2026-11-01
+Tennessee State,1,7.62,8.7,0.743,0.74,Deondrea Lindsey,Deondrea Lindsey / Kavien Jones / Ty-Laur Johnson / Arterio Morris / Jayden Jones,2026-11-02
 UNLV,2,7.63,7.61,0.948,1.91,Cam Miles,Sebastian Mack / Cam Miles / Tyrin Jones / Jackson Kiss / Dontrez Williams,2026-11-07
 North Texas,1,7.64,7.57,0.957,0.96,Je'Shawn Stevenson,Je'Shawn Stevenson / Cole Franklin / Cash Chavis / Aeneas Alexander / Ousmane Ndour,2026-11-05
 Georgetown,3,7.65,7.8,0.827,2.48,Jaland Lowe,Jaland Lowe / Kayvaun Mulready / Elmarko Jackson / Vince Iwuchukwu / Caleb Williams,2026-11-10
 VCU,2,7.66,7.64,0.969,1.94,Nyk Lewis,Torey Alston / Blake Harper / Nyk Lewis / Lazar Djokovic / Ahmad Nowell,2026-11-07
-Akron,1,7.67,7.57,0.93,0.93,Tahj Staveskie,Evan Mahaffey / Zach Halligan / Tahj Staveskie / Ty Pence / Buddy Hammer Jr.,2026-11-02
 East Carolina,2,7.67,7.6,0.927,1.87,Cian Medley,Cian Medley / Kaseem Watson / Trevor Best / Brycen Blaine / Eli DeLaurier,2026-11-07
+Akron,1,7.67,7.57,0.93,0.93,Tahj Staveskie,Evan Mahaffey / Zach Halligan / Tahj Staveskie / Ty Pence / Buddy Hammer Jr.,2026-11-02
 Bellarmine,3,7.68,8.79,0.716,2.15,Tyler Doyle,Tyler Doyle / Sam Donald / Kenyon Goodin / Julius Gizzi / Demarcus Surratt,2026-11-07
 Utah Tech,2,7.69,8.11,0.673,1.35,Mark Brown Jr.,Owen Mackay / Christian Gibson / Mark Brown Jr. / Ethan Potter / Preston Vandermyde,2026-11-10
 Mercyhurst,2,7.69,8.21,0.604,1.21,Jake Lemelman,Jake Lemelman / Cameron Johnson / Geoff Sprouse / Deraje Agbaosi / Or Faran,2026-11-05
 Nebraska,2,7.7,8.92,0.746,1.49,Cale Jacobsen,Pryce Sandfort / Cale Jacobsen / Braden Frager / Taj DeGourville / Trevan Leonhardt,2026-11-07
 Memphis,2,7.72,7.72,1.0,2.0,Rihards Vavers,Rihards Vavers / Corneilous Williams / Jayden Reid / Tylik Weeks / Luke Almodovar,2026-11-07
-App State,2,7.73,7.98,0.817,1.63,Jaylen Colon,Jaylen Colon / Ben Kopetzki / Chad Moodie / Da'Mori Lytch / Eren Banks,2026-11-09
 Colorado,3,7.73,8.13,0.873,2.62,Barrington Hargress,Barrington Hargress / Noah Feddersen / Alex Dickeson / Josiah Sanders / Ian Inman,2026-11-10
 Robert Morris,2,7.73,8.22,0.712,1.42,Darius Livingston,Darius Livingston / KJ Garris Jr. / Ta'Zir Smith / Samuel Obenjo / Eddie Cooke III,2026-11-06
+App State,2,7.73,7.98,0.817,1.63,Jaylen Colon,Jaylen Colon / Ben Kopetzki / Chad Moodie / Da'Mori Lytch / Eren Banks,2026-11-09
 UT Arlington,2,7.74,7.74,0.986,1.97,Tristan Hankins,Tristan Hankins / Mier Panoam / Jerimiyah Smith / Tycen McDaniels / Teodor Simic,2026-11-08
 Lafayette,2,7.74,8.56,0.805,1.71,Cooper Kesler,Cooper Kesler / Jasraj Gill / Beckett Currie / Owen Kelly / Shareef Jackson,2026-11-07
 Boise State,1,7.77,7.8,0.751,0.75,Aginaldo Neto,Damari Wheeler-Thomas / Aginaldo Neto / Spencer Ahrens / Dovydas Butka / Rayzhon Bergersen,2026-11-08
 Abilene Christian,2,7.78,8.36,0.867,1.73,Isaac Dye,Yaniel Rivera / Isaac Dye / Evan Boisdur / Xabi Lopez / Willan Marie-Anais,2026-11-07
 UIC,2,7.79,8.4,0.845,1.69,Rashund Washington Jr.,Benny Gealer / Mekhi Lowery / Rashund Washington Jr. / Jayce Nathaniel / Lucas Scroggins,2026-11-09
 Long Beach State,2,7.79,7.8,0.963,1.93,Max Vanlaningham,Max Vanlaningham / McCaden Adams / Jack Payne / Yohann Sissoko / Christian Jones,2026-11-07
-Boston University,3,7.8,7.84,0.965,2.91,Kyrone Alexander,Azmar Abdullah / Kyrone Alexander / Sam Hughes / Michelangelo Oberti / Matai Baptiste,2026-11-09
 Stanford,3,7.8,8.14,0.87,2.61,Nick Townsend,Nick Townsend / Aidan Cammann / Julius Price / Christian Bliss / Isaiah Rogers,2026-11-09
+Boston University,3,7.8,7.84,0.965,2.91,Kyrone Alexander,Azmar Abdullah / Kyrone Alexander / Sam Hughes / Michelangelo Oberti / Matai Baptiste,2026-11-09
 Colorado State,2,7.81,7.78,0.976,1.95,Josh Pascarelli,Kyle Jorgensen / Josh Pascarelli / Jase Butler / Justin Menard / Carey Booth,2026-11-06
+Vermont,3,7.82,7.81,0.98,2.94,Will Davies,John Broom / Will Davies / Noah Barnett / Darrel Yepdo / Gus Yalden,2026-11-08
+Tarleton State,1,7.82,7.82,0.999,1.12,Franck Emmou,Franck Emmou / Leroy Kelly IV / TJ Cope / Adrian Shackleton / Kade Douglas,2026-11-06
+TCU,3,7.82,8.9,0.736,2.39,Brock Harding,Brock Harding / Micah Robinson / DJ Thomas / Tanner Toolson / Gavin Sykes,2026-11-10
 Utah,3,7.82,7.86,0.958,2.87,Trey Campbell,Trey Campbell / Alec Anigbata / Malek Gomma / TJ Burch / Jackson Holcombe,2026-11-10
 Louisville,2,7.82,8.93,0.643,1.29,Alvaro Folgueiras,Seth Trimble / Jackson Shelstad / Alvaro Folgueiras / Adrian Wooley / Flory Bidunga,2026-11-07
-Tarleton State,1,7.82,7.82,0.999,1.12,Franck Emmou,Franck Emmou / Leroy Kelly IV / TJ Cope / Adrian Shackleton / Kade Douglas,2026-11-06
-Vermont,3,7.82,7.81,0.98,2.94,Will Davies,John Broom / Will Davies / Noah Barnett / Darrel Yepdo / Gus Yalden,2026-11-08
 Jackson State,2,7.83,9.11,0.793,1.59,Dorian McMillian,Dorian McMillian / Mike Williams / Nikk Williams / Daeshun Ruffin / AT Manyuon,2026-11-09
 St. Bonaventure,2,7.83,9.74,0.755,1.51,Zach Philipkoski,Ari Fulton / Taj Au-Duke / Benjamin Bill / Ilia Ermakov / Zach Philipkoski,2026-11-07
-Illinois State,2,7.84,7.9,0.946,2.01,Johnny Kinziger,Johnny Kinziger / Malik Messina-Moore / Mason Klabo / Demarion Burch / Chase Walker,2026-11-09
 Butler,3,7.84,8.86,0.677,2.03,Jalen Jackson,Jalen Jackson / Eduardo Klafke / Drayton Jones / Asim Djulovic / Samis Calderon,2026-11-08
+Illinois State,2,7.84,7.9,0.946,2.01,Johnny Kinziger,Johnny Kinziger / Malik Messina-Moore / Mason Klabo / Demarion Burch / Chase Walker,2026-11-09
 Youngstown State,3,7.85,8.22,0.922,2.77,Jaiden Haynes,Linus Holmstrom / Jaiden Haynes / Dom Aekins / Kelvin Amoako / Jeff Nwankwo,2026-11-10
 Prairie View A&M,2,7.85,8.18,0.805,1.61,Elijah Mitchell,Micah Bell / Elijah Mitchell / Anthony Gause / Michael Eley / Davian Williams,2026-11-10
-Northern Colorado,1,7.85,7.62,0.672,0.67,Andrew Crawford,Andrew Crawford / Langston Reynolds / Vincent Delano / Kaidon Rayfield / Hunter Caldwell,2026-11-06
 Missouri,3,7.85,8.66,0.65,1.95,Jason Crowe Jr.,Jason Crowe Jr. / Bryson Tiller / Trent Pierce / Kennard Davis Jr. / Mark Mitchell Jr.,2026-11-09
+Northern Colorado,1,7.85,7.62,0.672,0.67,Andrew Crawford,Andrew Crawford / Langston Reynolds / Vincent Delano / Kaidon Rayfield / Hunter Caldwell,2026-11-06
 Holy Cross,1,7.87,9.12,0.669,0.67,Tristen Wilson,Tristen Wilson / Aidan Richard / Chuck Hare / Kole Hanson / John St. Germain III,2026-11-06
 Chattanooga,2,7.88,7.87,0.831,1.66,Kobe McDowell-White,Kobe McDowell-White / Lenny Anigbata / Matt Hampton / Zach Bleshoy / Yonatan Levy,2026-11-05
 Saint Mary's,3,7.88,8.9,0.867,2.82,Joshua Dent,Mantas Juzenas / Joshua Dent / Jeremy Dent-Smith / Thomas Ndong / Darius Bivins,2026-11-08
 USC,2,7.89,8.31,0.838,1.68,Rodney Rice,Adonis Ratliff / Alijah Arenas / Rodney Rice / KJ Lewis / Joshua Hughes,2026-11-08
-San José State,2,7.9,7.77,0.815,1.63,Mekhi Mason,Mookie Cook / Oliver Kullamae / Mekhi Mason / JaVaughn Hannah / Robert Vaihola,2026-11-07
 South Carolina Upstate,3,7.9,7.9,0.934,2.8,Derek Edmond,Derek Edmond / Ries Naugle / Amont'e Allen-Johnson / David Tubek / Jalyn Patterson,2026-11-09
+San José State,2,7.9,7.77,0.815,1.63,Mekhi Mason,Mookie Cook / Oliver Kullamae / Mekhi Mason / JaVaughn Hannah / Robert Vaihola,2026-11-07
 Florida Atlantic,2,7.9,7.91,0.825,1.65,Kanaan Carlyle,Kanaan Carlyle / Felipe Quinones / Milhan Charles / Josh Harris / Tacko Ifaola,2026-11-06
 New Hampshire,3,7.91,7.9,0.99,3.09,Tyler Bike,Tyler Bike / Ryan Zan / Josiah Coleman / Erik Oliver-Bush / Myles Blackley,2026-11-08
-UL Monroe,2,7.92,8.88,0.786,1.57,Dayjaun Anderson,Lance Carr / Phillip Tillman / Quaran McPherson / Dayjaun Anderson / Ziyade Ndancky,2026-11-09
-TCU,2,7.93,9.4,0.579,1.16,Micah Robinson,Brock Harding / Micah Robinson / DJ Thomas / Trent Lincoln / Ryan Hunt,2026-11-06
-East Texas A&M,2,7.93,7.93,1.0,2.0,Mohamed Diakite,Mohamed Diakite / Thomas Duchamp / Bo Aldridge / Gasper Skorjanc / Amar Hot,2026-11-05
-Louisiana Tech,2,7.93,9.2,0.689,1.38,Jaylen Fenner,Jay Tyler / Jaylen Fenner / Adam Boyd / Deven Bates / Braylon Wenger,2026-11-09
 Bradley,1,7.93,7.9,0.954,0.95,Trevon Payton,Trevon Payton / Noah Williams / Josh Ibukunoluwa / Xander Alarie / Max Gasp,2026-11-07
-Howard,3,7.94,8.06,0.938,2.82,Cam Gillus,Cam Gillus / Alex Cotton / Drew Harris / James Brown / Cedric Taylor III,2026-11-09
+Louisiana Tech,2,7.93,9.2,0.689,1.38,Jaylen Fenner,Jay Tyler / Jaylen Fenner / Adam Boyd / Deven Bates / Braylon Wenger,2026-11-09
+East Texas A&M,2,7.93,7.93,1.0,2.0,Mohamed Diakite,Mohamed Diakite / Thomas Duchamp / Bo Aldridge / Gasper Skorjanc / Amar Hot,2026-11-05
+Hofstra,2,7.94,8.93,0.847,1.69,Tanner Thomas,Joshua DeCady / Tanner Thomas / Nick Jefferson / Justin Moore / Trey Boyd III,2026-11-10
 New Mexico State,1,7.94,8.79,0.792,0.79,Jae'Coby Osborne,Jae'Coby Osborne / Mark Lavrenov / KK Robinson / DJ Dudley / Phoenix Woodson,2026-11-07
 Penn State,3,7.94,8.44,0.861,2.58,Dasonte Bowen,Dasonte Bowen / Brant Byers / Ivan Juric / Josh Reed / Thomas Allard,2026-11-08
+Howard,3,7.94,8.06,0.938,2.82,Cam Gillus,Cam Gillus / Alex Cotton / Drew Harris / James Brown / Cedric Taylor III,2026-11-09
 Alabama State,1,7.95,8.69,0.803,0.8,Paul McMillan IV,Paul McMillan IV / Mike James / Damarion Bonds / Joseph Scott / Marquintez Dixon,2026-11-03
 Jacksonville,2,7.96,9.21,0.698,1.4,Hayden Wood,Hayden Wood / Jamie Phillips Jr. / James Morrow / Caleb Williams / Nehemiah Turner,2026-11-09
 Incarnate Word,3,7.96,8.37,0.746,2.24,Brandon McCreesh,Godswill Erheriene / Ismail Habib / D'Arrae Goodwin / Brandon McCreesh / Mekhi Conner,2026-11-08
 Winthrop,3,7.96,7.95,0.988,2.96,Spence Sims,Spence Sims / Keshawn Fisher / Anthony Smith III / Seifeldin Hendawy / George Natsvlishvili,2026-11-10
 Pennsylvania,2,7.98,8.86,0.737,1.47,TJ Power,TJ Power / Lucas Lueth / Sir Mohammed / Michael Zanoni / Augustus Gerhart,2026-11-09
+East Tennessee State,2,7.99,7.93,0.945,1.89,BJ Ward,Trevor Hennig / Jayden Cooper / BJ Ward / Marqus Marion / Elton Smith,2026-11-06
+Northern Arizona,3,7.99,7.95,0.758,2.27,Chris Komin,Ryan Abelman / Chris Komin / Max Majerle / Lucas Toukam / Tamiel Green,2026-11-10
 Davidson,3,7.99,7.84,0.917,2.75,Nick Janowski,Josh Scovens / Nick Janowski / Sam Brown / Ian Platteeuw / Jackson Keith,2026-11-10
 UMBC,2,7.99,8.2,0.869,1.74,Flash Burton,Flash Burton / Aidan Able / Riley Jacobs / Jovan Ristic / Devin Ceaser,2026-11-05
-East Tennessee State,2,7.99,7.93,0.945,1.89,BJ Ward,Trevor Hennig / Jayden Cooper / BJ Ward / Marqus Marion / Elton Smith,2026-11-06
-Presbyterian,3,8.0,8.34,0.832,2.5,Triston Wilson,Triston Wilson / Jaylen Peterson / Carl Parrish / Iverson King / Chidi Chiakwelu,2026-11-10
 San Francisco,3,8.0,7.97,0.975,2.92,Ben Oosterbaan,Gustav Knudsen / Ben Oosterbaan / Yoav Vitlem / Dylan Bordon / Ismaila Diagne,2026-11-10
+Presbyterian,3,8.0,8.34,0.832,2.5,Triston Wilson,Triston Wilson / Jaylen Peterson / Carl Parrish / Iverson King / Chidi Chiakwelu,2026-11-10
 Western Michigan,2,8.0,7.85,0.914,1.83,Jaylen Washington Jr.,Augustinas Kiudulas / Jaylen Washington Jr. / Tanner Hayhurst / Rob Lee Jr. / Adam Harakow,2026-11-08
 San Diego State,2,8.02,8.17,0.854,1.71,Latrell Davis,Elzie Harrington / Latrell Davis / Bear Cherry / Isaiah Sy / Luka Skoric,2026-11-07
 Delaware State,2,8.02,8.05,0.99,1.98,Nehemiah Reedus,Nasir Muhammad / Nehemiah Reedus / Anthony Parker / Joshua Obiora / Farouk Muntari,2026-11-10
-Toledo,4,8.03,8.52,0.871,3.48,Mynor Strong,Mynor Strong / Sean Jones / Angel Montas Jr. / Jaylan Ouwinga / Chris Riddle,2026-11-10
 Fairleigh Dickinson,2,8.03,9.25,0.528,1.06,David Jevtic,David Jevtic / Pavle Stosic / JR Jacobs / Travis Torain / Raysean Johnson,2026-11-04
-South Alabama,3,8.04,8.03,0.98,3.18,Jalen Langsy,Aaron Goldstein / Stephen Williams / Jalen Langsy / Davaughn Hueitt / Diego Roman,2026-11-10
+Toledo,4,8.03,8.52,0.871,3.48,Mynor Strong,Mynor Strong / Sean Jones / Angel Montas Jr. / Jaylan Ouwinga / Chris Riddle,2026-11-10
 Charleston Southern,2,8.04,8.21,0.747,1.49,Jacob Taylor,DJ Hubbard / Jackson Crawford / Jacob Taylor / Anthony Ruffolo / Nicholas Errica,2026-11-10
+South Alabama,3,8.04,8.03,0.98,3.18,Jalen Langsy,Aaron Goldstein / Stephen Williams / Jalen Langsy / Davaughn Hueitt / Diego Roman,2026-11-10
 NJIT,4,8.05,9.27,0.735,2.94,David Bolden,David Bolden / Matheo Coffi / Victor Vanderstraeten / Brandon Stores Jr. / Mario Tatum Jr.,2026-11-10
-West Florida,1,8.05,8.04,0.979,0.98,DJ Shine,Rodrigo Farias / Alex Godley Jr. / Isaiah Alexander / DJ Shine / Tim Hall Jr.,2026-11-06
 Furman,2,8.05,8.12,0.922,1.84,Charles Johnston,Tom House / Luka Toews / Charles Johnston / Marcus Kell / Abijah Franklin,2026-11-07
-Queens University,4,8.06,8.38,0.842,3.37,Nasir Mann,Jordan Watford / Caleb Jones / Isaiah Henry / Nasir Mann / Avantae Parker,2026-11-10
+West Florida,1,8.05,8.04,0.979,0.98,DJ Shine,Rodrigo Farias / Alex Godley Jr. / Isaiah Alexander / DJ Shine / Tim Hall Jr.,2026-11-06
 Indiana State,1,8.06,8.04,0.992,0.99,Maguire Mitchell,Karmani Gregory / Duce Paschal / Maguire Mitchell / Chance Puryear / Jackson Cooper,2026-11-02
 Saint Louis,3,8.06,10.05,0.717,2.15,Trey Green,Trey Green / Ishan Sharma / Quentin Jones / Amari McCottry / Kellen Thames,2026-11-10
+Queens University,4,8.06,8.39,0.843,3.37,Nasir Mann,Jordan Watford / Nasir Mann / Caleb Jones / Isaiah Henry / Avantae Parker,2026-11-10
 NC State,3,8.07,8.56,0.723,2.17,Preston Edmead,Preston Edmead / Eemeli Yalaho / Christian Hammond / Paul McNeil Jr. / Ven-Allen Lubin,2026-11-10
 Richmond,2,8.08,8.44,0.618,1.24,Derin Saran,Derin Saran / Amon Dorries / Aiden Argabright / Jamie Kaiser Jr. / Dominick Stewart,2026-11-08
 UT Rio Grande Valley,2,8.08,8.08,0.97,1.94,Jace Posey,Jace Posey / B.B. Knight / Devon Pryor / Bobby Crawford Jr. / Chris Uwayo,2026-11-10
 Kent State,1,8.09,8.23,0.898,0.9,Dhani Miller,Jamal Sumlin / Dhani Miller / Christian Henry / Latif Diouf / Brenden Moss,2026-11-02
 Western Illinois,2,8.1,8.54,0.85,1.7,Jack Riley,Jack Riley / Daivion Traylor / Danny Stephens / Makai Kvamme / Davee Flowers,2026-11-07
-Duquesne,2,8.11,8.1,0.996,1.99,Kerem Konan,Kerem Konan / Arness Lawson / Yoav Berman / Josh Smith / Ege Demir,2026-11-10
 Southern Illinois,1,8.11,8.03,0.947,0.95,Jeremiah Jackson,Jalen Haynes / Jeremiah Jackson / Damien Mayo Jr. / Max Pikaar / Luke Susko,2026-11-06
 Stony Brook,1,8.11,8.13,0.896,0.9,Bryan Ndjonga,Ozgur Cengiz / Collin O'Connor / Tomas Valentiny / Bryan Ndjonga / Morris Ugusuk,2026-11-06
-Purdue,3,8.13,8.15,0.965,3.14,C.J. Cox,C.J. Cox / Caden Pierce / Daniel Jacobsen / Gicarri Harris / Antione West Jr,2026-11-09
+Duquesne,2,8.11,8.1,0.996,1.99,Kerem Konan,Kerem Konan / Arness Lawson / Yoav Berman / Josh Smith / Ege Demir,2026-11-10
 UConn,3,8.13,9.08,0.68,2.04,Silas Demary Jr.,Silas Demary Jr. / Jayden Ross / Braylon Mullins / Oskar Giltay / Na'jai Hines,2026-11-09
-Bryant,4,8.14,8.15,0.939,3.76,Keegan Harvey,Keegan Harvey / Onyx Nnani / Andre Pasha / Roi Behar / Duane Thompson,2026-11-10
+Purdue,3,8.13,8.15,0.965,3.14,C.J. Cox,C.J. Cox / Caden Pierce / Daniel Jacobsen / Gicarri Harris / Antione West Jr,2026-11-09
 Dayton,3,8.14,8.31,0.858,2.68,Aiden Derkack,Aiden Derkack / Grant Randall / Tristian Ford / Amal L'Etang / Landen Joseph,2026-11-10
 Wichita State,2,8.14,8.11,0.985,1.97,Kenyon Giles,Jordan Frison / William Berg / Bryce Heard / Kenyon Giles / Jahari Long,2026-11-08
+Bryant,4,8.14,8.15,0.939,3.76,Keegan Harvey,Keegan Harvey / Onyx Nnani / Andre Pasha / Roi Behar / Duane Thompson,2026-11-10
 Oral Roberts,1,8.16,9.57,0.782,0.78,Boden Williams,Thomas Zorbas / Martins Kilups / Boden Williams / Jamal George / Cal Furnish,2026-11-02
 Virginia,4,8.16,9.87,0.688,2.75,Johann Grunloh,Johann Grunloh / Chance Mallory / Thijs De Ridder / Sam Lewis / Elijah Gertrude,2026-11-10
-Seattle U,2,8.17,8.13,0.92,1.84,Will Heimbrodt,Will Heimbrodt / Tyler Boston / Mason Williams / Halvine Dzellat / Junseok Yeo,2026-11-07
-Northern Arizona,2,8.17,7.92,0.801,1.6,Chris Komin,Ryan Abelman / Chris Komin / Max Majerle / Lucas Toukam / Tamiel Green,2026-11-07
-Pepperdine,1,8.17,8.17,1.0,1.0,Petar Majstorovic,Will McClendon / Petar Majstorovic / Evan Haywood / Alex Constanza / Jahari Williamson,2026-11-02
 UC Santa Barbara,1,8.17,9.68,0.79,0.79,Aidan Mahaney,Viljami Vartiainen / Miro Little / CJ Shaw / RJ Smith / Aidan Mahaney,2026-11-07
+Seattle U,2,8.17,8.13,0.92,1.84,Will Heimbrodt,Will Heimbrodt / Tyler Boston / Mason Williams / Halvine Dzellat / Junseok Yeo,2026-11-07
+Pepperdine,1,8.17,8.17,1.0,1.0,Petar Majstorovic,Will McClendon / Petar Majstorovic / Evan Haywood / Alex Constanza / Jahari Williamson,2026-11-02
 Maryland Eastern Shore,3,8.18,8.8,0.781,2.34,Bobby Gardner,Saadiq Moore / Isaiah Griffin / Lucius Gibson-Savadel / Bobby Gardner / Victor Ezeh,2026-11-10
 Central Connecticut,3,8.19,8.39,0.794,2.48,James Jones,James Jones / Jhace Johnson / Ashton Reynolds / Raphel Laurent / Jayden Mott,2026-11-08
 Ball State,2,8.2,8.88,0.84,1.68,Mason Jones,Mason Jones / Javion Guy-King / K'Jei Parker / Sean Blake / Kai McGrew,2026-11-06
 Notre Dame,3,8.21,9.41,0.776,2.33,Braeden Shrewsberry,Braeden Shrewsberry / Braeden Smith / Brady Koehler / Ethan Roberts / Logan Duncomb,2026-11-09
+Michigan,2,8.21,8.17,0.892,1.78,Trey McKenney,Roddy Gayle Jr. / Trey McKenney / Elliot Cadeau / J.P. Estrella / Oscar Goodman,2026-11-06
 Cal State Northridge,2,8.21,8.24,0.826,1.65,Mikah Ballew,Josiah Davis / Mikah Ballew / BJ Omot / Jael Martin / Brooklyn Hicks,2026-11-06
 Omaha,2,8.21,10.05,0.553,1.11,Cahmai Crosby,Cahmai Crosby / Deke Thompson / Grant Stubblefield / Isaac Ondekane / Justin Bolis,2026-11-07
-Michigan,2,8.21,8.17,0.892,1.78,Trey McKenney,Roddy Gayle Jr. / Trey McKenney / Elliot Cadeau / J.P. Estrella / Oscar Goodman,2026-11-06
-UC Davis,1,8.22,8.22,1.0,1.0,Isaiah Chappell,Brayden Fagbemi / Veniamin Abosi / Isaiah Chappell / Connor Sevilla / Jalen Stokes,2026-11-02
-DePaul,2,8.22,8.29,0.933,1.87,Noah Meeusen,Ade Popoola / Kruz McClure / Fabian Flores / Koree Cotton / Layden Blocker,2026-11-05
 Colgate,2,8.22,8.11,0.958,1.92,Andrew Alekseyenko,Andrew Alekseyenko / Sam Wright / Blake Forrest / Parker Jones / Josh Ahayere,2026-11-07
+DePaul,2,8.22,8.29,0.933,1.87,Noah Meeusen,Ade Popoola / Kruz McClure / Fabian Flores / Koree Cotton / Layden Blocker,2026-11-05
+UC Davis,1,8.22,8.22,1.0,1.0,Isaiah Chappell,Brayden Fagbemi / Veniamin Abosi / Isaiah Chappell / Connor Sevilla / Jalen Stokes,2026-11-02
+BYU,2,8.23,8.26,0.898,1.81,Robert Wright III,Robert Wright III / Jaxon Kohler / Collin Chandler / Bruce Branch III / Tyler Betsey,2026-11-10
 Texas Southern,2,8.23,8.33,0.747,1.49,Kehlin Farooq,Karris Bilal / Ben Vungo / Kehlin Farooq / Jason Kimbrough / Sayed Sayed,2026-11-06
-BYU,2,8.23,8.26,0.896,1.8,Robert Wright III,Robert Wright III / Collin Chandler / Jaxon Kohler / Bruce Branch III / Jake Wahlin,2026-11-10
 St. John's,2,8.24,9.81,0.659,1.32,Keyshawn Hall,Keyshawn Hall / Quinn Ellis / Tounde Yessoufou / Ian Jackson / Reed Bailey,2026-11-08
 VMI,2,8.24,8.82,0.865,1.73,Rickey Bradley Jr.,Trap Johnson / Paulius Narvilas / Rickey Bradley Jr. / TJ Johnson / Alexander Daushvili,2026-11-07
 Ole Miss,3,8.25,10.22,0.575,1.72,Patton Pinkins,Patton Pinkins / Ilias Kamardine / Santiago Trouet / Corey Stephenson / Adam Clark,2026-11-10
 Grambling,2,8.25,8.51,0.739,1.48,Dwayne Pierce,Mekhi Fitts / Dwayne Pierce / Isaiah Howard / Antoine Shannon / Antonio Shannon,2026-11-09
-Green Bay,3,8.26,8.3,0.914,2.74,Marcus Hall,Orlando Lovejoy / Ahmere Carson / Marcus Hall / Ne'quan Brown / Clarence Payia,2026-11-10
 Miami,3,8.26,9.13,0.769,2.31,Acaden Lewis,Shelton Henderson / Acaden Lewis / Caleb Gaskins / Malik Reneau / Somto Cyril,2026-11-09
+Green Bay,3,8.26,8.3,0.914,2.74,Marcus Hall,Orlando Lovejoy / Ahmere Carson / Marcus Hall / Ne'quan Brown / Clarence Payia,2026-11-10
 UC San Diego,1,8.26,8.19,0.913,0.91,Leo Beath,Treysen Eaglestaff / Kayde Dotson / Jake Holmes / Rahmir Barno / Leo Beath,2026-11-07
 Houston,2,8.27,9.43,0.72,1.44,Dedan Thomas Jr.,Dedan Thomas Jr. / Mercy Miller / Delrecco Gillespie / Corey Hadnot II / Joseph Tugler,2026-11-08
 Northern Iowa,2,8.28,8.11,0.889,1.78,Tate McCubbin,Tate McCubbin / Carson Vis / Greyson Uelmen / Levi Valdo / Isaiah Johnson-Arigu,2026-11-10
 Virginia Tech,2,8.29,9.19,0.684,1.37,Ben Hammond,Amani Hansberry / Jaylen Curry / Ben Hammond / Tyler Johnson / Butta Johnson,2026-11-05
-Navy,2,8.29,8.82,0.773,1.55,Cam Cole,Cam Cole / David Burnett / Jinwoo Kim / Jerry Ashley Jr. / Sean Griffin,2026-11-05
 Florida State,3,8.29,8.69,0.789,2.37,Sebastian Rancik,Sebastian Rancik / Shon Abaev / Kam Taylor / Anthony Robinson II / Marcis Ponder,2026-11-10
+UL Monroe,3,8.29,8.89,0.863,2.81,Dayjaun Anderson,Lance Carr / Phillip Tillman / Dayjaun Anderson / Ziyade Ndancky / Quaran McPherson,2026-11-10
 Towson,3,8.29,8.78,0.866,2.6,Jaquan Womack,Zion Stanford / Ben Roseborough / Christian Doerr / Caleb Embeya / Jaquan Womack,2026-11-09
+Navy,2,8.29,8.82,0.773,1.55,Cam Cole,Cam Cole / David Burnett / Jinwoo Kim / Jerry Ashley Jr. / Sean Griffin,2026-11-05
 Sam Houston,1,8.3,8.58,0.643,0.64,Jacobe Coleman,Enel St. Bernard / Jacobe Coleman / Aidan McDowell / Justin Begg / Riccardo Greppi,2026-11-03
-Rhode Island,3,8.31,8.71,0.78,2.34,Jonah Hinton,Jonah Hinton / Jahmere Tripp / Jason Fontenet II / Dylan Williamson / Nedas Raupelis,2026-11-10
 Georgia Southern,3,8.31,8.37,0.883,2.76,Truman Claytor IV,Dallas Gardner / Truman Claytor IV / Jeromy Davis / Eltramon Smith / Josh Dixon,2026-11-10
+Rhode Island,3,8.31,8.71,0.78,2.34,Jonah Hinton,Jonah Hinton / Jahmere Tripp / Jason Fontenet II / Dylan Williamson / Nedas Raupelis,2026-11-10
 South Dakota,3,8.32,8.33,0.974,2.92,Vince Buzelis,Vince Buzelis / Josiah Dotzler / Ethan Kizer / Cade Kelderman / Kajus Kublickas,2026-11-10
 SIU Edwardsville,2,8.33,9.26,0.781,1.56,Jordan Pickett,Jordan Pickett / Dehrio McCaskill / David Wilson / Gianni Cobb / Brennan Miller,2026-11-09
-Washington,2,8.33,8.29,0.912,1.83,Ryan Beasley,LeJuan Watts / Ryan Beasley / Tayshawn Comer / Nikola Dzepina / Wesley Yates III,2026-11-09
-Wake Forest,3,8.33,8.63,0.813,2.44,Kevair Kennedy,Kevair Kennedy / Jamari McDowell / Gavin Placide / Isaac Carr / Gallagher Placide,2026-11-10
 UC Riverside,1,8.33,8.33,0.997,1.0,Tyus Parrish-Tillman,Aidan Rice / Tyus Parrish-Tillman / James Evans Jr. / Devon Malcolm / Tony Duckett,2026-11-07
-Miami (OH),2,8.35,8.31,0.974,1.95,Almar Atlason,Almar Atlason / Evan Ipsaro / Kyle Waltz / Stevie Elam / Antwone Woolfolk,2026-11-07
+Wake Forest,3,8.33,8.63,0.813,2.44,Kevair Kennedy,Kevair Kennedy / Jamari McDowell / Gavin Placide / Isaac Carr / Gallagher Placide,2026-11-10
+Washington,2,8.33,8.29,0.912,1.83,Ryan Beasley,LeJuan Watts / Ryan Beasley / Tayshawn Comer / Nikola Dzepina / Wesley Yates III,2026-11-09
 Weber State,3,8.35,8.63,0.873,2.62,Augustine Ekwe,ArDarius Grayson / Gavin Lowe / Chamberlain Burgess / Aaron Powell / Augustine Ekwe,2026-11-10
+Miami (OH),2,8.35,8.31,0.974,1.95,Almar Atlason,Almar Atlason / Evan Ipsaro / Kyle Waltz / Stevie Elam / Antwone Woolfolk,2026-11-07
 Denver,2,8.35,8.34,0.978,1.96,Carson Johnson,Carson Johnson / Shaun Wysocki / Oskar Wickstrom Stumer / Kam Martin / Logan Threatt,2026-11-07
 Indiana,3,8.38,9.41,0.767,2.3,Darren Harris,Darren Harris / Markus Burton / Bryce Lindsay / Jaeden Mustaf / Samet Yigitoglu,2026-11-09
-New Orleans,1,8.39,11.55,0.396,0.4,Nick Jones,Nick Jones / Cham Okey / Solomon Ominu / Kahlil Singleton / Kedrick Osby,2026-11-03
 North Carolina Central,2,8.39,8.54,0.943,2.0,Cristian Sanon,Tyler Mason / Darius Kane / Trey Brown / Cristian Sanon / Ryan Archey,2026-11-07
+New Orleans,1,8.39,11.55,0.396,0.4,Nick Jones,Nick Jones / Cham Okey / Solomon Ominu / Kahlil Singleton / Kedrick Osby,2026-11-03
 UTEP,2,8.42,8.29,0.915,1.83,Leif Moeller,Augusto Cassia / Leif Moeller / Reese Miller / Cam McDaniels / Youssouf Traore,2026-11-08
-Columbia,2,8.43,8.6,0.881,1.76,Connor Igoe,Douglas Langford / Hampton Sanders / Josiah Cunningham / Josh Pratt / Mason Ritter,2026-11-09
 Texas,3,8.43,10.0,0.488,1.46,Isaiah Johnson,David Punch / Isaiah Johnson / Austin Goosby / Joe Sterling / Matas Vokietaitis,2026-11-09
-Saint Peter's,3,8.44,8.52,0.912,2.74,Bryce Eaton,Bryce Eaton / Xavier Thomas / Trey Patterson / Elijah Perkins / Ken Walker,2026-11-08
+Columbia,2,8.43,8.6,0.881,1.76,Connor Igoe,Douglas Langford / Hampton Sanders / Josiah Cunningham / Josh Pratt / Mason Ritter,2026-11-09
 Fairfield,3,8.44,9.77,0.78,2.34,Declan Wucherpfennig,Declan Wucherpfennig / Jah Hatchett / Cole Edelen / Halon Rawlins / Tony Williams,2026-11-10
+Saint Peter's,3,8.44,8.52,0.912,2.74,Bryce Eaton,Bryce Eaton / Xavier Thomas / Trey Patterson / Elijah Perkins / Ken Walker,2026-11-08
 New Haven,3,8.45,8.55,0.766,2.3,Teshaun Steele,Teshaun Steele / Tim Walker / Danny Young Jr. / Zoumana Traore / Tristan Burth,2026-11-10
-San Diego,2,8.47,8.47,0.996,2.12,Dusty Stromer,Dusty Stromer / Jevon Hill / Marqui Worthy Jr. / Jose Roberto Tanchyn / Davion Hill,2026-11-10
-Northwestern State,3,8.47,9.12,0.758,2.27,Kai Simpson,Isaiah Vick / Kai Simpson / Nathan Ojukwu / Antoine Almuttar / Doyle Brown,2026-11-07
 Massachusetts,2,8.47,8.35,0.905,1.81,Jordan Clayton,Jordan Clayton / Dwayne Wimbley Jr. / Abdullah Ahmed / Noa Zemljić / Danny Carbuccia,2026-11-06
 Marist,3,8.47,8.45,0.988,2.97,Dywane Chess,Dywane Chess / Jadin Collins-Roberts / Myles Parker / Jordan Gabriel / Jack Graham,2026-11-08
+Northwestern State,3,8.47,9.12,0.758,2.27,Kai Simpson,Isaiah Vick / Kai Simpson / Nathan Ojukwu / Antoine Almuttar / Doyle Brown,2026-11-07
 New Mexico,3,8.47,8.75,0.715,2.15,Jake Hall,Uriah Tenette / Jake Hall / Chris Howell / Hudson Mayes / Benjamin Schuch,2026-11-10
+San Diego,2,8.47,8.47,0.996,2.12,Dusty Stromer,Dusty Stromer / Jevon Hill / Marqui Worthy Jr. / Jose Roberto Tanchyn / Davion Hill,2026-11-10
 Syracuse,3,8.48,9.13,0.744,2.23,Sadiq White Jr.,Ryan Moesch / Sadiq White Jr. / Kiyan Anthony / Luke Wilson / Garwey Dual,2026-11-09
 Arkansas-Pine Bluff,2,8.48,9.67,0.508,1.02,Jalen Tatum,Jalen Tatum / C.J. Smith / Creed Williamson / Harrison Pickett / Kalli Johnson,2026-11-06
 Lipscomb,4,8.49,8.81,0.943,3.77,Takai Simpkins,Mateo Esmeraldo / Titas Sargiunas / Takai Simpkins / Devyn Martin / Kennedy Okpara,2026-11-10
 The Citadel,1,8.49,8.7,0.823,0.82,Eddrin Bronson,Eddrin Bronson / Tyler Mrus / Keynan Davis / Joe Hurlburt / Marcus Banks,2026-11-02
-Wagner,3,8.5,9.0,0.678,2.03,Taj Bryant,Taj Bryant / AJ Rodriguez / Cam Estevez / Youssouf Singar / Kareem Watson,2026-11-09
-Eastern Michigan,2,8.5,8.85,0.93,1.86,Jaiden Martin,Mohammad Habhab / Jaiden Martin / Kaden Johnson / Gregory Lawson II / Braelon Green,2026-11-06
 Drexel,1,8.5,9.26,0.709,0.71,Josh Reed,David Simonovic / Amaree Abram / Dillon Tingler / Josh Reed / Panagiotis Pagonis,2026-11-03
-Wisconsin,3,8.5,9.69,0.752,2.26,Braeden Carrington,Braeden Carrington / Jack Janicki / Owen Foxwell / Nolan Winter / Austin Rapp,2026-11-10
+Eastern Michigan,2,8.5,8.85,0.93,1.86,Jaiden Martin,Mohammad Habhab / Jaiden Martin / Kaden Johnson / Gregory Lawson II / Braelon Green,2026-11-06
 Merrimack,3,8.5,8.47,0.894,2.68,AJ Lesburt Jr.,AJ Lesburt Jr. / Ayden Johnson / Todd Brogna / Denver Anglin / Jeremiah Anderson,2026-11-08
+Wisconsin,3,8.5,9.69,0.752,2.26,Braeden Carrington,Braeden Carrington / Jack Janicki / Owen Foxwell / Nolan Winter / Austin Rapp,2026-11-10
+Wagner,3,8.5,9.0,0.678,2.03,Taj Bryant,Taj Bryant / AJ Rodriguez / Cam Estevez / Youssouf Singar / Kareem Watson,2026-11-09
 Purdue Fort Wayne,1,8.51,8.5,0.992,0.99,DeAndre Craig Jr.,DeAndre Craig Jr. / Anthony Isaac Jr. / Chris Morgan / Edir Ortiz / Ashton Williamson,2026-11-03
-Oregon State,3,8.52,9.1,0.82,2.46,Xavion Staton,Legend Smiley / Xavion Staton / Josiah Lake II / Chris Johnson / Daniel Freitag,2026-11-09
 Tennessee,2,8.52,9.38,0.757,1.51,DeWayne Brown II,Miles Rubin / DeWayne Brown II / Juke Harris / Terrence Hill Jr. / Jalen Haralson,2026-11-09
 Iowa State,3,8.52,9.1,0.764,2.29,Tamin Lipsey,Tamin Lipsey / Ryan Prather Jr. / Tre Singleton / Blake Buchanan / Jamarion Batemon,2026-11-10
+Oregon State,3,8.52,9.1,0.82,2.46,Xavion Staton,Legend Smiley / Xavion Staton / Josiah Lake II / Chris Johnson / Daniel Freitag,2026-11-09
 Longwood,2,8.54,8.54,0.997,2.12,Alphonzo Billups III,Alphonzo Billups III / MJ Williams / Jaylen Benard / TJ Robinson / Jorke Aav,2026-11-07
 Wright State,3,8.57,8.54,0.733,2.2,Dominic Pangonis,Dominic Pangonis / Kellen Pickett / C.J. O'Hara / Noah Lewis / Chadlyn Traylor,2026-11-10
-Louisiana,2,8.59,8.58,0.948,1.9,Jamyron Keller,Jamyron Keller / Mekhi Cooper / Dani Pounds / Trent Middleton Jr. / Josiah Harris,2026-11-06
 George Mason,2,8.59,9.43,0.748,1.5,Brayden O'Connor,Makhai Valentine / Shane Pendergrass / Brayden O'Connor / Baraka Okojie / Emmett Adair,2026-11-06
+Louisiana,2,8.59,8.58,0.948,1.9,Jamyron Keller,Jamyron Keller / Mekhi Cooper / Dani Pounds / Trent Middleton Jr. / Josiah Harris,2026-11-06
 Oakland,4,8.6,9.15,0.777,3.11,Chris Fields Jr.,Chris Fields Jr. / Warren Marshall IV / Ryder Bradley / Nassim Mashhour / Hamoudy Mashhour,2026-11-09
 UNC Asheville,2,8.61,8.62,0.754,1.51,Daniel Thomas,Daniel Thomas / Ja'Corey Lipkins / Myles Mayfield / Tylon Chatman / Connor Dubsky,2026-11-07
 St. Thomas-Minnesota,3,8.61,8.56,0.965,2.9,Hayden Tibbits,Tim Franks / Hayden Tibbits / Jonovan Wilkinson / Carter Bjerke / Jeremy Lorenz,2026-11-08
 North Florida,3,8.62,9.26,0.696,2.09,Mason Watkins,Kent Jackson / Mason Watkins / JR Bartelus / Mason Lee / Ayuba Bryant Jr.,2026-11-09
-Vanderbilt,2,8.63,9.92,0.697,1.39,Tyler Tanner,Tyler Tanner / Bangot Dak / Ant Brown Jr. / T.O. Barrett / Berke Buyuktuncel,2026-11-05
 Duke,3,8.63,9.91,0.705,2.11,John Blackwell,Dame Sarr / Patrick Ngongba II / John Blackwell / Caleb Foster / Joaquim Boumtje Boumtje,2026-11-10
+Vanderbilt,2,8.63,9.92,0.697,1.39,Tyler Tanner,Tyler Tanner / Bangot Dak / Ant Brown Jr. / T.O. Barrett / Berke Buyuktuncel,2026-11-05
 Cal State Fullerton,2,8.64,8.95,0.906,1.81,Joshua Ward,Joshua Ward / Christian Williams / Matthew Willenborg / Marley Zeller / Tiernan Stynes,2026-11-07
 Rider,3,8.65,9.41,0.82,2.46,Bryce Baker,Bryce Baker / Khalil Farmer / Rich Brisco / Mark Butler / Horace Simmons Jr.,2026-11-08
 Ohio State,3,8.65,8.74,0.93,2.79,John Mobley Jr.,Amare Bynum / John Mobley Jr. / Justin Pippen / Andrija Jelavic / LJ Smith,2026-11-09
+Kentucky,3,8.65,8.98,0.753,2.26,Milan Momcilovic,Milan Momcilovic / Alex Wilkins / Mason Williams / Malachi Moreno / Braydon Hawthorne,2026-11-10
 Princeton,2,8.65,8.99,0.944,1.89,Jackson Hicke,Jackson Hicke / Landon Clark / Jack Stanton / Malik Abdullahi / Dalen Davis,2026-11-08
 Montana,2,8.66,8.53,0.945,1.89,Tyler Thompson,Tyler Thompson / Jordan Clark / Jalen Brown / Semaj Carter / Clayton Mpiana,2026-11-10
-Kentucky,2,8.66,9.26,0.722,1.44,Milan Momcilovic,Alex Wilkins / Milan Momcilovic / Mason Williams / Malachi Moreno / Braydon Hawthorne,2026-11-06
 UAB,3,8.67,9.35,0.85,2.55,Deuce Jones,Jeremy Elyzee / Deuce Jones / T.J. Caldwell / Salim London / Justyn Fernandez,2026-11-09
 Eastern Kentucky,1,8.67,8.62,0.959,0.96,Justin McCarter,Shadrak Lasu / Josh Lowe / Justin McCarter / Damone King / Drae Vasser,2026-11-10
 Valparaiso,2,8.68,9.21,0.87,1.96,Rakim Chaney,Carter Hopoi / Bruno Alocen / Justus McNair / Rakim Chaney / Sader Servilus,2026-11-06
+Kansas,3,8.69,10.17,0.722,2.17,Tyran Stokes,Taylen Kinney / Tre White / Keanu Dawes / Tyran Stokes / Christian Reeves,2026-11-10
 Texas State,2,8.69,8.53,0.958,1.92,DJ Hall,Robert Fields / DJ Hall / Paul Djobet / Kaden Gumbs / Quel'Ron House,2026-11-10
 Troy,3,8.69,8.96,0.906,2.83,Jacoi Hutchinson,Donovan Oday / Cau Pacheco / Jacoi Hutchinson / Sam Walters / Robert Davis Jr.,2026-11-10
 Iowa,2,8.7,10.38,0.715,1.43,Cooper Koch,Cooper Koch / Trevin Jirak / Isaia Howard / Kael Combs / Tate Sage,2026-11-06
 Loyola Maryland,2,8.71,9.04,0.87,1.74,Carter Berg-McLean,Robbie Long III / Carter Berg-McLean / Leo Ricketts / Sebastien Emenalo / Gage Howard,2026-11-06
-Kansas,2,8.72,11.24,0.676,1.35,Tyran Stokes,Melvin Council Jr. / Taylen Kinney / Keanu Dawes / Tre White / Tyran Stokes,2026-11-06
 West Virginia,2,8.72,9.88,0.687,1.37,Finley Bizjack,Miles Sadler / Brenen Lorient / Finley Bizjack / Amadou Seini / Seydou Traore,2026-11-06
 Niagara,2,8.74,9.41,0.849,1.7,Bastien Rieber,Logan Woods / Bastien Rieber / Ruey Ruey / Fidel Rotta / Samuele Miccoli,2026-11-07
-Lindenwood,1,8.75,8.92,0.596,0.6,Xavier Spencer,Xavier Spencer / Noah Taitz / Dom Clay / Matar Diop / Marsai Mason,2026-11-02
 Southern Miss,1,8.75,10.4,0.728,0.73,Anthony Igiede,Anthony Igiede / Camden Cerese / Cameron Wallace / Brandon Weston / Isaac Taveras,2026-11-06
+Lindenwood,1,8.75,8.92,0.596,0.6,Xavier Spencer,Xavier Spencer / Noah Taitz / Dom Clay / Matar Diop / Marsai Mason,2026-11-02
 Norfolk State,1,8.76,8.94,0.695,0.69,Bahsil Laster,Keon Mitchell / Bahsil Laster / Justin Jones / Chris Walker / Dramane Camara,2026-11-08
-Arkansas,2,8.76,9.5,0.668,1.34,Jordan Smith Jr.,Billy Richmond III / Miikka Muurinen / Jordan Smith Jr. / Jeremiah Wilkinson / Cooper Bowser,2026-11-08
 California Baptist,2,8.76,8.7,0.927,1.85,Terry Coner Jr.,Terry Coner Jr. / Jordan Muller / Jonas Zilinskas / Steven Reynolds III / Ethan Duncan,2026-11-06
+Arkansas,2,8.76,9.5,0.668,1.34,Jordan Smith Jr.,Billy Richmond III / Miikka Muurinen / Jordan Smith Jr. / Jeremiah Wilkinson / Cooper Bowser,2026-11-08
 Illinois,3,8.77,10.33,0.648,1.94,Andrej Stojakovic,Andrej Stojakovic / Ethan Brown / Tomislav Ivisic / Quentin Coleman / Zavier Zens,2026-11-10
-Quinnipiac,2,8.79,9.31,0.782,1.56,Lucas Sekasi,Lucas Sekasi / Keith McKnight / Tayeshawn Cunningham-Pemberton / Nas Hart / Tai Turnage,2026-11-05
 Utah Valley,1,8.79,8.77,0.989,0.99,Dominick Nelson,Dominick Nelson / Isaac Davis / Isaac Hawkins / Braden Housley / Jordy Barnes,2026-11-07
-James Madison,2,8.79,8.73,0.939,1.88,Adrian Myers,Preston Fowler / Paul Jones III / Brandon Lee / K.J. Windham / Garrett Sundra,2026-11-06
+Quinnipiac,2,8.79,9.31,0.782,1.56,Lucas Sekasi,Lucas Sekasi / Keith McKnight / Tayeshawn Cunningham-Pemberton / Nas Hart / Tai Turnage,2026-11-05
 Florida Gulf Coast,2,8.79,8.78,0.962,2.04,Bryson Lucas,BB Washington / Bryson Lucas / Chase Konieczny / CJ Outlaw / Turk Brown III,2026-11-09
+James Madison,2,8.79,8.73,0.939,1.88,Adrian Myers,Preston Fowler / Paul Jones III / Brandon Lee / K.J. Windham / Garrett Sundra,2026-11-06
 SE Louisiana,3,8.8,9.61,0.744,2.23,Tyler Rolison,Tyler Rolison / Ashley Sims II / Jackson Furman / Tybo Bailey / Gio Sanford,2026-11-10
 Iona,4,8.81,9.3,0.814,3.26,Kevon Vanderhorst,Kevon Vanderhorst / Kosy Akametu / Ore Odutayo / Keyshawn Mitchell / Martin Kheil,2026-11-10
-Fordham,3,8.81,9.13,0.875,2.62,Amir Lindsey,Lateef Patrick Jr. / Amir Lindsey / Abass Bodija / Rikus Schulte / Akira Jacobs,2026-11-10
 Oklahoma,3,8.81,9.01,0.885,2.65,Derrion Reid,Derrion Reid / B.J. Edwards / Pop Isaacs / Khani Rooths / Duke Brennan,2026-11-09
+Fordham,3,8.81,9.13,0.875,2.62,Amir Lindsey,Lateef Patrick Jr. / Amir Lindsey / Abass Bodija / Rikus Schulte / Akira Jacobs,2026-11-10
 Gardner-Webb,2,8.82,10.17,0.55,1.1,Seth Brown,Seth Brown / Jacob Hudson / Sam Nosakhare / Mikhali Pocknett / Rue Wells,2026-11-05
 IU Indianapolis,1,8.83,8.82,0.997,1.0,Peyton Heiss,Peyton Heiss / Gus Etchison / Kameron Tinsley / Precious Idiaru / Markus Pastorcic-Straun,2026-11-07
-Nevada,2,8.84,9.73,0.818,1.74,Vaughn Weems,Peter Bandelj / Styles Phipps / Elijah Price / Vaughn Weems / Peyton White,2026-11-08
 Mount St. Mary's,2,8.84,9.41,0.685,1.37,Redd Thompson Jr.,Redd Thompson Jr. / Abdou Khadre Kebe / Wilguens Jr. Exacte / Anthony Arrington Jr. / Cade Orness,2026-11-06
+Nevada,2,8.84,9.73,0.818,1.74,Vaughn Weems,Peter Bandelj / Styles Phipps / Elijah Price / Vaughn Weems / Peyton White,2026-11-08
 Long Island University,4,8.85,9.03,0.926,3.7,Vasean Allette,Daquan Davis / Tyrell Bowles / Vasean Allette / Joshua Skinner / Ryan Bewley,2026-11-09
 Kansas State,3,8.86,8.9,0.885,2.65,Isaiah Abraham,Jaden Schutt / Isaiah Abraham / Brandon Rechsteiner / Montana Wheeler / Jaylen Alexander,2026-11-10
 Stetson,3,8.87,10.29,0.693,2.08,Magnus Entenmann,Collin Kuhl / Thiago Sucatzky / Magnus Entenmann / Alex Doyle / Makhi Myles,2026-11-06
-Belmont,2,8.88,8.81,0.921,1.84,Jack Smiley,Jack Smiley / Isaiah West / Ethan Sage / Vincent Neugebauer / Matthew Zobrist,2026-11-10
 Hampton,2,8.88,8.95,0.749,1.5,Max Frazier,Max Frazier / Seth Hubbard / Jayme Mitchell Jr. / Peter Da Cruz / Nehemiah Lawrence,2026-11-07
+Belmont,2,8.88,8.81,0.921,1.84,Jack Smiley,Jack Smiley / Isaiah West / Ethan Sage / Vincent Neugebauer / Matthew Zobrist,2026-11-10
 Morehead State,2,8.89,10.12,0.67,1.34,Chase Dawson,Vince Dawson III / Chase Dawson / Clayton Parker / Izaiah Day / Dalman Alexander,2026-11-07
-Little Rock,3,8.9,9.04,0.897,2.69,Jah'Likai King,Jah'Likai King / Aaron Clark / Taj Walters / Papa Amadou Kante / Tyrese Lacey,2026-11-10
 Western Carolina,2,8.9,8.88,0.977,1.95,Jaxon Prunty,Jaxon Prunty / Malachi Brown / Tayeshaun Smith / Isaiah Manning / Jacob Zhu,2026-11-07
+Little Rock,3,8.9,9.04,0.897,2.69,Jah'Likai King,Jah'Likai King / Aaron Clark / Taj Walters / Papa Amadou Kante / Tyrese Lacey,2026-11-10
 Santa Clara,3,8.92,9.56,0.827,2.48,Sash Gavalyugov,Jake Ensminger / Sash Gavalyugov / Fedor Zugic / David Castillo / Chris Tadjo,2026-11-07
 Elon,3,8.93,9.02,0.911,2.73,Raúl Villar,Josh Dalton / Raúl Villar / Bryson Cokley / Isaiah Mbeng / Randall Pettus II,2026-11-10
 UC Irvine,1,8.94,8.63,0.823,0.82,Tama Isaac,Tama Isaac / Nils Cooper / Jovan Jester Jr. / Josiah Johnson / Olivier Rioux,2026-11-07
-Idaho State,3,8.95,10.67,0.751,2.25,MaCarhy Morris,MaCarhy Morris / Nathan Amoran / Kenyon DeMuynck / Ike Palmer / Eli Garner,2026-11-08
 California,2,8.95,8.9,0.848,1.7,Nojus Indrusaitis,Michael Cooper / Semetri Carr / Dhiaukuei Manyiel Dut / Nojus Indrusaitis / Amier Ali,2026-11-08
+Idaho State,3,8.95,10.67,0.751,2.25,MaCarhy Morris,MaCarhy Morris / Nathan Amoran / Kenyon DeMuynck / Ike Palmer / Eli Garner,2026-11-08
 Tennessee Tech,2,8.98,8.83,0.902,1.8,Caleb Sanders,Caleb Hollenbeck / Caleb Sanders / De'Ante Green / Trent Mosquera / Kamai Samuels,2026-11-08
 Georgia,3,8.99,8.91,0.888,2.66,Blue Cain,Kanon Catchings / Marcus Millender / James Scott / Blue Cain / Kareem Stagg,2026-11-09
-North Carolina,3,9.01,9.9,0.834,2.5,Terrence Brown,Terrence Brown / Matt Able / Neo Avdalas / Jarin Stevenson / Sayon Keita,2026-11-10
 Old Dominion,2,9.01,8.83,0.915,1.83,Zacch Wiggins,Jared Turner / Zacch Wiggins / Khoi Thurmon / Bubu Benjamin / Jotham Nweke,2026-11-07
+North Carolina,3,9.01,9.9,0.834,2.5,Terrence Brown,Terrence Brown / Matt Able / Neo Avdalas / Jarin Stevenson / Sayon Keita,2026-11-10
 Brown,3,9.05,9.04,0.995,2.99,Brady Loughlin,Jeremiah Jenkins / Brady Loughlin / Timmy Bollin / N'famara Dabo / Rykan Woo,2026-11-08
+Stonehill,2,9.07,9.68,0.85,1.7,Felipe Patino,Trenton Ruth / Eli Greenberg / Felipe Patino / Pearse McGuinn / Amare Allen,2026-11-09
+West Georgia,2,9.07,9.22,0.852,1.7,Juaquin Dixon,Kenneth Chime / Lou Hutchinson III / Chas Lewless / David Simon / Justin Redmond,2026-11-05
 Florida A&M,2,9.07,9.21,0.646,1.29,Jaden Kempson,Jaden Kempson / Daisean Williford / Ben Ndour / Tuscan Onuoha / Chandler Davis,2026-11-09
 Western Kentucky,2,9.07,9.68,0.863,1.73,Armelo Boone,Teagan Moore / Gabe Weis / Sharron Young / Armelo Boone / EJ Walker,2026-11-08
-West Georgia,2,9.07,9.22,0.852,1.7,Juaquin Dixon,Kenneth Chime / Lou Hutchinson III / Chas Lewless / David Simon / Justin Redmond,2026-11-05
-Stonehill,2,9.07,9.68,0.85,1.7,Felipe Patino,Trenton Ruth / Eli Greenberg / Felipe Patino / Pearse McGuinn / Amare Allen,2026-11-09
-Central Arkansas,2,9.08,10.57,0.695,1.39,Luke Moore,Luke Moore / Cole McCormick / Simm-Marten Saadi / Harry Beauchamp / Rylie Marshall,2026-11-06
 Radford,3,9.08,9.37,0.874,2.62,Ja'Corey Robinson,Tristan Gross / Warren Keel Jr. / Frederik Erichsen / Ja'Corey Robinson / Jordyn Kee,2026-11-09
+Central Arkansas,2,9.08,10.57,0.695,1.39,Luke Moore,Luke Moore / Cole McCormick / Simm-Marten Saadi / Harry Beauchamp / Rylie Marshall,2026-11-06
 Air Force,2,9.09,9.19,0.775,1.55,Grant Best,Caleb Walker / Grant Best / Kam Sanders / Lucas Hobin / Brendan Martin,2026-11-08
-Sacramento State,1,9.1,9.12,0.994,0.99,Osiris Grady,Taj Glover / Mikey Williams / Osiris Grady / Giannis Asimakopoulos / Joao Das Chagas,2026-11-07
 Eastern Washington,3,9.1,10.13,0.877,2.63,Jamil Miller,Emmett Marquardt / Jamil Miller / Jalen Griffith / Alton Hamilton IV / Cole Scherer,2026-11-09
+Sacramento State,1,9.1,9.12,0.994,0.99,Osiris Grady,Taj Glover / Mikey Williams / Osiris Grady / Giannis Asimakopoulos / Joao Das Chagas,2026-11-07
 Baylor,3,9.11,9.95,0.649,1.95,Kayden Mingo,Dylan Mingo / Isaac Williams IV / Brett Decker Jr. / Evan Chatman / Kayden Mingo,2026-11-10
 Georgia Tech,3,9.11,9.24,0.844,2.53,Colby Garland,Tylis Jordan / Colby Garland / Nasir Whitlock / Jackson Fields / Kam Craft,2026-11-10
 Northern Illinois,3,9.12,9.64,0.856,2.68,Max Weisbrod,Max Weisbrod / David Douglas Jr. / Bennett Basich / Trevor Polite / Nino Carter-Smith,2026-11-07
@@ -308,31 +308,30 @@ Lehigh,2,9.37,10.07,0.836,1.67,Joshua Ingram,Edouard Benoit / Joshua Ingram / Ha
 Monmouth,2,9.38,9.24,0.852,1.7,Stefanos Spartalis,Madison Durr / Stefanos Spartalis / Ashton Walker / Jinup Dobuol / Jack Collins,2026-11-07
 Houston Christian,2,9.38,9.35,0.977,1.95,Max Alexander,Chris Mubiru / Esyah Pippa-White / Mambourou Mara / Bubz Alvarez / Max Alexander,2026-11-10
 Marshall,3,9.41,9.27,0.846,2.54,Noah Otshudi,Emmanuel Manyuon / Bryce Slay / Noah Otshudi / Khaman Maker / Colt Langdon,2026-11-09
-UT Martin,3,9.42,9.5,0.937,3.04,Kaan Onat,Kaan Onat / Davi Remagen / Sasha Savkov / Ousseynou Sambe / Nikola Janicic,2026-11-10
 Marquette,2,9.42,11.4,0.562,1.12,Sananda Fru,Damarius Owens / Sananda Fru / Nigel James Jr. / Royce Parham / Michael Phillips II,2026-11-06
+UT Martin,3,9.42,9.5,0.937,3.04,Kaan Onat,Kaan Onat / Davi Remagen / Sasha Savkov / Ousseynou Sambe / Nikola Janicic,2026-11-10
 Coppin State,2,9.43,9.94,0.688,1.38,Brendan Johnson,Brendan Johnson / Tafara Gapare / Baasil Saunders / Camaren Sparrow / Malik Shackleford,2026-11-06
 Central Michigan,2,9.44,9.39,0.95,1.9,Phat Phat Brooks,Jalen Kampen / Keenan Garner / Phat Phat Brooks / Conrad Luczynski / Jaxson Whitaker,2026-11-10
 Portland State,1,9.46,9.7,0.84,0.84,Yaroslav Nikonov,Jaquay Randolph / Dennis Johnson III / Luke Kearney / Gantas Krianauskas / Yaroslav Nikonov,2026-11-07
 Murray State,3,9.47,10.18,0.762,2.29,Roman Domon,Brigham Rogers / Roman Domon / Brayden Shorter / Christian Jones / Lachlan Crate,2026-11-10
-Nicholls,1,9.47,9.42,0.984,0.98,AJ Dent,Doyel Cockrill III / Christian Winborne / AJ Dent / Hunter Carter / Jared Taylor,2026-11-06
 Maine,4,9.49,9.61,0.927,3.71,DeAndre Williams,DeAndre Williams / Killian Gribben / Ace Flagg / Yanis Bamba / Villiam Garcia Adsten,2026-11-10
 Michigan State,3,9.5,10.36,0.715,2.15,Jeremy Fears Jr.,Jeremy Fears Jr. / Jasiah Jervis / Jordan Scott / Coen Carr / Anton Bonke,2026-11-10
-Loyola Chicago,2,9.51,9.8,0.83,1.66,Dayan Nessah,Jason Schofield / Chris Jeffrey / Jayden Dawson / Guillaume Grotzinger / Xavier Amos,2026-11-05
 Xavier,2,9.51,10.68,0.714,1.43,Tru Washington,Mike Nwoko / Jovan Milicevic / Filip Borovicanin / Tru Washington / Ruben Dominguez,2026-11-10
+Loyola Chicago,2,9.51,9.8,0.83,1.66,Dayan Nessah,Jason Schofield / Chris Jeffrey / Jayden Dawson / Guillaume Grotzinger / Xavier Amos,2026-11-05
 Temple,2,9.53,9.91,0.76,1.52,Baboucarr Njie,Gavin Griffiths / Baboucarr Njie / Cam Scott / Derrian Ford / Dallis Dillard,2026-11-08
-Creighton,3,9.54,9.87,0.756,2.27,Wes Enis,Wes Enis / BJ Davis / Hudson Greer / Jackson McAndrew / Katrelle Harmon,2026-11-10
 North Dakota State,3,9.54,10.17,0.845,2.54,Rob Diaz III,Rob Diaz III / Andrew Nagy / Melvin Bell Jr. / Max Iversen / Carson Smith,2026-11-08
+Creighton,3,9.54,9.87,0.756,2.27,Wes Enis,Wes Enis / BJ Davis / Hudson Greer / Jackson McAndrew / Katrelle Harmon,2026-11-10
 Cornell,2,9.56,9.55,0.991,1.98,Anthony Nimani,Anthony Nimani / Kaspar Sepp / Quinn Gibson / Jacob Beccles / Mikehi Williams,2026-11-05
-Seton Hall,3,9.6,10.55,0.908,2.72,Elijah Fisher,Elijah Fisher / Roddie Anderson / Simeon Wilcher / Trey Parker / Terry Copeland Jr.,2026-11-09
 Arkansas State,3,9.6,10.27,0.866,2.6,Layne Taylor,Layne Taylor / Amadou Doumbia / Delang Muon / Tameron Ferguson / Aaron McGee,2026-11-10
+Seton Hall,3,9.6,10.55,0.908,2.72,Elijah Fisher,Elijah Fisher / Roddie Anderson / Simeon Wilcher / Trey Parker / Terry Copeland Jr.,2026-11-09
 North Alabama,2,9.61,9.65,0.935,1.87,Mike Evbagharu,Mike Evbagharu / Quan Lax / Jacobe Whitted / Damarien Yates / Drey Carter,2026-11-09
-Wyoming,2,9.62,10.17,0.721,1.44,Nasir Meyer,Renars Sondors / Nasir Meyer / Parker Gerrits / Khaden Bennett / Mike Mora,2026-11-10
 Cal Poly,1,9.62,9.87,0.719,0.72,Hamad Mousa,Hamad Mousa / Austin Goode / Braden Freeman / Guzman Vasilic / Jess Esso Essis,2026-11-05
+Wyoming,2,9.62,10.17,0.721,1.44,Nasir Meyer,Renars Sondors / Nasir Meyer / Parker Gerrits / Khaden Bennett / Mike Mora,2026-11-10
 Southeast Missouri State,2,9.64,9.62,0.975,1.95,Marqueas Bell,PJ Farmer / Marqueas Bell / Drew Cooper / Alonzo Clawson-Smith / Fontaine Williams Jr.,2026-11-08
 North Carolina A&T,1,9.64,9.65,0.956,0.96,Danny Delgardo III,Will Felton / Ponce James / Brandon Ivery / Saxton Simley / Danny Delgardo III,2026-11-07
 SMU,3,9.69,10.46,0.765,2.29,Oziyah Sellers,Rowan Brumbaugh / Oziyah Sellers / Jermaine O'Neal Jr. / Jaden Toombs / Jakub Szumert,2026-11-10
-George Washington,3,9.72,10.02,0.761,2.28,Dylan James,Jean Aranguren / Lovro Urbiha / Felix Kossaras / Dylan James / Andrija Vukovic,2026-11-10
 High Point,3,9.72,10.03,0.869,2.61,Cam'Ron Fletcher,CJ Brown / Frankquon Sherman / Isaac Garrett / Cam'Ron Fletcher / Braden Hausen,2026-11-07
+George Washington,3,9.72,10.02,0.761,2.28,Dylan James,Jean Aranguren / Lovro Urbiha / Felix Kossaras / Dylan James / Andrija Vukovic,2026-11-10
 La Salle,3,9.73,9.99,0.839,2.52,Jaden Johnson,Noah Collier / Jaden Johnson / Kam Burton / Anthony Finkley / Devin Booker,2026-11-10
 Milwaukee,2,9.73,10.41,0.661,1.32,Danilo Jovanovich,Tre Norman / Nate Malosa / Danilo Jovanovich / Amare Hereford / Aaron Womack III,2026-11-04
 Auburn,2,9.74,9.89,0.786,1.57,Thomas Dowd,Adam Olsen / George Kimble III / Kevin Overton / Thomas Dowd / Bukky Oboye,2026-11-09
@@ -340,10 +339,11 @@ Coastal Carolina,3,9.75,10.45,0.783,2.35,Trey Perry,Tristan Thompson / Trey Perr
 Mississippi State,3,9.77,10.72,0.664,1.99,Josh Hubbard,Josh Hubbard / Thomas Bassong / Kimani Hamilton / Jalyn Collingwood / Tajuan Simpkins,2026-11-09
 Rice,2,9.8,10.54,0.847,1.69,Jaxson Thompson,Eternity Eguagie / Jimmy Oladokun Jr. / Carmelo Adkins / Jacob Dar / Jaxson Thompson,2026-11-09
 Charlotte,3,9.85,9.84,0.991,2.97,Keyshuan Tillery,Keyshuan Tillery / Frank Oguche / Dorian Finister / Michael Walz / Miguel Allen,2026-11-09
-UCF,3,9.89,9.86,0.96,3.0,Dior Johnson,Arturo Dean / Dior Johnson / Lewis Walker / Carmelo Pacheco / Isaiah Malone,2026-11-10
 Southern Indiana,2,9.89,9.73,0.938,1.99,Kaden Brown,Donovan Hunter / Josiah Dunham / Kaden Brown / Afan Trnka / Yuto Yamanouchi-Williams,2026-11-07
-Kennesaw State,2,9.92,9.91,0.992,1.98,Avery Thomas II,Kyler Theophile / Avery Thomas II / Kris Parker / Levi Ball / Anthony Enoh,2026-11-10
+Nicholls,2,9.89,9.79,0.95,1.9,AJ Dent,Christian Winborne / Doyel Cockrill III / AJ Dent / Sheridan Sharp / Arop Arop,2026-11-10
+UCF,3,9.89,9.86,0.96,3.0,Dior Johnson,Arturo Dean / Dior Johnson / Lewis Walker / Carmelo Pacheco / Isaiah Malone,2026-11-10
 Bethune-Cookman,3,9.92,10.1,0.916,2.75,Vuk Boskovic,Quentin Heady / Jaylen Jones / Connor Teasley / Kevin Patton Jr. / Jameel Morris,2026-11-07
+Kennesaw State,2,9.92,9.91,0.992,1.98,Avery Thomas II,Kyler Theophile / Avery Thomas II / Kris Parker / Levi Ball / Anthony Enoh,2026-11-10
 Dartmouth,2,9.96,9.95,0.998,2.14,Cameron McNamee,Cameron McNamee / Landon Williams / Anton Strelnikov / Ben Brown / Cam Hiatt,2026-11-08
 UTSA,2,10.02,10.17,0.904,1.81,KJ Tenner,Preston Turner / KJ Tenner / Josiah LeGree / Demari Williams / Shey Eberwein,2026-11-07
 Oklahoma State,2,10.03,11.52,0.488,0.98,Kashie Natt,Jordan Burks / Latrell Allmond / Jacob Walker / Ryan Crotty / Kashie Natt,2026-11-06
