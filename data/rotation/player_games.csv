@@ -11497,7 +11497,7 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374788,2026-11-09,Missouri,SIU Edwardsville,5505,Trent Burns,7.82,7.19,3.03
 374788,2026-11-09,Missouri,SIU Edwardsville,3719,Cord Stansberry,6.2,2.92,0.0
 374788,2026-11-09,Missouri,SIU Edwardsville,6240,Luke Northweather,1.55,1.55,0.0
-374788,2026-11-09,Missouri,SIU Edwardsville,5495,Mark Mitchell,0.88,0.88,0.0
+374788,2026-11-09,Missouri,SIU Edwardsville,5495,Mark Mitchell Jr.,0.88,0.88,0.0
 374788,2026-11-09,Missouri,SIU Edwardsville,200625,Nicholas Randall,3.48,0.81,0.81
 374788,2026-11-09,Missouri,SIU Edwardsville,200627,Aaron Rowe,6.25,0.0,0.0
 374788,2026-11-09,Missouri,SIU Edwardsville,1572,Jordan Crawford,3.78,0.0,0.0
@@ -11616,7 +11616,7 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374792,2026-11-09,Stanford,Rice,232569,Drew Anderson,3.75,0.74,0.6
 374793,2026-11-09,Charlotte,Seton Hall,198666,Keyshuan Tillery,34.12,33.79,7.65
 374793,2026-11-09,Charlotte,Seton Hall,7044,Dorian Finister,26.27,26.21,3.42
-374793,2026-11-09,Charlotte,Seton Hall,8139,Mike Walz,25.63,25.41,7.38
+374793,2026-11-09,Charlotte,Seton Hall,8139,Michael Walz,25.63,25.41,7.38
 374793,2026-11-09,Charlotte,Seton Hall,229030,Miguel Allen,22.62,22.49,5.54
 374793,2026-11-09,Charlotte,Seton Hall,13595,Chaze Harris,17.97,17.7,4.26
 374793,2026-11-09,Charlotte,Seton Hall,198663,Jordi Rodriguez-Stegemeijer,15.6,15.6,0.0
@@ -12250,3 +12250,1355 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 377986,2026-11-09,Portland,Hawai'i,201471,Dante Censori-Hercules,17.82,17.46,2.32
 377986,2026-11-09,Portland,Hawai'i,202399,Kaia Isaac,12.08,11.92,1.9
 377986,2026-11-09,Portland,Hawai'i,5573,RJ Nance Jr.,11.17,11.16,0.58
+372742,2026-11-10,Illinois,Texas Tech,7384,Andrej Stojakovic,32.78,32.41,7.62
+372742,2026-11-10,Illinois,Texas Tech,5640,Tomislav Ivisic,29.76,29.61,6.36
+372742,2026-11-10,Illinois,Texas Tech,224738,Quentin Coleman,28.94,28.57,6.59
+372742,2026-11-10,Illinois,Texas Tech,224737,Ethan Brown,24.28,24.13,2.87
+372742,2026-11-10,Illinois,Texas Tech,224749,Lincoln Williams,23.71,23.52,6.74
+372742,2026-11-10,Illinois,Texas Tech,201556,Stefan Vaaks,22.41,22.27,4.54
+372742,2026-11-10,Illinois,Texas Tech,224750,Zavier Zens,20.64,20.42,3.16
+372742,2026-11-10,Illinois,Texas Tech,7820,Zvonimir Ivisic,11.32,11.18,1.03
+372742,2026-11-10,Illinois,Texas Tech,234234,Lucas Morillo,5.42,5.28,0.0
+372742,2026-11-10,Illinois,Texas Tech,5651,Jason Jakstys,0.75,0.75,0.0
+372742,2026-11-10,Texas Tech,Illinois,984,Cruz Davis,38.17,37.8,7.78
+372742,2026-11-10,Texas Tech,Illinois,2239,Donovan Atwell,34.98,34.61,7.78
+372742,2026-11-10,Texas Tech,Illinois,7582,Darrion Williams,28.82,28.45,7.78
+372742,2026-11-10,Texas Tech,Illinois,3014,Jamichael Stillwell,25.87,25.52,7.78
+372742,2026-11-10,Texas Tech,Illinois,5650,Dra Gibbs-Lawhorn,21.5,21.35,1.95
+372742,2026-11-10,Texas Tech,Illinois,356,Damarion Dennis,19.68,19.46,5.83
+372742,2026-11-10,Texas Tech,Illinois,232879,Bassala Bagayoko,12.78,12.77,0.0
+372742,2026-11-10,Texas Tech,Illinois,5359,Josiah Moseley,12.53,12.53,0.0
+372742,2026-11-10,Texas Tech,Illinois,232887,DaKari Spear,5.67,5.67,0.0
+372743,2026-11-10,North Carolina,Wyoming,3062,Terrence Brown,31.28,28.5,3.91
+372743,2026-11-10,North Carolina,Wyoming,83,Jarin Stevenson,29.38,28.29,4.0
+372743,2026-11-10,North Carolina,Wyoming,225973,Sayon Keita,27.28,25.14,1.32
+372743,2026-11-10,North Carolina,Wyoming,200773,Matt Able,25.37,22.26,1.92
+372743,2026-11-10,North Carolina,Wyoming,225965,Maximo Adams,24.7,21.46,5.32
+372743,2026-11-10,North Carolina,Wyoming,200977,Isaiah Denis,19.72,19.13,4.15
+372743,2026-11-10,North Carolina,Wyoming,203203,Neo Avdalas,20.75,17.64,1.92
+372743,2026-11-10,North Carolina,Wyoming,5706,Jaydon Young,11.2,11.07,3.4
+372743,2026-11-10,North Carolina,Wyoming,225974,Alex Samodurov,8.07,8.07,0.67
+372743,2026-11-10,North Carolina,Wyoming,4042,Angelo Brizzi,2.25,2.25,0.0
+372743,2026-11-10,Wyoming,North Carolina,203502,Nasir Meyer,29.3,26.51,4.58
+372743,2026-11-10,Wyoming,North Carolina,4814,Khaden Bennett,27.78,24.67,3.16
+372743,2026-11-10,Wyoming,North Carolina,16270,Mike Mora,22.8,20.15,1.84
+372743,2026-11-10,Wyoming,North Carolina,203498,Gavin Gores,19.67,19.41,2.7
+372743,2026-11-10,Wyoming,North Carolina,203503,Uriyah Rojas,22.05,19.06,1.68
+372743,2026-11-10,Wyoming,North Carolina,5962,Renars Sondors,21.17,17.92,4.66
+372743,2026-11-10,Wyoming,North Carolina,7330,Parker Gerrits,17.95,17.7,3.65
+372743,2026-11-10,Wyoming,North Carolina,6809,Canin Jefferson,13.0,12.41,2.91
+372743,2026-11-10,Wyoming,North Carolina,233802,Madden Smiley,9.92,9.92,0.0
+372743,2026-11-10,Wyoming,North Carolina,233801,Linus Ruf,10.05,9.71,1.45
+372743,2026-11-10,Wyoming,North Carolina,203507,Neil Summers,6.32,6.32,0.0
+372744,2026-11-10,Army,New Haven,4779,Ryan Curry,27.65,27.13,6.32
+372744,2026-11-10,Army,New Haven,4782,Jacen Holloway,26.03,25.58,4.35
+372744,2026-11-10,Army,New Haven,4798,Kevin McCarthy,24.41,24.35,1.21
+372744,2026-11-10,Army,New Haven,4783,Tate Laczkowski,21.08,20.82,1.97
+372744,2026-11-10,Army,New Haven,198090,Dillon Watt,17.85,17.7,0.09
+372744,2026-11-10,Army,New Haven,198074,Dylan Benner,17.8,17.38,6.19
+372744,2026-11-10,Army,New Haven,228531,Parker Henderson,16.29,15.73,6.32
+372744,2026-11-10,Army,New Haven,4800,Jaden Ellis,11.88,11.86,0.11
+372744,2026-11-10,Army,New Haven,228537,Patrick McDonough,12.0,11.43,6.32
+372744,2026-11-10,Army,New Haven,4787,Nnaemeka Ikechi,10.96,10.96,0.0
+372744,2026-11-10,Army,New Haven,228527,Deke Cooper Jr.,8.19,7.8,5.05
+372744,2026-11-10,Army,New Haven,198080,Jahaan Green,4.02,4.02,0.0
+372744,2026-11-10,Army,New Haven,4788,Dylan Murans,1.85,1.85,0.0
+372744,2026-11-10,New Haven,Army,200855,Teshaun Steele,34.52,33.86,7.59
+372744,2026-11-10,New Haven,Army,200840,Tristan Burth,30.65,30.15,7.41
+372744,2026-11-10,New Haven,Army,5606,Danny Young Jr.,27.48,26.95,7.59
+372744,2026-11-10,New Haven,Army,200856,Zoumana Traore,22.68,22.49,3.91
+372744,2026-11-10,New Haven,Army,231220,Faquir Mosley,20.85,20.32,5.22
+372744,2026-11-10,New Haven,Army,231228,Tim Walker,15.27,15.04,2.54
+372744,2026-11-10,New Haven,Army,200850,Aidan Losiewicz,14.42,14.27,0.0
+372744,2026-11-10,New Haven,Army,231224,Andy Ramirez,13.03,12.67,3.67
+372744,2026-11-10,New Haven,Army,231210,Brad Ballinger,9.77,9.62,0.0
+372744,2026-11-10,New Haven,Army,231214,Moussa Camara,8.48,8.38,0.0
+372744,2026-11-10,New Haven,Army,4770,Kheni Briggs,2.85,2.85,0.0
+372745,2026-11-10,Northern Kentucky,Saint Louis,202018,B.J. Davis-Ray,34.47,17.9,6.21
+372745,2026-11-10,Northern Kentucky,Saint Louis,231498,Willie Foster,20.08,13.97,5.13
+372745,2026-11-10,Northern Kentucky,Saint Louis,3560,Eric Acker,22.23,12.1,3.53
+372745,2026-11-10,Northern Kentucky,Saint Louis,201138,Ryan Tolliver,22.63,11.39,6.09
+372745,2026-11-10,Northern Kentucky,Saint Louis,1469,Will Shortt,19.1,10.45,5.5
+372745,2026-11-10,Northern Kentucky,Saint Louis,199104,Noah Pagotto,18.22,8.35,1.12
+372745,2026-11-10,Northern Kentucky,Saint Louis,231499,Gabrielius Jokubauskas,15.9,7.52,2.36
+372745,2026-11-10,Northern Kentucky,Saint Louis,3099,Donovan Rakotonanahary,14.43,6.6,3.05
+372745,2026-11-10,Northern Kentucky,Saint Louis,211515,Juanma Ruiz,13.78,3.61,0.78
+372745,2026-11-10,Northern Kentucky,Saint Louis,201127,JJ Apathjang,15.7,3.55,3.19
+372745,2026-11-10,Northern Kentucky,Saint Louis,3095,Bryce Darbyshire,3.45,0.0,0.0
+372745,2026-11-10,Saint Louis,Northern Kentucky,4071,Trey Green,25.93,15.65,6.79
+372745,2026-11-10,Saint Louis,Northern Kentucky,8195,Ishan Sharma,21.95,14.99,7.39
+372745,2026-11-10,Saint Louis,Northern Kentucky,2583,Quentin Jones,23.53,13.26,3.9
+372745,2026-11-10,Saint Louis,Northern Kentucky,818,Amari McCottry,20.83,12.22,5.68
+372745,2026-11-10,Saint Louis,Northern Kentucky,809,Kellen Thames,16.4,9.23,4.43
+372745,2026-11-10,Saint Louis,Northern Kentucky,198737,Alon Michaeli,12.78,8.72,2.18
+372745,2026-11-10,Saint Louis,Northern Kentucky,201786,Jax Kerr,11.75,8.3,3.5
+372745,2026-11-10,Saint Louis,Northern Kentucky,201784,Cam Hutson,9.82,5.94,0.78
+372745,2026-11-10,Saint Louis,Northern Kentucky,201787,Luke Laczkowski,10.25,5.07,0.6
+372745,2026-11-10,Saint Louis,Northern Kentucky,200325,Sheek Pearson,11.02,2.07,1.71
+372745,2026-11-10,Saint Louis,Northern Kentucky,201781,Badara Diakite,8.03,0.0,0.0
+372745,2026-11-10,Saint Louis,Northern Kentucky,5737,Elijah Strong,8.6,0.0,0.0
+372745,2026-11-10,Saint Louis,Northern Kentucky,232146,Jamison White,5.45,0.0,0.0
+372745,2026-11-10,Saint Louis,Northern Kentucky,232145,Jermel Thomas,5.45,0.0,0.0
+372745,2026-11-10,Saint Louis,Northern Kentucky,232131,Yousaf Ahmad,5.45,0.0,0.0
+372745,2026-11-10,Saint Louis,Northern Kentucky,819,Isaac Holmes,2.75,0.0,0.0
+372746,2026-11-10,Elon,George Washington,200234,Josh Dalton,31.4,27.09,5.47
+372746,2026-11-10,Elon,George Washington,198617,Raúl Villar,27.35,24.49,4.45
+372746,2026-11-10,Elon,George Washington,2960,Bryson Cokley,24.02,21.15,4.12
+372746,2026-11-10,Elon,George Washington,3094,Randall Pettus II,24.95,21.07,5.1
+372746,2026-11-10,Elon,George Washington,4898,Hunter Harding,18.13,15.21,4.04
+372746,2026-11-10,Elon,George Washington,1935,Isaiah Mbeng,20.97,14.83,3.42
+372746,2026-11-10,Elon,George Washington,4501,Iker Garmendia,14.18,12.8,2.45
+372746,2026-11-10,Elon,George Washington,2436,Cam Thrower,12.3,12.3,2.37
+372746,2026-11-10,Elon,George Washington,229531,Korbin Dixon,13.35,11.22,1.02
+372746,2026-11-10,Elon,George Washington,229543,Caleb Zhu,9.68,7.55,0.0
+372746,2026-11-10,Elon,George Washington,229537,Dacen Petty,3.67,0.09,0.0
+372746,2026-11-10,George Washington,Elon,29,Dylan James,27.4,23.24,2.89
+372746,2026-11-10,George Washington,Elon,229787,Lovro Urbiha,25.43,20.49,3.82
+372746,2026-11-10,George Washington,Elon,201467,Omari Witherspoon,24.53,20.33,1.67
+372746,2026-11-10,George Washington,Elon,983,Jean Aranguren,22.85,19.91,3.19
+372746,2026-11-10,George Washington,Elon,6708,Felix Kossaras,23.12,19.11,1.7
+372746,2026-11-10,George Washington,Elon,229782,Promis N'Landu,19.3,15.79,3.29
+372746,2026-11-10,George Washington,Elon,118,Terrance Arceneaux,15.43,14.05,4.81
+372746,2026-11-10,George Washington,Elon,5348,Andrew Phillips,12.83,11.25,4.78
+372746,2026-11-10,George Washington,Elon,201199,Ryder Frost,12.2,10.7,2.66
+372746,2026-11-10,George Washington,Elon,6682,Andrija Vukovic,10.67,9.58,3.6
+372746,2026-11-10,George Washington,Elon,199372,Jalen Rougier-Roane,4.18,3.33,0.0
+372746,2026-11-10,George Washington,Elon,2445,Malachi Arrington,1.2,0.0,0.0
+372746,2026-11-10,George Washington,Elon,229784,Jayvon Rampersant,0.85,0.0,0.0
+372747,2026-11-10,Fordham,Iona,202279,Lateef Patrick Jr.,31.08,30.89,6.95
+372747,2026-11-10,Fordham,Iona,4769,Amir Lindsey,28.37,28.3,4.61
+372747,2026-11-10,Fordham,Iona,7229,Rikus Schulte,24.92,24.72,6.27
+372747,2026-11-10,Fordham,Iona,9388,Akira Jacobs,24.02,23.87,4.18
+372747,2026-11-10,Fordham,Iona,199263,Roor Akhuar,20.9,20.84,3.79
+372747,2026-11-10,Fordham,Iona,7235,Abass Bodija,18.87,18.72,6.52
+372747,2026-11-10,Fordham,Iona,229689,Hassan Koureissi,17.35,17.2,4.35
+372747,2026-11-10,Fordham,Iona,7231,Jack Whitbourn,15.6,15.59,1.52
+372747,2026-11-10,Fordham,Iona,202324,Kelvin Odih,15.37,15.31,0.76
+372747,2026-11-10,Fordham,Iona,229684,Desmond Bellot Jr.,3.53,3.53,0.0
+372747,2026-11-10,Iona,Fordham,1225,Kevon Vanderhorst,36.4,36.19,7.79
+372747,2026-11-10,Iona,Fordham,837,Kosy Akametu,30.73,30.54,7.12
+372747,2026-11-10,Iona,Fordham,4703,Keyshawn Mitchell,29.28,29.08,6.79
+372747,2026-11-10,Iona,Fordham,199760,Ore Odutayo,26.13,25.96,6.89
+372747,2026-11-10,Iona,Fordham,1430,Sadiku Ibine Ayo,22.32,22.32,1.18
+372747,2026-11-10,Iona,Fordham,199583,Aiden Disu,12.73,12.73,0.0
+372747,2026-11-10,Iona,Fordham,199754,Alliou Fall,12.73,12.73,1.73
+372747,2026-11-10,Iona,Fordham,3371,Luke Jungers,11.88,11.84,0.66
+372747,2026-11-10,Iona,Fordham,199668,Martin Kheil,11.0,10.79,6.06
+372747,2026-11-10,Iona,Fordham,224821,Oliver Sassella,6.78,6.78,0.73
+372748,2026-11-10,Dayton,Siena,200336,Landen Joseph,33.85,33.82,5.07
+372748,2026-11-10,Dayton,Siena,4810,Grant Randall,33.97,33.42,7.77
+372748,2026-11-10,Dayton,Siena,229275,Aiden Derkack,33.4,32.94,7.77
+372748,2026-11-10,Dayton,Siena,200738,Tristian Ford,30.65,30.1,7.77
+372748,2026-11-10,Dayton,Siena,2924,Amal L'Etang,19.25,18.7,3.9
+372748,2026-11-10,Dayton,Siena,2952,Jalen Haynes,15.42,15.42,1.87
+372748,2026-11-10,Dayton,Siena,570,Travis Perry,13.88,13.39,0.8
+372748,2026-11-10,Dayton,Siena,2925,Jaiun Simon,12.08,12.08,2.0
+372748,2026-11-10,Dayton,Siena,198861,Damon Friery,6.82,6.71,1.9
+372748,2026-11-10,Dayton,Siena,5364,Malcolm Thomas,0.68,0.68,0.0
+372748,2026-11-10,Siena,Dayton,226909,Pace Prosser,39.6,39.05,7.77
+372748,2026-11-10,Siena,Dayton,226906,Tim Ibukunoluwa,35.88,35.34,7.77
+372748,2026-11-10,Siena,Dayton,2739,Brendan Coyle,32.45,31.9,6.72
+372748,2026-11-10,Siena,Dayton,2743,Reid Ducharme,29.82,29.82,2.4
+372748,2026-11-10,Siena,Dayton,226904,Trent Egbiremolen,27.55,27.0,7.77
+372748,2026-11-10,Siena,Dayton,1167,Tan Yildizoglu,26.32,25.77,6.42
+372748,2026-11-10,Siena,Dayton,226903,Parrish Edmond Jr.,4.27,4.27,0.0
+372748,2026-11-10,Siena,Dayton,226899,Andres Amon,4.12,4.12,0.0
+372749,2026-11-10,Central Michigan,Youngstown State,5615,Phat Phat Brooks,32.68,29.33,4.86
+372749,2026-11-10,Central Michigan,Youngstown State,198567,Jaxson Whitaker,25.9,25.55,4.17
+372749,2026-11-10,Central Michigan,Youngstown State,198562,Jalen Kampen,26.88,23.0,6.48
+372749,2026-11-10,Central Michigan,Youngstown State,624,Keenan Garner,25.53,21.65,7.02
+372749,2026-11-10,Central Michigan,Youngstown State,223690,Brock Mendoza,22.12,20.2,2.17
+372749,2026-11-10,Central Michigan,Youngstown State,223684,Jake Bascom,17.2,15.39,1.31
+372749,2026-11-10,Central Michigan,Youngstown State,1834,Jayson Petty,18.22,14.81,1.72
+372749,2026-11-10,Central Michigan,Youngstown State,19565,Conrad Luczynski,11.02,10.75,3.54
+372749,2026-11-10,Central Michigan,Youngstown State,223687,Jayden Hackett,9.28,8.95,1.67
+372749,2026-11-10,Central Michigan,Youngstown State,198555,Uchenna Amene,7.32,6.68,2.16
+372749,2026-11-10,Central Michigan,Youngstown State,198553,Kareem Aburashed,3.85,3.74,0.0
+372749,2026-11-10,Youngstown State,Central Michigan,203556,Jaiden Haynes,35.8,33.27,5.88
+372749,2026-11-10,Youngstown State,Central Michigan,1172,Linus Holmstrom,28.97,28.16,5.18
+372749,2026-11-10,Youngstown State,Central Michigan,6248,Jeff Nwankwo,27.98,26.46,4.03
+372749,2026-11-10,Youngstown State,Central Michigan,198990,Dom Aekins,27.57,25.74,1.86
+372749,2026-11-10,Youngstown State,Central Michigan,233838,Kelvin Amoako,25.95,23.77,4.04
+372749,2026-11-10,Youngstown State,Central Michigan,201914,Japhet Moupadele,14.05,12.24,2.98
+372749,2026-11-10,Youngstown State,Central Michigan,203478,Jayden Tyler,13.35,10.95,5.16
+372749,2026-11-10,Youngstown State,Central Michigan,6292,Jermaine Coleman,12.02,9.55,2.99
+372749,2026-11-10,Youngstown State,Central Michigan,3717,Jamar Livingston,9.12,5.89,2.98
+372749,2026-11-10,Youngstown State,Central Michigan,233840,Kaelen Destin,5.2,4.02,0.0
+372751,2026-11-10,Iowa State,Southern,144,Tamin Lipsey,30.07,18.11,5.35
+372751,2026-11-10,Iowa State,Southern,3305,Ryan Prather Jr.,26.0,17.22,4.38
+372751,2026-11-10,Iowa State,Southern,199779,Jamarion Batemon,25.5,15.64,2.92
+372751,2026-11-10,Iowa State,Southern,199789,Dominykas Pleta,18.65,13.52,3.13
+372751,2026-11-10,Iowa State,Southern,8189,Blake Buchanan,24.2,13.48,3.75
+372751,2026-11-10,Iowa State,Southern,201177,Tre Singleton,21.42,12.69,2.58
+372751,2026-11-10,Iowa State,Southern,7615,Taj Manning,18.27,10.46,2.9
+372751,2026-11-10,Iowa State,Southern,4628,Jaquan Johnson,14.32,5.62,1.53
+372751,2026-11-10,Iowa State,Southern,199785,Xzavion Mitchell,10.53,3.3,0.0
+372751,2026-11-10,Iowa State,Southern,5326,Leon Bond III,4.38,2.7,1.92
+372751,2026-11-10,Iowa State,Southern,224842,Yusef Gray Jr.,2.63,0.0,0.0
+372751,2026-11-10,Iowa State,Southern,224849,Dorian Rinaldo-Komlan,2.63,0.0,0.0
+372751,2026-11-10,Iowa State,Southern,199790,Anthony Rise,1.4,0.0,0.0
+372751,2026-11-10,Southern,Iowa State,197919,R'Chaun King,20.72,14.4,2.58
+372751,2026-11-10,Southern,Iowa State,2667,Malik Ferguson,23.32,13.8,3.25
+372751,2026-11-10,Southern,Iowa State,202397,Daniel Dormu,21.9,13.64,4.5
+372751,2026-11-10,Southern,Iowa State,232486,Aaron Hall,18.37,12.19,2.28
+372751,2026-11-10,Southern,Iowa State,198643,Lionel Larvadain,20.15,11.56,3.77
+372751,2026-11-10,Southern,Iowa State,6453,Cam Amboree,11.18,10.72,1.92
+372751,2026-11-10,Southern,Iowa State,232480,Armonii Benjamin,16.23,8.3,2.44
+372751,2026-11-10,Southern,Iowa State,1474,Justin Page,11.62,6.32,0.0
+372751,2026-11-10,Southern,Iowa State,7416,Ibrahim Olajuwon,12.27,6.12,1.92
+372751,2026-11-10,Southern,Iowa State,232487,Joseph Hunter,16.62,5.34,3.41
+372751,2026-11-10,Southern,Iowa State,232482,Karez Demory,14.07,3.25,1.19
+372751,2026-11-10,Southern,Iowa State,199401,Sean Van Dorn Jr.,2.8,2.8,0.0
+372751,2026-11-10,Southern,Iowa State,232485,Julian Greer,2.22,2.22,0.0
+372751,2026-11-10,Southern,Iowa State,6462,Lionel Bell,6.23,1.24,1.19
+372751,2026-11-10,Southern,Iowa State,8334,Noah Boyde,0.78,0.78,0.0
+372751,2026-11-10,Southern,Iowa State,232492,Duran Parish,1.53,0.05,0.0
+372752,2026-11-10,Colorado,San Diego,7228,Barrington Hargress,35.68,35.4,6.74
+372752,2026-11-10,Colorado,San Diego,223841,Alex Dickeson,33.17,32.88,7.87
+372752,2026-11-10,Colorado,San Diego,4363,Noah Feddersen,29.57,29.28,7.87
+372752,2026-11-10,Colorado,San Diego,198740,Josiah Sanders,29.22,28.93,6.32
+372752,2026-11-10,Colorado,San Diego,198732,Ian Inman,29.03,28.75,7.2
+372752,2026-11-10,Colorado,San Diego,198730,Jalin Holland,17.4,17.4,2.68
+372752,2026-11-10,Colorado,San Diego,4768,Justin Neely,15.5,15.5,0.67
+372752,2026-11-10,Colorado,San Diego,223850,Goc Malual,8.23,8.23,0.0
+372752,2026-11-10,Colorado,San Diego,198611,David Gomez,2.2,2.2,0.0
+372752,2026-11-10,San Diego,Colorado,181,Dusty Stromer,34.72,34.43,6.9
+372752,2026-11-10,San Diego,Colorado,2894,Marqui Worthy Jr.,30.13,30.11,7.09
+372752,2026-11-10,San Diego,Colorado,6476,Jevon Hill,29.62,29.54,6.02
+372752,2026-11-10,San Diego,Colorado,16118,Davion Hill,24.1,23.85,5.34
+372752,2026-11-10,San Diego,Colorado,13903,Jose Roberto Tanchyn,22.47,22.4,6.61
+372752,2026-11-10,San Diego,Colorado,5397,Sekou Konneh,17.53,17.32,1.26
+372752,2026-11-10,San Diego,Colorado,232214,Chace Holley,16.33,16.08,2.65
+372752,2026-11-10,San Diego,Colorado,5628,Terry McMorris,11.93,11.7,3.49
+372752,2026-11-10,San Diego,Colorado,232216,Brannon Martinsen,7.88,7.88,0.0
+372752,2026-11-10,San Diego,Colorado,199464,Antonio Munoz,5.28,5.28,0.0
+372753,2026-11-10,Baylor,Yale,201412,Kayden Mingo,28.42,23.28,3.15
+372753,2026-11-10,Baylor,Yale,223300,Dylan Mingo,24.63,20.93,7.13
+372753,2026-11-10,Baylor,Yale,352,Isaac Williams IV,26.8,20.72,5.11
+372753,2026-11-10,Baylor,Yale,1097,Brett Decker Jr.,22.25,19.19,6.0
+372753,2026-11-10,Baylor,Yale,7420,Caden Powell,20.32,19.14,3.8
+372753,2026-11-10,Baylor,Yale,4825,Isaac Celiscar,24.18,16.95,3.15
+372753,2026-11-10,Baylor,Yale,202675,Evan Chatman,15.08,13.91,3.98
+372753,2026-11-10,Baylor,Yale,223306,Elijah Williams,16.1,11.4,0.0
+372753,2026-11-10,Baylor,Yale,8116,Juslin Bodo Bodo,15.72,10.58,3.33
+372753,2026-11-10,Baylor,Yale,198152,Mayo Soyoye,3.97,1.87,0.0
+372753,2026-11-10,Baylor,Yale,198148,Drew Perry,1.27,0.0,0.0
+372753,2026-11-10,Baylor,Yale,198143,Andre Iguodala II,1.27,0.0,0.0
+372753,2026-11-10,Yale,Baylor,4828,Jordan Brathwaite,31.2,27.76,6.0
+372753,2026-11-10,Yale,Baylor,203545,Daniel Ogunyemi,30.48,24.6,6.58
+372753,2026-11-10,Yale,Baylor,4830,Trevor Mullin,29.42,23.74,3.61
+372753,2026-11-10,Yale,Baylor,4824,Riley Fox,29.5,23.52,6.02
+372753,2026-11-10,Yale,Baylor,203551,Courtney Wallace,26.05,21.46,7.13
+372753,2026-11-10,Yale,Baylor,203548,Jack Sullivan,23.0,16.31,0.55
+372753,2026-11-10,Yale,Baylor,233830,Jonas Oware,10.22,9.36,1.11
+372753,2026-11-10,Yale,Baylor,203543,Alvin Loving,9.37,5.87,4.65
+372753,2026-11-10,Yale,Baylor,233827,Connor May,4.62,4.62,0.0
+372753,2026-11-10,Yale,Baylor,233835,Brady Wooley,4.05,0.73,0.0
+372753,2026-11-10,Yale,Baylor,4829,Jeannot Basima,2.1,0.0,0.0
+372755,2026-11-10,Charleston Southern,Wake Forest,198600,Jacob Taylor,35.53,24.93,5.14
+372755,2026-11-10,Charleston Southern,Wake Forest,211644,Jefferson McLamb,31.03,21.16,4.14
+372755,2026-11-10,Charleston Southern,Wake Forest,223714,DJ Hubbard,30.28,20.16,5.28
+372755,2026-11-10,Charleston Southern,Wake Forest,223719,Anthony Ruffolo,19.53,18.43,3.93
+372755,2026-11-10,Charleston Southern,Wake Forest,223710,Jackson Crawford,25.17,16.18,5.35
+372755,2026-11-10,Charleston Southern,Wake Forest,3441,Lase Olalere,18.48,15.68,3.93
+372755,2026-11-10,Charleston Southern,Wake Forest,71107,Nicholas Errica,18.45,15.25,5.28
+372755,2026-11-10,Charleston Southern,Wake Forest,8294,Mathok Majok,21.52,13.35,3.35
+372755,2026-11-10,Wake Forest,Charleston Southern,62,Jamari McDowell,28.37,23.0,6.19
+372755,2026-11-10,Wake Forest,Charleston Southern,200461,Kevair Kennedy,30.67,22.56,5.32
+372755,2026-11-10,Wake Forest,Charleston Southern,233547,Gavin Placide,24.45,19.27,2.83
+372755,2026-11-10,Wake Forest,Charleston Southern,203255,Isaac Carr,23.25,15.93,3.43
+372755,2026-11-10,Wake Forest,Charleston Southern,2462,Justin Ray,16.38,15.87,6.9
+372755,2026-11-10,Wake Forest,Charleston Southern,203206,Antonio Dorn,13.4,12.6,4.6
+372755,2026-11-10,Wake Forest,Charleston Southern,233546,Gallagher Placide,19.23,11.81,2.48
+372755,2026-11-10,Wake Forest,Charleston Southern,199213,Xander Pintelon,17.32,8.78,2.68
+372755,2026-11-10,Wake Forest,Charleston Southern,233538,Lukas Bojovic,12.82,6.75,1.96
+372755,2026-11-10,Wake Forest,Charleston Southern,1843,Ring Nyeri,7.8,4.42,0.0
+372755,2026-11-10,Wake Forest,Charleston Southern,17256,Justin Abson,4.15,4.15,0.0
+372755,2026-11-10,Wake Forest,Charleston Southern,5777,Vincent Ricchiuti,2.17,0.0,0.0
+372756,2026-11-10,Duke,Michigan State,5418,John Blackwell,32.95,32.56,7.61
+372756,2026-11-10,Duke,Michigan State,216,Patrick Ngongba II,29.05,28.66,7.61
+372756,2026-11-10,Duke,Michigan State,198985,Dame Sarr,25.83,25.45,7.4
+372756,2026-11-10,Duke,Michigan State,208,Caleb Foster,23.92,23.56,4.85
+372756,2026-11-10,Duke,Michigan State,198978,Cayden Boozer,22.18,22.15,2.76
+372756,2026-11-10,Duke,Michigan State,224079,Joaquim Boumtje Boumtje,20.25,19.94,4.42
+372756,2026-11-10,Duke,Michigan State,198989,Sebastian Wilkins,18.98,18.93,1.98
+372756,2026-11-10,Duke,Michigan State,3845,Drew Scharnowski,15.0,14.97,1.2
+372756,2026-11-10,Duke,Michigan State,224085,Deron Rippey Jr.,11.83,11.83,0.21
+372756,2026-11-10,Michigan State,Duke,2474,Jeremy Fears Jr.,32.55,32.16,7.61
+372756,2026-11-10,Michigan State,Duke,200529,Jordan Scott,31.83,31.47,5.76
+372756,2026-11-10,Michigan State,Duke,225533,Jasiah Jervis,29.77,29.41,6.41
+372756,2026-11-10,Michigan State,Duke,200534,Cam Ward,21.47,21.36,3.96
+372756,2026-11-10,Michigan State,Duke,2486,Jesse McCulloch,21.15,20.82,5.06
+372756,2026-11-10,Michigan State,Duke,2477,Coen Carr,16.72,16.4,3.8
+372756,2026-11-10,Michigan State,Duke,3148,Anton Bonke,12.3,12.27,2.39
+372756,2026-11-10,Michigan State,Duke,225535,Carlos Medlock Jr.,10.1,10.07,1.22
+372756,2026-11-10,Michigan State,Duke,225537,Ethan Taylor,8.57,8.57,0.0
+372756,2026-11-10,Michigan State,Duke,2483,Kur Teng,7.97,7.97,0.0
+372756,2026-11-10,Michigan State,Duke,3926,Kaleb Glenn,7.58,7.55,1.85
+372757,2026-11-10,Boston College,Maryland Eastern Shore,6506,Money Williams,34.33,26.34,6.64
+372757,2026-11-10,Boston College,Maryland Eastern Shore,5455,Luke Hunger,30.35,21.7,3.99
+372757,2026-11-10,Boston College,Maryland Eastern Shore,3800,Colby Duggan,27.62,17.94,6.34
+372757,2026-11-10,Boston College,Maryland Eastern Shore,234538,Zak Smrekar,24.95,17.63,6.24
+372757,2026-11-10,Boston College,Maryland Eastern Shore,200467,Ernest Shelton,21.42,17.41,3.15
+372757,2026-11-10,Boston College,Maryland Eastern Shore,4083,Armoni Zeigler,30.2,17.37,3.8
+372757,2026-11-10,Boston College,Maryland Eastern Shore,199143,Brandon Benjamin,16.73,12.71,3.06
+372757,2026-11-10,Boston College,Maryland Eastern Shore,3976,JB Frankel,10.35,4.7,0.0
+372757,2026-11-10,Boston College,Maryland Eastern Shore,4583,Andrija Bukumirovic,3.72,0.0,0.0
+372757,2026-11-10,Boston College,Maryland Eastern Shore,1421,Jameson O'Toole,0.17,0.0,0.0
+372757,2026-11-10,Boston College,Maryland Eastern Shore,5748,Will Eggemeier,0.17,0.0,0.0
+372757,2026-11-10,Maryland Eastern Shore,Boston College,5632,Isaiah Griffin,32.82,26.78,6.61
+372757,2026-11-10,Maryland Eastern Shore,Boston College,230759,Bobby Gardner,31.8,23.98,3.92
+372757,2026-11-10,Maryland Eastern Shore,Boston College,6642,Saadiq Moore,28.37,17.74,6.24
+372757,2026-11-10,Maryland Eastern Shore,Boston College,1115,Lucius Gibson-Savadel,19.57,16.66,3.54
+372757,2026-11-10,Maryland Eastern Shore,Boston College,214608,Alvin Cole,25.33,14.94,4.41
+372757,2026-11-10,Maryland Eastern Shore,Boston College,200362,Levi Beckwith,21.67,11.92,2.23
+372757,2026-11-10,Maryland Eastern Shore,Boston College,230767,Souleymane Sylla,10.98,10.5,3.1
+372757,2026-11-10,Maryland Eastern Shore,Boston College,230758,Victor Ezeh,12.2,6.81,3.16
+372757,2026-11-10,Maryland Eastern Shore,Boston College,214311,Gerlouis Tokody,4.9,4.9,0.0
+372757,2026-11-10,Maryland Eastern Shore,Boston College,230757,Roman Cummings,1.57,1.57,0.0
+372757,2026-11-10,Maryland Eastern Shore,Boston College,629,Ebenezer Ogoh,9.45,0.0,0.0
+372757,2026-11-10,Maryland Eastern Shore,Boston College,1374,Israel Hall,1.35,0.0,0.0
+372758,2026-11-10,Detroit Mercy,Xavier,5605,Tyler Spratt,24.95,18.02,6.43
+372758,2026-11-10,Detroit Mercy,Xavier,20610,London Maiden,22.17,17.75,5.56
+372758,2026-11-10,Detroit Mercy,Xavier,198947,Lance Stone,18.88,13.21,2.17
+372758,2026-11-10,Detroit Mercy,Xavier,198939,Xavier Istomin-Monroe,23.85,13.08,1.71
+372758,2026-11-10,Detroit Mercy,Xavier,229352,Jordan Briggs,19.23,9.51,4.26
+372758,2026-11-10,Detroit Mercy,Xavier,198935,Ayden Carter,11.82,9.34,2.4
+372758,2026-11-10,Detroit Mercy,Xavier,229356,Greg Grays Jr.,20.68,9.25,4.03
+372758,2026-11-10,Detroit Mercy,Xavier,229355,Dante Favor,10.55,9.13,3.73
+372758,2026-11-10,Detroit Mercy,Xavier,9806,Elias Palsson,11.33,3.64,0.0
+372758,2026-11-10,Detroit Mercy,Xavier,198936,Je'kel Cotton,9.22,3.52,1.86
+372758,2026-11-10,Detroit Mercy,Xavier,229357,Chance Houser,6.72,3.1,0.0
+372758,2026-11-10,Detroit Mercy,Xavier,229360,James Martin,8.08,2.15,0.0
+372758,2026-11-10,Detroit Mercy,Xavier,229363,Vladyslav Semerych,3.5,1.9,0.0
+372758,2026-11-10,Detroit Mercy,Xavier,229351,Keaton Aldridge Jr.,6.73,0.0,0.0
+372758,2026-11-10,Detroit Mercy,Xavier,229361,Tyler Owens,2.28,0.0,0.0
+372758,2026-11-10,Xavier,Detroit Mercy,6437,Tru Washington,21.48,16.05,3.71
+372758,2026-11-10,Xavier,Detroit Mercy,202512,Ruben Dominguez,21.43,15.55,3.71
+372758,2026-11-10,Xavier,Detroit Mercy,6438,Jovan Milicevic,21.18,15.18,4.9
+372758,2026-11-10,Xavier,Detroit Mercy,6433,Filip Borovicanin,19.58,13.27,4.03
+372758,2026-11-10,Xavier,Detroit Mercy,4161,Mike Nwoko,18.05,12.58,4.56
+372758,2026-11-10,Xavier,Detroit Mercy,7533,Gabriel Pozzato,16.98,9.45,2.4
+372758,2026-11-10,Xavier,Detroit Mercy,1529,Nikos Chitikoudis,15.22,8.29,0.02
+372758,2026-11-10,Xavier,Detroit Mercy,750,Rolyns Aligbe,15.33,7.54,1.53
+372758,2026-11-10,Xavier,Detroit Mercy,3365,Chance Westry,17.18,7.18,2.72
+372758,2026-11-10,Xavier,Detroit Mercy,228274,Kalek House,15.78,6.68,2.72
+372758,2026-11-10,Xavier,Detroit Mercy,203534,Kason Westphal,6.17,1.86,1.86
+372758,2026-11-10,Xavier,Detroit Mercy,228273,Asher Elson,6.55,0.0,0.0
+372758,2026-11-10,Xavier,Detroit Mercy,228270,Gedeon Basson,2.28,0.0,0.0
+372758,2026-11-10,Xavier,Detroit Mercy,4073,Henry Thole,1.38,0.0,0.0
+372758,2026-11-10,Xavier,Detroit Mercy,4079,Michael Wolf,1.38,0.0,0.0
+372759,2026-11-10,Bryant,Providence,228755,Elijah Crispin,31.93,27.14,6.37
+372759,2026-11-10,Bryant,Providence,5182,Keegan Harvey,28.52,25.53,6.37
+372759,2026-11-10,Bryant,Providence,200854,Andre Pasha,30.27,23.64,6.37
+372759,2026-11-10,Bryant,Providence,202231,Onyx Nnani,27.17,23.47,4.26
+372759,2026-11-10,Bryant,Providence,2829,Duane Thompson,29.33,22.77,2.11
+372759,2026-11-10,Bryant,Providence,228753,Roi Behar,23.73,18.98,6.37
+372759,2026-11-10,Bryant,Providence,198328,Ty Tabales,16.87,16.83,0.0
+372759,2026-11-10,Bryant,Providence,228760,Connor Lyons,10.03,8.2,0.0
+372759,2026-11-10,Bryant,Providence,228759,Elijah Hayeems,2.15,0.32,0.0
+372759,2026-11-10,Providence,Bryant,8457,Miles Byrd,36.8,30.18,6.37
+372759,2026-11-10,Providence,Bryant,8174,Malik Mack,32.27,25.64,3.54
+372759,2026-11-10,Providence,Bryant,202228,Gavin Hightower,32.02,25.39,6.37
+372759,2026-11-10,Providence,Bryant,7362,Jacob Bannarbie,28.75,24.22,6.17
+372759,2026-11-10,Providence,Bryant,3929,Devin Vanterpool,23.68,22.72,5.08
+372759,2026-11-10,Providence,Bryant,231913,Clyde Walters,14.78,11.14,2.4
+372759,2026-11-10,Providence,Bryant,231908,Leonardo Marangon,10.78,10.78,1.2
+372759,2026-11-10,Providence,Bryant,8190,Elijah Saunders,11.88,9.79,0.2
+372759,2026-11-10,Providence,Bryant,231903,Javon Bardwell,5.57,3.55,0.52
+372759,2026-11-10,Providence,Bryant,2616,Ryan Sabol,3.47,3.47,0.0
+372760,2026-11-10,Delaware State,Georgetown,229316,Nehemiah Reedus,37.72,37.69,7.97
+372760,2026-11-10,Delaware State,Georgetown,229314,Joshua Obiora,37.22,37.19,7.97
+372760,2026-11-10,Delaware State,Georgetown,215863,Anthony Parker,30.45,30.42,7.75
+372760,2026-11-10,Delaware State,Georgetown,7859,Rahmir Moore,20.3,20.3,0.0
+372760,2026-11-10,Delaware State,Georgetown,2587,Nasir Muhammad,17.62,17.59,7.97
+372760,2026-11-10,Delaware State,Georgetown,229309,Gideon Ekukwai,15.4,15.4,3.57
+372760,2026-11-10,Delaware State,Georgetown,198888,Muazibini Adamu,15.13,15.13,4.17
+372760,2026-11-10,Delaware State,Georgetown,229320,Isaiah Sullivan,14.92,14.89,0.45
+372760,2026-11-10,Delaware State,Georgetown,198900,Jalen St Clair,9.33,9.33,0.0
+372760,2026-11-10,Delaware State,Georgetown,229313,Farouk Muntari,1.92,1.92,0.0
+372760,2026-11-10,Georgetown,Delaware State,3044,Jaland Lowe,38.48,38.45,7.97
+372760,2026-11-10,Georgetown,Delaware State,8180,Kayvaun Mulready,38.3,38.27,7.97
+372760,2026-11-10,Georgetown,Delaware State,1432,Vince Iwuchukwu,26.8,26.77,7.97
+372760,2026-11-10,Georgetown,Delaware State,8177,Caleb Williams,25.7,25.67,7.75
+372760,2026-11-10,Georgetown,Delaware State,63,Elmarko Jackson,24.85,24.82,7.97
+372760,2026-11-10,Georgetown,Delaware State,222947,Gabriel Landeira,15.13,15.13,0.0
+372760,2026-11-10,Georgetown,Delaware State,199212,Josiah Parker,14.3,14.3,0.22
+372760,2026-11-10,Georgetown,Delaware State,198579,Chol Machot,9.97,9.97,0.0
+372760,2026-11-10,Georgetown,Delaware State,8187,Mason Moses,3.23,3.23,0.0
+372760,2026-11-10,Georgetown,Delaware State,229759,Justin Caldwell,3.23,3.23,0.0
+372761,2026-11-10,Creighton,Kansas State,202225,Wes Enis,33.97,32.84,6.9
+372761,2026-11-10,Creighton,Kansas State,8456,BJ Davis,33.65,32.52,6.9
+372761,2026-11-10,Creighton,Kansas State,198817,Hudson Greer,24.73,23.61,6.9
+372761,2026-11-10,Creighton,Kansas State,3080,Austin Swartz,21.03,21.03,0.0
+372761,2026-11-10,Creighton,Kansas State,7804,Jasen Green,21.88,21.01,5.7
+372761,2026-11-10,Creighton,Kansas State,229231,Trevon Carter-Givens,19.0,18.75,1.2
+372761,2026-11-10,Creighton,Kansas State,3135,Oswin Erhunmwunse,13.37,13.37,0.0
+372761,2026-11-10,Creighton,Kansas State,229238,Katrelle Harmon,11.55,11.55,0.0
+372761,2026-11-10,Creighton,Kansas State,7810,Jackson McAndrew,9.95,9.95,0.0
+372761,2026-11-10,Creighton,Kansas State,717,Brody Robinson,10.87,9.74,6.9
+372761,2026-11-10,Kansas State,Creighton,7796,Isaiah Abraham,33.06,31.96,6.89
+372761,2026-11-10,Kansas State,Creighton,5704,Brandon Rechsteiner,32.03,30.91,6.89
+372761,2026-11-10,Kansas State,Creighton,5705,Jaden Schutt,30.35,29.22,6.89
+372761,2026-11-10,Kansas State,Creighton,200250,Matt Gilhool,22.83,22.57,2.29
+372761,2026-11-10,Kansas State,Creighton,7561,Brock Vice,17.95,17.92,3.67
+372761,2026-11-10,Kansas State,Creighton,198295,Montana Wheeler,15.3,14.17,3.11
+372761,2026-11-10,Kansas State,Creighton,200482,Timo Malovec,13.88,13.02,2.8
+372761,2026-11-10,Kansas State,Creighton,151,JT Rock,10.05,10.05,1.27
+372761,2026-11-10,Kansas State,Creighton,7248,Dez Lindsay,9.92,9.92,0.0
+372761,2026-11-10,Kansas State,Creighton,7363,Pape N'Diaye,9.33,9.33,0.65
+372761,2026-11-10,Kansas State,Creighton,230315,Jaylen Alexander,5.3,5.3,0.0
+372762,2026-11-10,Florida,Florida State,502,Thomas Haugh,34.17,33.66,7.61
+372762,2026-11-10,Florida,Florida State,496,Alex Condon,33.4,32.96,6.13
+372762,2026-11-10,Florida,Florida State,7822,Boogie Fland,32.55,32.04,7.61
+372762,2026-11-10,Florida,Florida State,497,Rueben Chinyelu,30.4,29.89,7.29
+372762,2026-11-10,Florida,Florida State,503,Denzel Aberdeen,27.03,26.55,3.5
+372762,2026-11-10,Florida,Florida State,507,Urban Klavzar,18.9,18.81,4.67
+372762,2026-11-10,Florida,Florida State,512,Isaiah Brown,12.43,12.43,1.23
+372762,2026-11-10,Florida,Florida State,224281,Domen Petrovic,11.12,11.12,0.0
+372762,2026-11-10,Florida State,Florida,5496,Anthony Robinson II,34.37,33.86,7.61
+372762,2026-11-10,Florida State,Florida,6706,Sebastian Rancik,33.58,33.07,7.61
+372762,2026-11-10,Florida State,Florida,73,Kam Taylor,32.8,32.41,5.94
+372762,2026-11-10,Florida State,Florida,198652,Shon Abaev,31.38,31.32,5.49
+372762,2026-11-10,Florida State,Florida,224351,Marcis Ponder,20.88,20.88,3.08
+372762,2026-11-10,Florida State,Florida,199260,Alex Steen,19.12,18.61,4.53
+372762,2026-11-10,Florida State,Florida,224344,Elise Assui,17.08,16.64,3.79
+372762,2026-11-10,Florida State,Florida,1074,Cooper Schwieger,6.42,6.42,0.0
+372762,2026-11-10,Florida State,Florida,224345,Martay Barnes,2.28,2.28,0.0
+372762,2026-11-10,Florida State,Florida,224346,Brandon Bass Jr.,2.08,1.96,0.0
+374816,2026-11-10,The Citadel,Virginia-Lynchburg,232900,Aaron Ekwere,28.7,12.55,3.73
+374816,2026-11-10,The Citadel,Virginia-Lynchburg,199485,Ramel Bethea,21.68,11.36,3.34
+374816,2026-11-10,The Citadel,Virginia-Lynchburg,9508,Chase Cormier,27.33,10.69,2.36
+374816,2026-11-10,The Citadel,Virginia-Lynchburg,6549,Tyler Mrus,18.47,8.17,3.37
+374816,2026-11-10,The Citadel,Virginia-Lynchburg,232894,Marcus Banks,21.78,7.92,3.86
+374816,2026-11-10,The Citadel,Virginia-Lynchburg,5723,Keynan Davis,16.2,6.87,2.36
+374816,2026-11-10,The Citadel,Virginia-Lynchburg,202587,Marcos Gonzales,7.62,5.52,0.76
+374816,2026-11-10,The Citadel,Virginia-Lynchburg,202588,Jameson Heck,13.42,2.44,2.44
+374816,2026-11-10,The Citadel,Virginia-Lynchburg,202593,Logan Menefee,7.12,2.08,1.28
+374816,2026-11-10,The Citadel,Virginia-Lynchburg,232892,Ja'Yon Alexander,10.83,0.59,0.59
+374816,2026-11-10,The Citadel,Virginia-Lynchburg,232893,Yaw Ansong,7.65,0.25,0.25
+374816,2026-11-10,The Citadel,Virginia-Lynchburg,1614,Colin McKenzie,8.6,0.0,0.0
+374816,2026-11-10,The Citadel,Virginia-Lynchburg,232907,Jack Seiders,7.05,0.0,0.0
+374816,2026-11-10,The Citadel,Virginia-Lynchburg,5727,Aidan Alexander,3.55,0.0,0.0
+374816,2026-11-10,Virginia-Lynchburg,The Citadel,11145,Jacob Newman,39.73,13.69,4.87
+374816,2026-11-10,Virginia-Lynchburg,The Citadel,233941,Jordan Barr,33.62,12.37,3.55
+374816,2026-11-10,Virginia-Lynchburg,The Citadel,233942,Donovan Peterson,27.7,12.15,3.82
+374816,2026-11-10,Virginia-Lynchburg,The Citadel,214427,Zephaniah Williams,33.68,10.92,4.87
+374816,2026-11-10,Virginia-Lynchburg,The Citadel,233945,Mohamed Diaby,36.07,10.38,2.36
+374816,2026-11-10,Virginia-Lynchburg,The Citadel,233943,Raheem Bradley,29.2,8.92,4.87
+374817,2026-11-10,Utah State,Utah Tech,8368,Mason Falslev,33.17,23.92,7.42
+374817,2026-11-10,Utah State,Utah Tech,555,Solomon Callaghan,30.28,22.67,7.42
+374817,2026-11-10,Utah State,Utah Tech,7686,Dallin Hall,30.65,21.09,7.42
+374817,2026-11-10,Utah State,Utah Tech,5328,Will Hornseth,26.05,18.94,7.42
+374817,2026-11-10,Utah State,Utah Tech,203001,Kingston Tosi,29.22,16.81,2.39
+374817,2026-11-10,Utah State,Utah Tech,8371,Karson Templin,8.58,8.4,3.15
+374817,2026-11-10,Utah State,Utah Tech,3641,AJ Bates,14.38,6.45,1.88
+374817,2026-11-10,Utah State,Utah Tech,233285,Sean Felts,12.52,5.28,0.0
+374817,2026-11-10,Utah State,Utah Tech,202990,Brayden Boe,9.82,4.72,0.0
+374817,2026-11-10,Utah State,Utah Tech,233289,Ace Reiser,3.58,0.0,0.0
+374817,2026-11-10,Utah State,Utah Tech,233282,Jordan Boyd,1.75,0.0,0.0
+374817,2026-11-10,Utah Tech,Utah State,203108,Mark Brown Jr.,33.9,22.55,4.98
+374817,2026-11-10,Utah Tech,Utah State,227814,Christian Gibson,26.07,19.9,6.89
+374817,2026-11-10,Utah Tech,Utah State,4435,Ethan Potter,25.57,17.15,5.54
+374817,2026-11-10,Utah Tech,Utah State,227818,Owen Mackay,28.08,17.03,4.21
+374817,2026-11-10,Utah Tech,Utah State,227821,Aris Rodriguez,26.72,15.06,4.61
+374817,2026-11-10,Utah Tech,Utah State,6850,Preston Vandermyde,21.52,13.89,5.01
+374817,2026-11-10,Utah Tech,Utah State,234395,Aaron Bliss,15.73,10.72,3.46
+374817,2026-11-10,Utah Tech,Utah State,6836,Samuel Ariyibi,7.63,6.02,0.53
+374817,2026-11-10,Utah Tech,Utah State,227817,Kyle Lemke,5.07,4.08,0.0
+374817,2026-11-10,Utah Tech,Utah State,6847,Dallin Grant,6.98,1.88,1.88
+374817,2026-11-10,Utah Tech,Utah State,227812,Jax Clark,1.75,0.0,0.0
+374817,2026-11-10,Utah Tech,Utah State,227820,Petros Ragkos,0.98,0.0,0.0
+374818,2026-11-10,Northern Colorado,Northern New Mexico,7125,Langston Reynolds,25.43,16.29,4.81
+374818,2026-11-10,Northern Colorado,Northern New Mexico,6714,Andrew Crawford,21.55,12.41,4.82
+374818,2026-11-10,Northern Colorado,Northern New Mexico,7135,Hunter Caldwell,16.08,11.95,5.51
+374818,2026-11-10,Northern Colorado,Northern New Mexico,8431,Vincent Delano,14.47,10.63,4.85
+374818,2026-11-10,Northern Colorado,Northern New Mexico,202200,Chiante' Tramble,19.78,8.71,2.36
+374818,2026-11-10,Northern Colorado,Northern New Mexico,203103,Kaidon Rayfield,11.9,8.07,2.28
+374818,2026-11-10,Northern Colorado,Northern New Mexico,226084,Jeremiah Hammond,16.48,7.9,2.07
+374818,2026-11-10,Northern Colorado,Northern New Mexico,226090,Manning Shareef,16.68,7.55,1.7
+374818,2026-11-10,Northern Colorado,Northern New Mexico,226078,Campbell Blogg,17.28,7.12,2.85
+374818,2026-11-10,Northern Colorado,Northern New Mexico,201089,Steven Ramirez Jr.,14.57,3.05,2.4
+374818,2026-11-10,Northern Colorado,Northern New Mexico,7137,Ariik Mawien,10.42,3.03,2.38
+374818,2026-11-10,Northern Colorado,Northern New Mexico,226086,Drew Paine,7.38,0.0,0.0
+374818,2026-11-10,Northern Colorado,Northern New Mexico,201080,Tanner Braketa,5.75,0.0,0.0
+374818,2026-11-10,Northern Colorado,Northern New Mexico,226083,Will Gordon,2.22,0.0,0.0
+374818,2026-11-10,Northern New Mexico,Northern Colorado,12116,Jayondre Leak,10.43,7.43,6.16
+374818,2026-11-10,Northern New Mexico,Northern Colorado,12117,Adam Montoya,18.98,7.32,4.58
+374818,2026-11-10,Northern New Mexico,Northern Colorado,216608,Marquise Delahaye,23.37,6.81,6.16
+374818,2026-11-10,Northern New Mexico,Northern Colorado,241118,Braedon Edison,12.5,6.36,5.37
+374818,2026-11-10,Northern New Mexico,Northern Colorado,216604,Harkirath Makhar,15.5,6.36,5.37
+374818,2026-11-10,Northern New Mexico,Northern Colorado,19768,Kevin Jamieson,11.67,4.53,1.83
+374818,2026-11-10,Northern New Mexico,Northern Colorado,12114,Jesus Mendoza,6.27,3.38,2.62
+374818,2026-11-10,Northern New Mexico,Northern Colorado,6356,Ja'Kwon Hill,8.02,2.03,1.05
+374818,2026-11-10,Northern New Mexico,Northern Colorado,241119,Jordan Morency,14.18,1.41,1.05
+374818,2026-11-10,Northern New Mexico,Northern Colorado,241117,Thomas Adams,7.93,0.2,0.0
+374818,2026-11-10,Northern New Mexico,Northern Colorado,216609,Josiah Fresquez,14.52,0.0,0.0
+374818,2026-11-10,Northern New Mexico,Northern Colorado,241116,Junior Hughes,5.75,0.0,0.0
+374819,2026-11-10,Duquesne,Washington State,198819,Kerem Konan,36.8,36.8,8.0
+374819,2026-11-10,Duquesne,Washington State,3253,Yoav Berman,35.58,35.58,8.0
+374819,2026-11-10,Duquesne,Washington State,198999,Arness Lawson,29.13,29.13,8.0
+374819,2026-11-10,Duquesne,Washington State,201355,Ege Demir,19.53,19.53,4.92
+374819,2026-11-10,Duquesne,Washington State,5369,Stephen Olowoniyi,18.02,18.02,3.0
+374819,2026-11-10,Duquesne,Washington State,2944,Josh Smith,16.72,16.72,4.25
+374819,2026-11-10,Duquesne,Washington State,5548,Jake DiMichele,15.63,15.63,3.75
+374819,2026-11-10,Duquesne,Washington State,1322,Izaiah Pasha,15.62,15.62,0.0
+374819,2026-11-10,Duquesne,Washington State,5554,Brandon Hall,7.13,7.13,0.08
+374819,2026-11-10,Duquesne,Washington State,229425,Jackson Williams,3.68,3.68,0.0
+374819,2026-11-10,Duquesne,Washington State,229414,Chaim Galbut,2.15,2.15,0.0
+374819,2026-11-10,Washington State,Duquesne,233572,Lazerek Houston,28.62,28.62,6.78
+374819,2026-11-10,Washington State,Duquesne,201550,Jaylen Harrell,28.23,28.23,6.12
+374819,2026-11-10,Washington State,Duquesne,7254,Jamari Phillips,24.7,24.7,5.82
+374819,2026-11-10,Washington State,Duquesne,899,Sebastian Akins,22.57,22.57,4.97
+374819,2026-11-10,Washington State,Duquesne,6129,Ronnie Harrison,22.22,22.22,3.48
+374819,2026-11-10,Washington State,Duquesne,5478,Ladji Dembele,18.0,18.0,4.55
+374819,2026-11-10,Washington State,Duquesne,201172,Tyler Kropp,14.83,14.83,3.0
+374819,2026-11-10,Washington State,Duquesne,233581,Mohamed Sankhe,12.98,12.98,2.28
+374819,2026-11-10,Washington State,Duquesne,16994,Casey Jones,12.65,12.65,3.0
+374819,2026-11-10,Washington State,Duquesne,203290,Dominik Robinson,9.08,9.08,0.0
+374819,2026-11-10,Washington State,Duquesne,5684,RJ Jones,6.12,6.12,0.0
+374820,2026-11-10,Kennesaw State,Winthrop,234081,Levi Ball,31.87,31.22,7.87
+374820,2026-11-10,Kennesaw State,Winthrop,199847,Jacoby Hill,26.18,26.15,2.27
+374820,2026-11-10,Kennesaw State,Winthrop,230339,Kyler Theophile,23.93,23.29,7.87
+374820,2026-11-10,Kennesaw State,Winthrop,200179,Avery Thomas II,21.22,20.61,5.6
+374820,2026-11-10,Kennesaw State,Winthrop,199932,Amir Taylor,20.8,20.28,6.27
+374820,2026-11-10,Kennesaw State,Winthrop,199926,Kaden Rickard,20.68,20.04,5.84
+374820,2026-11-10,Kennesaw State,Winthrop,5361,Kris Parker,17.63,17.63,2.03
+374820,2026-11-10,Kennesaw State,Winthrop,6901,Anthony Enoh,13.82,13.69,1.6
+374820,2026-11-10,Kennesaw State,Winthrop,199929,Trey Simpson,9.33,9.33,0.0
+374820,2026-11-10,Kennesaw State,Winthrop,230331,Antwane Daniels,9.15,9.15,0.0
+374820,2026-11-10,Kennesaw State,Winthrop,7054,CJ Beaumont,5.38,5.38,0.0
+374820,2026-11-10,Winthrop,Kennesaw State,201033,Anthony Smith III,32.75,32.13,6.01
+374820,2026-11-10,Winthrop,Kennesaw State,6090,Seifeldin Hendawy,31.38,30.97,6.39
+374820,2026-11-10,Winthrop,Kennesaw State,198937,Keshawn Fisher,30.42,29.77,7.87
+374820,2026-11-10,Winthrop,Kennesaw State,199323,Spence Sims,27.77,27.12,7.87
+374820,2026-11-10,Winthrop,Kennesaw State,6781,George Natsvlishvili,20.98,20.98,0.57
+374820,2026-11-10,Winthrop,Kennesaw State,233740,Kyle Morgan,18.77,18.54,1.48
+374820,2026-11-10,Winthrop,Kennesaw State,233731,Joel Cwik,10.43,10.41,1.86
+374820,2026-11-10,Winthrop,Kennesaw State,233744,Eesher Singh Sarai,10.23,9.59,3.57
+374820,2026-11-10,Winthrop,Kennesaw State,203441,Kaleb Evans,9.55,9.55,0.0
+374820,2026-11-10,Winthrop,Kennesaw State,1396,Tai Hamilton,7.72,7.72,3.73
+374821,2026-11-10,Alcorn State,Murray State,7576,Trey Thomas,25.18,20.14,5.14
+374821,2026-11-10,Alcorn State,Murray State,4772,Ma'Kye Taylor,15.25,14.92,3.0
+374821,2026-11-10,Alcorn State,Murray State,18241,Calvin Sirmans,19.87,14.6,4.85
+374821,2026-11-10,Alcorn State,Murray State,202934,Adam Tokpah,22.37,13.74,3.03
+374821,2026-11-10,Alcorn State,Murray State,4103,Jahseem Felton,13.27,12.0,3.07
+374821,2026-11-10,Alcorn State,Murray State,228405,Jaylin Craine,18.67,8.88,0.88
+374821,2026-11-10,Alcorn State,Murray State,7210,Christian Richardson,11.88,8.87,1.57
+374821,2026-11-10,Alcorn State,Murray State,2611,Braylhan Thomas,19.83,7.64,0.58
+374821,2026-11-10,Alcorn State,Murray State,228404,Bobby Cannon,9.37,7.31,2.72
+374821,2026-11-10,Alcorn State,Murray State,228408,Josh Powell,14.67,7.15,1.78
+374821,2026-11-10,Alcorn State,Murray State,6063,Saxby Sunderland,8.52,5.14,0.88
+374821,2026-11-10,Alcorn State,Murray State,199933,Nigel Thomas,15.38,2.96,0.0
+374821,2026-11-10,Alcorn State,Murray State,228407,Ethan Griffin,5.75,2.57,1.12
+374821,2026-11-10,Murray State,Alcorn State,200737,Roman Domon,28.73,19.8,5.73
+374821,2026-11-10,Murray State,Alcorn State,3839,Brigham Rogers,22.27,16.17,4.31
+374821,2026-11-10,Murray State,Alcorn State,200742,Brayden Shorter,23.52,15.1,4.75
+374821,2026-11-10,Murray State,Alcorn State,5185,Christian Jones,22.98,14.0,2.3
+374821,2026-11-10,Murray State,Alcorn State,200736,Lachlan Crate,18.67,12.08,3.42
+374821,2026-11-10,Murray State,Alcorn State,7005,Ben Shtolzberg,16.62,11.88,1.64
+374821,2026-11-10,Murray State,Alcorn State,200735,Mathis Courbon,16.1,10.98,1.87
+374821,2026-11-10,Murray State,Alcorn State,231126,Talis Soulhac,16.73,10.95,3.19
+374821,2026-11-10,Murray State,Alcorn State,231121,Pavle Nikolic,12.22,5.94,0.0
+374821,2026-11-10,Murray State,Alcorn State,231114,Jonas Boulefaa,9.7,5.89,0.0
+374821,2026-11-10,Murray State,Alcorn State,13620,Shon Tupuola,8.03,3.13,1.41
+374821,2026-11-10,Murray State,Alcorn State,233895,Navon Shabazz,3.08,0.0,0.0
+374821,2026-11-10,Murray State,Alcorn State,200734,Dillon Butler,1.35,0.0,0.0
+374822,2026-11-10,Houston Christian,South Dakota,214662,Max Alexander,37.03,35.53,7.0
+374822,2026-11-10,Houston Christian,South Dakota,6775,Mambourou Mara,29.35,27.84,7.0
+374822,2026-11-10,Houston Christian,South Dakota,6926,Kris Keinys,25.3,25.3,0.32
+374822,2026-11-10,Houston Christian,South Dakota,1303,Bubz Alvarez,23.62,22.73,3.19
+374822,2026-11-10,Houston Christian,South Dakota,5277,D'Aundre Samuels,22.68,21.69,0.88
+374822,2026-11-10,Houston Christian,South Dakota,4851,Jonas Nichols,16.85,16.15,4.2
+374822,2026-11-10,Houston Christian,South Dakota,3017,Esyah Pippa-White,15.55,15.03,6.11
+374822,2026-11-10,Houston Christian,South Dakota,3762,Chris Mubiru,12.52,11.09,6.3
+374822,2026-11-10,Houston Christian,South Dakota,3524,Shawn Simmons II,8.53,8.53,0.0
+374822,2026-11-10,Houston Christian,South Dakota,199801,Aiden Miller,6.05,6.05,0.0
+374822,2026-11-10,Houston Christian,South Dakota,201595,Kam Clark,2.52,2.52,0.0
+374822,2026-11-10,South Dakota,Houston Christian,3908,Jahni Summers,32.62,31.59,5.2
+374822,2026-11-10,South Dakota,Houston Christian,202091,Vince Buzelis,30.65,29.72,6.17
+374822,2026-11-10,South Dakota,Houston Christian,813,Josiah Dotzler,27.4,26.31,6.83
+374822,2026-11-10,South Dakota,Houston Christian,152,Cade Kelderman,22.35,21.13,3.5
+374822,2026-11-10,South Dakota,Houston Christian,232439,Iliam Fevry,21.52,20.98,4.41
+374822,2026-11-10,South Dakota,Houston Christian,510,Kajus Kublickas,22.42,20.91,3.1
+374822,2026-11-10,South Dakota,Houston Christian,738,Stef van Bussel,20.0,20.0,4.07
+374822,2026-11-10,South Dakota,Houston Christian,7809,Josh Townley-Thomas,11.25,11.25,0.0
+374822,2026-11-10,South Dakota,Houston Christian,4923,Ethan Kizer,11.25,10.45,1.59
+374822,2026-11-10,South Dakota,Houston Christian,7833,Melo Sanchez,0.55,0.12,0.12
+374824,2026-11-10,Little Rock,New Mexico,202886,Jah'Likai King,28.62,19.88,4.13
+374824,2026-11-10,Little Rock,New Mexico,230506,Jalen Lyn,25.15,18.98,1.97
+374824,2026-11-10,Little Rock,New Mexico,201104,Taj Walters,27.27,17.43,4.13
+374824,2026-11-10,Little Rock,New Mexico,6050,Bradyn Hubbard,21.83,16.79,1.24
+374824,2026-11-10,Little Rock,New Mexico,3048,Papa Amadou Kante,16.98,16.7,1.32
+374824,2026-11-10,Little Rock,New Mexico,8351,Aaron Clark,15.85,15.85,0.0
+374824,2026-11-10,Little Rock,New Mexico,230498,Cameron Brown,24.47,14.63,4.13
+374824,2026-11-10,Little Rock,New Mexico,230505,Tyrese Lacey,17.85,14.18,2.17
+374824,2026-11-10,Little Rock,New Mexico,4933,Jamai Felt,8.82,7.93,1.58
+374824,2026-11-10,Little Rock,New Mexico,9398,AJ Economou,5.43,4.33,0.0
+374824,2026-11-10,Little Rock,New Mexico,6589,Ayomide Bamisile,4.12,4.12,0.0
+374824,2026-11-10,Little Rock,New Mexico,6656,Roee Oselka,3.62,0.0,0.0
+374824,2026-11-10,New Mexico,Little Rock,200860,Jake Hall,29.03,23.63,3.57
+374824,2026-11-10,New Mexico,Little Rock,202811,Hudson Mayes,25.57,22.23,1.46
+374824,2026-11-10,New Mexico,Little Rock,200870,Uriah Tenette,25.17,20.38,1.21
+374824,2026-11-10,New Mexico,Little Rock,3556,Tunde Vahlberg Fasasi,21.27,16.58,0.65
+374824,2026-11-10,New Mexico,Little Rock,231231,Dax Hall,24.28,16.32,3.48
+374824,2026-11-10,New Mexico,Little Rock,8442,Chris Howell,24.15,15.12,3.75
+374824,2026-11-10,New Mexico,Little Rock,231230,Federico Grani,13.87,13.07,0.38
+374824,2026-11-10,New Mexico,Little Rock,231238,Benjamin Schuch,13.77,10.19,1.34
+374824,2026-11-10,New Mexico,Little Rock,7387,Rytis Petraitis,9.27,6.66,2.41
+374824,2026-11-10,New Mexico,Little Rock,231234,Fynn Lastring,11.02,6.66,2.41
+374824,2026-11-10,New Mexico,Little Rock,202332,Imran Suljanovic,1.52,0.0,0.0
+374824,2026-11-10,New Mexico,Little Rock,234396,AJ Pierre-Jerome,1.1,0.0,0.0
+374825,2026-11-10,La Salle,Villanova,1926,Noah Collier,29.0,24.74,5.27
+374825,2026-11-10,La Salle,Villanova,199328,Devin Booker,26.38,23.69,2.63
+374825,2026-11-10,La Salle,Villanova,2630,Jaden Johnson,26.68,22.43,2.54
+374825,2026-11-10,La Salle,Villanova,6115,Kam Burton,21.23,19.2,6.4
+374825,2026-11-10,La Salle,Villanova,230417,RJ Smith,21.68,17.19,4.9
+374825,2026-11-10,La Salle,Villanova,5178,Trey Moss,20.7,16.59,3.77
+374825,2026-11-10,La Salle,Villanova,6691,Vice Zanki,16.65,16.51,0.17
+374825,2026-11-10,La Salle,Villanova,3523,Anthony Finkley,15.32,15.32,2.73
+374825,2026-11-10,La Salle,Villanova,324,Rob Dockery,11.52,11.28,2.8
+374825,2026-11-10,La Salle,Villanova,7751,Bowyn Beatty,10.83,10.6,1.21
+374825,2026-11-10,Villanova,La Salle,227977,Luigi Suigo,31.58,28.16,5.69
+374825,2026-11-10,Villanova,La Salle,5355,Tyler Perkins,32.52,28.02,6.4
+374825,2026-11-10,Villanova,La Salle,7680,Elijah Crawford,31.88,27.39,6.49
+374825,2026-11-10,Villanova,La Salle,2370,Jake Fiegen,31.38,26.89,6.49
+374825,2026-11-10,Villanova,La Salle,422,Devin Royal,29.08,24.83,3.49
+374825,2026-11-10,Villanova,La Salle,227972,Adam Oumiddoch,16.1,16.1,0.08
+374825,2026-11-10,Villanova,La Salle,7239,Kwame Evans Jr.,11.08,10.85,3.0
+374825,2026-11-10,Villanova,La Salle,286,Darryl Simmons II,8.12,8.12,0.0
+374825,2026-11-10,Villanova,La Salle,203182,Nico Onyekwere,8.25,7.18,0.79
+374826,2026-11-10,South Alabama,UCF,232381,Jalen Langsy,36.37,34.8,6.43
+374826,2026-11-10,South Alabama,UCF,232377,Aaron Goldstein,34.97,33.4,6.43
+374826,2026-11-10,South Alabama,UCF,202045,Stephen Williams,29.33,27.76,6.43
+374826,2026-11-10,South Alabama,UCF,216208,Davaughn Hueitt,24.02,22.45,6.43
+374826,2026-11-10,South Alabama,UCF,202039,Peyton Law,22.65,21.73,5.61
+374826,2026-11-10,South Alabama,UCF,232380,Lenni Kunzewitsch,19.73,19.08,0.82
+374826,2026-11-10,South Alabama,UCF,232384,Diego Roman,13.6,13.6,0.0
+374826,2026-11-10,South Alabama,UCF,211755,Roderick Williams Jr.,10.67,10.67,0.0
+374826,2026-11-10,South Alabama,UCF,202044,Desmond Williams,7.87,7.87,0.0
+374826,2026-11-10,South Alabama,UCF,202042,Samuel Shoptaw,0.8,0.8,0.0
+374826,2026-11-10,UCF,South Alabama,342,Dior Johnson,32.2,30.63,4.51
+374826,2026-11-10,UCF,South Alabama,1763,Carmelo Pacheco,29.37,27.8,6.43
+374826,2026-11-10,UCF,South Alabama,6675,Arturo Dean,27.05,25.5,4.55
+374826,2026-11-10,UCF,South Alabama,199227,Isaiah Malone,22.35,22.25,1.96
+374826,2026-11-10,UCF,South Alabama,2896,Lewis Walker,19.2,17.63,4.51
+374826,2026-11-10,UCF,South Alabama,5780,Churchill Abass,17.75,16.28,4.47
+374826,2026-11-10,UCF,South Alabama,4166,Riley Kugel,14.32,14.32,1.92
+374826,2026-11-10,UCF,South Alabama,4900,Cayden Vasko,11.87,11.85,1.88
+374826,2026-11-10,UCF,South Alabama,594,John Bol,11.12,11.12,0.0
+374826,2026-11-10,UCF,South Alabama,162,Jason Asemota,9.12,9.12,1.92
+374826,2026-11-10,UCF,South Alabama,343,Elijah Hulsewe,5.67,5.67,0.0
+374827,2026-11-10,BYU,Queens University,165,Robert Wright III,31.52,26.42,4.46
+374827,2026-11-10,BYU,Queens University,568,Collin Chandler,25.68,23.47,4.92
+374827,2026-11-10,BYU,Queens University,223514,Bruce Branch III,27.72,21.81,2.9
+374827,2026-11-10,BYU,Queens University,2476,Jaxon Kohler,24.9,21.58,4.16
+374827,2026-11-10,BYU,Queens University,471,Tyler Betsey,24.05,19.39,2.74
+374827,2026-11-10,BYU,Queens University,6584,Jake Wahlin,20.72,16.57,4.96
+374827,2026-11-10,BYU,Queens University,7227,Nate Pickens,19.27,15.21,3.65
+374827,2026-11-10,BYU,Queens University,15031,Khadim Mboup,15.1,12.25,2.23
+374827,2026-11-10,BYU,Queens University,223511,Brooks Bahr,10.8,9.65,1.93
+374827,2026-11-10,BYU,Queens University,223522,Dean Rueckert,3.0,3.0,0.0
+374827,2026-11-10,Queens University,BYU,3258,Nasir Mann,32.72,27.0,3.34
+374827,2026-11-10,Queens University,BYU,201605,Jordan Watford,30.05,26.79,4.57
+374827,2026-11-10,Queens University,BYU,201597,Isaiah Henry,27.17,22.81,4.26
+374827,2026-11-10,Queens University,BYU,231949,Caleb Jones,26.6,21.29,6.39
+374827,2026-11-10,Queens University,BYU,4143,Rickey Ballard,26.59,20.91,5.49
+374827,2026-11-10,Queens University,BYU,2607,Avantae Parker,22.99,20.25,3.85
+374827,2026-11-10,Queens University,BYU,231953,Nicholas McLean,15.65,14.76,1.63
+374827,2026-11-10,Queens University,BYU,5728,Dante Kearse,16.73,13.88,1.82
+374827,2026-11-10,Queens University,BYU,231945,Atakan Bicer,1.5,1.46,0.61
+374829,2026-11-10,Utah,Weber State,5325,Trey Campbell,36.82,32.48,6.97
+374829,2026-11-10,Utah,Weber State,233264,Alec Anigbata,34.75,30.41,5.49
+374829,2026-11-10,Utah,Weber State,4444,Jackson Holcombe,24.82,24.82,1.48
+374829,2026-11-10,Utah,Weber State,432,Taison Chatman,22.87,21.9,6.86
+374829,2026-11-10,Utah,Weber State,8380,Malek Gomma,22.7,21.79,2.16
+374829,2026-11-10,Utah,Weber State,233273,Jaxon Johnson,20.43,16.1,6.97
+374829,2026-11-10,Utah,Weber State,2657,TJ Burch,17.13,13.77,0.11
+374829,2026-11-10,Utah,Weber State,4651,Babacar Faye,14.12,10.69,4.81
+374829,2026-11-10,Utah,Weber State,233276,Zati Loubaki,3.18,3.18,0.0
+374829,2026-11-10,Utah,Weber State,233268,Styles Clemmons,3.18,3.18,0.0
+374829,2026-11-10,Weber State,Utah,200874,Augustine Ekwe,35.58,31.73,5.55
+374829,2026-11-10,Weber State,Utah,816,Dylan Warlick,34.3,30.45,4.52
+374829,2026-11-10,Weber State,Utah,233592,Gavin Lowe,32.08,28.19,3.18
+374829,2026-11-10,Weber State,Utah,8246,Dyllan Thompson,26.2,22.31,2.16
+374829,2026-11-10,Weber State,Utah,202939,Mason Abittan,21.05,20.57,2.45
+374829,2026-11-10,Weber State,Utah,203301,ArDarius Grayson,21.97,17.63,6.97
+374829,2026-11-10,Weber State,Utah,233584,Chamberlain Burgess,12.55,12.11,4.81
+374829,2026-11-10,Weber State,Utah,7430,Aaron Powell,11.85,11.41,3.79
+374829,2026-11-10,Weber State,Utah,5998,Brock Felder,4.42,3.93,1.42
+374830,2026-11-10,Montana,San Francisco,6519,Tyler Thompson,32.77,32.77,8.0
+374830,2026-11-10,Montana,San Francisco,231042,Jalen Brown,29.67,29.67,3.65
+374830,2026-11-10,Montana,San Francisco,231044,Jordan Clark,24.18,24.18,5.33
+374830,2026-11-10,Montana,San Francisco,6396,LoLo Rudolph,23.6,23.6,5.65
+374830,2026-11-10,Montana,San Francisco,231043,Semaj Carter,21.23,21.23,6.7
+374830,2026-11-10,Montana,San Francisco,6510,Amari Jedkins,20.08,20.08,3.17
+374830,2026-11-10,Montana,San Francisco,201397,Clayton Mpiana,15.7,15.7,4.72
+374830,2026-11-10,Montana,San Francisco,16686,Garret Dutro,11.12,11.12,0.02
+374830,2026-11-10,Montana,San Francisco,6516,Connor Dick,9.93,9.93,2.77
+374830,2026-11-10,Montana,San Francisco,198220,Noah Bendinger,5.63,5.63,0.0
+374830,2026-11-10,Montana,San Francisco,16539,Josiah Sanders,4.4,4.4,0.0
+374830,2026-11-10,Montana,San Francisco,6711,Courtney Anderson Jr.,1.68,1.68,0.0
+374830,2026-11-10,San Francisco,Montana,232248,Gustav Knudsen,35.87,35.87,7.08
+374830,2026-11-10,San Francisco,Montana,6293,Ben Oosterbaan,35.13,35.13,8.0
+374830,2026-11-10,San Francisco,Montana,232241,Dylan Bordon,31.95,31.95,5.62
+374830,2026-11-10,San Francisco,Montana,232254,Yoav Vitlem,27.05,27.05,8.0
+374830,2026-11-10,San Francisco,Montana,7706,Ndewedo Newbury,23.43,23.43,6.65
+374830,2026-11-10,San Francisco,Montana,232246,Andrew Hilman,22.13,22.13,3.73
+374830,2026-11-10,San Francisco,Montana,232247,Jaylen Hunter-Coleman,8.72,8.72,0.0
+374830,2026-11-10,San Francisco,Montana,3849,Aidan Braccia,7.2,7.2,0.0
+374830,2026-11-10,San Francisco,Montana,232252,Jaroslavs Pihtovs,6.48,6.48,0.0
+374830,2026-11-10,San Francisco,Montana,232243,Ziga Daneu,2.03,2.03,0.92
+374831,2026-11-10,Fairfield,Wisconsin,199160,Declan Wucherpfennig,24.97,14.67,4.06
+374831,2026-11-10,Fairfield,Wisconsin,199153,Halon Rawlins,21.0,13.15,4.53
+374831,2026-11-10,Fairfield,Wisconsin,199159,Tony Williams,11.42,10.93,4.34
+374831,2026-11-10,Fairfield,Wisconsin,224238,Jah Hatchett,16.58,9.75,2.19
+374831,2026-11-10,Fairfield,Wisconsin,5127,Peyton Smith,13.58,8.4,2.66
+374831,2026-11-10,Fairfield,Wisconsin,224236,Cole Edelen,14.15,6.91,4.53
+374831,2026-11-10,Fairfield,Wisconsin,5169,Qadir Martin,16.63,6.66,6.35
+374831,2026-11-10,Fairfield,Wisconsin,224235,Jaden Brown,19.08,4.77,2.01
+374831,2026-11-10,Fairfield,Wisconsin,5132,Isaac Munkadi,8.43,3.97,0.0
+374831,2026-11-10,Fairfield,Wisconsin,199150,Eric Mejia,18.58,3.05,0.0
+374831,2026-11-10,Fairfield,Wisconsin,199154,Nasir Rodriguez,13.7,2.51,2.01
+374831,2026-11-10,Fairfield,Wisconsin,224239,Brayden Jones,11.92,0.59,0.0
+374831,2026-11-10,Fairfield,Wisconsin,198245,Marko Radunovic,5.48,0.37,0.0
+374831,2026-11-10,Fairfield,Wisconsin,224247,Oesoemana Sacko,4.47,0.0,0.0
+374831,2026-11-10,Wisconsin,Fairfield,4402,Braeden Carrington,21.52,12.79,5.79
+374831,2026-11-10,Wisconsin,Fairfield,233751,Owen Foxwell,21.44,11.72,4.53
+374831,2026-11-10,Wisconsin,Fairfield,1336,Eian Elmer,20.47,10.91,3.03
+374831,2026-11-10,Wisconsin,Fairfield,5416,Nolan Winter,16.88,10.34,3.5
+374831,2026-11-10,Wisconsin,Fairfield,203456,Will Garlock,18.42,9.08,3.22
+374831,2026-11-10,Wisconsin,Fairfield,8421,Austin Rapp,20.92,8.66,4.9
+374831,2026-11-10,Wisconsin,Fairfield,5428,Jack Janicki,14.23,6.22,3.5
+374831,2026-11-10,Wisconsin,Fairfield,233747,Jackson Ball,18.04,5.85,2.19
+374831,2026-11-10,Wisconsin,Fairfield,203461,Zach Kinziger,16.4,5.47,2.01
+374831,2026-11-10,Wisconsin,Fairfield,199570,Victory Onuetu,14.87,4.68,0.0
+374831,2026-11-10,Wisconsin,Fairfield,5183,Trey Autry,10.23,0.0,0.0
+374831,2026-11-10,Wisconsin,Fairfield,203460,Hayden Jones,4.47,0.0,0.0
+374831,2026-11-10,Wisconsin,Fairfield,233759,Isaac Riddle,2.12,0.0,0.0
+374832,2026-11-10,NJIT,Rutgers,231314,Victor Vanderstraeten,27.0,22.02,6.65
+374832,2026-11-10,NJIT,Rutgers,200933,David Bolden,29.45,21.68,5.22
+374832,2026-11-10,NJIT,Rutgers,203096,Matheo Coffi,26.07,16.73,5.58
+374832,2026-11-10,NJIT,Rutgers,199431,Brandon Stores Jr.,19.93,16.33,2.3
+374832,2026-11-10,NJIT,Rutgers,203230,Mario Tatum Jr.,16.55,12.49,2.55
+374832,2026-11-10,NJIT,Rutgers,200932,Rocco Awad,14.38,8.3,0.42
+374832,2026-11-10,NJIT,Rutgers,2443,John Kelly,15.97,6.13,0.55
+374832,2026-11-10,NJIT,Rutgers,2451,Quentin Duncan,9.25,5.2,4.1
+374832,2026-11-10,NJIT,Rutgers,198516,Brendan Oliver,13.15,3.96,3.93
+374832,2026-11-10,NJIT,Rutgers,200930,AJ Altobelli,10.45,1.38,1.33
+374832,2026-11-10,NJIT,Rutgers,2450,Stefan Jimenez-Vojnic,8.5,1.0,0.1
+374832,2026-11-10,NJIT,Rutgers,231307,Jayonni Durrough,9.3,0.55,0.52
+374832,2026-11-10,Rutgers,NJIT,2440,Tariq Francis,26.13,19.35,6.65
+374832,2026-11-10,Rutgers,NJIT,5176,Darren Buchanan Jr.,25.18,18.6,6.65
+374832,2026-11-10,Rutgers,NJIT,201726,Lino Mark,21.87,15.12,3.12
+374832,2026-11-10,Rutgers,NJIT,7876,Jamichael Davis,21.12,14.05,3.53
+374832,2026-11-10,Rutgers,NJIT,203208,Christian Gurdak,17.6,12.78,2.7
+374832,2026-11-10,Rutgers,NJIT,2505,Rasheed Jones,15.42,11.7,2.77
+374832,2026-11-10,Rutgers,NJIT,232079,Mervedi Miteo,12.87,9.74,3.53
+374832,2026-11-10,Rutgers,NJIT,3119,Darin Smith Jr.,15.47,8.7,3.88
+374832,2026-11-10,Rutgers,NJIT,232075,Diego Garavaglia,11.07,4.97,0.42
+374832,2026-11-10,Rutgers,NJIT,201729,Kaden Powers,4.23,0.53,0.0
+374832,2026-11-10,Rutgers,NJIT,201730,Gevonte Ware,9.1,0.22,0.0
+374832,2026-11-10,Rutgers,NJIT,232085,Imahri Wooten,6.37,0.0,0.0
+374832,2026-11-10,Rutgers,NJIT,3270,Will Sydnor,6.37,0.0,0.0
+374832,2026-11-10,Rutgers,NJIT,232083,Martin Tonejc,4.18,0.0,0.0
+374832,2026-11-10,Rutgers,NJIT,7880,Max Fradkin,3.03,0.0,0.0
+374833,2026-11-10,Ole Miss,SE Louisiana,7369,Corey Stephenson,24.35,16.69,6.5
+374833,2026-11-10,Ole Miss,SE Louisiana,201311,Ilias Kamardine,25.8,16.0,5.32
+374833,2026-11-10,Ole Miss,SE Louisiana,201316,Patton Pinkins,27.1,15.23,6.85
+374833,2026-11-10,Ole Miss,SE Louisiana,226298,Ben Henshall,23.87,14.54,4.25
+374833,2026-11-10,Ole Miss,SE Louisiana,9511,Adam Clark,25.8,10.91,1.53
+374833,2026-11-10,Ole Miss,SE Louisiana,8475,Santiago Trouet,18.15,10.49,5.37
+374833,2026-11-10,Ole Miss,SE Louisiana,201466,Roman Siulepa,18.0,8.43,0.35
+374833,2026-11-10,Ole Miss,SE Louisiana,199855,Christian Brown,10.83,5.21,1.48
+374833,2026-11-10,Ole Miss,SE Louisiana,602,Zach Day,4.95,2.86,2.6
+374833,2026-11-10,Ole Miss,SE Louisiana,226294,Yohance Connor,7.28,2.32,0.0
+374833,2026-11-10,Ole Miss,SE Louisiana,3526,Dasear Haskins,6.67,0.0,0.0
+374833,2026-11-10,Ole Miss,SE Louisiana,226302,Jaron Saulsberry,3.48,0.0,0.0
+374833,2026-11-10,Ole Miss,SE Louisiana,3896,Stefan Cicic,2.05,0.0,0.0
+374833,2026-11-10,Ole Miss,SE Louisiana,226300,Daniel Patton,1.67,0.0,0.0
+374833,2026-11-10,SE Louisiana,Ole Miss,7063,Tyler Rolison,31.73,19.93,6.25
+374833,2026-11-10,SE Louisiana,Ole Miss,198327,Ashley Sims II,25.25,14.43,6.85
+374833,2026-11-10,SE Louisiana,Ole Miss,198079,Jackson Furman,28.15,12.64,3.67
+374833,2026-11-10,SE Louisiana,Ole Miss,2171,Tybo Bailey,13.07,11.74,6.45
+374833,2026-11-10,SE Louisiana,Ole Miss,167,Yanis Ndjonga,16.65,10.61,2.54
+374833,2026-11-10,SE Louisiana,Ole Miss,6061,Quincy Allen,15.7,9.06,0.4
+374833,2026-11-10,SE Louisiana,Ole Miss,201969,Garrett Shoemaker,14.9,6.61,0.35
+374833,2026-11-10,SE Louisiana,Ole Miss,198325,Gio Sanford,16.62,5.12,3.97
+374833,2026-11-10,SE Louisiana,Ole Miss,5534,Logan Suber,4.55,4.55,0.0
+374833,2026-11-10,SE Louisiana,Ole Miss,232307,Haki Muhammad II,15.57,3.94,3.78
+374833,2026-11-10,SE Louisiana,Ole Miss,198314,Daniel Akoue,5.78,2.3,0.0
+374833,2026-11-10,SE Louisiana,Ole Miss,202867,JJ Massaquoi,12.03,1.73,0.0
+374834,2026-11-10,Bucknell,Virginia,3977,Luca Soroa Schaller,31.97,22.47,7.2
+374834,2026-11-10,Bucknell,Virginia,1415,Aleksander Pachucki,32.48,21.06,7.2
+374834,2026-11-10,Bucknell,Virginia,1311,Jayden Williams,24.77,18.32,6.26
+374834,2026-11-10,Bucknell,Virginia,11268,Rocco Lamuno,27.6,18.3,5.71
+374834,2026-11-10,Bucknell,Virginia,1315,Patrick O'Brien,22.62,17.87,6.13
+374834,2026-11-10,Bucknell,Virginia,6823,Kyle Marshall,15.73,7.29,2.43
+374834,2026-11-10,Bucknell,Virginia,215968,Luke Soden,18.07,6.1,0.0
+374834,2026-11-10,Bucknell,Virginia,228777,Ethan Marten-Coney,12.05,4.85,1.07
+374834,2026-11-10,Bucknell,Virginia,228772,Danny Kennard,3.67,0.67,0.0
+374834,2026-11-10,Bucknell,Virginia,228773,Mert Kocagozoglu,4.77,0.0,0.0
+374834,2026-11-10,Bucknell,Virginia,1314,Kellen Welch,4.58,0.0,0.0
+374834,2026-11-10,Bucknell,Virginia,1317,Matt Lange,0.85,0.0,0.0
+374834,2026-11-10,Bucknell,Virginia,228786,Joe Youakim,0.85,0.0,0.0
+374834,2026-11-10,Virginia,Bucknell,203192,Johann Grunloh,21.4,19.2,7.2
+374834,2026-11-10,Virginia,Bucknell,203196,Chance Mallory,21.17,17.71,5.34
+374834,2026-11-10,Virginia,Bucknell,203190,Thijs De Ridder,21.12,15.9,5.39
+374834,2026-11-10,Virginia,Bucknell,2519,Sam Lewis,18.97,14.94,3.31
+374834,2026-11-10,Virginia,Bucknell,233472,Nolan Adekunle,18.92,13.39,2.65
+374834,2026-11-10,Virginia,Bucknell,8203,Elijah Gertrude,14.0,9.65,3.89
+374834,2026-11-10,Virginia,Bucknell,3490,Martin Carrere,17.28,8.65,4.56
+374834,2026-11-10,Virginia,Bucknell,806,Kalu Anya,10.67,6.98,1.81
+374834,2026-11-10,Virginia,Bucknell,6966,Jan Vide,16.85,6.41,1.86
+374834,2026-11-10,Virginia,Bucknell,7304,Jurian Dixon,14.17,4.11,0.0
+374834,2026-11-10,Virginia,Bucknell,233481,Favour Ibe,6.98,0.0,0.0
+374834,2026-11-10,Virginia,Bucknell,203188,Silas Barksdale,5.98,0.0,0.0
+374834,2026-11-10,Virginia,Bucknell,8199,Carter Lang,2.92,0.0,0.0
+374834,2026-11-10,Virginia,Bucknell,198050,Christian Harmon,4.58,0.0,0.0
+374834,2026-11-10,Virginia,Bucknell,203197,Owen Odom,1.67,0.0,0.0
+374834,2026-11-10,Virginia,Bucknell,233487,Nick Rotter,1.67,0.0,0.0
+374834,2026-11-10,Virginia,Bucknell,233489,Quincy Watson,1.67,0.0,0.0
+374836,2026-11-10,Harvard,Northeastern,1066,Ben Eisendrath,41.93,41.91,8.0
+374836,2026-11-10,Harvard,Northeastern,1058,Thomas Batties II,40.52,40.5,8.0
+374836,2026-11-10,Harvard,Northeastern,1064,Tey Barbour,37.25,37.23,8.0
+374836,2026-11-10,Harvard,Northeastern,1059,Robert Hinton,36.5,36.48,5.87
+374836,2026-11-10,Harvard,Northeastern,229945,Jason Singleton,32.17,32.15,8.0
+374836,2026-11-10,Harvard,Northeastern,229929,Julian Adigun,19.07,19.07,2.13
+374836,2026-11-10,Harvard,Northeastern,1057,Luca Ace-Nasteski,7.62,7.62,0.0
+374836,2026-11-10,Harvard,Northeastern,199524,Frankie Mannino,5.9,5.9,0.0
+374836,2026-11-10,Harvard,Northeastern,1068,Xavier Nesbitt,4.05,4.05,0.0
+374836,2026-11-10,Northeastern,Harvard,199552,Dorian Grosber,43.42,43.4,8.0
+374836,2026-11-10,Northeastern,Harvard,3970,Rashad King,43.3,43.28,8.0
+374836,2026-11-10,Northeastern,Harvard,2332,Mike Loughnane,42.87,42.85,8.0
+374836,2026-11-10,Northeastern,Harvard,199660,Louis Bond,41.1,41.08,8.0
+374836,2026-11-10,Northeastern,Harvard,6087,Brayden Young,28.43,28.41,8.0
+374836,2026-11-10,Northeastern,Harvard,201057,Liam Koelsch,14.22,14.22,0.0
+374836,2026-11-10,Northeastern,Harvard,3975,Ryan Williams,9.0,9.0,0.0
+374836,2026-11-10,Northeastern,Harvard,231425,Damian Jung,2.67,2.67,0.0
+374837,2026-11-10,Eastern Kentucky,Georgia Tech,229464,Justin McCarter,29.13,27.5,6.6
+374837,2026-11-10,Eastern Kentucky,Georgia Tech,229463,Josh Lowe,27.58,25.95,7.8
+374837,2026-11-10,Eastern Kentucky,Georgia Tech,574,Shadrak Lasu,27.05,25.42,7.8
+374837,2026-11-10,Eastern Kentucky,Georgia Tech,5158,Damone King,24.02,22.38,6.4
+374837,2026-11-10,Eastern Kentucky,Georgia Tech,229469,Drae Vasser,21.6,21.58,4.88
+374837,2026-11-10,Eastern Kentucky,Georgia Tech,1565,Yvens Paul,21.25,21.25,0.0
+374837,2026-11-10,Eastern Kentucky,Georgia Tech,1564,Jackson Holt,18.82,17.2,4.32
+374837,2026-11-10,Eastern Kentucky,Georgia Tech,2967,Austin Ball,16.38,16.38,1.2
+374837,2026-11-10,Eastern Kentucky,Georgia Tech,199940,Omer Hamama,13.55,13.55,0.0
+374837,2026-11-10,Eastern Kentucky,Georgia Tech,229467,Amari Owens,0.62,0.62,0.0
+374837,2026-11-10,Georgia Tech,Eastern Kentucky,201310,Tylis Jordan,35.03,33.4,7.8
+374837,2026-11-10,Georgia Tech,Eastern Kentucky,4034,Colby Garland,28.13,26.5,3.24
+374837,2026-11-10,Georgia Tech,Eastern Kentucky,2536,Victor Valdes,27.45,25.88,7.45
+374837,2026-11-10,Georgia Tech,Eastern Kentucky,1337,Kam Craft,26.08,25.43,7.8
+374837,2026-11-10,Georgia Tech,Eastern Kentucky,5444,Nasir Whitlock,25.97,24.92,3.42
+374837,2026-11-10,Georgia Tech,Eastern Kentucky,2533,Jackson Fields,20.53,18.95,5.54
+374837,2026-11-10,Georgia Tech,Eastern Kentucky,199425,Cole Kirouac,13.6,13.55,2.26
+374837,2026-11-10,Georgia Tech,Eastern Kentucky,224503,Kaiden Bailey,9.47,9.46,1.5
+374837,2026-11-10,Georgia Tech,Eastern Kentucky,224512,Ilja Kurucs,3.83,3.83,0.0
+374837,2026-11-10,Georgia Tech,Eastern Kentucky,199382,Jackson McVey,3.15,3.15,0.0
+374837,2026-11-10,Georgia Tech,Eastern Kentucky,224506,Moustapha Diop,2.7,2.7,0.0
+374837,2026-11-10,Georgia Tech,Eastern Kentucky,224502,Kayden Allen,2.4,2.4,0.0
+374837,2026-11-10,Georgia Tech,Eastern Kentucky,203271,Courtland Muldrew,1.65,1.65,0.0
+374840,2026-11-10,Prairie View A&M,SMU,3442,Anthony Gause,39.88,24.88,6.97
+374840,2026-11-10,Prairie View A&M,SMU,201510,Elijah Mitchell,34.88,19.94,5.45
+374840,2026-11-10,Prairie View A&M,SMU,17297,Micah Bell,27.12,19.76,6.97
+374840,2026-11-10,Prairie View A&M,SMU,490,Jaylen Wharton,19.02,15.24,4.86
+374840,2026-11-10,Prairie View A&M,SMU,330,Jaelyn Lee,15.58,9.6,0.96
+374840,2026-11-10,Prairie View A&M,SMU,6394,Davis Bynum,14.8,9.54,1.52
+374840,2026-11-10,Prairie View A&M,SMU,3901,Michael Eley,15.87,8.61,4.41
+374840,2026-11-10,Prairie View A&M,SMU,6572,Davian Williams,12.83,8.42,2.57
+374840,2026-11-10,Prairie View A&M,SMU,231860,Eddie Page,8.0,7.52,1.15
+374840,2026-11-10,Prairie View A&M,SMU,231853,Dashawn Ceaser,3.02,1.42,0.0
+374840,2026-11-10,Prairie View A&M,SMU,231851,Bryant Ajiero,6.08,0.0,0.0
+374840,2026-11-10,Prairie View A&M,SMU,7321,Sebastian Tidor,2.87,0.0,0.0
+374840,2026-11-10,SMU,Prairie View A&M,3893,Rowan Brumbaugh,23.75,18.38,6.97
+374840,2026-11-10,SMU,Prairie View A&M,202023,Jermaine O'Neal Jr.,20.98,15.85,4.02
+374840,2026-11-10,SMU,Prairie View A&M,908,Oziyah Sellers,22.17,15.66,4.02
+374840,2026-11-10,SMU,Prairie View A&M,202026,Jaden Toombs,20.55,14.82,4.21
+374840,2026-11-10,SMU,Prairie View A&M,234361,Jakub Szumert,19.33,13.6,3.06
+374840,2026-11-10,SMU,Prairie View A&M,202031,Billy White III,19.77,12.1,3.91
+374840,2026-11-10,SMU,Prairie View A&M,6331,David Terrell Jr.,22.68,11.97,2.95
+374840,2026-11-10,SMU,Prairie View A&M,6858,Johan Munch,19.45,10.18,2.76
+374840,2026-11-10,SMU,Prairie View A&M,202028,Nigel Walls,8.8,4.6,2.95
+374840,2026-11-10,SMU,Prairie View A&M,202983,Jacob Patrick,12.42,3.92,0.0
+374840,2026-11-10,SMU,Prairie View A&M,232365,Cameron Lomax,10.1,3.92,0.0
+374841,2026-11-10,NC State,Presbyterian,199567,Preston Edmead,29.42,24.22,6.32
+374841,2026-11-10,NC State,Presbyterian,240,Ven-Allen Lubin,25.38,20.03,4.68
+374841,2026-11-10,NC State,Presbyterian,2862,Paul McNeil Jr.,28.48,19.21,3.88
+374841,2026-11-10,NC State,Presbyterian,200345,Darius Adams,28.7,17.68,5.4
+374841,2026-11-10,NC State,Presbyterian,834,Christian Hammond,25.52,16.02,4.66
+374841,2026-11-10,NC State,Presbyterian,7591,Eemeli Yalaho,22.88,12.87,5.26
+374841,2026-11-10,NC State,Presbyterian,7297,Kyle Evans,15.85,12.05,1.5
+374841,2026-11-10,NC State,Presbyterian,200787,Zymicah Wilkins,13.43,7.95,2.07
+374841,2026-11-10,NC State,Presbyterian,8360,R.J. Keene II,6.33,2.22,0.0
+374841,2026-11-10,NC State,Presbyterian,231164,Kingston Whitty,1.47,0.0,0.0
+374841,2026-11-10,NC State,Presbyterian,231160,Robert Jurkovic,1.47,0.0,0.0
+374841,2026-11-10,NC State,Presbyterian,3375,Comeh Emuobor,0.98,0.0,0.0
+374841,2026-11-10,NC State,Presbyterian,197962,Jacari Brim,0.08,0.0,0.0
+374841,2026-11-10,Presbyterian,NC State,5098,Jaylen Peterson,36.42,23.97,4.76
+374841,2026-11-10,Presbyterian,NC State,5108,Triston Wilson,30.98,23.22,6.69
+374841,2026-11-10,Presbyterian,NC State,5105,Carl Parrish,26.32,20.04,6.72
+374841,2026-11-10,Presbyterian,NC State,5107,Chidi Chiakwelu,21.67,18.9,6.28
+374841,2026-11-10,Presbyterian,NC State,7052,Erik Taylor,21.03,14.69,4.29
+374841,2026-11-10,Presbyterian,NC State,231876,EJ Smith,13.62,8.38,2.43
+374841,2026-11-10,Presbyterian,NC State,5104,Iverson King,9.98,7.89,2.43
+374841,2026-11-10,Presbyterian,NC State,231870,Langston Hackworth,14.53,5.72,0.04
+374841,2026-11-10,Presbyterian,NC State,201516,Amare Anderson,11.38,4.11,0.04
+374841,2026-11-10,Presbyterian,NC State,201518,JD Bowden,5.35,3.37,0.04
+374841,2026-11-10,Presbyterian,NC State,5109,Khalon Hudson,6.75,1.94,0.07
+374841,2026-11-10,Presbyterian,NC State,201517,Augustine Ayelyine,0.98,0.0,0.0
+374841,2026-11-10,Presbyterian,NC State,231879,Nehemiah Young,0.98,0.0,0.0
+374844,2026-11-10,Loyola Marymount,Troy,1082,All Wright,39.0,39.0,7.57
+374844,2026-11-10,Loyola Marymount,Troy,200254,Mazi Mosley,38.1,38.1,6.72
+374844,2026-11-10,Loyola Marymount,Troy,3192,Jasai Miles,35.45,35.45,8.0
+374844,2026-11-10,Loyola Marymount,Troy,7002,Zion Sensley,34.77,34.77,3.42
+374844,2026-11-10,Loyola Marymount,Troy,6969,Jevon Porter,28.67,28.67,8.0
+374844,2026-11-10,Loyola Marymount,Troy,6964,Aaron McBride,27.27,27.27,5.93
+374844,2026-11-10,Loyola Marymount,Troy,6138,Andy Sigiscar,12.97,12.97,0.0
+374844,2026-11-10,Loyola Marymount,Troy,211612,Christian Humphrey-Rembert,8.78,8.78,0.37
+374844,2026-11-10,Troy,Loyola Marymount,5177,Jacoi Hutchinson,38.57,38.57,6.4
+374844,2026-11-10,Troy,Loyola Marymount,6393,Donovan Oday,37.85,37.85,8.0
+374844,2026-11-10,Troy,Loyola Marymount,5614,Sam Walters,33.97,33.97,8.0
+374844,2026-11-10,Troy,Loyola Marymount,232946,Cau Pacheco,32.63,32.63,8.0
+374844,2026-11-10,Troy,Loyola Marymount,2632,Caden Diggs,22.17,22.17,5.02
+374844,2026-11-10,Troy,Loyola Marymount,2631,Robert Davis Jr.,16.03,16.03,1.6
+374844,2026-11-10,Troy,Loyola Marymount,7620,Mobi Ikegwuruka,15.12,15.12,2.98
+374844,2026-11-10,Troy,Loyola Marymount,2538,Kerrington Kiel,12.32,12.32,0.0
+374844,2026-11-10,Troy,Loyola Marymount,232945,Afonso Pacheco,9.95,9.95,0.0
+374844,2026-11-10,Troy,Loyola Marymount,232947,Willie Piggott Jr.,4.13,4.13,0.0
+374844,2026-11-10,Troy,Loyola Marymount,232949,Tucker Wadsworth,2.27,2.27,0.0
+374845,2026-11-10,Bradley,Davidson,18556,Trevon Payton,29.27,26.94,4.84
+374845,2026-11-10,Bradley,Davidson,2817,Noah Williams,26.89,24.91,3.33
+374845,2026-11-10,Bradley,Davidson,8130,Josh Ibukunoluwa,25.21,24.85,3.43
+374845,2026-11-10,Bradley,Davidson,228732,Ben Thornbrue,21.27,20.91,4.2
+374845,2026-11-10,Bradley,Davidson,4629,Timoty van der Knaap,21.45,18.58,2.45
+374845,2026-11-10,Bradley,Davidson,228727,Dimitrije Pavlovic,21.04,18.06,4.66
+374845,2026-11-10,Bradley,Davidson,228721,Max Gaspa,17.49,17.03,3.83
+374845,2026-11-10,Bradley,Davidson,198290,Jackson Seastrunk,13.17,11.3,1.12
+374845,2026-11-10,Bradley,Davidson,3085,Xander Alarie,11.43,8.81,1.23
+374845,2026-11-10,Bradley,Davidson,198284,Gustavo Guimares,8.87,8.12,1.64
+374845,2026-11-10,Bradley,Davidson,228723,Kyle Grill,3.91,3.25,1.05
+374845,2026-11-10,Davidson,Bradley,5591,Nick Janowski,36.33,32.89,6.35
+374845,2026-11-10,Davidson,Bradley,2426,Sam Brown,31.3,28.41,1.76
+374845,2026-11-10,Davidson,Bradley,198854,Ian Platteeuw,28.62,25.3,2.94
+374845,2026-11-10,Davidson,Bradley,4777,Josh Scovens,27.92,24.47,6.35
+374845,2026-11-10,Davidson,Bradley,25864,John Carter Jr.,22.48,19.04,6.35
+374845,2026-11-10,Davidson,Bradley,229273,Tom Stoiber,15.22,15.08,3.0
+374845,2026-11-10,Davidson,Bradley,198370,Jackson Keith,14.1,14.1,0.0
+374845,2026-11-10,Davidson,Bradley,4560,JaQualon Roberts,8.25,8.25,0.42
+374845,2026-11-10,Davidson,Bradley,2344,Nick Coval,8.7,8.14,4.59
+374845,2026-11-10,Davidson,Bradley,229265,Eetu Heinonen,7.08,7.08,0.0
+374846,2026-11-10,Longwood,St. Mary's (MD),4035,Jaylen Benard,19.87,14.35,3.64
+374846,2026-11-10,Longwood,St. Mary's (MD),3487,Alphonzo Billups III,18.9,13.39,3.64
+374846,2026-11-10,Longwood,St. Mary's (MD),5747,Kany Musungay,15.8,10.35,4.01
+374846,2026-11-10,Longwood,St. Mary's (MD),199052,MJ Williams,15.85,10.34,3.34
+374846,2026-11-10,Longwood,St. Mary's (MD),201818,TJ Robinson,13.27,9.56,1.96
+374846,2026-11-10,Longwood,St. Mary's (MD),200142,Elijah Kelly,14.25,8.86,3.11
+374846,2026-11-10,Longwood,St. Mary's (MD),225174,Jorke Aav,15.9,8.03,1.25
+374846,2026-11-10,Longwood,St. Mary's (MD),202060,Abu Yarmah,14.35,6.99,3.11
+374846,2026-11-10,Longwood,St. Mary's (MD),199001,Lazar Milosevic,11.92,6.68,2.41
+374846,2026-11-10,Longwood,St. Mary's (MD),200141,Isaiah Kalala,13.12,6.61,1.78
+374846,2026-11-10,Longwood,St. Mary's (MD),3948,Ben Wesson,11.92,5.86,3.41
+374846,2026-11-10,Longwood,St. Mary's (MD),225178,Will Dopfer,11.78,4.68,1.9
+374846,2026-11-10,Longwood,St. Mary's (MD),2242,Domas Kauzonas,7.35,0.82,0.0
+374846,2026-11-10,Longwood,St. Mary's (MD),225185,Elijah Thomas,8.85,0.2,0.2
+374846,2026-11-10,Longwood,St. Mary's (MD),200138,Gerald Burr III,6.88,0.0,0.0
+374846,2026-11-10,St. Mary's (MD),Longwood,215786,Korey Blair,22.73,19.36,6.75
+374846,2026-11-10,St. Mary's (MD),Longwood,215785,Evan Quintero,23.3,18.59,6.75
+374846,2026-11-10,St. Mary's (MD),Longwood,215792,Kai Hyde,21.85,18.48,6.75
+374846,2026-11-10,St. Mary's (MD),Longwood,241079,Chase Peterson,23.42,16.83,6.75
+374846,2026-11-10,St. Mary's (MD),Longwood,241080,Malik Gordon,18.67,12.08,2.31
+374846,2026-11-10,St. Mary's (MD),Longwood,241081,Tyriq Liggins,12.7,7.0,2.48
+374846,2026-11-10,St. Mary's (MD),Longwood,241089,Khaled Al-Mateen Evans,12.18,6.78,1.96
+374846,2026-11-10,St. Mary's (MD),Longwood,241085,Tanner Diehl,10.23,4.85,0.0
+374846,2026-11-10,St. Mary's (MD),Longwood,241083,Omar Williams,4.55,2.75,0.0
+374846,2026-11-10,St. Mary's (MD),Longwood,241087,Malachi Parrott,8.67,0.0,0.0
+374846,2026-11-10,St. Mary's (MD),Longwood,17876,Ben Kobil,11.73,0.0,0.0
+374846,2026-11-10,St. Mary's (MD),Longwood,241086,Kabali Kajubi,6.42,0.0,0.0
+374846,2026-11-10,St. Mary's (MD),Longwood,215789,Josh Maher,3.55,0.0,0.0
+374846,2026-11-10,St. Mary's (MD),Longwood,215790,Sam Caldwell,6.68,0.0,0.0
+374846,2026-11-10,St. Mary's (MD),Longwood,241088,Logan Hoot,3.48,0.0,0.0
+374846,2026-11-10,St. Mary's (MD),Longwood,241082,Serigne Babou,3.48,0.0,0.0
+374846,2026-11-10,St. Mary's (MD),Longwood,241084,Cam Brooks,6.35,0.0,0.0
+374847,2026-11-10,Georgia Southern,Mercer,199393,Dallas Gardner,40.85,40.84,8.0
+374847,2026-11-10,Georgia Southern,Mercer,202281,Eltramon Smith,38.43,38.43,8.0
+374847,2026-11-10,Georgia Southern,Mercer,200092,Truman Claytor IV,36.93,36.93,8.0
+374847,2026-11-10,Georgia Southern,Mercer,229808,Jeromy Davis,28.52,28.51,8.0
+374847,2026-11-10,Georgia Southern,Mercer,199404,Jayden Williams,24.07,24.07,2.78
+374847,2026-11-10,Georgia Southern,Mercer,229813,Elidjah Savane,22.42,22.41,5.2
+374847,2026-11-10,Georgia Southern,Mercer,200552,Josh Dixon,13.8,13.8,0.02
+374847,2026-11-10,Georgia Southern,Mercer,229807,Cole Crissman,13.42,13.42,0.0
+374847,2026-11-10,Georgia Southern,Mercer,229812,Elton James,6.57,6.57,0.0
+374847,2026-11-10,Mercer,Georgia Southern,16135,Quinton Perkins II,38.42,38.41,8.0
+374847,2026-11-10,Mercer,Georgia Southern,8665,Brady Shoulders,37.78,37.78,4.28
+374847,2026-11-10,Mercer,Georgia Southern,1981,Makoi Mabor Makoi,35.77,35.76,7.23
+374847,2026-11-10,Mercer,Georgia Southern,2795,Karon Boyd,32.77,32.76,8.0
+374847,2026-11-10,Mercer,Georgia Southern,230816,Shane Cherry,30.02,30.01,7.9
+374847,2026-11-10,Mercer,Georgia Southern,230817,Derek Goodman,26.23,26.23,4.58
+374847,2026-11-10,Mercer,Georgia Southern,6346,KJ Lamonte,17.25,17.25,0.0
+374847,2026-11-10,Mercer,Georgia Southern,188,Keelan Steele,4.25,4.25,0.0
+374847,2026-11-10,Mercer,Georgia Southern,8668,Petras Padegimas,2.52,2.52,0.0
+374848,2026-11-10,Maine,Rhode Island,5410,DeAndre Williams,34.6,34.23,7.63
+374848,2026-11-10,Maine,Rhode Island,1221,Villiam Garcia Adsten,24.03,23.69,3.15
+374848,2026-11-10,Maine,Rhode Island,4647,Yanis Bamba,22.67,22.67,4.32
+374848,2026-11-10,Maine,Rhode Island,202,Darius Lopes,21.75,21.38,7.56
+374848,2026-11-10,Maine,Rhode Island,193,Killian Gribben,21.2,20.83,6.73
+374848,2026-11-10,Maine,Rhode Island,200269,Ace Flagg,20.85,20.48,7.63
+374848,2026-11-10,Maine,Rhode Island,2559,Ayden Evans,18.8,18.8,0.9
+374848,2026-11-10,Maine,Rhode Island,230667,Hudson Franz,15.17,15.17,0.0
+374848,2026-11-10,Maine,Rhode Island,230672,Wyatt Triestman,12.45,12.43,0.16
+374848,2026-11-10,Maine,Rhode Island,203,Caleb Crawford,8.48,8.48,0.07
+374848,2026-11-10,Rhode Island,Maine,6871,Dylan Williamson,32.72,32.35,7.63
+374848,2026-11-10,Rhode Island,Maine,2832,Jonah Hinton,32.0,31.63,6.1
+374848,2026-11-10,Rhode Island,Maine,6993,Jason Fontenet II,30.55,30.18,6.1
+374848,2026-11-10,Rhode Island,Maine,1423,Jahmere Tripp,26.97,26.6,7.56
+374848,2026-11-10,Rhode Island,Maine,205518,Matas Deniusas,24.07,23.7,3.31
+374848,2026-11-10,Rhode Island,Maine,232004,Nedas Raupelis,14.97,14.97,1.53
+374848,2026-11-10,Rhode Island,Maine,201649,Javon Perry,14.0,14.0,2.85
+374848,2026-11-10,Rhode Island,Maine,201648,Barrett Loer,9.45,9.45,1.53
+374848,2026-11-10,Rhode Island,Maine,201642,Jalen Harper,8.0,8.0,1.53
+374848,2026-11-10,Rhode Island,Maine,231994,Jaen Chatman,7.28,7.28,0.0
+374849,2026-11-10,Texas State,UT Rio Grande Valley,202559,DJ Hall,32.15,30.36,5.96
+374849,2026-11-10,Texas State,UT Rio Grande Valley,202557,Robert Fields,28.17,26.37,6.21
+374849,2026-11-10,Texas State,UT Rio Grande Valley,3082,Paul Djobet,28.12,26.32,4.36
+374849,2026-11-10,Texas State,UT Rio Grande Valley,4886,Kaden Gumbs,27.52,25.81,4.26
+374849,2026-11-10,Texas State,UT Rio Grande Valley,202562,Dimp Pernell,25.37,23.57,3.32
+374849,2026-11-10,Texas State,UT Rio Grande Valley,803,Quel'Ron House,13.77,13.67,3.22
+374849,2026-11-10,Texas State,UT Rio Grande Valley,202563,Ky Pernell,9.73,9.73,1.85
+374849,2026-11-10,Texas State,UT Rio Grande Valley,232866,Kole Grandison,9.33,9.33,1.85
+374849,2026-11-10,Texas State,UT Rio Grande Valley,232862,David Abisogun,8.67,8.67,0.0
+374849,2026-11-10,Texas State,UT Rio Grande Valley,202922,KJ Younger,8.67,8.67,0.0
+374849,2026-11-10,Texas State,UT Rio Grande Valley,198247,Caleb Steger,5.35,5.35,0.0
+374849,2026-11-10,Texas State,UT Rio Grande Valley,5859,Ronald Jessamy,3.17,3.17,0.0
+374849,2026-11-10,UT Rio Grande Valley,Texas State,5682,Jace Posey,35.08,33.29,5.56
+374849,2026-11-10,UT Rio Grande Valley,Texas State,5093,B.B. Knight,32.52,30.72,5.51
+374849,2026-11-10,UT Rio Grande Valley,Texas State,441,Devon Pryor,27.68,25.89,3.16
+374849,2026-11-10,UT Rio Grande Valley,Texas State,233373,Bobby Crawford Jr.,24.28,24.28,0.65
+374849,2026-11-10,UT Rio Grande Valley,Texas State,233382,Terrell Wright,23.98,22.19,6.21
+374849,2026-11-10,UT Rio Grande Valley,Texas State,233368,Caden Bell,20.53,20.53,4.78
+374849,2026-11-10,UT Rio Grande Valley,Texas State,5159,Always Wright,19.85,19.85,0.0
+374849,2026-11-10,UT Rio Grande Valley,Texas State,17167,Darius Carr,10.62,10.62,3.7
+374849,2026-11-10,UT Rio Grande Valley,Texas State,233380,Chris Uwayo,2.23,2.23,0.05
+374849,2026-11-10,UT Rio Grande Valley,Texas State,1288,T'Johnn Brown,3.22,1.42,1.42
+374850,2026-11-10,Millsaps,Northwestern State,211337,Davion James,30.72,29.17,6.15
+374850,2026-11-10,Millsaps,Northwestern State,211335,Jaxon Toney,29.45,27.9,5.74
+374850,2026-11-10,Millsaps,Northwestern State,241096,Jordan Smith,22.17,21.94,7.34
+374850,2026-11-10,Millsaps,Northwestern State,241091,Devin Petersen,23.53,19.68,2.17
+374850,2026-11-10,Millsaps,Northwestern State,241092,Caleb Hunt,23.23,18.16,2.78
+374850,2026-11-10,Millsaps,Northwestern State,241097,Davis Joyner,18.05,17.82,7.64
+374850,2026-11-10,Millsaps,Northwestern State,241094,Kori Taylor,20.37,17.61,7.02
+374850,2026-11-10,Millsaps,Northwestern State,16283,Cameron Lumar,19.55,14.48,0.02
+374850,2026-11-10,Millsaps,Northwestern State,16278,Rodney Phillips Jr.,4.22,0.0,0.0
+374850,2026-11-10,Millsaps,Northwestern State,241093,Trevor Clayton,2.57,0.0,0.0
+374850,2026-11-10,Millsaps,Northwestern State,211340,Samuel Holt,2.57,0.0,0.0
+374850,2026-11-10,Millsaps,Northwestern State,211345,Matheus Siqueira,1.35,0.0,0.0
+374850,2026-11-10,Millsaps,Northwestern State,211348,Brock Smith,1.35,0.0,0.0
+374850,2026-11-10,Millsaps,Northwestern State,241095,Ky Oscar,0.88,0.0,0.0
+374850,2026-11-10,Northwestern State,Millsaps,231560,Isaiah Vick,31.32,29.77,7.1
+374850,2026-11-10,Northwestern State,Millsaps,231557,Kai Simpson,32.25,26.95,4.29
+374850,2026-11-10,Northwestern State,Millsaps,231547,Antoine Almuttar,28.6,25.37,7.64
+374850,2026-11-10,Northwestern State,Millsaps,231549,Doyle Brown,22.42,19.52,6.6
+374850,2026-11-10,Northwestern State,Millsaps,201193,Kordrick Turner,24.65,19.36,2.57
+374850,2026-11-10,Northwestern State,Millsaps,16956,Nathan Ojukwu,18.38,15.85,1.07
+374850,2026-11-10,Northwestern State,Millsaps,231548,Armon Almuttar,17.08,12.45,4.38
+374850,2026-11-10,Northwestern State,Millsaps,6450,Dionjahe Thomas,8.8,8.8,0.0
+374850,2026-11-10,Northwestern State,Millsaps,231553,Jayden Nesbitt,6.55,5.2,5.2
+374850,2026-11-10,Northwestern State,Millsaps,231550,Cam Kelly,8.6,3.5,0.0
+374850,2026-11-10,Northwestern State,Millsaps,231556,Boogii Remo,1.35,0.0,0.0
+374851,2026-11-10,Central Arkansas,Ecclesia,7663,Ty Robinson,12.65,8.38,3.09
+374851,2026-11-10,Central Arkansas,Ecclesia,7660,Cole McCormick,14.58,8.16,2.74
+374851,2026-11-10,Central Arkansas,Ecclesia,203504,Simm-Marten Saadi,20.55,8.03,4.59
+374851,2026-11-10,Central Arkansas,Ecclesia,198532,Luke Moore,11.7,7.48,4.18
+374851,2026-11-10,Central Arkansas,Ecclesia,8372,Tucker Anderson,17.47,7.22,4.33
+374851,2026-11-10,Central Arkansas,Ecclesia,198521,Harry Beauchamp,15.95,5.94,2.68
+374851,2026-11-10,Central Arkansas,Ecclesia,228960,Andrew Hoerner,19.45,5.13,2.42
+374851,2026-11-10,Central Arkansas,Ecclesia,21399,Rylie Marshall,12.62,4.78,3.92
+374851,2026-11-10,Central Arkansas,Ecclesia,228957,Camarion Bead,16.87,4.41,2.1
+374851,2026-11-10,Central Arkansas,Ecclesia,228970,R.J. Young,17.73,2.74,2.57
+374851,2026-11-10,Central Arkansas,Ecclesia,228969,Isaiah Templeton,14.27,2.26,1.7
+374851,2026-11-10,Central Arkansas,Ecclesia,198533,R.J. Newton,11.53,1.29,0.73
+374851,2026-11-10,Central Arkansas,Ecclesia,198535,J.C. Shulman,14.63,0.0,0.0
+374851,2026-11-10,Ecclesia,Central Arkansas,241109,Eric Armstrong,14.82,6.4,4.22
+374851,2026-11-10,Ecclesia,Central Arkansas,241106,Jordan Abram,14.87,6.37,4.22
+374851,2026-11-10,Ecclesia,Central Arkansas,241111,Chance Rogers,12.12,6.09,3.2
+374851,2026-11-10,Ecclesia,Central Arkansas,241102,Jaleel Thrower,21.92,3.5,2.79
+374851,2026-11-10,Ecclesia,Central Arkansas,14870,Collin Lockhart,20.27,3.49,3.49
+374851,2026-11-10,Ecclesia,Central Arkansas,241105,Peter Wanski,9.17,3.09,3.09
+374851,2026-11-10,Ecclesia,Central Arkansas,241108,Jayden Blair,13.43,2.72,2.72
+374851,2026-11-10,Ecclesia,Central Arkansas,241107,Nasir Mills,10.27,2.59,2.59
+374851,2026-11-10,Ecclesia,Central Arkansas,241103,Issac Natchia,7.2,2.23,2.23
+374851,2026-11-10,Ecclesia,Central Arkansas,241110,Jace Galvez,10.47,2.03,1.29
+374851,2026-11-10,Ecclesia,Central Arkansas,241100,Lucas Figures,1.88,1.22,1.22
+374851,2026-11-10,Ecclesia,Central Arkansas,241101,Zay Parrish,14.85,1.13,0.39
+374851,2026-11-10,Ecclesia,Central Arkansas,241104,Titus Lee,12.73,0.81,0.07
+374851,2026-11-10,Ecclesia,Central Arkansas,241112,Gabe Davis,11.85,0.0,0.0
+374852,2026-11-10,Dallas Christian,Texas A&M-Corpus Christi,233950,Jason Ezeadiugwu,37.5,25.06,4.04
+374852,2026-11-10,Dallas Christian,Texas A&M-Corpus Christi,215432,Ayo Awoyomi,30.67,21.98,3.82
+374852,2026-11-10,Dallas Christian,Texas A&M-Corpus Christi,215436,Kordon Henderson,22.87,21.41,3.2
+374852,2026-11-10,Dallas Christian,Texas A&M-Corpus Christi,9367,Dion Grisnold,26.87,21.33,1.81
+374852,2026-11-10,Dallas Christian,Texas A&M-Corpus Christi,3731,Michael Mcleod,26.68,14.76,2.78
+374852,2026-11-10,Dallas Christian,Texas A&M-Corpus Christi,233953,Jacob Rodriguez,19.55,11.7,5.01
+374852,2026-11-10,Dallas Christian,Texas A&M-Corpus Christi,233952,Tristian Moore,18.8,10.24,4.39
+374852,2026-11-10,Dallas Christian,Texas A&M-Corpus Christi,233951,Daniel Lovato,8.98,8.97,0.0
+374852,2026-11-10,Dallas Christian,Texas A&M-Corpus Christi,233955,Carlos Campos,8.08,0.0,0.0
+374852,2026-11-10,Texas A&M-Corpus Christi,Dallas Christian,202533,Daniel Michelini-Jackson,15.98,15.08,1.78
+374852,2026-11-10,Texas A&M-Corpus Christi,Dallas Christian,202540,Bryson Wheatfall,17.25,13.41,2.78
+374852,2026-11-10,Texas A&M-Corpus Christi,Dallas Christian,232846,Damarion Winston,14.43,12.94,2.34
+374852,2026-11-10,Texas A&M-Corpus Christi,Dallas Christian,2442,Sebastian Robinson,16.38,11.53,0.9
+374852,2026-11-10,Texas A&M-Corpus Christi,Dallas Christian,232847,CJ Worsham,12.0,11.28,1.38
+374852,2026-11-10,Texas A&M-Corpus Christi,Dallas Christian,17128,Dan Mukuna,14.38,10.42,1.06
+374852,2026-11-10,Texas A&M-Corpus Christi,Dallas Christian,4230,Isaiah Lewis,11.02,9.6,1.89
+374852,2026-11-10,Texas A&M-Corpus Christi,Dallas Christian,6130,Jordan Mizell,11.63,9.21,0.9
+374852,2026-11-10,Texas A&M-Corpus Christi,Dallas Christian,232835,Lamin Foon,19.53,8.79,1.06
+374852,2026-11-10,Texas A&M-Corpus Christi,Dallas Christian,203236,Bin Basil,10.2,8.76,2.57
+374852,2026-11-10,Texas A&M-Corpus Christi,Dallas Christian,232838,Desmond Kent Jr.,16.83,7.76,2.23
+374852,2026-11-10,Texas A&M-Corpus Christi,Dallas Christian,232844,Khi Wallace,14.0,7.17,1.72
+374852,2026-11-10,Texas A&M-Corpus Christi,Dallas Christian,232834,Beau Billingsley,15.03,5.96,2.23
+374852,2026-11-10,Texas A&M-Corpus Christi,Dallas Christian,232837,Jacori Jones,11.32,3.54,2.23
+374853,2026-11-10,Belmont,Lipscomb,198186,Jack Smiley,35.93,34.89,6.72
+374853,2026-11-10,Belmont,Lipscomb,3852,Jabez Jenkins,30.3,29.46,3.27
+374853,2026-11-10,Belmont,Lipscomb,199728,Aleksa Ristic,25.03,24.11,3.99
+374853,2026-11-10,Belmont,Lipscomb,228626,Ethan Sage,23.72,22.81,7.56
+374853,2026-11-10,Belmont,Lipscomb,199211,Vincent Neugebauer,22.78,22.53,4.8
+374853,2026-11-10,Belmont,Lipscomb,198297,Matthew Zobrist,19.3,18.44,4.44
+374853,2026-11-10,Belmont,Lipscomb,3688,Isaiah West,18.67,18.29,7.0
+374853,2026-11-10,Belmont,Lipscomb,148,Kayden Fish,10.87,10.87,0.0
+374853,2026-11-10,Belmont,Lipscomb,3853,Cooper Haynes,7.17,7.17,0.0
+374853,2026-11-10,Belmont,Lipscomb,228619,Charlie Gersmehl,6.23,6.23,0.0
+374853,2026-11-10,Lipscomb,Belmont,221,Takai Simpkins,34.37,33.32,6.72
+374853,2026-11-10,Lipscomb,Belmont,16146,Mateo Esmeraldo,33.2,32.16,7.16
+374853,2026-11-10,Lipscomb,Belmont,8126,Titas Sargiunas,31.38,31.0,6.54
+374853,2026-11-10,Lipscomb,Belmont,200082,Devyn Martin,26.07,25.16,4.24
+374853,2026-11-10,Lipscomb,Belmont,230493,Hugo Tidare,20.15,19.83,5.38
+374853,2026-11-10,Lipscomb,Belmont,200084,Kennedy Okpara,19.85,19.13,2.18
+374853,2026-11-10,Lipscomb,Belmont,198523,Truman Byrne,13.93,13.8,3.31
+374853,2026-11-10,Lipscomb,Belmont,200086,Josh Scott,13.77,13.14,0.46
+374853,2026-11-10,Lipscomb,Belmont,230494,Vuk Visnjic,4.23,4.2,0.96
+374853,2026-11-10,Lipscomb,Belmont,200081,Luke Jack,3.05,3.05,0.83
+377987,2026-11-10,College Of Biblical Studies,Texas Southern,3652,Odis Carter,35.77,31.18,7.44
+377987,2026-11-10,College Of Biblical Studies,Texas Southern,2180,Marquice Scott,35.77,31.18,6.39
+377987,2026-11-10,College Of Biblical Studies,Texas Southern,234925,Samuel Johnson,30.4,25.82,5.92
+377987,2026-11-10,College Of Biblical Studies,Texas Southern,234928,Cameron Wagner,28.87,24.37,5.91
+377987,2026-11-10,College Of Biblical Studies,Texas Southern,222736,Frank Madubuko,21.8,21.8,1.13
+377987,2026-11-10,College Of Biblical Studies,Texas Southern,234930,Dasean Brodie,19.23,19.15,5.25
+377987,2026-11-10,College Of Biblical Studies,Texas Southern,1472,Samuel Cole,20.38,15.8,5.15
+377987,2026-11-10,College Of Biblical Studies,Texas Southern,234927,Bryan Fontenot Jr.,2.2,2.2,0.0
+377987,2026-11-10,College Of Biblical Studies,Texas Southern,234926,Josiah Smith,1.35,1.35,0.0
+377987,2026-11-10,Texas Southern,College Of Biblical Studies,4570,Karris Bilal,39.79,35.21,7.44
+377987,2026-11-10,Texas Southern,College Of Biblical Studies,198272,Jason Kimbrough,31.63,27.2,4.61
+377987,2026-11-10,Texas Southern,College Of Biblical Studies,7038,Cameron Patterson,23.03,21.58,4.27
+377987,2026-11-10,Texas Southern,College Of Biblical Studies,7146,Josh Akpovwa,19.71,19.49,2.69
+377987,2026-11-10,Texas Southern,College Of Biblical Studies,2174,Ben Vungo,22.96,18.38,7.44
+377987,2026-11-10,Texas Southern,College Of Biblical Studies,2828,Xander Wedlow,17.25,13.85,4.74
+377987,2026-11-10,Texas Southern,College Of Biblical Studies,232860,Jaylan Walton,13.06,13.06,2.28
+377987,2026-11-10,Texas Southern,College Of Biblical Studies,4063,Kehlin Farooq,12.75,12.75,0.0
+377987,2026-11-10,Texas Southern,College Of Biblical Studies,232858,Sayed Sayed,14.04,10.76,3.71
+377987,2026-11-10,Texas Southern,College Of Biblical Studies,211917,Ahmed Nedal,3.78,2.82,0.0
+377987,2026-11-10,Texas Southern,College Of Biblical Studies,234459,Trey Lewis,1.97,1.97,0.0
+377988,2026-11-10,Fresno State,Georgia State,5535,Ross Candelino,43.32,43.32,8.0
+377988,2026-11-10,Fresno State,Georgia State,229700,Roger Fabrega Urpina,42.35,42.35,8.0
+377988,2026-11-10,Fresno State,Georgia State,9382,Brian Amuneke,39.45,39.45,5.95
+377988,2026-11-10,Fresno State,Georgia State,8473,Dragos Lungu,34.9,34.9,7.37
+377988,2026-11-10,Fresno State,Georgia State,7160,Bradey Henige,33.72,33.72,6.07
+377988,2026-11-10,Fresno State,Georgia State,7619,Baye Fall,11.28,11.28,1.93
+377988,2026-11-10,Fresno State,Georgia State,216785,KJ Perry,11.02,11.02,2.68
+377988,2026-11-10,Fresno State,Georgia State,229702,Anthony Granger,5.38,5.38,0.0
+377988,2026-11-10,Fresno State,Georgia State,229710,Marko Vuckovic,3.58,3.58,0.0
+377988,2026-11-10,Georgia State,Fresno State,5394,Jacob Meyer,43.84,43.84,7.26
+377988,2026-11-10,Georgia State,Fresno State,1298,Jaden Jackson,41.03,41.03,7.89
+377988,2026-11-10,Georgia State,Fresno State,6238,Jacolb Fredson-Cole,35.93,35.93,7.51
+377988,2026-11-10,Georgia State,Fresno State,792,Mason Nicholson,32.83,32.83,7.49
+377988,2026-11-10,Georgia State,Fresno State,5395,David Thomas,26.11,26.11,1.42
+377988,2026-11-10,Georgia State,Fresno State,989,Eric Parnell,25.72,25.72,6.62
+377988,2026-11-10,Georgia State,Fresno State,199413,Chris Jones,14.48,14.48,1.81
+377988,2026-11-10,Georgia State,Fresno State,3032,Jonas Sirtautas,2.65,2.65,0.0
+377988,2026-11-10,Georgia State,Fresno State,229833,Orion Wilson,2.42,2.42,0.0
+377989,2026-11-10,Green Bay,Northern Iowa,229895,Ne'quan Brown,35.35,32.73,6.9
+377989,2026-11-10,Green Bay,Northern Iowa,6650,Marcus Hall,34.68,32.4,3.38
+377989,2026-11-10,Green Bay,Northern Iowa,1800,Orlando Lovejoy,34.2,31.93,5.75
+377989,2026-11-10,Green Bay,Northern Iowa,229897,Ahmere Carson,30.2,28.42,6.9
+377989,2026-11-10,Green Bay,Northern Iowa,199486,Maruan Cicic,20.33,19.01,5.93
+377989,2026-11-10,Green Bay,Northern Iowa,199093,Isaiah Sutherland,14.63,14.0,0.0
+377989,2026-11-10,Green Bay,Northern Iowa,229906,Clarence Payia,13.67,12.17,4.67
+377989,2026-11-10,Green Bay,Northern Iowa,6660,Mac Wrecke,9.78,8.78,0.0
+377989,2026-11-10,Green Bay,Northern Iowa,229900,Stewart Erhart II,2.48,1.8,0.97
+377989,2026-11-10,Green Bay,Northern Iowa,199495,LeBron Thomas,1.5,1.5,0.0
+377989,2026-11-10,Green Bay,Northern Iowa,2548,Aidan Hadaway,1.17,1.17,0.0
+377989,2026-11-10,Green Bay,Northern Iowa,229899,Tadej Colnaric,1.0,1.0,0.0
+377989,2026-11-10,Green Bay,Northern Iowa,199497,Keegan Van Kauwenberg,1.0,0.0,0.0
+377989,2026-11-10,Northern Iowa,Green Bay,4758,Tate McCubbin,36.1,33.08,6.9
+377989,2026-11-10,Northern Iowa,Green Bay,6783,Greyson Uelmen,32.63,30.15,5.78
+377989,2026-11-10,Northern Iowa,Green Bay,203372,Carson Vis,32.1,29.34,5.99
+377989,2026-11-10,Northern Iowa,Green Bay,3078,Isaiah Johnson-Arigu,31.15,28.49,3.97
+377989,2026-11-10,Northern Iowa,Green Bay,201124,Levi Valdo,22.88,19.94,6.16
+377989,2026-11-10,Northern Iowa,Green Bay,5329,Kyle Pock,13.78,13.38,4.58
+377989,2026-11-10,Northern Iowa,Green Bay,4406,Ian Smikle,12.73,12.15,1.12
+377989,2026-11-10,Northern Iowa,Green Bay,201118,Geon Hutchins,9.57,9.33,0.0
+377989,2026-11-10,Northern Iowa,Green Bay,231481,Will Gerdes,6.55,6.55,0.0
+377989,2026-11-10,Northern Iowa,Green Bay,231485,Jaydon Kimbrough,2.5,2.5,0.0
+377990,2026-11-10,Evansville,Middle Tennessee,199141,Bryce Quinet,38.25,37.85,7.6
+377990,2026-11-10,Evansville,Middle Tennessee,3932,Max Langenfeld,34.88,34.5,7.45
+377990,2026-11-10,Evansville,Middle Tennessee,811,AJ Casey,32.35,31.95,7.6
+377990,2026-11-10,Evansville,Middle Tennessee,229557,Caden Symons,27.9,27.5,7.6
+377990,2026-11-10,Evansville,Middle Tennessee,201108,Gustav Winther,22.1,22.1,2.22
+377990,2026-11-10,Evansville,Middle Tennessee,199135,Aaron Gutman,21.33,21.2,2.9
+377990,2026-11-10,Evansville,Middle Tennessee,5135,Makuei Riek,17.32,17.02,2.62
+377990,2026-11-10,Evansville,Middle Tennessee,229549,JR Kemm,5.68,5.68,0.0
+377990,2026-11-10,Evansville,Middle Tennessee,229553,Yannick Pinas,0.18,0.18,0.0
+377990,2026-11-10,Middle Tennessee,Evansville,4133,Jahvin Carter,35.05,34.65,7.6
+377990,2026-11-10,Middle Tennessee,Evansville,230921,Quintero Barnett,34.35,33.95,6.13
+377990,2026-11-10,Middle Tennessee,Evansville,3328,Ofri Naveh,32.43,32.03,7.6
+377990,2026-11-10,Middle Tennessee,Evansville,17352,Marcus Whitlock Jr.,31.42,31.01,7.6
+377990,2026-11-10,Middle Tennessee,Evansville,17320,Kaleb Siler,19.6,19.6,3.33
+377990,2026-11-10,Middle Tennessee,Evansville,674,Jarred Hall,19.38,18.98,4.26
+377990,2026-11-10,Middle Tennessee,Evansville,230924,Landyn Colyer,17.62,17.62,1.47
+377990,2026-11-10,Middle Tennessee,Evansville,4137,Eli Rice,9.13,9.13,0.0
+377990,2026-11-10,Middle Tennessee,Evansville,200543,Luka Jovanovic,1.02,1.02,0.0
+377991,2026-11-10,Apprentice School,Hampton,13148,Donovan Means,33.97,30.49,5.7
+377991,2026-11-10,Apprentice School,Hampton,2643,Jaylen Jenkins,31.12,28.32,5.62
+377991,2026-11-10,Apprentice School,Hampton,216031,Devon Brown,27.15,22.91,5.7
+377991,2026-11-10,Apprentice School,Hampton,216034,Jahlil Hope,26.18,22.7,5.7
+377991,2026-11-10,Apprentice School,Hampton,13168,Jabari Brackett,21.18,19.26,1.9
+377991,2026-11-10,Apprentice School,Hampton,216038,Wayne Hedgepeth,14.42,14.42,0.0
+377991,2026-11-10,Apprentice School,Hampton,241072,Tonio Williams,11.82,10.93,0.0
+377991,2026-11-10,Apprentice School,Hampton,241071,Anthony Rosser,8.15,8.02,0.0
+377991,2026-11-10,Apprentice School,Hampton,2088,Kadon Fossett,11.78,7.77,3.89
+377991,2026-11-10,Apprentice School,Hampton,13167,Ahmir Colpetro,7.72,6.83,0.0
+377991,2026-11-10,Apprentice School,Hampton,241070,Elijah Ellison,3.8,3.8,0.0
+377991,2026-11-10,Apprentice School,Hampton,241073,Isaiah Baxter,2.72,2.72,0.0
+377991,2026-11-10,Hampton,Apprentice School,229920,Nehemiah Lawrence,31.5,28.56,5.07
+377991,2026-11-10,Hampton,Apprentice School,2454,Cornelius Robinson III,27.9,25.17,3.14
+377991,2026-11-10,Hampton,Apprentice School,2526,Seth Hubbard,28.72,25.11,5.7
+377991,2026-11-10,Hampton,Apprentice School,2029,Etienne Strothers,22.98,21.64,0.61
+377991,2026-11-10,Hampton,Apprentice School,4721,Aaron Davis III,21.77,19.13,4.21
+377991,2026-11-10,Hampton,Apprentice School,104,Jayme Mitchell Jr.,21.48,18.44,2.13
+377991,2026-11-10,Hampton,Apprentice School,229923,William Preston,12.22,11.0,1.14
+377991,2026-11-10,Hampton,Apprentice School,229924,Rav Randhawa,14.4,10.6,3.64
+377991,2026-11-10,Hampton,Apprentice School,3129,Max Frazier,7.32,7.21,1.42
+377991,2026-11-10,Hampton,Apprentice School,199046,Tyler Jackson,5.85,5.85,1.45
+377991,2026-11-10,Hampton,Apprentice School,229918,Zion Ibekwe,5.87,5.43,0.0
+377992,2026-11-10,Arkansas State,UT Martin,7658,Layne Taylor,32.07,26.29,5.2
+377992,2026-11-10,Arkansas State,UT Martin,6463,Delang Muon,23.32,20.77,5.95
+377992,2026-11-10,Arkansas State,UT Martin,228514,Tameron Ferguson,20.6,19.82,5.16
+377992,2026-11-10,Arkansas State,UT Martin,228518,Aaron McGee,23.12,17.65,3.02
+377992,2026-11-10,Arkansas State,UT Martin,2887,Amadou Doumbia,17.3,15.2,3.3
+377992,2026-11-10,Arkansas State,UT Martin,5604,Chaz Watson,18.28,15.05,4.55
+377992,2026-11-10,Arkansas State,UT Martin,198043,Grayson Bennett,13.48,10.95,2.68
+377992,2026-11-10,Arkansas State,UT Martin,198055,Royal Blue Smith,11.33,10.91,2.32
+377992,2026-11-10,Arkansas State,UT Martin,7144,Jordan Pyke,15.97,10.67,2.53
+377992,2026-11-10,Arkansas State,UT Martin,222983,Rho Omed,12.63,9.31,3.4
+377992,2026-11-10,Arkansas State,UT Martin,228517,Aliou Maiga,2.9,2.85,0.0
+377992,2026-11-10,Arkansas State,UT Martin,198048,CJ Geathers,2.25,0.0,0.0
+377992,2026-11-10,Arkansas State,UT Martin,228516,Anthony Hester,2.25,0.0,0.0
+377992,2026-11-10,Arkansas State,UT Martin,228512,Diggy Coleman,2.25,0.0,0.0
+377992,2026-11-10,Arkansas State,UT Martin,228523,Moussa Sy,2.25,0.0,0.0
+377992,2026-11-10,UT Martin,Arkansas State,199430,Davi Remagen,30.27,24.19,4.12
+377992,2026-11-10,UT Martin,Arkansas State,233364,Sasha Savkov,27.37,21.38,1.35
+377992,2026-11-10,UT Martin,Arkansas State,233365,Nikas Stuknys,25.35,20.8,6.02
+377992,2026-11-10,UT Martin,Arkansas State,233367,Arminas Vilkas,23.63,16.49,1.35
+377992,2026-11-10,UT Martin,Arkansas State,203064,Vladimir Khryapa,19.28,15.6,0.55
+377992,2026-11-10,UT Martin,Arkansas State,233360,Kaan Onat,20.68,15.55,5.9
+377992,2026-11-10,UT Martin,Arkansas State,233363,Ousseynou Sambe,15.63,15.4,6.27
+377992,2026-11-10,UT Martin,Arkansas State,233357,Nikola Janicic,12.12,10.51,6.27
+377992,2026-11-10,UT Martin,Arkansas State,233353,Armandas Bancevicius,11.35,10.51,6.27
+377992,2026-11-10,UT Martin,Arkansas State,203070,Filip Petkovski,9.03,9.03,0.0
+377992,2026-11-10,UT Martin,Arkansas State,233356,Mai Hong,1.25,0.0,0.0
+377992,2026-11-10,UT Martin,Arkansas State,233355,Reid Conley,2.02,0.0,0.0
+377992,2026-11-10,UT Martin,Arkansas State,203068,Enrique Moya,2.02,0.0,0.0
+377993,2026-11-10,Toledo,Wright State,202609,Mynor Strong,33.05,30.99,4.75
+377993,2026-11-10,Toledo,Wright State,2522,Jaylan Ouwinga,31.7,30.06,3.25
+377993,2026-11-10,Toledo,Wright State,416,Sean Jones,31.23,28.6,5.97
+377993,2026-11-10,Toledo,Wright State,202602,Will James Jr.,24.52,22.68,2.49
+377993,2026-11-10,Toledo,Wright State,423,Austin Parks,22.45,21.45,2.72
+377993,2026-11-10,Toledo,Wright State,8660,Angel Montas Jr.,21.17,20.37,4.81
+377993,2026-11-10,Toledo,Wright State,3140,Rich Barron,17.1,15.73,2.74
+377993,2026-11-10,Toledo,Wright State,232908,Jaylohn Allen,8.77,8.77,0.0
+377993,2026-11-10,Toledo,Wright State,5398,Chris Riddle,8.43,6.6,3.11
+377993,2026-11-10,Toledo,Wright State,232918,Rashaun Porter,1.58,1.58,0.0
+377993,2026-11-10,Wright State,Toledo,203492,Kellen Pickett,35.48,32.85,5.05
+377993,2026-11-10,Wright State,Toledo,6658,C.J. O'Hara,32.12,29.48,5.97
+377993,2026-11-10,Wright State,Toledo,5812,Dominic Pangonis,29.67,27.03,5.97
+377993,2026-11-10,Wright State,Toledo,233781,Noah Lewis,28.25,25.62,5.97
+377993,2026-11-10,Wright State,Toledo,203493,Isaiah Williams,22.67,21.87,4.81
+377993,2026-11-10,Wright State,Toledo,558,Andrea Holden,18.57,18.57,0.92
+377993,2026-11-10,Wright State,Toledo,233783,Ilija Milijasevic,19.7,17.86,1.16
+377993,2026-11-10,Wright State,Toledo,233778,Terrence Hayes Jr.,8.37,8.37,0.0
+377993,2026-11-10,Wright State,Toledo,6798,Nikola Djapa,5.18,5.18,0.0
+377994,2026-11-10,Omaha,York College Nebraska,4320,Grant Stubblefield,36.02,33.98,7.12
+377994,2026-11-10,Omaha,York College Nebraska,202565,Deke Thompson,32.0,29.97,5.69
+377994,2026-11-10,Omaha,York College Nebraska,4312,Isaac Ondekane,29.43,27.4,7.12
+377994,2026-11-10,Omaha,York College Nebraska,5586,Justin Bolis,24.0,21.97,7.12
+377994,2026-11-10,Omaha,York College Nebraska,231689,Jonny Jordan Jr.,21.62,19.58,7.12
+377994,2026-11-10,Omaha,York College Nebraska,231692,Dace Pleasant,19.52,19.52,1.43
+377994,2026-11-10,Omaha,York College Nebraska,198951,Heri Bukinga,10.57,10.57,0.0
+377994,2026-11-10,Omaha,York College Nebraska,7216,Cory Curtis Jr.,10.12,10.12,0.0
+377994,2026-11-10,Omaha,York College Nebraska,201330,Brock Scholl,6.67,6.67,0.0
+377994,2026-11-10,Omaha,York College Nebraska,4324,Aidan Skradis,5.92,5.92,0.0
+377994,2026-11-10,Omaha,York College Nebraska,231694,Ethan Sheats,3.08,3.08,0.0
+377994,2026-11-10,Omaha,York College Nebraska,17408,Chris Dockery,1.07,1.07,0.0
+377994,2026-11-10,York College Nebraska,Omaha,241169,Isaiah Lloyd,33.93,31.9,7.12
+377994,2026-11-10,York College Nebraska,Omaha,241167,Scottie Johnson,28.4,28.4,5.2
+377994,2026-11-10,York College Nebraska,Omaha,241175,Steve Samuels,27.85,27.12,5.36
+377994,2026-11-10,York College Nebraska,Omaha,216655,Logan Beckstrom,26.55,24.52,5.69
+377994,2026-11-10,York College Nebraska,Omaha,241171,Zeb Svoboda,17.02,15.72,3.32
+377994,2026-11-10,York College Nebraska,Omaha,241168,Awit Mamer,17.15,15.12,3.9
+377994,2026-11-10,York College Nebraska,Omaha,216662,Jaxon Kilmurry,14.52,14.52,3.08
+377994,2026-11-10,York College Nebraska,Omaha,216666,Keryn Collins,14.0,14.0,0.0
+377994,2026-11-10,York College Nebraska,Omaha,3572,Eli Nutting,8.02,8.02,0.0
+377994,2026-11-10,York College Nebraska,Omaha,216664,Eben Effah,5.57,5.57,0.0
+377994,2026-11-10,York College Nebraska,Omaha,241170,Kevin Kogbara,7.0,4.97,1.92
+377995,2026-11-10,Tarleton State,UT Dallas,202402,Leroy Kelly IV,31.7,22.93,7.06
+377995,2026-11-10,Tarleton State,UT Dallas,203207,Brett Freeman,22.17,16.44,6.94
+377995,2026-11-10,Tarleton State,UT Dallas,21376,Trey Harris,21.74,15.56,4.44
+377995,2026-11-10,Tarleton State,UT Dallas,200892,TJ Cope,23.73,14.54,2.88
+377995,2026-11-10,Tarleton State,UT Dallas,17258,Josh Hayes,21.05,13.24,3.13
+377995,2026-11-10,Tarleton State,UT Dallas,4895,Franck Emmou,20.07,13.13,1.93
+377995,2026-11-10,Tarleton State,UT Dallas,232709,Ethan Carter,18.9,12.96,4.06
+377995,2026-11-10,Tarleton State,UT Dallas,726,Kade Douglas,17.99,12.51,2.98
+377995,2026-11-10,Tarleton State,UT Dallas,232722,Adrian Shackleton,19.84,9.95,2.76
+377995,2026-11-10,Tarleton State,UT Dallas,232718,Caeden Hutcherson,1.73,0.0,0.0
+377995,2026-11-10,Tarleton State,UT Dallas,6136,Joseph Martinez,1.08,0.0,0.0
+377995,2026-11-10,UT Dallas,Tarleton State,6122,CJ Booker,26.42,21.32,6.81
+377995,2026-11-10,UT Dallas,Tarleton State,8882,Jordan Balderaz,24.23,19.9,6.71
+377995,2026-11-10,UT Dallas,Tarleton State,241141,Tyson Heard,26.68,17.39,7.24
+377995,2026-11-10,UT Dallas,Tarleton State,8893,Zach Spitzer,16.87,16.65,4.45
+377995,2026-11-10,UT Dallas,Tarleton State,241140,Jacob Smithey,24.1,15.78,4.89
+377995,2026-11-10,UT Dallas,Tarleton State,8888,Bryce Potts,17.28,11.26,4.49
+377995,2026-11-10,UT Dallas,Tarleton State,241148,Will Warren,20.62,10.74,0.65
+377995,2026-11-10,UT Dallas,Tarleton State,8891,Kris White,16.65,10.37,0.43
+377995,2026-11-10,UT Dallas,Tarleton State,241146,Tate Ziemkiewicz,11.2,3.96,0.53
+377995,2026-11-10,UT Dallas,Tarleton State,241147,KJ Williams,2.3,2.3,0.0
+377995,2026-11-10,UT Dallas,Tarleton State,241144,Hudson Goellner,1.55,1.55,0.0
+377995,2026-11-10,UT Dallas,Tarleton State,8886,Franklin Onyeme,7.55,0.04,0.0
+377995,2026-11-10,UT Dallas,Tarleton State,241143,Colin Griffith,1.73,0.0,0.0
+377995,2026-11-10,UT Dallas,Tarleton State,241145,Charlie Church,1.73,0.0,0.0
+377995,2026-11-10,UT Dallas,Tarleton State,241142,Marshall Hicks,1.08,0.0,0.0
+377996,2026-11-10,Missouri State,Newman University,200642,Trey Williams Jr.,31.92,22.68,5.77
+377996,2026-11-10,Missouri State,Newman University,200634,Melakih Cunningham,25.73,18.6,4.31
+377996,2026-11-10,Missouri State,Newman University,199716,Andrej Acimovic,19.47,17.75,6.88
+377996,2026-11-10,Missouri State,Newman University,231017,Ngundeng Ruey,24.52,17.11,3.48
+377996,2026-11-10,Missouri State,Newman University,231008,Jordan Blair,24.08,15.81,5.32
+377996,2026-11-10,Missouri State,Newman University,231016,Dylan Rowe,17.47,13.98,5.23
+377996,2026-11-10,Missouri State,Newman University,19130,Christian Thompson,14.55,12.31,2.57
+377996,2026-11-10,Missouri State,Newman University,2420,Matt Gray,12.93,7.88,0.83
+377996,2026-11-10,Missouri State,Newman University,200629,Cameron Boone,11.32,6.48,0.0
+377996,2026-11-10,Missouri State,Newman University,231021,Dimitar Zetov,6.17,3.72,0.0
+377996,2026-11-10,Missouri State,Newman University,231015,Leano Rolle,6.78,3.6,0.0
+377996,2026-11-10,Missouri State,Newman University,231012,Kuol Kuol,5.07,0.0,0.0
+377996,2026-11-10,Newman University,Missouri State,241124,Tory Homan,20.63,17.74,3.99
+377996,2026-11-10,Newman University,Missouri State,241127,Jon Byrd,17.82,17.71,3.99
+377996,2026-11-10,Newman University,Missouri State,241130,Leslie Owens,15.07,14.87,3.73
+377996,2026-11-10,Newman University,Missouri State,241135,Kaevon Bonner,15.43,14.63,2.66
+377996,2026-11-10,Newman University,Missouri State,17923,Kaeden Bonner,13.78,13.78,2.88
+377996,2026-11-10,Newman University,Missouri State,241138,Tabari Howard,14.52,13.35,4.0
+377996,2026-11-10,Newman University,Missouri State,211758,Albert Wilson III,18.35,12.41,2.88
+377996,2026-11-10,Newman University,Missouri State,241126,Mike Quick Jr.,12.17,12.17,2.88
+377996,2026-11-10,Newman University,Missouri State,241125,Majok Majouk,8.83,8.83,1.37
+377996,2026-11-10,Newman University,Missouri State,241137,Jaiden Pickett,9.9,7.41,0.0
+377996,2026-11-10,Newman University,Missouri State,241133,PJ Newbill,13.17,4.33,4.0
+377996,2026-11-10,Newman University,Missouri State,241136,Abraham Tomori,13.93,2.11,1.78
+377996,2026-11-10,Newman University,Missouri State,241131,Kobe Freeman,8.48,0.56,0.22
+377996,2026-11-10,Newman University,Missouri State,241134,Berrian Delinois,8.37,0.0,0.0
+377996,2026-11-10,Newman University,Missouri State,241129,Will Farrington,3.18,0.0,0.0
+377996,2026-11-10,Newman University,Missouri State,241128,Malachi Wesley,3.18,0.0,0.0
+377996,2026-11-10,Newman University,Missouri State,241132,Blake Dinkins,3.18,0.0,0.0
