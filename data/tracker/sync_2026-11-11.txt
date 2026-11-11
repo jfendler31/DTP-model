@@ -1,0 +1,9 @@
+Player sync 2026-11-11: 1 override(s) expired; box scores 2026-11-01 to 2026-11-10.
+tracker export: 400 notes, latest edit 2026-11-10
+expired  Dayton — Jalen Haynes (-1.88): played 6 min 2026-11-07 vs Northern Illinois
+tracker  Montana St. — Jed Miller: tracker says injured, but played 31 min 2026-11-07 vs Long Beach State — update the tracker
+tracker  Oral Roberts — Cam Haffner: tracker says ineligible, but played 5 min 2026-11-02 vs Central Arkansas — update the tracker
+tracker  Tulsa — Kaleb Banks: tracker says ineligible, but played 17 min 2026-11-02 vs Ottawa (KS) — update the tracker
+tracker  UNLV — Issac Williamson: tracker says injured, but played 14 min 2026-11-07 vs Samford — update the tracker
+tracker  Wichita St. — Jaret Valencia: tracker says injured, but played 4 min 2026-11-04 vs Cal State Northridge — update the tracker
+renew?   Northwestern — Jack Karasinski (-1.19): override expired 2026-11-09, tracker still injured (2026-11-09)

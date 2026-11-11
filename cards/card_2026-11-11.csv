@@ -1,0 +1,48 @@
+﻿tip_ET,away,home,venue,model,market,n_books,total,edge,model_size_adj,edge_size_adj,edge_inseason_only,prior_wt_away,prior_wt_home,notes,model_home_spread,market_home_spread,edge_size,model_home_spread_adj,edge_size_adj_num,size_curve
+Wed Nov 11 11:30 AM,Fairleigh Dickinson,East Texas A&M,H,E Texas A&M -8.4,E Texas A&M -10.5,7,137.5,FDU 2.1,E Texas A&M -8.4,FDU 2.1,n/a (<5 games),80%,80%,,-8.4,-10.5,2.1,-8.4,2.1,1
+Wed Nov 11 12:00 PM,Kansas City,Florida A&M,N,UMKC -6.2,UMKC -6.5,8,145.0,FAMU 0.3,UMKC -6.2,FAMU 0.3,n/a (<5 games),73%,80%,,6.2,6.5,0.3,6.2,0.3,0
+Wed Nov 11 1:00 PM,Dartmouth,Albany,H,Albany -1.0,Dartmouth -1.5,9,139.5,Albany 2.5,Albany -1.0,Albany 2.5,n/a (<5 games),80%,80%,,-1.0,1.5,2.5,-1.0,2.5,1
+Wed Nov 11 2:00 PM,Incarnate Word,UC Davis,H,UC Davis -10.9,UC Davis -11.5,9,145.5,UIW 0.6,UC Davis -11.1,UIW 0.4,n/a (<5 games),73%,89%,,-10.9,-11.5,0.6,-11.1,0.4,1
+Wed Nov 11 3:00 PM,Saint Joseph's,South Florida,N,South Florida -5.4,South Florida -7.5,9,151.5,Saint Joseph's 2.1,South Florida -5.4,Saint Joseph's 2.1,n/a (<5 games),80%,80%,,-5.4,-7.5,2.1,-5.4,2.1,0
+Wed Nov 11 3:00 PM,Loyola Chicago,Air Force,H,Loyola Chi -9.9,Loyola Chi -10.5,9,160.0,Air Force 0.6,Loyola Chi -9.9,Air Force 0.6,n/a (<5 games),80%,80%,,9.9,10.5,0.6,9.9,0.6,0
+Wed Nov 11 4:00 PM,North Carolina A&T,East Carolina,H,East Carolina -10.1,East Carolina -10.5,10,151.5,NC A&T 0.4,East Carolina -10.1,NC A&T 0.4,n/a (<5 games),89%,80%,,-10.1,-10.5,0.4,-10.1,0.4,1
+Wed Nov 11 5:00 PM,Bethune Cookman,San Diego St.,H,SDSU -14.7,SDSU -18.5,9,152.5,B-Cookman 3.8,SDSU -15.6,B-Cookman 2.9,n/a (<5 games),73%,80%,Nick Anderson out (-2.2),-14.7,-18.5,3.8,-15.6,2.9,1
+Wed Nov 11 5:30 PM,Penn,Navy,H,Penn -8.9,,0,,,Penn -8.9,,n/a (<5 games),80%,80%,,8.9,,,8.9,,0
+Wed Nov 11 6:00 PM,North Carolina Central,VMI,H,VMI -5.9,VMI -7.5,9,149.5,NC Central 1.6,VMI -5.9,NC Central 1.6,n/a (<5 games),80%,80%,,-5.9,-7.5,1.6,-5.9,1.6,1
+Wed Nov 11 6:30 PM,Charleston,Temple,H,Temple -1.8,PK,10,155.5,Temple 1.8,Temple -1.8,Temple 1.8,n/a (<5 games),100%,80%,,-1.8,0.0,1.8,-1.8,1.8,1
+Wed Nov 11 6:30 PM,Southern Indiana,IU Indy,H,IU Indy -3.2,IU Indy -7.5,10,164.0,S Indiana 4.3,IU Indy -3.2,S Indiana 4.3,n/a (<5 games),80%,89%,,-3.2,-7.5,4.3,-3.2,4.3,1
+Wed Nov 11 7:00 PM,UMass Lowell,Massachusetts,H,UMass -10.0,UMass -11.5,9,147.5,UMass Lowell 1.5,UMass -10.0,UMass Lowell 1.5,n/a (<5 games),80%,80%,,-10.0,-11.5,1.5,-10.0,1.5,1
+Wed Nov 11 7:00 PM,Cornell,St. Bonaventure,H,Bonaventure -9.9,Bonaventure -8.5,10,156.5,Bonaventure 1.4,Bonaventure -9.9,Bonaventure 1.4,n/a (<5 games),80%,80%,,-9.9,-8.5,1.4,-9.9,1.4,1
+Wed Nov 11 7:00 PM,UNC Asheville,West Georgia,H,W Georgia -1.6,W Georgia -1.5,9,147.5,W Georgia 0.1,W Georgia -1.6,W Georgia 0.1,n/a (<5 games),80%,80%,,-1.6,-1.5,0.1,-1.6,0.1,1
+Wed Nov 11 7:00 PM,William & Mary,Florida Atlantic,H,FAU -5.3,FAU -4.5,10,165.5,FAU 0.8,FAU -5.3,FAU 0.8,n/a (<5 games),89%,80%,,-5.3,-4.5,0.8,-5.3,0.8,1
+Wed Nov 11 7:00 PM,Campbell,East Tennessee St.,H,ETSU -5.9,ETSU -4.5,9,147.5,ETSU 1.4,ETSU -5.9,ETSU 1.4,n/a (<5 games),80%,80%,Jordan McCullum out (-2.3); Brayden Crump out (-0.2),-5.9,-4.5,1.4,-5.9,1.4,1
+Wed Nov 11 7:00 PM,James Madison,Delaware,H,JMU -4.1,JMU -3.5,10,149.5,JMU 0.6,JMU -4.1,JMU 0.6,n/a (<5 games),80%,89%,,4.1,3.5,0.6,4.1,0.6,0
+Wed Nov 11 7:00 PM,Furman,Holy Cross,H,Furman -13.8,Furman -12.5,9,150.5,Furman 1.3,Furman -13.8,Furman 1.3,n/a (<5 games),80%,80%,,13.8,12.5,1.3,13.8,1.3,0
+Wed Nov 11 7:00 PM,NJIT,VCU,H,VCU -27.8,VCU -30.5,9,149.5,NJIT 2.7,VCU -31.4,VCU 0.9,n/a (<5 games),67%,80%,,-27.8,-30.5,2.7,-31.4,0.9,1
+Wed Nov 11 7:00 PM,Stony Brook,Princeton,H,Princeton -3.5,Princeton -5,10,137.5,Stony Brook 1.5,Princeton -3.5,Stony Brook 1.5,n/a (<5 games),89%,80%,,-3.5,-5.0,1.5,-3.5,1.5,1
+Wed Nov 11 7:00 PM,South Carolina St.,Notre Dame,H,Notre Dame -22.2,Notre Dame -25.5,8,148.5,SC St 3.3,Notre Dame -24.6,SC St 0.9,n/a (<5 games),80%,73%,,-22.2,-25.5,3.3,-24.6,0.9,1
+Wed Nov 11 7:00 PM,Old Dominion,Norfolk St.,H,ODU -5.1,ODU -4.5,9,139.5,ODU 0.6,ODU -5.1,ODU 0.6,n/a (<5 games),80%,89%,,5.1,4.5,0.6,5.1,0.6,0
+Wed Nov 11 7:00 PM,Kent St.,UNC Wilmington,H,UNCW -6.1,UNCW -7.5,10,155.5,Kent St 1.4,UNCW -6.1,Kent St 1.4,n/a (<5 games),89%,89%,,-6.1,-7.5,1.4,-6.1,1.4,1
+Wed Nov 11 7:00 PM,Milwaukee,Indiana St.,H,Indiana St -5.5,Indiana St -4,10,153.0,Indiana St 1.5,Indiana St -5.5,Indiana St 1.5,n/a (<5 games),80%,80%,,-5.5,-4.0,1.5,-5.5,1.5,1
+Wed Nov 11 7:00 PM,Marquette,Michigan,H,Michigan -0.6,Michigan -3.5,10,157.0,Marquette 2.9,Michigan -0.6,Marquette 2.9,n/a (<5 games),80%,80%,,-0.6,-3.5,2.9,-0.6,2.9,1
+Wed Nov 11 7:00 PM,Colgate,St. John's,H,St. John's -25.7,St. John's -28.5,8,156.5,Colgate 2.8,St. John's -28.8,St. John's 0.3,n/a (<5 games),80%,80%,,-25.7,-28.5,2.8,-28.8,0.3,1
+Wed Nov 11 7:00 PM,Saint Peter's,South Carolina,H,S Carolina -19.5,S Carolina -22.5,10,126.5,St. Peter's 3.0,S Carolina -21.4,St. Peter's 1.1,n/a (<5 games),73%,80%,,-19.5,-22.5,3.0,-21.4,1.1,1
+Wed Nov 11 7:30 PM,Pepperdine,Sam Houston St.,H,Pepperdine -0.4,Pepperdine -2,10,160.5,Sam Houston 1.6,Pepperdine -0.4,Sam Houston 1.6,n/a (<5 games),89%,89%,,0.4,2.0,1.6,0.4,1.6,0
+Wed Nov 11 8:00 PM,Santa Clara,North Texas,H,North Texas -2.9,Santa Clara -3,10,150.5,North Texas 5.9,North Texas -2.9,North Texas 5.9,n/a (<5 games),73%,89%,,-2.9,3.0,5.9,-2.9,5.9,1
+Wed Nov 11 8:00 PM,Stephen F. Austin,Abilene Christian,H,SFA -4.8,SFA -4.5,8,142.5,SFA 0.3,SFA -4.8,SFA 0.3,n/a (<5 games),100%,80%,,4.8,4.5,0.3,4.8,0.3,0
+Wed Nov 11 8:00 PM,Oral Roberts,Tulsa,H,Tulsa -19.0,Tulsa -18,10,154.5,Tulsa 1.0,Tulsa -20.8,Tulsa 2.8,n/a (<5 games),89%,89%,,-19.0,-18.0,1.0,-20.8,2.8,1
+Wed Nov 11 8:00 PM,Jackson St.,Southern Miss,H,So Miss -6.9,So Miss -8.5,8,151.5,Jackson St 1.6,So Miss -6.9,Jackson St 1.6,n/a (<5 games),73%,89%,,-6.9,-8.5,1.6,-6.9,1.6,1
+Wed Nov 11 8:00 PM,Robert Morris,Arkansas,H,Arkansas -26.2,Arkansas -31.5,10,158.5,Robert Morris 5.3,Arkansas -29.4,Robert Morris 2.1,n/a (<5 games),80%,80%,,-26.2,-31.5,5.3,-29.4,2.1,1
+Wed Nov 11 8:00 PM,Jacksonville St.,Houston,H,Houston -30.2,Houston -36.5,10,135.5,Jax St 6.3,Houston -34.2,Jax St 2.3,n/a (<5 games),89%,80%,,-30.2,-36.5,6.3,-34.2,2.3,1
+Wed Nov 11 8:00 PM,Valparaiso,South Dakota St.,H,Valparaiso -2.9,Valparaiso -1.5,9,142.5,Valparaiso 1.4,Valparaiso -2.9,Valparaiso 1.4,n/a (<5 games),80%,89%,,2.9,1.5,1.4,2.9,1.4,0
+Wed Nov 11 9:00 PM,Arkansas Pine Bluff,UCLA,H,UCLA -39.4,UCLA -44.5,9,156.5,UAPB 5.1,UCLA -45.3,UCLA 0.8,n/a (<5 games),80%,80%,,-39.4,-44.5,5.1,-45.3,0.8,1
+Wed Nov 11 9:00 PM,Lindenwood,Nebraska,H,Nebraska -30.3,Nebraska -34.5,10,150.5,Lindenwood 4.2,Nebraska -34.4,Lindenwood 0.1,n/a (<5 games),89%,80%,,-30.3,-34.5,4.2,-34.4,0.1,1
+Wed Nov 11 9:00 PM,Oakland,Boise St.,H,Boise St -15.7,Boise St -16.5,10,162.5,Oakland 0.8,Boise St -16.8,Boise St 0.3,n/a (<5 games),67%,89%,,-15.7,-16.5,0.8,-16.8,0.3,1
+Wed Nov 11 9:00 PM,Portland St.,Colorado St.,H,Colorado St -14.8,Colorado St -15,10,150.5,Portland St 0.2,Colorado St -15.8,Colorado St 0.8,n/a (<5 games),89%,80%,,-14.8,-15.0,0.2,-15.8,0.8,1
+Wed Nov 11 9:00 PM,Nevada,UC Santa Barbara,H,Nevada -2.8,Nevada -1,10,144.5,Nevada 1.8,Nevada -2.8,Nevada 1.8,n/a (<5 games),80%,89%,,2.8,1.0,1.8,2.8,1.8,0
+Wed Nov 11 9:00 PM,Cal Poly,Grand Canyon,H,GCU -16.2,GCU -18,9,180.0,Cal Poly 1.8,GCU -17.4,Cal Poly 0.6,n/a (<5 games),89%,80%,Dan Skillings Jr. out (-1.3),-16.2,-18.0,1.8,-17.4,0.6,1
+Wed Nov 11 10:00 PM,UTSA,Seattle,H,Seattle -14.1,Seattle -16.5,10,148.5,UTSA 2.4,Seattle -14.9,UTSA 1.6,n/a (<5 games),80%,80%,,-14.1,-16.5,2.4,-14.9,1.6,1
+Wed Nov 11 10:00 PM,Mississippi Valley St.,Oregon,H,Oregon -34.3,Oregon -37.5,9,146.5,MVSU 3.2,Oregon -39.2,Oregon 1.7,n/a (<5 games),80%,80%,Tyrone Riley out (-0.6),-34.3,-37.5,3.2,-39.2,1.7,1
+Wed Nov 11 10:00 PM,Chicago St.,Cal Baptist,H,Cal Baptist -9.4,Cal Baptist -10.5,8,141.5,Chicago St 1.1,Cal Baptist -9.4,Chicago St 1.1,n/a (<5 games),73%,80%,,-9.4,-10.5,1.1,-9.4,1.1,1
+Wed Nov 11 10:00 PM,Pacific,Long Beach St.,H,Pacific -6.3,Pacific -6,10,137.5,Pacific 0.3,Pacific -6.3,Pacific 0.3,n/a (<5 games),89%,80%,,6.3,6.0,0.3,6.3,0.3,0
+Wed Nov 11 11:00 PM,USC,California,H,USC -6.6,USC -8.5,10,162.0,California 1.9,USC -6.6,California 1.9,n/a (<5 games),80%,80%,,6.6,8.5,1.9,6.6,1.9,0
