@@ -1173,6 +1173,8 @@ gameId,date,team,opponent,periods,source,reliable,team_min_raw,team_min_lev,comp
 372763,2026-11-11,Drexel,American University,2,onFloor,True,200.0,200.0,1.0,7.89,7.89,10,Panagiotis Pagonis / Latief Lorenzano-White / David Simonovic / Amaree Abram / LaDricus Pittman,1.0,True,True,-2,7.72
 372764,2026-11-11,Incarnate Word,UC Davis,2,onFloor,True,200.0,148.9,0.744,7.89,7.93,10,Mekhi Conner / Ismail Habib / Godswill Erheriene / D'Arrae Goodwin / Brandon McCreesh,1.0,False,True,-12,7.74
 372764,2026-11-11,UC Davis,Incarnate Word,2,onFloor,True,200.0,148.9,0.744,9.01,8.49,11,Connor Sevilla / Clarence Massamba / Isaiah Chappell / Jalen Stokes / Brayden Fagbemi,1.0,True,True,12,8.46
+372765,2026-11-11,Nevada,UC Santa Barbara,2,onFloor,True,200.0,187.2,0.936,8.85,8.59,14,Elijah Price / Styles Phipps / Myles Walker / Peyton White / Vaughn Weems,1.0,False,True,-13,8.6
+372765,2026-11-11,UC Santa Barbara,Nevada,2,onFloor,True,200.0,187.2,0.936,8.63,8.72,10,CJ Shaw / Marvin McGhee IV / Aidan Mahaney / Koat Keat Tong / RJ Smith,1.0,True,True,13,8.9
 372766,2026-11-11,Erskine,Gardner-Webb,2,onFloor,True,200.0,171.6,0.858,9.95,8.66,17,Evan Carter / Josiah Peeples / Avery Woodard / Gabe Guilford / Malachi Hogan,1.0,False,False,-22,7.59
 372766,2026-11-11,Gardner-Webb,Erskine,2,onFloor,True,200.0,171.6,0.858,9.11,8.82,11,Mikhali Pocknett / Sam Nosakhare / Ace Talbert / Jamias Ferere / Seth Brown,1.0,True,False,22,8.98
 372767,2026-11-11,Binghamton,Misericordia,2,onFloor,False,200.0,164.1,0.821,8.45,7.63,10,Jeremiah Quigley / Jayden Kelsey / Kofi Peyton / Stephan Snagg / Jayden Lemond,0.6,False,False,25,6.98
@@ -1271,8 +1273,8 @@ gameId,date,team,opponent,periods,source,reliable,team_min_raw,team_min_lev,comp
 374894,2026-11-11,James Madison,Delaware,2,onFloor,True,200.0,198.0,0.99,8.03,8.04,9,Adrian Myers / K.J. Windham / Brandon Lee / Paul Jones III / Jacob Hogarth,1.0,False,True,10,7.95
 374895,2026-11-11,NJIT,VCU,2,onFloor,False,200.0,124.6,0.623,10.57,8.66,12,David Bolden / Mario Tatum Jr. / Victor Vanderstraeten / Stefan Jimenez-Vojnic / John Kelly,0.613,False,True,-38,8.49
 374895,2026-11-11,VCU,NJIT,2,onFloor,True,200.0,124.6,0.623,10.12,7.11,13,Blake Harper / Nyk Lewis / Lazar Djokovic / Michael Belle / Brandon Jennings,1.0,True,True,38,7.24
-374896,2026-11-11,Florida Atlantic,William & Mary,2,onFloor,True,198.1,196.5,0.992,7.64,7.65,10,Felipe Quinones / Jelani Hamilton / Kanaan Carlyle / Milhan Charles / Kieran Mullen,0.99,True,True,5,7.43
-374896,2026-11-11,William & Mary,Florida Atlantic,2,onFloor,True,198.1,196.5,0.992,9.97,9.99,11,Tre Blassingame / Josh Baldwin / ZZ Clark / Brian Carter Jr. / Jesse McIntosh,0.99,False,True,-5,10.36
+374896,2026-11-11,Florida Atlantic,William & Mary,2,onFloor,True,198.1,196.5,0.992,7.64,7.65,10,Felipe Quinones / Jelani Hamilton / Kanaan Carlyle / Milhan Charles / Kieran Mullen,0.99,True,True,4,7.43
+374896,2026-11-11,William & Mary,Florida Atlantic,2,onFloor,True,198.1,196.5,0.992,9.97,9.99,11,Tre Blassingame / Josh Baldwin / ZZ Clark / Brian Carter Jr. / Jesse McIntosh,0.99,False,True,-4,10.36
 374897,2026-11-11,UNC Asheville,West Georgia,2,onFloor,True,200.0,200.0,1.0,8.61,8.61,10,Daniel Thomas / Myles Mayfield / Connor Dubsky / Ja'Corey Lipkins / Tylon Chatman,1.0,False,True,3,8.63
 374897,2026-11-11,West Georgia,UNC Asheville,2,onFloor,True,200.0,200.0,1.0,8.3,8.3,10,Chas Lewless / Lou Hutchinson III / Kenneth Chime / David Simon / Aleix Sempere,1.0,True,True,-3,8.85
 374898,2026-11-11,Blackburn,Eastern Illinois,2,onFloor,True,200.0,103.5,0.518,9.53,7.62,16,Evan Jordan / Eli Prost / Bradyn Pieper / Camden Nelson / Kcion Welch,1.0,False,False,-58,7.8
