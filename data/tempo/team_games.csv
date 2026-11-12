@@ -1173,6 +1173,10 @@ gameId,date,team,opponent,isHome,d1_game,periods,poss_parsed,poss_unknown,off_ap
 372763,2026-11-11,Drexel,American University,True,True,2,55,0,21.24,21.24,1.0,-2,55.0,0.0
 372764,2026-11-11,Incarnate Word,UC Davis,False,True,2,72,1,18.01,18.44,0.714,-12,74.0,-2.0
 372764,2026-11-11,UC Davis,Incarnate Word,True,True,2,83,1,13.25,13.49,0.742,12,73.0,10.0
+372765,2026-11-11,Nevada,UC Santa Barbara,False,True,2,68,0,16.12,16.47,0.899,-13,68.0,0.0
+372765,2026-11-11,UC Santa Barbara,Nevada,True,True,2,65,0,19.12,19.26,0.94,13,67.0,-2.0
+372766,2026-11-11,Erskine,Gardner-Webb,False,False,2,65,0,19.69,20.28,0.813,-22,65.0,0.0
+372766,2026-11-11,Gardner-Webb,Erskine,True,False,2,64,0,16.77,17.55,0.833,22,65.0,-1.0
 372767,2026-11-11,Binghamton,Misericordia,False,False,2,72,0,16.51,17.04,0.797,25,73.0,-1.0
 372767,2026-11-11,Misericordia,Binghamton,True,False,2,70,0,16.31,16.15,0.79,-25,75.0,-5.0
 372768,2026-11-11,Cornell,St. Bonaventure,False,True,2,71,0,16.32,16.87,0.627,-24,72.0,-1.0
@@ -1279,8 +1283,14 @@ gameId,date,team,opponent,isHome,d1_game,periods,poss_parsed,poss_unknown,off_ap
 374899,2026-11-11,St. Thomas-Minnesota,Macalester,True,False,2,80,0,15.39,16.18,0.712,37,77.0,3.0
 374900,2026-11-11,California Baptist,Chicago State,True,True,2,60,1,18.47,19.35,0.82,-19,59.0,1.0
 374900,2026-11-11,Chicago State,California Baptist,False,True,2,58,0,20.29,20.38,0.822,19,59.0,-1.0
+374901,2026-11-11,Long Beach State,Pacific,True,True,2,66,0,17.58,18.22,0.955,3,67.0,-1.0
+374901,2026-11-11,Pacific,Long Beach State,False,True,2,64,0,18.33,18.87,0.938,-3,67.0,-3.0
 377997,2026-11-11,Arkansas,Robert Morris,True,True,2,63,0,17.51,16.69,0.818,23,65.0,-2.0
 377997,2026-11-11,Robert Morris,Arkansas,False,True,2,62,0,19.95,20.51,0.815,-23,65.0,-3.0
+377998,2026-11-11,Arkansas-Pine Bluff,UCLA,False,True,2,72,0,18.85,17.35,0.413,-69,72.0,0.0
+377998,2026-11-11,UCLA,Arkansas-Pine Bluff,True,True,2,74,0,14.03,12.62,0.426,69,74.0,0.0
+377999,2026-11-11,Boise State,Oakland,True,True,2,73,0,13.32,13.42,0.784,32,72.0,1.0
+377999,2026-11-11,Oakland,Boise State,False,True,2,71,0,19.34,19.06,0.77,-32,74.0,-3.0
 378000,2026-11-11,Campbellsville,Western Kentucky,False,False,2,72,0,18.86,20.16,0.721,-27,72.0,0.0
 378000,2026-11-11,Western Kentucky,Campbellsville,True,False,2,72,0,14.44,13.99,0.712,27,72.0,0.0
 378001,2026-11-11,Indiana State,Milwaukee,True,True,2,72,0,15.74,15.98,0.921,-9,75.0,-3.0
