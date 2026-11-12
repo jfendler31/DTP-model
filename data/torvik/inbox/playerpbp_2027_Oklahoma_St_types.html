@@ -1,0 +1,820 @@
+<!DOCTYPE html><head><!-- 
+<script data-ad-client="ca-pub-2627413647443635" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+ -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GRH1FQLY0Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GRH1FQLY0Y');
+</script>
+<link rel="stylesheet" type="text/css" href="tooltipster/dist/css/tooltipster.bundle.min.css" />
+<link rel="stylesheet" type="text/css" href="tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-light.min.css" />
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!-- 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ -->
+ <script type="text/javascript" src="tooltipster/dist/js/tooltipster.bundle.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<META NAME="Description" CONTENT="T-Rank College Basketball Ratings and Rankings. And fun." />
+<meta property="og:title" content="Player Shooting Stats - Customizable College Basketball Tempo Free Stats - T-Rank" />
+<meta property="og:description" content="T-Rank College Basketball Ratings and Rankings. And fun." />
+<meta name="format-detection" content="telephone=no">
+<meta property="og:image" content="trank_image3.png" /><meta name="twitter:image:src" content="trank_image3.png" /><meta property="og:url" content="/playerpbp.php?" />
+<meta name="twitter:card" content="summary" />
+<title>Player Shooting Stats - Customizable College Basketball Tempo Free Stats - T-Rank</title>
+<link rel="stylesheet" href="trank20201209.css?hi=2">
+<style>
+.ui-tooltip {
+	opacity:1!important;
+
+}
+.ui-helper-hidden-accessible{
+    display: none;
+}
+.nav-autocomplete {
+    position: absolute;
+    right: 0; top: calc(100% + 4px);
+    width: 300px;
+    background: #fff;
+    border: 1px solid #d0dde8;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(30,50,90,0.12);
+    z-index: 99999;
+    max-height: 400px;
+    overflow-y: auto;
+    display: none;
+    text-align: left;
+}
+.nav-autocomplete.open { display: block; }
+.nav-ac-item {
+    padding: 10px 16px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    color: #1a2a4a;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #f0f5fa;
+    transition: background 0.1s;
+}
+.nav-ac-item:last-child { border-bottom: none; }
+.nav-ac-item:hover, .nav-ac-item.active { background: #eef4fc; }
+.nav-ac-item-icon { font-size: 1rem; width: 20px; text-align: center; flex-shrink: 0; }
+.nav-ac-item-label strong { color: #5b9bd5; }
+.nav-ac-hint {
+    padding: 10px 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.82rem;
+    color: #999;
+    font-style: italic;
+    background: #fafafa;
+}
+</style>
+
+<meta charset="UTF-8">
+    <script>
+    function tipster() {
+            $('[title]').tooltipster({
+            	theme: 'tooltipster-light',
+                trigger: 'custom',
+                contentAsHTML: true,
+				triggerOpen: {
+					mouseenter: true,
+					touchstart: true
+				},
+				triggerClose: {
+					click: true,
+					scroll: true,
+					tap: true,
+					mouseleave: true
+			
+    			}
+    	})
+    	};
+    
+        $(document).ready(function() {
+        	tipster();
+        });
+        var ShowLegend = 0;
+        if (ShowLegend == 1) {
+        	LegendText = "'right'";
+        } else {
+        	LegendText = "none";
+        }
+    </script>
+</head>
+<body>
+<div id='wrapper' ><div id='content'>
+<nav style="text-align: center; z-index: 1000;">
+
+<ul>
+	<li><a a href="/trank.php">NCAA-M</a>
+		<ul>
+			<li><a href="/">NCAA-M</a></li><br/>
+			<li><a href="/ncaaw">NCAA-W</a></li>
+		</ul>
+	</li>
+<!-- 
+	<li ><a href="#">Ranks</a>
+		<ul>
+			<li><a title="The Mother of All Ranks" href="/trank.php>">T-Rank</a></li></br>
+			<li><a title="Adjusted Efficiency in Tournament Quality Tests" href="/trank.php?top=50&year=2027">Q-Rank</a></li></br>
+			<li><a title="Adjusted Efficiency in Last 10 Games" href="/trank.php?lastx=10&year=2027">H-Rank</a></li></br>
+			<li><a title="T-Rank ELO!" href="/altrank.php?r=erank&year=2027">Elo Rank</a></li>
+			<li><a title="T-Rank derived from +/- GameScripts" href="/implied-trank.php">Implied T-Rank</a></li>
+			<li><a title="Rank by customized time and quality filters" href="/trankslice.php?year=2027">Custom Splits</a></li>
+		</ul>
+	</li>
+ -->
+	<li><a href="#">Stats</a>
+		<ul>
+			<li><a href="/playerstat.php?year=2027">Player Stats</a></li>
+			<li><a href="/gamestat.php?year=2027">Game Stats</a></li>
+			<li><a href="/teamstats.php?year=2027&sort=2">Team Stats</a></li>
+				<li><a href="/playermaps.php?year=2027">Player Charts</a></li>
+				<li><a href="/game-maps.php?year=2027">Game Charts</a></li>
+				<li><a href="/team-maps.php?year=2027">Team Charts</a></li>
+				<li><a href="/program-maps.php?">Program Charts</a></li>
+				<li><a href="/team-bubbles.php?year=2027">Team Bubbles</a></li>
+				<li><a href="/playerbubbles.php?year=2027">Player Bubbles</a></li>
+<!-- 	
+			<li><a href="/conf-map.php?year=2027">Conf. Eff. Maps</a></li>
+ -->
+			<li><a href="/teampbp.php?year=2027&sort=1">Shooting Splits</a></li>
+			<li><a href="/shotchart.php?year=2027">Shot Charts</a></li>
+			<li><a href="/challenges.php">Coach Challenges</a></li>
+			<li><a href="/ncaa.php">Tourney Stats</a></li>
+			<li><a href="/team-tables_each.php">Team Table</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Funalytics</a>
+		<ul>
+			<li><a href="/schedule.php">🗓Upcoming Games</a></li>
+			<li><a href="/tranketology.php">T-Ranketology</a></li>			
+			<li><a title="Results of 10,000 tourney simulations based on T-Ranketology projections" href="/tourneycast.php">TourneyCast</a></li>			
+			<li><a title="Pick game results for a given team to see effect on tourney chances and seed" href="/teamcast.php">Teamcast</a></li>
+			<li><a title="Pick game results from a given day to see effect on tourney chances and seed" href="/daycast.php">Daycast</a></li>			
+			<li><a href="/trank-time-machine.php">T-Rank Time Machine</a></li>
+
+<!-- 
+			<li><a href="/playerstat.php?year=2026&link=y&sIndex=28&xvalue=trans&minmin=0&erk=500">Transfer Portal</a></li>
+			<li><a href="/playerstat.php?year=trans&minmin=0">Incoming Transfers</a></li>
+			<li><a href="/coaching_moves.php">Coaching Changes</a></li>
+
+			<li><a title="Mess around with the 2027 proto-projections" href="/rostercast.php">RosterCast</a></li>
+			<li style="white-space:nowrap"><a href="/trankpre.php">❓2027 Projections ❓</a></li>			
+  			<li><a href="/tourneytime.php">⭐Tourney Time!⭐️</a></li>
+			<li><a href="/profile-results.php">Tourney Team Comps</a></li>
+			<li><a href="/playerstat.php?year=2025&link=y&sIndex=28&xvalue=trans&minmin=0&erk=500">Transfer Portal</a></li>
+			<li><a title="Pick game results for the rest of the conference season" href="/concast.php">Concast</a></li>			
+			<li><a href="/teamsheets.php">Teamsheet Ranks</a></li>
+			
+			<li><a title="Simluate results of conference tournaments." href="/tourneysim.php">🎲 Conf. Tourney Sims!</a></li>
+			<li><a href="/poy.php">POY Standings</a></li>
+			<li><a href="/conodds.php">Conf. Title Odds</a></li>
+			<li><a href="/profile-results.php">Tourney Team Comps</a></li>
+			<li><a href="/trends.php?year=2027">📉 Team Trends</a></li>
+ 			<li><a href="/net4cast.php">🔥NET Forecast🔥</a></li>
+			<li><a href="/profile-compare.php">Efficiency Profile SimScores</a></li>
+			<li><a href="/playerstat.php?link=y&sIndex=28&xvalue=grads&minmin=0&erk=500">Grad Transfers</a></li>
+			<li><a href="/playerstat.php?link=y&sIndex=28&xvalue=pros&minmin=40&erk=500">Draft Eligible Stats</a></li>
+			<li><a href="/team-view.php?year=2027">📊 Team View</a></li>
+			<li><a href="/bubble-guide.php">Rooting Guide</a></li>
+			<li><a href="/trends.php?year=2027">📉 Team Trends</a></li>
+			<li><a href="/resume-compare.php">NCAA Resumé SimScores</a></li>
+			<li><a href="/profile-compare.php">Efficiency Profile SimScores</a></li>
+			<li><a title="Mess around with the 2025 proto-projections" href="/rostercast.php">RosterCast</a></li>
+
+-->
+		
+			
+		</ul>
+	</li>
+	<li><a href="#" id="faqdropdown">FAQ Etc.</a>
+		<ul>
+			<li><a href="https://domoorefor34.com/">Help Howard Moore</a></li>	
+			<li><a href="https://kenpom.com/register.php" title="Seriously: subscribe to Kenpom please">Subscribe</a></li>			
+			<li><a href="porpagatu.html">PORPAGATU!</a></li>
+			<li><a href="http://adamcwisports.blogspot.com/">WI Sports Blog</a></li>
+			<li><a href="http://adamcwisports.blogspot.com/p/data.html">Data</a></li><br/>
+			<li><a href="http://adamcwisports.blogspot.com/p/every-possession-counts.html">FAQ</a></li>			
+			<li><a title="How I make a livin'" href="https://www.oftlaw.com/current-outbreaks/massive-cyclospora-outbreak-linked-to-taco-bell-and-taylor-farms/">Cyclospora Outbreak Lawyers</a></li>			
+<!-- 
+			<li><a href="https://chrome.google.com/webstore/detail/espn-tempo-free-box/aojnohijgfljoaikgpmehcbhfpbdibnh">Live ESPN Tempo-Free Box Plug-in</a></li>
+ -->
+			<li><a href='/playerpbp.php?sort=24&year=2027&conlimit=&tvalue=Oklahoma%20St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0&cb=1'>Colorblind Friendlier</a></li>	
+			<li><a id="hightoggle">Toggle Highlighted rows</a></li>
+			<li style="position:relative; display:block;">
+                <input id="filterbox" placeholder="Filter/Search" autocomplete="off" spellcheck="false" style="width:100%; box-sizing:border-box;"></input>
+                <div class="nav-autocomplete" id="nav-ac"></div>
+            </li>
+<!-- 
+			<li><a href="http://www.bigtengeeks.com/author/bart-torvik/">Big Ten Geeks</a></li>
+			<li>Disclaimer
+				<ul>
+					<li>Test</li>
+				</ul>
+			</li>
+ -->
+</ul>	
+</nav>	
+ <p style="text-align:center">
+
+</p><div style="margin: 0 auto"><form align="center" style="width:100px;margin: 0 auto"><select id="yeardrop"><option>2027</option><option></option>	<option id="2027" value="playerpbp.php?year=2027">2027</option>;	<option id="2026" value="playerpbp.php?year=2026">2026</option>;	<option id="2025" value="playerpbp.php?year=2025">2025</option>;	<option id="2024" value="playerpbp.php?year=2024">2024</option>;	<option id="2023" value="playerpbp.php?year=2023">2023</option>;	<option id="2022" value="playerpbp.php?year=2022">2022</option>;	<option id="2021" value="playerpbp.php?year=2021">2021</option>;	<option id="2020" value="playerpbp.php?year=2020">2020</option>;	<option id="2019" value="playerpbp.php?year=2019">2019</option>;	<option id="2018" value="playerpbp.php?year=2018">2018</option>;	<option id="2017" value="playerpbp.php?year=2017">2017</option>;	<option id="2016" value="playerpbp.php?year=2016">2016</option>;	<option id="2015" value="playerpbp.php?year=2015">2015</option>;	<option id="2014" value="playerpbp.php?year=2014">2014</option>;	<option id="2013" value="playerpbp.php?year=2013">2013</option>;	<option id="2012" value="playerpbp.php?year=2012">2012</option>;	<option id="2011" value="playerpbp.php?year=2011">2011</option>;	<option id="2010" value="playerpbp.php?year=2010">2010</option>;	<option id="2009" value="playerpbp.php?year=2009">2009</option>;	<option id="2008" value="playerpbp.php?year=2008">2008</option>;</select></form></div></p><script>
+document.getElementById("yeardrop").addEventListener('change', function () {
+    window.location = this.value;
+}, false)
+</script>
+
+
+
+
+<p style="text-align:center" class='full mobileonly' id="fullsite">Click Here or Go Landscape for Full Site Layout</p>
+
+<script>
+var showhidden = 0;
+var hasHideSelect = 0;
+function teamChoices(id) {
+	var el = document.getElementById(id);
+	teams.forEach(function(team) {
+		var opt = document.createElement('option');
+		opt.innerHTML = team;
+		el.appendChild(opt);
+	});
+};
+
+function showHide() {
+	if (showhidden == 1) {
+		$('.mobileout').show();
+		$('#mobileout').show();
+		$('.mobileonly').hide();
+		$('#mobileonly').hide();
+		$(".full").show();
+		$("p#fullsite").html("Click Here for Mobile Site Layout");	
+	} else {
+		$('.mobileout').hide();
+		$('#mobileout').hide();
+		$('.mobileonly').show();
+		$('#mobileonly').show();
+		$("p#fullsite").html("Click Here or Go Landscape for Full Site Layout");
+	}
+	if (hasHideSelect == 1) {
+		hideselect()
+	}
+}
+if (typeof(nohighlights) == 'undefined') {
+$(window).load(function highlights () {
+// 	$('html').find('tr, #tble').click(function(e) {
+// 		$(this).toggleClass('highlighted');   
+// 	});
+	$('html').on("click","tr",function(){
+		$(this).toggleClass('highlighted');   
+	});
+	$('a#hightoggle').click(function() {
+		var focusrows = $('tr:not(.highlighted)').not($('table').find('th').parent('tr').not($('.subhead, .extraheader')))
+		focusrows.toggle()	
+	});
+	$('html').on("click","th",function(){
+		$('.highlighted').removeClass('highlighted');
+	})
+	
+})
+} 
+function getChicagoTimeZone() {
+    // Create a Date object for the current time
+    let now = new Date();
+
+    // Get the timezone offset in minutes for Chicago (America/Chicago)
+    let chicagoTime = new Intl.DateTimeFormat('en-US', {
+        timeZone: 'America/Chicago',
+        timeZoneName: 'short'
+    }).formatToParts(now);
+
+    // Find the "timeZoneName" part (it could be CST or CDT)
+    let timeZoneName = chicagoTime.find(part => part.type === 'timeZoneName').value;
+
+    return timeZoneName;  // returns "CDT" or "CST"
+}
+$(document).ready(function() {
+	var userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+	$('#timeheader').attr('title', 'Your Timezone: ' + userTimezone);  
+	$('.gametime').each(function() {
+    // Get the time string
+    var timeString = $(this).text();
+	if (timeString == '') {
+	    $(this).text('');
+	} else {
+		// Create a ate string with 'America/Chicago' timezone reference
+		// Assuming today's date for the example, you might need to adjust this as per your need
+		daylight = getChicagoTimeZone();
+		var dateString = new Date().toLocaleDateString('en-US') + ' ' + timeString + ' ' + daylight;
+	
+		// Parse the date string in Central Time
+		var centralTimeDate = new Date(dateString);
+	
+		// Convert to local time string without seconds
+		var localTimeString = centralTimeDate.toLocaleTimeString('en-US', {
+		  hour: '2-digit',
+		  minute: '2-digit',
+		  hour12: true
+		});
+	
+		// Update the time on the page
+		$(this).text(localTimeString);
+	}
+  });
+
+    $(".full").click(function() {
+	if (showhidden == 0) {
+		showhidden = 1;
+	} else {
+		showhidden = 0;
+	}
+	showHide();
+});
+  $( function() {
+    $( ".datepicker" ).datepicker({
+    dateFormat: "yymmdd"
+	});
+  } );
+
+$("#wrapper").click(function(e) {
+        if (e.target.id === "wrapper"){
+            $("#content").css('width','100vw');
+         }
+})
+
+
+if($(window).width() >= 600) {
+$('#hidefilter').removeAttr('checked');
+$('#limits').show();
+} else {
+$('#hidefilter').prop('checked',true);
+$('#limits').hide();
+}
+$('#hidefilter').change(function () {
+if (this.checked) {
+$('#limits').hide();
+$('#filters').hide();
+}
+else {
+$('#limits').show();
+$('#filters').show();
+}
+}); 
+
+});
+$('.ui-tooltip').click(function() {
+    $('.ui-tooltip').remove();
+})
+
+</script>
+
+<script>
+
+var teams = ["Abilene Christian","Air Force","Akron","Alabama","Alabama A&M","Alabama St.","Albany","Alcorn St.","American","Appalachian St.","Arizona","Arizona St.","Arkansas","Arkansas Pine Bluff","Arkansas St.","Army","Auburn","Austin Peay","Ball St.","Baylor","Bellarmine","Belmont","Bethune Cookman","Binghamton","Boise St.","Boston College","Boston University","Bowling Green","Bradley","Brown","Bryant","Bucknell","Buffalo","Butler","BYU","Cal Baptist","Cal Poly","Cal St. Bakersfield","Cal St. Fullerton","Cal St. Northridge","California","Campbell","Canisius","Central Arkansas","Central Connecticut","Central Michigan","Charleston Southern","Charlotte","Chattanooga","Chicago St.","Cincinnati","Clemson","Cleveland St.","Coastal Carolina","Colgate","Charleston","Colorado","Colorado St.","Columbia","Connecticut","Coppin St.","Cornell","Creighton","Dartmouth","Davidson","Dayton","Delaware","Delaware St.","Denver","DePaul","Detroit Mercy","Drake","Drexel","Duke","Duquesne","East Carolina","East Tennessee St.","Eastern Illinois","Eastern Kentucky","Eastern Michigan","Eastern Washington","Elon","Evansville","Fairfield","Fairleigh Dickinson","FIU","Florida","Florida A&M","Florida Atlantic","Florida Gulf Coast","Florida St.","Fordham","Purdue Fort Wayne","Fresno St.","Furman","Gardner Webb","George Mason","George Washington","Georgetown","Georgia","Georgia Southern","Georgia St.","Georgia Tech","Gonzaga","Grambling St.","Grand Canyon","Green Bay","Hampton","Hartford","Harvard","Hawaii","High Point","Hofstra","Holy Cross","Houston","Houston Christian","Howard","Idaho","Idaho St.","Illinois","Illinois Chicago","Illinois St.","Incarnate Word","Indiana","Indiana St.","Iona","Iowa","Iowa St.","IU Indy","Jackson St.","Jacksonville","Jacksonville St.","James Madison","Kansas","Kansas St.","Kennesaw St.","Kent St.","Kentucky","La Salle","Lafayette","Lamar","Lehigh","Le Moyne","Liberty","Lindenwood","Lipscomb","Little Rock","LIU","Long Beach St.","Longwood","Louisiana","Louisiana Monroe","Louisiana Tech","Louisville","Loyola Chicago","Loyola Marymount","Loyola MD","LSU","Maine","Manhattan","Marist","Marquette","Marshall","Maryland","Maryland Eastern Shore","Massachusetts","McNeese St.","Memphis","Mercer","Mercyhurst","Merrimack","Miami FL","Miami OH","Michigan","Michigan St.","Middle Tennessee","Milwaukee","Minnesota","Mississippi","Mississippi St.","Mississippi Valley St.","Missouri","Missouri St.","Monmouth","Montana","Montana St.","Morehead St.","Morgan St.","Mount St. Mary's","Murray St.","Navy","Nebraska","Nebraska Omaha","Nevada","New Hampshire","New Haven","New Mexico","New Mexico St.","New Orleans","Niagara","Nicholls St.","NJIT","Norfolk St.","North Alabama","North Carolina","North Carolina A&T","North Carolina Central","N.C. State","North Dakota","North Dakota St.","North Florida","North Texas","Northeastern","Northern Arizona","Northern Colorado","Northern Illinois","Northern Iowa","Northern Kentucky","Northwestern","Northwestern St.","Notre Dame","Oakland","Ohio","Ohio St.","Oklahoma","Oklahoma St.","Old Dominion","Oral Roberts","Oregon","Oregon St.","Pacific","Penn","Penn St.","Pepperdine","Pittsburgh","Portland","Portland St.","Prairie View A&M","Presbyterian","Princeton","Providence","Purdue","Queens","Quinnipiac","Radford","Rhode Island","Rice","Richmond","Rider","Robert Morris","Rutgers","Sacramento St.","Sacred Heart","Saint Joseph's","Saint Louis","Saint Mary's","Saint Peter's","Sam Houston St.","Samford","San Diego","San Diego St.","San Francisco","San Jose St.","Santa Clara","Savannah St.","Seattle","Seton Hall","Siena","SIU Edwardsville","SMU","South Alabama","South Carolina","South Carolina St.","South Dakota","South Dakota St.","South Florida","Southeast Missouri St.","Southeastern Louisiana","Southern","Southern Illinois","Southern Indiana","Southern Miss","Southern Utah","St. Bonaventure","Saint Francis","St. John's","St. Thomas","Stanford","Stephen F. Austin","Stetson","Stonehill","Stony Brook","Syracuse","Tarleton St.","TCU","Temple","Tennessee","Tennessee Martin","Tennessee St.","Tennessee Tech","Texas","Texas A&M","Texas A&M Corpus Chris","East Texas A&M","Texas Southern","Texas St.","Texas Tech","The Citadel","Toledo","Towson","Troy","Tulane","Tulsa","UAB","UC Davis","UC Irvine","UC Riverside","UC San Diego","UC Santa Barbara","UCF","UCLA","UMass Lowell","UMBC","UMKC","UNC Asheville","UNC Greensboro","UNC Wilmington","UNLV","USC","USC Upstate","UT Arlington","UT Rio Grande Valley","Utah","Utah St.","Utah Tech","Utah Valley","UTEP","UTSA","Valparaiso","Vanderbilt","VCU","Vermont","Villanova","Virginia","Virginia Tech","VMI","Wagner","Wake Forest","Washington","Washington St.","Weber St.","West Florida","West Georgia","West Virginia","Western Carolina","Western Illinois","Western Kentucky","Western Michigan","Wichita St.","William & Mary","Winthrop","Wisconsin","Wofford","Wright St.","Wyoming","Xavier","Yale","Youngstown St."];
+if (teams) { teams.sort(); }
+
+jQuery.extend(jQuery.expr[':'], {
+    containsExactly: function (obj, index, meta, stack) {
+        if ($(obj).text() === meta[3]) {
+            return true;
+        }
+        return false;
+    }
+});
+
+function focusbox(t) {
+	if (t == undefined || t == '') {
+		 $('tr').show();	
+		return
+	}
+ $('tr').hide();
+	if (t.indexOf("~") > -1) {
+		target = t.slice(1)
+		if (target.indexOf("|") > -1) {
+			targets = target.split("|")
+			for (i = 0; i < targets.length; i++) {
+				tt = targets[i];
+				if (tt.indexOf("-") > -1) {
+					tt = tt.slice(1)
+				 	$('tr>td:contains('+tt+')').parent().hide()
+				 } else {
+					 $('tr>td:contains('+tt+')').parent().show()
+				}
+			}
+		} else {
+		 $('tr>td:contains('+target+')').parent().show()
+		}	 
+
+	} else if (t == 'tierA') {
+		$('img[src*="/assets/a.gif"]').closest("tr").show()
+	} else if (t == 'tierB') {
+		$('img[src*="/assets/b.gif"]').closest("tr").show()
+	} else if (t == 'tierAB') {
+		$('img[src*="/assets/a.gif"]').closest("tr").show()
+		$('img[src*="/assets/b.gif"]').closest("tr").show()
+	} else if (t == 'HiMajor') {
+	 var isPre2027 = false;
+	 $('tr>td:containsExactly("B10")').parent().show()
+	 $('tr>td:containsExactly("P10")').parent().show()
+	 if (isPre2027) $('tr>td:containsExactly("P12")').parent().show()
+	 $('tr>td:containsExactly("ACC")').parent().show()
+	 $('tr>td:containsExactly("SEC")').parent().show()
+	 $('tr>td:containsExactly("B12")').parent().show()
+	 $('tr>td:containsExactly("BE")').parent().show()
+	} else if (t == 'Mid') {
+	 var isPre2027 = false;
+	$('tr>td').parent().show();
+	 $('tr>td:containsExactly("B10")').parent().hide()
+	 $('tr>td:containsExactly("P10")').parent().hide()
+	 if (isPre2027) $('tr>td:containsExactly("P12")').parent().hide()
+	 $('tr>td:containsExactly("ACC")').parent().hide()
+	 $('tr>td:containsExactly("SEC")').parent().hide()
+	 $('tr>td:containsExactly("B12")').parent().hide()
+	 $('tr>td:containsExactly("BE")').parent().hide()
+ 	$('thead:first-of-type > tr').show()
+	} else if (t == 'HiAll') {
+	 var isPre2027 = false;
+	 $('tr>td:containsExactly("B10")').parent().show()
+	 $('tr>td:containsExactly("P10")').parent().show()
+	 if (isPre2027) $('tr>td:containsExactly("P12")').parent().show()
+	 $('tr>td:containsExactly("ACC")').parent().show()
+	 $('tr>td:containsExactly("SEC")').parent().show()
+	 $('tr>td:containsExactly("B12")').parent().show()
+	 $('tr>td:containsExactly("BE")').parent().show()
+	 $('tr>td:containsExactly("Amer")').parent().show()
+	 $('tr>td:contains("Gonzaga")').parent().show()
+	 $('tr>td:contains("Connecticut")').parent().show()
+	 $('tr>td:contains("Memphis")').parent().show()
+	 $('tr>td:contains("Cincinnati")').parent().show()
+	 $('tr>td:contains("Wichita St.")').parent().show()
+ 	$('thead:first-of-type > tr').show()
+ 	} else if (t == 'TruMid') {
+	 var isPre2027 = false;
+	$('tr>td').parent().show();
+	 $('tr>td:containsExactly("B10")').parent().hide()
+	 $('tr>td:containsExactly("P10")').parent().hide()
+	 if (isPre2027) $('tr>td:containsExactly("P12")').parent().hide()
+	 $('tr>td:containsExactly("ACC")').parent().hide()
+	 $('tr>td:containsExactly("SEC")').parent().hide()
+	 $('tr>td:containsExactly("B12")').parent().hide()
+	 $('tr>td:containsExactly("BE")').parent().hide()
+	 $('tr>td:contains("Gonzaga")').parent().hide()
+	 $('tr>td:contains("Connecticut")').parent().hide()
+	 $('tr>td:contains("Memphis")').parent().hide()
+	 $('tr>td:contains("Cincinnati")').parent().hide()
+	 $('tr>td:contains("Wichita St.")').parent().hide()
+	 $('tr>td:contains("Houston")').parent().hide()
+	 
+ 	$('thead:first-of-type > tr').show()
+ 	} else {
+		if (t.indexOf("|") > -1) {
+			targets = t.split("|")
+			for (i = 0; i < targets.length; i++) {
+				tt = targets[i];
+				 $('tr>td:containsExactly('+tt+')').parent().show()
+			}
+		} else {
+			$('tr>td:containsExactly('+t+')').parent().show()
+		 }
+	}
+ $('thead:first-of-type > tr').show()
+	if (showhidden == 0) {
+		$('.mobileout').show();
+		$('#mobileout').show();
+		$('.mobileonly').hide();
+		$('#mobileonly').hide();
+		$(".full").show();
+		$("p#fullsite").html("Click Here for Mobile Site Layout");	
+	} else {
+		$('.mobileout').hide();
+		$('#mobileout').hide();
+		$('.mobileonly').show();
+		$('#mobileonly').show();
+		$("p#fullsite").html("Click Here or Go Landscape for Full Site Layout");
+	}
+ $('.mainhead').show()
+}
+
+term = ''
+$('input#filterbox').attr('placeholder','Filter/Search');
+
+(function() {
+    var input    = document.getElementById('filterbox');
+    var dropdown = document.getElementById('nav-ac');
+    var teamList = (teams && Array.isArray(teams)) ? teams.slice().sort() : [];
+    var wteamList = ["Abilene Christian","Air Force","Akron","Alabama","Alabama A&M","Alabama St.","Albany","Alcorn St.","American","Appalachian St.","Arizona","Arizona St.","Arkansas","Arkansas Pine Bluff","Arkansas St.","Army","Auburn","Austin Peay","Ball St.","Baylor","Bellarmine","Belmont","Bethune Cookman","Binghamton","Boise St.","Boston College","Boston University","Bowling Green","Bradley","Brown","Bryant","Bucknell","Buffalo","Butler","BYU","Cal Baptist","Cal Poly","Cal St. Bakersfield","Cal St. Fullerton","Cal St. Northridge","California","Campbell","Canisius","Central Arkansas","Central Connecticut","Central Michigan","Charleston","Charleston Southern","Charlotte","Chattanooga","Chicago St.","Cincinnati","Clemson","Cleveland St.","Coastal Carolina","Colgate","Colorado","Colorado St.","Columbia","Connecticut","Coppin St.","Cornell","Creighton","Dartmouth","Davidson","Dayton","Delaware","Delaware St.","Denver","DePaul","Detroit Mercy","Drake","Drexel","Duke","Duquesne","East Carolina","East Tennessee St.","Eastern Illinois","Eastern Kentucky","Eastern Michigan","Eastern Washington","Elon","Evansville","Fairfield","Fairleigh Dickinson","FIU","Florida","Florida A&M","Florida Atlantic","Florida Gulf Coast","Florida St.","Fordham","Fresno St.","Furman","Gardner Webb","George Mason","George Washington","Georgetown","Georgia","Georgia Southern","Georgia St.","Georgia Tech","Gonzaga","Grambling St.","Grand Canyon","Green Bay","Hampton","Hartford","Harvard","Hawaii","High Point","Hofstra","Holy Cross","Houston","Houston Christian","Howard","Idaho","Idaho St.","Illinois","Illinois Chicago","Illinois St.","Incarnate Word","Indiana","Indiana St.","Iona","Iowa","Iowa St.","IU Indy","Jackson St.","Jacksonville","Jacksonville St.","James Madison","Kansas","Kansas St.","Kennesaw St.","Kent St.","Kentucky","La Salle","Lafayette","Lamar","Lehigh","Liberty","Lipscomb","Little Rock","LIU","Long Beach St.","Longwood","Louisiana","Louisiana Monroe","Louisiana Tech","Louisville","Loyola Chicago","Loyola Marymount","Loyola MD","LSU","Maine","Manhattan","Marist","Marquette","Marshall","Maryland","Maryland Eastern Shore","Massachusetts","McNeese St.","Memphis","Mercer","Merrimack","Miami FL","Miami OH","Michigan","Michigan St.","Middle Tennessee","Milwaukee","Minnesota","Mississippi","Mississippi St.","Mississippi Valley St.","Missouri","Missouri St.","Monmouth","Montana","Montana St.","Morehead St.","Morgan St.","Mount St. Mary's","Murray St.","N.C. State","Navy","Nebraska","Nebraska Omaha","Nevada","New Hampshire","New Mexico","New Mexico St.","New Orleans","Niagara","Nicholls St.","NJIT","Norfolk St.","North Alabama","North Carolina","North Carolina A&T","North Carolina Central","North Dakota","North Dakota St.","North Florida","North Texas","Northeastern","Northern Arizona","Northern Colorado","Northern Illinois","Northern Iowa","Northern Kentucky","Northwestern","Northwestern St.","Notre Dame","Oakland","Ohio","Ohio St.","Oklahoma","Oklahoma St.","Old Dominion","Oral Roberts","Oregon","Oregon St.","Pacific","Penn","Penn St.","Pepperdine","Pittsburgh","Portland","Portland St.","Prairie View A&M","Presbyterian","Princeton","Providence","Purdue","Purdue Fort Wayne","Quinnipiac","Radford","Rhode Island","Rice","Richmond","Rider","Robert Morris","Rutgers","Sacramento St.","Sacred Heart","Saint Francis","Saint Joseph's","Saint Louis","Saint Mary's","Saint Peter's","Sam Houston St.","Samford","San Diego","San Diego St.","San Francisco","San Jose St.","Santa Clara","Seattle","Seton Hall","Siena","SIU Edwardsville","SMU","South Alabama","South Carolina","South Carolina St.","South Dakota","South Dakota St.","South Florida","Southeast Missouri St.","Southeastern Louisiana","Southern","Southern Illinois","Southern Miss","Southern Utah","St. Bonaventure","St. Francis NY","St. John's","Stanford","Stephen F. Austin","Stetson","Stony Brook","Syracuse","Tarleton St.","TCU","Temple","Tennessee","Tennessee Martin","Tennessee St.","Tennessee Tech","Texas","Texas A&M","Texas A&M Corpus Chris","Texas Southern","Texas St.","Texas Tech","Toledo","Towson","Troy","Tulane","Tulsa","UAB","UC Davis","UC Irvine","UC Riverside","UC San Diego","UC Santa Barbara","UCF","UCLA","UMass Lowell","UMBC","UMKC","UNC Asheville","UNC Greensboro","UNC Wilmington","UNLV","USC","USC Upstate","UT Arlington","UT Rio Grande Valley","Utah","Utah St.","Utah Tech","Utah Valley","UTEP","UTSA","Valparaiso","Vanderbilt","VCU","Vermont","Villanova","Virginia","Virginia Tech","Wagner","Wake Forest","Washington","Washington St.","Weber St.","West Virginia","Western Carolina","Western Illinois","Western Kentucky","Western Michigan","Wichita St.","William & Mary","Winthrop","Wisconsin","Wofford","Wright St.","Wyoming","Xavier","Yale","Youngstown St.","St. Thomas","East Texas A&M","Lindenwood","Queens","Southern Indiana","Stonehill","Le Moyne","Mercyhurst","West Georgia","New Haven","West Florida"];
+    if (wteamList && Array.isArray(wteamList)) { wteamList.sort(); } else { wteamList = []; }
+    var activeIdx = -1;
+    var currentMatches = [];
+    var debounceTimer = null;
+    var fetchController = null;
+    var lastPlayerResults = [];
+
+    function esc(s) {
+        var d = document.createElement('div'); d.textContent = s; return d.innerHTML;
+    }
+    function highlight(str, q) {
+        if (!q) return esc(str);
+        var lo = str.toLowerCase(), idx = lo.indexOf(q.toLowerCase());
+        if (idx < 0) return esc(str);
+        return esc(str.slice(0, idx)) + '<strong>' + esc(str.slice(idx, idx + q.length)) + '</strong>' + esc(str.slice(idx + q.length));
+    }
+
+    function buildDropdown(q, playerResults) {
+        dropdown.innerHTML = '';
+        activeIdx = -1;
+        currentMatches = [];
+        if (!q || q.length < 2) { dropdown.classList.remove('open'); return; }
+
+        var ql = q.toLowerCase();
+        var teamMatches = teamList.filter(function(t) {
+            return t.toLowerCase().indexOf(ql) > -1;
+        }).slice(0, 5);
+        
+        var wteamMatches = wteamList.filter(function(t) {
+            return t.toLowerCase().indexOf(ql) > -1;
+        }).slice(0, 5);
+
+        if (teamMatches.length > 0 || wteamMatches.length > 0) {
+            var hdr = document.createElement('div');
+            hdr.className = 'nav-ac-hint';
+            hdr.textContent = 'Teams';
+            dropdown.appendChild(hdr);
+        }
+        
+        teamMatches.forEach(function(t) {
+            currentMatches.push({ type: 'team', value: t });
+            var item = document.createElement('div');
+            item.className = 'nav-ac-item';
+            item.innerHTML = '<span class="nav-ac-item-icon">🏀</span>' +
+                             '<span class="nav-ac-item-label">' + highlight(t, q) + ' <span style="color:#999;font-size:0.8em">Men</span></span>';
+            item.addEventListener('mousedown', function(e) { e.preventDefault(); navigate('team', t); });
+            dropdown.appendChild(item);
+        });
+
+        wteamMatches.forEach(function(t) {
+            currentMatches.push({ type: 'wteam', value: t });
+            var item = document.createElement('div');
+            item.className = 'nav-ac-item';
+            item.innerHTML = '<span class="nav-ac-item-icon">🏀</span>' +
+                             '<span class="nav-ac-item-label">' + highlight(t, q) + ' <span style="color:#d55b9b;font-size:0.8em">Women</span></span>';
+            item.addEventListener('mousedown', function(e) { e.preventDefault(); navigate('wteam', t); });
+            dropdown.appendChild(item);
+        });
+
+        if (playerResults && playerResults.length > 0) {
+            var hdr2 = document.createElement('div');
+            hdr2.className = 'nav-ac-hint';
+            hdr2.textContent = 'Players';
+            dropdown.appendChild(hdr2);
+
+            playerResults.forEach(function(p) {
+                var name = p.player_name;
+                var team = p.team || '';
+                var yr   = p.year || '';
+                currentMatches.push({ type: 'player', value: name, team: team });
+                var item = document.createElement('div');
+                item.className = 'nav-ac-item';
+                item.innerHTML = '<span class="nav-ac-item-icon">👤</span>' +
+                    '<span class="nav-ac-item-label">' + highlight(name, q) +
+                    ' <span style="color:#999;font-size:0.8em">' + esc(team) + ' \u2019' + esc(String(yr).slice(-2)) + '</span></span>';
+                item.addEventListener('mousedown', function(e) { e.preventDefault(); navigate('player', name, team); });
+                dropdown.appendChild(item);
+            });
+        }
+
+        if (q.length >= 3) {
+            currentMatches.push({ type: 'playerSearch', value: q });
+            var fallback = document.createElement('div');
+            fallback.className = 'nav-ac-item';
+            fallback.innerHTML = '<span class="nav-ac-item-icon">🔍</span>' +
+                '<span class="nav-ac-item-label">Search all players for \u201c<strong>' + esc(q) + '</strong>\u201d</span>';
+            fallback.addEventListener('mousedown', function(e) { e.preventDefault(); navigate('playerSearch', q); });
+            dropdown.appendChild(fallback);
+        }
+
+        if (currentMatches.length > 0) {
+            dropdown.classList.add('open');
+        } else {
+            dropdown.classList.remove('open');
+        }
+    }
+
+    function fetchPlayers(q) {
+        if (fetchController) fetchController.abort();
+        if (!q || q.length < 3) {
+            lastPlayerResults = [];
+            buildDropdown(q, []);
+            return;
+        }
+        fetchController = new AbortController();
+        fetch('/api_search.php?q=' + encodeURIComponent(q), { signal: fetchController.signal })
+            .then(function(r) { return r.json(); })
+            .then(function(data) {
+                lastPlayerResults = data || [];
+                buildDropdown(q, lastPlayerResults);
+            })
+            .catch(function(e) {
+                if (e.name !== 'AbortError') buildDropdown(q, []);
+            });
+    }
+
+    function onInput() {
+        var q = input.value.trim();
+        // Also do the original row filtering logic
+        term = input.value;
+        if (term != undefined && typeof focusbox === 'function') focusbox(term);
+        
+        buildDropdown(q, lastPlayerResults);
+        clearTimeout(debounceTimer);
+        if (q.length >= 3) {
+            debounceTimer = setTimeout(function() { fetchPlayers(q); }, 250);
+        }
+    }
+
+    function navigate(type, value, team) {
+        var enc = encodeURIComponent(value);
+        if (type === 'team') {
+            window.location.href = '/team.php?team=' + enc;
+        } else if (type === 'wteam') {
+            window.location.href = '/ncaaw/team.php?team=' + enc;
+        } else if (type === 'playerSearch') {
+            window.location.href = '/playerstat.php?link=y&year=career&minmin=0&kw=' + enc + '&start=20261015&end=20270501&minGP=0';
+        } else {
+            window.location.href = '/playerstat.php?p=' + enc + (team ? '&t=' + encodeURIComponent(team) : '');
+        }
+    }
+
+    function setActive(idx) {
+        var items = dropdown.querySelectorAll('.nav-ac-item');
+        items.forEach(function(el, i) {
+            el.classList.toggle('active', i === idx);
+        });
+        activeIdx = idx;
+    }
+
+    input.addEventListener('input', onInput);
+
+    input.addEventListener('keydown', function(e) {
+        var items = dropdown.querySelectorAll('.nav-ac-item');
+        if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            setActive(Math.min(activeIdx + 1, items.length - 1));
+        } else if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            setActive(Math.max(activeIdx - 1, 0));
+        } else if (e.key === 'Escape') {
+            dropdown.classList.remove('open');
+        } else if (e.key === 'Enter') {
+            e.preventDefault();
+            if (activeIdx >= 0 && currentMatches[activeIdx]) {
+                navigate(currentMatches[activeIdx].type, currentMatches[activeIdx].value, currentMatches[activeIdx].team);
+            } else {
+                var q = input.value.trim();
+                if (!q) return;
+                var exactMen = teamList.find(function(t) { return t.toLowerCase() === q.toLowerCase(); });
+                var exactWomen = wteamList.find(function(t) { return t.toLowerCase() === q.toLowerCase(); });
+                
+                if (exactMen) {
+                    navigate('team', exactMen);
+                } else if (exactWomen) {
+                    navigate('wteam', exactWomen);
+                } else {
+                    navigate('playerSearch', q);
+                }
+            }
+        }
+    });
+
+    document.addEventListener('click', function(e) {
+        if (!input.contains(e.target) && !dropdown.contains(e.target)) {
+            dropdown.classList.remove('open');
+        }
+    });
+
+    input.addEventListener('focus', function() {
+        if (input.value.trim().length >= 2) onInput();
+    });
+})();
+
+
+function makeCSV(source,repeat,name="trank_data.csv") {
+	if (repeat == 1) {return}
+	csvContent = source.join("\n")
+	var link = window.document.createElement("a");
+	link.setAttribute("href", "data:text/csv;charset=utf-8,%EF%BB%BF" + encodeURI(csvContent));
+	link.setAttribute("download", name);
+	link.click(); 
+}
+</script><p align="center"><a href="teampbp.php?year=2027&view=types">Team Totals</a> | <a href="shotchart.php?mode=player&year=2027&view=types">🎯 Interactive Shot Charts</a></p>
+<form style="margin: 0; padding: 0;text-align:center">Conf.: 	
+
+<select id='conference' name='conlimit' onchange="this.form.submit()">
+	<option value=""></option>
+	<option value=""></option>
+	<option value="All">ALL</option>
+	<option value='NCAA'>NCAA-T</option>	
+		<option value="Himajor">H.Maj.</option>
+	<option value="mid">Mid Maj.</option>	
+	<option value="A10">A10</option>
+	<option value="ACC">ACC</option>
+	<option value="AE">AE</option>
+	<option value="ASun">ASun</option>
+	<option value="Amer">Amer</option>
+	<option value="B10">B10</option>
+	<option value="B12">B12</option>
+	<option value="BE">BE</option>
+	<option value="BSky">BSky</option>
+	<option value="BSth">BSth</option>
+	<option value="BW">BW</option>
+	<option value="CAA">CAA</option>
+	<option value="CUSA">CUSA</option>
+	<option value="Horz">Horz</option>
+	<option value="Ivy">Ivy</option>
+	<option value="Metro">Metro</option>	<option value="MAC">MAC</option>
+	<option value="MEAC">MEAC</option>
+	<option value="MVC">MVC</option>
+	<option value="MWC">MWC</option>
+	<option value="NEC">NEC</option>
+	<option value="OVC">OVC</option>
+	<option value="P12">P12</option>
+	<option value="Pat">Pat</option>
+	<option value="SB">SB</option>
+	<option value="SC">SC</option>
+	<option value="SEC">SEC</option>
+	<option value="SWAC">SWAC</option>
+	<option value="Slnd">Slnd</option>
+	<option value="Sum">Sum</option>
+	<option value="UAC">UAC</option>	<option value="WCC">WCC</option>
+	</select> | <span style="white-space:nowrap">Team: <select onchange="this.form.submit()" name='tvalue' id='teamchoice'>
+<option value="Oklahoma St.">Oklahoma St.</option>
+<option value="All">All</option>
+</select></span>
+<br/>Min. FGA &mdash; <span style="white-space:nowrap">Layups/Drives: <input onchange="this.form.submit()" size=3 name="minrim" type="text" value="0"></input></span> | <span style="white-space:nowrap">Floaters/Hooks: <input onchange="this.form.submit()" size=3 name="min2" type="text" value="0"></input></span> | <span style="white-space:nowrap">Pull-Ups: <input onchange="this.form.submit()" size=3 name="min3" type="text" value="0"></input></span> | <span style="white-space:nowrap">All: <input onchange="this.form.submit()" size=3 name="tot" type="text" value="10"></input></span>
+	
+<input type="hidden" name="rev" value="0"></input> 	
+<input type="hidden" name="year" value="2027"></input> 	
+<input type="hidden" name="sort" value="24"></input>
+<input type="hidden" name="view" value="types"></form>
+<div style="text-align:center">
+<form method="get" action="playerpbp.php" onsubmit="var f=this;['conlimit','tvalue','minrim','min2','min3','tot'].forEach(function(n){var el=document.querySelector('[name=\''+n+'\']');if(el&&f.elements[n])f.elements[n].value=el.value;});" style="margin: 0; padding: 0; text-align:center;"><input type="hidden" name="year" value="2027"><input type="hidden" name="conlimit" value=""><input type="hidden" name="tvalue" value="Oklahoma St."><input type="hidden" name="minrim" value="0"><input type="hidden" name="min2" value="0"><input type="hidden" name="min3" value="0"><input type="hidden" name="tot" value="10"><input type="hidden" name="sort" value="24"><input type="hidden" name="rev" value="0"><span style="white-space:nowrap">Start: <input onchange="this.form.submit()" class="datepicker" size="10" maxlength="8" type="text" name="start" value="20261101"></span> <span style="white-space:nowrap">End: <input onchange="this.form.submit()" class="datepicker" size="10" maxlength="8" type="text" name="end" value="20270501"></span><br/><span style="white-space:nowrap">vs. Top: <select onchange="this.form.submit()" name="top"><option value="0" selected>All</option><option value="50">Top 50</option><option value="100">Top 100</option><option value="-100">Sub-100</option></select></span> <span style="white-space:nowrap">or <select onchange="this.form.submit()" name="quad"><option value="0" selected>All Quads</option><option value="1">Quad 1</option><option value="2">Quad 1+2</option><option value="3">Quad 1-3</option><option value="-2">Quad 2 Only</option><option value="-3">Quad 3 Only</option><option value="-4">Quad 4 Only</option></select></span><br/><span style="white-space:nowrap">Venue: <select onchange="this.form.submit()" name="venue"><option value="All" selected>All</option><option value="H">H</option><option value="A">A</option><option value="N">N</option><option value="A-N">A-N</option></select></span> | <span style="white-space:nowrap">Type: <select onchange="this.form.submit()" name="type"><option value="All" selected>All</option><option value="N">Noncon (N)</option><option value="C">Con (C)</option><option value="P">Postseason</option><option value="T">NCAA-T</option></select></span> | <span style="white-space:nowrap">Window: <select onchange="this.form.submit()" name="lastx"><option value="0" selected>All</option><option value="5">Last 5</option><option value="10">Last 10</option><option value="15">Last 15</option></select></span><br/><input type="hidden" name="view" value="types"><span style="white-space:nowrap">Context: <select onchange="this.form.submit()" name="context"><option value="all" selected>All</option><option value="fb">Transition</option><option value="hc">Half-Court</option><option value="2nd">2nd Chance</option><option value="to">Off Turnover</option><option value="ast">Assisted</option><option value="unast">Unassisted</option></select></span> | <span style="white-space:nowrap" title="Clutch = Last 5m 2H/OT, margin <= 5 pts">Period: <select onchange="this.form.submit()" name="period"><option value="all" selected>All</option><option value="1">1st Half</option><option value="2">2nd Half</option><option value="ot">Overtime</option><option value="clutch">Clutch</option></select></span> | <span style="white-space:nowrap" title="Filter by play-by-play shot subtype">Shot Type: <select onchange="this.form.submit()" name="subtype"><option value="all" selected>All Shot Types</option><option value="dunk">Dunks &amp; Alley-Oops</option><option value="tip">Tip-Ins / Putbacks</option><option value="layup">Layups &amp; Drives (All)</option><option value="drive">Driving Layups Only</option><option value="floater">Floaters / Runners</option><option value="hook">Hooks &amp; Turnarounds</option><option value="hookonly">Hook Shots Only</option><option value="turnaround">Turnaround Jumpers</option><option value="pullup">Pull-Up &amp; Step-Back</option><option value="stepback">Step-Back Jumpers</option><option value="jump">Spot-Up / Jump Shots</option></select></span><br/><input type="submit" value="Filter"><div style="margin:7px 0 3px 0;font-size:12px;"><span style="font-weight:bold;color:#444;margin-right:5px;">View Columns:</span><a href="playerpbp.php?year=2027&amp;tvalue=Oklahoma+St.&amp;tot=10" style="display:inline-block;padding:2px 10px;border:1px solid #1a5276;border-radius:4px 0 0 4px;text-decoration:none;background:#f4f8fb;color:#1a5276;">Shot Zones (Dunks / Rim / Mid / 3P)</a><a href="playerpbp.php?year=2027&amp;tvalue=Oklahoma+St.&amp;tot=10&amp;view=types" style="display:inline-block;padding:2px 10px;border:1px solid #1a5276;border-left:none;border-radius:0 4px 4px 0;text-decoration:none;background:#1a5276;color:#fff;font-weight:bold;">Shot Types (Tips / Drives / Floaters / Hooks / Pull-Ups / Spot-Ups)</a></div></form></div>
+<table align="center" class="sortable" id="teamStatTable"><caption><h1>2027 Player Play-by-Play splits</caption></h1><thead><tr style="font-size:10px;border-bottom:none"><th id="toprow" colspan="1" class="mobileonly" style="border-right:3px solid black"></th><th id="toprow" colspan="4" class="mobileout" style="border-right:3px solid black"></th><th id="toprow" colspan="3" style="border-right:3px solid black" title="Tip-in layups and tip-in dunks (putbacks)">Tip-Ins</th><th id="toprow" colspan="4" style="border-right:3px solid black" title="Driving layups and other non-tip layups">Layups &amp; Drives</th><th id="toprow" colspan="4" style="border-right:3px solid black" title="Floating jump shots / runners">Floaters</th><th id="toprow" colspan="4" style="border-right:3px solid black" title="Hook shots and turnaround jumpers">Hooks &amp; Post</th><th id="toprow" colspan="4" style="border-right:3px solid black" title="Pull-up and step-back jumpers (2P + 3P; hover for split)">Pull-Up / Step-Back</th><th id="toprow" colspan="4" style="border-right:3px solid black" title="Spot-up / standard jump shots (2P + 3P; hover for split)">Spot-Up / Jumpers</th><th id="toprow" colspan="5" style="border-right:3px solid black">TOT</th></tr>
+<tr style="font-size:10px"><th class="mobileout"></th><th style="text-align:left">Player</th><th style="text-align:left" class="mobileout">Team</th><th colspan="1" class="mobileout" style="border-right:3px solid black">Conf</th><th><a href="?sort=1&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0">Tot</a></th><th><a href="?sort=2&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0">FG%</a></th><th style="border-right:3px solid black"><a href="?sort=3&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0">Share</a></th><th><a href="?sort=4&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0">Tot</a></th><th><a href="?sort=5&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0">FG%</a></th><th><a href="?sort=6&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0">Share</a></th><th style="border-right:3px solid black"><a href="?sort=7&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0">Ast'd</a></th><th><a href="?sort=8&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0">Tot</a></th><th><a href="?sort=9&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0">FG%</a></th><th><a href="?sort=10&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0">Share</a></th><th style="border-right:3px solid black"><a href="?sort=11&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0">Ast'd</a></th><th><a href="?sort=12&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0">Tot</a></th><th><a href="?sort=13&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0">FG%</a></th><th><a href="?sort=14&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0">Share</a></th><th style="border-right:3px solid black"><a href="?sort=15&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0">Ast'd</a></th><th><a href="?sort=16&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0" title="Hover cells for 2P vs 3P split">Tot</a></th><th><a href="?sort=17&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0" title="Effective FG% on pull-ups & step-backs">eFG%</a></th><th><a href="?sort=18&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0">Share</a></th><th style="border-right:3px solid black"><a href="?sort=19&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0">Ast'd</a></th><th><a href="?sort=20&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0" title="Hover cells for 2P vs 3P split">Tot</a></th><th><a href="?sort=21&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0" title="Effective FG% on spot-up / standard jumpers">eFG%</a></th><th><a href="?sort=22&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0">Share</a></th><th style="border-right:3px solid black"><a href="?sort=23&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0">Ast'd</a></th><th><a href="?sort=24&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=1">Ast'd</a></th><th><a href="?sort=28&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0" title="Total And-1s (made field goals with a shooting foul; hover for 1-of-1 FT &amp; zone split)">And-1</a></th><th><a href="?sort=29&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0" title="And-1 Rate (% of made field goals that drew a shooting foul)">And-1%</a></th><th><a href="?sort=30&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0" title="Total Shots Blocked (offensive FGA blocked; hover for zone split)">Blkd</a></th><th style="border-right:3px solid black"><a href="?sort=31&year=2027&conlimit=&tvalue=Oklahoma St.&minrim=0&min2=0&min3=0&tot=10&view=types&rev=0" title="Blocked Shot Rate (% of field goal attempts that were blocked)">Blkd%</a></th></tr>
+</thead><tbody><script>teamChoices('teamchoice')</script><tr><td class="mobileout" style="text-align:center;font-size:8px">1</td><td style="font-size:16px;text-align:left"><span class="mobileonly" style="font-size:12px; color:#555;">1. </span><a href="playerstat.php?year=2027&p=Ryan Crotty&t=Oklahoma St.">Ryan Crotty</a> <a href="shotchart.php?trid=133770&year=2027" title="Player Shot Chart" style="font-size:11px;text-decoration:none;">🎯</a><span class="mobileonly" style="font-size:10px; color:#888;"><br/>Oklahoma St.</span></td><td class="mobileout" style="text-align:left"><a href="team.php?team=Oklahoma+St.&year=2027" style="text-decoration: none;">Oklahoma St.</a><span style="font-size:10px"> </span></td><td class="mobileout" style="text-align:center;border-right:3px solid black"><a href="conf.php?conf=B12&year=2027">B12</a></td><td>0-0</td><td style="border-right:1px solid #ccc">0.0</td><td style="border-right:3px solid black">0.0</td><td>0-0</td><td style="border-right:1px solid #ccc">0.0</td><td>0.0</td><td style="border-right:3px solid black">0.0</td><td>0-0</td><td style="border-right:1px solid #ccc">0.0</td><td>0.0</td><td style="border-right:3px solid black">0.0</td><td>0-0</td><td style="border-right:1px solid #ccc">0.0</td><td>0.0</td><td style="border-right:3px solid black">0.0</td><td title="2P: 0-2 | 3P: 0-0">0-2</td><td style="border-right:1px solid #ccc" title="2P: 0-2 | 3P: 0-0">0.0</td><td>18.2</td><td style="border-right:3px solid black">0.0</td><td title="2P: 0-0 | 3P: 5-9">5-9</td><td style="border-right:1px solid #ccc" title="2P: 0-0 | 3P: 5-9">83.3</td><td>81.8</td><td style="border-right:3px solid black">100.0</td><td style="background-color:#ddd">100.0</td><td title="1-of-1 FT: 0-0 (0.0%) | Rim: 0, Mid: 0, 3P: 0">0</td><td title="0 And-1s / 5 FGM">0.0</td><td title="Rim: 0 (Dunk: 0), Mid: 0, 3P: 0">0</td><td style="border-right:3px solid black" title="0 Blkd / 11 FGA">0.0</td></tr>
+<tr><td class="mobileout" style="text-align:center;font-size:8px">2</td><td style="font-size:16px;text-align:left"><span class="mobileonly" style="font-size:12px; color:#555;">2. </span><a href="playerstat.php?year=2027&p=Andrija Grbovic&t=Oklahoma St.">Andrija Grbovic</a> <a href="shotchart.php?trid=134564&year=2027" title="Player Shot Chart" style="font-size:11px;text-decoration:none;">🎯</a><span class="mobileonly" style="font-size:10px; color:#888;"><br/>Oklahoma St.</span></td><td class="mobileout" style="text-align:left"><a href="team.php?team=Oklahoma+St.&year=2027" style="text-decoration: none;">Oklahoma St.</a><span style="font-size:10px"> </span></td><td class="mobileout" style="text-align:center;border-right:3px solid black"><a href="conf.php?conf=B12&year=2027">B12</a></td><td>1-2</td><td style="border-right:1px solid #ccc">50.0</td><td style="border-right:3px solid black">15.4</td><td>1-1</td><td style="border-right:1px solid #ccc">100.0</td><td>7.7</td><td style="border-right:3px solid black">100.0</td><td>0-1</td><td style="border-right:1px solid #ccc">0.0</td><td>7.7</td><td style="border-right:3px solid black">0.0</td><td>0-0</td><td style="border-right:1px solid #ccc">0.0</td><td>0.0</td><td style="border-right:3px solid black">0.0</td><td title="2P: 0-0 | 3P: 0-0">0-0</td><td style="border-right:1px solid #ccc" title="2P: 0-0 | 3P: 0-0">0.0</td><td>0.0</td><td style="border-right:3px solid black">0.0</td><td title="2P: 0-0 | 3P: 6-8">6-8</td><td style="border-right:1px solid #ccc" title="2P: 0-0 | 3P: 6-8">112.5</td><td>61.5</td><td style="border-right:3px solid black">100.0</td><td style="background-color:#ddd">88.9</td><td title="1-of-1 FT: 0-0 (0.0%) | Rim: 0, Mid: 0, 3P: 0">0</td><td title="0 And-1s / 9 FGM">0.0</td><td title="Rim: 0 (Dunk: 0), Mid: 1, 3P: 0">1</td><td style="border-right:3px solid black" title="1 Blkd / 13 FGA">7.7</td></tr>
+<tr><td class="mobileout" style="text-align:center;font-size:8px">3</td><td style="font-size:16px;text-align:left"><span class="mobileonly" style="font-size:12px; color:#555;">3. </span><a href="playerstat.php?year=2027&p=Anthony Felesi&t=Oklahoma St.">Anthony Felesi</a> <a href="shotchart.php?trid=144125&year=2027" title="Player Shot Chart" style="font-size:11px;text-decoration:none;">🎯</a><span class="mobileonly" style="font-size:10px; color:#888;"><br/>Oklahoma St.</span></td><td class="mobileout" style="text-align:left"><a href="team.php?team=Oklahoma+St.&year=2027" style="text-decoration: none;">Oklahoma St.</a><span style="font-size:10px"> </span></td><td class="mobileout" style="text-align:center;border-right:3px solid black"><a href="conf.php?conf=B12&year=2027">B12</a></td><td>1-1</td><td style="border-right:1px solid #ccc">100.0</td><td style="border-right:3px solid black">10.0</td><td>2-4</td><td style="border-right:1px solid #ccc">50.0</td><td>40.0</td><td style="border-right:3px solid black">100.0</td><td>0-0</td><td style="border-right:1px solid #ccc">0.0</td><td>0.0</td><td style="border-right:3px solid black">0.0</td><td>0-0</td><td style="border-right:1px solid #ccc">0.0</td><td>0.0</td><td style="border-right:3px solid black">0.0</td><td title="2P: 0-1 | 3P: 0-0">0-1</td><td style="border-right:1px solid #ccc" title="2P: 0-1 | 3P: 0-0">0.0</td><td>10.0</td><td style="border-right:3px solid black">0.0</td><td title="2P: 0-0 | 3P: 0-2">0-2</td><td style="border-right:1px solid #ccc" title="2P: 0-0 | 3P: 0-2">0.0</td><td>20.0</td><td style="border-right:3px solid black">0.0</td><td style="background-color:#ddd">80.0</td><td title="1-of-1 FT: 1-1 (100.0%) | Rim: 1, Mid: 0, 3P: 0">1</td><td title="1 And-1s / 5 FGM">20.0</td><td title="Rim: 1 (Dunk: 0), Mid: 0, 3P: 0">1</td><td style="border-right:3px solid black" title="1 Blkd / 10 FGA">10.0</td></tr>
+<tr><td class="mobileout" style="text-align:center;font-size:8px">4</td><td style="font-size:16px;text-align:left"><span class="mobileonly" style="font-size:12px; color:#555;">4. </span><a href="playerstat.php?year=2027&p=Jordan Burks&t=Oklahoma St.">Jordan Burks</a> <a href="shotchart.php?trid=79248&year=2027" title="Player Shot Chart" style="font-size:11px;text-decoration:none;">🎯</a><span class="mobileonly" style="font-size:10px; color:#888;"><br/>Oklahoma St.</span></td><td class="mobileout" style="text-align:left"><a href="team.php?team=Oklahoma+St.&year=2027" style="text-decoration: none;">Oklahoma St.</a><span style="font-size:10px"> </span></td><td class="mobileout" style="text-align:center;border-right:3px solid black"><a href="conf.php?conf=B12&year=2027">B12</a></td><td>0-1</td><td style="border-right:1px solid #ccc">0.0</td><td style="border-right:3px solid black">6.7</td><td>3-6</td><td style="border-right:1px solid #ccc">50.0</td><td>40.0</td><td style="border-right:3px solid black">33.3</td><td>0-0</td><td style="border-right:1px solid #ccc">0.0</td><td>0.0</td><td style="border-right:3px solid black">0.0</td><td>0-0</td><td style="border-right:1px solid #ccc">0.0</td><td>0.0</td><td style="border-right:3px solid black">0.0</td><td title="2P: 0-0 | 3P: 1-1">1-1</td><td style="border-right:1px solid #ccc" title="2P: 0-0 | 3P: 1-1">150.0</td><td>6.7</td><td style="border-right:3px solid black">0.0</td><td title="2P: 0-0 | 3P: 0-2">0-2</td><td style="border-right:1px solid #ccc" title="2P: 0-0 | 3P: 0-2">0.0</td><td>13.3</td><td style="border-right:3px solid black">0.0</td><td style="background-color:#ddd">66.7</td><td title="1-of-1 FT: 0-0 (0.0%) | Rim: 0, Mid: 0, 3P: 0">0</td><td title="0 And-1s / 9 FGM">0.0</td><td title="Rim: 3 (Dunk: 0), Mid: 0, 3P: 0">3</td><td style="border-right:3px solid black" title="3 Blkd / 15 FGA">20.0</td></tr>
+<tr><td class="mobileout" style="text-align:center;font-size:8px">5</td><td style="font-size:16px;text-align:left"><span class="mobileonly" style="font-size:12px; color:#555;">5. </span><a href="playerstat.php?year=2027&p=Luka Bogavac&t=Oklahoma St.">Luka Bogavac</a> <a href="shotchart.php?trid=133744&year=2027" title="Player Shot Chart" style="font-size:11px;text-decoration:none;">🎯</a><span class="mobileonly" style="font-size:10px; color:#888;"><br/>Oklahoma St.</span></td><td class="mobileout" style="text-align:left"><a href="team.php?team=Oklahoma+St.&year=2027" style="text-decoration: none;">Oklahoma St.</a><span style="font-size:10px"> </span></td><td class="mobileout" style="text-align:center;border-right:3px solid black"><a href="conf.php?conf=B12&year=2027">B12</a></td><td>2-2</td><td style="border-right:1px solid #ccc">100.0</td><td style="border-right:3px solid black">12.5</td><td>2-3</td><td style="border-right:1px solid #ccc">66.7</td><td>18.8</td><td style="border-right:3px solid black">50.0</td><td>0-0</td><td style="border-right:1px solid #ccc">0.0</td><td>0.0</td><td style="border-right:3px solid black">0.0</td><td>0-0</td><td style="border-right:1px solid #ccc">0.0</td><td>0.0</td><td style="border-right:3px solid black">0.0</td><td title="2P: 0-1 | 3P: 1-1">1-2</td><td style="border-right:1px solid #ccc" title="2P: 0-1 | 3P: 1-1">75.0</td><td>12.5</td><td style="border-right:3px solid black">100.0</td><td title="2P: 0-0 | 3P: 3-9">3-9</td><td style="border-right:1px solid #ccc" title="2P: 0-0 | 3P: 3-9">50.0</td><td>56.3</td><td style="border-right:3px solid black">100.0</td><td style="background-color:#ddd">62.5</td><td title="1-of-1 FT: 0-0 (0.0%) | Rim: 0, Mid: 0, 3P: 0">0</td><td title="0 And-1s / 8 FGM">0.0</td><td title="Rim: 0 (Dunk: 0), Mid: 0, 3P: 0">0</td><td style="border-right:3px solid black" title="0 Blkd / 16 FGA">0.0</td></tr>
+<tr><td class="mobileout" style="text-align:center;font-size:8px">6</td><td style="font-size:16px;text-align:left"><span class="mobileonly" style="font-size:12px; color:#555;">6. </span><a href="playerstat.php?year=2027&p=Latrell Allmond&t=Oklahoma St.">Latrell Allmond</a> <a href="shotchart.php?trid=144122&year=2027" title="Player Shot Chart" style="font-size:11px;text-decoration:none;">🎯</a><span class="mobileonly" style="font-size:10px; color:#888;"><br/>Oklahoma St.</span></td><td class="mobileout" style="text-align:left"><a href="team.php?team=Oklahoma+St.&year=2027" style="text-decoration: none;">Oklahoma St.</a><span style="font-size:10px"> </span></td><td class="mobileout" style="text-align:center;border-right:3px solid black"><a href="conf.php?conf=B12&year=2027">B12</a></td><td>1-1</td><td style="border-right:1px solid #ccc">100.0</td><td style="border-right:3px solid black">10.0</td><td>2-3</td><td style="border-right:1px solid #ccc">66.7</td><td>30.0</td><td style="border-right:3px solid black">0.0</td><td>0-0</td><td style="border-right:1px solid #ccc">0.0</td><td>0.0</td><td style="border-right:3px solid black">0.0</td><td>0-0</td><td style="border-right:1px solid #ccc">0.0</td><td>0.0</td><td style="border-right:3px solid black">0.0</td><td title="2P: 0-0 | 3P: 0-0">0-0</td><td style="border-right:1px solid #ccc" title="2P: 0-0 | 3P: 0-0">0.0</td><td>0.0</td><td style="border-right:3px solid black">0.0</td><td title="2P: 0-0 | 3P: 1-3">1-3</td><td style="border-right:1px solid #ccc" title="2P: 0-0 | 3P: 1-3">50.0</td><td>30.0</td><td style="border-right:3px solid black">100.0</td><td style="background-color:#ddd">28.6</td><td title="1-of-1 FT: 0-0 (0.0%) | Rim: 0, Mid: 0, 3P: 0">0</td><td title="0 And-1s / 7 FGM">0.0</td><td title="Rim: 1 (Dunk: 0), Mid: 0, 3P: 0">1</td><td style="border-right:3px solid black" title="1 Blkd / 10 FGA">10.0</td></tr>
+<tr><td class="mobileout" style="text-align:center;font-size:8px">7</td><td style="font-size:16px;text-align:left"><span class="mobileonly" style="font-size:12px; color:#555;">7. </span><a href="playerstat.php?year=2027&p=Kashie Natt&t=Oklahoma St.">Kashie Natt</a> <a href="shotchart.php?trid=135272&year=2027" title="Player Shot Chart" style="font-size:11px;text-decoration:none;">🎯</a><span class="mobileonly" style="font-size:10px; color:#888;"><br/>Oklahoma St.</span></td><td class="mobileout" style="text-align:left"><a href="team.php?team=Oklahoma+St.&year=2027" style="text-decoration: none;">Oklahoma St.</a><span style="font-size:10px"> </span></td><td class="mobileout" style="text-align:center;border-right:3px solid black"><a href="conf.php?conf=B12&year=2027">B12</a></td><td>1-2</td><td style="border-right:1px solid #ccc">50.0</td><td style="border-right:3px solid black">13.3</td><td>2-5</td><td style="border-right:1px solid #ccc">40.0</td><td>33.3</td><td style="border-right:3px solid black">50.0</td><td>0-0</td><td style="border-right:1px solid #ccc">0.0</td><td>0.0</td><td style="border-right:3px solid black">0.0</td><td>0-0</td><td style="border-right:1px solid #ccc">0.0</td><td>0.0</td><td style="border-right:3px solid black">0.0</td><td title="2P: 0-2 | 3P: 0-2">0-4</td><td style="border-right:1px solid #ccc" title="2P: 0-2 | 3P: 0-2">0.0</td><td>26.7</td><td style="border-right:3px solid black">0.0</td><td title="2P: 0-0 | 3P: 1-4">1-4</td><td style="border-right:1px solid #ccc" title="2P: 0-0 | 3P: 1-4">37.5</td><td>26.7</td><td style="border-right:3px solid black">0.0</td><td style="background-color:#ddd">25.0</td><td title="1-of-1 FT: 0-0 (0.0%) | Rim: 0, Mid: 0, 3P: 0">0</td><td title="0 And-1s / 4 FGM">0.0</td><td title="Rim: 1 (Dunk: 0), Mid: 1, 3P: 0">2</td><td style="border-right:3px solid black" title="2 Blkd / 15 FGA">13.3</td></tr>
+<tr><td class="mobileout" style="text-align:center;font-size:8px">8</td><td style="font-size:16px;text-align:left"><span class="mobileonly" style="font-size:12px; color:#555;">8. </span><a href="playerstat.php?year=2027&p=Jacob Walker&t=Oklahoma St.">Jacob Walker</a> <a href="shotchart.php?trid=135477&year=2027" title="Player Shot Chart" style="font-size:11px;text-decoration:none;">🎯</a><span class="mobileonly" style="font-size:10px; color:#888;"><br/>Oklahoma St.</span></td><td class="mobileout" style="text-align:left"><a href="team.php?team=Oklahoma+St.&year=2027" style="text-decoration: none;">Oklahoma St.</a><span style="font-size:10px"> </span></td><td class="mobileout" style="text-align:center;border-right:3px solid black"><a href="conf.php?conf=B12&year=2027">B12</a></td><td>0-0</td><td style="border-right:1px solid #ccc">0.0</td><td style="border-right:3px solid black">0.0</td><td>3-7</td><td style="border-right:1px solid #ccc">42.9</td><td>53.8</td><td style="border-right:3px solid black">0.0</td><td>0-0</td><td style="border-right:1px solid #ccc">0.0</td><td>0.0</td><td style="border-right:3px solid black">0.0</td><td>0-0</td><td style="border-right:1px solid #ccc">0.0</td><td>0.0</td><td style="border-right:3px solid black">0.0</td><td title="2P: 1-2 | 3P: 0-1">1-3</td><td style="border-right:1px solid #ccc" title="2P: 1-2 | 3P: 0-1">33.3</td><td>23.1</td><td style="border-right:3px solid black">0.0</td><td title="2P: 0-0 | 3P: 1-3">1-3</td><td style="border-right:1px solid #ccc" title="2P: 0-0 | 3P: 1-3">50.0</td><td>23.1</td><td style="border-right:3px solid black">100.0</td><td style="background-color:#ddd">20.0</td><td title="1-of-1 FT: 0-0 (0.0%) | Rim: 0, Mid: 0, 3P: 0">0</td><td title="0 And-1s / 5 FGM">0.0</td><td title="Rim: 0 (Dunk: 0), Mid: 0, 3P: 0">0</td><td style="border-right:3px solid black" title="0 Blkd / 13 FGA">0.0</td></tr>
+ 	</tbody></table><p align="center" style="font-size:8px">Compiled by <a href="https://twitter.com/totally_t_bomb">Bart Torvik</a> from publicly available data.
+ 	 	</p></div>
+
+<!-- Default Statcounter code for barttorvik.com
+http://barttorvik.com -->
+<script type="text/javascript">
+var sc_project=8861338; 
+var sc_invisible=1; 
+var sc_security="84cc7699"; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="free hit
+counter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/8861338/0/84cc7699/0/"
+alt="free hit counter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-94133806-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
+<script>
+
+jQuery.ui.autocomplete.prototype._resizeMenu = function () {
+  var ul = this.menu.element;
+  ul.outerWidth(this.element.outerWidth());
+}
+</script>
+
+</body></html>
