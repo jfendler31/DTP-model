@@ -1,0 +1,125 @@
+
+== POOLED 2024-25 + 2025-26, Nov-Dec: 4077 games graded on margin; 3420 home/away with a close
+version                   MAE         ATS all          ATS 2+          ATS 3+   CLV 2+ (open)       CLV 3+
+pred_prior              9.676 1754-1658 51.4% 1100-1029 51.7%   802-752 51.6%   +0.03 (1081)  -0.00 (811)
+pred_comp_F             9.330 1750-1659 51.3%   790-759 51.0%   504-428 54.1%   +0.23 ( 751)  +0.25 (424)
+pred_comp_T             9.329 1750-1661 51.3%   795-754 51.3%   508-430 54.2%   +0.24 ( 753)  +0.25 (421)
+pred_sb_box             9.413 1714-1691 50.3%   903-852 51.5%   574-528 52.1%   +0.38 ( 913)  +0.39 (558)
+pred_sb_cw              9.403 1755-1649 51.6%   886-843 51.2%   569-531 51.7%   +0.31 ( 885)  +0.34 (550)
+pred_sb_box_w25         9.330 1735-1676 50.9%   779-752 50.9%   496-437 53.2%   +0.26 ( 755)  +0.32 (425)
+pred_sb_box_w50         9.347 1719-1688 50.5%   808-767 51.3%   509-452 53.0%   +0.32 ( 804)  +0.35 (460)
+pred_sb_box_w75         9.375 1715-1696 50.3%   843-803 51.2%   542-480 53.0%   +0.37 ( 841)  +0.39 (495)
+pred_sb_cw_w25          9.335 1745-1665 51.2%   784-767 50.5%   503-437 53.5%   +0.25 ( 774)  +0.31 (427)
+pred_sb_cw_w50          9.350 1764-1648 51.7%   809-786 50.7%   513-463 52.6%   +0.26 ( 803)  +0.32 (454)
+pred_sb_cw_w75          9.373 1768-1642 51.8%   834-805 50.9%   521-492 51.4%   +0.30 ( 842)  +0.33 (500)
+
+== season 2025: 2002 games graded on margin; 1655 home/away with a close
+version                   MAE         ATS all          ATS 2+          ATS 3+   CLV 2+ (open)       CLV 3+
+pred_prior              9.492   868-787 52.4%   538-481 52.8%   368-342 51.8%    +nan (   0)   +nan (0)
+pred_comp_F             9.269   856-798 51.8%   371-361 50.7%   229-205 52.8%    +nan (   0)   +nan (0)
+pred_comp_T             9.268   855-800 51.7%   375-356 51.3%   229-202 53.1%    +nan (   0)   +nan (0)
+pred_sb_box             9.360   821-831 49.7%   423-422 50.1%   263-260 50.3%    +nan (   0)   +nan (0)
+pred_sb_cw              9.374   839-813 50.8%   414-410 50.2%   264-271 49.3%    +nan (   0)   +nan (0)
+pred_sb_box_w25         9.273   833-821 50.4%   364-358 50.4%   226-202 52.8%    +nan (   0)   +nan (0)
+pred_sb_box_w50         9.293   829-823 50.2%   381-363 51.2%   227-218 51.0%    +nan (   0)   +nan (0)
+pred_sb_box_w75         9.321   817-837 49.4%   395-398 49.8%   241-228 51.4%    +nan (   0)   +nan (0)
+pred_sb_cw_w25          9.280   841-812 50.9%   368-369 49.9%   227-207 52.3%    +nan (   0)   +nan (0)
+pred_sb_cw_w50          9.304   844-811 51.0%   382-383 49.9%   229-225 50.4%    +nan (   0)   +nan (0)
+pred_sb_cw_w75          9.336   846-808 51.1%   389-395 49.6%   236-239 49.7%    +nan (   0)   +nan (0)
+
+== season 2026: 2075 games graded on margin; 1765 home/away with a close
+version                   MAE         ATS all          ATS 2+          ATS 3+   CLV 2+ (open)       CLV 3+
+pred_prior              9.854   886-871 50.4%   562-548 50.6%   434-410 51.4%   +0.03 (1081)  -0.00 (811)
+pred_comp_F             9.390   894-861 50.9%   419-398 51.3%   275-223 55.2%   +0.23 ( 751)  +0.25 (424)
+pred_comp_T             9.389   895-861 51.0%   420-398 51.3%   279-228 55.0%   +0.24 ( 753)  +0.25 (421)
+pred_sb_box             9.464   893-860 50.9%   480-430 52.7%   311-268 53.7%   +0.38 ( 913)  +0.39 (558)
+pred_sb_cw              9.431   916-836 52.3%   472-433 52.2%   305-260 54.0%   +0.31 ( 885)  +0.34 (550)
+pred_sb_box_w25         9.385   902-855 51.3%   415-394 51.3%   270-235 53.5%   +0.26 ( 755)  +0.32 (425)
+pred_sb_box_w50         9.399   890-865 50.7%   427-404 51.4%   282-234 54.7%   +0.32 ( 804)  +0.35 (460)
+pred_sb_box_w75         9.426   898-859 51.1%   448-405 52.5%   301-252 54.4%   +0.37 ( 841)  +0.39 (495)
+pred_sb_cw_w25          9.389   904-853 51.5%   416-398 51.1%   276-230 54.5%   +0.25 ( 774)  +0.31 (427)
+pred_sb_cw_w50          9.395   920-837 52.4%   427-403 51.4%   284-238 54.4%   +0.26 ( 803)  +0.32 (454)
+pred_sb_cw_w75          9.409   922-834 52.5%   445-410 52.0%   285-253 53.0%   +0.30 ( 842)  +0.33 (500)
+
+== month 11 (both seasons): 2210 games graded on margin; 1687 home/away with a close
+version                   MAE         ATS all          ATS 2+          ATS 3+   CLV 2+ (open)       CLV 3+
+pred_prior              9.807   842-841 50.0%   491-490 50.1%   342-345 49.8%   -0.04 ( 478)  -0.14 (338)
+pred_comp_F             9.584   852-829 50.7%   402-401 50.1%   268-241 52.7%   +0.13 ( 395)  +0.16 (229)
+pred_comp_T             9.583   852-831 50.6%   407-396 50.7%   272-243 52.8%   +0.15 ( 397)  +0.15 (226)
+pred_sb_box             9.639   836-844 49.8%   450-432 51.0%   282-273 50.8%   +0.34 ( 447)  +0.27 (281)
+pred_sb_cw              9.641   852-825 50.8%   445-425 51.1%   288-274 51.2%   +0.23 ( 447)  +0.29 (275)
+pred_sb_box_w25         9.579   840-842 49.9%   400-399 50.1%   269-243 52.5%   +0.20 ( 396)  +0.19 (219)
+pred_sb_box_w50         9.589   833-846 49.6%   411-401 50.6%   269-244 52.4%   +0.28 ( 411)  +0.24 (238)
+pred_sb_box_w75         9.609   831-852 49.4%   430-410 51.2%   268-254 51.3%   +0.36 ( 421)  +0.28 (255)
+pred_sb_cw_w25          9.587   848-835 50.4%   403-400 50.2%   271-244 52.6%   +0.18 ( 406)  +0.17 (222)
+pred_sb_cw_w50          9.598   855-828 50.8%   414-404 50.6%   275-255 51.9%   +0.18 ( 425)  +0.23 (231)
+pred_sb_cw_w75          9.616   860-822 51.1%   425-407 51.1%   268-265 50.3%   +0.21 ( 433)  +0.30 (254)
+
+== month 12 (both seasons): 1867 games graded on margin; 1733 home/away with a close
+version                   MAE         ATS all          ATS 2+          ATS 3+   CLV 2+ (open)       CLV 3+
+pred_prior              9.522   912-817 52.7%   609-539 53.0%   460-407 53.1%   +0.08 ( 603)  +0.10 (473)
+pred_comp_F             9.030   898-830 52.0%   388-358 52.0%   236-187 55.8%   +0.34 ( 356)  +0.36 (195)
+pred_comp_T             9.030   898-830 52.0%   388-358 52.0%   236-187 55.8%   +0.34 ( 356)  +0.36 (195)
+pred_sb_box             9.145   878-847 50.9%   453-420 51.9%   292-255 53.4%   +0.42 ( 466)  +0.51 (277)
+pred_sb_cw              9.122   903-824 52.3%   441-418 51.3%   281-257 52.2%   +0.38 ( 438)  +0.38 (275)
+pred_sb_box_w25         9.036   895-834 51.8%   379-353 51.8%   227-194 53.9%   +0.33 ( 359)  +0.46 (206)
+pred_sb_box_w50         9.061   886-842 51.3%   397-366 52.0%   240-208 53.6%   +0.37 ( 393)  +0.47 (222)
+pred_sb_box_w75         9.097   884-844 51.2%   413-393 51.2%   274-226 54.8%   +0.39 ( 420)  +0.51 (240)
+pred_sb_cw_w25          9.038   897-830 51.9%   381-367 50.9%   232-193 54.6%   +0.32 ( 368)  +0.45 (205)
+pred_sb_cw_w50          9.057   909-820 52.6%   395-382 50.8%   238-208 53.4%   +0.36 ( 378)  +0.41 (223)
+pred_sb_cw_w75          9.086   908-820 52.5%   409-398 50.7%   253-227 52.7%   +0.40 ( 409)  +0.36 (246)
+
+== Regressions (pooled home/away games). y = home cover margin (margin + close)
+  const -0.046 (se 0.202), comp_edge +0.142 (se 0.070)
+  const -0.039 (se 0.202), comp_edge +0.151 (se 0.071), sb_minus_comp +0.097 (se 0.110)
+  -> implied weight on scoreboard vs composite = coef(sb_minus_comp) / coef(comp_edge)
+  margin ~ prior + comp_move + sb_move: const +0.214 (se 0.234), prior +1.028 (se 0.017), comp_move +0.738 (se 0.105), sb_move +0.310 (se 0.105)
+
+== When the two readings disagree (game-level gap = pred_sb_box - pred_comp_T, home perspective)
+  |gap| 0-1: n 1723 MAE comp 9.444 sb 9.421 50/50 9.430 | split sides vs close 117: sb side 58-57 | result vs comp, toward sb: +0.18 pts (n 1459)
+  |gap| 1-2: n 1223 MAE comp 9.377 sb 9.381 50/50 9.363 | split sides vs close 213: sb side 101-110 | result vs comp, toward sb: +0.05 pts (n 1033)
+  |gap| 2-3: n 689 MAE comp 8.986 sb 9.144 50/50 9.015 | split sides vs close 196: sb side 92-104 | result vs comp, toward sb: +0.85 pts (n 561)
+  |gap| 3-99: n 442 MAE comp 9.289 sb 9.890 50/50 9.497 | split sides vs close 163: sb side 73-89 | result vs comp, toward sb: +0.76 pts (n 367)
+
+== Team-level: composite move minus scoreboard move, by past-opponent strength
+            count  mean
+gb                     
+comp << sb    861  0.37
+comp < sb    1464  0.33
+even         2228  0.05
+comp > sb    1454 -0.10
+comp >> sb    833 -0.93
+                        count  mean
+tier        gb                     
+weak opps   comp << sb     39 -2.89
+            comp < sb     101 -2.99
+            even          116 -0.96
+            comp > sb      83  2.30
+            comp >> sb     47 -2.45
+middle      comp << sb    361  1.19
+            comp < sb     597  0.25
+            even          826 -0.31
+            comp > sb     608 -0.49
+            comp >> sb    379 -0.63
+strong opps comp << sb    435 -0.22
+            comp < sb     676  0.89
+            even          819  0.31
+            comp > sb     673  0.14
+            comp >> sb    380 -1.00
+  res = team result vs the composite's number, ATS terms (negative = team did worse than the composite said)
+  res ~ gap_team: slope -0.289 (se 0.110)  [-1 would mean the scoreboard is right, 0 the composite]
+    games played 1-2: n 1363 slope -0.322 (se 0.266)
+    games played 3-5: n 1490 slope -0.169 (se 0.247)
+    games played 6-+: n 3635 slope -0.324 (se 0.138)
+
+== Asymmetry (team level): slope of res on gap, separately for composite above / below the scoreboard
+  comp > sb (gap > 0): n 3273 mean gap +1.05 slope -0.691 (se 0.256) intercept +0.51
+  comp < sb (gap < 0): n 3196 mean gap -1.10 slope -0.226 (se 0.259) intercept -0.04
+gb
+comp << sb   -2.21
+comp < sb    -0.95
+even          0.01
+comp > sb     0.95
+comp >> sb    2.16
+  season 2025: slope -0.255 (se 0.155)
+  season 2026: slope -0.324 (se 0.157)
