@@ -1,0 +1,25 @@
+﻿tip_ET,away,home,venue,model,market,n_books,total,edge,model_size_adj,edge_size_adj,edge_inseason_only,prior_wt_away,prior_wt_home,notes,model_home_spread,market_home_spread,edge_size,model_home_spread_adj,edge_size_adj_num,size_curve
+Thu Nov 12 3:00 PM,Kansas City,George Mason,N,George Mason -11.3,George Mason -15,10,141.0,UMKC 3.7,George Mason -11.3,UMKC 3.7,n/a (<5 games),67%,80%,,-11.3,-15.0,3.7,-11.3,3.7,0
+Thu Nov 12 6:00 PM,Bradley,Coppin St.,N,Bradley -10.9,Bradley -10,8,134.5,Bradley 0.9,Bradley -10.9,Bradley 0.9,n/a (<5 games),80%,80%,,10.9,10.0,0.9,10.9,0.9,0
+Thu Nov 12 6:00 PM,Morgan St.,UMBC,H,UMBC -6.4,UMBC -6.5,8,161.5,Morgan St 0.1,UMBC -6.4,Morgan St 0.1,n/a (<5 games),89%,80%,,-6.4,-6.5,0.1,-6.4,0.1,1
+Thu Nov 12 6:30 PM,Mercyhurst,Penn St.,H,Penn St -18.3,Penn St -20.5,9,147.5,Mercyhurst 2.2,Penn St -20.0,Mercyhurst 0.5,n/a (<5 games),80%,73%,Roberts Blums out (-0.9),-18.3,-20.5,2.2,-20.0,0.5,1
+Thu Nov 12 6:30 PM,Tennessee Tech,Indiana,H,Indiana -22.0,Indiana -25.5,10,169.5,Tenn Tech 3.5,Indiana -24.4,Tenn Tech 1.1,n/a (<5 games),80%,73%,,-22.0,-25.5,3.5,-24.4,1.1,1
+Thu Nov 12 7:00 PM,Niagara,Bowling Green,H,BGSU -14.8,BGSU -15,10,145.5,Niagara 0.2,BGSU -15.8,BGSU 0.8,n/a (<5 games),80%,80%,,-14.8,-15.0,0.2,-15.8,0.8,1
+Thu Nov 12 7:00 PM,Canisius,Brown,H,Brown -12.9,Brown -13,10,137.5,Canisius 0.1,Brown -13.5,Brown 0.5,n/a (<5 games),80%,73%,,-12.9,-13.0,0.1,-13.5,0.5,1
+Thu Nov 12 7:00 PM,Maryland Eastern Shore,Rhode Island,H,Rhode Island -20.3,Rhode Island -24.5,9,143.5,UMES 4.2,Rhode Island -22.4,UMES 2.1,n/a (<5 games),73%,73%,,-20.3,-24.5,4.2,-22.4,2.1,1
+Thu Nov 12 7:00 PM,Cal St. Bakersfield,Western Illinois,H,CSU Bakersfield -8.8,CSU Bakersfield -9.5,9,150.5,W Illinois 0.7,CSU Bakersfield -8.8,W Illinois 0.7,n/a (<5 games),89%,80%,,8.8,9.5,0.7,8.8,0.7,0
+Thu Nov 12 7:00 PM,Loyola MD,Towson,H,Towson -16.2,Towson -13.5,9,134.5,Towson 2.7,Towson -17.4,Towson 3.9,n/a (<5 games),80%,73%,,-16.2,-13.5,2.7,-17.4,3.9,1
+Thu Nov 12 7:00 PM,Southern Utah,High Point,H,High Point -18.3,High Point -22.5,9,154.5,S Utah 4.2,High Point -20.0,S Utah 2.5,n/a (<5 games),100%,73%,,-18.3,-22.5,4.2,-20.0,2.5,1
+Thu Nov 12 7:00 PM,Stetson,Howard,H,Howard -10.1,Howard -10.5,9,152.5,Stetson 0.4,Howard -10.1,Stetson 0.4,n/a (<5 games),73%,73%,,-10.1,-10.5,0.4,-10.1,0.4,1
+Thu Nov 12 7:00 PM,Monmouth,Quinnipiac,H,Quinnipiac -1.5,Quinnipiac -1,10,144.5,Quinnipiac 0.5,Quinnipiac -1.5,Quinnipiac 0.5,n/a (<5 games),80%,73%,,-1.5,-1.0,0.5,-1.5,0.5,1
+Thu Nov 12 7:00 PM,Central Connecticut,Sacred Heart,H,Sacred Heart -3.6,Sacred Heart -4.5,9,147.5,CCSU 0.9,Sacred Heart -3.6,CCSU 0.9,n/a (<5 games),73%,80%,,-3.6,-4.5,0.9,-3.6,0.9,1
+Thu Nov 12 7:00 PM,Western Michigan,Purdue Fort Wayne,H,W Michigan -2.1,W Michigan -3,10,151.0,Purdue Fort Wayne 0.9,W Michigan -2.1,Purdue Fort Wayne 0.9,n/a (<5 games),80%,89%,,2.1,3.0,0.9,2.1,0.9,0
+Thu Nov 12 7:00 PM,Mercer,West Virginia,H,WVU -17.9,WVU -26.5,10,151.0,Mercer 8.6,WVU -19.5,Mercer 7.0,n/a (<5 games),73%,80%,,-17.9,-26.5,8.6,-19.5,7.0,1
+Thu Nov 12 8:00 PM,West Florida,Alabama A&M,H,Alabama A&M -5.3,Alabama A&M -7.5,6,148.5,West Florida 2.2,Alabama A&M -5.3,West Florida 2.2,n/a (<5 games),89%,89%,,-5.3,-7.5,2.2,-5.3,2.2,1
+Thu Nov 12 8:00 PM,Oklahoma St.,Texas A&M,H,Texas A&M -3.6,Texas A&M -7.5,10,178.5,Okla St 3.9,Texas A&M -3.6,Okla St 3.9,n/a (<5 games),80%,73%,,-3.6,-7.5,3.9,-3.6,3.9,1
+Thu Nov 12 8:00 PM,Loyola Marymount,South Alabama,N,LMU -5.9,PK,10,142.5,LMU 5.9,LMU -5.9,LMU 5.9,n/a (<5 games),80%,73%,,5.9,0.0,5.9,5.9,5.9,0
+Thu Nov 12 8:00 PM,Southern,Minnesota,H,Minnesota -21.7,Minnesota -25,9,140.5,Southern 3.3,Minnesota -24.0,Southern 1.0,n/a (<5 games),67%,73%,,-21.7,-25.0,3.3,-24.0,1.0,1
+Thu Nov 12 8:00 PM,Richmond,Southern Illinois,H,Richmond -4.8,Richmond -3.5,9,154.5,Richmond 1.3,Richmond -4.8,Richmond 1.3,n/a (<5 games),80%,89%,,4.8,3.5,1.3,4.8,1.3,0
+Thu Nov 12 9:00 PM,New Mexico St.,UTEP,H,UTEP -0.9,UTEP -5,10,142.5,NMSU 4.1,UTEP -0.9,NMSU 4.1,n/a (<5 games),89%,80%,Stephon Payne III out (-2.3); Gabe Warren out (+0.0),-0.9,-5.0,4.1,-0.9,4.1,1
+Thu Nov 12 9:00 PM,Montana St.,BYU,H,BYU -18.0,BYU -23.5,10,164.5,Montana St 5.5,BYU -19.6,Montana St 3.9,n/a (<5 games),80%,73%,,-18.0,-23.5,5.5,-19.6,3.9,1
+Thu Nov 12 10:00 PM,UC Riverside,San Jose St.,H,SJSU -5.9,SJSU -8.5,10,153.0,UC Riverside 2.6,SJSU -5.9,UC Riverside 2.6,n/a (<5 games),89%,80%,,-5.9,-8.5,2.6,-5.9,2.6,1
