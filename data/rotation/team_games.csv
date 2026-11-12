@@ -1273,8 +1273,8 @@ gameId,date,team,opponent,periods,source,reliable,team_min_raw,team_min_lev,comp
 374894,2026-11-11,James Madison,Delaware,2,onFloor,True,200.0,198.0,0.99,8.03,8.04,9,Adrian Myers / K.J. Windham / Brandon Lee / Paul Jones III / Jacob Hogarth,1.0,False,True,10,7.95
 374895,2026-11-11,NJIT,VCU,2,onFloor,False,200.0,124.6,0.623,10.57,8.66,12,David Bolden / Mario Tatum Jr. / Victor Vanderstraeten / Stefan Jimenez-Vojnic / John Kelly,0.613,False,True,-38,8.49
 374895,2026-11-11,VCU,NJIT,2,onFloor,True,200.0,124.6,0.623,10.12,7.11,13,Blake Harper / Nyk Lewis / Lazar Djokovic / Michael Belle / Brandon Jennings,1.0,True,True,38,7.24
-374896,2026-11-11,Florida Atlantic,William & Mary,2,onFloor,True,198.1,196.5,0.992,7.64,7.65,10,Felipe Quinones / Jelani Hamilton / Kanaan Carlyle / Milhan Charles / Kieran Mullen,0.99,True,True,4,7.43
-374896,2026-11-11,William & Mary,Florida Atlantic,2,onFloor,True,198.1,196.5,0.992,9.97,9.99,11,Tre Blassingame / Josh Baldwin / ZZ Clark / Brian Carter Jr. / Jesse McIntosh,0.99,False,True,-4,10.36
+374896,2026-11-11,Florida Atlantic,William & Mary,2,onFloor,True,198.1,196.5,0.992,7.64,7.65,10,Felipe Quinones / Jelani Hamilton / Kanaan Carlyle / Milhan Charles / Kieran Mullen,0.99,True,True,5,7.43
+374896,2026-11-11,William & Mary,Florida Atlantic,2,onFloor,True,198.1,196.5,0.992,9.97,9.99,11,Tre Blassingame / Josh Baldwin / ZZ Clark / Brian Carter Jr. / Jesse McIntosh,0.99,False,True,-5,10.36
 374897,2026-11-11,UNC Asheville,West Georgia,2,onFloor,True,200.0,200.0,1.0,8.61,8.61,10,Daniel Thomas / Myles Mayfield / Connor Dubsky / Ja'Corey Lipkins / Tylon Chatman,1.0,False,True,3,8.63
 374897,2026-11-11,West Georgia,UNC Asheville,2,onFloor,True,200.0,200.0,1.0,8.3,8.3,10,Chas Lewless / Lou Hutchinson III / Kenneth Chime / David Simon / Aleix Sempere,1.0,True,True,-3,8.85
 374898,2026-11-11,Blackburn,Eastern Illinois,2,onFloor,True,200.0,103.5,0.518,9.53,7.62,16,Evan Jordan / Eli Prost / Bradyn Pieper / Camden Nelson / Kcion Welch,1.0,False,False,-58,7.8
