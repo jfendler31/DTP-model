@@ -1,0 +1,25 @@
+date,tip_ET,away,home,venue,early_total,kp_total,kp_tempo,ppp_game,net_eff_gap,games_away,games_home,imp_raw,dom_raw,model_raw,diff_raw,lean_raw,imp_comp,dom_comp,model_comp,diff_comp,lean_comp,rule_raw,rule_comp
+2026-11-12,Thu Nov 12 3:00 PM,Kansas City,George Mason,N,141.0,144,68.0,1.0607,15.6,4,2,-1.53,George Mason,140.4,-0.6,U,-0.96,George Mason,142.0,1.0,O,False,False
+2026-11-12,Thu Nov 12 6:00 PM,Bradley,Coppin St.,N,134.5,134,70.0,1.0075,14.6,2,2,-1.73,Bradley,137.0,2.5,O,-1.43,Bradley,137.8,3.3,O,False,False
+2026-11-12,Thu Nov 12 6:00 PM,Morgan St.,UMBC,H,161.5,163,76.0,1.063,4.1,1,2,0.27,UMBC,161.6,0.1,O,-0.09,UMBC,161.3,-0.2,U,False,False
+2026-11-12,Thu Nov 12 6:30 PM,Mercyhurst,Penn St.,H,147.5,150,69.0,1.0731,21.0,2,3,0.22,Penn St.,148.5,1.0,O,0.24,Penn St.,148.5,1.0,O,False,False
+2026-11-12,Thu Nov 12 6:30 PM,Tennessee Tech,Indiana,H,169.5,165,73.0,1.0935,21.8,2,3,-1.34,Indiana,155.7,-13.8,U,-1.27,Indiana,155.9,-13.6,U,False,False
+2026-11-12,Thu Nov 12 7:00 PM,Niagara,Bowling Green,H,145.5,150,69.0,1.0701,13.2,2,2,-1.28,Bowling Green,144.4,-1.1,U,-1.01,Bowling Green,145.2,-0.3,U,False,False
+2026-11-12,Thu Nov 12 7:00 PM,Canisius,Brown,H,137.5,137,68.0,1.035,13.6,2,3,-1.37,Brown,137.6,0.1,O,-1.52,Brown,137.1,-0.4,U,False,False
+2026-11-12,Thu Nov 12 7:00 PM,Maryland Eastern Shore,Rhode Island,H,143.5,139,69.0,1.0367,25.1,3,3,0.35,Rhode Island,143.6,0.1,O,0.35,Rhode Island,143.6,0.1,O,False,False
+2026-11-12,Thu Nov 12 7:00 PM,Cal St. Bakersfield,Western Illinois,H,150.5,148,71.0,1.0536,15.6,1,2,1.08,Cal St. Bakersfield,150.0,-0.5,U,0.66,Cal St. Bakersfield,150.0,-0.5,U,False,False
+2026-11-12,Thu Nov 12 7:00 PM,Loyola MD,Towson,H,134.5,136,68.0,1.0339,17.3,2,3,-0.66,Towson,139.4,4.9,O,-0.73,Towson,139.2,4.7,O,False,False
+2026-11-12,Thu Nov 12 7:00 PM,Southern Utah,High Point,H,154.5,154,72.0,1.0611,20.5,0,3,,,,,,,,,,,False,False
+2026-11-12,Thu Nov 12 7:00 PM,Stetson,Howard,H,152.5,150,70.0,1.0704,6.8,3,3,0.98,Howard,150.2,-2.3,U,0.57,Howard,150.2,-2.3,U,False,False
+2026-11-12,Thu Nov 12 7:00 PM,Monmouth,Quinnipiac,H,144.5,147,71.0,1.0463,2.2,2,3,-0.495,neither,147.6,3.1,O,-0.32,neither,148.1,3.6,O,False,False
+2026-11-12,Thu Nov 12 7:00 PM,Central Connecticut,Sacred Heart,H,147.5,144,70.0,1.0483,3.1,3,2,0.48,Sacred Heart,147.2,-0.3,U,0.5,Sacred Heart,147.2,-0.3,U,False,False
+2026-11-12,Thu Nov 12 7:00 PM,Western Michigan,Purdue Fort Wayne,H,151.0,151,70.0,1.0726,4.8,2,1,-1.04,Purdue Fort Wayne,147.5,-3.5,U,-1.41,Purdue Fort Wayne,146.4,-4.6,U,False,False
+2026-11-12,Thu Nov 12 7:00 PM,Mercer,West Virginia,H,151.0,150,70.0,1.066,25.6,3,2,-1.59,West Virginia,145.0,-6.0,U,-1.33,West Virginia,145.8,-5.2,U,False,False
+2026-11-12,Thu Nov 12 8:00 PM,West Florida,Alabama A&M,H,148.5,148,71.0,1.0506,4.5,1,1,0.805,neither,149.6,1.1,O,0.96,neither,149.6,1.1,O,False,False
+2026-11-12,Thu Nov 12 8:00 PM,Oklahoma St.,Texas A&M,H,178.5,171,78.0,1.077,2.8,2,3,2.4,Texas A&M,168.0,-10.5,U,1.93,Oklahoma St.,168.0,-10.5,U,False,False
+2026-11-12,Thu Nov 12 8:00 PM,Loyola Marymount,South Alabama,N,142.5,144,66.0,1.0693,4.9,2,3,-1.35,South Alabama,137.9,-4.6,U,-1.54,South Alabama,137.3,-5.2,U,False,False
+2026-11-12,Thu Nov 12 8:00 PM,Southern,Minnesota,H,140.5,138,69.0,1.0312,30.3,4,3,-1.22,Minnesota,139.5,-1.0,U,-0.8,Minnesota,140.7,0.2,O,False,False
+2026-11-12,Thu Nov 12 8:00 PM,Richmond,Southern Illinois,H,154.5,157,73.0,1.0652,9.8,2,1,0.24,Southern Illinois,155.7,1.2,O,2.59,Richmond,155.7,1.2,O,False,False
+2026-11-12,Thu Nov 12 9:00 PM,New Mexico St.,UTEP,H,142.5,143,69.0,1.0478,3.3,1,2,0.7,UTEP,145.1,2.6,O,0.57,UTEP,145.1,2.6,O,False,False
+2026-11-12,Thu Nov 12 9:00 PM,Montana St.,BYU,H,164.5,162,71.0,1.0963,19.3,2,3,0.32,BYU,155.8,-8.7,U,0.35,BYU,155.8,-8.7,U,False,False
+2026-11-12,Thu Nov 12 10:00 PM,UC Riverside,San Jose St.,H,153.0,151,71.0,1.0593,5.5,1,2,-0.29,UC Riverside,149.9,-3.1,U,-0.39,UC Riverside,149.6,-3.4,U,False,False
