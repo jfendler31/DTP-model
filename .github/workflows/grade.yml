@@ -41,12 +41,13 @@ jobs:
           )
           for D in $DATES; do python jobs/slate.py --finals --date $D; done
           python jobs/grade.py $ARGS
+          python jobs/scoreboard.py || echo "scoreboard check failed"   # refresh with the new closes (Nov 11)
         env:
           CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
       - name: Save
         run: |
           git config user.name "dtp-bot"; git config user.email "actions@users.noreply.github.com"
-          git add data/grades data/finals
+          git add data/grades data/finals data/ratings/scoreboard_*.csv
           git commit -m "grade" || echo "nothing new"
           git pull --rebase origin main && git push origin HEAD:main

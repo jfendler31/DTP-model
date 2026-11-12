@@ -8,7 +8,7 @@ Rules (Jon, Nov 10): the box score controls. Overrides stay Jon's call to PRICE;
   Flags (no changes, listed in the card email and data/tracker/sync_<date>.txt):
   - tracker says out, but the player has played after the day of that note -> update the tracker
   - tracker out-status for a team on today's slate, new or changed in the last 2 days, with no active override -> price it?
-  - override expired by date in the last 3 days while the tracker still has him out and he hasn't played -> renew?
+  - override expired by date (last 3 days, or any time if his team plays today) while the tracker still has him out and he hasn't played -> renew?
 New overrides get `since` = the card date they first appear (filled in here if blank).
 Usage: python jobs/sync_overrides.py [--date YYYY-MM-DD] [--offline]   (--offline: use stored data/players/*.csv, no API)"""
 import os, sys, glob, argparse, datetime as dt, time
@@ -99,7 +99,10 @@ if len(T):
         elif t.team in teams and (t.team, t.pk) not in live and t.updated_et >= day(D, -2):
             log.append(f'unpriced {t.team} — {t.player}: {t.status}{" (" + t.details + ")" if t.details else ""}, tracker {t.updated_et}, plays today, no override')
     for r in O.itertuples():
-        if is_venue(r) or r.expires in OPEN or not (day(D, -3) <= r.expires < D) or 'auto-expired' in r.reason: continue
+        # Nov 11: any date-expired override the tracker still has out is flagged when the team plays today (Grahovac missed the 3-day window);
+        # otherwise only those expired in the last 3 days
+        if is_venue(r) or r.expires in OPEN or not r.expires < D or 'auto-expired' in r.reason: continue
+        if not (r.expires >= day(D, -3) or r.team in teams): continue
         if r.delta_pts in ('', '0', '0.0', '0.00', '-0.00'): continue
         t = tnote(r.team, r.player)
         if t is not None and t.status in OUT and played(r.team, r.player, r.since) is None and (r.team, pn(r.player)) not in live:
