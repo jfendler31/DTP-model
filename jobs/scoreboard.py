@@ -14,7 +14,10 @@ Team FT talent x (Jon, Nov 11 - opponent FT% is pure noise to a defense, own FT%
   x = w*observed + (1-w)*projection, w = FTA/(FTA+220)  (split-half reliability of own FT% ~0.45-0.5 at ~205 FTA, Nov-Dec 2024-26)
   Non-D-I opponents and teams with no player data use the league rate.
 Output: data/ratings/scoreboard_<asof>.csv, one row per team: games with a close, raw vs close, 3P luck, FT luck (own, opp),
-adj vs close (total and per game), lam x adj per game (what the scoreboard alone would move the rating), composite move.
+adj vs close (total and per game), lam x adj per game (what the scoreboard alone would move the rating), composite move;
+and (Nov 12) sb_move_adj = the opponent-adjusted scoreboard move vs our prior (same rating machinery as the composite, one
+luck-adjusted net-points pillar), blend_move = 0.7 composite + 0.3 sb_move_adj, blend_delta = blend - composite. Use sb_move_adj /
+blend_move in reads (the backtest found results land ~30% of the way from the composite toward it); scoreboard_move is vs the closes.
 Usage: python jobs/scoreboard.py [--date YYYY-MM-DD]   (date = ratings asof; default from data/ratings_current.csv)"""
 import os, glob, json, argparse
 import numpy as np, pandas as pd
@@ -69,6 +72,45 @@ S['composite_move'] = S.team.map(RR.move_pts)
 S['gap'] = S.composite_move - S.scoreboard_move
 inv = {v: k for k, v in xw.items()}
 S['ft_talent'] = S.team.map(lambda t: X.get(inv.get(t, t), np.nan)); S['ft_proj'] = S.team.map(lambda t: proj.get(inv.get(t, t), np.nan))
+
+# ---- opponent-adjusted scoreboard move and the 70/30 blend (Nov 12, Composite_vs_Scoreboard_Test_2026-11-12.md).
+# Same rating machinery as the composite (ratings_core.rate: ridge SRS, z-scored, lam = N/(N+K), early method, opponent-current),
+# one pillar = luck-adjusted net points per 100 possessions from the box. Measured against our prior, not the closes.
+# Backtest (two seasons): results land ~30% of the way from the composite toward this number -> blend_move.
+try:
+    import sys; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import ratings_core as rc
+    PR = pd.read_csv('data/prior_2026-27.csv'); teams = list(PR.team); tix = {t: i for i, t in enumerate(teams)}
+    zp = PR.z_prior.to_numpy(float)
+    XB = dict(xw); XB.update({'New Orleans': 'LSU New Orleans', 'Miami': 'Miami FL'})
+    GG = G[G.pts.notna() & G.opp_pts.notna()]
+    rowof = {int(g): (x[x.isHome == True].iloc[0] if (x.isHome == True).any() else x.iloc[0]) for g, x in GG.groupby('gameId')}
+    Gs = []
+    for x in rc.build_games(GG, tix, XB, {}, 'box')[0]:
+        r = rowof[x['gameId']]; poss = (r.poss + r.opp_poss) / 2
+        net = (r.pts - r.opp_pts) - 3 * (r.p3m - L3 * r.p3a) + 3 * (r.opp_p3m - L3 * r.opp_p3a) \
+            - (r.ftm - X.get(r.team, LFT) * r.fta) + (r.opp_ftm - X.get(r.opp, LFT) * r.opp_fta)
+        Gs.append(dict(gameId=x['gameId'], date=x['date'], t=x['t'], o=x['o'], home=x['home'], sbm=100 * net / poss, n_poss=poss, src='box'))
+    old = (rc.PILLARS, rc.W, rc.OPP_CURRENT)
+    rc.PILLARS, rc.W, rc.OPP_CURRENT = ['sbm'], {'sbm': 1.0}, True
+    try:
+        ob = rc.rate(Gs, len(teams), zp, asof, game_wt=False)
+    finally:
+        rc.PILLARS, rc.W, rc.OPP_CURRENT = old
+    SBM = pd.Series(9.5 * (ob['z_blend'] - zp), index=teams)
+    have = set(S.team)
+    extra = [t for t, nn in RR.n_games.items() if nn > 0 and t not in have]       # teams with games but no graded close
+    if extra:
+        S = pd.concat([S, pd.DataFrame(dict(team=extra, games=0, n_games=[RR.n_games[t] for t in extra], lam=[RR.lam[t] for t in extra],
+                                            composite_move=[RR.move_pts[t] for t in extra]))], ignore_index=True)
+    S['sb_move_adj'] = S.team.map(SBM)
+    S['blend_move'] = 0.7 * S.composite_move + 0.3 * S.sb_move_adj
+    S['blend_delta'] = S.blend_move - S.composite_move                             # add to the team's rating (points) for the blend
+    print(f'opponent-adjusted scoreboard: {len(Gs)} games; largest |blend_delta|: '
+          + ', '.join(f'{t} {d:+.2f}' for t, d in S.set_index('team').blend_delta.reindex(S.set_index('team').blend_delta.abs().sort_values(ascending=False).index).head(5).items()))
+except Exception as e:                                                             # diagnostic only - never block the file
+    print(f'opponent-adjusted scoreboard failed: {e}')
+
 S = S.round(3).sort_values('team')
 os.makedirs('data/ratings', exist_ok=True); out = f'data/ratings/scoreboard_{asof}.csv'; S.to_csv(out, index=False)
 print(f'{out}: {len(S)} teams, {len(T)} team-games with a close; L3 {L3:.3f}, league FT {LFT:.3f}')
