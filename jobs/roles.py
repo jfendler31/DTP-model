@@ -130,8 +130,7 @@ def build():
     S['ft_rate'] = S.fta / S.fga.replace(0, np.nan)
     Rr = R[R.team.notna()].drop_duplicates('id').set_index('id')
     S['pos'] = S.pid.map(Rr.position); S['ht'] = S.pid.map(Rr.height)
-    S['big'] = (S.pos.isin(['Center']) | ((S.pos == 'Forward') & (S.ht >= 80)) | (S.ht >= 82))
-    S['guard'] = (S.pos == 'Guard') | (S.ht <= 76)
+    add_flags(S)
     # team usage rank among players with real minutes
     S['usg_rank'] = S[S.min_lev >= MIN_LEV].groupby('team').usg.rank(ascending=False)
     S['labels'] = S.apply(labels, axis=1)
@@ -151,6 +150,12 @@ def build():
     return S, A
 
 
+def add_flags(S):
+    S['big'] = (S.pos.isin(['Center']) | ((S.pos == 'Forward') & (S.ht >= 80)) | (S.ht >= 82))
+    S['guard'] = (S.pos == 'Guard') | (S.ht <= 76)
+    return S
+
+
 def labels(r):
     """Rule-based roles. Thresholds are first cuts on 2-4 games; see Roles doc."""
     if not (r.min_lev >= MIN_LEV and r.n_fga_raw >= 6): return 'limited sample'
@@ -159,7 +164,10 @@ def labels(r):
     if r.usg >= 23 and r.ast_pct >= 20 and unast >= 0.55: L.append('lead engine')
     elif r.ast_pct >= 20 and r.usg < 23: L.append('connector' if r.to_pct < 22 else 'playmaker (loose)')
     if r.usg >= 22 and unast >= 0.6 and r.ast_pct < 20: L.append('self-creating scorer')
-    if not r.big and r.rim_sh >= 0.45 and (1 - (r.rim_astd if pd.notna(r.rim_astd) else 0.5)) >= 0.6: L.append('slasher')
+    rim_self = 1 - (r.rim_astd if pd.notna(r.rim_astd) else 0.5)
+    if (not r.big and r.usg >= 22 and r.rim_sh >= 0.3 and rim_self >= 0.6
+            and not any(l in L for l in ('lead engine', 'self-creating scorer'))): L.append('downhill creator')
+    elif not r.big and r.rim_sh >= 0.45 and rim_self >= 0.6: L.append('slasher')
     if r.three_sh >= 0.55 and (r.three_astd if pd.notna(r.three_astd) else 1) >= 0.75: L.append('spot-up shooter')
     if (r.three_sh >= 0.4) and (r.three_astd if pd.notna(r.three_astd) else 1) < 0.5 and not r.big: L.append('pull-up shooter')
     if r.big and r.three_sh >= 0.35: L.append('stretch big')
@@ -177,10 +185,24 @@ def labels(r):
     return '; '.join(L)
 
 
-def card(S, A, team):
+SHORT = ['player', 'min_lev', 'usg', 'ast_pct', 'to_pct', 'efg', 'rim_sh', 'mid_sh', 'three_sh', 'selfc', 'labels']
+
+
+def card(S, A, team, short=False):
     x = S[(S.team == team) | (S.team_cbbd == team)]
     if not len(x): print(f'no rows for {team}'); return
     print(f'\n=== {team} (D-I games, competitive possessions) ===')
+    if short:
+        y = x.assign(selfc=1 - x.astd)[SHORT].rename(columns={'min_lev': 'min', 'ast_pct': 'ast%', 'to_pct': 'to%', 'rim_sh': 'rim',
+                                                              'mid_sh': 'mid', 'three_sh': '3pt', 'selfc': 'self%'})
+        for c in ('efg', 'rim', 'mid', '3pt', 'self%'): y[c] = (100 * y[c]).round(0)
+        for c in ('min', 'usg', 'ast%', 'to%'): y[c] = y[c].round(1)
+        y['player'] = y.player.str.slice(0, 20)
+        with pd.option_context('display.width', 160, 'display.max_colwidth', 50):
+            print(y.to_string(index=False))
+        a = A[A.team == team].head(5)
+        if len(a): print('assists:', '; '.join(f'{r.ast_name.split()[-1]}->{r.player.split()[-1]} {r.zone} {r.n:.0f}' for r in a.itertuples()))
+        return
     cols = ['player', 'pos', 'ht', 'gp', 'min_lev', 'usg', 'ast_pct', 'to_pct', 'efg', 'rim_sh', 'mid_sh', 'three_sh', 'rim_astd', 'three_astd', 'post_sh', 'pullup_sh',
             'or_pct', 'putback40', 'trans40', 'stl40', 'blk40', 'labels']
     y = x[cols].copy()
@@ -194,9 +216,11 @@ def card(S, A, team):
 
 if __name__ == '__main__':
     ap = argparse.ArgumentParser(); ap.add_argument('--team', action='append'); ap.add_argument('--no-build', action='store_true')
+    ap.add_argument('--short', action='store_true', help='one-screen card: usage, creation, shot split, labels')
     a = ap.parse_args()
     if a.no_build and os.path.exists(f'{OUT}/roles_current.csv'):
         S = pd.read_csv(f'{OUT}/roles_current.csv'); A = pd.read_csv(f'{OUT}/assist_pairs.csv')
+        S['labels'] = add_flags(S).apply(labels, axis=1)        # re-label so rule changes apply without a rebuild
     else:
         S, A = build()
-    for t in a.team or []: card(S, A, t)
+    for t in a.team or []: card(S, A, t, a.short)
