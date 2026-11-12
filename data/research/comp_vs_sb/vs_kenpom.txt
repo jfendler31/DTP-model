@@ -1,0 +1,81 @@
+4012 games with a KenPom snapshot; stale days mean 3.1; KenPom scale fit: margin = 0.772 x AdjEM diff + 1.19 x HCA
+
+== ALL (KenPom snapshot 0-6 days old): 4012 games on margin, 3364 home/away vs close
+version           MAE          ATS all           ATS 2+           ATS 3+
+pred_prior      9.674  1727-1629 51.5%  1090-1018 51.7%    798-746 51.7%
+pred_kp         9.436  1628-1728 48.5%    727-752 49.2%    403-421 48.9%
+pred_kp_fit     9.415  1619-1737 48.2%    697-718 49.3%    364-392 48.1%
+pred_comp       9.318  1724-1631 51.4%    785-741 51.4%    504-423 54.4%
+pred_sb         9.404  1691-1658 50.5%    891-839 51.5%    569-519 52.3%
+kp+comp 0.25    9.377  1649-1707 49.1%    680-687 49.7%    366-342 51.7%
+kp+comp 0.5     9.337  1660-1696 49.5%    668-642 51.0%    365-348 51.2%
+kp+comp 0.75    9.315  1700-1656 50.7%    704-674 51.1%    423-361 54.0%
+
+== FRESH: games 0-1 days after a snapshot: 1186 games on margin, 1027 home/away vs close
+version           MAE          ATS all           ATS 2+           ATS 3+
+pred_prior      9.715    518-508 50.5%    304-304 50.0%    225-219 50.7%
+pred_kp         9.452    493-533 48.1%    215-225 48.9%    124-123 50.2%
+pred_kp_fit     9.428    491-535 47.9%    205-218 48.5%    116-114 50.4%
+pred_comp       9.343    498-528 48.5%    237-230 50.7%    161-127 55.9%
+pred_sb         9.423    500-523 48.9%    271-255 51.5%    166-160 50.9%
+kp+comp 0.25    9.401    496-530 48.3%    199-211 48.5%    117-104 52.9%
+kp+comp 0.5     9.364    495-531 48.2%    200-203 49.6%    121-110 52.4%
+kp+comp 0.75    9.343    490-536 47.8%    214-202 51.4%    142-115 55.3%
+
+== season 2025: 1971 games on margin, 1624 home/away vs close
+version           MAE          ATS all           ATS 2+           ATS 3+
+pred_prior      9.473    854-770 52.6%    531-472 52.9%    365-335 52.1%
+pred_kp         9.320    793-831 48.8%    348-338 50.7%    183-184 49.9%
+pred_kp_fit     9.275    790-834 48.6%    330-316 51.1%    165-161 50.6%
+pred_comp       9.241    842-782 51.8%    370-347 51.6%    227-194 53.9%
+pred_sb         9.335    809-812 49.9%    417-412 50.3%    261-252 50.9%
+kp+comp 0.25    9.271    810-814 49.9%    306-310 49.7%    163-146 52.8%
+kp+comp 0.5     9.239    816-808 50.2%    299-286 51.1%    155-148 51.2%
+kp+comp 0.75    9.226    830-794 51.1%    324-308 51.3%    185-156 54.3%
+
+== season 2026: 2041 games on margin, 1740 home/away vs close
+version           MAE          ATS all           ATS 2+           ATS 3+
+pred_prior      9.869    873-859 50.4%    559-546 50.6%    433-411 51.3%
+pred_kp         9.548    835-897 48.2%    379-414 47.8%    220-237 48.1%
+pred_kp_fit     9.549    829-903 47.9%    367-402 47.7%    199-231 46.3%
+pred_comp       9.392    882-849 51.0%    415-394 51.3%    277-229 54.7%
+pred_sb         9.471    882-846 51.0%    474-427 52.6%    308-267 53.6%
+kp+comp 0.25    9.481    839-893 48.4%    374-377 49.8%    203-196 50.9%
+kp+comp 0.5     9.432    844-888 48.7%    369-356 50.9%    210-200 51.2%
+kp+comp 0.75    9.400    870-862 50.2%    380-366 50.9%    238-205 53.7%
+
+== both teams 5+ games: 2263 games on margin, 1933 home/away vs close
+version           MAE          ATS all           ATS 2+           ATS 3+
+pred_prior      9.605   1010-918 52.4%    677-605 52.8%    513-461 52.7%
+pred_kp         9.298   912-1016 47.3%    394-429 47.9%    211-240 46.8%
+pred_kp_fit     9.286   908-1020 47.1%    359-412 46.6%    184-219 45.7%
+pred_comp       9.124   1000-927 51.9%    437-414 51.4%    272-222 55.1%
+pred_sb         9.253    983-940 51.1%    511-477 51.7%    330-291 53.1%
+kp+comp 0.25    9.220    936-992 48.5%    356-375 48.7%    183-183 50.0%
+kp+comp 0.5     9.163    957-971 49.6%    348-340 50.6%    170-181 48.4%
+kp+comp 0.75    9.128    991-937 51.4%    382-362 51.3%    208-180 53.6%
+
+== Cover-margin regressions (home/away games; edge = pred + close, >0 means the model likes the home side vs the line)
+  KenPom alone: const -0.184 (se 0.204), e_pred_kp -0.080 (se 0.076)
+  composite alone: const -0.060 (se 0.204), e_pred_comp +0.153 (se 0.070)
+  both: const -0.119 (se 0.204), e_pred_kp -0.314 (se 0.098), e_pred_comp +0.339 (se 0.091)
+  all three: const -0.115 (se 0.205), e_pred_kp -0.308 (se 0.099), e_pred_comp +0.290 (se 0.140), e_pred_sb +0.050 (se 0.110)
+  both, fresh snapshots only (n 1027): const -0.495 (se 0.367), e_pred_kp -0.219 (se 0.192), e_pred_comp +0.130 (se 0.175)
+
+== Margin regressions (all games)
+  KenPom: const +0.577 (se 0.232), pred_kp +0.980 (se 0.017)
+  composite: const +0.247 (se 0.233), pred_comp +1.023 (se 0.017)
+  both: const +0.266 (se 0.233), pred_kp +0.286 (se 0.078), pred_comp +0.734 (se 0.081)
+  margin - prior ~ KenPom move + composite move: const +0.427 (se 0.187), d_kp +0.290 (se 0.079), d_comp +0.707 (se 0.094)
+  ... + scoreboard move: const +0.441 (se 0.187), d_kp +0.301 (se 0.079), d_comp +0.440 (se 0.131), d_sb +0.309 (se 0.105)
+
+== Team level: composite move vs KenPom's own in-season move (snapshot - preseason), points on our scale
+  corr(composite move, KenPom move) 0.796; corr(scoreboard move, KenPom move) 0.649; SD comp 2.29, kp 2.77, sb 2.32
+  composite move = -0.01 + 0.658 x KenPom move; residual SD 1.38
+  team's result vs KenPom's number ~ composite residual (what KenPom didn't have): const -0.000 (se 0.146), comp_resid +0.650 (se 0.105)
+  ... with KenPom move itself in: const -0.004 (se 0.145), kp -0.279 (se 0.053), comp_resid +0.650 (se 0.105)
+    composite residual -99.0..-1.5: n   868  result vs KenPom number -1.67
+    composite residual -1.5..-0.5: n  1487  result vs KenPom number -0.71
+    composite residual -0.5..+0.5: n  2101  result vs KenPom number +0.28
+    composite residual +0.5..+1.5: n  1347  result vs KenPom number +0.74
+    composite residual +1.5..+99.0: n   925  result vs KenPom number +1.00
