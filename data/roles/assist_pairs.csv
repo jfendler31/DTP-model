@@ -387,38 +387,45 @@ Austin Peay,Felipe Minzer,Chuck Love III,three,1.0
 Austin Peay,Felipe Minzer,Shamarrie Hugie,rim,1.0
 Austin Peay,Zyree Collins,Cam Ryans,rim,1.0
 Austin Peay,Zyree Collins,Felipe Minzer,rim,1.0
+BYU,Robert Wright III,Collin Chandler,three,3.0
+BYU,Robert Wright III,Tyler Betsey,three,2.2
 BYU,Brooks Bahr,Bruce Branch III,rim,2.0
 BYU,Bruce Branch III,Robert Wright III,three,2.0
+BYU,Collin Chandler,Robert Wright III,rim,2.0
 BYU,Collin Chandler,Robert Wright III,three,2.0
 BYU,Collin Chandler,Tyler Betsey,three,2.0
+BYU,Jaxon Kohler,Bruce Branch III,rim,2.0
 BYU,Jaxon Kohler,Tyler Betsey,three,2.0
-BYU,Robert Wright III,Collin Chandler,three,2.0
+BYU,Robert Wright III,Jaxon Kohler,rim,2.0
+BYU,Robert Wright III,Jaxon Kohler,three,2.0
 BYU,Robert Wright III,Nate Pickens,three,2.0
 BYU,Robert Wright III,Bruce Branch III,rim,1.43
 BYU,Bruce Branch III,Tyler Betsey,three,1.24
-BYU,Robert Wright III,Tyler Betsey,three,1.23
+BYU,Bruce Branch III,Collin Chandler,three,1.21
 BYU,Brooks Bahr,Bruce Branch III,three,1.0
 BYU,Brooks Bahr,Jake Wahlin,three,1.0
+BYU,Brooks Bahr,Jaxon Kohler,three,1.0
 BYU,Brooks Bahr,Nate Pickens,three,1.0
 BYU,Brooks Bahr,Tyler Betsey,three,1.0
-BYU,Bruce Branch III,Collin Chandler,three,1.0
 BYU,Bruce Branch III,Jake Wahlin,three,1.0
 BYU,Collin Chandler,Jaxon Kohler,three,1.0
-BYU,Collin Chandler,Robert Wright III,rim,1.0
 BYU,Dean Rueckert,Jaxon Kohler,three,1.0
 BYU,Dean Rueckert,Tyler Betsey,three,1.0
 BYU,Jake Wahlin,Brooks Bahr,three,1.0
 BYU,Jake Wahlin,Collin Chandler,three,1.0
 BYU,Jake Wahlin,Jaxon Kohler,three,1.0
 BYU,Jaxon Kohler,Bruce Branch III,three,1.0
+BYU,Jaxon Kohler,Collin Chandler,three,1.0
 BYU,Jaxon Kohler,Nate Pickens,three,1.0
 BYU,Khadim Mboup,Tyler Betsey,three,1.0
 BYU,Nate Pickens,Collin Chandler,rim,1.0
 BYU,Nate Pickens,Jake Wahlin,rim,1.0
+BYU,Nate Pickens,Jaxon Kohler,rim,1.0
 BYU,Robert Wright III,Bruce Branch III,three,1.0
-BYU,Robert Wright III,Jaxon Kohler,rim,1.0
-BYU,Robert Wright III,Jaxon Kohler,three,1.0
+BYU,Robert Wright III,Jake Wahlin,three,1.0
+BYU,Tyler Betsey,Bruce Branch III,three,1.0
 BYU,Brooks Bahr,Jake Wahlin,rim,0.87
+BYU,Robert Wright III,Jake Wahlin,rim,0.82
 BYU,Collin Chandler,Jaxon Kohler,rim,0.64
 BYU,Tyler Betsey,Robert Wright III,rim,0.53
 Ball St.,Javion Guy-King,Sean Blake,rim,1.0
@@ -4451,12 +4458,16 @@ Montana,LoLo Rudolph,Tyler Thompson,three,1.0
 Montana,Semaj Carter,Tyler Thompson,rim,1.0
 Montana,Tyler Thompson,Amari Jedkins,rim,1.0
 Montana,Tyler Thompson,Semaj Carter,three,1.0
-Montana St.,Cavin Holden,Howie Keene,three,3.0
+Montana St.,Cavin Holden,Howie Keene,three,3.8
+Montana St.,Cavin Holden,Christian King,three,2.0
+Montana St.,Cavin Holden,Jeremiah Davis,three,2.0
 Montana St.,Jeremiah Davis,London Praytor,rim,2.0
-Montana St.,Cavin Holden,Christian King,three,1.0
-Montana St.,Cavin Holden,Jeremiah Davis,three,1.0
+Montana St.,Christian King,Jaden Steppe,rim,1.89
+Montana St.,Christian King,Howie Keene,three,1.71
+Montana St.,Cavin Holden,Christian King,rim,1.0
+Montana St.,Christian King,Darnez Slater,three,1.0
 Montana St.,Christian King,Howie Keene,rim,1.0
-Montana St.,Christian King,Jaden Steppe,rim,1.0
+Montana St.,Christian King,Jeremiah Davis,mid,1.0
 Montana St.,Hale Hansen,Christian King,three,1.0
 Montana St.,Howie Keene,Christian King,rim,1.0
 Montana St.,Howie Keene,Christian King,three,1.0
@@ -4464,11 +4475,15 @@ Montana St.,Howie Keene,London Praytor,rim,1.0
 Montana St.,Isaiah Crane,Darnez Slater,three,1.0
 Montana St.,Jaden Steppe,Isaiah Crane,three,1.0
 Montana St.,Jaden Steppe,Jed Miller,three,1.0
+Montana St.,Jed Miller,Christian King,three,1.0
 Montana St.,Jed Miller,Howie Keene,three,1.0
+Montana St.,Jed Miller,Jeremiah Davis,three,1.0
+Montana St.,Jed Miller,London Praytor,three,1.0
 Montana St.,Jeremiah Davis,Christian King,three,1.0
 Montana St.,London Praytor,Jed Miller,three,1.0
+Montana St.,Seth Amunrud,London Praytor,rim,1.0
 Montana St.,Isaiah Crane,Cavin Holden,three,1.0
-Montana St.,Christian King,Howie Keene,three,0.92
+Montana St.,Cavin Holden,London Praytor,three,0.83
 Morehead St.,Chase Dawson,Clayton Parker,three,3.0
 Morehead St.,Chase Dawson,Jaden Priester,rim,1.0
 Morehead St.,Clayton Parker,Dalman Alexander,mid,1.0
@@ -4770,10 +4785,21 @@ New Mexico,Benjamin Schuch,Chris Howell,three,0.79
 New Mexico,Chris Howell,Hudson Mayes,mid,0.65
 New Mexico,Tunde Vahlberg Fasasi,Fynn Lastring,mid,0.62
 New Mexico St.,Gabe Pickens,DJ Dudley,three,2.0
+New Mexico St.,Gabe Pickens,Jermaine Washington,three,2.0
+New Mexico St.,DJ Dudley,Gabe Pickens,three,1.0
+New Mexico St.,DJ Dudley,Jae'Coby Osborne,mid,1.0
+New Mexico St.,DJ Dudley,Jermaine Washington,three,1.0
+New Mexico St.,Gabe Pickens,Adrame Diongue,mid,1.0
+New Mexico St.,Gabe Pickens,DJ Dudley,rim,1.0
 New Mexico St.,Gabe Pickens,Jae'Coby Osborne,rim,1.0
-New Mexico St.,Gabe Pickens,Jermaine Washington,three,1.0
 New Mexico St.,Gabe Pickens,Leopold Levillain,rim,1.0
+New Mexico St.,Gabe Pickens,Mark Lavrenov,three,1.0
+New Mexico St.,Jae'Coby Osborne,Jermaine Washington,three,1.0
+New Mexico St.,Jae'Coby Osborne,Mark Lavrenov,rim,1.0
 New Mexico St.,Jermaine Washington,Caden Deffebaugh,rim,1.0
+New Mexico St.,Jermaine Washington,Mark Lavrenov,three,1.0
+New Mexico St.,Jermaine Washington,Omarr Smith,three,1.0
+New Mexico St.,KK Robinson,Jae'Coby Osborne,three,1.0
 Niagara,Bastien Rieber,Logan Woods,three,4.0
 Niagara,Ruey Ruey,Logan Woods,three,2.98
 Niagara,Ruey Ruey,Bastien Rieber,three,2.0
@@ -7877,28 +7903,38 @@ UT Rio Grande Valley,T'Johnn Brown,Jace Posey,rim,1.0
 UT Rio Grande Valley,Terrell Wright,Jace Posey,mid,1.0
 UT Rio Grande Valley,Terrell Wright,Jace Posey,rim,1.0
 UT Rio Grande Valley,Devon Pryor,B.B. Knight,rim,0.74
+UTEP,Leif Moeller,Youssouf Traore,rim,4.29
 UTEP,Reese Miller,Youssouf Traore,rim,3.96
 UTEP,Augusto Cassia,Youssouf Traore,rim,3.0
-UTEP,Leif Moeller,Youssouf Traore,rim,2.29
+UTEP,Cam McDaniels,Youssouf Traore,rim,2.0
 UTEP,Reese Miller,Cam McDaniels,three,2.0
+UTEP,Reese Miller,Cam McDaniels,rim,1.97
 UTEP,Augusto Cassia,Cam McDaniels,three,1.0
 UTEP,Augusto Cassia,Reese Miller,rim,1.0
 UTEP,Cam McDaniels,Isaiah Ward,three,1.0
 UTEP,Cam McDaniels,Jace Whiting,three,1.0
+UTEP,Cam McDaniels,Leif Moeller,three,1.0
 UTEP,Cam McDaniels,Reid Cason,rim,1.0
-UTEP,Cam McDaniels,Youssouf Traore,rim,1.0
 UTEP,Donovan Criss,Jace Whiting,three,1.0
+UTEP,Donovan Criss,Ryan Jackson Jr.,three,1.0
+UTEP,Isaiah Ward,Jace Whiting,three,1.0
 UTEP,Isaiah Ward,Reese Miller,three,1.0
+UTEP,Jace Whiting,Cam McDaniels,mid,1.0
 UTEP,Jace Whiting,Cam McDaniels,three,1.0
 UTEP,Jace Whiting,Donovan Criss,three,1.0
 UTEP,Jace Whiting,Isaiah Ward,three,1.0
 UTEP,Leif Moeller,Augusto Cassia,three,1.0
+UTEP,Leif Moeller,Cam McDaniels,three,1.0
 UTEP,Leif Moeller,Donovan Criss,three,1.0
+UTEP,Leif Moeller,Jace Whiting,three,1.0
 UTEP,Leif Moeller,Reese Miller,three,1.0
+UTEP,Reese Miller,Leif Moeller,mid,1.0
 UTEP,Reese Miller,Leif Moeller,three,1.0
+UTEP,Ryan Jackson Jr.,Leif Moeller,three,1.0
+UTEP,Ryan Jackson Jr.,Reese Miller,three,1.0
+UTEP,Youssouf Traore,Cam McDaniels,three,1.0
 UTEP,Youssouf Traore,Leif Moeller,mid,1.0
 UTEP,Youssouf Traore,Reese Miller,three,1.0
-UTEP,Reese Miller,Cam McDaniels,rim,0.97
 UTEP,Cam McDaniels,Reid Cason,mid,0.95
 UTEP,Augusto Cassia,Reid Cason,rim,0.92
 UTEP,Leif Moeller,Reese Miller,mid,0.53
