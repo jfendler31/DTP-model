@@ -106,6 +106,13 @@ for g in S.itertuples():
                 'model_home_spread': m, 'market_home_spread': hs, 'edge_size': None if e is None else round(abs(e), 1),
                 'model_home_spread_adj': ma, 'edge_size_adj_num': None if ea is None else round(abs(ea), 1), 'size_curve': int(ok)})
 C = pd.DataFrame(out)
+# Nov 13 (Jon): line tier from the 4 AM market line. 20+ dog edges carry no model information (BigDog_Recheck_2026-11-13.md), so the
+# Betting Sheet sorts by tier (<15, 15-20, 20+), then edge, and 20+ games sit in their own block. Numbers are unchanged.
+def tier_of(hs):
+    if hs is None or (isinstance(hs, float) and pd.isna(hs)): return ''
+    a = abs(float(hs)); return '20+' if a >= 20 else ('15-20' if a >= 15 else '<15')
+C['tier'] = C.market_home_spread.map(tier_of)
+TIER_ORD = {'<15': 0, '15-20': 1, '20+': 2, '': 3}
 C['_t'] = pd.to_datetime(C.tip_ET.str.replace(r'^\w+ ', '', regex=True) + f' {card_date[:4]}', format='%b %d %I:%M %p %Y', errors='coerce')
 C = C.sort_values('_t').drop(columns='_t')
 os.makedirs('cards', exist_ok=True); fn = f'cards/card_{card_date}.csv'; C.to_csv(fn, index=False, encoding='utf-8-sig')
@@ -142,20 +149,21 @@ def sheet(ws, df, widths, fmts):
             if col in fmts: c.number_format = fmts[col]
     ws.freeze_panes = 'B2' if 'Rank' in df.columns else 'A2'; ws.auto_filter.ref = ws.dimensions
 # Card tab in Jon's layout (Nov 6): sorted by size-adjusted edge, Helvetica 12, centered; working columns hidden but kept
-CARD_COLS = ['tip_ET', 'away', 'home', 'venue', 'model', 'market', 'n_books', 'total', 'edge', 'model_size_adj', 'edge_size_adj',
+CARD_COLS = ['tip_ET', 'away', 'home', 'venue', 'tier', 'model', 'market', 'n_books', 'total', 'edge', 'model_size_adj', 'edge_size_adj',
              'edge_inseason_only', 'prior_wt_away', 'prior_wt_home', 'notes', 'market_home_spread', 'model_home_spread', 'edge_size',
              'model_home_spread_adj', 'edge_size_adj_num', 'adj_home', 'abbr_away', 'abbr_home', 'size_curve']
-CARD_HDR = {'away': 'Away', 'home': 'Home', 'edge_size_adj': 'Edge Size Adj', 'market_home_spread': 'Market Home Spread',
+CARD_HDR = {'away': 'Away', 'home': 'Home', 'tier': 'Line tier', 'edge_size_adj': 'Edge Size Adj', 'market_home_spread': 'Market Home Spread',
             'model_home_spread': 'Model Home Spread', 'model_home_spread_adj': 'Home Spread Adj', 'edge_size_adj_num': 'Edge Size Adj',
             'adj_home': 'Adj To Home Side'}
 CARD_HIDE = {'model', 'market', 'n_books', 'total', 'edge', 'model_size_adj', 'edge_inseason_only', 'prior_wt_away', 'prior_wt_home', 'notes', 'edge_size',
              'abbr_away', 'abbr_home'}
-CARD_W = {'tip_ET': 22, 'away': 21, 'home': 21, 'venue': 9, 'edge_size_adj': 19, 'market_home_spread': 11, 'model_home_spread': 11,
+CARD_W = {'tip_ET': 22, 'away': 21, 'home': 21, 'venue': 9, 'tier': 9, 'edge_size_adj': 19, 'market_home_spread': 11, 'model_home_spread': 11,
           'model_home_spread_adj': 11, 'edge_size_adj_num': 11, 'notes': 40, 'adj_home': 13}
 CARD_NUM = {'size_curve', 'market_home_spread', 'model_home_spread', 'model_home_spread_adj', 'edge_size_adj_num', 'edge_size', 'adj_home'}
 CD = C.assign(adj_home=None, abbr_away=C.away.map(abbr), abbr_home=C.home.map(abbr))[CARD_COLS].copy()
 CD['_k'] = pd.to_numeric(CD.edge_size_adj_num, errors='coerce')
-CD = CD.sort_values('_k', ascending=False, na_position='last').drop(columns='_k')
+CD['_tk'] = CD.tier.map(TIER_ORD)
+CD = CD.sort_values(['_tk', '_k'], ascending=[True, False], na_position='last').drop(columns=['_k', '_tk'])
 ws = wb.active; ws.title = 'Card'
 BODY = Font(name='Helvetica', size=12); HEAD = Font(name='Helvetica', size=12, bold=True, color='FFFFFF')
 MID = Alignment(horizontal='center', vertical='center'); MIDW = Alignment(horizontal='center', vertical='center', wrap_text=True)
@@ -206,17 +214,18 @@ sheet(wb.create_sheet(f'Ratings {MMDD}'), PR[cols], {'Team': 22, 'Overrides': 50
 from openpyxl.formatting.rule import ColorScaleRule
 BS = C.assign(tip_dt=pd.to_datetime(C.tip_ET.str.replace(r'^\w+ ', '', regex=True) + f' {card_date[:4]}', format='%b %d %I:%M %p %Y',
                                 errors='coerce'), edge_k=pd.to_numeric(C.edge_size_adj_num, errors='coerce'))
-BS = BS.sort_values(['edge_k', 'tip_dt'], ascending=[False, True], na_position='last')
+BS = BS.assign(tier_k=BS.tier.map(TIER_ORD)).sort_values(['tier_k', 'edge_k', 'tip_dt'], ascending=[True, False, True], na_position='last')
 bs = wb.create_sheet(f'Betting Sheet {MMDD}', 0)
 BS_HDR = ['tip_ET', 'Away', 'Home', 'venue', 'Edge Size Adj', 'Market Home Spread', 'Model Home Spread', 'Home Spread Adj',
-          'Edge Size Adj', 'Adj To Home Side', 'Notes', 'Size curve']
+          'Edge Size Adj', 'Adj To Home Side', 'Notes', 'Size curve', 'Line tier']
 bs.append(BS_HDR)
 def num(v):
     try: return None if v in (None, '') or (isinstance(v, float) and pd.isna(v)) else float(v)
     except (TypeError, ValueError): return None
 for g in BS.itertuples(index=False):
     bs.append([None if pd.isna(g.tip_dt) else g.tip_dt.to_pydatetime(), g.away, g.home, g.venue, None, num(g.market_home_spread),
-               num(g.model_home_spread), None, None, None, g.notes if isinstance(g.notes, str) and g.notes else None, int(g.size_curve)])
+               num(g.model_home_spread), None, None, None, g.notes if isinstance(g.notes, str) and g.notes else None, int(g.size_curve),
+               g.tier or None])
 last = bs.max_row + 15            # formatted rows (slate + 15 spare); the arrays run to row BS_N
 BS_N = 500
 from openpyxl.worksheet.formula import ArrayFormula
@@ -229,15 +238,15 @@ bs['E1'] = ArrayFormula(f'E1:E{BS_N}', f'={{"Edge Size Adj"; IF({_R("F")}="","",
                                          f'&" "&TEXT(ABS({_d}),"0.0")))}}')
 for c in bs[1]: c.font, c.fill, c.alignment = HEAD, hdr_fill, MIDW
 bs.row_dimensions[1].height = 48
-for L, w in zip('ABCDEFGHIJKL', (16, 22, 22, 8, 24, 11, 11, 11, 10, 11, 40, 8)): bs.column_dimensions[L].width = w
-for row in bs.iter_rows(min_row=2, max_row=last, max_col=12):
+for L, w in zip('ABCDEFGHIJKLM', (16, 22, 22, 8, 24, 11, 11, 11, 10, 11, 40, 8, 9)): bs.column_dimensions[L].width = w
+for row in bs.iter_rows(min_row=2, max_row=last, max_col=13):
     for cell in row:
         cell.font, cell.alignment = BODY, MID
         if cell.column_letter == 'A': cell.number_format = 'ddd mmm d h:mm am/pm'
         elif cell.column_letter in 'FGHIJ': cell.number_format = '0.0'
 bs.conditional_formatting.add(f'I2:I{BS_N}', ColorScaleRule(start_type='min', start_color='FFE67C73',
                               mid_type='num', mid_value=2, mid_color='FFFFFFFF', end_type='max', end_color='FF57BB8A'))
-bs.freeze_panes = 'A2'; bs.auto_filter.ref = f'A1:L{BS_N}'
+bs.freeze_panes = 'A2'; bs.auto_filter.ref = f'A1:M{BS_N}'
 wb.move_sheet(f'Ratings {MMDD}', offset=1 - wb.sheetnames.index(f'Ratings {MMDD}'))
 wb.active = 0
 xfn = f'cards/card_{card_date}.xlsx'; wb.save(xfn)
@@ -256,7 +265,7 @@ sync_fn = f'data/tracker/sync_{card_date}.txt'
 sync_txt = (open(sync_fn).read().strip() + "\n\n") if os.path.exists(sync_fn) else "Player sync did not run today (no data/tracker/sync file); overrides used as-is.\n\n"
 msg.set_content(sync_txt + f"Ratings: {RSRC} + overrides. Lines as of {asof} (consensus = most common number across books).\n"
                 f"{len(C)} games, {lined} with lines. Workbook attached (Betting Sheet, Ratings and Card tabs); CSV of the card (tip-time order) also attached.\n"
-                f"Betting Sheet tab: your Google Sheet layout, sorted by edge. Type the current line in F and your adjustment in J; E/H/I are array formulas in the header row (rows 2-500), so sorting rows 2+ and adding games below both work.\n"
+                f"Betting Sheet tab: your Google Sheet layout, sorted by line tier (<15, 15-20, 20+) then edge; 20+ games are their own block (M). Type the current line in F and your adjustment in J; E/H/I are array formulas in the header row (rows 2-500), so sorting rows 2+ and adding games below both work.\n"
                 f"Ratings tab: points vs an average D-I team on a neutral floor (9.5 per SD), prior + in-season blend + overrides.\n"
                 f"edge_size_adj: model spread widened {SIZE_K} pt per point beyond {SIZE_KNEE} (size curve) in non-conference games with the favorite at home only (Size curve = 1); regular edge unchanged.\n"
                 f"Card tab: Edge Size Adj, Home Spread Adj and the label recompute from Market Home Spread, Model Home Spread and Adj To Home Side.\n")
