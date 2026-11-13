@@ -35,6 +35,29 @@ LABEL_DEF = {
 }
 
 
+THIN = {  # label -> (column, minimum, what it counts) — below the minimum the tag shows faded
+    'lead engine': ('n_fgm_raw', 10, 'made shots'), 'self-creating scorer': ('n_fgm_raw', 10, 'made shots'),
+    'downhill creator': ('n_rim_m_raw', 6, 'rim makes'), 'slasher': ('n_rim_m_raw', 6, 'rim makes'),
+    'rim runner': ('n_rim_m_raw', 6, 'rim makes'), 'interior scorer': ('n_rim_m_raw', 6, 'rim makes'),
+    'spot-up shooter': ('n_three_m_raw', 6, 'made threes'), 'pull-up shooter': ('n_three_m_raw', 6, 'made threes'),
+    'connector': ('min_lev', 60, 'competitive minutes'), 'playmaker (loose)': ('min_lev', 60, 'competitive minutes'),
+    'stretch big': ('n_fga_raw', 20, 'shots'), 'post scorer': ('n_fga_raw', 20, 'shots'), 'off-dribble jumpers': ('n_fga_raw', 20, 'shots'),
+    'balanced': ('n_fga_raw', 20, 'shots'), 'low-usage role player': ('n_fga_raw', 20, 'shots'),
+    'glass': ('min_lev', 80, 'competitive minutes'), 'putbacks': ('min_lev', 80, 'competitive minutes'),
+    'rim protector': ('min_lev', 80, 'competitive minutes'), 'pickpocket': ('min_lev', 80, 'competitive minutes'),
+    'transition': ('min_lev', 80, 'competitive minutes'),
+}
+
+
+def thin(r, labs):
+    out = []
+    for l in labs:
+        if l in THIN:
+            c, m, what = THIN[l]; v = getattr(r, c)
+            if pd.notna(v) and v < m: out.append([l, f'{int(round(v))} {what}; needs {m}'])
+    return out
+
+
 def slug(t):
     return re.sub(r'[^a-z0-9]+', '-', str(t).lower().replace('&', ' and ')).strip('-')
 
@@ -63,7 +86,8 @@ def build(out):
         labs = [] if pd.isna(r.labels) else [l.strip() for l in str(r.labels).split(';') if l.strip()]
         P.append([tix[r.team], r.player, '' if pd.isna(r.pos) else str(r.pos)[0], ht(r.ht), int(r.gp), r1(r.min_lev), r1(r.usg), r1(r.ast_pct), r1(r.to_pct),
                   pct(r.efg), None if pd.isna(r.astd) else round(100 * (1 - r.astd)), pct(r.rim_sh), pct(r.mid_sh), pct(r.three_sh),
-                  pct(r.rim_astd), pct(r.three_astd), r1(r.or_pct), r1(r.stl40), r1(r.blk40), labs])
+                  pct(r.rim_astd), pct(r.three_astd), r1(r.or_pct), r1(r.stl40), r1(r.blk40), labs,
+                  int(r.n_fga_raw), int(r.n_fgm_raw), thin(r, labs)])
     A = A[A.team.isin(tix)].sort_values(['team', 'n'], ascending=[True, False]).groupby('team').head(8)
     AS = [[tix[r.team], r.ast_name, r.player, r.zone, round(float(r.n), 1)] for r in A.itertuples()]
     asof = (dt.date.today() - dt.timedelta(days=1)).strftime('%b. %-d')
@@ -114,6 +138,8 @@ td.pl{white-space:normal;min-width:210px}
 .chip.a{border-color:var(--acc);color:var(--acc)}
 .chip.hit{background:var(--acc);border-color:var(--acc);color:#fff}
 .chip.lim{border-color:var(--rule);color:var(--dim)}
+.chip.thin{background:#fff!important;color:var(--dim)!important;border:1px dashed var(--mid)!important;font-weight:600}
+.chip.thin::after{content:" ?";font-weight:700}
 tr.limrow td{color:var(--dim)}
 .hi{font-weight:700}
 .sm{display:flex;flex-direction:column;gap:3px;min-width:150px}
@@ -150,7 +176,7 @@ details summary{cursor:pointer;font-weight:700;font-size:15px}
 
 <div id="view"></div>
 
-<div class="note">Every second of floor time is weighted by how live the game was: full weight while the leading team's win probability is 95% or lower, none at 99.9%+, scaled in between. Min is those competitive minutes, season to date. Usage, assist rate and turnover rate are per possession. <b>Self</b> is the share of a player's made shots nobody assisted. <b>Shot mix</b> splits his field-goal attempts into rim, midrange and three; the small numbers under it are the share of his rim and three makes that were assisted. Players under 20 competitive minutes or 6 shots are marked limited sample.</div>
+<div class="note">Every second of floor time is weighted by how live the game was: full weight while the leading team's win probability is 95% or lower, none at 99.9%+, scaled in between. Min is those competitive minutes, season to date. Usage, assist rate and turnover rate are per possession. <b>Self</b> is the share of a player's made shots nobody assisted. <b>Shot mix</b> splits his field-goal attempts into rim, midrange and three; the small numbers under it are the share of his rim and three makes that were assisted. Players under 20 competitive minutes or 6 shots are marked limited sample. <b>Shots</b> are raw field-goal attempts (all minutes) with makes underneath. A dashed tag with a question mark rests on a thin sample: under 10 made shots for lead engine and self-creating scorer, 6 rim makes for the rim tags, 6 made threes for the shooter tags, 20 shots for the shot-type tags, 60 competitive minutes for the passing tags and 80 for glass, putbacks and the defensive tags. Hover a dashed tag for its count.</div>
 
 <details><summary>What each role means</summary><div class="defs" id="defs"></div></details>
 
@@ -170,22 +196,24 @@ const confs=[...new Set(D.T.map(t=>t[1]).filter(Boolean))].sort();
 $('conf').innerHTML+=confs.map(c=>'<option>'+esc(c)+'</option>').join('');
 // player row: 0 team,1 name,2 pos,3 ht,4 gp,5 min,6 usg,7 ast,8 to,9 efg,10 self,11 rim,12 mid,13 three,14 rimA,15 threeA,16 or,17 stl,18 blk,19 labels
 const f1=v=>v==null?'–':v.toFixed(1), f0=v=>v==null?'–':String(v);
-function chips(L,hit){return '<div class="chips">'+L.map(l=>{let c='chip';if(l==='limited sample')c+=' lim';else if(l===hit)c+=' hit';else if(KEY.has(l))c+=' k';else if(ACC.has(l))c+=' a';return '<span class="'+c+'">'+esc(l)+'</span>';}).join('')+'</div>';}
+function chips(L,hit,T){const th=Object.fromEntries(T||[]);return '<div class="chips">'+L.map(l=>{let c='chip';if(l==='limited sample')c+=' lim';else if(th[l])c+=' thin';else if(l===hit)c+=' hit';else if(KEY.has(l))c+=' k';else if(ACC.has(l))c+=' a';
+ return '<span class="'+c+'"'+(th[l]?' title="Thin sample: '+esc(th[l])+'"':'')+'>'+esc(l)+'</span>';}).join('')+'</div>';}
 function mix(p){const r=p[11]||0,m=p[12]||0,t=p[13]||0;
  return '<div class="sm"><div class="smb" role="img" aria-label="Rim '+r+'%, mid '+m+'%, three '+t+'%"><i class="r" style="width:'+r+'%"></i><i class="m" style="width:'+m+'%"></i><i class="t" style="width:'+t+'%"></i></div>'+
  '<div class="smt"><span>'+r+' / '+m+' / '+t+'</span></div><div class="astd">ast: rim '+(p[14]==null?'–':p[14]+'%')+' · 3 '+(p[15]==null?'–':p[15]+'%')+'</div></div>';}
 const COLS=[ // key index, label, class, default dir, group
  [1,'Player','l',1,''],[5,'Min','',-1,''],[6,'Usg','',-1,'Creation'],[7,'Ast%','',-1,'Creation'],[8,'TO%','hc',-1,'Creation'],[10,'Self','',-1,'Creation'],
- [9,'eFG','',-1,'Scoring'],[13,'Shot mix','l',-1,'Scoring'],[16,'OR%','hc',-1,'Activity'],[17,'Stl/40','hc',-1,'Activity'],[18,'Blk/40','hc',-1,'Activity']];
+ [20,'Shots','',-1,'Scoring'],[9,'eFG','',-1,'Scoring'],[13,'Shot mix','l',-1,'Scoring'],[16,'OR%','hc',-1,'Activity'],[17,'Stl/40','hc',-1,'Activity'],[18,'Blk/40','hc',-1,'Activity']];
 let st={k:5,dir:-1};
 function cell(p,k,national){
  switch(k){
-  case 1:return '<td class="l pl"><div class="nm">'+esc(p[1])+'</div><div class="meta">'+(national?'<a href="#'+D.T[p[0]][2]+'">'+esc(D.T[p[0]][0])+'</a> · ':'')+[p[2],p[3]].filter(Boolean).join(' · ')+(p[2]||p[3]?' · ':'')+p[4]+' gp</div>'+chips(p[19],$('lab').value)+'</td>';
+  case 1:return '<td class="l pl"><div class="nm">'+esc(p[1])+'</div><div class="meta">'+(national?'<a href="#'+D.T[p[0]][2]+'">'+esc(D.T[p[0]][0])+'</a> · ':'')+[p[2],p[3]].filter(Boolean).join(' · ')+(p[2]||p[3]?' · ':'')+p[4]+' gp</div>'+chips(p[19],$('lab').value,p[22])+'</td>';
   case 5:return '<td>'+f1(p[5])+'</td>';
   case 6:return '<td class="'+(p[6]>=22?'hi':'')+'">'+f1(p[6])+'</td>';
   case 7:return '<td class="'+(p[7]>=20?'hi':'')+'">'+f1(p[7])+'</td>';
   case 8:return '<td class="hc">'+f1(p[8])+'</td>';
   case 10:return '<td>'+(p[10]==null?'–':p[10]+'%')+'</td>';
+  case 20:return '<td>'+p[20]+'<div class="astd">'+p[21]+' made</div></td>';
   case 9:return '<td>'+f0(p[9])+'</td>';
   case 13:return '<td class="l">'+mix(p)+'</td>';
   case 16:return '<td class="hc">'+f1(p[16])+'</td>';
@@ -195,12 +223,12 @@ function table(rows,national){
  const lim=p=>p[19].includes('limited sample');
  rows=rows.slice().sort((a,b)=>{if(!national&&lim(a)!==lim(b))return lim(a)?1:-1;const A=a[st.k],B=b[st.k];
   const c=(A==null?-1e9:(typeof A==='string'?0:A))-(B==null?-1e9:(typeof B==='string'?0:B));return (typeof A==='string'?A.localeCompare(B):c)*st.dir||b[5]-a[5];});
- const grp=[['',2],['Creation',4],['Scoring',2],['Activity',3]];
+ const grp=[['',2],['Creation',4],['Scoring',3],['Activity',3]];
  const g='<tr class="hc">'+grp.map(([n,s],i)=>'<th class="grp'+(i===3?' hc':'')+'" colspan="'+(i===3?3:s)+'">'+n+'</th>').join('')+'</tr>';
  const h='<tr>'+COLS.map(c=>'<th class="'+c[2]+'" data-k="'+c[0]+'"'+(st.k===c[0]?' aria-sort="'+(st.dir>0?'ascending':'descending')+'"':'')+'><button type="button">'+c[1]+'</button></th>').join('')+'</tr>';
  const b=rows.map((p,i)=>'<tr class="'+(i%2?'alt ':'')+(lim(p)?'limrow':'')+'">'+COLS.map(c=>cell(p,c[0],national)).join('')+'</tr>').join('');
  return '<div class="scroll"><table><thead>'+g+h+'</thead><tbody>'+b+'</tbody></table></div>';}
-const key='<div class="key"><span><i class="r"></i>Rim</span><span><i class="m"></i>Midrange</span><span><i class="t"></i>Three</span><span>Bold: usage 22+ or assist rate 20+</span></div>';
+const key='<div class="key"><span><i class="r"></i>Rim</span><span><i class="m"></i>Midrange</span><span><i class="t"></i>Three</span><span>Bold: usage 22+ or assist rate 20+</span><span><span class="chip thin" style="font-size:10px">tag</span> thin sample</span></div>';
 function teamView(i){
  const t=D.T[i],P=D.P.filter(p=>p[0]===i),A=D.A.filter(a=>a[0]===i);
  const links=A.length?'<div style="display:flex;flex-direction:column;gap:8px"><h2>Who sets up whom</h2><div class="links">'+

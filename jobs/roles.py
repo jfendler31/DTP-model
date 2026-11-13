@@ -101,7 +101,9 @@ def build():
                  fga=fx.w.sum(), fgm=fx[fx.made == True].w.sum(), fta=x[x.k == 'ft'].w.sum(),
                  ftm=x[(x.k == 'ft') & (x.made == True)].w.sum(), to=x[x.k == 'to'].w.sum(),
                  oreb=x[x.k == 'oreb'].w.sum(), dreb=x[x.k == 'dreb'].w.sum(), stl=x[x.k == 'stl'].w.sum(), blk=x[x.k == 'blk'].w.sum(),
-                 putback=fx[fx.putback].w.sum(), trans=fx[fx.trans].w.sum(), n_fga_raw=len(fx))
+                 putback=fx[fx.putback].w.sum(), trans=fx[fx.trans].w.sum(), n_fga_raw=len(fx),
+                 n_fgm_raw=int((fx.made == True).sum()), n_rim_m_raw=int(((fx.zone == 'rim') & (fx.made == True)).sum()),
+                 n_three_m_raw=int(((fx.zone == 'three') & (fx.made == True)).sum()))
         for z in ('rim', 'mid', 'three'):
             zx = fx[fx.zone == z]
             d[f'{z}_a'] = zx.w.sum(); d[f'{z}_m'] = zx[zx.made == True].w.sum()
@@ -139,7 +141,7 @@ def build():
     S = S.sort_values(['team', 'min_lev'], ascending=[True, False])
     keep = ['team', 'team_cbbd', 'player', 'pid', 'pos', 'ht', 'gp', 'min_raw', 'min_lev', 'labels', 'usg', 'usg_rank', 'ast_pct', 'to_pct',
             'efg', 'ft_rate', 'rim_sh', 'mid_sh', 'three_sh', 'rim_pct', 'mid_pct', 'three_pct', 'rim_astd', 'mid_astd', 'three_astd',
-            'astd', 'pullup_sh', 'floater_sh', 'post_sh', 'drive_sh', 'dunk_sh', 'putback40', 'trans40', 'or_pct', 'dr_pct', 'stl40', 'blk40', 'fga', 'n_fga_raw']
+            'astd', 'pullup_sh', 'floater_sh', 'post_sh', 'drive_sh', 'dunk_sh', 'putback40', 'trans40', 'or_pct', 'dr_pct', 'stl40', 'blk40', 'fga', 'n_fga_raw', 'n_fgm_raw', 'n_rim_m_raw', 'n_three_m_raw']
     S[keep].round(3).to_csv(f'{OUT}/roles_current.csv', index=False)
     # assist pairs
     a = M[(M.k == 'fga') & (M.made == True) & M.ast_id.notna()]
