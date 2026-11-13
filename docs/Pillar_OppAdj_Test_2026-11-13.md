@@ -21,6 +21,6 @@
 - Every variant is worse on margin in every season; none improves ATS on 3+ edges beyond noise (best +0.1 pt of win rate).
 - Direction test: where a variant moves the number, regress (result − base) on (variant − base). Raw 3PT: **−1.19 (se 0.49)**; ridge variants −1.2 to −4.2. Moving toward the un-adjusted number is the wrong direction — the opponent adjustment on threes carries information even at 3–6 games.
 - The 3PT pillar earns its .10 weight: dropping it costs MAE in all three seasons.
-- Scale: raw 3PT differs from production by 1+ point in only 31 games of ~4,400; across D-I today the SD of the difference is 0.2 and ULM (−0.7) is the second-largest of 364.
+- Scale: raw 3PT differs from production by 1+ point in only 31 games of ~4,400; across D-I today the SD of the difference is 0.2 and ULM (−0.7) is one of the two largest of 364 (with Georgia).
 
 **For reads:** an extreme opponent-adjusted pillar on a 3-game team is not grounds for a haircut. The scoreboard blend (70/30) remains the tested check on a composite that looks too high.
