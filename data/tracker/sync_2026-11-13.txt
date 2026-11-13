@@ -1,0 +1,37 @@
+Player sync 2026-11-13: 1 override(s) expired; box scores 2026-11-01 to 2026-11-12.
+tracker export: 430 notes, latest edit 2026-11-13
+expired  Gonzaga — Chauncey Wiggins (-0.04): tracker says elig_tro (2026-11-12)
+unpriced Alabama — Jamarion Davis-Fleming: injured (Missed OAK game (lower leg)), tracker 2026-11-10, plays today, no override
+unpriced Arizona St. — Jonathan Griman: injured (Missed NOCO game 11/6), tracker 2026-11-06, plays today, no override
+unpriced Arizona St. — Marcus Vaughns: injured, tracker 2026-11-06, plays today, no override
+unpriced Auburn — Mantas Rubštavičius: out_season (Withdrew eligibility case; going back to Europe), tracker 2026-10-27, plays today, no override
+unpriced Charlotte — Chaze Harris: injured (Left early in GAST game 11/5), tracker 2026-11-06, plays today, no override
+unpriced Connecticut — Solo Ball: out_season (Wrist surgery; will miss season), tracker 2026-10-19, plays today, no override
+unpriced DePaul — Amsal Delalić: injured, tracker 2026-11-04, plays today, no override
+unpriced DePaul — Mason Lockett: injured, tracker 2026-11-04, plays today, no override
+unpriced DePaul — Théo Pierre-Justin: injured (Due back soon), tracker 2026-11-04, plays today, no override
+unpriced FIU — Jerald Colonel: ineligible (Withdrew from GA case 10/28), tracker 2026-10-28, plays today, no override
+unpriced Florida — CJ Ingram: injured (Back injury), tracker 2026-10-27, plays today, no override
+unpriced Florida St. — AJ Swinton: suspended (Suspended indefinitely), tracker 2026-10-30, plays today, no override
+unpriced Georgetown — NJ Benson: ineligible (Tennessee case), tracker 2026-10-28, plays today, no override
+unpriced Illinois Chicago — Asa Thomas: out_season, tracker 2026-10-28, plays today, no override
+unpriced Liberty — Sean Register: out_season, tracker 2026-10-29, plays today, no override
+unpriced Marist — Josh Williams: left (Left for personal reasons), tracker 2026-10-29, plays today, no override
+unpriced Miami FL — LJ Cason: injured (ACL surgery April '26), tracker 2026-10-24, plays today, no override
+unpriced Miami FL — Marcus Allen: out_season (ACL surgery summer '26), tracker 2026-10-24, plays today, no override
+unpriced Mississippi St. — Cameren Paul: out_season (Achilles tear), tracker 2026-10-19, plays today, no override
+unpriced Murray St. — Mark Padgen: injured (Knee injury (2-3 weeks)), tracker 2026-10-23, plays today, no override
+unpriced North Carolina — Cameron Fens: ineligible (Currently ineligible (Tennessee)), tracker 2026-10-19, plays today, no override
+unpriced North Carolina — Malloy Smith: injured (Unknown), tracker 2026-10-19, plays today, no override
+unpriced Northwestern — Jack Karasinski: injured (concussion), tracker 2026-11-09, plays today, no override
+unpriced Northwestern — Luke McEldon: personal (Indefinitely leave of absence 11/2), tracker 2026-11-02, plays today, no override
+unpriced Ohio St. — Myles Herro: injured (Concussion), tracker 2026-10-27, plays today, no override
+tracker  Oral Roberts — Cam Haffner: tracker says ineligible, but played 5 min 2026-11-02 vs Central Arkansas — update the tracker
+unpriced Pittsburgh — Timofei Rudovskii: injured, tracker 2026-11-04, plays today, no override
+unpriced Saint Mary's — Salih Altuntas: injured (Sprained ankle), tracker 2026-10-19, plays today, no override
+unpriced Tennessee — Ralph Scott: out_season (Knee surgery), tracker 2026-10-19, plays today, no override
+unpriced UC San Diego — Camp Wagner: out_season (ACL surgery), tracker 2026-10-20, plays today, no override
+unpriced UNLV — Tyler Harris: injured (Torn MCL in Spring), tracker 2026-10-19, plays today, no override
+unpriced Utah St. — Bron Roberts: injured (Torn ACL in February), tracker 2026-10-19, plays today, no override
+unpriced Utah St. — Collin Mulholland: injured (Sprained ankle), tracker 2026-10-19, plays today, no override
+renew?   Northwestern — Jack Karasinski (-1.19): override expired 2026-11-09, tracker still injured (2026-11-09)

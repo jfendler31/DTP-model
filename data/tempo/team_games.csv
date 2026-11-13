@@ -1303,3 +1303,57 @@ gameId,date,team,opponent,isHome,d1_game,periods,poss_parsed,poss_unknown,off_ap
 378004,2026-11-11,Valparaiso,South Dakota State,False,True,2,65,0,16.52,17.81,0.825,-12,66.0,-1.0
 378005,2026-11-11,Lincoln University (CA),UC Irvine,False,False,2,72,0,17.81,18.08,0.54,-50,70.0,2.0
 378005,2026-11-11,UC Irvine,Lincoln University (CA),True,False,2,71,0,14.93,12.73,0.547,50,72.0,-1.0
+372773,2026-11-12,Minnesota,Southern,True,True,2,71,0,17.42,17.08,0.6,30,68.0,3.0
+372773,2026-11-12,Southern,Minnesota,False,True,2,70,2,16.54,18.17,0.583,-30,68.0,2.0
+372774,2026-11-12,Indiana,Tennessee Tech,True,True,2,77,0,16.26,16.78,0.748,24,74.0,3.0
+372774,2026-11-12,Tennessee Tech,Indiana,False,True,2,75,0,15.23,15.28,0.738,-24,73.0,2.0
+372776,2026-11-12,Richmond,Southern Illinois,False,True,2,71,0,19.28,19.14,0.963,-10,71.0,0.0
+372776,2026-11-12,Southern Illinois,Richmond,True,True,2,68,0,15.13,15.33,0.969,10,71.0,-3.0
+372777,2026-11-12,Bowling Green,Niagara,True,True,2,70,0,15.91,16.44,0.925,12,72.0,-2.0
+372777,2026-11-12,Niagara,Bowling Green,False,True,2,72,0,17.86,18.48,0.922,-12,72.0,0.0
+372778,2026-11-12,Brown,Canisius,True,True,2,72,0,16.1,16.58,0.955,-5,71.0,1.0
+372778,2026-11-12,Canisius,Brown,False,True,2,70,0,17.63,17.76,0.957,5,70.0,0.0
+372779,2026-11-12,San José State,UC Riverside,True,True,2,73,0,17.01,17.65,0.945,-5,72.0,1.0
+372779,2026-11-12,UC Riverside,San José State,False,True,2,68,0,16.94,17.23,0.971,5,70.0,-2.0
+374902,2026-11-12,Boston University,Johnson & Wales (RI),True,False,2,74,1,14.55,14.9,0.778,26,74.0,0.0
+374902,2026-11-12,Johnson & Wales (RI),Boston University,False,False,2,75,1,17.03,17.2,0.793,-26,74.0,1.0
+374903,2026-11-12,Alabama A&M,West Florida,True,True,3,76,0,18.58,18.79,0.868,2,74.0,2.0
+374903,2026-11-12,West Florida,Alabama A&M,False,True,3,73,0,17.48,17.44,0.877,-2,74.0,-1.0
+374904,2026-11-12,Howard,Stetson,True,True,2,61,1,17.07,17.03,0.924,13,65.0,-4.0
+374904,2026-11-12,Stetson,Howard,False,True,2,61,1,16.89,16.65,0.924,-13,64.0,-3.0
+374905,2026-11-12,Mercer,West Virginia,False,True,2,70,0,15.33,15.95,0.843,-14,66.0,4.0
+374905,2026-11-12,West Virginia,Mercer,True,True,2,73,0,17.27,17.02,0.842,14,67.0,6.0
+374907,2026-11-12,George Mason,Kansas City,True,True,2,75,0,15.45,16.07,0.902,8,66.0,9.0
+374907,2026-11-12,Kansas City,George Mason,False,True,2,64,0,18.5,18.94,0.927,-8,66.0,-2.0
+374908,2026-11-12,Oklahoma State,Texas A&M,False,True,2,75,0,17.52,17.31,0.899,-19,77.0,-2.0
+374908,2026-11-12,Texas A&M,Oklahoma State,True,True,2,73,0,14.73,13.99,0.914,19,76.0,-3.0
+374909,2026-11-12,Loyola Marymount,South Alabama,False,True,2,58,1,20.47,21.5,0.929,-7,58.0,0.0
+374909,2026-11-12,South Alabama,Loyola Marymount,True,True,2,55,0,19.15,19.98,0.945,7,59.0,-4.0
+374910,2026-11-12,Mercyhurst,Penn State,False,True,2,65,1,20.49,21.09,0.924,-15,64.0,1.0
+374910,2026-11-12,Penn State,Mercyhurst,True,True,2,59,0,16.25,15.91,0.941,15,64.0,-5.0
+374911,2026-11-12,Bradley,Coppin State,False,True,2,62,0,19.02,19.66,0.952,2,63.0,-1.0
+374911,2026-11-12,Coppin State,Bradley,True,True,2,62,1,18.71,19.27,0.952,-2,62.0,0.0
+374912,2026-11-12,Morgan State,UMBC,False,True,2,77,0,15.1,14.84,0.876,-15,78.0,-1.0
+374912,2026-11-12,UMBC,Morgan State,True,True,2,76,0,16.25,16.17,0.904,15,77.0,-1.0
+374913,2026-11-12,Cal State Bakersfield,Western Illinois,False,True,2,67,0,15.06,15.63,0.94,8,68.0,-1.0
+374913,2026-11-12,Western Illinois,Cal State Bakersfield,True,True,2,67,0,20.01,20.14,0.964,-8,69.0,-2.0
+374914,2026-11-12,Central Connecticut,Sacred Heart,False,True,2,58,0,19.33,19.98,0.966,4,61.0,-3.0
+374914,2026-11-12,Sacred Heart,Central Connecticut,True,True,2,61,0,17.59,17.86,0.951,-4,62.0,-1.0
+374915,2026-11-12,Monmouth,Quinnipiac,False,True,2,67,1,17.54,17.88,0.97,4,67.0,0.0
+374915,2026-11-12,Quinnipiac,Monmouth,True,True,2,67,0,18.28,18.46,0.955,-4,68.0,-1.0
+374916,2026-11-12,Loyola Maryland,Towson,False,True,2,71,0,17.83,18.21,0.72,-30,70.0,1.0
+374916,2026-11-12,Towson,Loyola Maryland,True,True,2,71,0,15.86,16.67,0.732,30,69.0,2.0
+374917,2026-11-12,High Point,Southern Utah,True,True,2,74,0,14.95,15.12,0.761,29,75.0,-1.0
+374917,2026-11-12,Southern Utah,High Point,False,True,2,74,0,17.31,18.63,0.737,-29,75.0,-1.0
+374918,2026-11-12,Maryland Eastern Shore,Rhode Island,False,True,2,58,0,22.59,23.01,0.864,-20,59.0,-1.0
+374918,2026-11-12,Rhode Island,Maryland Eastern Shore,True,True,2,59,0,16.73,17.12,0.849,20,60.0,-1.0
+374919,2026-11-12,Cal State Fullerton,Lincoln University (CA),True,False,2,85,0,10.69,11.24,0.782,30,86.0,-1.0
+374919,2026-11-12,Lincoln University (CA),Cal State Fullerton,False,False,2,84,0,17.69,17.84,0.765,-30,84.0,0.0
+377901,2026-11-12,Kennesaw State,LaGrange,True,False,2,85,0,13.18,13.82,0.521,53,84.0,1.0
+377901,2026-11-12,LaGrange,Kennesaw State,False,False,2,83,1,15.23,16.32,0.517,-53,84.0,-1.0
+377902,2026-11-12,Cal State Northridge,Grace University,True,False,2,78,0,11.47,10.89,0.694,39,78.0,0.0
+377902,2026-11-12,Grace University,Cal State Northridge,False,False,2,76,0,18.74,19.21,0.702,-39,78.0,-2.0
+378006,2026-11-12,Coastal Carolina,Virginia-Lynchburg,True,False,2,80,1,12.12,12.06,0.533,49,80.0,0.0
+378006,2026-11-12,Virginia-Lynchburg,Coastal Carolina,False,False,2,79,1,18.05,18.1,0.534,-49,78.0,1.0
+378007,2026-11-12,Purdue Fort Wayne,Western Michigan,True,True,2,66,0,18.41,18.32,0.849,-22,68.0,-2.0
+378007,2026-11-12,Western Michigan,Purdue Fort Wayne,False,True,2,67,0,17.61,16.8,0.882,22,67.0,0.0
