@@ -11,3 +11,5 @@
 - **Fallers as 20+ dogs:** n = 21 (13-8). Too few to say anything.
 
 **Use in reads:** a faller is usually a bet *against* the team, and our model already leans that way. When our model is on a faller's side anyway (Troy +22.5, Nov 13: move −3.3, in-season-only rank 333rd, continuity 7.5% / 284th), take ~1 to 1.5 off the edge for a move of −3 or worse in a low-continuity team. A flag, not a rule; recheck with this season's games in December.
+
+**Risers, by continuity (added Nov 13, ULM question).** Teams up 3+ vs prior ran −0.64 vs our model overall (n 204, se 0.88), but the shortfall sits in mid/high-continuity teams (−1.00, n 117); low-continuity risers ran about even (−0.16, n 87; up 2+: +0.56, n 177). **Don't apply a riser haircut to low-continuity / new-coach teams** — for them the year-zero weighting (runbook §5) points the other way. All of these are ~1 SE.
