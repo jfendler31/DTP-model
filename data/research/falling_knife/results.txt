@@ -1,0 +1,41 @@
+2572 team-games, Nov, teams with 3-8 games; continuity matched 100%
+
+== Slope of next-game result on the team move to date (team-games; + = falling teams keep falling)
+  ats_close on mv (move entering game): mv +0.22 (0.11)
+  vs_model  on mv (move entering game): mv +0.00 (0.11)
+  vs_prior  on mv (move entering game): mv +1.00 (0.11)
+  (vs_prior slope should be ~+1 x share of the move that is real; vs_model slope >0 means our move is too small)
+
+== By move bucket (move vs prior entering the game, pts): ATS vs close, mean vs close, mean vs our model
+          n          ats  vs_close  vs_model
+b                                           
+<=-3    241  104-137 43%     -2.01     -1.23
+-3..-2  238  124-114 52%      0.52      1.34
+-2..-1  366  167-198 46%     -1.00     -0.87
+-1..1   915  472-440 52%      0.25      0.43
+1..2    366  188-177 52%      0.51     -0.15
+2..3    244  114-130 47%      0.01     -0.57
+>=3     202  100-102 50%      0.15     -0.80
+
+== Fallers (move <= -2) by season
+  2025: n 227, ATS vs close 115-112 51%, vs close +0.26, vs model +1.01
+  2026: n 252, ATS vs close 113-139 45%, vs close -1.67, vs model -0.82
+
+== Fallers as underdogs by line
+  dog +0-10: n 140, ATS 66-74 47%, vs close +0.36, vs model +0.31
+  dog +10-20: n 64, ATS 34-30 53%, vs close +0.14, vs model -0.76
+  dog +20-99: n 21, ATS 13-8 62%, vs close -2.55, vs model -4.57
+  favorite: n 254, ATS 115-139 45%, vs close -1.45, vs model +0.49
+
+== Continuity interaction (low = bottom third of D-I continuity that season)
+  low continuity  n 867: ats_close on mv mv +0.28 (0.18) | vs_model on mv mv +0.16 (0.17)
+     fallers (mv<=-2): n 175, ATS 89-86 51%, vs close -0.82, vs model -0.50
+  mid/high        n 1705: ats_close on mv mv +0.18 (0.14) | vs_model on mv mv -0.09 (0.14)
+     fallers (mv<=-2): n 304, ATS 139-165 46%, vs close -0.72, vs model +0.36
+  pooled with interaction: ats_close mv +0.18 (0.14) mvxlow +0.10 (0.22)
+                           vs_model  mv -0.09 (0.13) mvxlow +0.25 (0.22)
+
+== Is the market more bearish than our model on fallers? (our team margin minus market team margin; + = market more bearish)
+  fallers mv<=-2 : -0.80  (n 479)
+  mv<=-3         : -0.79  (n 241)
+  everyone       : -0.01  (n 2572)
