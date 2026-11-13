@@ -139,11 +139,10 @@ td.pl{white-space:normal;min-width:210px}
 .chip.hit{background:var(--acc);border-color:var(--acc);color:#fff}
 .chip.lim{border-color:var(--rule);color:var(--dim)}
 .chip.thin{background:#fff!important;color:var(--dim)!important;border:1px dashed var(--mid)!important;font-weight:600}
-.chip.thin::after{content:" ?";font-weight:700}
 tr.limrow td{color:var(--dim)}
 .hi{font-weight:700}
 .sm{display:flex;flex-direction:column;gap:3px;min-width:150px}
-.smb{display:flex;height:12px;width:150px;background:var(--alt)}
+.smb{display:flex;height:12px;width:150px;background:var(--alt);cursor:help}
 .smb i{display:block;height:100%}
 .r{background:var(--acc)}.m{background:var(--mid)}.t{background:var(--ink)}
 .smt{font-size:12px;color:var(--dim);display:flex;gap:8px}
@@ -171,12 +170,13 @@ details summary{cursor:pointer;font-weight:700;font-size:15px}
  <datalist id="teams"></datalist>
  <select id="lab" aria-label="Find a role"><option value="">Find a role across D1…</option></select>
  <select id="conf" aria-label="Conference" hidden><option value="">All conferences</option></select>
+ <button id="act" type="button" aria-pressed="false">Show activity</button>
  <span id="cnt" class="dim" style="font-size:14px"></span>
 </div>
 
 <div id="view"></div>
 
-<div class="note">Every second of floor time is weighted by how live the game was: full weight while the leading team's win probability is 95% or lower, none at 99.9%+, scaled in between. Min is those competitive minutes, season to date. Usage, assist rate and turnover rate are per possession. <b>Self</b> is the share of a player's made shots nobody assisted. <b>Shot mix</b> splits his field-goal attempts into rim, midrange and three; the small numbers under it are the share of his rim and three makes that were assisted. Players under 20 competitive minutes or 6 shots are marked limited sample. <b>Shots</b> are raw field-goal attempts (all minutes) with makes underneath. A dashed tag with a question mark rests on a thin sample: under 10 made shots for lead engine and self-creating scorer, 6 rim makes for the rim tags, 6 made threes for the shooter tags, 20 shots for the shot-type tags, 60 competitive minutes for the passing tags and 80 for glass, putbacks and the defensive tags. Hover a dashed tag for its count.</div>
+<div class="note">Every second of floor time is weighted by how live the game was: full weight while the leading team's win probability is 95% or lower, none at 99.9%+, scaled in between. Min is those competitive minutes, season to date. Usage, assist rate and turnover rate are per possession. <b>Self</b> is the share of a player's made shots nobody assisted. <b>Shot mix</b> splits his field-goal attempts into rim, midrange and three; hover the bar for the exact shares and how many of his rim and three makes were assisted. Players under 20 competitive minutes or 6 shots are marked limited sample. <b>Shots</b> are raw makes-attempts, all minutes. <b>Show activity</b> adds offensive rebound rate, steals and blocks per 40. A dashed tag rests on a thin sample: under 10 made shots for lead engine and self-creating scorer, 6 rim makes for the rim tags, 6 made threes for the shooter tags, 20 shots for the shot-type tags, 60 competitive minutes for the passing tags and 80 for glass, putbacks and the defensive tags. Hover a dashed tag for its count.</div>
 
 <details><summary>What each role means</summary><div class="defs" id="defs"></div></details>
 
@@ -199,12 +199,13 @@ const f1=v=>v==null?'–':v.toFixed(1), f0=v=>v==null?'–':String(v);
 function chips(L,hit,T){const th=Object.fromEntries(T||[]);return '<div class="chips">'+L.map(l=>{let c='chip';if(l==='limited sample')c+=' lim';else if(th[l])c+=' thin';else if(l===hit)c+=' hit';else if(KEY.has(l))c+=' k';else if(ACC.has(l))c+=' a';
  return '<span class="'+c+'"'+(th[l]?' title="Thin sample: '+esc(th[l])+'"':'')+'>'+esc(l)+'</span>';}).join('')+'</div>';}
 function mix(p){const r=p[11]||0,m=p[12]||0,t=p[13]||0;
- return '<div class="sm"><div class="smb" role="img" aria-label="Rim '+r+'%, mid '+m+'%, three '+t+'%"><i class="r" style="width:'+r+'%"></i><i class="m" style="width:'+m+'%"></i><i class="t" style="width:'+t+'%"></i></div>'+
- '<div class="smt"><span>'+r+' / '+m+' / '+t+'</span></div><div class="astd">ast: rim '+(p[14]==null?'–':p[14]+'%')+' · 3 '+(p[15]==null?'–':p[15]+'%')+'</div></div>';}
+ const tip='Rim '+r+'% · Mid '+m+'% · Three '+t+'% of shots. Assisted makes: rim '+(p[14]==null?'–':p[14]+'%')+', three '+(p[15]==null?'–':p[15]+'%');
+ return '<div class="smb" role="img" title="'+tip+'" aria-label="'+tip+'"><i class="r" style="width:'+r+'%"></i><i class="m" style="width:'+m+'%"></i><i class="t" style="width:'+t+'%"></i></div>';}
 const COLS=[ // key index, label, class, default dir, group
  [1,'Player','l',1,''],[5,'Min','',-1,''],[6,'Usg','',-1,'Creation'],[7,'Ast%','',-1,'Creation'],[8,'TO%','hc',-1,'Creation'],[10,'Self','',-1,'Creation'],
  [20,'Shots','',-1,'Scoring'],[9,'eFG','',-1,'Scoring'],[13,'Shot mix','l',-1,'Scoring'],[16,'OR%','hc',-1,'Activity'],[17,'Stl/40','hc',-1,'Activity'],[18,'Blk/40','hc',-1,'Activity']];
-let st={k:5,dir:-1};
+let st={k:5,dir:-1},showAct=false;
+const cols=()=>COLS.filter(c=>showAct||c[4]!=='Activity');
 function cell(p,k,national){
  switch(k){
   case 1:return '<td class="l pl"><div class="nm">'+esc(p[1])+'</div><div class="meta">'+(national?'<a href="#'+D.T[p[0]][2]+'">'+esc(D.T[p[0]][0])+'</a> · ':'')+[p[2],p[3]].filter(Boolean).join(' · ')+(p[2]||p[3]?' · ':'')+p[4]+' gp</div>'+chips(p[19],$('lab').value,p[22])+'</td>';
@@ -213,9 +214,9 @@ function cell(p,k,national){
   case 7:return '<td class="'+(p[7]>=20?'hi':'')+'">'+f1(p[7])+'</td>';
   case 8:return '<td class="hc">'+f1(p[8])+'</td>';
   case 10:return '<td>'+(p[10]==null?'–':p[10]+'%')+'</td>';
-  case 20:return '<td>'+p[20]+'<div class="astd">'+p[21]+' made</div></td>';
+  case 20:return '<td>'+p[21]+'-'+p[20]+'</td>';
   case 9:return '<td>'+f0(p[9])+'</td>';
-  case 13:return '<td class="l">'+mix(p)+'</td>';
+  case 13:return '<td class="l" style="vertical-align:middle">'+mix(p)+'</td>';
   case 16:return '<td class="hc">'+f1(p[16])+'</td>';
   case 17:return '<td class="hc">'+f1(p[17])+'</td>';
   case 18:return '<td class="hc">'+f1(p[18])+'</td>';}}
@@ -223,10 +224,10 @@ function table(rows,national){
  const lim=p=>p[19].includes('limited sample');
  rows=rows.slice().sort((a,b)=>{if(!national&&lim(a)!==lim(b))return lim(a)?1:-1;const A=a[st.k],B=b[st.k];
   const c=(A==null?-1e9:(typeof A==='string'?0:A))-(B==null?-1e9:(typeof B==='string'?0:B));return (typeof A==='string'?A.localeCompare(B):c)*st.dir||b[5]-a[5];});
- const grp=[['',2],['Creation',4],['Scoring',3],['Activity',3]];
- const g='<tr class="hc">'+grp.map(([n,s],i)=>'<th class="grp'+(i===3?' hc':'')+'" colspan="'+(i===3?3:s)+'">'+n+'</th>').join('')+'</tr>';
- const h='<tr>'+COLS.map(c=>'<th class="'+c[2]+'" data-k="'+c[0]+'"'+(st.k===c[0]?' aria-sort="'+(st.dir>0?'ascending':'descending')+'"':'')+'><button type="button">'+c[1]+'</button></th>').join('')+'</tr>';
- const b=rows.map((p,i)=>'<tr class="'+(i%2?'alt ':'')+(lim(p)?'limrow':'')+'">'+COLS.map(c=>cell(p,c[0],national)).join('')+'</tr>').join('');
+ const grp=[['',2],['Creation',4],['Scoring',3]].concat(showAct?[['Activity',3]]:[]);
+ const g='<tr class="hc">'+grp.map(([n,s])=>'<th class="grp" colspan="'+s+'">'+n+'</th>').join('')+'</tr>';
+ const h='<tr>'+cols().map(c=>'<th class="'+c[2]+'" data-k="'+c[0]+'"'+(st.k===c[0]?' aria-sort="'+(st.dir>0?'ascending':'descending')+'"':'')+'><button type="button">'+c[1]+'</button></th>').join('')+'</tr>';
+ const b=rows.map((p,i)=>'<tr class="'+(i%2?'alt ':'')+(lim(p)?'limrow':'')+'">'+cols().map(c=>cell(p,c[0],national)).join('')+'</tr>').join('');
  return '<div class="scroll"><table><thead>'+g+h+'</thead><tbody>'+b+'</tbody></table></div>';}
 const key='<div class="key"><span><i class="r"></i>Rim</span><span><i class="m"></i>Midrange</span><span><i class="t"></i>Three</span><span>Bold: usage 22+ or assist rate 20+</span><span><span class="chip thin" style="font-size:10px">tag</span> thin sample</span></div>';
 function teamView(i){
@@ -257,6 +258,7 @@ $('q').addEventListener('input',()=>{const i=byName[$('q').value.trim().toLowerC
 $('q').addEventListener('keydown',e=>{if(e.key==='Enter'){const s=$('q').value.trim().toLowerCase();const i=D.T.findIndex(t=>t[0].toLowerCase().includes(s));if(s&&i>=0){$('lab').value='';location.hash=D.T[i][2];}}});
 $('lab').addEventListener('change',()=>{st={k:5,dir:-1};render();});
 $('conf').addEventListener('change',render);
+$('act').addEventListener('click',()=>{showAct=!showAct;$('act').textContent=showAct?'Hide activity':'Show activity';$('act').setAttribute('aria-pressed',showAct);render();});
 window.addEventListener('hashchange',()=>{$('lab').value='';render();});
 if(!location.hash)try{const s=localStorage.getItem('rc_team');if(s&&bySlug[s]!=null)history.replaceState(null,'','#'+s);}catch(e){}
 window.addEventListener('hashchange',()=>{try{localStorage.setItem('rc_team',location.hash.slice(1));}catch(e){}});
