@@ -1,0 +1,49 @@
+formula vs FanMatch (same-day snapshot, n 287): mean diff -0.08, mean |diff| 0.41 (FanMatch is rounded to whole points)
+
+== (1) Is the market further from KenPom this year? Same snapshot timing in each season (a ~Nov 6-7 snapshot for the next 4 days,
+   a ~Nov 10-11 snapshot for the next 3 days). mean |market - KenPom now|, |market - KenPom preseason|, |KenPom now - preseason|
+  2024-25 snap 11-07 games 11-07..11-10 lines all: n 159  |mkt-KP| 2.34  |mkt-pre| 2.62  |KP-pre| 1.04  bias mkt-KP toward fav +1.82
+  2024-25 snap 11-07 games 11-07..11-10 lines <15: n 100  |mkt-KP| 1.82  |mkt-pre| 1.96  |KP-pre| 0.97  bias mkt-KP toward fav +1.09
+  2024-25 snap 11-07 games 11-07..11-10 lines 15+: n  59  |mkt-KP| 3.24  |mkt-pre| 3.73  |KP-pre| 1.17  bias mkt-KP toward fav +3.06
+  2024-25 snap 11-11 games 11-11..11-13 lines all: n 128  |mkt-KP| 2.21  |mkt-pre| 2.75  |KP-pre| 1.53  bias mkt-KP toward fav +1.32
+  2024-25 snap 11-11 games 11-11..11-13 lines <15: n  72  |mkt-KP| 1.82  |mkt-pre| 2.50  |KP-pre| 1.60  bias mkt-KP toward fav +0.60
+  2024-25 snap 11-11 games 11-11..11-13 lines 15+: n  56  |mkt-KP| 2.71  |mkt-pre| 3.06  |KP-pre| 1.45  bias mkt-KP toward fav +2.24
+  2025-26 snap 11-06 games 11-06..11-09 lines all: n 169  |mkt-KP| 2.72  |mkt-pre| 2.93  |KP-pre| 0.99  bias mkt-KP toward fav +1.88
+  2025-26 snap 11-06 games 11-06..11-09 lines <15: n 100  |mkt-KP| 2.09  |mkt-pre| 2.19  |KP-pre| 0.91  bias mkt-KP toward fav +1.05
+  2025-26 snap 11-06 games 11-06..11-09 lines 15+: n  69  |mkt-KP| 3.63  |mkt-pre| 4.00  |KP-pre| 1.10  bias mkt-KP toward fav +3.08
+  2025-26 snap 11-10 games 11-10..11-12 lines all: n 135  |mkt-KP| 2.75  |mkt-pre| 3.40  |KP-pre| 1.59  bias mkt-KP toward fav +2.25
+  2025-26 snap 11-10 games 11-10..11-12 lines <15: n  75  |mkt-KP| 2.02  |mkt-pre| 2.55  |KP-pre| 1.51  bias mkt-KP toward fav +1.32
+  2025-26 snap 11-10 games 11-10..11-12 lines 15+: n  60  |mkt-KP| 3.66  |mkt-pre| 4.45  |KP-pre| 1.69  bias mkt-KP toward fav +3.42
+  2026-27 snap 11-06 games 11-06..11-09 lines all: n 169  |mkt-KP| 2.80  |mkt-pre| 2.98  |KP-pre| 1.15  bias mkt-KP toward fav +1.93
+  2026-27 snap 11-06 games 11-06..11-09 lines <15: n  96  |mkt-KP| 1.84  |mkt-pre| 2.26  |KP-pre| 1.14  bias mkt-KP toward fav +0.53
+  2026-27 snap 11-06 games 11-06..11-09 lines 15+: n  73  |mkt-KP| 4.07  |mkt-pre| 3.93  |KP-pre| 1.17  bias mkt-KP toward fav +3.77
+  2026-27 snap 11-10 games 11-10..11-12 lines all: n 127  |mkt-KP| 2.76  |mkt-pre| 3.47  |KP-pre| 1.55  bias mkt-KP toward fav +1.94
+  2026-27 snap 11-10 games 11-10..11-12 lines <15: n  79  |mkt-KP| 1.99  |mkt-pre| 2.74  |KP-pre| 1.67  bias mkt-KP toward fav +0.83
+  2026-27 snap 11-10 games 11-10..11-12 lines 15+: n  48  |mkt-KP| 4.03  |mkt-pre| 4.66  |KP-pre| 1.36  bias mkt-KP toward fav +3.76
+  this season, same-day KenPom, Nov 10-12: n 127  |mkt-KP| 2.77  (<15: 1.98)
+
+== (2) Does KenPom move faster for low-continuity teams? Team level: KenPom AdjEM move from preseason vs the team's average
+   result vs KenPom-preseason expectation (pts/game, D-I games before the snapshot). Slope by continuity tercile.
+  2024-25 (n 359, median games 3): low: slope 0.325, mean |move| 2.28 | mid: slope 0.335, mean |move| 2.19 | high: slope 0.370, mean |move| 2.22
+     pooled: move ~ res +0.37 (0.01) res x low-continuity -0.02 (0.01) res x games +0.11 (0.01)
+     pooled: move ~ res +0.36 (0.01) res x continuity<=2% +0.00 (0.03) res x games +0.11 (0.01)
+  2025-26 (n 359, median games 3): low: slope 0.318, mean |move| 2.12 | mid: slope 0.348, mean |move| 2.07 | high: slope 0.322, mean |move| 2.10
+     pooled: move ~ res +0.34 (0.01) res x low-continuity -0.02 (0.02) res x games +0.06 (0.01)
+     pooled: move ~ res +0.33 (0.01) res x continuity<=2% +0.02 (0.02) res x games +0.06 (0.01)
+  2026-27 (n 341, median games 3): low: slope 0.254, mean |move| 1.90 | mid: slope 0.275, mean |move| 1.96 | high: slope 0.269, mean |move| 1.85
+     pooled: move ~ res +0.28 (0.01) res x low-continuity -0.02 (0.02) res x games +0.08 (0.01)
+     pooled: move ~ res +0.28 (0.01) res x continuity<=2% -0.03 (0.02) res x games +0.08 (0.01)
+
+== (3) Does the market follow KenPom's moves, and who is right? November games (snapshot <= 6 days old).
+  2024-25 all games                        n 1081 | mean |KP move| 1.93 | market follows 0.95 of it | (result - market) on (KP - market): slope +0.08 (0.13) | KP side vs close, gap 2+: 266-237, 3+: 156-136
+  2024-25 a low-continuity team involved   n  603 | mean |KP move| 1.90 | market follows 1.06 of it | (result - market) on (KP - market): slope +0.19 (0.16) | KP side vs close, gap 2+: 159-140, 3+: 106-88
+  2024-25 both teams mid/high continuity   n  478 | mean |KP move| 1.97 | market follows 0.82 of it | (result - market) on (KP - market): slope -0.11 (0.22) | KP side vs close, gap 2+: 107-97, 3+: 50-48
+  2024-25 a team with continuity <= 2%     n   95 | mean |KP move| 1.78 | market follows 1.26 of it | (result - market) on (KP - market): slope -0.07 (0.45) | KP side vs close, gap 2+: 27-27, 3+: 15-17
+  2025-26 all games                        n 1082 | mean |KP move| 1.90 | market follows 0.92 of it | (result - market) on (KP - market): slope +0.61 (0.08) | KP side vs close, gap 2+: 290-255, 3+: 207-161
+  2025-26 a low-continuity team involved   n  608 | mean |KP move| 1.96 | market follows 0.99 of it | (result - market) on (KP - market): slope +0.68 (0.10) | KP side vs close, gap 2+: 175-151, 3+: 127-102
+  2025-26 both teams mid/high continuity   n  474 | mean |KP move| 1.83 | market follows 0.81 of it | (result - market) on (KP - market): slope +0.48 (0.15) | KP side vs close, gap 2+: 115-104, 3+: 80-59
+  2025-26 a team with continuity <= 2%     n  223 | mean |KP move| 2.04 | market follows 1.10 of it | (result - market) on (KP - market): slope +0.39 (0.21) | KP side vs close, gap 2+: 72-56, 3+: 53-38
+  2026-27 all games                        n  296 | mean |KP move| 1.36 | market follows 1.18 of it | (result - market) on (KP - market): slope -0.38 (0.22) | KP side vs close, gap 2+: 77-89, 3+: 50-63
+  2026-27 a low-continuity team involved   n  171 | mean |KP move| 1.36 | market follows 1.13 of it | (result - market) on (KP - market): slope -0.44 (0.28) | KP side vs close, gap 2+: 43-59, 3+: 31-39
+  2026-27 both teams mid/high continuity   n  125 | mean |KP move| 1.37 | market follows 1.24 of it | (result - market) on (KP - market): slope -0.28 (0.35) | KP side vs close, gap 2+: 34-30, 3+: 19-24
+  2026-27 a team with continuity <= 2%     n   80 | mean |KP move| 1.43 | market follows 1.47 of it | (result - market) on (KP - market): slope -0.68 (0.38) | KP side vs close, gap 2+: 16-26, 3+: 13-18
