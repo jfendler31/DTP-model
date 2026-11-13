@@ -15325,6 +15325,29 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 372774,2026-11-12,Tennessee Tech,Indiana,232789,CohenJ Gonzales,1.68,0.0,0.0
 372774,2026-11-12,Tennessee Tech,Indiana,232796,Jake Pampolina,1.68,0.0,0.0
 372774,2026-11-12,Tennessee Tech,Indiana,232799,Harrison Stewart,1.67,0.0,0.0
+372775,2026-11-12,New Mexico State,UTEP,201738,Mark Lavrenov,34.2,34.2,8.0
+372775,2026-11-12,New Mexico State,UTEP,7031,Jermaine Washington,30.52,30.52,8.0
+372775,2026-11-12,New Mexico State,UTEP,6379,Jae'Coby Osborne,30.5,30.5,5.97
+372775,2026-11-12,New Mexico State,UTEP,200172,DJ Dudley,29.3,29.3,2.03
+372775,2026-11-12,New Mexico State,UTEP,7035,Adrame Diongue,21.23,21.23,5.63
+372775,2026-11-12,New Mexico State,UTEP,6383,Gabe Pickens,16.82,16.82,4.72
+372775,2026-11-12,New Mexico State,UTEP,231256,Phoenix Woodson,14.37,14.37,2.37
+372775,2026-11-12,New Mexico State,UTEP,4237,KK Robinson,6.48,6.48,0.0
+372775,2026-11-12,New Mexico State,UTEP,200113,Leopold Levillain,6.32,6.32,0.0
+372775,2026-11-12,New Mexico State,UTEP,200883,Omarr Smith,5.97,5.97,3.28
+372775,2026-11-12,New Mexico State,UTEP,231243,Caden Deffebaugh,2.83,2.83,0.0
+372775,2026-11-12,New Mexico State,UTEP,231242,Jachai Cantave,1.47,1.47,0.0
+372775,2026-11-12,UTEP,New Mexico State,199139,Leif Moeller,32.14,32.14,6.35
+372775,2026-11-12,UTEP,New Mexico State,233344,Cam McDaniels,32.0,32.0,6.35
+372775,2026-11-12,UTEP,New Mexico State,203431,Reese Miller,26.82,26.82,6.67
+372775,2026-11-12,UTEP,New Mexico State,233350,Youssouf Traore,23.21,23.21,4.25
+372775,2026-11-12,UTEP,New Mexico State,1499,Augusto Cassia,16.65,16.65,2.32
+372775,2026-11-12,UTEP,New Mexico State,233349,Delano Tarpley,16.47,16.47,6.67
+372775,2026-11-12,UTEP,New Mexico State,1932,Ryan Jackson Jr.,13.29,13.29,4.35
+372775,2026-11-12,UTEP,New Mexico State,2168,Reid Cason,12.51,12.51,2.42
+372775,2026-11-12,UTEP,New Mexico State,233351,Isaiah Ward,11.57,11.57,0.32
+372775,2026-11-12,UTEP,New Mexico State,7358,Jace Whiting,11.56,11.56,0.0
+372775,2026-11-12,UTEP,New Mexico State,233340,Donovan Criss,3.77,3.77,0.32
 372776,2026-11-12,Richmond,Southern Illinois,4132,Dominick Stewart,33.0,32.23,7.64
 372776,2026-11-12,Richmond,Southern Illinois,1507,Jamie Kaiser Jr.,32.7,31.92,7.64
 372776,2026-11-12,Richmond,Southern Illinois,917,Derin Saran,28.28,27.5,7.64
@@ -15496,6 +15519,29 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374905,2026-11-12,West Virginia,Mercer,233689,Keonte Greybear,1.15,0.0,0.0
 374905,2026-11-12,West Virginia,Mercer,233692,Jelani McKoy,0.62,0.0,0.0
 374905,2026-11-12,West Virginia,Mercer,233687,Aliou Dioum,0.62,0.0,0.0
+374906,2026-11-12,BYU,Montana State,165,Robert Wright III,31.22,26.44,3.73
+374906,2026-11-12,BYU,Montana State,568,Collin Chandler,29.7,25.81,3.8
+374906,2026-11-12,BYU,Montana State,2476,Jaxon Kohler,23.13,22.21,3.76
+374906,2026-11-12,BYU,Montana State,223514,Bruce Branch III,24.67,20.64,3.76
+374906,2026-11-12,BYU,Montana State,471,Tyler Betsey,22.9,19.44,1.86
+374906,2026-11-12,BYU,Montana State,6584,Jake Wahlin,19.05,16.8,4.9
+374906,2026-11-12,BYU,Montana State,15031,Khadim Mboup,15.93,11.15,3.0
+374906,2026-11-12,BYU,Montana State,7227,Nate Pickens,12.33,9.47,3.0
+374906,2026-11-12,BYU,Montana State,223511,Brooks Bahr,9.48,7.62,3.02
+374906,2026-11-12,BYU,Montana State,7681,Dawson Baker,7.57,7.22,2.95
+374906,2026-11-12,BYU,Montana State,7683,Brody Kozlowski,2.15,0.0,0.0
+374906,2026-11-12,BYU,Montana State,223522,Dean Rueckert,0.93,0.0,0.0
+374906,2026-11-12,BYU,Montana State,223520,Petar Ostojic,0.93,0.0,0.0
+374906,2026-11-12,Montana State,BYU,200680,Christian King,28.55,26.98,3.73
+374906,2026-11-12,Montana State,BYU,8920,Jed Miller,29.47,25.7,3.26
+374906,2026-11-12,Montana State,BYU,8927,Jeremiah Davis,29.0,25.23,3.76
+374906,2026-11-12,Montana State,BYU,200678,Cavin Holden,29.78,23.55,4.23
+374906,2026-11-12,Montana State,BYU,6792,Jaden Steppe,18.57,17.67,2.42
+374906,2026-11-12,Montana State,BYU,202607,London Praytor,19.03,15.69,4.34
+374906,2026-11-12,Montana State,BYU,6799,Darnez Slater,17.82,14.53,6.03
+374906,2026-11-12,Montana State,BYU,200679,Howie Keene,19.68,14.14,6.03
+374906,2026-11-12,Montana State,BYU,200673,Seth Amunrud,5.7,3.3,0.0
+374906,2026-11-12,Montana State,BYU,225678,Hale Hansen,2.4,0.0,0.0
 374907,2026-11-12,George Mason,Kansas City,5518,Baraka Okojie,34.3,32.73,5.62
 374907,2026-11-12,George Mason,Kansas City,2953,Brayden O'Connor,33.35,31.92,4.65
 374907,2026-11-12,George Mason,Kansas City,6337,Elijah Jones,27.93,26.88,4.69

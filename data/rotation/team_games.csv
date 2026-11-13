@@ -1307,6 +1307,8 @@ gameId,date,team,opponent,periods,source,reliable,team_min_raw,team_min_lev,comp
 372773,2026-11-12,Southern,Minnesota,2,onFloor,True,200.0,123.9,0.62,11.41,9.36,16,R'Chaun King / Lionel Larvadain / Daniel Dormu / Justin Page / Malik Ferguson,1.0,False,True,-30,9.87
 372774,2026-11-12,Indiana,Tennessee Tech,2,onFloor,True,200.0,153.6,0.768,8.59,8.18,12,Bryce Lindsay / Sam Alexis / Trevor Manhertz / Trent Sisley / Markus Burton,1.0,True,True,24,7.83
 372774,2026-11-12,Tennessee Tech,Indiana,2,onFloor,True,200.0,153.6,0.768,10.1,9.39,14,Ty Owens / Caleb Sanders / Davante Hackett / Caleb Hollenbeck / Shaun Arnold,1.0,False,True,-24,9.08
+372775,2026-11-12,New Mexico State,UTEP,2,onFloor,True,200.0,200.0,1.0,8.07,8.07,12,Mark Lavrenov / Jermaine Washington / Jae'Coby Osborne / Adrame Diongue / Gabe Pickens,1.0,False,True,-2,8.56
+372775,2026-11-12,UTEP,New Mexico State,2,onFloor,False,200.0,200.0,1.0,8.93,8.93,11,Delano Tarpley / Reese Miller / Leif Moeller / Cam McDaniels / Ryan Jackson Jr.,0.387,True,True,2,7.8
 372776,2026-11-12,Richmond,Southern Illinois,2,onFloor,True,200.0,196.1,0.98,8.0,8.01,10,Jamie Kaiser Jr. / Derin Saran / Dominick Stewart / Andrew Ball / Amon Dorries,1.0,False,True,-10,8.26
 372776,2026-11-12,Southern Illinois,Richmond,2,onFloor,True,200.0,196.1,0.98,6.98,7.01,9,Jalen Haynes / Max Pikaar / Jeremiah Jackson / Damien Mayo Jr. / Luke Susko,1.0,True,True,10,7.17
 372777,2026-11-12,Bowling Green,Niagara,2,onFloor,True,200.0,190.7,0.953,7.58,7.58,10,Makhi Leach / Zach Howell / Preston Squire / Tristan Beckford / Trey Simmons,1.0,True,True,12,7.59
@@ -1323,6 +1325,8 @@ gameId,date,team,opponent,periods,source,reliable,team_min_raw,team_min_lev,comp
 374904,2026-11-12,Stetson,Howard,2,onFloor,True,200.0,186.7,0.933,8.4,8.39,11,Alex Doyle / Thiago Sucatzky / Collin Kuhl / Magnus Entenmann / Finley Sheridan,1.0,False,True,-13,8.02
 374905,2026-11-12,Mercer,West Virginia,2,onFloor,True,200.0,171.5,0.857,7.7,7.11,11,Derek Goodman / Karon Boyd / Sawyer Mayhugh / Ryder Cate / Quinton Perkins II,1.0,False,True,-14,6.89
 374905,2026-11-12,West Virginia,Mercer,2,onFloor,True,200.0,171.5,0.857,8.69,8.38,12,Javan Buchanan / Martin Somerville / Joson Sanon / Finley Bizjack / Miles Sadler,1.0,True,True,14,8.15
+374906,2026-11-12,BYU,Montana State,2,onFloor,True,200.0,166.8,0.834,8.99,8.51,13,Jake Wahlin / Collin Chandler / Jaxon Kohler / Bruce Branch III / Robert Wright III,1.0,True,True,15,8.48
+374906,2026-11-12,Montana State,BYU,2,onFloor,True,200.0,166.8,0.834,8.23,7.81,10,Howie Keene / Darnez Slater / London Praytor / Cavin Holden / Jeremiah Davis,1.0,False,True,-15,7.61
 374907,2026-11-12,George Mason,Kansas City,2,onFloor,True,200.0,192.0,0.96,7.27,7.3,10,Makhai Valentine / Emmanuel Kanga / Baraka Okojie / Elijah Jones / Brayden O'Connor,1.0,True,True,8,7.74
 374907,2026-11-12,Kansas City,George Mason,2,onFloor,True,200.0,192.0,0.96,7.35,7.41,10,Matija Samar / Assane Diop / Lincoln Goodwin / Jibbe Sicking / Jaylen Smith,1.0,False,True,-8,7.17
 374908,2026-11-12,Oklahoma State,Texas A&M,2,onFloor,True,200.0,175.2,0.876,8.4,8.38,11,Jacob Walker / Anthony Felesi / Andrija Grbovic / Kanye Clary / Latrell Allmond,1.0,False,True,-19,7.98
