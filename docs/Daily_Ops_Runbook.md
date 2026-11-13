@@ -146,7 +146,7 @@ Files Jon drops in a chat go into the repo's `data/torvik/inbox/` (commit + push
 - No BET/PASS labels; edges are direction signals, bet selection and sizing are Jon's. Lead with the answer. No model-limitation caveats.
 - KenPom spelling everywhere; school names only; spreads on the half, model and edges to the tenth; CSVs utf-8-sig with ASCII hyphens and numeric companion columns.
 - **Players marked "eligible for now" are treated as available.** Don't mention the legal mechanism.
-- Long-term absences Jon has already confirmed in the tracker (e.g. Reibe, USC) aren't re-mentioned in reads.
+- **A tracker status is settled fact.** Any out-type status in the tracker (injured, out for season, ineligible, suspended, left) is Jon's confirmed call: price it and move on. Don't re-raise it in reads, don't hedge a net with "if he plays", and don't treat a market number that looks like full strength as a reason to question it (Nov 13: Mirkovic, Illinois, raised twice in one day as if it might change). Only raise a tracker status when a box score or new report contradicts it. Players who are absent from box scores but **not** in the tracker are different — flag those once, with the J.
 - Jon has a live odds screen (including Circa); pull lines for sweeps, closes and grading, or when he asks.
 - ROTs: not in the Odds API feed.
 
