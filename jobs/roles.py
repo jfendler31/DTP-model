@@ -119,6 +119,11 @@ def build():
     S['usg'] = 100 * (S.fga + 0.44 * S.fta + S.to) / (S.share * S.team.map(T.used))
     S['ast_pct'] = 100 * S.ast / (S.share * S.team.map(T.fgm) - S.fgm).clip(lower=0.5)
     S['to_pct'] = 100 * S.to / (S.fga + 0.44 * S.fta + S.to).clip(lower=0.5)
+    S['plays'] = S.fga + 0.44 * S.fta + S.ast + S.to                  # plays he finished: shot, FT trip, assist or turnover
+    S['ast_ratio'] = 100 * S.ast / S.plays.clip(lower=0.5)             # assists per 100 plays used (teammate-independent)
+    S['to_ratio'] = 100 * S.to / S.plays.clip(lower=0.5)
+    S['shot_ratio'] = 100 * (S.fga + 0.44 * S.fta) / S.plays.clip(lower=0.5)
+    S['min_share'] = 100 * S.share                                     # share of the team's competitive minutes he was on the floor (never sits = 100)
     S['or_pct'] = 100 * S.oreb / (S.share * S.team.map(T.or_chances)).clip(lower=0.5)
     S['dr_pct'] = 100 * S.dreb / (S.share * S.team.map(T.dr_chances)).clip(lower=0.5)
     for c in ('stl', 'blk', 'putback', 'trans'): S[f'{c}40'] = 40 * S[c] / S.min_lev
@@ -141,7 +146,8 @@ def build():
     S = S.sort_values(['team', 'min_lev'], ascending=[True, False])
     keep = ['team', 'team_cbbd', 'player', 'pid', 'pos', 'ht', 'gp', 'min_raw', 'min_lev', 'labels', 'usg', 'usg_rank', 'ast_pct', 'to_pct',
             'efg', 'ft_rate', 'rim_sh', 'mid_sh', 'three_sh', 'rim_pct', 'mid_pct', 'three_pct', 'rim_astd', 'mid_astd', 'three_astd',
-            'astd', 'pullup_sh', 'floater_sh', 'post_sh', 'drive_sh', 'dunk_sh', 'putback40', 'trans40', 'or_pct', 'dr_pct', 'stl40', 'blk40', 'fga', 'n_fga_raw', 'n_fgm_raw', 'n_rim_m_raw', 'n_three_m_raw']
+            'astd', 'pullup_sh', 'floater_sh', 'post_sh', 'drive_sh', 'dunk_sh', 'putback40', 'trans40', 'or_pct', 'dr_pct', 'stl40', 'blk40', 'fga', 'fta', 'ast', 'to', 'plays', 'ast_ratio', 'to_ratio', 'shot_ratio', 'min_share',
+            'n_fga_raw', 'n_fgm_raw', 'n_rim_m_raw', 'n_three_m_raw']
     S[keep].round(3).to_csv(f'{OUT}/roles_current.csv', index=False)
     # assist pairs
     a = M[(M.k == 'fga') & (M.made == True) & M.ast_id.notna()]
@@ -163,9 +169,10 @@ def labels(r):
     if not (r.min_lev >= MIN_LEV and r.n_fga_raw >= 6): return 'limited sample'
     L = []
     unast = 1 - (r.astd if pd.notna(r.astd) else 0.5)
-    if r.usg >= 23 and r.ast_pct >= 20 and unast >= 0.55: L.append('lead engine')
-    elif r.ast_pct >= 20 and r.usg < 23: L.append('connector' if r.to_pct < 22 else 'playmaker (loose)')
-    if r.usg >= 22 and unast >= 0.6 and r.ast_pct < 20: L.append('self-creating scorer')
+    # creation tags use assist RATIO (assists per 100 plays he finished), which doesn't depend on teammates' shooting
+    if r.usg >= 23 and r.ast_ratio >= 20 and unast >= 0.55: L.append('lead engine')
+    elif r.ast_ratio >= 22 and r.usg < 23: L.append('connector' if r.to_ratio < 17 else 'playmaker (loose)')
+    if r.usg >= 22 and unast >= 0.6 and r.ast_ratio < 20: L.append('self-creating scorer')
     rim_self = 1 - (r.rim_astd if pd.notna(r.rim_astd) else 0.5)
     if (not r.big and r.usg >= 22 and r.rim_sh >= 0.3 and rim_self >= 0.6
             and not any(l in L for l in ('lead engine', 'self-creating scorer'))): L.append('downhill creator')
@@ -177,6 +184,7 @@ def labels(r):
     if r.post_sh >= 0.2 and r.usg >= 16: L.append('post scorer')
     elif r.big and r.rim_sh >= 0.5 and (r.rim_astd if pd.notna(r.rim_astd) else 1) < 0.5 and r.usg >= 18: L.append('interior scorer')
     if r.pullup_sh + r.floater_sh >= 0.25 and 'pull-up shooter' not in L and not r.big: L.append('off-dribble jumpers')
+    if r.ft_rate >= 0.6 and r.n_fga_raw >= 15 and r.usg >= 16: L.append('foul drawer')
     if r.or_pct >= 10: L.append('glass')
     if r.putback40 >= 2: L.append('putbacks')
     if r.blk40 >= 2.5: L.append('rim protector')

@@ -8,14 +8,15 @@ import argparse, json, re, datetime as dt
 import pandas as pd
 
 ROLES = 'data/roles'
-LABEL_ORDER = ['lead engine', 'connector', 'playmaker (loose)', 'self-creating scorer', 'downhill creator', 'slasher', 'spot-up shooter',
+LABEL_ORDER = ['lead engine', 'connector', 'playmaker (loose)', 'self-creating scorer', 'downhill creator', 'slasher', 'foul drawer', 'spot-up shooter',
                'pull-up shooter', 'off-dribble jumpers', 'stretch big', 'rim runner', 'post scorer', 'interior scorer', 'glass', 'putbacks',
                'rim protector', 'pickpocket', 'transition', 'low-usage role player', 'balanced']
 LABEL_DEF = {
-    'lead engine': 'Usage 23+, assist rate 20+, 55%+ of made shots unassisted',
-    'connector': 'Assist rate 20+, usage under 23, turnover rate under 22',
-    'playmaker (loose)': 'Connector profile with a turnover rate of 22+',
-    'self-creating scorer': 'Usage 22+, 60%+ of made shots unassisted, assist rate under 20',
+    'lead engine': 'Usage 23+, assist ratio 20+, 55%+ of made shots unassisted',
+    'connector': 'Assist ratio 22+, usage under 23, turnover ratio under 17',
+    'playmaker (loose)': 'Connector profile with a turnover ratio of 17+',
+    'self-creating scorer': 'Usage 22+, 60%+ of made shots unassisted, assist ratio under 20',
+    'foul drawer': 'Free-throw rate 60+ (FTA per 100 FGA), usage 16+, 15+ shots',
     'downhill creator': 'Non-big, usage 22+, 30%+ of shots at the rim, 60%+ of rim makes unassisted',
     'slasher': 'Non-big, 45%+ of shots at the rim, 60%+ of rim makes unassisted',
     'spot-up shooter': '55%+ of shots are threes, 75%+ of made threes assisted',
@@ -44,7 +45,7 @@ THIN = {  # label -> (column, minimum, what it counts) — below the minimum the
     'stretch big': ('n_fga_raw', 20, 'shots'), 'post scorer': ('n_fga_raw', 20, 'shots'), 'off-dribble jumpers': ('n_fga_raw', 20, 'shots'),
     'balanced': ('n_fga_raw', 20, 'shots'), 'low-usage role player': ('n_fga_raw', 20, 'shots'),
     'glass': ('min_lev', 80, 'competitive minutes'), 'putbacks': ('min_lev', 80, 'competitive minutes'),
-    'rim protector': ('min_lev', 80, 'competitive minutes'), 'pickpocket': ('min_lev', 80, 'competitive minutes'),
+    'rim protector': ('min_lev', 80, 'competitive minutes'), 'foul drawer': ('n_fga_raw', 25, 'shots'), 'pickpocket': ('min_lev', 80, 'competitive minutes'),
     'transition': ('min_lev', 80, 'competitive minutes'),
 }
 
@@ -87,7 +88,9 @@ def build(out):
         P.append([tix[r.team], r.player, '' if pd.isna(r.pos) else str(r.pos)[0], ht(r.ht), int(r.gp), r1(r.min_lev), r1(r.usg), r1(r.ast_pct), r1(r.to_pct),
                   pct(r.efg), None if pd.isna(r.astd) else round(100 * (1 - r.astd)), pct(r.rim_sh), pct(r.mid_sh), pct(r.three_sh),
                   pct(r.rim_astd), pct(r.three_astd), r1(r.or_pct), r1(r.stl40), r1(r.blk40), labs,
-                  int(r.n_fga_raw), int(r.n_fgm_raw), thin(r, labs)])
+                  int(r.n_fga_raw), int(r.n_fgm_raw), thin(r, labs),
+                  None if pd.isna(r.min_share) else round(float(r.min_share)), r1(r.ast_ratio), r1(r.to_ratio), r1(r.shot_ratio),
+                  None if pd.isna(r.ft_rate) else round(100 * float(r.ft_rate))])
     A = A[A.team.isin(tix)].sort_values(['team', 'n'], ascending=[True, False]).groupby('team').head(8)
     AS = [[tix[r.team], r.ast_name, r.player, r.zone, round(float(r.n), 1)] for r in A.itertuples()]
     asof = (dt.date.today() - dt.timedelta(days=1)).strftime('%b. %-d')
@@ -142,7 +145,15 @@ td.pl{white-space:normal;min-width:210px}
 tr.limrow td{color:var(--dim)}
 .hi{font-weight:700}
 .sm{display:flex;flex-direction:column;gap:3px;min-width:150px}
-.smb{display:flex;height:12px;width:150px;background:var(--alt);cursor:help}
+.smb{display:flex;height:12px;width:150px;background:var(--alt);cursor:pointer}
+.pb{display:flex;height:12px;width:110px;background:var(--alt);cursor:pointer}
+.pb i{display:block;height:100%}.s{background:var(--mid)}.p{background:var(--acc)}.x{background:var(--ink)}
+.cap{font-size:12px;color:var(--dim);margin-top:3px;display:none}.open+.cap{display:block}
+.tnav{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.tnav a{text-decoration:none;border:2px solid var(--ink);padding:6px 12px;font-size:14px;font-weight:700;min-height:36px;box-sizing:border-box;display:flex;align-items:center}
+.tnav a:hover{color:var(--acc);border-color:var(--acc)}
+.confl{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:14px;padding-top:4px}
+.confl a{text-decoration:none;padding:4px 0}.confl a.cur{font-weight:700;border-bottom:3px solid var(--acc)}
 .smb i{display:block;height:100%}
 .r{background:var(--acc)}.m{background:var(--mid)}.t{background:var(--ink)}
 .smt{font-size:12px;color:var(--dim);display:flex;gap:8px}
@@ -170,13 +181,13 @@ details summary{cursor:pointer;font-weight:700;font-size:15px}
  <datalist id="teams"></datalist>
  <select id="lab" aria-label="Find a role"><option value="">Find a role across D1…</option></select>
  <select id="conf" aria-label="Conference" hidden><option value="">All conferences</option></select>
- <button id="act" type="button" aria-pressed="false">Show activity</button>
+ <button id="act" type="button" aria-pressed="false">More columns</button>
  <span id="cnt" class="dim" style="font-size:14px"></span>
 </div>
 
 <div id="view"></div>
 
-<div class="note">Every second of floor time is weighted by how live the game was: full weight while the leading team's win probability is 95% or lower, none at 99.9%+, scaled in between. Min is those competitive minutes, season to date. Usage, assist rate and turnover rate are per possession. <b>Self</b> is the share of a player's made shots nobody assisted. <b>Shot mix</b> splits his field-goal attempts into rim, midrange and three; hover the bar for the exact shares and how many of his rim and three makes were assisted. Players under 20 competitive minutes or 6 shots are marked limited sample. <b>Shots</b> are raw makes-attempts, all minutes. <b>Show activity</b> adds offensive rebound rate, steals and blocks per 40. A dashed tag rests on a thin sample: under 10 made shots for lead engine and self-creating scorer, 6 rim makes for the rim tags, 6 made threes for the shooter tags, 20 shots for the shot-type tags, 60 competitive minutes for the passing tags and 80 for glass, putbacks and the defensive tags. Hover a dashed tag for its count.</div>
+<div class="note">Every second of floor time is weighted by how live the game was: full weight while the leading team's win probability is 95% or lower, none at 99.9%+, scaled in between. <b>Min%</b> is the share of the team's competitive minutes he was on the floor. <b>Usg</b> is the share of team possessions he used while on the floor. <b>Ast%</b> (assist rate) is the share of teammates' makes he assisted while on the floor, which depends on who he plays with; <b>Ast ratio</b> is assists per 100 plays he finished (shots, free-throw trips, assists, turnovers), which doesn't. <b>Plays</b> splits those plays into shoot, assist and turnover; tap or hover the bar for the numbers. <b>Self</b> is the share of his made shots nobody assisted. <b>FTr</b> is free-throw attempts per 100 field-goal attempts. <b>Shots</b> are raw makes-attempts, all minutes. <b>Shot mix</b> splits his attempts into rim, midrange and three; tap or hover for the shares and how many of his rim and three makes were assisted. <b>More columns</b> adds eFG, turnover rate, offensive rebound rate, steals and blocks per 40. Players under 20 competitive minutes or 6 shots are marked limited sample. A dashed tag rests on a thin sample: under 10 made shots for lead engine and self-creating scorer, 6 rim makes for the rim tags, 6 made threes for the shooter tags, 20 shots for the shot-type tags, 25 for foul drawer, 60 competitive minutes for the passing tags and 80 for glass, putbacks and the defensive tags. Hover a dashed tag for its count.</div>
 
 <details><summary>What each role means</summary><div class="defs" id="defs"></div></details>
 
@@ -200,43 +211,52 @@ function chips(L,hit,T){const th=Object.fromEntries(T||[]);return '<div class="c
  return '<span class="'+c+'"'+(th[l]?' title="Thin sample: '+esc(th[l])+'"':'')+'>'+esc(l)+'</span>';}).join('')+'</div>';}
 function mix(p){const r=p[11]||0,m=p[12]||0,t=p[13]||0;
  const tip='Rim '+r+'% · Mid '+m+'% · Three '+t+'% of shots. Assisted makes: rim '+(p[14]==null?'–':p[14]+'%')+', three '+(p[15]==null?'–':p[15]+'%');
- return '<div class="smb" role="img" title="'+tip+'" aria-label="'+tip+'"><i class="r" style="width:'+r+'%"></i><i class="m" style="width:'+m+'%"></i><i class="t" style="width:'+t+'%"></i></div>';}
+ return '<div class="smb" role="img" title="'+tip+'" aria-label="'+tip+'" onclick="this.classList.toggle(\'open\')"><i class="r" style="width:'+r+'%"></i><i class="m" style="width:'+m+'%"></i><i class="t" style="width:'+t+'%"></i></div><div class="cap">'+r+' / '+m+' / '+t+' · ast rim '+(p[14]==null?'–':p[14]+'%')+', 3 '+(p[15]==null?'–':p[15]+'%')+'</div>';}
 const COLS=[ // key index, label, class, default dir, group
- [1,'Player','l',1,''],[5,'Min','',-1,''],[6,'Usg','',-1,'Creation'],[7,'Ast%','',-1,'Creation'],[8,'TO%','hc',-1,'Creation'],[10,'Self','',-1,'Creation'],
- [20,'Shots','',-1,'Scoring'],[9,'eFG','',-1,'Scoring'],[13,'Shot mix','l',-1,'Scoring'],[16,'OR%','hc',-1,'Activity'],[17,'Stl/40','hc',-1,'Activity'],[18,'Blk/40','hc',-1,'Activity']];
-let st={k:5,dir:-1},showAct=false;
-const cols=()=>COLS.filter(c=>showAct||c[4]!=='Activity');
+ [1,'Player','l',1,''],[23,'Min%','',-1,''],[6,'Usg','',-1,'Creation'],[7,'Ast%','',-1,'Creation'],[24,'Ast ratio','',-1,'Creation'],[26,'Plays','l hc',-1,'Creation'],[10,'Self','',-1,'Creation'],
+ [27,'FTr','',-1,'Scoring'],[20,'Shots','',-1,'Scoring'],[13,'Shot mix','l',-1,'Scoring'],
+ [9,'eFG','',-1,'More'],[8,'TO%','',-1,'More'],[16,'OR%','',-1,'More'],[17,'Stl/40','',-1,'More'],[18,'Blk/40','',-1,'More']];
+let st={k:23,dir:-1},showAct=false;
+const cols=()=>COLS.filter(c=>showAct||c[4]!=='More');
 function cell(p,k,national){
  switch(k){
   case 1:return '<td class="l pl"><div class="nm">'+esc(p[1])+'</div><div class="meta">'+(national?'<a href="#'+D.T[p[0]][2]+'">'+esc(D.T[p[0]][0])+'</a> · ':'')+[p[2],p[3]].filter(Boolean).join(' · ')+(p[2]||p[3]?' · ':'')+p[4]+' gp</div>'+chips(p[19],$('lab').value,p[22])+'</td>';
-  case 5:return '<td>'+f1(p[5])+'</td>';
+  case 23:return '<td>'+(p[23]==null?'–':p[23]+'%')+'</td>';
+  case 24:return '<td class="'+(p[24]>=20?'hi':'')+'">'+f1(p[24])+'</td>';
+  case 26:{const sh=p[26]||0,a=p[24]||0,t=p[25]||0;const cap='Shoot '+Math.round(sh)+' · Assist '+Math.round(a)+' · Turnover '+Math.round(t)+' per 100 plays';
+   return '<td class="l hc" style="padding-top:12px"><div class="pb" role="img" title="'+cap+'" aria-label="'+cap+'" onclick="this.classList.toggle(\'open\')"><i class="s" style="width:'+sh+'%"></i><i class="p" style="width:'+a+'%"></i><i class="x" style="width:'+t+'%"></i></div><div class="cap">'+Math.round(sh)+' / '+Math.round(a)+' / '+Math.round(t)+'</div></td>';}
+  case 27:return '<td class="'+(p[27]>=60?'hi':'')+'">'+(p[27]==null?'–':p[27])+'</td>';
   case 6:return '<td class="'+(p[6]>=22?'hi':'')+'">'+f1(p[6])+'</td>';
   case 7:return '<td class="'+(p[7]>=20?'hi':'')+'">'+f1(p[7])+'</td>';
-  case 8:return '<td class="hc">'+f1(p[8])+'</td>';
+  case 8:return '<td>'+f1(p[8])+'</td>';
   case 10:return '<td>'+(p[10]==null?'–':p[10]+'%')+'</td>';
   case 20:return '<td>'+p[21]+'-'+p[20]+'</td>';
   case 9:return '<td>'+f0(p[9])+'</td>';
-  case 13:return '<td class="l" style="vertical-align:middle">'+mix(p)+'</td>';
-  case 16:return '<td class="hc">'+f1(p[16])+'</td>';
-  case 17:return '<td class="hc">'+f1(p[17])+'</td>';
-  case 18:return '<td class="hc">'+f1(p[18])+'</td>';}}
+  case 13:return '<td class="l" style="padding-top:12px">'+mix(p)+'</td>';
+  case 16:return '<td>'+f1(p[16])+'</td>';
+  case 17:return '<td>'+f1(p[17])+'</td>';
+  case 18:return '<td>'+f1(p[18])+'</td>';}}
 function table(rows,national){
  const lim=p=>p[19].includes('limited sample');
  rows=rows.slice().sort((a,b)=>{if(!national&&lim(a)!==lim(b))return lim(a)?1:-1;const A=a[st.k],B=b[st.k];
-  const c=(A==null?-1e9:(typeof A==='string'?0:A))-(B==null?-1e9:(typeof B==='string'?0:B));return (typeof A==='string'?A.localeCompare(B):c)*st.dir||b[5]-a[5];});
- const grp=[['',2],['Creation',4],['Scoring',3]].concat(showAct?[['Activity',3]]:[]);
+  const c=(A==null?-1e9:(typeof A==='string'?0:A))-(B==null?-1e9:(typeof B==='string'?0:B));return (typeof A==='string'?A.localeCompare(B):c)*st.dir||b[23]-a[23];});
+ const grp=[['',2],['Creation',5],['Scoring',3]].concat(showAct?[['More',5]]:[]);
  const g='<tr class="hc">'+grp.map(([n,s])=>'<th class="grp" colspan="'+s+'">'+n+'</th>').join('')+'</tr>';
  const h='<tr>'+cols().map(c=>'<th class="'+c[2]+'" data-k="'+c[0]+'"'+(st.k===c[0]?' aria-sort="'+(st.dir>0?'ascending':'descending')+'"':'')+'><button type="button">'+c[1]+'</button></th>').join('')+'</tr>';
  const b=rows.map((p,i)=>'<tr class="'+(i%2?'alt ':'')+(lim(p)?'limrow':'')+'">'+cols().map(c=>cell(p,c[0],national)).join('')+'</tr>').join('');
  return '<div class="scroll"><table><thead>'+g+h+'</thead><tbody>'+b+'</tbody></table></div>';}
-const key='<div class="key"><span><i class="r"></i>Rim</span><span><i class="m"></i>Midrange</span><span><i class="t"></i>Three</span><span>Bold: usage 22+ or assist rate 20+</span><span><span class="chip thin" style="font-size:10px">tag</span> thin sample</span></div>';
+const key='<div class="key"><span><i class="r"></i>Rim</span><span><i class="m"></i>Midrange</span><span><i class="t"></i>Three</span><span><i class="s"></i>Shoot <i class="p" style="margin-left:6px"></i>Assist <i class="x" style="margin-left:6px"></i>Turnover</span><span>Bold: usage 22+, assist ratio 20+, FTr 60+</span><span><span class="chip thin" style="font-size:10px">tag</span> thin sample</span></div>';
 function teamView(i){
  const t=D.T[i],P=D.P.filter(p=>p[0]===i),A=D.A.filter(a=>a[0]===i);
  const links=A.length?'<div style="display:flex;flex-direction:column;gap:8px"><h2>Who sets up whom</h2><div class="links">'+
   A.map(a=>'<div class="lk"><span><b>'+esc(a[1])+'</b> → '+esc(a[2])+' <span class="z">'+esc(a[3]==='three'?'three':a[3]==='rim'?'rim':'mid')+'</span></span><span class="dim">'+a[4].toFixed(a[4]%1?1:0)+'</span></div>').join('')+
   '</div><div class="dim" style="font-size:13px">Assisted makes, weighted by competitive time.</div></div>':'';
+ const prev=D.T[(i+D.T.length-1)%D.T.length],next=D.T[(i+1)%D.T.length];
+ const mates=D.T.filter(x=>t[1]&&x[1]===t[1]&&x[2]!==t[2]);
+ const nav='<div class="tnav"><a href="#'+prev[2]+'">‹ '+esc(prev[0])+'</a><a href="#'+next[2]+'">'+esc(next[0])+' ›</a></div>'+
+  (mates.length?'<div class="confl"><span class="dim">'+esc(t[1])+':</span>'+mates.map(x=>'<a href="#'+x[2]+'">'+esc(x[0])+'</a>').join('')+'</div>':'');
  return '<div style="display:flex;flex-direction:column;gap:16px"><div class="head"><div style="display:flex;flex-direction:column;gap:4px"><h1>'+esc(t[0])+'</h1>'+
-  '<div class="dim" style="font-size:15px">'+(t[1]?esc(t[1])+' · ':'')+t[3]+' D1 game'+(t[3]===1?'':'s')+' · '+P.length+' players</div></div>'+key+'</div>'+table(P,false)+links+'</div>';}
+  '<div class="dim" style="font-size:15px">'+(t[1]?esc(t[1])+' · ':'')+t[3]+' D1 game'+(t[3]===1?'':'s')+' · '+P.length+' players</div></div>'+nav+'</div>'+key+table(P,false)+links+'</div>';}
 function labelView(l){
  const c=$('conf').value;
  const P=D.P.filter(p=>p[19].includes(l)&&(!c||D.T[p[0]][1]===c));
@@ -253,12 +273,12 @@ function render(){
  $('view').innerHTML=html;
  document.querySelectorAll('#view th[data-k] button').forEach(btn=>btn.addEventListener('click',()=>{const k=+btn.parentNode.dataset.k;const c=COLS.find(x=>x[0]===k);
   if(st.k===k)st.dir*=-1;else{st.k=k;st.dir=c[3];}render();}));}
-$('q').addEventListener('input',()=>{const i=byName[$('q').value.trim().toLowerCase()];if(i!=null){$('lab').value='';st={k:5,dir:-1};
+$('q').addEventListener('input',()=>{const i=byName[$('q').value.trim().toLowerCase()];if(i!=null){$('lab').value='';st={k:23,dir:-1};
  if(location.hash.slice(1)!==D.T[i][2])location.hash=D.T[i][2];else render();}});
 $('q').addEventListener('keydown',e=>{if(e.key==='Enter'){const s=$('q').value.trim().toLowerCase();const i=D.T.findIndex(t=>t[0].toLowerCase().includes(s));if(s&&i>=0){$('lab').value='';location.hash=D.T[i][2];}}});
-$('lab').addEventListener('change',()=>{st={k:5,dir:-1};render();});
+$('lab').addEventListener('change',()=>{st={k:23,dir:-1};render();});
 $('conf').addEventListener('change',render);
-$('act').addEventListener('click',()=>{showAct=!showAct;$('act').textContent=showAct?'Hide activity':'Show activity';$('act').setAttribute('aria-pressed',showAct);render();});
+$('act').addEventListener('click',()=>{showAct=!showAct;$('act').textContent=showAct?'Fewer columns':'More columns';$('act').setAttribute('aria-pressed',showAct);render();});
 window.addEventListener('hashchange',()=>{$('lab').value='';render();});
 if(!location.hash)try{const s=localStorage.getItem('rc_team');if(s&&bySlug[s]!=null)history.replaceState(null,'','#'+s);}catch(e){}
 window.addEventListener('hashchange',()=>{try{localStorage.setItem('rc_team',location.hash.slice(1));}catch(e){}});
