@@ -1307,6 +1307,8 @@ gameId,date,team,opponent,isHome,d1_game,periods,poss_parsed,poss_unknown,off_ap
 372773,2026-11-12,Southern,Minnesota,False,True,2,70,2,16.54,18.17,0.583,-30,68.0,2.0
 372774,2026-11-12,Indiana,Tennessee Tech,True,True,2,77,0,16.26,16.78,0.748,24,74.0,3.0
 372774,2026-11-12,Tennessee Tech,Indiana,False,True,2,75,0,15.23,15.28,0.738,-24,73.0,2.0
+372775,2026-11-12,New Mexico State,UTEP,False,True,2,61,0,20.11,20.03,0.967,-2,60.0,1.0
+372775,2026-11-12,UTEP,New Mexico State,True,True,2,55,1,19.18,19.18,1.0,2,60.0,-5.0
 372776,2026-11-12,Richmond,Southern Illinois,False,True,2,71,0,19.28,19.14,0.963,-10,71.0,0.0
 372776,2026-11-12,Southern Illinois,Richmond,True,True,2,68,0,15.13,15.33,0.969,10,71.0,-3.0
 372777,2026-11-12,Bowling Green,Niagara,True,True,2,70,0,15.91,16.44,0.925,12,72.0,-2.0
@@ -1323,6 +1325,8 @@ gameId,date,team,opponent,isHome,d1_game,periods,poss_parsed,poss_unknown,off_ap
 374904,2026-11-12,Stetson,Howard,False,True,2,61,1,16.89,16.65,0.924,-13,64.0,-3.0
 374905,2026-11-12,Mercer,West Virginia,False,True,2,70,0,15.33,15.95,0.843,-14,66.0,4.0
 374905,2026-11-12,West Virginia,Mercer,True,True,2,73,0,17.27,17.02,0.842,14,67.0,6.0
+374906,2026-11-12,BYU,Montana State,True,True,2,70,0,13.99,14.14,0.771,15,71.0,-1.0
+374906,2026-11-12,Montana State,BYU,False,True,2,70,0,20.07,22.43,0.77,-15,70.0,0.0
 374907,2026-11-12,George Mason,Kansas City,True,True,2,75,0,15.45,16.07,0.902,8,66.0,9.0
 374907,2026-11-12,Kansas City,George Mason,False,True,2,64,0,18.5,18.94,0.927,-8,66.0,-2.0
 374908,2026-11-12,Oklahoma State,Texas A&M,False,True,2,75,0,17.52,17.31,0.899,-19,77.0,-2.0

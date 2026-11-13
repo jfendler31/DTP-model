@@ -1,6 +1,5 @@
-Player sync 2026-11-13: 1 override(s) expired; box scores 2026-11-01 to 2026-11-12.
+Player sync 2026-11-13: 0 override(s) expired; box scores 2026-11-01 to 2026-11-12.
 tracker export: 430 notes, latest edit 2026-11-13
-expired  Gonzaga — Chauncey Wiggins (-0.04): tracker says elig_tro (2026-11-12)
 unpriced Alabama — Jamarion Davis-Fleming: injured (Missed OAK game (lower leg)), tracker 2026-11-10, plays today, no override
 unpriced Arizona St. — Jonathan Griman: injured (Missed NOCO game 11/6), tracker 2026-11-06, plays today, no override
 unpriced Arizona St. — Marcus Vaughns: injured, tracker 2026-11-06, plays today, no override
