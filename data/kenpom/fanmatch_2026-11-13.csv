@@ -1,0 +1,56 @@
+Season,GameID,DateOfGame,Visitor,Home,Location,HomeRank,VisitorRank,HomePred,VisitorPred,HomeWP,PredTempo,ThrillScore
+2027,653,2026-11-13,FIU,Florida Gulf Coast,Home,211,201,78,75,58,72,34.5
+2027,654,2026-11-13,Mount St. Mary's,Virginia Tech,Home,42,295,87,62,99,71,10.0
+2027,655,2026-11-13,Wright St.,Samford,Home,200,109,77,81,33,71,39.4
+2027,656,2026-11-13,Arizona,Auburn,Home,21,12,80,78,55,72,84.4
+2027,657,2026-11-13,Arkansas Pine Bluff,Cal Baptist,Home,334,358,79,73,73,72,23.1
+2027,658,2026-11-13,Columbia,Bucknell,Home,343,229,71,75,35,69,27.6
+2027,659,2026-11-13,Pittsburgh,Butler,Home,88,63,78,79,49,73,64.5
+2027,660,2026-11-13,Appalachian St.,Charlotte,Home,118,214,73,63,81,65,23.9
+2027,661,2026-11-13,Georgetown,Clemson,Home,73,84,78,73,67,68,55.1
+2027,662,2026-11-13,Ohio St.,Connecticut,Home,9,34,79,70,78,69,64.2
+2027,663,2026-11-13,SIUE,Duke,Home,2,294,91,56,100,70,9.5
+2027,664,2026-11-13,Chattanooga,Elon,Home,188,224,79,74,65,70,32.3
+2027,665,2026-11-13,Merrimack,Florida,Home,1,261,87,55,100,68,10.9
+2027,666,2026-11-13,Texas A&M Corpus Chris,Florida St.,Home,54,195,82,65,93,72,18.9
+2027,667,2026-11-13,LIU,Fordham,Home,115,270,78,66,86,71,19.8
+2027,668,2026-11-13,Harvard,George Washington,Home,90,141,73,64,79,68,31.9
+2027,669,2026-11-13,Iona,Hofstra,Home,155,207,72,67,66,68,32.3
+2027,670,2026-11-13,Northern Arizona,Kentucky,Home,36,299,90,65,99,68,10.2
+2027,671,2026-11-13,Marist,Lehigh,Home,279,287,68,65,60,69,28.3
+2027,672,2026-11-13,North Carolina Central,Liberty,Home,146,351,76,61,91,67,12.1
+2027,673,2026-11-13,Virginia,Maryland,Home,62,10,74,80,29,71,72.0
+2027,674,2026-11-13,North Alabama,Miami FL,Home,22,275,86,60,99,71,11.4
+2027,675,2026-11-13,Northern Iowa,Michigan St.,Home,5,144,89,64,98,71,18.5
+2027,676,2026-11-13,Troy,N.C. State,Home,60,192,82,66,92,69,19.6
+2027,677,2026-11-13,Georgia,North Carolina,Home,45,66,83,76,73,72,59.4
+2027,678,2026-11-13,Yale,Northeastern,Home,246,136,75,79,38,70,35.1
+2027,679,2026-11-13,Ohio,Purdue,Home,37,131,84,68,91,69,25.9
+2027,680,2026-11-13,Bryant,Rutgers,Home,77,319,84,62,97,71,9.8
+2027,681,2026-11-13,Tennessee St.,Tennessee,Home,24,231,88,63,99,73,12.7
+2027,682,2026-11-13,Georgia Southern,UCF,Home,74,267,89,70,95,73,14.4
+2027,684,2026-11-13,Mississippi St.,Xavier,Neutral,39,56,82,79,61,75,73.2
+2027,685,2026-11-13,Seton Hall,Alabama,Home,15,79,84,71,89,74,42.4
+2027,686,2026-11-13,Central Arkansas,Arkansas,Home,29,158,88,68,96,72,19.2
+2027,687,2026-11-13,South Dakota,Drake,Home,149,293,86,74,84,73,19.7
+2027,689,2026-11-13,Sam Houston St.,Illinois,Home,6,160,95,69,99,75,18.3
+2027,690,2026-11-13,Texas Southern,Murray St.,Home,83,331,89,67,97,76,10.1
+2027,691,2026-11-13,Lindenwood,Nebraska Omaha,Home,288,312,79,74,67,74,27.1
+2027,692,2026-11-13,Illinois St.,North Dakota St.,Home,254,119,73,79,30,68,33.6
+2027,693,2026-11-13,DePaul,Northwestern,Home,89,61,71,72,48,67,63.0
+2027,694,2026-11-13,Fairleigh Dickinson,Oklahoma,Home,67,329,84,61,98,68,8.8
+2027,695,2026-11-13,Ball St.,SMU,Home,70,230,83,66,94,72,16.0
+2027,696,2026-11-13,Milwaukee,TCU,Home,52,236,87,66,97,72,13.4
+2027,697,2026-11-13,Alcorn St.,Tarleton St.,Home,222,341,82,72,82,72,18.7
+2027,698,2026-11-13,Southern Miss,Texas St.,Home,104,240,79,66,86,69,21.1
+2027,699,2026-11-13,Prairie View A&M,Vanderbilt,Home,7,321,93,59,100,72,8.9
+2027,700,2026-11-13,Cleveland St.,West Florida,Neutral,349,314,78,81,38,71,28.5
+2027,701,2026-11-13,Louisiana Monroe,Arizona St.,Home,59,309,87,65,98,70,10.6
+2027,702,2026-11-13,UC San Diego,Utah St.,Home,43,92,82,71,82,70,43.4
+2027,704,2026-11-13,Cal Poly,Idaho,Home,243,162,79,81,43,75,36.1
+2027,705,2026-11-13,Mississippi Valley St.,Oregon St.,Home,91,365,90,63,99,70,7.1
+2027,706,2026-11-13,East Texas A&M,Portland,Home,169,257,78,71,71,70,28.9
+2027,707,2026-11-13,Illinois Chicago,Saint Mary's,Home,68,105,79,72,73,70,48.2
+2027,708,2026-11-13,Chicago St.,San Diego,Home,173,310,78,69,80,70,21.3
+2027,709,2026-11-13,Stanford,UNLV,Home,100,75,75,76,50,72,59.3
+2027,5665,2026-11-13,Southeast Missouri,Middle Tennessee,Home,190,258,77,70,73,72,26.6
