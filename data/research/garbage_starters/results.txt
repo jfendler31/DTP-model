@@ -1,0 +1,7 @@
+same-game (endogenous): late on star_share, n 204: -21.85
+n 169: late = 6.00 (se 3.81) x tendency + 0.07 x lead10
+                    n  tend  lead10  late
+q                                        
+pulls starters     57  0.43   26.18  1.74
+mid                56  0.57   27.59  4.86
+keeps starters in  56  0.74   26.84  5.32
