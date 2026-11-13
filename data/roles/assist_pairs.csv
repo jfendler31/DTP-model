@@ -94,12 +94,19 @@ Alabama,Tarris Bouie,London Jemison,mid,1.0
 Alabama,Tarris Bouie,Aden Holloway,three,0.96
 Alabama,Jaxon Richardson,Keitenn Bristow,rim,0.96
 Alabama,London Jemison,Aden Holloway,three,0.78
+Alabama A&M,Sami Pissis,James Graham III,rim,3.0
 Alabama A&M,Bilal Abdur-Rahman,Sami Pissis,three,2.0
+Alabama A&M,Bilal Abdur-Rahman,Devin Brown,rim,1.0
 Alabama A&M,David Meriwether,James Graham III,mid,1.0
+Alabama A&M,Devin Brown,Jalen Carruth,three,1.0
+Alabama A&M,Devin Brown,James Graham III,rim,1.0
+Alabama A&M,Diovion Famakinde,James Graham III,rim,1.0
+Alabama A&M,Diovion Famakinde,Stephaun Walker,three,1.0
 Alabama A&M,Javantae Edwards,James Graham III,three,1.0
 Alabama A&M,Kevin Paul,James Graham III,three,1.0
+Alabama A&M,Sami Pissis,Bilal Abdur-Rahman,three,1.0
+Alabama A&M,Sami Pissis,Jalen Carruth,three,1.0
 Alabama A&M,Sami Pissis,James Graham III,mid,1.0
-Alabama A&M,Sami Pissis,James Graham III,rim,1.0
 Alabama A&M,Sami Pissis,Stephaun Walker,rim,1.0
 Alabama St.,Mike James,Marquintez Dixon,rim,1.0
 Alabama St.,Mike James,Paul McMillan IV,rim,1.0
@@ -615,38 +622,53 @@ Boston University,Michelangelo Oberti,Kyrone Alexander,rim,1.0
 Boston University,Michelangelo Oberti,Kyrone Alexander,three,1.0
 Boston University,Michelangelo Oberti,Matai Baptiste,rim,1.0
 Boston University,Michelangelo Oberti,Sam Hughes,three,1.0
-Bowling Green,Makhi Leach,Tristan Beckford,rim,3.0
-Bowling Green,Makhi Leach,Zach Howell,three,3.0
+Bowling Green,Makhi Leach,Tristan Beckford,rim,5.0
+Bowling Green,Makhi Leach,Zach Howell,three,4.0
 Bowling Green,Christ Essandoko,Zach Howell,three,2.0
+Bowling Green,Josiah Shackelford,Juan Cranford Jr.,three,2.0
 Bowling Green,Josiah Shackelford,Tristan Beckford,rim,2.0
+Bowling Green,Juan Cranford Jr.,Zach Howell,three,2.0
 Bowling Green,Preston Squire,Zach Howell,rim,2.0
-Bowling Green,Josiah Shackelford,Juan Cranford Jr.,three,1.0
+Bowling Green,Makhi Leach,Preston Squire,three,1.94
+Bowling Green,Josiah Shackelford,Preston Squire,rim,1.08
+Bowling Green,Aiden Goins,Makhi Leach,three,1.0
+Bowling Green,Josiah Shackelford,Camden Karel,rim,1.0
+Bowling Green,Josiah Shackelford,Makhi Leach,three,1.0
 Bowling Green,Josiah Shackelford,Zach Howell,rim,1.0
 Bowling Green,Josiah Shackelford,Zach Howell,three,1.0
 Bowling Green,Juan Cranford Jr.,Josiah Shackelford,three,1.0
 Bowling Green,Juan Cranford Jr.,Makhi Leach,three,1.0
-Bowling Green,Juan Cranford Jr.,Zach Howell,three,1.0
 Bowling Green,Makhi Leach,Josiah Shackelford,rim,1.0
 Bowling Green,Makhi Leach,Josiah Shackelford,three,1.0
 Bowling Green,Makhi Leach,Juan Cranford Jr.,three,1.0
-Bowling Green,Makhi Leach,Preston Squire,three,1.0
+Bowling Green,Makhi Leach,Tristan Beckford,three,1.0
+Bowling Green,Makhi Leach,Zach Howell,mid,1.0
+Bowling Green,Preston Squire,Makhi Leach,three,1.0
 Bowling Green,Preston Squire,Zach Howell,three,1.0
 Bowling Green,Trey Simmons,Camden Karel,three,1.0
 Bowling Green,Trey Simmons,Preston Squire,rim,1.0
 Bowling Green,Tristan Beckford,Christ Essandoko,rim,1.0
 Bowling Green,Zach Howell,Josiah Shackelford,three,1.0
 Bowling Green,Zach Howell,Makhi Leach,rim,1.0
+Bowling Green,Zach Howell,Tristan Beckford,three,1.0
 Bowling Green,KJ Torbert,Josiah Shackelford,three,0.93
+Bradley,Ben Thornbrue,Trevon Payton,three,2.0
 Bradley,Max Gaspa,Noah Williams,three,1.81
-Bradley,Ben Thornbrue,Trevon Payton,three,1.0
+Bradley,Ben Thornbrue,Max Gaspa,three,1.0
 Bradley,Dimitrije Pavlovic,Ben Thornbrue,mid,1.0
 Bradley,Jackson Seastrunk,Josh Ibukunoluwa,rim,1.0
 Bradley,Josh Ibukunoluwa,Ben Thornbrue,three,1.0
 Bradley,Josh Ibukunoluwa,Trevon Payton,three,1.0
 Bradley,Kyle Grill,Josh Ibukunoluwa,three,1.0
+Bradley,Kyle Grill,Max Gaspa,three,1.0
+Bradley,Kyle Grill,Trevon Payton,three,1.0
+Bradley,Max Gaspa,Ben Thornbrue,rim,1.0
 Bradley,Max Gaspa,Jackson Seastrunk,three,1.0
+Bradley,Max Gaspa,Kyle Grill,rim,1.0
 Bradley,Max Gaspa,Xander Alarie,mid,1.0
+Bradley,Trevon Payton,Gustavo Guimares,rim,1.0
 Bradley,Trevon Payton,Max Gaspa,three,1.0
+Bradley,Trevon Payton,Timoty van der Knaap,rim,1.0
 Bradley,Xander Alarie,Trevon Payton,three,1.0
 Bradley,Dimitrije Pavlovic,Josh Ibukunoluwa,rim,0.96
 Bradley,Josh Ibukunoluwa,Max Gaspa,mid,0.85
@@ -654,35 +676,48 @@ Bradley,Trevon Payton,Xander Alarie,mid,0.74
 Brown,Jeremiah Jenkins,N'famara Dabo,rim,4.0
 Brown,Jeremiah Jenkins,Ray Cuevas,three,3.0
 Brown,Rykan Woo,N'famara Dabo,rim,3.0
+Brown,Timmy Bollin,Isaiah Langham,rim,3.0
+Brown,Timmy Bollin,Brady Loughlin,three,2.85
+Brown,Brady Loughlin,Timmy Bollin,rim,2.0
 Brown,Jeremiah Jenkins,Brady Loughlin,three,2.0
+Brown,Jeremiah Jenkins,Timmy Bollin,rim,2.0
 Brown,Jerrell Barron Jr.,Wyatt DeGraaf,rim,2.0
 Brown,Rykan Woo,Brady Loughlin,three,2.0
+Brown,Timmy Bollin,Kenneth Francis Jr.,rim,2.0
 Brown,Timmy Bollin,N'famara Dabo,rim,2.0
-Brown,Timmy Bollin,Brady Loughlin,three,1.85
+Brown,Adrian Uchidiuno,Brady Loughlin,three,1.0
 Brown,Brady Loughlin,David Rochester,mid,1.0
 Brown,Brady Loughlin,Jeremiah Jenkins,three,1.0
 Brown,Brady Loughlin,N'famara Dabo,rim,1.0
 Brown,Brady Loughlin,Ray Cuevas,three,1.0
-Brown,Brady Loughlin,Timmy Bollin,rim,1.0
+Brown,Brady Loughlin,Wyatt DeGraaf,rim,1.0
 Brown,Charlie O'Sullivan,Jeremiah Jenkins,three,1.0
 Brown,Isaiah Langham,Wyatt DeGraaf,rim,1.0
 Brown,Jeremiah Jenkins,Brady Loughlin,rim,1.0
 Brown,Jeremiah Jenkins,David Rochester,rim,1.0
 Brown,Jeremiah Jenkins,David Rochester,three,1.0
-Brown,Jeremiah Jenkins,Timmy Bollin,rim,1.0
+Brown,Jeremiah Jenkins,Isaiah Langham,rim,1.0
+Brown,Jeremiah Jenkins,Jerrell Barron Jr.,rim,1.0
 Brown,Jeremiah Jenkins,Wyatt DeGraaf,rim,1.0
 Brown,Jerrell Barron Jr.,Isaiah Langham,three,1.0
 Brown,Jerrell Barron Jr.,N'famara Dabo,rim,1.0
 Brown,Jerrell Barron Jr.,Rykan Woo,three,1.0
+Brown,Kenneth Francis Jr.,Brady Loughlin,three,1.0
+Brown,Kenneth Francis Jr.,Isaiah Langham,rim,1.0
 Brown,Kenneth Francis Jr.,Ray Cuevas,three,1.0
+Brown,N'famara Dabo,Charlie O'Sullivan,rim,1.0
 Brown,N'famara Dabo,Timmy Bollin,rim,1.0
 Brown,Ray Cuevas,Brady Loughlin,three,1.0
 Brown,Ray Cuevas,Jeremiah Jenkins,rim,1.0
 Brown,Ray Cuevas,N'famara Dabo,rim,1.0
+Brown,Rykan Woo,Brady Loughlin,rim,1.0
+Brown,Rykan Woo,Isaiah Langham,rim,1.0
 Brown,Rykan Woo,Wyatt DeGraaf,rim,1.0
 Brown,Timmy Bollin,Wyatt DeGraaf,rim,1.0
 Brown,Wyatt DeGraaf,Brady Loughlin,three,1.0
 Brown,Wyatt DeGraaf,Rykan Woo,three,1.0
+Brown,Isaiah Langham,Jeremiah Jenkins,three,0.96
+Brown,Timmy Bollin,Jeremiah Jenkins,three,0.91
 Brown,Wyatt DeGraaf,Jeremiah Jenkins,rim,0.65
 Bryant,Andre Pasha,Ty Tabales,three,2.0
 Bryant,Onyx Nnani,Keegan Harvey,three,2.0
@@ -837,19 +872,28 @@ Cal Poly,Jess Esso Essis,Ali Assran,rim,0.78
 Cal Poly,Austin Goode,Ali Assran,three,0.74
 Cal Poly,Jackson Mosley,Hamad Mousa,three,0.68
 Cal Poly,Austin Goode,Jason Scott,three,0.66
+Cal St. Bakersfield,Kjay Bradley,Chudi Dioramma,rim,5.0
 Cal St. Bakersfield,Bryce Cofield,Jaden Alexander,three,4.0
-Cal St. Bakersfield,Kjay Bradley,Chudi Dioramma,rim,2.0
+Cal St. Bakersfield,Kjay Bradley,Tom Koppens,rim,3.94
+Cal St. Bakersfield,Kjay Bradley,Jaden Alexander,rim,2.0
 Cal St. Bakersfield,Bryce Cofield,Jaden Alexander,rim,1.0
+Cal St. Bakersfield,Bryce Cofield,Petar Ivancic,rim,1.0
 Cal St. Bakersfield,Bryce Cofield,Sean Pouedet,rim,1.0
+Cal St. Bakersfield,Bryce Cofield,Tom Koppens,rim,1.0
+Cal St. Bakersfield,Cameron Barnes,Chudi Dioramma,rim,1.0
+Cal St. Bakersfield,Chudi Dioramma,Jaden Alexander,mid,1.0
+Cal St. Bakersfield,Chudi Dioramma,Kjay Bradley,mid,1.0
+Cal St. Bakersfield,Iliyan Pishtikov,Jaden Alexander,rim,1.0
 Cal St. Bakersfield,Kjay Bradley,Bryce Cofield,three,1.0
-Cal St. Bakersfield,Kjay Bradley,Jaden Alexander,rim,1.0
 Cal St. Bakersfield,Kjay Bradley,Jaden Alexander,three,1.0
 Cal St. Bakersfield,Kjay Bradley,Petar Ivancic,rim,1.0
+Cal St. Bakersfield,Kristian Payne,Bryce Cofield,three,1.0
 Cal St. Bakersfield,Kristian Payne,Chudi Dioramma,rim,1.0
 Cal St. Bakersfield,Petar Ivancic,Jaden Alexander,three,1.0
 Cal St. Bakersfield,Sean Pouedet,Jaden Alexander,three,1.0
 Cal St. Bakersfield,Tom Koppens,Jaden Alexander,three,1.0
-Cal St. Bakersfield,Kjay Bradley,Tom Koppens,rim,0.94
+Cal St. Bakersfield,Tom Koppens,Kjay Bradley,rim,1.0
+Cal St. Bakersfield,Tom Koppens,Petar Ivancic,rim,1.0
 Cal St. Bakersfield,Kjay Bradley,Kristian Payne,rim,0.81
 Cal St. Fullerton,Matthew Willenborg,Malcolm Bell,three,2.0
 Cal St. Fullerton,Tiernan Stynes,Matthew Willenborg,three,2.0
@@ -928,13 +972,25 @@ Campbell,Sentinel Moore,Rashawn Inglemon,three,1.0
 Campbell,AJ Wright Jr.,Nordin Kapic,three,0.88
 Campbell,Nordin Kapic,Lance Waddles,mid,0.81
 Campbell,Rashawn Inglemon,Karim Rtail,rim,0.71
+Canisius,Nate Fouts,Michael Wilson Jr.,three,3.0
+Canisius,Michael Wilson Jr.,Vinny Sigona,three,2.0
+Canisius,Nate Fouts,Michael Wilson Jr.,rim,2.0
+Canisius,Nate Fouts,Clinton Efinda,rim,1.89
 Canisius,Alex Mack,Nate Fouts,rim,1.0
 Canisius,Alex Mack,Preist Ryan,rim,1.0
-Canisius,Michael Wilson Jr.,Vinny Sigona,three,1.0
+Canisius,Clinton Efinda,Preist Ryan,rim,1.0
+Canisius,Clinton Efinda,Vinny Sigona,three,1.0
+Canisius,Michael Wilson Jr.,Alex Mack,three,1.0
+Canisius,Michael Wilson Jr.,Clinton Efinda,rim,1.0
+Canisius,Michael Wilson Jr.,Clinton Efinda,three,1.0
+Canisius,Preist Ryan,Jerry Guerrero,three,1.0
+Canisius,Preist Ryan,Michael Wilson Jr.,three,1.0
 Canisius,Preist Ryan,Nate Fouts,mid,1.0
+Canisius,Preist Ryan,Nate Fouts,three,1.0
 Canisius,Preist Ryan,Vinny Sigona,three,1.0
+Canisius,Vinny Sigona,Preist Ryan,rim,1.0
+Canisius,Will Fowler,Jerry Guerrero,three,1.0
 Canisius,Michael Wilson Jr.,Nate Fouts,three,0.98
-Canisius,Nate Fouts,Clinton Efinda,rim,0.89
 Canisius,Vinny Sigona,Clinton Efinda,three,0.65
 Central Arkansas,Cole McCormick,Ty Robinson,three,2.0
 Central Arkansas,Luke Moore,Rylie Marshall,three,2.0
@@ -955,18 +1011,24 @@ Central Arkansas,Malchiah Marable,R.J. Young,three,0.77
 Central Arkansas,Luke Moore,Simm-Marten Saadi,three,0.74
 Central Arkansas,Cole McCormick,Rylie Marshall,three,0.69
 Central Arkansas,Luke Moore,Ty Robinson,three,0.5
-Central Connecticut,Jhace Johnson,Victor Payne Jr.,three,5.0
+Central Connecticut,Jhace Johnson,Victor Payne Jr.,three,6.0
 Central Connecticut,Elijah Parker,Ashton Reynolds,rim,2.0
+Central Connecticut,Elijah Parker,Victor Payne Jr.,three,2.0
+Central Connecticut,Raphel Laurent,Jhace Johnson,three,2.0
 Central Connecticut,Ashton Reynolds,James Jones,three,1.0
+Central Connecticut,Daniel James,Victor Payne Jr.,rim,1.0
+Central Connecticut,David Smith,Victor Payne Jr.,rim,1.0
 Central Connecticut,Elijah Parker,Jhace Johnson,three,1.0
-Central Connecticut,Elijah Parker,Victor Payne Jr.,three,1.0
 Central Connecticut,Jayden Mott,James Jones,rim,1.0
+Central Connecticut,Jhace Johnson,David Smith,three,1.0
 Central Connecticut,Jhace Johnson,Elijah Parker,rim,1.0
 Central Connecticut,Jhace Johnson,James Jones,rim,1.0
 Central Connecticut,Jhace Johnson,Jayden Mott,mid,1.0
-Central Connecticut,Raphel Laurent,Jhace Johnson,three,1.0
+Central Connecticut,Raphel Laurent,Daniel James,three,1.0
 Central Connecticut,Rashawn Tibby,Raphel Laurent,three,1.0
+Central Connecticut,Rashawn Tibby,Roddy Jones,three,1.0
 Central Connecticut,Victor Payne Jr.,Ashton Reynolds,rim,1.0
+Central Connecticut,Victor Payne Jr.,Raphel Laurent,three,1.0
 Central Connecticut,James Jones,Raphel Laurent,rim,0.93
 Central Connecticut,Elijah Parker,Brayden Jackson,rim,0.82
 Central Connecticut,Jayden Mott,Raphel Laurent,rim,0.5
@@ -1338,8 +1400,19 @@ Connecticut,Silas Demary Jr.,Oskar Giltay,rim,1.0
 Connecticut,Braylon Mullins,Jayden Ross,rim,0.83
 Connecticut,Nils Machowski,Oskar Giltay,rim,0.78
 Coppin St.,Baasil Saunders,Hussain Williams,mid,1.0
+Coppin St.,Brendan Johnson,Favour Aire,mid,1.0
 Coppin St.,Brendan Johnson,Tafara Gapare,three,1.0
+Coppin St.,Camaren Sparrow,Brendan Johnson,three,1.0
+Coppin St.,Camaren Sparrow,Hussain Williams,three,1.0
+Coppin St.,Daveyon Lydner,Tafara Gapare,rim,1.0
+Coppin St.,Favour Aire,Brendan Johnson,rim,1.0
+Coppin St.,Jamari Piercy,Camaren Sparrow,mid,1.0
+Coppin St.,Jamari Piercy,Tafara Gapare,mid,1.0
+Coppin St.,Jamari Piercy,Tafara Gapare,rim,1.0
+Coppin St.,Malik Shackleford,Jamari Piercy,rim,1.0
+Coppin St.,Tafara Gapare,Baasil Saunders,rim,1.0
 Coppin St.,Tafara Gapare,Brendan Johnson,rim,1.0
+Coppin St.,Tafara Gapare,Brendan Johnson,three,1.0
 Coppin St.,Josiah Brown,Malik Shackleford,rim,0.92
 Coppin St.,Daveyon Lydner,Malik Shackleford,three,0.76
 Coppin St.,Brendan Johnson,Camaren Sparrow,rim,0.73
@@ -2163,21 +2236,28 @@ Gardner Webb,Jackson Skipper,Jacob Hudson,rim,1.0
 Gardner Webb,Rue Wells,Jackson Skipper,three,1.0
 Gardner Webb,Rue Wells,Seth Brown,three,1.0
 Gardner Webb,Mikhali Pocknett,Jacob Hudson,three,0.95
+George Mason,Efeosa Oliogu-Elabor,Emmanuel Kanga,rim,2.32
 George Mason,Baraka Okojie,Efeosa Oliogu-Elabor,three,2.0
+George Mason,Brayden O'Connor,Shane Pendergrass,rim,2.0
+George Mason,Efeosa Oliogu-Elabor,Brayden O'Connor,three,2.0
 George Mason,Efeosa Oliogu-Elabor,Elijah Jones,three,2.0
+George Mason,Makhai Valentine,Emmanuel Kanga,rim,2.0
 George Mason,Baraka Okojie,Shane Pendergrass,rim,1.99
 George Mason,Baraka Okojie,Shane Pendergrass,mid,1.91
+George Mason,Brayden O'Connor,Baraka Okojie,three,1.74
 George Mason,Baraka Okojie,Efeosa Oliogu-Elabor,rim,1.0
 George Mason,Baraka Okojie,Elijah Jones,three,1.0
+George Mason,Baraka Okojie,Emmanuel Kanga,rim,1.0
 George Mason,Baraka Okojie,Shane Pendergrass,three,1.0
-George Mason,Brayden O'Connor,Baraka Okojie,three,1.0
+George Mason,Brayden O'Connor,Elijah Jones,three,1.0
 George Mason,Brayden O'Connor,Emmanuel Kanga,rim,1.0
-George Mason,Efeosa Oliogu-Elabor,Brayden O'Connor,three,1.0
+George Mason,Brayden O'Connor,Makhai Valentine,three,1.0
+George Mason,Brayden O'Connor,Shane Pendergrass,three,1.0
 George Mason,Efeosa Oliogu-Elabor,Elijah Jones,rim,1.0
 George Mason,Efeosa Oliogu-Elabor,Makhai Valentine,three,1.0
 George Mason,Efeosa Oliogu-Elabor,Ryan-Preston Mendy,rim,1.0
+George Mason,Elijah Jones,Makhai Valentine,three,1.0
 George Mason,Emmanuel Kanga,Elijah Jones,three,1.0
-George Mason,Makhai Valentine,Emmanuel Kanga,rim,1.0
 George Mason,Malik Presley,Elijah Jones,mid,1.0
 George Mason,Malik Presley,Emmanuel Kanga,rim,1.0
 George Mason,Shane Pendergrass,Efeosa Oliogu-Elabor,rim,1.0
@@ -2505,9 +2585,10 @@ Hawaii,Tiger Cuff,Zack Davidson,mid,1.0
 Hawaii,Zack Davidson,Bol Dengdit,rim,1.0
 High Point,CJ Brown,Braden Hausen,three,3.0
 High Point,CJ Brown,Cam'Ron Fletcher,rim,3.0
-High Point,Trey Pearson,Frankquon Sherman,rim,2.0
+High Point,Trey Pearson,Frankquon Sherman,rim,3.0
+High Point,Braden Hausen,Cam'Ron Fletcher,rim,2.0
+High Point,Conrad Martinez,Isaac Garrett,rim,2.0
 High Point,Braden Hausen,CJ Brown,three,1.0
-High Point,Braden Hausen,Cam'Ron Fletcher,rim,1.0
 High Point,Braden Hausen,Isaac Garrett,mid,1.0
 High Point,CJ Brown,Cam'Ron Fletcher,three,1.0
 High Point,CJ Brown,Curtis Williams Jr.,three,1.0
@@ -2517,20 +2598,24 @@ High Point,Cam'Ron Fletcher,CJ Brown,rim,1.0
 High Point,Conrad Martinez,Cam'Ron Fletcher,rim,1.0
 High Point,Conrad Martinez,Filip Brankovic,rim,1.0
 High Point,Conrad Martinez,Filip Brankovic,three,1.0
-High Point,Conrad Martinez,Isaac Garrett,rim,1.0
 High Point,Conrad Martinez,Trey Pearson,three,1.0
 High Point,Curtis Williams Jr.,Braden Hausen,three,1.0
 High Point,Curtis Williams Jr.,Cam'Ron Fletcher,rim,1.0
 High Point,Curtis Williams Jr.,Filip Brankovic,rim,1.0
 High Point,Curtis Williams Jr.,Frankquon Sherman,rim,1.0
+High Point,Filip Brankovic,Curtis Williams Jr.,rim,1.0
 High Point,Frankquon Sherman,Cam'Ron Fletcher,three,1.0
 High Point,Frankquon Sherman,Conrad Martinez,three,1.0
 High Point,Isaac Garrett,Braden Hausen,three,1.0
 High Point,Jason Rivera-Torres,Cam'Ron Fletcher,rim,1.0
 High Point,Jason Rivera-Torres,Cam'Ron Fletcher,three,1.0
+High Point,Jason Rivera-Torres,Isaac Garrett,rim,1.0
+High Point,Trey Pearson,Cam'Ron Fletcher,rim,1.0
 High Point,Trey Pearson,Filip Brankovic,rim,1.0
 High Point,Trey Pearson,Jason Rivera-Torres,rim,1.0
+High Point,CJ Brown,Jason Rivera-Torres,three,0.97
 High Point,Frankquon Sherman,Curtis Williams Jr.,three,0.81
+High Point,Braden Hausen,Conrad Martinez,three,0.56
 Hofstra,Justin Moore,Imanuel Zorgvol,rim,2.0
 Hofstra,Justin Moore,Spence Wewe,rim,2.0
 Hofstra,Nick Jefferson,Deywilk Tavarez,three,2.0
@@ -2621,39 +2706,49 @@ Houston Christian,Max Alexander,Jonas Nichols,three,1.0
 Houston Christian,Max Alexander,Kris Keinys,three,1.0
 Houston Christian,Shawn Simmons II,Jonas Nichols,rim,1.0
 Houston Christian,Chris Mubiru,Mambourou Mara,rim,0.72
+Howard,Alex Cotton,Cedric Taylor III,three,3.0
 Howard,Cam Gillus,Drew Harris,three,2.98
+Howard,Cedric Taylor III,Alex Cotton,three,2.89
+Howard,James Brown,Drew Harris,rim,2.82
 Howard,Cedric Taylor III,Cam Gillus,three,2.1
+Howard,Alex Cotton,Cam Gillus,three,2.0
+Howard,Cam Gillus,Cedric Taylor III,three,2.0
+Howard,Cedric Taylor III,Cam Gillus,rim,2.0
+Howard,Drew Harris,James Brown,rim,2.0
+Howard,James Brown,Cedric Taylor III,rim,2.0
 Howard,Josiah Lawson,Drew Harris,rim,1.68
-Howard,Alex Cotton,Cam Gillus,three,1.0
-Howard,Alex Cotton,Cedric Taylor III,three,1.0
+Howard,Cam Gillus,Drew Harris,rim,1.01
 Howard,Alex Cotton,Josiah Lawson,rim,1.0
+Howard,Calvin Robins Jr.,Jeremiah Johnson,three,1.0
+Howard,Cam Gillus,Alex Cotton,rim,1.0
 Howard,Cam Gillus,Alex Cotton,three,1.0
-Howard,Cam Gillus,Cedric Taylor III,three,1.0
+Howard,Cam Gillus,Cedric Taylor III,rim,1.0
+Howard,Cam Gillus,Drew Harris,mid,1.0
 Howard,Cam Gillus,Isaiah Brown,rim,1.0
 Howard,Cam Gillus,James Brown,rim,1.0
 Howard,Cam Gillus,Josiah Lawson,rim,1.0
 Howard,Cam Gillus,Josiah Lawson,three,1.0
-Howard,Cedric Taylor III,Alex Cotton,three,1.0
-Howard,Cedric Taylor III,Cam Gillus,rim,1.0
+Howard,Cedric Taylor III,James Brown,mid,1.0
 Howard,Cedric Taylor III,James Brown,rim,1.0
 Howard,Cedric Taylor III,Julian Johnson,rim,1.0
 Howard,Drew Harris,Cam Gillus,rim,1.0
 Howard,Drew Harris,Cedric Taylor III,rim,1.0
-Howard,Drew Harris,James Brown,rim,1.0
 Howard,Drew Harris,Josiah Lawson,rim,1.0
 Howard,Drew Harris,Josiah Lawson,three,1.0
 Howard,Gasper Kocevar,Cam Gillus,three,1.0
 Howard,Gasper Kocevar,Cedric Taylor III,rim,1.0
 Howard,Gasper Kocevar,James Brown,mid,1.0
 Howard,Gasper Kocevar,Josiah Lawson,mid,1.0
-Howard,James Brown,Cedric Taylor III,rim,1.0
+Howard,Isaiah Brown,Cedric Taylor III,rim,1.0
+Howard,Isaiah Brown,James Brown,rim,1.0
+Howard,Isaiah Brown,Josiah Lawson,three,1.0
 Howard,James Brown,Cedric Taylor III,three,1.0
 Howard,James Brown,Josiah Lawson,three,1.0
 Howard,Jeremiah Johnson,Cam Gillus,three,1.0
+Howard,Jeremiah Johnson,Isaiah Brown,rim,1.0
 Howard,Josiah Lawson,James Brown,mid,1.0
 Howard,BJ Powell,Cedric Taylor III,three,0.94
 Howard,James Brown,Cam Gillus,three,0.82
-Howard,James Brown,Drew Harris,rim,0.82
 Howard,BJ Powell,Cedric Taylor III,rim,0.78
 IU Indy,Gus Etchison,Precious Idiaru,three,2.0
 IU Indy,Antoine Arnett,Peyton Heiss,rim,1.0
@@ -2810,13 +2905,14 @@ Incarnate Word,Mekhi Conner,Christophe Pare,mid,0.77
 Incarnate Word,Mekhi Conner,Christophe Pare,rim,0.66
 Incarnate Word,Mekhi Conner,Godswill Erheriene,mid,0.57
 Incarnate Word,Krisnan-Cole Ioane,Godswill Erheriene,rim,0.51
+Indiana,Markus Burton,Darren Harris,three,3.29
 Indiana,Darren Harris,Markus Burton,three,3.0
-Indiana,Markus Burton,Darren Harris,three,2.77
+Indiana,Markus Burton,Samet Yigitoglu,rim,3.0
 Indiana,Jaeden Mustaf,Samet Yigitoglu,rim,2.21
 Indiana,Jaeden Mustaf,Darren Harris,three,2.0
 Indiana,Markus Burton,Aiden Sherrell,three,2.0
-Indiana,Markus Burton,Samet Yigitoglu,rim,2.0
 Indiana,Markus Burton,Trent Sisley,rim,2.0
+Indiana,Markus Burton,Bryce Lindsay,three,1.95
 Indiana,Sam Alexis,Markus Burton,three,1.52
 Indiana,Bryce Lindsay,Trevor Manhertz,three,1.35
 Indiana,Aiden Sherrell,Samet Yigitoglu,rim,1.0
@@ -2824,19 +2920,25 @@ Indiana,Aiden Sherrell,Trevor Manhertz,three,1.0
 Indiana,Bryce Lindsay,Darren Harris,three,1.0
 Indiana,Bryce Lindsay,Jaeden Mustaf,mid,1.0
 Indiana,Bryce Lindsay,Sam Alexis,rim,1.0
+Indiana,Bryce Lindsay,Samet Yigitoglu,rim,1.0
 Indiana,Darren Harris,Jaeden Mustaf,rim,1.0
+Indiana,Darren Harris,Samet Yigitoglu,rim,1.0
+Indiana,Jaeden Mustaf,Aiden Sherrell,three,1.0
+Indiana,Jaeden Mustaf,Sam Alexis,rim,1.0
 Indiana,Markus Burton,Jaeden Mustaf,three,1.0
 Indiana,Markus Burton,Sam Alexis,rim,1.0
 Indiana,Markus Burton,Trent Sisley,three,1.0
 Indiana,Sam Alexis,Jaeden Mustaf,three,1.0
 Indiana,Samet Yigitoglu,Aiden Sherrell,three,1.0
+Indiana,Samet Yigitoglu,Bryce Lindsay,three,1.0
 Indiana,Samet Yigitoglu,Markus Burton,mid,1.0
 Indiana,Samet Yigitoglu,Markus Burton,three,1.0
 Indiana,Trent Sisley,Darren Harris,rim,1.0
 Indiana,Trent Sisley,Trevor Manhertz,rim,1.0
 Indiana,Trevor Manhertz,Bryce Lindsay,three,1.0
 Indiana,Trevor Manhertz,Markus Burton,mid,1.0
-Indiana,Markus Burton,Bryce Lindsay,three,0.95
+Indiana,Trevor Manhertz,Sam Alexis,rim,1.0
+Indiana,Markus Burton,Trevor Manhertz,mid,0.88
 Indiana,Samet Yigitoglu,Darren Harris,rim,0.76
 Indiana,Samet Yigitoglu,Darren Harris,three,0.6
 Indiana St.,Karmani Gregory,Jackson Cooper,rim,4.25
@@ -3082,22 +3184,27 @@ Kansas,Tyran Stokes,Dennis Parker Jr.,rim,1.0
 Kansas,Tyran Stokes,Trent Perry,rim,1.0
 Kansas,Keanu Dawes,Tre White,rim,0.93
 Kansas,Melvin Council Jr.,Tre White,three,0.69
-Kansas City,Jaylen Smith,Atuka Bakhtadze,rim,5.0
+Kansas City,Jaylen Smith,Atuka Bakhtadze,rim,6.0
 Kansas City,Assane Diop,Carl Daughtery Jr.,rim,3.0
+Kansas City,Lincoln Goodwin,Jibbe Sicking,rim,2.84
 Kansas City,Sebastian Hartmann,Jaylen Smith,three,2.76
 Kansas City,Assane Diop,Carl Daughtery Jr.,three,2.0
 Kansas City,Cameron Love,Lincoln Goodwin,three,2.0
 Kansas City,Jaylen Smith,Assane Diop,rim,2.0
 Kansas City,Jaylen Smith,Sebastian Hartmann,rim,2.0
 Kansas City,Jaylen Smith,Sebastian Hartmann,three,1.99
+Kansas City,Jaylen Smith,Matija Samar,three,1.62
 Kansas City,Lincoln Goodwin,Sebastian Hartmann,rim,1.54
+Kansas City,Assane Diop,Jaylen Smith,three,1.3
 Kansas City,Jaylen Smith,Jibbe Sicking,three,1.04
+Kansas City,Assane Diop,Lincoln Goodwin,three,1.0
 Kansas City,Assane Diop,Sebastian Hartmann,rim,1.0
 Kansas City,Atuka Bakhtadze,Carl Daughtery Jr.,three,1.0
 Kansas City,Atuka Bakhtadze,Jibbe Sicking,three,1.0
 Kansas City,Cameron Love,Assane Diop,rim,1.0
 Kansas City,Cameron Love,Matija Samar,three,1.0
 Kansas City,Carl Daughtery Jr.,Assane Diop,rim,1.0
+Kansas City,Carl Daughtery Jr.,Jaylen Smith,three,1.0
 Kansas City,Carl Daughtery Jr.,Sebastian Hartmann,three,1.0
 Kansas City,Dovydas Jencius,Jaylen Smith,three,1.0
 Kansas City,Jaylen Smith,Assane Diop,three,1.0
@@ -3105,12 +3212,13 @@ Kansas City,Jaylen Smith,Atuka Bakhtadze,mid,1.0
 Kansas City,Jaylen Smith,Carl Daughtery Jr.,three,1.0
 Kansas City,Jaylen Smith,Elliot Moskowitz,three,1.0
 Kansas City,Jaylen Smith,Matija Samar,mid,1.0
+Kansas City,Jibbe Sicking,Carl Daughtery Jr.,mid,1.0
 Kansas City,Jibbe Sicking,Lincoln Goodwin,three,1.0
 Kansas City,Josh Kori,Carl Daughtery Jr.,three,1.0
-Kansas City,Lincoln Goodwin,Jibbe Sicking,rim,1.0
 Kansas City,Lincoln Goodwin,Jibbe Sicking,three,1.0
 Kansas City,Lincoln Goodwin,Josh Kori,rim,1.0
 Kansas City,Matija Samar,Atuka Bakhtadze,rim,1.0
+Kansas City,Matija Samar,Jibbe Sicking,rim,1.0
 Kansas City,Matija Samar,Jibbe Sicking,three,1.0
 Kansas City,Raivo Butirins,Matija Samar,three,1.0
 Kansas City,Sebastian Hartmann,Assane Diop,three,1.0
@@ -3124,7 +3232,6 @@ Kansas City,Matija Samar,Assane Diop,rim,0.74
 Kansas City,Lincoln Goodwin,Matija Samar,three,0.61
 Kansas City,DJ Jackson Jr.,Assane Diop,rim,0.59
 Kansas City,Assane Diop,Lincoln Goodwin,rim,0.57
-Kansas City,Assane Diop,Jaylen Smith,three,0.55
 Kansas St.,Brock Vice,Jaden Schutt,three,4.0
 Kansas St.,Brandon Rechsteiner,Matt Gilhool,rim,2.0
 Kansas St.,Brock Vice,Brandon Rechsteiner,three,2.0
@@ -3620,45 +3727,64 @@ Loyola Chicago,Dayan Nessah,Malick Diallo,rim,0.7
 Loyola Chicago,Chris Jeffrey,Donald Hand Jr.,three,0.68
 Loyola Chicago,Guillaume Grotzinger,Dayton Williams,three,0.57
 Loyola Chicago,Elias Rapieque,Donald Hand Jr.,three,0.55
-Loyola MD,Carter Berg-McLean,Leo Ricketts,three,2.18
+Loyola MD,Carter Berg-McLean,Leo Ricketts,three,3.99
 Loyola MD,Abdullah Amzil,Sebastien Emenalo,three,1.0
 Loyola MD,Carter Berg-McLean,D'Andre Harrison,mid,1.0
 Loyola MD,Carter Berg-McLean,Gage Howard,rim,1.0
 Loyola MD,Carter Berg-McLean,Robbie Long III,three,1.0
 Loyola MD,Carter Berg-McLean,Sebastien Emenalo,rim,1.0
 Loyola MD,D'Andre Harrison,Gage Howard,mid,1.0
+Loyola MD,D'Andre Harrison,Troy Cicero Jr.,three,1.0
 Loyola MD,Gage Howard,Max Ortega,three,1.0
 Loyola MD,Gage Howard,Sebastien Emenalo,three,1.0
+Loyola MD,Gage Howard,Troy Cicero Jr.,three,1.0
+Loyola MD,Leo Ricketts,D'Andre Harrison,rim,1.0
 Loyola MD,Leo Ricketts,Robbie Long III,three,1.0
+Loyola MD,Max Ortega,Gage Howard,mid,1.0
 Loyola MD,Robbie Long III,D'Andre Harrison,mid,1.0
+Loyola MD,Robbie Long III,Gage Howard,rim,1.0
 Loyola MD,Sebastien Emenalo,Carter Berg-McLean,three,1.0
 Loyola MD,Sebastien Emenalo,Everett Barnes,rim,1.0
 Loyola MD,Troy Cicero Jr.,Gage Howard,rim,1.0
+Loyola MD,Max Ortega,Leo Ricketts,rim,0.98
 Loyola MD,Carter Berg-McLean,Everett Barnes,three,0.87
 Loyola MD,Carter Berg-McLean,D'Andre Harrison,three,0.86
 Loyola MD,Max Ortega,Troy Cicero Jr.,three,0.85
+Loyola MD,Leo Ricketts,Carter Berg-McLean,three,0.84
 Loyola MD,Robbie Long III,D'Andre Harrison,rim,0.76
+Loyola MD,Carter Berg-McLean,D'Andre Harrison,rim,0.59
 Loyola Marymount,All Wright,Jasai Miles,three,3.0
+Loyola Marymount,Jasai Miles,Aaron McBride,rim,3.0
 Loyola Marymount,Mazi Mosley,Jevon Porter,three,3.0
+Loyola Marymount,Zion Sensley,Jasai Miles,three,3.0
 Loyola Marymount,All Wright,Aaron McBride,rim,2.0
+Loyola Marymount,All Wright,Zion Sensley,three,2.0
+Loyola Marymount,Jasai Miles,Zion Sensley,mid,2.0
 Loyola Marymount,Mazi Mosley,Andy Sigiscar,rim,2.0
 Loyola Marymount,Mazi Mosley,Zion Sensley,rim,2.0
+Loyola Marymount,Mazi Mosley,Zion Sensley,three,2.0
 Loyola Marymount,Zamir Paschal,Zion Sensley,three,2.0
-Loyola Marymount,Zion Sensley,Jasai Miles,three,2.0
 Loyola Marymount,Aaron McBride,All Wright,mid,1.0
 Loyola Marymount,Aaron McBride,Andy Sigiscar,rim,1.0
+Loyola Marymount,All Wright,Andy Sigiscar,rim,1.0
 Loyola Marymount,All Wright,Jevon Porter,three,1.0
 Loyola Marymount,All Wright,Zion Sensley,mid,1.0
-Loyola Marymount,All Wright,Zion Sensley,three,1.0
 Loyola Marymount,Andy Sigiscar,Aaron McBride,rim,1.0
 Loyola Marymount,Andy Sigiscar,All Wright,three,1.0
+Loyola Marymount,Andy Sigiscar,Mazi Mosley,three,1.0
+Loyola Marymount,Jasai Miles,Andy Sigiscar,rim,1.0
+Loyola Marymount,Jasai Miles,Jevon Porter,mid,1.0
 Loyola Marymount,Jevon Porter,Christian Humphrey-Rembert,three,1.0
 Loyola Marymount,Jevon Porter,Jasai Miles,rim,1.0
+Loyola Marymount,Jevon Porter,Jasai Miles,three,1.0
 Loyola Marymount,Jevon Porter,Mazi Mosley,three,1.0
+Loyola Marymount,Jevon Porter,Zion Sensley,mid,1.0
 Loyola Marymount,Jevon Porter,Zion Sensley,rim,1.0
 Loyola Marymount,Jevon Porter,Zion Sensley,three,1.0
 Loyola Marymount,Mazi Mosley,Aaron McBride,rim,1.0
 Loyola Marymount,Mazi Mosley,All Wright,three,1.0
+Loyola Marymount,Mazi Mosley,Jasai Miles,three,1.0
+Loyola Marymount,Mazi Mosley,Jevon Porter,rim,1.0
 Loyola Marymount,Zion Sensley,All Wright,three,1.0
 Loyola Marymount,Zion Sensley,Jevon Porter,rim,1.0
 Maine,DeAndre Williams,Ace Flagg,rim,2.0
@@ -3828,14 +3954,20 @@ Maryland Eastern Shore,Saadiq Moore,Isaiah Griffin,three,2.86
 Maryland Eastern Shore,Isaiah Griffin,Lucius Gibson-Savadel,rim,2.66
 Maryland Eastern Shore,Bobby Gardner,Lucius Gibson-Savadel,rim,2.0
 Maryland Eastern Shore,Bobby Gardner,Saadiq Moore,three,2.0
+Maryland Eastern Shore,Bobby Gardner,Alvin Cole,rim,1.97
 Maryland Eastern Shore,Alvin Cole,Bobby Gardner,three,1.0
 Maryland Eastern Shore,Bobby Gardner,Alvin Cole,three,1.0
+Maryland Eastern Shore,Bobby Gardner,Victor Ezeh,rim,1.0
 Maryland Eastern Shore,Bobby Gardner,Victor Ezeh,three,1.0
 Maryland Eastern Shore,Gerlouis Tokody,Bobby Gardner,mid,1.0
+Maryland Eastern Shore,Isaiah Griffin,Bobby Gardner,mid,1.0
+Maryland Eastern Shore,Isaiah Griffin,Victor Ezeh,three,1.0
 Maryland Eastern Shore,Levi Beckwith,Isaiah Griffin,three,1.0
+Maryland Eastern Shore,Lucius Gibson-Savadel,Isaiah Griffin,three,1.0
 Maryland Eastern Shore,Lucius Gibson-Savadel,Levi Beckwith,three,1.0
 Maryland Eastern Shore,Saadiq Moore,Alvin Cole,three,1.0
 Maryland Eastern Shore,Saadiq Moore,Bobby Gardner,three,1.0
+Maryland Eastern Shore,Victor Ezeh,Isaiah Griffin,mid,1.0
 Massachusetts,Danny Carbuccia,Jordan Clayton,three,5.9
 Massachusetts,Dwayne Wimbley Jr.,Junjie Wang,rim,3.0
 Massachusetts,Jordan Clayton,Cheick Sylla,rim,3.0
@@ -3907,39 +4039,52 @@ Memphis,Tylik Weeks,Jerry Deng,rim,1.0
 Memphis,Tylik Weeks,Luke Almodovar,three,1.0
 Memphis,Tylik Weeks,Rihards Vavers,three,1.0
 Mercer,Quinton Perkins II,Derek Goodman,mid,4.0
+Mercer,Shane Cherry,Makoi Mabor Makoi,rim,3.0
+Mercer,Quinton Perkins II,Derek Goodman,three,2.16
 Mercer,Derek Goodman,Brady Shoulders,three,2.0
-Mercer,Quinton Perkins II,Derek Goodman,three,2.0
 Mercer,Quinton Perkins II,Makoi Mabor Makoi,rim,2.0
-Mercer,Shane Cherry,Makoi Mabor Makoi,rim,2.0
+Mercer,Quinton Perkins II,Shane Cherry,three,2.0
+Mercer,Shane Cherry,Brady Shoulders,three,2.0
 Mercer,Brady Shoulders,Quinton Perkins II,three,1.92
 Mercer,KJ Lamonte,Derek Goodman,rim,1.92
+Mercer,Karon Boyd,Quinton Perkins II,three,1.64
 Mercer,Derek Goodman,Brady Shoulders,rim,1.0
+Mercer,Derek Goodman,Karon Boyd,rim,1.0
 Mercer,Derek Goodman,Quinton Perkins II,three,1.0
 Mercer,Karon Boyd,KJ Lamonte,three,1.0
+Mercer,Quinton Perkins II,Brady Shoulders,rim,1.0
+Mercer,Quinton Perkins II,Brady Shoulders,three,1.0
 Mercer,Quinton Perkins II,Karon Boyd,mid,1.0
 Mercer,Quinton Perkins II,Makoi Mabor Makoi,mid,1.0
-Mercer,Quinton Perkins II,Shane Cherry,three,1.0
-Mercer,Shane Cherry,Brady Shoulders,three,1.0
 Mercer,Shane Cherry,Derek Goodman,three,1.0
 Mercer,Shane Cherry,Karon Boyd,rim,1.0
 Mercer,Shane Cherry,Karon Boyd,three,1.0
 Mercer,Shane Cherry,Petras Padegimas,rim,1.0
 Mercer,Shane Cherry,Quinton Perkins II,rim,1.0
-Mercer,Karon Boyd,Quinton Perkins II,three,0.96
 Mercer,Makoi Mabor Makoi,Karon Boyd,rim,0.86
 Mercer,Quinton Perkins II,Karon Boyd,three,0.82
 Mercer,Derek Goodman,Makoi Mabor Makoi,mid,0.75
 Mercer,KJ Lamonte,Karon Boyd,three,0.64
+Mercyhurst,Jake Lemelman,Cameron Johnson,three,2.0
+Mercyhurst,Jake Lemelman,Hunter Te Ratana,rim,2.0
+Mercyhurst,Jake Lemelman,Shane Kirker,rim,2.0
+Mercyhurst,Hunter Te Ratana,Jake Lemelman,three,1.15
 Mercyhurst,Deraje Agbaosi,Cameron Johnson,mid,1.0
 Mercyhurst,Deraje Agbaosi,Hunter Te Ratana,rim,1.0
-Mercyhurst,Jake Lemelman,Cameron Johnson,three,1.0
+Mercyhurst,Geoff Sprouse,Jake Lemelman,three,1.0
+Mercyhurst,Jake Lemelman,Cameron Johnson,mid,1.0
 Mercyhurst,Jake Lemelman,Deraje Agbaosi,rim,1.0
-Mercyhurst,Jake Lemelman,Hunter Te Ratana,rim,1.0
+Mercyhurst,Jake Lemelman,Geoff Sprouse,three,1.0
+Mercyhurst,Jake Lemelman,Marcus Jackson,rim,1.0
 Mercyhurst,Jake Lemelman,Markus Maxwell-Grimes,mid,1.0
 Mercyhurst,Jake Lemelman,Markus Maxwell-Grimes,three,1.0
-Mercyhurst,Jake Lemelman,Shane Kirker,rim,1.0
+Mercyhurst,Marcus Jackson,Jake Lemelman,rim,1.0
 Mercyhurst,Markus Maxwell-Grimes,Hunter Te Ratana,rim,1.0
 Mercyhurst,Or Faran,Geoff Sprouse,three,1.0
+Mercyhurst,Shane Kirker,Hunter Te Ratana,rim,1.0
+Mercyhurst,Cameron Johnson,Jake Lemelman,three,0.97
+Mercyhurst,Geoff Sprouse,Deraje Agbaosi,rim,0.92
+Mercyhurst,Marcus Jackson,Cameron Johnson,three,0.73
 Merrimack,Ayden Johnson,Denver Anglin,three,2.63
 Merrimack,Elijah Wilborn,AJ Lesburt Jr.,three,2.0
 Merrimack,Todd Brogna,AJ Lesburt Jr.,three,2.0
@@ -4098,23 +4243,28 @@ Milwaukee,Amare Hereford,Nate Malosa,three,0.92
 Milwaukee,Isaiah Dorceus,Simeon Murchison,rim,0.91
 Milwaukee,Danilo Jovanovich,Aaron Womack III,three,0.9
 Milwaukee,Tre Norman,Aaron Womack III,three,0.9
-Minnesota,Isaac Asuma,Bobby Durkin,three,3.0
+Minnesota,Isaac Asuma,Bobby Durkin,three,5.0
+Minnesota,Kyan Evans,Malick Kordel,rim,3.62
 Minnesota,Kyan Evans,Grayson Grove,rim,3.0
+Minnesota,Bobby Durkin,Isaac Asuma,three,2.0
+Minnesota,Bobby Durkin,Kyan Evans,rim,2.0
 Minnesota,Grayson Grove,Kyan Evans,three,2.0
+Minnesota,Isaac Asuma,Jaylen Crocker-Johnson,three,2.0
+Minnesota,Jaylen Crocker-Johnson,Nolan Groves,three,2.0
 Minnesota,Kyan Evans,Jaylen Crocker-Johnson,mid,2.0
 Minnesota,Kyan Evans,Jaylen Crocker-Johnson,rim,2.0
 Minnesota,Kyan Evans,Jaylen Crocker-Johnson,three,2.0
+Minnesota,Grayson Grove,Isaac Asuma,rim,1.8
 Minnesota,Kai Shinholster,Malick Kordel,rim,1.78
+Minnesota,Bobby Durkin,Isaac Asuma,rim,1.76
 Minnesota,Bobby Durkin,Malick Kordel,rim,1.12
 Minnesota,Bobby Durkin,Grayson Grove,rim,1.0
 Minnesota,Bobby Durkin,Grayson Grove,three,1.0
 Minnesota,Bobby Durkin,Isaac Asuma,mid,1.0
 Minnesota,Bobby Durkin,Jaylen Crocker-Johnson,rim,1.0
-Minnesota,Bobby Durkin,Kyan Evans,rim,1.0
 Minnesota,Bobby Durkin,Nolan Groves,three,1.0
 Minnesota,Grayson Grove,Bobby Durkin,three,1.0
 Minnesota,Grayson Grove,Cedric Tomes,rim,1.0
-Minnesota,Grayson Grove,Isaac Asuma,rim,1.0
 Minnesota,Grayson Grove,Isaac Asuma,three,1.0
 Minnesota,Grayson Grove,Jaylen Crocker-Johnson,rim,1.0
 Minnesota,Grayson Grove,Jaylen Crocker-Johnson,three,1.0
@@ -4122,12 +4272,12 @@ Minnesota,Grayson Grove,Nolan Groves,three,1.0
 Minnesota,Isaac Asuma,Bobby Durkin,rim,1.0
 Minnesota,Isaac Asuma,Grayson Grove,rim,1.0
 Minnesota,Isaac Asuma,Grayson Grove,three,1.0
-Minnesota,Isaac Asuma,Jaylen Crocker-Johnson,three,1.0
+Minnesota,Isaac Asuma,Kyan Evans,three,1.0
 Minnesota,Isaac Asuma,Nolan Groves,rim,1.0
+Minnesota,Isaac Asuma,Nolan Groves,three,1.0
 Minnesota,Jaylen Crocker-Johnson,Isaac Asuma,three,1.0
 Minnesota,Jaylen Crocker-Johnson,Kai Shinholster,rim,1.0
 Minnesota,Jaylen Crocker-Johnson,Kyan Evans,rim,1.0
-Minnesota,Jaylen Crocker-Johnson,Nolan Groves,three,1.0
 Minnesota,Kai Shinholster,Bobby Durkin,three,1.0
 Minnesota,Kyan Evans,Isaac Asuma,three,1.0
 Minnesota,Kyan Evans,Kai Shinholster,three,1.0
@@ -4136,7 +4286,10 @@ Minnesota,Malachi Palmer,Grayson Grove,rim,1.0
 Minnesota,Malachi Palmer,Jaylen Crocker-Johnson,three,1.0
 Minnesota,Malick Kordel,Isaac Asuma,three,1.0
 Minnesota,Nolan Groves,Bobby Durkin,three,1.0
+Minnesota,Nolan Groves,Isaac Asuma,three,1.0
 Minnesota,Jaylen Crocker-Johnson,Kyan Evans,three,0.93
+Minnesota,Kyan Evans,Bobby Durkin,rim,0.91
+Minnesota,Bobby Durkin,Jaylen Crocker-Johnson,three,0.61
 Mississippi,Ben Henshall,Christian Brown,rim,2.0
 Mississippi,Adam Clark,Patton Pinkins,three,1.98
 Mississippi,Santiago Trouet,Ilias Kamardine,three,1.77
@@ -4253,16 +4406,25 @@ Missouri,Jason Crowe Jr.,Kennard Davis Jr.,three,0.75
 Missouri,Trent Pierce,Jason Crowe Jr.,rim,0.75
 Missouri,Mark Mitchell Jr.,Jason Crowe Jr.,three,0.59
 Missouri,Bryson Tiller,Toni Bryant,rim,0.53
-Monmouth,Jakai Sanders,Stefanos Spartalis,mid,2.0
-Monmouth,Jakai Sanders,Stephen Osei,rim,1.0
+Monmouth,Jakai Sanders,Stefanos Spartalis,mid,4.0
+Monmouth,Ashton Walker,Stephen Osei,rim,2.0
+Monmouth,Jakai Sanders,Stephen Osei,rim,2.0
+Monmouth,Jakai Sanders,Madison Durr,three,1.0
+Monmouth,Jakai Sanders,Stefanos Spartalis,rim,1.0
+Monmouth,Jinup Dobuol,Jack Collins,three,1.0
 Monmouth,Lo Walker,Jakai Sanders,three,1.0
 Monmouth,Lo Walker,Stephen Osei,rim,1.0
 Monmouth,Madison Durr,Jack Collins,three,1.0
 Monmouth,Madison Durr,Jinup Dobuol,three,1.0
 Monmouth,O'Marion Harvey,Stephen Osei,rim,1.0
+Monmouth,Stefanos Spartalis,Ashton Walker,three,1.0
 Monmouth,Stefanos Spartalis,Jakai Sanders,three,1.0
 Monmouth,Stefanos Spartalis,Lo Walker,rim,1.0
 Monmouth,Stefanos Spartalis,Stephen Osei,rim,1.0
+Monmouth,Torrey Brooks Jr.,Ashton Walker,rim,1.0
+Monmouth,Torrey Brooks Jr.,Ashton Walker,three,1.0
+Monmouth,Torrey Brooks Jr.,Jack Collins,three,1.0
+Monmouth,Torrey Brooks Jr.,Stefanos Spartalis,rim,1.0
 Monmouth,Madison Durr,Ashton Walker,three,0.99
 Monmouth,Stefanos Spartalis,Madison Durr,rim,0.98
 Monmouth,Ashton Walker,Jakai Sanders,three,0.98
@@ -4320,12 +4482,17 @@ Morehead St.,Izaiah Day,Chase Dawson,three,1.0
 Morehead St.,Izaiah Day,Clayton Parker,three,1.0
 Morehead St.,Izaiah Day,Tayvion Tangiora,rim,1.0
 Morehead St.,Justin Payne,Clayton Parker,three,1.0
+Morgan St.,John Awoke,Keith Richard,three,1.9
+Morgan St.,Alfred Worrell Jr.,Ibrahima Traore,rim,1.0
+Morgan St.,Ibrahima Traore,Trent Edwards,rim,1.0
 Morgan St.,Jeremiah Kwarteng,Alfred Worrell Jr.,three,1.0
 Morgan St.,Jeremiah Kwarteng,Keith Richard,three,1.0
-Morgan St.,John Awoke,Keith Richard,three,1.0
+Morgan St.,Jeremiah Kwarteng,Khali Horton,three,1.0
 Morgan St.,Keith Richard,Trent Edwards,rim,1.0
 Morgan St.,Oliver Spence,Alfred Worrell Jr.,three,1.0
 Morgan St.,Oliver Spence,Keith Richard,three,1.0
+Morgan St.,Trent Edwards,Khali Horton,mid,1.0
+Morgan St.,John Awoke,Alfred Worrell Jr.,three,0.73
 Mount St. Mary's,Redd Thompson Jr.,Abdou Khadre Kebe,rim,2.12
 Mount St. Mary's,Abdou Khadre Kebe,Wilguens Jr. Exacte,rim,2.0
 Mount St. Mary's,Redd Thompson Jr.,Anthony Arrington Jr.,three,1.92
@@ -4607,22 +4774,33 @@ New Mexico St.,Gabe Pickens,Jae'Coby Osborne,rim,1.0
 New Mexico St.,Gabe Pickens,Jermaine Washington,three,1.0
 New Mexico St.,Gabe Pickens,Leopold Levillain,rim,1.0
 New Mexico St.,Jermaine Washington,Caden Deffebaugh,rim,1.0
-Niagara,Bastien Rieber,Logan Woods,three,2.0
+Niagara,Bastien Rieber,Logan Woods,three,4.0
+Niagara,Ruey Ruey,Logan Woods,three,2.98
 Niagara,Ruey Ruey,Bastien Rieber,three,2.0
+Niagara,Tae Blackshear,Logan Woods,three,2.0
 Niagara,Trenton Walters,Bastien Rieber,three,2.0
-Niagara,Ruey Ruey,Logan Woods,three,1.98
 Niagara,Bastien Rieber,Brian Angeletti,three,1.0
+Niagara,Bastien Rieber,Cole Farrell,rim,1.0
+Niagara,Bastien Rieber,Daniel Emokhare,rim,1.0
 Niagara,Bastien Rieber,Ruey Ruey,three,1.0
 Niagara,Brian Angeletti,Logan Woods,rim,1.0
 Niagara,Daniel Emokhare,Tae Blackshear,three,1.0
+Niagara,Fidel Rotta,Bastien Rieber,three,1.0
+Niagara,Fidel Rotta,Cole Farrell,three,1.0
 Niagara,Fidel Rotta,Logan Woods,rim,1.0
+Niagara,Fidel Rotta,Samuele Miccoli,rim,1.0
+Niagara,Fidel Rotta,Samuele Miccoli,three,1.0
 Niagara,Logan Woods,Bastien Rieber,three,1.0
 Niagara,Logan Woods,Fidel Rotta,rim,1.0
 Niagara,Logan Woods,Ruey Ruey,rim,1.0
+Niagara,Logan Woods,Tae Blackshear,three,1.0
 Niagara,Ruey Ruey,Samuele Miccoli,three,1.0
+Niagara,Samuele Miccoli,Cole Farrell,three,1.0
 Niagara,Samuele Miccoli,Fidel Rotta,rim,1.0
+Niagara,Samuele Miccoli,Logan Woods,three,1.0
 Niagara,Trenton Walters,Fidel Rotta,rim,1.0
 Niagara,Trenton Walters,Tae Blackshear,three,1.0
+Niagara,Samuele Miccoli,Tae Blackshear,rim,0.7
 Nicholls,Doyel Cockrill III,Christian Winborne,three,2.0
 Nicholls,Sheridan Sharp,AJ Dent,rim,2.0
 Nicholls,AJ McPeters,Sheridan Sharp,rim,1.0
@@ -5150,23 +5328,31 @@ Oklahoma,Khani Rooths,Pop Isaacs,three,0.72
 Oklahoma,Quincy Wadley,Kai Rogers,rim,0.62
 Oklahoma,Pop Isaacs,Xzayvier Brown,three,0.54
 Oklahoma St.,Jacob Walker,Ryan Crotty,three,2.99
+Oklahoma St.,Jacob Walker,Julius Halaifonua,mid,2.0
+Oklahoma St.,Jacob Walker,Kanye Clary,three,2.0
 Oklahoma St.,Kashie Natt,Andrija Grbovic,three,2.0
 Oklahoma St.,Kashie Natt,Jordan Burks,rim,2.0
+Oklahoma St.,Jacob Walker,Kashie Natt,rim,1.91
 Oklahoma St.,Andrija Grbovic,Luka Bogavac,three,1.0
 Oklahoma St.,Anthony Felesi,Jacob Walker,three,1.0
+Oklahoma St.,Anthony Felesi,Jordan Burks,three,1.0
+Oklahoma St.,Anthony Felesi,Julius Halaifonua,mid,1.0
 Oklahoma St.,Anthony Felesi,Julius Halaifonua,rim,1.0
+Oklahoma St.,Anthony Felesi,Kanye Clary,three,1.0
 Oklahoma St.,Anthony Felesi,Parker Robinson,three,1.0
 Oklahoma St.,Jacob Walker,Andrija Grbovic,three,1.0
 Oklahoma St.,Jacob Walker,Jordan Burks,rim,1.0
-Oklahoma St.,Jacob Walker,Julius Halaifonua,mid,1.0
 Oklahoma St.,Jacob Walker,Julius Halaifonua,rim,1.0
+Oklahoma St.,Jacob Walker,Kashie Natt,mid,1.0
 Oklahoma St.,Jordan Burks,Julius Halaifonua,three,1.0
+Oklahoma St.,Julius Halaifonua,Luka Bogavac,three,1.0
 Oklahoma St.,Kanye Clary,Anthony Felesi,rim,1.0
+Oklahoma St.,Kashie Natt,Anthony Felesi,rim,1.0
 Oklahoma St.,Kashie Natt,Latrell Allmond,rim,1.0
 Oklahoma St.,Luka Bogavac,Andrija Grbovic,three,1.0
 Oklahoma St.,Luka Bogavac,Jordan Burks,rim,1.0
+Oklahoma St.,Luka Bogavac,Julius Halaifonua,rim,1.0
 Oklahoma St.,Parker Robinson,Anthony Felesi,rim,1.0
-Oklahoma St.,Jacob Walker,Kashie Natt,rim,0.91
 Oklahoma St.,Jacob Walker,Latrell Allmond,three,0.81
 Oklahoma St.,Jacob Walker,Anthony Felesi,rim,0.67
 Oklahoma St.,Jacob Walker,Luka Bogavac,rim,0.5
@@ -5336,29 +5522,39 @@ Penn,TJ Power,Sir Mohammed,rim,1.0
 Penn,Sir Mohammed,Lucas Lueth,three,0.98
 Penn,TJ Power,Michael Zanoni,three,0.69
 Penn,TJ Power,Lucas Lueth,rim,0.66
+Penn St.,Dasonte Bowen,Francois Wibaut,rim,3.0
 Penn St.,Roko Prkacin,Josh Reed,rim,3.0
 Penn St.,Brant Byers,Roko Prkacin,rim,2.0
 Penn St.,Brant Byers,Thomas Allard,three,2.0
-Penn St.,Dasonte Bowen,Francois Wibaut,rim,2.0
+Penn St.,Dasonte Bowen,Brant Byers,three,2.0
+Penn St.,Dasonte Bowen,Roko Prkacin,rim,2.0
+Penn St.,Dasonte Bowen,Thomas Allard,three,2.0
 Penn St.,Jay Rodgers,Brant Byers,three,2.0
+Penn St.,Thomas Allard,Brant Byers,rim,2.0
+Penn St.,Thomas Allard,Ivan Juric,rim,2.0
+Penn St.,Dasonte Bowen,Ivan Juric,rim,1.34
 Penn St.,Roberts Blums,Roko Prkacin,rim,1.24
+Penn St.,Andy Gemao,Brant Byers,three,1.0
+Penn St.,Brant Byers,Francois Wibaut,rim,1.0
 Penn St.,Brant Byers,Ivan Juric,rim,1.0
-Penn St.,Dasonte Bowen,Brant Byers,three,1.0
 Penn St.,Dasonte Bowen,Francois Wibaut,three,1.0
-Penn St.,Dasonte Bowen,Roko Prkacin,rim,1.0
+Penn St.,Dasonte Bowen,Josh Reed,rim,1.0
 Penn St.,Dasonte Bowen,Thomas Allard,mid,1.0
-Penn St.,Dasonte Bowen,Thomas Allard,three,1.0
 Penn St.,Francois Wibaut,Ivan Juric,three,1.0
 Penn St.,Ivan Juric,Dasonte Bowen,three,1.0
 Penn St.,Ivan Juric,Josh Reed,mid,1.0
+Penn St.,Ivan Juric,Thomas Allard,three,1.0
 Penn St.,Jay Rodgers,Francois Wibaut,rim,1.0
+Penn St.,Jay Rodgers,Ivan Juric,rim,1.0
 Penn St.,Jay Rodgers,Thomas Allard,three,1.0
+Penn St.,Josh Reed,Roko Prkacin,rim,1.0
 Penn St.,Roko Prkacin,Brant Byers,rim,1.0
 Penn St.,Roko Prkacin,Dasonte Bowen,rim,1.0
 Penn St.,Roko Prkacin,Francois Wibaut,rim,1.0
 Penn St.,Roko Prkacin,Jay Rodgers,three,1.0
-Penn St.,Thomas Allard,Brant Byers,rim,1.0
+Penn St.,Thomas Allard,Brant Byers,three,1.0
 Penn St.,Thomas Allard,Francois Wibaut,three,1.0
+Penn St.,Thomas Allard,Josh Reed,three,1.0
 Penn St.,Francois Wibaut,Ivan Juric,rim,0.98
 Penn St.,Josh Reed,Brant Byers,three,0.96
 Penn St.,Brant Byers,Roko Prkacin,mid,0.81
@@ -5563,12 +5759,13 @@ Purdue,Luke Ertel,Jack Benter,three,1.0
 Purdue,Omer Mayer,Caden Pierce,three,1.0
 Purdue,Omer Mayer,Gicarri Harris,rim,1.0
 Purdue,Omer Mayer,Gicarri Harris,three,1.0
-Purdue Fort Wayne,DeAndre Craig Jr.,Tamaje Izuagbe,three,2.0
+Purdue Fort Wayne,DeAndre Craig Jr.,Tamaje Izuagbe,three,3.0
+Purdue Fort Wayne,Ashton Williamson,Anthony Isaac Jr.,rim,2.0
 Purdue Fort Wayne,DeAndre Craig Jr.,Anthony Isaac Jr.,rim,1.84
 Purdue Fort Wayne,Anthony Isaac Jr.,Chris Morgan,three,1.0
 Purdue Fort Wayne,Anthony Isaac Jr.,Tamaje Izuagbe,three,1.0
-Purdue Fort Wayne,Ashton Williamson,Anthony Isaac Jr.,rim,1.0
 Purdue Fort Wayne,Ashton Williamson,DeAndre Craig Jr.,three,1.0
+Purdue Fort Wayne,Ashton Williamson,Tamaje Izuagbe,rim,1.0
 Purdue Fort Wayne,Carl Thompson III,Chris Morgan,three,1.0
 Purdue Fort Wayne,Chris Morgan,Ashton Williamson,three,1.0
 Purdue Fort Wayne,Chris Morgan,Carl Thompson III,three,1.0
@@ -5577,6 +5774,9 @@ Purdue Fort Wayne,Chris Morgan,Mason Shrout,three,1.0
 Purdue Fort Wayne,Chris Morgan,Tamaje Izuagbe,three,1.0
 Purdue Fort Wayne,DeAndre Craig Jr.,Edir Ortiz,three,1.0
 Purdue Fort Wayne,EJ Mosley,DeAndre Lewis,three,1.0
+Purdue Fort Wayne,Edir Ortiz,Anthony Isaac Jr.,rim,1.0
+Purdue Fort Wayne,EJ Mosley,Edir Ortiz,three,0.88
+Purdue Fort Wayne,EJ Mosley,Carl Thompson III,three,0.78
 Queens,Jordan Watford,Caleb Jones,three,2.94
 Queens,Jordan Watford,Rickey Ballard,three,2.92
 Queens,Jordan Watford,Isaiah Henry,three,2.14
@@ -5616,28 +5816,32 @@ Queens,Rickey Ballard,Jordan Watford,rim,1.0
 Queens,Rickey Ballard,Nasir Mann,mid,1.0
 Queens,Rickey Ballard,Nasir Mann,three,1.0
 Queens,Nasir Mann,Caleb Jones,three,0.98
+Quinnipiac,Tai Turnage,Keith McKnight,rim,3.0
 Quinnipiac,Tai Turnage,Nedas Cholevinskas,three,3.0
+Quinnipiac,Lucas Sekasi,Ali Diouf,rim,2.0
+Quinnipiac,Lucas Sekasi,Nas Hart,rim,2.0
 Quinnipiac,Lucas Sekasi,Nate Guerengomba,three,2.0
 Quinnipiac,Lucas Sekasi,Tai Turnage,three,2.0
-Quinnipiac,Tai Turnage,Keith McKnight,rim,2.0
+Quinnipiac,Lucas Sekasi,Tayeshawn Cunningham-Pemberton,three,2.0
+Quinnipiac,Tai Turnage,Nas Hart,rim,2.0
 Quinnipiac,Ali Diouf,Tayeshawn Cunningham-Pemberton,three,1.0
 Quinnipiac,Keith McKnight,Nas Hart,three,1.0
 Quinnipiac,Keith McKnight,Tai Turnage,three,1.0
 Quinnipiac,Keith McKnight,Tayeshawn Cunningham-Pemberton,rim,1.0
-Quinnipiac,Lucas Sekasi,Ali Diouf,rim,1.0
 Quinnipiac,Lucas Sekasi,Ali Diouf,three,1.0
 Quinnipiac,Lucas Sekasi,Nas Hart,mid,1.0
-Quinnipiac,Lucas Sekasi,Tayeshawn Cunningham-Pemberton,three,1.0
 Quinnipiac,Mike Parrotta,Lucas Sekasi,rim,1.0
 Quinnipiac,Mike Parrotta,Nedas Cholevinskas,three,1.0
 Quinnipiac,Mike Parrotta,Tai Turnage,three,1.0
 Quinnipiac,Nas Hart,Keith McKnight,rim,1.0
 Quinnipiac,Nas Hart,Keith McKnight,three,1.0
 Quinnipiac,Nas Hart,Tayeshawn Cunningham-Pemberton,three,1.0
+Quinnipiac,Tai Turnage,Ali Diouf,mid,1.0
+Quinnipiac,Tai Turnage,Lucas Sekasi,rim,1.0
 Quinnipiac,Tai Turnage,Lucas Sekasi,three,1.0
-Quinnipiac,Tai Turnage,Nas Hart,rim,1.0
 Quinnipiac,Tai Turnage,Nas Hart,three,1.0
 Quinnipiac,Tai Turnage,Tayeshawn Cunningham-Pemberton,three,1.0
+Quinnipiac,Tayeshawn Cunningham-Pemberton,Ali Diouf,three,1.0
 Quinnipiac,Tayeshawn Cunningham-Pemberton,Holden Pierre-Louis,rim,1.0
 Quinnipiac,Tayeshawn Cunningham-Pemberton,Keith McKnight,rim,1.0
 Quinnipiac,Ali Diouf,Keith McKnight,rim,0.8
@@ -5675,26 +5879,31 @@ Radford,Zion Walker,Mathieu Grujicic,three,1.0
 Radford,Zion Walker,Tristan Gross,rim,1.0
 Radford,Warren Keel Jr.,Zion Walker,mid,0.84
 Rhode Island,Dylan Williamson,Jonah Hinton,three,3.0
+Rhode Island,Dylan Williamson,Matas Deniusas,rim,3.0
+Rhode Island,Jahmere Tripp,Dylan Williamson,three,3.0
+Rhode Island,Jaen Chatman,Jonah Hinton,three,2.43
+Rhode Island,Barrett Loer,Javon Perry,rim,2.0
 Rhode Island,Jaen Chatman,Nedas Raupelis,rim,2.0
+Rhode Island,Jason Fontenet II,Matas Deniusas,three,2.0
 Rhode Island,Dylan Williamson,Jahmere Tripp,three,1.99
 Rhode Island,Jason Fontenet II,Nedas Raupelis,rim,1.71
-Rhode Island,Jaen Chatman,Jonah Hinton,three,1.63
-Rhode Island,Barrett Loer,Javon Perry,rim,1.0
 Rhode Island,Dylan Williamson,Jason Fontenet II,three,1.0
 Rhode Island,Dylan Williamson,Javon Perry,rim,1.0
 Rhode Island,Dylan Williamson,Jonah Hinton,rim,1.0
-Rhode Island,Dylan Williamson,Matas Deniusas,rim,1.0
 Rhode Island,Dylan Williamson,Matas Deniusas,three,1.0
+Rhode Island,Jaen Chatman,Barrett Loer,three,1.0
+Rhode Island,Jaen Chatman,Jalen Harper,three,1.0
 Rhode Island,Jaen Chatman,Matas Deniusas,rim,1.0
 Rhode Island,Jahmere Tripp,Barrett Loer,three,1.0
-Rhode Island,Jahmere Tripp,Dylan Williamson,three,1.0
 Rhode Island,Jahmere Tripp,Jonah Hinton,three,1.0
 Rhode Island,Jahmere Tripp,Nedas Raupelis,rim,1.0
+Rhode Island,Jalen Harper,Dylan Williamson,three,1.0
 Rhode Island,Jalen Harper,Matas Deniusas,rim,1.0
+Rhode Island,Jason Fontenet II,Dylan Williamson,rim,1.0
 Rhode Island,Jason Fontenet II,Dylan Williamson,three,1.0
 Rhode Island,Jason Fontenet II,Jonah Hinton,three,1.0
-Rhode Island,Jason Fontenet II,Matas Deniusas,three,1.0
 Rhode Island,Javon Perry,Dylan Williamson,three,1.0
+Rhode Island,Jonah Hinton,Dylan Williamson,mid,1.0
 Rhode Island,Jonah Hinton,Matas Deniusas,rim,1.0
 Rhode Island,Nedas Raupelis,Barrett Loer,three,1.0
 Rhode Island,Nedas Raupelis,Jonah Hinton,three,1.0
@@ -5714,29 +5923,37 @@ Rice,Jaxson Thompson,Carmelo Adkins,mid,1.0
 Rice,Kaiden Myers,Tristan Vukotic,three,1.0
 Rice,Tristan Vukotic,Carmelo Adkins,three,1.0
 Rice,Dallas Hobbs,Bodey Howell,three,0.8
+Richmond,Aiden Argabright,Jamie Kaiser Jr.,three,4.0
 Richmond,Derin Saran,Dominick Stewart,rim,2.61
-Richmond,Aiden Argabright,Jamie Kaiser Jr.,three,2.0
+Richmond,Amon Dorries,Dominick Stewart,three,2.51
+Richmond,Aiden Argabright,Jamie Kaiser Jr.,rim,2.0
 Richmond,Amon Dorries,Jamie Kaiser Jr.,rim,2.0
+Richmond,Chad Cook,Andrew Ball,rim,2.0
+Richmond,Derin Saran,Amon Dorries,rim,2.0
 Richmond,Derin Saran,Andrew Ball,rim,2.0
+Richmond,Derin Saran,Dominick Stewart,three,2.0
+Richmond,Derin Saran,Jamie Kaiser Jr.,three,2.0
 Richmond,Dominick Stewart,Jamie Kaiser Jr.,three,2.0
+Richmond,Aiden Argabright,Andrew Ball,three,1.97
 Richmond,Amon Dorries,Aiden Argabright,three,1.97
-Richmond,Amon Dorries,Dominick Stewart,three,1.51
+Richmond,Derin Saran,Jamie Kaiser Jr.,rim,1.96
 Richmond,Aiden Argabright,Amon Dorries,three,1.0
 Richmond,Aiden Argabright,Chad Cook,rim,1.0
 Richmond,Aiden Argabright,Derin Saran,three,1.0
-Richmond,Aiden Argabright,Jamie Kaiser Jr.,rim,1.0
+Richmond,Amon Dorries,Dominick Stewart,mid,1.0
+Richmond,Amon Dorries,Dominick Stewart,rim,1.0
+Richmond,Andrew Ball,Jamie Kaiser Jr.,rim,1.0
+Richmond,Andrew Ball,Will Harper III,three,1.0
 Richmond,Chad Cook,Aiden Argabright,mid,1.0
-Richmond,Chad Cook,Andrew Ball,rim,1.0
 Richmond,Chad Cook,Derin Saran,rim,1.0
 Richmond,Collin Tanner,Amon Dorries,rim,1.0
 Richmond,Derin Saran,Aiden Argabright,three,1.0
-Richmond,Derin Saran,Amon Dorries,rim,1.0
-Richmond,Derin Saran,Dominick Stewart,three,1.0
-Richmond,Derin Saran,Jamie Kaiser Jr.,three,1.0
+Richmond,Dominick Stewart,Amon Dorries,rim,1.0
+Richmond,Dominick Stewart,Andrew Ball,rim,1.0
 Richmond,Jamie Kaiser Jr.,Aiden Argabright,mid,1.0
 Richmond,Jamie Kaiser Jr.,Andrew Ball,rim,1.0
-Richmond,Aiden Argabright,Andrew Ball,three,0.97
-Richmond,Derin Saran,Jamie Kaiser Jr.,rim,0.96
+Richmond,Amon Dorries,Sam Simmons Jr.,mid,0.97
+Richmond,Amon Dorries,Derin Saran,three,0.92
 Richmond,Amon Dorries,Andrew Ball,rim,0.78
 Richmond,Aiden Argabright,Dominick Stewart,three,0.76
 Richmond,Sam Simmons Jr.,Jamie Kaiser Jr.,rim,0.76
@@ -5877,19 +6094,25 @@ Sacramento St.,Taj Glover,Chidi Nwigwe,mid,1.0
 Sacramento St.,Taj Glover,Larry Hughes II,three,1.0
 Sacramento St.,Taj Glover,Osiris Grady,three,1.0
 Sacred Heart,Jo Van Buggenhout,Jaylen Robinson,rim,6.0
-Sacred Heart,Jaden Slaughter,Jaylen Robinson,rim,2.0
+Sacred Heart,Jaden Slaughter,Jaylen Robinson,rim,4.0
+Sacred Heart,Jaden Slaughter,Griffin Barrouk,three,3.0
+Sacred Heart,Jaylen Robinson,Griffin Barrouk,three,3.0
 Sacred Heart,Jaden Slaughter,Samson Reilly,three,2.0
-Sacred Heart,Jaylen Robinson,Griffin Barrouk,three,2.0
+Sacred Heart,Kedrick Curtis,Griffin Barrouk,three,2.0
+Sacred Heart,Kedrick Curtis,Jaden Slaughter,rim,2.0
+Sacred Heart,DJ Brown,Jojo Wallace,rim,1.0
 Sacred Heart,DJ Brown,Jojo Wallace,three,1.0
-Sacred Heart,Jaden Slaughter,Griffin Barrouk,three,1.0
+Sacred Heart,Griffin Barrouk,Jaden Slaughter,three,1.0
+Sacred Heart,Jaden Slaughter,Jojo Wallace,three,1.0
+Sacred Heart,Jaden Slaughter,Kedrick Curtis,three,1.0
 Sacred Heart,Jaylen Robinson,Kedrick Curtis,three,1.0
 Sacred Heart,Jaylen Robinson,Samson Reilly,three,1.0
 Sacred Heart,Jo Van Buggenhout,Jaden Slaughter,rim,1.0
 Sacred Heart,Jo Van Buggenhout,Samson Reilly,three,1.0
 Sacred Heart,Jojo Wallace,Jaden Slaughter,rim,1.0
+Sacred Heart,Jojo Wallace,Jaden Slaughter,three,1.0
 Sacred Heart,Jojo Wallace,Jaylen Robinson,rim,1.0
-Sacred Heart,Kedrick Curtis,Griffin Barrouk,three,1.0
-Sacred Heart,Kedrick Curtis,Jaden Slaughter,rim,1.0
+Sacred Heart,Kedrick Curtis,Jaylen Robinson,rim,1.0
 Sacred Heart,Kedrick Curtis,Jojo Wallace,three,1.0
 Sacred Heart,Samson Reilly,Abdou Yadd,rim,1.0
 Sacred Heart,Samson Reilly,Abdou Yadd,three,1.0
@@ -6117,27 +6340,35 @@ San Francisco,Ndewedo Newbury,Ben Oosterbaan,rim,1.0
 San Francisco,Ndewedo Newbury,Ismaila Diagne,rim,1.0
 San Francisco,Yoav Vitlem,Gustav Knudsen,mid,1.0
 San Francisco,Yoav Vitlem,Gustav Knudsen,rim,1.0
+San Jose St.,Joey Chammaa,Robert Vaihola,rim,3.0
+San Jose St.,KJ Martin Jr.,Mekhi Mason,three,3.0
 San Jose St.,JaVaughn Hannah,Mookie Cook,rim,2.48
+San Jose St.,Joey Chammaa,Mekhi Mason,three,2.16
+San Jose St.,JaVaughn Hannah,Mekhi Mason,three,2.0
+San Jose St.,Joey Chammaa,KJ Martin Jr.,three,2.0
 San Jose St.,Joey Chammaa,Zine Eddine Bedri,rim,2.0
-San Jose St.,KJ Martin Jr.,Mekhi Mason,three,2.0
+San Jose St.,Mekhi Mason,Robert Vaihola,rim,2.0
+San Jose St.,KJ Martin Jr.,Joey Chammaa,three,1.66
 San Jose St.,JaVaughn Hannah,Joey Chammaa,three,1.55
 San Jose St.,Oliver Kullamae,Mookie Cook,three,1.29
-San Jose St.,Joey Chammaa,Mekhi Mason,three,1.16
+San Jose St.,JaVaughn Hannah,Robert Vaihola,rim,1.25
 San Jose St.,JaVaughn Hannah,KJ Martin Jr.,rim,1.14
 San Jose St.,JaVaughn Hannah,Mekhi Mason,rim,1.0
-San Jose St.,JaVaughn Hannah,Mekhi Mason,three,1.0
-San Jose St.,Joey Chammaa,KJ Martin Jr.,three,1.0
 San Jose St.,Joey Chammaa,Mekhi Mason,rim,1.0
 San Jose St.,Joey Chammaa,Mookie Cook,rim,1.0
-San Jose St.,Joey Chammaa,Robert Vaihola,rim,1.0
+San Jose St.,Joey Chammaa,Zine Eddine Bedri,mid,1.0
+San Jose St.,KJ Martin Jr.,JaVaughn Hannah,mid,1.0
 San Jose St.,KJ Martin Jr.,JaVaughn Hannah,three,1.0
-San Jose St.,Mekhi Mason,Robert Vaihola,rim,1.0
+San Jose St.,Mekhi Mason,Joey Chammaa,three,1.0
 San Jose St.,Mekhi Mason,Zine Eddine Bedri,rim,1.0
+San Jose St.,Mookie Cook,Joey Chammaa,rim,1.0
 San Jose St.,Mookie Cook,Joey Chammaa,three,1.0
 San Jose St.,Mookie Cook,KJ Martin Jr.,three,1.0
 San Jose St.,Oliver Kullamae,Joey Chammaa,rim,1.0
+San Jose St.,Oliver Kullamae,Robert Vaihola,rim,1.0
+San Jose St.,Oliver Kullamae,Zine Eddine Bedri,mid,1.0
 San Jose St.,Robert Vaihola,KJ Martin Jr.,rim,1.0
-San Jose St.,KJ Martin Jr.,Joey Chammaa,three,0.66
+San Jose St.,Zine Eddine Bedri,Mekhi Mason,rim,1.0
 San Jose St.,Oliver Kullamae,KJ Martin Jr.,three,0.64
 San Jose St.,Robert Vaihola,Mekhi Mason,rim,0.6
 San Jose St.,KJ Martin Jr.,Joey Chammaa,rim,0.59
@@ -6263,27 +6494,34 @@ Siena,Trent Egbiremolen,Brendan Coyle,three,1.0
 Siena,Trent Egbiremolen,Parrish Edmond Jr.,rim,1.0
 Siena,Tan Yildizoglu,Parrish Edmond Jr.,rim,0.96
 Siena,Reid Ducharme,Tim Ibukunoluwa,rim,0.84
+South Alabama,Jalen Langsy,Aaron Goldstein,three,5.47
 South Alabama,Diego Roman,Stephen Williams,mid,4.0
-South Alabama,Jalen Langsy,Aaron Goldstein,three,3.47
+South Alabama,Aaron Goldstein,Jalen Langsy,three,3.28
 South Alabama,Diego Roman,Aaron Goldstein,three,3.0
-South Alabama,Aaron Goldstein,Jalen Langsy,three,2.28
-South Alabama,Diego Roman,Stephen Williams,rim,2.0
+South Alabama,Diego Roman,Stephen Williams,rim,3.0
+South Alabama,Jalen Langsy,Stephen Williams,rim,2.21
+South Alabama,Peyton Law,Stephen Williams,rim,2.0
 South Alabama,Stephen Williams,Jalen Langsy,mid,2.0
 South Alabama,Aaron Goldstein,Stephen Williams,rim,1.57
-South Alabama,Jalen Langsy,Stephen Williams,rim,1.21
 South Alabama,Aaron Goldstein,Jalen Langsy,mid,1.0
 South Alabama,Davaughn Hueitt,Stephen Williams,rim,1.0
 South Alabama,Diego Roman,Davaughn Hueitt,mid,1.0
 South Alabama,Diego Roman,Peyton Law,rim,1.0
 South Alabama,Diego Roman,Roderick Williams Jr.,rim,1.0
 South Alabama,Diego Roman,Samuel Shoptaw,three,1.0
+South Alabama,Jalen Langsy,Aaron Goldstein,rim,1.0
+South Alabama,Jalen Langsy,Lenni Kunzewitsch,rim,1.0
+South Alabama,Jalen Langsy,Lenni Kunzewitsch,three,1.0
 South Alabama,Jalen Langsy,Roderick Williams Jr.,mid,1.0
+South Alabama,Lenni Kunzewitsch,Aaron Goldstein,rim,1.0
+South Alabama,Lenni Kunzewitsch,Aaron Goldstein,three,1.0
 South Alabama,Lenni Kunzewitsch,Stephen Williams,mid,1.0
 South Alabama,Peyton Law,Aaron Goldstein,three,1.0
 South Alabama,Peyton Law,Jalen Langsy,rim,1.0
+South Alabama,Peyton Law,Jalen Langsy,three,1.0
 South Alabama,Peyton Law,Roderick Williams Jr.,rim,1.0
 South Alabama,Peyton Law,Stephen Williams,mid,1.0
-South Alabama,Peyton Law,Stephen Williams,rim,1.0
+South Alabama,Roderick Williams Jr.,Aaron Goldstein,three,1.0
 South Alabama,Roderick Williams Jr.,Jalen Langsy,rim,1.0
 South Alabama,Roderick Williams Jr.,Lenni Kunzewitsch,three,1.0
 South Alabama,Stephen Williams,Aaron Goldstein,three,1.0
@@ -6461,6 +6699,8 @@ Southeastern Louisiana,Yanis Ndjonga,Quincy Allen,three,1.0
 Southeastern Louisiana,Tyler Rolison,Quincy Allen,rim,0.99
 Southern,Aaron Hall,Cam Amboree,three,2.0
 Southern,Daniel Dormu,R'Chaun King,rim,2.0
+Southern,R'Chaun King,Daniel Dormu,mid,1.85
+Southern,R'Chaun King,Lionel Larvadain,three,1.58
 Southern,Armonii Benjamin,Daniel Dormu,three,1.0
 Southern,Armonii Benjamin,Malik Ferguson,rim,1.0
 Southern,Armonii Benjamin,Malik Ferguson,three,1.0
@@ -6475,6 +6715,7 @@ Southern,Daniel Dormu,Julian Greer,three,1.0
 Southern,Daniel Dormu,Karez Demory,rim,1.0
 Southern,Daniel Dormu,Malik Ferguson,rim,1.0
 Southern,Daniel Dormu,Malik Ferguson,three,1.0
+Southern,Daniel Dormu,R'Chaun King,mid,1.0
 Southern,Duran Parish,Daniel Dormu,three,1.0
 Southern,Duran Parish,Justin Page,three,1.0
 Southern,Joseph Hunter,Lionel Bell,rim,1.0
@@ -6487,13 +6728,21 @@ Southern,Malik Ferguson,Cam Amboree,mid,1.0
 Southern,Malik Ferguson,Daniel Dormu,three,1.0
 Southern,R'Chaun King,Daniel Dormu,three,1.0
 Southern,Cam Amboree,Duran Parish,rim,0.65
-Southern Illinois,Damien Mayo Jr.,Jaheem Webber,rim,2.0
+Southern Illinois,Damien Mayo Jr.,Jaheem Webber,rim,3.0
+Southern Illinois,Caden Hawkins,Max Pikaar,three,2.0
+Southern Illinois,Damien Mayo Jr.,Jalen Haynes,three,2.0
+Southern Illinois,Damien Mayo Jr.,Max Pikaar,rim,2.0
+Southern Illinois,Jalen Haynes,Jeremiah Jackson,three,2.0
 Southern Illinois,Max Pikaar,Jeremiah Jackson,three,1.56
 Southern Illinois,Caden Hawkins,Jaheem Webber,rim,1.0
-Southern Illinois,Caden Hawkins,Max Pikaar,three,1.0
-Southern Illinois,Damien Mayo Jr.,Max Pikaar,rim,1.0
-Southern Illinois,Jalen Haynes,Jeremiah Jackson,three,1.0
+Southern Illinois,Damien Mayo Jr.,Jalen Haynes,rim,1.0
+Southern Illinois,Damien Mayo Jr.,Luke Walsh,three,1.0
+Southern Illinois,Jalen Haynes,Jaheem Webber,rim,1.0
+Southern Illinois,Jalen Haynes,Luke Susko,three,1.0
 Southern Illinois,Jeremiah Jackson,Damien Mayo Jr.,three,1.0
+Southern Illinois,Jeremiah Jackson,Jalen Haynes,mid,1.0
+Southern Illinois,Jeremiah Jackson,Luke Susko,three,1.0
+Southern Illinois,Luke Susko,Max Pikaar,rim,1.0
 Southern Illinois,Luke Walsh,Jeremiah Jackson,three,1.0
 Southern Illinois,Jeremiah Jackson,Max Pikaar,rim,0.86
 Southern Illinois,Max Pikaar,Damien Mayo Jr.,three,0.83
@@ -6547,6 +6796,15 @@ Southern Miss,Mike Montano,Isaac Taveras,three,1.0
 Southern Miss,Mike Montano,Jalyke Gaines-Wyatt,three,1.0
 Southern Miss,Isaac Taveras,Brandon Weston,mid,0.97
 Southern Miss,Cameron Wallace,Mike Montano,rim,0.71
+Southern Utah,Rashaad Davis,Cale Barclay,rim,2.0
+Southern Utah,Rashaad Davis,Jaiden Feroah,rim,2.0
+Southern Utah,Rashaad Davis,Mikhail Protsenko,rim,2.0
+Southern Utah,Cale Barclay,Anthony Breland,three,1.98
+Southern Utah,Anthony Breland,Chase Degraffenried,three,1.0
+Southern Utah,JaJuan Nicholls,Cale Barclay,mid,1.0
+Southern Utah,Jordan Brown,Jaiden Feroah,three,1.0
+Southern Utah,Juok Riak,Dylan Sanders,three,1.0
+Southern Utah,Juok Riak,Jordan Brown,mid,1.0
 St. Bonaventure,Zach Philipkoski,Benjamin Bill,rim,3.55
 St. Bonaventure,Taj Au-Duke,Benjamin Bill,rim,3.0
 St. Bonaventure,Ilia Ermakov,Benjamin Bill,rim,2.01
@@ -6659,23 +6917,30 @@ Stephen F. Austin,Erik Makke,Christian Green,rim,1.0
 Stephen F. Austin,Erik Makke,Narit Chotikavanic,three,1.0
 Stephen F. Austin,Gediminas Alisas,Courterius Scott,three,1.0
 Stephen F. Austin,Kobi Pearson,Gediminas Alisas,rim,1.0
-Stetson,Thiago Sucatzky,Alex Doyle,three,2.0
+Stetson,Thiago Sucatzky,Collin Kuhl,rim,4.43
+Stetson,Thiago Sucatzky,Alex Doyle,three,4.0
 Stetson,Collin Kuhl,Sean Morgan,three,1.79
-Stetson,Thiago Sucatzky,Collin Kuhl,rim,1.43
 Stetson,Thiago Sucatzky,Collin Kuhl,three,1.35
+Stetson,Alex Doyle,Magnus Entenmann,mid,1.0
 Stetson,Alex Doyle,Sean Morgan,three,1.0
 Stetson,Daniel Macgregor,Alex Doyle,three,1.0
+Stetson,Daniel Macgregor,Magnus Entenmann,mid,1.0
 Stetson,Daniel Macgregor,Magnus Entenmann,rim,1.0
 Stetson,Daniel Macgregor,Sean Morgan,three,1.0
 Stetson,Finley Sheridan,Makhi Myles,rim,1.0
 Stetson,Magnus Entenmann,Roman Miller,three,1.0
 Stetson,Makhi Myles,Collin Kuhl,rim,1.0
+Stetson,Makhi Myles,Thiago Sucatzky,three,1.0
+Stetson,Mason Fuentes,Alex Doyle,three,1.0
+Stetson,Mason Fuentes,Magnus Entenmann,mid,1.0
 Stetson,Roman Miller,Alex Doyle,three,1.0
 Stetson,Roman Miller,Magnus Entenmann,three,1.0
 Stetson,Thiago Sucatzky,Collin Kuhl,mid,1.0
 Stetson,Thiago Sucatzky,Magnus Entenmann,rim,1.0
 Stetson,Thiago Sucatzky,Magnus Entenmann,three,1.0
 Stetson,Thiago Sucatzky,Makhi Myles,rim,1.0
+Stetson,Thiago Sucatzky,Makhi Myles,three,1.0
+Stetson,Alex Doyle,Mason Fuentes,three,1.0
 Stetson,Collin Kuhl,Magnus Entenmann,rim,0.88
 Stetson,Collin Kuhl,Bankston Pourchier,rim,0.81
 Stetson,Alex Doyle,Collin Kuhl,three,0.73
@@ -6881,12 +7146,15 @@ Tennessee St.,Ty-Laur Johnson,Christian Alston,three,1.0
 Tennessee St.,Ty-Laur Johnson,Deondrea Lindsey,rim,1.0
 Tennessee St.,Ty-Laur Johnson,Jayden Jones,rim,1.0
 Tennessee St.,Arterio Morris,Deondrea Lindsey,rim,0.84
-Tennessee Tech,Ty Owens,Caleb Hollenbeck,three,4.0
+Tennessee Tech,Ty Owens,Caleb Hollenbeck,three,5.0
+Tennessee Tech,Cbo Newton,Caleb Sanders,three,2.14
+Tennessee Tech,Caleb Sanders,Caleb Hollenbeck,three,2.0
 Tennessee Tech,Kamai Samuels,Cbo Newton,three,2.0
+Tennessee Tech,Ty Owens,Mekhi Turner,rim,2.0
 Tennessee Tech,Ty Owens,Trent Mosquera,three,1.88
 Tennessee Tech,Ty Owens,Caleb Sanders,rim,1.83
 Tennessee Tech,Ty Owens,Cbo Newton,three,1.24
-Tennessee Tech,Caleb Sanders,Caleb Hollenbeck,three,1.0
+Tennessee Tech,Caleb Hollenbeck,Caleb Sanders,rim,1.0
 Tennessee Tech,Caleb Sanders,Cbo Newton,three,1.0
 Tennessee Tech,Caleb Sanders,Kamai Samuels,three,1.0
 Tennessee Tech,Caleb Sanders,Trent Mosquera,three,1.0
@@ -6900,11 +7168,11 @@ Tennessee Tech,Kamai Samuels,De'Ante Green,three,1.0
 Tennessee Tech,Kamai Samuels,Trent Mosquera,three,1.0
 Tennessee Tech,Shaun Arnold,Caleb Hollenbeck,three,1.0
 Tennessee Tech,Shaun Arnold,Cbo Newton,three,1.0
+Tennessee Tech,Trent Mosquera,De'Ante Green,three,1.0
 Tennessee Tech,Trent Mosquera,Kamai Samuels,rim,1.0
 Tennessee Tech,Ty Owens,Caleb Sanders,three,1.0
 Tennessee Tech,Ty Owens,Davante Hackett,rim,1.0
 Tennessee Tech,Ty Owens,Davante Hackett,three,1.0
-Tennessee Tech,Ty Owens,Mekhi Turner,rim,1.0
 Texas,Isaiah Johnson,Joe Sterling,three,3.0
 Texas,Austin Goosby,Matas Vokietaitis,rim,2.26
 Texas,Austin Goosby,David Punch,rim,2.0
@@ -6930,32 +7198,45 @@ Texas,David Punch,Isaiah Johnson,three,0.74
 Texas,Isaiah Johnson,Elyjah Freeman,three,0.68
 Texas,Austin Goosby,Lewis Obiorah,rim,0.68
 Texas,Marcus Spears Jr.,Bo Ogden,three,0.59
+Texas A&M,Jalen Shelley,Mackenzie Mgbako,three,2.0
 Texas A&M,Jordan Pope,PJ Haggerty,three,2.0
+Texas A&M,Jordan Pope,Rylan Griffen,three,2.0
 Texas A&M,Jordan Pope,Cade Phillips,rim,1.97
+Texas A&M,Zach Clemence,PJ Haggerty,rim,1.9
 Texas A&M,Jalen Reece,Jordan Pope,three,1.88
+Texas A&M,Jalen Shelley,Jordan Pope,three,1.83
 Texas A&M,Jalen Shelley,PJ Haggerty,rim,1.34
 Texas A&M,Cade Phillips,Jordan Pope,three,1.0
 Texas A&M,Cade Phillips,PJ Haggerty,mid,1.0
 Texas A&M,Jalen Reece,Jalen Shelley,mid,1.0
+Texas A&M,Jalen Reece,Josh Irving,rim,1.0
 Texas A&M,Jalen Shelley,Cade Phillips,rim,1.0
-Texas A&M,Jalen Shelley,Mackenzie Mgbako,three,1.0
 Texas A&M,Jamie Vinson,Tyshawn Archie,three,1.0
+Texas A&M,Jordan Pope,Josh Irving,three,1.0
 Texas A&M,Jordan Pope,Mackenzie Mgbako,mid,1.0
+Texas A&M,Jordan Pope,Mackenzie Mgbako,rim,1.0
+Texas A&M,Jordan Pope,PJ Haggerty,mid,1.0
+Texas A&M,Jordan Pope,Zach Clemence,three,1.0
+Texas A&M,Josh Irving,Jordan Pope,three,1.0
+Texas A&M,Josh Irving,PJ Haggerty,rim,1.0
 Texas A&M,Lukas Walls,Jordan Pope,mid,1.0
 Texas A&M,Mackenzie Mgbako,Cade Phillips,rim,1.0
 Texas A&M,Mackenzie Mgbako,Jordan Pope,rim,1.0
 Texas A&M,Mackenzie Mgbako,PJ Haggerty,three,1.0
 Texas A&M,Mackenzie Mgbako,Tyshawn Archie,rim,1.0
+Texas A&M,Mackenzie Mgbako,Zach Clemence,three,1.0
 Texas A&M,PJ Haggerty,Cade Phillips,rim,1.0
+Texas A&M,PJ Haggerty,Jalen Shelley,three,1.0
 Texas A&M,PJ Haggerty,Rylan Griffen,three,1.0
+Texas A&M,PJ Haggerty,Zach Clemence,three,1.0
 Texas A&M,Rylan Griffen,Josh Irving,rim,1.0
+Texas A&M,Rylan Griffen,PJ Haggerty,three,1.0
+Texas A&M,Tyshawn Archie,Jalen Shelley,rim,1.0
 Texas A&M,Tyshawn Archie,Rylan Griffen,three,1.0
 Texas A&M,Tyshawn Archie,Zach Clemence,three,1.0
 Texas A&M,PJ Haggerty,Tyshawn Archie,rim,0.94
-Texas A&M,Zach Clemence,PJ Haggerty,rim,0.9
 Texas A&M,Cade Phillips,Jalen Shelley,three,0.9
 Texas A&M,PJ Haggerty,Mackenzie Mgbako,three,0.83
-Texas A&M,Jalen Shelley,Jordan Pope,three,0.83
 Texas A&M,Jalen Shelley,PJ Haggerty,three,0.82
 Texas A&M,PJ Haggerty,Jordan Pope,three,0.8
 Texas A&M,Jalen Reece,Cade Phillips,rim,0.77
@@ -7083,9 +7364,13 @@ Toledo,Will James Jr.,Austin Parks,mid,1.0
 Toledo,Will James Jr.,Sean Jones,three,1.0
 Toledo,Will James Jr.,Jaylan Ouwinga,three,0.99
 Toledo,Austin Parks,Mynor Strong,mid,0.67
-Towson,Ben Roseborough,Jaquan Womack,three,2.0
+Towson,Ben Roseborough,Jaquan Womack,three,4.0
+Towson,Christian Doerr,Chike Ndefo,rim,2.54
+Towson,Christian Doerr,Ben Roseborough,three,2.0
 Towson,Christian Doerr,Jaquan Womack,rim,2.0
-Towson,Christian Doerr,Chike Ndefo,rim,1.7
+Towson,Jaquan Womack,Ben Roseborough,three,2.0
+Towson,Christian Doerr,Caleb Embeya,rim,1.43
+Towson,Ben Roseborough,Alex Atkinson,mid,1.0
 Towson,Ben Roseborough,Jaquan Womack,rim,1.0
 Towson,Ben Roseborough,Zion Stanford,three,1.0
 Towson,Caleb Embeya,Zion Stanford,three,1.0
@@ -7093,17 +7378,18 @@ Towson,Chike Ndefo,Ben Roseborough,three,1.0
 Towson,Chike Ndefo,Christian Doerr,three,1.0
 Towson,Chike Ndefo,Jaquan Womack,three,1.0
 Towson,Christian Doerr,Alex Atkinson,three,1.0
-Towson,Christian Doerr,Ben Roseborough,three,1.0
-Towson,Christian Doerr,Caleb Embeya,rim,1.0
+Towson,Christian Doerr,Ben Roseborough,rim,1.0
 Towson,Christian Doerr,Jaquan Womack,three,1.0
 Towson,Christian Doerr,Jon Barton,three,1.0
 Towson,Christian Doerr,Zion Stanford,mid,1.0
+Towson,Christian Doerr,Zion Stanford,rim,1.0
 Towson,Christian Doerr,Zion Stanford,three,1.0
-Towson,Jaquan Womack,Ben Roseborough,three,1.0
+Towson,Jaquan Womack,Zion Stanford,three,1.0
 Towson,Jon Barton,Ben Roseborough,rim,1.0
 Towson,Jon Barton,Caleb Embeya,rim,1.0
 Towson,Jon Barton,Jaquan Womack,three,1.0
 Towson,Jon Barton,Zion Stanford,three,1.0
+Towson,Alex Atkinson,Ben Roseborough,rim,0.96
 Towson,Ben Roseborough,Alex Atkinson,three,0.73
 Towson,Alex Atkinson,Jaquan Womack,rim,0.65
 Troy,Jacoi Hutchinson,Sam Walters,three,3.74
@@ -7243,17 +7529,29 @@ UC Irvine,Josiah Johnson,Nes Emeneke,rim,0.84
 UC Irvine,Olivier Rioux,Nils Cooper,rim,0.82
 UC Irvine,Nils Cooper,Olivier Rioux,rim,0.8
 UC Irvine,Tama Isaac,Nils Cooper,rim,0.57
-UC Riverside,Aidan Rice,Tyus Parrish-Tillman,three,2.0
+UC Riverside,Aidan Rice,Tyus Parrish-Tillman,three,3.0
+UC Riverside,Aidan Rice,Easton Reagan,rim,2.0
 UC Riverside,Parker Strauss,Tyus Parrish-Tillman,rim,2.0
-UC Riverside,Aidan Rice,Easton Reagan,rim,1.0
+UC Riverside,Tony Duckett,Tyus Parrish-Tillman,three,2.0
+UC Riverside,Aidan Rice,Ben Waller,rim,1.0
 UC Riverside,Aidan Rice,Easton Reagan,three,1.0
 UC Riverside,Aidan Rice,Tony Duckett,rim,1.0
+UC Riverside,Ben Waller,Easton Reagan,three,1.0
+UC Riverside,Dallas Washington,Ben Waller,rim,1.0
+UC Riverside,Dallas Washington,Easton Reagan,three,1.0
+UC Riverside,Dallas Washington,Tyus Parrish-Tillman,mid,1.0
+UC Riverside,Dallas Washington,Tyus Parrish-Tillman,three,1.0
+UC Riverside,De'Undrae Perteete Jr.,Ben Waller,rim,1.0
+UC Riverside,De'Undrae Perteete Jr.,Tony Duckett,mid,1.0
 UC Riverside,De'Undrae Perteete Jr.,Tyus Parrish-Tillman,mid,1.0
+UC Riverside,Easton Reagan,Dallas Washington,three,1.0
 UC Riverside,Easton Reagan,James Evans Jr.,three,1.0
 UC Riverside,Easton Reagan,Tyus Parrish-Tillman,three,1.0
 UC Riverside,James Evans Jr.,Tyus Parrish-Tillman,three,1.0
+UC Riverside,Tony Duckett,Easton Reagan,three,1.0
 UC Riverside,Tony Duckett,Tyus Parrish-Tillman,rim,1.0
-UC Riverside,Tony Duckett,Tyus Parrish-Tillman,three,1.0
+UC Riverside,Tyus Parrish-Tillman,Dallas Washington,rim,1.0
+UC Riverside,Tyus Parrish-Tillman,De'Undrae Perteete Jr.,rim,1.0
 UC Riverside,Tyus Parrish-Tillman,Easton Reagan,three,1.0
 UC Riverside,Tyus Parrish-Tillman,James Evans Jr.,rim,1.0
 UC San Diego,Rahmir Barno,Leo Beath,three,1.53
@@ -7354,22 +7652,33 @@ UCLA,Nikola Kusturica,Brandon Williams,rim,0.94
 UCLA,Trent Perry,Eric Dailey Jr.,rim,0.79
 UCLA,Sergej Macura,Jaylen Petty,three,0.76
 UCLA,Eric Dailey Jr.,Joe Philon III,rim,0.64
+UMBC,Flash Burton,Aidan Able,three,3.0
+UMBC,Riley Jacobs,Aidan Able,three,2.64
 UMBC,Aidan Able,Alpha Barry,rim,2.0
-UMBC,Riley Jacobs,Aidan Able,three,1.68
+UMBC,Aidan Able,JP Ndong,three,2.0
+UMBC,Flash Burton,Steven Huan,rim,2.0
+UMBC,JP Ndong,Devin Ceaser,rim,1.86
 UMBC,Aidan Able,Devin Ceaser,three,1.0
 UMBC,Aidan Able,Flash Burton,three,1.0
-UMBC,Aidan Able,JP Ndong,three,1.0
+UMBC,Aidan Able,Jovan Ristic,three,1.0
 UMBC,Aidan Able,Riley Jacobs,rim,1.0
 UMBC,Carlos Varela,Aidan Able,three,1.0
 UMBC,Carlos Varela,Riley Jacobs,rim,1.0
 UMBC,Carlos Varela,Riley Jacobs,three,1.0
+UMBC,Devin Ceaser,Aidan Able,three,1.0
 UMBC,Devin Ceaser,Jovan Ristic,rim,1.0
 UMBC,Devin Ceaser,Riley Jacobs,rim,1.0
-UMBC,Flash Burton,Aidan Able,three,1.0
 UMBC,Flash Burton,JP Ndong,rim,1.0
+UMBC,Jovan Ristic,Aidan Able,three,1.0
+UMBC,Jovan Ristic,Devin Ceaser,three,1.0
+UMBC,Regimantas Ciunys,Evan Morton,rim,1.0
+UMBC,Riley Jacobs,Devin Ceaser,three,1.0
 UMBC,Riley Jacobs,Flash Burton,rim,1.0
 UMBC,Steven Huan,Carlos Varela,three,1.0
-UMBC,JP Ndong,Devin Ceaser,rim,0.86
+UMBC,Steven Huan,Devin Ceaser,three,1.0
+UMBC,Carlos Varela,Steven Huan,rim,0.94
+UMBC,Riley Jacobs,Jovan Ristic,rim,0.8
+UMBC,Riley Jacobs,JP Ndong,rim,0.62
 UMBC,Carlos Varela,Flash Burton,three,0.58
 UMass Lowell,Christian Jones,Jayden Harris,three,3.0
 UMass Lowell,Christian Jones,Isaiah Walter,three,2.0
@@ -8060,16 +8369,25 @@ Weber St.,Gavin Lowe,Dylan Warlick,rim,1.0
 Weber St.,Gavin Lowe,Mason Abittan,three,1.0
 Weber St.,Mason Abittan,Brock Felder,rim,1.0
 Weber St.,ArDarius Grayson,Gavin Lowe,rim,0.73
-West Florida,DJ Shine,Sano Rutatika,rim,2.0
+West Florida,Christian Valarezo,Alex Godley Jr.,three,4.0
+West Florida,DJ Shine,Sano Rutatika,rim,3.0
+West Florida,Christian Valarezo,Daylon Dickerson,rim,2.0
 West Florida,Rodrigo Farias,DJ Shine,three,2.0
-West Florida,Christian Valarezo,Alex Godley Jr.,three,1.0
+West Florida,Alex Godley Jr.,Sano Rutatika,mid,1.0
+West Florida,Alex Godley Jr.,Tim Hall Jr.,rim,1.0
+West Florida,Christian Monroe,DJ Shine,three,1.0
+West Florida,Christian Valarezo,Eze Wali,mid,1.0
 West Florida,DJ Shine,Rodrigo Farias,three,1.0
+West Florida,DJ Shine,Sano Rutatika,three,1.0
 West Florida,Daylon Dickerson,Alex Godley Jr.,rim,1.0
+West Florida,Daylon Dickerson,Alex Godley Jr.,three,1.0
+West Florida,Daylon Dickerson,Sano Rutatika,mid,1.0
 West Florida,Daylon Dickerson,Sano Rutatika,rim,1.0
 West Florida,Eze Wali,Alex Godley Jr.,rim,1.0
 West Florida,Eze Wali,Christian Valarezo,three,1.0
 West Florida,Isaiah Alexander,Tim Hall Jr.,mid,1.0
 West Florida,Rodrigo Farias,Alex Godley Jr.,three,1.0
+West Florida,Sano Rutatika,DJ Shine,three,1.0
 West Georgia,Juaquin Dixon,Kenneth Chime,rim,4.0
 West Georgia,Chas Lewless,Kenneth Chime,rim,3.0
 West Georgia,Lou Hutchinson III,Aleix Sempere,rim,2.0
@@ -8097,26 +8415,30 @@ West Georgia,Amir Williams,Chas Lewless,mid,0.94
 West Georgia,Chas Lewless,Juaquin Dixon,mid,0.92
 West Georgia,Chas Lewless,David Simon,three,0.76
 West Georgia,David Simon,Justin Redmond,three,0.55
-West Virginia,Miles Sadler,Joson Sanon,three,2.2
+West Virginia,Miles Sadler,Joson Sanon,three,3.2
+West Virginia,Miles Sadler,Finley Bizjack,three,2.96
+West Virginia,Martin Somerville,Joson Sanon,three,2.28
+West Virginia,Finley Bizjack,Brenen Lorient,rim,2.0
 West Virginia,Finley Bizjack,Joson Sanon,three,2.0
 West Virginia,Seydou Traore,Mouhamed Sylla,rim,2.0
-West Virginia,Miles Sadler,Finley Bizjack,three,1.96
-West Virginia,Martin Somerville,Joson Sanon,three,1.28
+West Virginia,Miles Sadler,Amadou Seini,rim,1.94
+West Virginia,Miles Sadler,Mouhamed Sylla,rim,1.87
 West Virginia,Miles Sadler,Martin Somerville,three,1.08
 West Virginia,Brenen Lorient,Joson Sanon,three,1.0
 West Virginia,Brenen Lorient,Mouhamed Sylla,mid,1.0
 West Virginia,Finley Bizjack,Seydou Traore,three,1.0
 West Virginia,Javan Buchanan,Amadou Seini,rim,1.0
+West Virginia,Joson Sanon,Finley Bizjack,three,1.0
 West Virginia,Martin Somerville,Finley Bizjack,three,1.0
 West Virginia,Miles Sadler,Brenen Lorient,rim,1.0
 West Virginia,Miles Sadler,Javan Buchanan,rim,1.0
-West Virginia,Miles Sadler,Mouhamed Sylla,rim,1.0
 West Virginia,Miles Sadler,Seydou Traore,rim,1.0
 West Virginia,Mouhamed Sylla,Brenen Lorient,three,1.0
 West Virginia,Seydou Traore,Brenen Lorient,three,1.0
 West Virginia,Seydou Traore,Miles Sadler,rim,1.0
 West Virginia,Seydou Traore,Miles Sadler,three,1.0
-West Virginia,Miles Sadler,Amadou Seini,rim,0.94
+West Virginia,Finley Bizjack,Martin Somerville,three,0.99
+West Virginia,Miles Sadler,Seydou Traore,three,0.5
 Western Carolina,Jacob Zhu,Jaxon Prunty,three,2.0
 Western Carolina,Jaxon Prunty,Jaeden Roberts,three,2.0
 Western Carolina,Antonio McKoy,Jaeden Roberts,three,1.0
@@ -8140,17 +8462,24 @@ Western Carolina,Samuel Dada,Travelle Bryson,three,1.0
 Western Carolina,Tayeshaun Smith,Jaeden Roberts,rim,1.0
 Western Carolina,Jaxon Prunty,Tayeshaun Smith,rim,0.54
 Western Illinois,Hunter Vaughn,Daivion Traylor,rim,3.79
-Western Illinois,Makai Kvamme,Jack Riley,three,2.0
+Western Illinois,Makai Kvamme,Jack Riley,three,3.0
+Western Illinois,Hunter Vaughn,Danny Stephens,three,2.77
+Western Illinois,Hunter Vaughn,Jack Riley,three,2.0
+Western Illinois,Makai Kvamme,Daivion Traylor,rim,2.0
+Western Illinois,Abdoulaye Konate,Jack Riley,rim,1.0
 Western Illinois,Daivion Traylor,Matthieu Biembongo,rim,1.0
+Western Illinois,Daivion Traylor,Shay Stephens,three,1.0
+Western Illinois,Davee Flowers,Daivion Traylor,rim,1.0
 Western Illinois,Davee Flowers,Danny Stephens,rim,1.0
 Western Illinois,Hunter Vaughn,Davee Flowers,mid,1.0
-Western Illinois,Hunter Vaughn,Jack Riley,three,1.0
+Western Illinois,Hunter Vaughn,Davee Flowers,three,1.0
 Western Illinois,Hunter Vaughn,Makai Kvamme,mid,1.0
+Western Illinois,Jack Riley,Daivion Traylor,rim,1.0
 Western Illinois,Jack Riley,Danny Stephens,rim,1.0
-Western Illinois,Makai Kvamme,Daivion Traylor,rim,1.0
 Western Illinois,Makai Kvamme,Danny Stephens,rim,1.0
+Western Illinois,Makai Kvamme,Davee Flowers,three,1.0
 Western Illinois,Matthieu Biembongo,Danny Stephens,rim,1.0
-Western Illinois,Hunter Vaughn,Danny Stephens,three,0.77
+Western Illinois,Shay Stephens,Danny Stephens,three,1.0
 Western Kentucky,Sharron Young,Gabe Weis,three,2.36
 Western Kentucky,Teagan Moore,Moussa Konare,rim,2.0
 Western Kentucky,Sharron Young,Gabe Weis,mid,1.96
@@ -8168,8 +8497,13 @@ Western Kentucky,Sharron Young,Emondrek Erkins-Ford,rim,1.0
 Western Kentucky,Sharron Young,Teagan Moore,rim,1.0
 Western Kentucky,Sharron Young,Teagan Moore,three,1.0
 Western Kentucky,Teagan Moore,Sharron Young,three,1.0
-Western Michigan,Jaylen Washington Jr.,Augustinas Kiudulas,three,2.0
+Western Michigan,Jaylen Washington Jr.,Augustinas Kiudulas,three,3.0
+Western Michigan,Jordan Sigmon,Julien Gomez,three,2.0
+Western Michigan,Mason Bendinger,Augustinas Kiudulas,three,2.0
+Western Michigan,Mason Bendinger,Tanner Hayhurst,three,2.0
 Western Michigan,Augustinas Kiudulas,Jaylen Washington Jr.,three,1.93
+Western Michigan,Augustinas Kiudulas,Adam Harakow,three,1.0
+Western Michigan,Augustinas Kiudulas,Jaylen Washington Jr.,rim,1.0
 Western Michigan,Janis Jünemann,Jaylen Washington Jr.,three,1.0
 Western Michigan,Janis Jünemann,Mason Bendinger,three,1.0
 Western Michigan,Janis Jünemann,Rob Lee Jr.,three,1.0
@@ -8182,14 +8516,17 @@ Western Michigan,Jaylen Washington Jr.,Rob Lee Jr.,mid,1.0
 Western Michigan,Jaylen Washington Jr.,Tanner Hayhurst,three,1.0
 Western Michigan,Jordan Sigmon,Janis Jünemann,rim,1.0
 Western Michigan,Jordan Sigmon,Mason Bendinger,mid,1.0
+Western Michigan,Jordan Sigmon,Mason Bendinger,rim,1.0
 Western Michigan,Julien Gomez,Adam Harakow,rim,1.0
 Western Michigan,Julien Gomez,Janis Jünemann,three,1.0
+Western Michigan,Mason Bendinger,Julien Gomez,three,1.0
 Western Michigan,Mason Bendinger,Rob Lee Jr.,three,1.0
-Western Michigan,Mason Bendinger,Tanner Hayhurst,three,1.0
 Western Michigan,Rob Lee Jr.,Adam Harakow,rim,1.0
 Western Michigan,Rob Lee Jr.,Janis Jünemann,rim,1.0
 Western Michigan,Rob Lee Jr.,Janis Jünemann,three,1.0
 Western Michigan,Tanner Hayhurst,Jaylen Washington Jr.,three,1.0
+Western Michigan,Tanner Hayhurst,Julien Gomez,three,1.0
+Western Michigan,Augustinas Kiudulas,Tanner Hayhurst,rim,0.67
 Wichita St.,Kenyon Giles,William Berg,rim,5.0
 Wichita St.,Jordan Frison,William Berg,rim,4.0
 Wichita St.,Jordan Frison,Michael Gray Jr.,three,3.0
