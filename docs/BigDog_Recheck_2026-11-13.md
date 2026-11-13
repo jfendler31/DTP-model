@@ -18,7 +18,7 @@ Two seasons (2024-25, 2025-26 Nov–Dec), home favorites of 20+ at the close, pr
 | Vs the **open** (2025-26): model-on-dog 3+ | 80-68 (54%); all 20+ dogs 187-195 (49%) |
 | This season Nov 2–11, 20+: all dogs / model-on-dog 3+ | 72-85 / 15-11, CLV −1.57 |
 
-**Reading.** The dog's 53% at the close is a market effect (bettors push big favorites past the open; the close overshoots). Our model number sits 4–7 points short of the market on these games in every bucket; the size curve (0.2/pt beyond 10) closes part of it. The remaining "edge" is the prior pull (mechanical) plus the raw shortfall, neither of which ranks games — slope 0.02. A 7-point edge on a 32-point favorite is a 53% coin flip with negative CLV, same as a 3-point one.
+**Reading.** The dog's 53% at the close is a market effect (bettors push big favorites past the open; the close overshoots). Our raw model sits 0.7–2.0 short of the market at 20–30 and 2–5 short at 30+ (both seasons; an earlier draft said 4–7, from a buggy table — corrected Nov 13, see `Size_Curve_Refit_2026-11-13.md`); the size curve brings it to about even from week 3. The remaining "edge" is the prior pull (mechanical) plus the raw shortfall, neither of which ranks games — slope 0.02. A 7-point edge on a 32-point favorite is a 53% coin flip with negative CLV, same as a 3-point one.
 
 **15–20 band:** model-on-dog 3+ went 30-21 raw (58.8%), 20-15 size-adjusted, and week-one 15–20 favorites didn't show the bias (51%). Small n, but this is where the in-season information may be doing work.
 
@@ -26,4 +26,4 @@ Two seasons (2024-25, 2025-26 Nov–Dec), home favorites of 20+ at the close, pr
 1. 20+ dog edges are one bet type at ~53%: flat small sizing or pass, never ranked by edge size. ROI at −110 ≈ +1%.
 2. Haircut stays; the week-of-season table describes the market bias, not model skill.
 3. Reads and the morning summary present 20+ dogs as a group, below the 15–20 and sub-15 edges.
-4. **Queued backtest:** refit the size curve by line band so the dog cover margin is ~0 at 20–25, 25–30, 30+, both seasons; check whether a steeper curve changes what sorts to the top without hurting the sub-20 edges.
+4. **Size-curve refit done (`Size_Curve_Refit_2026-11-13.md`):** no slope improves ATS; steeper hurts (0.40 → 50%). Curve stays at 0.20. Proposed card change: a `tier` column and tier-then-edge sort so 20+ games sit in their own block.
