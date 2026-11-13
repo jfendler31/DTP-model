@@ -30,6 +30,7 @@ jobs:
           else Y=$(TZ=America/New_York date -d yesterday +%F); ARGS="--start $Y --end $Y"; fi
           python jobs/role_events.py $ARGS
           [ -f jobs/roles.py ] && python jobs/roles.py || true
+          [ -f jobs/roles_html.py ] && python jobs/roles_html.py || true
         env:
           CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
       - name: Save
