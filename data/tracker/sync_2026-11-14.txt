@@ -1,17 +1,16 @@
-Player sync 2026-11-14: 0 override(s) expired; box scores 2026-11-01 to 2026-11-13.
+Player sync 2026-11-14: 0 override(s) expired, 11 priced from the tracker; box scores 2026-11-01 to 2026-11-13.
 tracker export: 467 notes, latest edit 2026-11-14
-unpriced Akron — Max Burton: injured (Ankle injury October 2026), tracker 2026-11-14, plays today, no override
-unpriced Bradley — Joshua Ibukunoluwa: injured (Missed Coppin game 11/12 (leg)), tracker 2026-11-13, plays today, no override
-unpriced Bradley — Race Kowalczyk: injured, tracker 2026-10-28, plays today, no override
-unpriced Cincinnati — Jayden Hastings: injured (No timetable), tracker 2026-11-10, plays today, no override
-unpriced Grand Canyon — Makaih Williams: injured (Was a GTD for 11/2 opener), tracker 2026-11-07, plays today, no override
-unpriced LSU — RJ Luis: ineligible (Baton Rouge injunction), tracker 2026-11-04, plays today, no override
-unpriced Northern Kentucky — Ethan Elliott: injured (Missed first two (hamstring pull)), tracker 2026-11-06, plays today, no override
+priced   Akron — Max Burton: injured (Ankle injury October 2026), tracker 2026-11-14 -> 0.0 spread (delta_pts -0.00, until cleared)
+priced   Bradley — Joshua Ibukunoluwa: injured (Missed Coppin game 11/12 (leg)), tracker 2026-11-13 -> 0.4 spread (delta_pts -0.54, until cleared)
+priced   Bradley — Race Kowalczyk: injured, tracker 2026-10-28 -> 0.0 spread (delta_pts -0.00, until cleared)
+priced   Cincinnati — Jayden Hastings: injured (No timetable), tracker 2026-11-10 -> 0.0 spread (delta_pts -0.00, until cleared)
+priced   Grand Canyon — Makaih Williams: injured (Was a GTD for 11/2 opener), tracker 2026-11-07 -> 0.4 spread (delta_pts -0.52, until cleared)
+unpriced LSU — RJ Luis: ineligible (Baton Rouge injunction), tracker 2026-11-04, plays today — not in EvanMiya or Torvik files for LSU; not priced
+priced   Northern Kentucky — Ethan Elliott: injured (Missed first two (hamstring pull)), tracker 2026-11-06 -> 0.4 spread (delta_pts -0.57, until cleared)
 tracker  Oral Roberts — Cam Haffner: tracker says ineligible, but played 5 min 2026-11-02 vs Central Arkansas — update the tracker
-unpriced Saint Joseph's — Jaiden Glover-Toscano: injured (Left USF game late 1H), tracker 2026-11-14, plays today, no override
-unpriced Siena — Yannis Steger: injured (Out for Season), tracker 2026-11-03, plays today, no override
-unpriced South Carolina — Cam Heide: injured (Missed SPC game 11/11 (sprained wirst)), tracker 2026-11-11, plays today, no override
-unpriced St. Bonaventure — Joe Grahovac: injured, tracker 2026-11-07, plays today, no override
-unpriced UAB — Kyeron Lindsay-Martin: ineligible (Awaiting NCAA clearance), tracker 2026-10-28, plays today, no override
-unpriced Villanova — Matthew Hodge: injured (Not cleared for contact yet (ACL surgery)), tracker 2026-10-19, plays today, no override
+priced   Saint Joseph's — Jaiden Glover-Toscano: injured (Left USF game late 1H), tracker 2026-11-14 -> 1.9 spread (delta_pts -2.52, until cleared)
+priced   Siena — Yannis Steger: injured (Out for Season), tracker 2026-11-03 -> 0.0 spread (delta_pts -0.05, until cleared)
+priced   South Carolina — Cam Heide: injured (Missed SPC game 11/11 (sprained wirst)), tracker 2026-11-11 -> 0.7 spread (delta_pts -0.89, until cleared)
+priced   UAB — Kyeron Lindsay-Martin: ineligible (Awaiting NCAA clearance), tracker 2026-10-28 -> 0.7 spread (delta_pts -0.91, until cleared)
+priced   Villanova — Matthew Hodge: injured (Not cleared for contact yet (ACL surgery)), tracker 2026-10-19 -> 0.0 spread (delta_pts -0.00, until cleared)
 renew?   Columbia — Miles Franklin (-0.99): override expired 2026-11-13, tracker still injured (2026-11-09)

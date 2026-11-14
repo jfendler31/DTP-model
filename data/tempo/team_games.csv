@@ -1449,8 +1449,12 @@ gameId,date,team,opponent,isHome,d1_game,periods,poss_parsed,poss_unknown,off_ap
 374945,2026-11-13,TCU,Milwaukee,True,True,2,76,1,15.17,15.04,0.925,12,75.0,1.0
 374946,2026-11-13,NC State,Troy,True,True,2,61,0,16.9,16.54,0.829,19,63.0,-2.0
 374946,2026-11-13,Troy,NC State,False,True,2,64,0,21.27,22.29,0.78,-19,63.0,1.0
+374947,2026-11-13,Arizona State,UL Monroe,True,True,2,71,0,16.86,17.42,0.479,30,71.0,0.0
+374947,2026-11-13,UL Monroe,Arizona State,False,True,2,70,0,17.16,19.26,0.466,-30,71.0,-1.0
 374948,2026-11-13,Arkansas,Central Arkansas,True,True,2,68,0,17.57,17.81,0.92,13,70.0,-2.0
 374948,2026-11-13,Central Arkansas,Arkansas,False,True,2,70,0,17.06,17.05,0.92,-13,69.0,1.0
+374949,2026-11-13,Chicago State,San Diego,False,True,2,62,0,18.9,19.53,0.741,-20,61.0,1.0
+374949,2026-11-13,San Diego,Chicago State,True,True,2,64,1,19.05,20.27,0.753,20,62.0,2.0
 374950,2026-11-13,Saint Mary's,UIC,True,True,2,67,0,18.54,19.34,0.651,23,66.0,1.0
 374950,2026-11-13,UIC,Saint Mary's,False,True,2,67,0,17.21,18.74,0.647,-23,67.0,0.0
 374951,2026-11-13,Samford,Wright State,True,True,2,69,0,17.78,18.82,0.736,-24,72.0,-3.0
@@ -1459,6 +1463,8 @@ gameId,date,team,opponent,isHome,d1_game,periods,poss_parsed,poss_unknown,off_ap
 374952,2026-11-13,Columbia,Bucknell,False,True,2,67,0,18.66,18.95,0.87,18,66.0,1.0
 374953,2026-11-13,East Texas A&M,Portland,False,True,4,85,0,19.62,18.99,0.788,6,87.0,-2.0
 374953,2026-11-13,Portland,East Texas A&M,True,True,4,89,0,14.97,15.94,0.764,-6,89.0,0.0
+374954,2026-11-13,Arkansas-Pine Bluff,California Baptist,False,True,2,61,0,17.44,18.89,0.822,-14,62.0,-1.0
+374954,2026-11-13,California Baptist,Arkansas-Pine Bluff,True,True,2,60,0,20.33,21.96,0.859,14,62.0,-2.0
 378008,2026-11-13,Southern Miss,Texas State,False,True,2,73,0,17.63,18.11,0.805,-20,73.0,0.0
 378008,2026-11-13,Texas State,Southern Miss,True,True,2,71,0,15.63,15.61,0.795,20,73.0,-2.0
 378009,2026-11-13,Murray State,Texas Southern,True,True,2,80,0,13.28,14.26,0.678,21,82.0,-2.0
