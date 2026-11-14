@@ -1,0 +1,58 @@
+Season,GameID,DateOfGame,Visitor,Home,Location,HomeRank,VisitorRank,HomePred,VisitorPred,HomeWP,PredTempo,ThrillScore
+2027,711,2026-11-14,St. Thomas,Army,Home,343,185,70,78,25,69,23.7
+2027,712,2026-11-14,Drexel,Maine,Home,330,254,66,68,42,68,28.7
+2027,713,2026-11-14,Montana,North Dakota,Home,308,236,75,77,45,70,31.4
+2027,715,2026-11-14,Northern Illinois,Bellarmine,Home,291,272,78,77,54,68,31.5
+2027,716,2026-11-14,Delaware St.,East Carolina,Home,182,355,80,66,90,72,13.1
+2027,719,2026-11-14,The Citadel,North Florida,Home,303,325,79,75,64,72,27.8
+2027,720,2026-11-14,Wofford,Queens,Home,186,302,90,81,80,75,23.2
+2027,721,2026-11-14,Rice,Stephen F. Austin,Home,141,244,78,70,76,69,26.4
+2027,722,2026-11-14,Wyoming,Denver,Home,204,114,72,76,38,69,39.4
+2027,723,2026-11-14,Toledo,Detroit Mercy,Home,311,139,73,81,26,72,27.1
+2027,724,2026-11-14,Hampton,Navy,Home,284,252,71,70,50,69,30.9
+2027,725,2026-11-14,Northern Iowa,Oakland,Home,237,147,79,81,42,70,36.4
+2027,727,2026-11-14,Manhattan,Le Moyne,Home,313,319,75,72,59,71,28.7
+2027,728,2026-11-14,Penn,Saint Joseph's,Home,122,136,79,74,67,75,38.9
+2027,729,2026-11-14,West Georgia,Charleston Southern,Home,310,332,76,72,63,74,27.6
+2027,730,2026-11-14,Howard,Davidson,Home,100,196,77,67,83,69,25.6
+2027,731,2026-11-14,NJIT,Fairfield,Home,269,358,76,65,82,70,17.3
+2027,733,2026-11-14,UAB,Jacksonville St.,Home,188,135,75,76,48,70,39.3
+2027,734,2026-11-14,Brown,Siena,Home,218,275,78,72,69,73,27.8
+2027,736,2026-11-14,IU Indy,Morehead St.,Home,341,301,77,78,49,71,30.2
+2027,737,2026-11-14,Northwestern St.,Little Rock,Home,227,312,77,69,75,69,23.3
+2027,738,2026-11-14,UC Davis,Sacramento St.,Home,170,211,81,76,66,76,33.2
+2027,739,2026-11-14,Furman,Belmont,Home,155,126,78,77,51,72,42.9
+2027,740,2026-11-14,Tulane,Akron,Home,99,168,84,74,80,72,31.5
+2027,741,2026-11-14,USC Upstate,Campbell,Home,297,344,76,70,72,70,23.7
+2027,742,2026-11-14,Cincinnati,Dayton,Home,113,38,70,76,28,71,55.4
+2027,743,2026-11-14,Binghamton,Duquesne,Home,129,334,80,65,90,67,14.0
+2027,744,2026-11-14,Bradley,George Mason,Neutral,102,240,70,60,80,66,25.7
+2027,745,2026-11-14,UNC Asheville,Georgia Tech,Home,107,307,85,69,93,72,13.7
+2027,746,2026-11-14,Central Michigan,Northern Kentucky,Home,212,238,83,78,66,73,31.5
+2027,747,2026-11-14,Longwood,Old Dominion,Home,146,216,75,69,71,69,29.7
+2027,748,2026-11-14,Colorado,Providence,Home,51,87,79,71,75,73,51.6
+2027,750,2026-11-14,Gardner Webb,South Carolina,Home,85,350,85,61,98,70,8.5
+2027,751,2026-11-14,Coppin St.,South Florida,Home,93,356,85,63,98,71,8.6
+2027,752,2026-11-14,Lafayette,St. Bonaventure,Home,138,337,76,61,91,70,12.6
+2027,753,2026-11-14,Rider,Villanova,Home,40,359,88,58,100,69,7.1
+2027,754,2026-11-14,Southern Utah,Wake Forest,Home,89,265,84,67,93,73,14.6
+2027,755,2026-11-14,Lipscomb,Western Carolina,Home,171,198,81,76,65,72,33.9
+2027,756,2026-11-14,Marshall,Youngstown St.,Home,220,165,79,80,50,74,37.2
+2027,758,2026-11-14,Miami OH,Evansville,Home,271,121,73,78,31,72,32.9
+2027,759,2026-11-14,Louisiana Tech,Nicholls,Home,285,266,71,70,54,69,30.6
+2027,760,2026-11-14,South Alabama,North Texas,Home,109,215,75,65,82,65,24.0
+2027,762,2026-11-14,Northern Colorado,South Dakota St.,Home,159,214,80,74,71,70,30.6
+2027,763,2026-11-14,Stonehill,Texas Tech,Home,16,352,88,54,100,68,6.9
+2027,764,2026-11-14,UT Rio Grande Valley,UT Arlington,Home,217,247,74,70,63,69,30.6
+2027,765,2026-11-14,Austin Peay,Wichita St.,Home,79,197,84,70,90,72,20.8
+2027,766,2026-11-14,Loyola Chicago,Colorado St.,Home,88,131,80,70,81,69,32.2
+2027,767,2026-11-14,Louisiana Monroe,Grand Canyon,Home,45,317,94,67,99,75,9.8
+2027,770,2026-11-14,Utah Tech,California,Home,108,257,85,72,89,72,19.0
+2027,771,2026-11-14,UC Riverside,Fresno St.,Home,194,179,76,74,56,72,35.9
+2027,772,2026-11-14,LSU,Gonzaga,Home,12,25,84,77,73,74,72.7
+2027,773,2026-11-14,Utah Valley,Nevada,Home,75,119,81,71,81,72,36.7
+2027,775,2026-11-14,Portland St.,San Francisco,Home,148,248,75,67,74,70,26.8
+2027,776,2026-11-14,New Mexico,Santa Clara,Home,70,61,83,82,53,75,69.6
+2027,778,2026-11-14,Morgan St.,Loyola MD,Home,357,348,77,76,50,74,29.1
+2027,877,2026-11-14,UMBC,Towson,Home,142,289,79,68,82,71,20.5
+2027,1007,2026-11-14,Jackson St.,Winthrop,Home,246,306,85,79,71,75,27.1
