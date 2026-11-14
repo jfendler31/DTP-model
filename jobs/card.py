@@ -106,6 +106,19 @@ for g in S.itertuples():
                 'model_home_spread': m, 'market_home_spread': hs, 'edge_size': None if e is None else round(abs(e), 1),
                 'model_home_spread_adj': ma, 'edge_size_adj_num': None if ea is None else round(abs(ea), 1), 'size_curve': int(ok)})
 C = pd.DataFrame(out)
+# Nov 14 (Jon): his game notes and manual J carry onto the card. data/notes/notes_<date>.csv (away, home, note, adj_home):
+# his note goes first in Notes, the override notes after it; adj_home fills the Betting Sheet's Adj To Home Side (J).
+C['adj_home'] = None
+_nf = f'data/notes/notes_{card_date}.csv'
+if os.path.exists(_nf):
+    _jn = pd.read_csv(_nf, encoding='utf-8-sig').fillna('')
+    for r in _jn.itertuples(index=False):
+        k = (C.away == r.away) & (C.home == r.home)
+        if not k.any(): print(f'notes: no game {r.away} at {r.home}'); continue
+        i = C.index[k][0]; auto = C.at[i, 'notes']
+        if str(r.note).strip(): C.at[i, 'notes'] = f'{str(r.note).strip()}' + (f' | {auto}' if auto else '')
+        if str(r.adj_home).strip() != '': C.at[i, 'adj_home'] = float(r.adj_home)
+    print(f'notes: {len(_jn)} rows from {_nf}')
 # Nov 13 (Jon): line tier from the 4 AM market line. 20+ dog edges carry no model information (BigDog_Recheck_2026-11-13.md), so the
 # Betting Sheet sorts by tier (<15, 15-20, 20+), then edge, and 20+ games sit in their own block. Numbers are unchanged.
 def tier_of(hs):
@@ -160,7 +173,7 @@ CARD_HIDE = {'model', 'market', 'n_books', 'total', 'edge', 'model_size_adj', 'e
 CARD_W = {'tip_ET': 22, 'away': 21, 'home': 21, 'venue': 9, 'tier': 9, 'edge_size_adj': 19, 'market_home_spread': 11, 'model_home_spread': 11,
           'model_home_spread_adj': 11, 'edge_size_adj_num': 11, 'notes': 40, 'adj_home': 13}
 CARD_NUM = {'size_curve', 'market_home_spread', 'model_home_spread', 'model_home_spread_adj', 'edge_size_adj_num', 'edge_size', 'adj_home'}
-CD = C.assign(adj_home=None, abbr_away=C.away.map(abbr), abbr_home=C.home.map(abbr))[CARD_COLS].copy()
+CD = C.assign(abbr_away=C.away.map(abbr), abbr_home=C.home.map(abbr))[CARD_COLS].copy()
 CD['_k'] = pd.to_numeric(CD.edge_size_adj_num, errors='coerce')
 CD['_tk'] = CD.tier.map(TIER_ORD)
 CD = CD.sort_values(['_tk', '_k'], ascending=[True, False], na_position='last').drop(columns=['_k', '_tk'])
@@ -224,7 +237,7 @@ def num(v):
     except (TypeError, ValueError): return None
 for g in BS.itertuples(index=False):
     bs.append([None if pd.isna(g.tip_dt) else g.tip_dt.to_pydatetime(), g.away, g.home, g.venue, None, num(g.market_home_spread),
-               num(g.model_home_spread), None, None, None, g.notes if isinstance(g.notes, str) and g.notes else None, int(g.size_curve),
+               num(g.model_home_spread), None, None, num(g.adj_home), g.notes if isinstance(g.notes, str) and g.notes else None, int(g.size_curve),
                g.tier or None])
 last = bs.max_row + 15            # formatted rows (slate + 15 spare); the arrays run to row BS_N
 BS_N = 500
