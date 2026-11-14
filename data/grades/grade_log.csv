@@ -485,3 +485,58 @@
 2026-11-12,Thu Nov 12 8:00 PM,Richmond,Southern Illinois,H,card,3.5,4.8,4.8,1.3,Richmond,2.5,0,10,L,L,-1.0,oddsapi_hist
 2026-11-12,Thu Nov 12 9:00 PM,New Mexico St.,UTEP,H,card,-5.0,-0.9,-0.9,4.1,New Mexico St.,-4.5,0,2,W,W,0.5,oddsapi_hist
 2026-11-12,Thu Nov 12 9:00 PM,Montana St.,BYU,H,card,-23.5,-18.0,-19.6,3.9,Montana St.,-21.75,0,15,W,W,1.8,oddsapi_hist
+2026-11-13,Fri Nov 13 10:00 PM,East Texas A&M,Portland,H,card,-7.0,-4.9,-4.9,2.1,East Texas A&M,-7.5,0,-6,W,W,-0.5,oddsapi_hist
+2026-11-13,Fri Nov 13 10:00 PM,Illinois Chicago,Saint Mary's,H,card,-5.5,-4.8,-4.8,0.7,Illinois Chicago,-6.5,0,23,L,L,-1.0,oddsapi_hist
+2026-11-13,Fri Nov 13 10:00 PM,UC San Diego,Utah St.,H,card,-13.5,-9.9,-9.9,3.6,UC San Diego,-12.5,0,38,L,L,1.0,oddsapi_hist
+2026-11-13,Fri Nov 13 10:30 PM,Arkansas Pine Bluff,Cal Baptist,H,card,-15.5,-13.3,-14.0,1.5,Arkansas Pine Bluff,-15.0,0,14,W,W,0.5,oddsapi_hist
+2026-11-13,Fri Nov 13 3:00 PM,West Florida,Cleveland St.,N,card,-3.5,-2.5,-2.5,1.0,West Florida,1.0,0,2,W,L,4.5,oddsapi_hist
+2026-11-13,Fri Nov 13 5:00 PM,North Alabama,Miami FL,H,card,-34.0,-27.4,-30.9,3.1,North Alabama,-33.5,2,42,L,L,0.5,cbbd
+2026-11-13,Fri Nov 13 5:00 PM,Texas A&M Corpus Chris,Florida St.,H,card,-22.5,-14.6,-15.5,7.0,Texas A&M Corpus Chris,-23.5,2,24,L,L,-1.0,cbbd
+2026-11-13,Fri Nov 13 6:00 PM,Bryant,Rutgers,H,card,-22.5,-20.2,-22.2,0.3,Bryant,-22.0,2,21,W,W,0.5,cbbd
+2026-11-13,Fri Nov 13 6:00 PM,Georgetown,Clemson,H,card,-4.5,-5.3,-5.3,0.8,Clemson,-4.5,2,-7,L,L,0.0,cbbd
+2026-11-13,Fri Nov 13 6:30 PM,Pittsburgh,Butler,H,card,-3.5,-3.3,-3.3,0.2,Pittsburgh,-3.25,2,-12,W,W,0.2,cbbd
+2026-11-13,Fri Nov 13 7:00 PM,LIU,Fordham,H,card,-12.5,-7.6,-7.6,4.9,LIU,-13.0,2,22,L,L,-0.5,cbbd
+2026-11-13,Fri Nov 13 7:00 PM,Harvard,George Washington,H,card,-12.5,-7.1,-7.1,5.4,Harvard,-11.5,2,28,L,L,1.0,cbbd
+2026-11-13,Fri Nov 13 7:00 PM,Troy,N.C. State,H,card,-22.5,-18.7,-20.4,2.1,Troy,-22.5,2,19,W,W,0.0,cbbd
+2026-11-13,Fri Nov 13 7:00 PM,Mount St. Mary's,Virginia Tech,H,card,-28.5,-26.4,-29.7,1.2,Virginia Tech,-28.25,2,20,L,L,-0.2,cbbd
+2026-11-13,Fri Nov 13 7:00 PM,Yale,Northeastern,H,card,2.0,-0.2,-0.2,2.2,Northeastern,1.75,2,11,W,W,0.2,cbbd
+2026-11-13,Fri Nov 13 7:00 PM,Chattanooga,Elon,H,card,-2.5,-5.5,-5.5,3.0,Elon,-2.0,2,-7,L,L,-0.5,cbbd
+2026-11-13,Fri Nov 13 7:00 PM,Iona,Hofstra,H,card,-7.0,-8.1,-8.1,1.1,Hofstra,-7.25,2,3,L,L,0.2,cbbd
+2026-11-13,Fri Nov 13 7:00 PM,FIU,Florida Gulf Coast,H,card,-3.5,-2.3,-2.3,1.2,FIU,-3.0,2,-9,W,W,0.5,cbbd
+2026-11-13,Fri Nov 13 7:00 PM,Columbia,Bucknell,H,card,4.5,3.8,3.8,0.7,Bucknell,5.5,2,-18,L,L,-1.0,cbbd
+2026-11-13,Fri Nov 13 7:00 PM,Ohio,Purdue,H,card,-19.5,-17.0,-18.4,1.1,Ohio,-19.25,2,18,W,W,0.2,cbbd
+2026-11-13,Fri Nov 13 7:00 PM,Appalachian St.,Charlotte,H,card,-7.5,-5.5,-5.5,2.0,Appalachian St.,-7.5,2,-6,W,W,0.0,cbbd
+2026-11-13,Fri Nov 13 7:00 PM,Georgia,North Carolina,H,card,-4.5,-4.5,-4.5,0.0,Georgia,-3.75,2,-8,W,W,0.8,cbbd
+2026-11-13,Fri Nov 13 7:00 PM,Northern Arizona,Kentucky,H,card,-35.0,-26.9,-30.3,4.7,Northern Arizona,-32.75,2,1,W,W,2.2,cbbd
+2026-11-13,Fri Nov 13 7:00 PM,Prairie View A&M,Vanderbilt,H,card,-40.0,-32.2,-36.6,3.4,Prairie View A&M,-40.75,2,27,W,W,-0.8,cbbd
+2026-11-13,Fri Nov 13 7:00 PM,Tennessee St.,Tennessee,H,card,-29.5,-23.9,-26.7,2.8,Tennessee St.,-28.75,2,5,W,W,0.8,cbbd
+2026-11-13,Fri Nov 13 7:00 PM,Northern Iowa,Michigan St.,H,card,-28.5,-26.1,-29.3,0.8,Michigan St.,-28.0,2,34,W,W,-0.5,cbbd
+2026-11-13,Fri Nov 13 7:00 PM,Sam Houston St.,Illinois,H,card,-36.5,-26.2,-29.4,7.1,Sam Houston St.,-36.0,2,22,W,W,0.5,cbbd
+2026-11-13,Fri Nov 13 7:00 PM,Merrimack,Florida,H,card,-37.5,-30.8,-35.0,2.5,Merrimack,-36.5,2,29,W,W,1.0,cbbd
+2026-11-13,Fri Nov 13 7:00 PM,Marist,Lehigh,H,card,-1.5,1.6,1.6,3.1,Marist,-2.25,2,5,L,L,-0.8,cbbd
+2026-11-13,Fri Nov 13 7:30 PM,Southeast Missouri,Middle Tennessee,H,card,-5.5,-5.9,-5.9,0.4,Middle Tennessee,-6.0,0,13,W,W,0.5,oddsapi_hist
+2026-11-13,Fri Nov 13 7:30 PM,North Carolina Central,Liberty,H,card,-17.5,-15.4,-16.5,1.0,North Carolina Central,-16.5,0,8,W,W,1.0,oddsapi_hist
+2026-11-13,Fri Nov 13 7:30 PM,Ohio St.,Connecticut,H,card,-11.5,-12.2,-12.6,1.1,Connecticut,-11.5,0,16,W,W,0.0,oddsapi_hist
+2026-11-13,Fri Nov 13 7:30 PM,South Dakota,Drake,H,card,-13.5,-12.8,-13.4,0.1,South Dakota,-13.5,0,9,W,W,0.0,oddsapi_hist
+2026-11-13,Fri Nov 13 8:00 PM,Fairleigh Dickinson,Oklahoma,H,card,-31.5,-25.0,-28.0,3.5,Fairleigh Dickinson,-31.5,0,16,W,W,0.0,oddsapi_hist
+2026-11-13,Fri Nov 13 8:00 PM,SIUE,Duke,H,card,-44.5,-37.4,-42.9,1.6,SIUE,-43.5,0,43,W,W,1.0,oddsapi_hist
+2026-11-13,Fri Nov 13 8:00 PM,Virginia,Maryland,H,card,5.5,2.3,2.3,3.2,Maryland,6.0,0,-4,W,W,-0.5,oddsapi_hist
+2026-11-13,Fri Nov 13 8:00 PM,Central Arkansas,Arkansas,H,card,-25.5,-19.5,-21.4,4.1,Central Arkansas,-24.0,0,13,W,W,1.5,oddsapi_hist
+2026-11-13,Fri Nov 13 8:00 PM,Southern Miss,Texas St.,H,card,-11.0,-8.1,-8.1,2.9,Southern Miss,-10.5,0,20,L,L,0.5,oddsapi_hist
+2026-11-13,Fri Nov 13 8:00 PM,Texas Southern,Murray St.,H,card,-27.5,-19.8,-21.8,5.7,Texas Southern,-29.0,0,21,W,W,-1.5,oddsapi_hist
+2026-11-13,Fri Nov 13 8:00 PM,Illinois St.,North Dakota St.,H,card,2.5,0.8,0.8,1.7,North Dakota St.,3.5,0,1,W,W,-1.0,oddsapi_hist
+2026-11-13,Fri Nov 13 8:00 PM,Wright St.,Samford,H,card,1.5,3.3,3.3,1.8,Wright St.,1.25,0,-24,W,W,-0.2,oddsapi_hist
+2026-11-13,Fri Nov 13 8:00 PM,Alcorn St.,Tarleton St.,H,card,-14.5,-14.6,-15.5,1.0,Tarleton St.,-16.0,0,4,L,L,1.5,oddsapi_hist
+2026-11-13,Fri Nov 13 8:00 PM,Georgia Southern,UCF,H,card,-23.0,-17.8,-19.4,3.6,Georgia Southern,-22.5,0,14,W,W,0.5,oddsapi_hist
+2026-11-13,Fri Nov 13 8:00 PM,Milwaukee,TCU,H,card,-23.5,-17.3,-18.8,4.7,Milwaukee,-22.5,0,12,W,W,1.0,oddsapi_hist
+2026-11-13,Fri Nov 13 8:45 PM,Lindenwood,Nebraska Omaha,H,card,-4.5,-4.8,-4.8,0.3,Nebraska Omaha,-4.5,0,11,W,W,0.0,oddsapi_hist
+2026-11-13,Fri Nov 13 9:00 PM,Arizona,Auburn,H,card,3.0,1.4,1.4,1.6,Auburn,2.5,0,-11,L,L,0.5,oddsapi_hist
+2026-11-13,Fri Nov 13 9:00 PM,Seton Hall,Alabama,H,card,-16.5,-15.6,-16.7,0.2,Alabama,-17.5,0,6,L,L,1.0,oddsapi_hist
+2026-11-13,Fri Nov 13 9:00 PM,Stanford,UNLV,H,card,1.0,-1.9,-1.9,2.9,UNLV,1.0,0,8,W,W,0.0,oddsapi_hist
+2026-11-13,Fri Nov 13 9:00 PM,Cal Poly,Idaho,H,card,-1.5,-0.2,-0.2,1.3,Cal Poly,-1.5,0,-9,W,W,0.0,oddsapi_hist
+2026-11-13,Fri Nov 13 9:00 PM,Louisiana Monroe,Arizona St.,H,card,-32.5,-22.7,-25.2,7.3,Louisiana Monroe,-30.0,0,30,W,P,2.5,oddsapi_hist
+2026-11-13,Fri Nov 13 9:00 PM,Ball St.,SMU,H,card,-23.5,-17.0,-18.4,5.1,Ball St.,-22.5,0,25,L,L,1.0,oddsapi_hist
+2026-11-13,Fri Nov 13 9:00 PM,DePaul,Northwestern,H,card,1.5,-3.1,-3.1,4.6,Northwestern,-1.0,0,-20,L,L,2.5,oddsapi_hist
+2026-11-13,Fri Nov 13 9:00 PM,Xavier,Mississippi St.,N,card,3.5,4.0,4.0,0.5,Xavier,3.75,0,-18,W,W,0.2,oddsapi_hist
+2026-11-13,Fri Nov 13 9:30 PM,Mississippi Valley St.,Oregon St.,H,card,-33.5,-26.9,-30.3,3.2,Mississippi Valley St.,-35.0,0,16,W,W,-1.5,oddsapi_hist
+2026-11-13,Fri Nov 13 9:30 PM,Chicago St.,San Diego,H,card,-13.5,-11.0,-11.2,2.3,Chicago St.,-16.0,0,20,L,L,-2.5,oddsapi_hist
