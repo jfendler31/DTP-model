@@ -1425,8 +1425,8 @@ gameId,date,team,opponent,periods,source,reliable,team_min_raw,team_min_lev,comp
 374933,2026-11-13,Northern Arizona,Kentucky,2,onFloor,True,200.0,200.0,1.0,6.63,6.63,10,Ryan Abelman / Chris Komin / Lucas Toukam / Cade Bennett / Tamiel Green,1.0,False,True,-1,6.84
 374934,2026-11-13,Stanford,UNLV,2,onFloor,True,200.0,199.1,0.995,7.92,7.92,11,Austin Maurer / Julius Price / Elias Obenyah / Aziz Olajuwon / Nick Townsend,1.0,False,True,-8,8.67
 374934,2026-11-13,UNLV,Stanford,2,onFloor,True,200.0,199.1,0.995,7.69,7.69,9,Tyrin Jones / Cam Miles / Jackson Kiss / Sebastian Mack / Issac Williamson,1.0,True,True,8,8.44
-374935,2026-11-13,Miami,North Alabama,2,onFloor,True,200.0,104.5,0.523,9.1,8.09,11,Acaden Lewis / Dante Allen / Shelton Henderson / Nick Dorn / Somto Cyril,1.0,True,True,45,8.18
-374935,2026-11-13,North Alabama,Miami,2,onFloor,True,200.0,104.5,0.523,10.07,9.92,11,Mike Evbagharu / Caden Harris / Cortez Graham-Howard / Drey Carter / Ansar Osman,1.0,False,True,-45,9.92
+374935,2026-11-13,Miami,North Alabama,2,onFloor,True,200.0,104.5,0.523,9.1,8.09,11,Acaden Lewis / Dante Allen / Shelton Henderson / Nick Dorn / Somto Cyril,1.0,True,True,42,8.18
+374935,2026-11-13,North Alabama,Miami,2,onFloor,True,200.0,104.5,0.523,10.07,9.92,11,Mike Evbagharu / Caden Harris / Cortez Graham-Howard / Drey Carter / Ansar Osman,1.0,False,True,-42,9.92
 374936,2026-11-13,Hofstra,Iona,3,onFloor,True,225.0,225.0,1.0,7.19,7.19,9,Tanner Thomas / Nick Jefferson / Justin Moore / Joshua DeCady / Spence Wewe,1.0,True,True,3,7.65
 374936,2026-11-13,Iona,Hofstra,3,onFloor,True,225.0,225.0,1.0,8.95,8.95,11,Ore Odutayo / Nathan Kirk / Kevon Vanderhorst / Sadiku Ibine Ayo / Luke Jungers,1.0,False,True,-3,8.83
 374937,2026-11-13,Cleveland State,West Florida,2,onFloor,True,200.0,200.0,1.0,8.13,8.13,9,Curtis Stinson Jr. / Gavin Headings / Xavier McKinney / Alex Bruskotter / Ogbe Uagboe,1.0,True,True,2,8.2
