@@ -21,7 +21,9 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from team_names import kp, pn, match_name, same_player
 from price_core import Pricer
 
-ap = argparse.ArgumentParser(); ap.add_argument('--date'); ap.add_argument('--offline', action='store_true'); a = ap.parse_args()
+ap = argparse.ArgumentParser(); ap.add_argument('--date'); ap.add_argument('--offline', action='store_true')
+ap.add_argument('--price', action='store_true', help='write overrides for unpriced tracker out-statuses (only the 4:15 kickoff run passes this)')
+a = ap.parse_args()
 D = a.date or dt.datetime.now(ZoneInfo('America/New_York')).date().isoformat()
 day = lambda s, k: (dt.date.fromisoformat(s) + dt.timedelta(days=k)).isoformat()
 OUT = {'injured', 'out_season', 'ineligible', 'suspended', 'left', 'redshirt', 'personal'}
@@ -59,12 +61,20 @@ try:
         B = B.drop_duplicates(['gameId', 'team_kp', 'pk']).sort_values('date_ET')
 except Exception as e:
     log.append(f'! box scores unavailable ({e}); box-score rule skipped today'); B = pd.DataFrame()
+# Nov 14: the rotation store (every D-I and non-D-I player-game with minutes) backs up the API pull, which can miss players/games
+RS = pd.DataFrame()
+if os.path.exists('data/rotation/player_games.csv'):
+    _r = pd.read_csv('data/rotation/player_games.csv')
+    RS = pd.DataFrame({'date_ET': _r.date, 'team_kp': _r.team.map(lambda t: kp(t) or t), 'name': _r.athlete, 'minutes': _r.min_raw,
+                       'opponent': _r.opponent}); RS = RS[RS.minutes > 0]
 def played(team, player, since):
-    if not len(B): return None
-    tb = B[B.team_kp == team]; m = match_name(player, tb.name.unique())
-    if m is None: return None
-    x = tb[(tb.name == m) & (tb.date_ET >= since)]
-    return x.iloc[0] if len(x) else None
+    for src in (B, RS):
+        if not len(src): continue
+        tb = src[src.team_kp == team]; m = match_name(player, tb.name.unique())
+        if m is None: continue
+        x = tb[(tb.name == m) & (tb.date_ET >= since) & (tb.date_ET <= end)].sort_values('date_ET')
+        if len(x): return x.iloc[0]
+    return None
 
 # ---- tracker export (written by the 4:15 scheduled task)
 T = pd.DataFrame()
@@ -107,6 +117,8 @@ if len(T):
         g = played(t.team, t.player, day(t.updated_et, 1) if t.updated_et else start)   # strictly after the note's date
         if g is not None:
             log.append(f'tracker  {t.team} — {t.player}: tracker says {t.status}, but played {int(float(g.minutes))} min {g.date_ET} vs {g.opponent} — update the tracker')
+        elif t.team in teams and not has_override(t.team, t.player) and not a.price:
+            log.append(f'unpriced {t.team} — {t.player}: {t.status}{" (" + t.details + ")" if t.details else ""}, tracker {t.updated_et}, plays today (priced at the 4:15 run)')
         elif t.team in teams and not has_override(t.team, t.player):
             # Nov 13 (Jon): every out-status for a team playing today with no active override, whatever its age.
             # Nov 14 (Jon): price it and write the override (was: flag only).

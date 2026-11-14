@@ -40,7 +40,9 @@ jobs:
           # scoreboard check (Nov 11): results vs the close with 3P and FT luck removed, next to the composite move -> data/ratings/scoreboard_<date>.csv
           python jobs/scoreboard.py || echo "scoreboard check failed - card unaffected"
           # player sync (Nov 10): retire overrides for players who have played (box score controls) or whom the tracker clears; flag gaps
-          python jobs/sync_overrides.py $(echo $ARGS | grep -o -- '--date [0-9-]*') || echo "override sync failed - card uses overrides as-is"
+          # Nov 14: pricing new overrides only on the pushed kickoff (4:15 task or a manual card.txt push), never on GitHub's late crons
+          PRICE=""; if [ "${{ github.event_name }}" = "push" ]; then PRICE="--price"; fi
+          python jobs/sync_overrides.py $(echo $ARGS | grep -o -- '--date [0-9-]*') $PRICE || echo "override sync failed - card uses overrides as-is"
           python jobs/card.py $ARGS
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
