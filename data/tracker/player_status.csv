@@ -1,13 +1,14 @@
 id,team,team_tracker,player,status,details,back,hidden,updated,updated_et
+akron--exavier-wilson,Akron,Akron,Exavier Wilson,,,,True,2026-11-14T05:05:08.212Z,2026-11-14
 akron--kamrin-oriol,Akron,Akron,Kamrin Oriol,elig_tro,I think?,,False,2026-10-30T00:44:00.330Z,2026-10-29
-akron--max-burton,Akron,Akron,Max Burton,,,,False,2026-10-29T00:41:52.505Z,2026-10-28
+akron--max-burton,Akron,Akron,Max Burton,injured,Ankle injury October 2026,,False,2026-11-14T05:06:28.340Z,2026-11-14
 alabama--aden-holloway,Alabama,Alabama,Aden Holloway,suspended,Offseason suspension,11/9 vs. OAK,True,2026-11-09T13:42:15.213Z,2026-11-09
 alabama--jamarion-davis-fleming,Alabama,Alabama,Jamarion Davis-Fleming,injured,Missed OAK game (lower leg),,False,2026-11-10T23:40:01.376Z,2026-11-10
 arizona--rj-godfrey,Arizona,Arizona,RJ Godfrey,ineligible,Ineligible; withdrew his claim from GA case 10/28,,False,2026-10-29T00:40:36.232Z,2026-10-28
 arizona-state--ajak-nyuon,Arizona St.,Arizona State,Ajak Nyuon,,,,True,2026-11-07T04:09:44.070Z,2026-11-06
-arizona-state--emmanuel-innocenti,Arizona St.,Arizona State,Emmanuel Innocenti,injured,Missed NOCO game 11/6,,False,2026-11-07T04:10:24.647Z,2026-11-06
+arizona-state--emmanuel-innocenti,Arizona St.,Arizona State,Emmanuel Innocenti,playing,Missed NOCO game 11/6,,False,2026-11-13T14:57:34.630Z,2026-11-13
 arizona-state--jokubas-rudaitis,Arizona St.,Arizona State,Jokubas Rudaitis,,,,True,2026-11-07T04:10:03.212Z,2026-11-06
-arizona-state--jonathan-griman,Arizona St.,Arizona State,Jonathan Griman,injured,Missed NOCO game 11/6,,False,2026-11-07T04:10:36.542Z,2026-11-06
+arizona-state--jonathan-griman,Arizona St.,Arizona State,Jonathan Griman,injured,Missed NOCO game 11/6; expected back week of 11/15,,False,2026-11-13T14:57:46.752Z,2026-11-13
 arizona-state--marcus-vaughns,Arizona St.,Arizona State,Marcus Vaughns,injured,,,False,2026-11-07T04:09:49.724Z,2026-11-06
 arizona-state--nate-garcia,Arizona St.,Arizona State,Nate Garcia,,,,True,2026-11-07T04:10:09.458Z,2026-11-06
 arizona-state--vijay-wallace,Arizona St.,Arizona State,Vijay Wallace,,,,True,2026-11-07T04:10:05.070Z,2026-11-06
@@ -19,7 +20,7 @@ auburn--jeremiah-bowman,Auburn,Auburn,Jeremiah Bowman,,,,True,2026-10-23T03:37:1
 auburn--kolby-king,Auburn,Auburn,Kolby King,elig_tro,Ohio case,,False,2026-11-04T21:07:21.308Z,2026-11-04
 auburn--mantas-rubstavicius,Auburn,Auburn,Mantas Rubštavičius,out_season,Withdrew eligibility case; going back to Europe,,False,2026-10-28T03:07:15.423Z,2026-10-27
 byu--brody-kozlowski,BYU,BYU,Brody Kozlowski,,,,True,2026-11-10T05:48:54.375Z,2026-11-10
-byu--dawson-baker,BYU,BYU,Dawson Baker,injured,Recovering from Dec. 25 ACL surgery,Late Nov/Dec,False,2026-10-19T18:26:59.694Z,2026-10-19
+byu--dawson-baker,BYU,BYU,Dawson Baker,,Recovering from Dec. 25 ACL surgery,Late Nov/Dec,True,2026-11-13T12:51:53.844Z,2026-11-13
 byu--dean-rueckert,BYU,BYU,Dean Rueckert,,,,True,2026-11-10T05:48:53.216Z,2026-11-10
 byu--jaxon-kohler,BYU,BYU,Jaxon Kohler,elig_tro,Currently eligibile (California case),,False,2026-10-28T02:39:45.619Z,2026-10-27
 baylor--caden-powell,Baylor,Baylor,Caden Powell,elig_tro,,,False,2026-11-12T05:07:25.145Z,2026-11-12
@@ -36,14 +37,17 @@ boston-college--will-eggemeier,Boston College,Boston College,Will Eggemeier,,,,T
 bowling-green--christ-essandoko,Bowling Green,Bowling Green,Christ Essandoko,injured,On bench in street clothes 11/9,,False,2026-11-10T16:10:27.994Z,2026-11-10
 bowling-green--jayden-johnson,Bowling Green,Bowling Green,Jayden Johnson,,,,True,2026-11-12T05:12:26.099Z,2026-11-12
 bradley--gustavo-guimaraes,Bradley,Bradley,Gustavo Guimaraes,,,,True,2026-11-10T16:15:35.481Z,2026-11-10
+bradley--joshua-ibukunoluwa,Bradley,Bradley,Joshua Ibukunoluwa,injured,Missed Coppin game 11/12 (leg),,False,2026-11-13T16:51:53.776Z,2026-11-13
 bradley--race-kowalczyk,Bradley,Bradley,Race Kowalczyk,injured,,,False,2026-10-29T03:48:37.676Z,2026-10-28
-bradley--timoty-van-der-knaap,Bradley,Bradley,Timoty van der Knaap,injured,4-6 weeks as of mid-October,,False,2026-11-10T16:15:27.022Z,2026-11-10
+bradley--timoty-van-der-knaap,Bradley,Bradley,Timoty van der Knaap,injured,4-6 weeks as of mid-October,,True,2026-11-13T16:51:32.098Z,2026-11-13
+brown--adrian-uchidiuno,Brown,Brown,Adrian Uchidiuno,,,,True,2026-11-13T16:56:52.310Z,2026-11-13
 brown--charlie-o-sullivan,Brown,Brown,Charlie O'Sullivan,,,,True,2026-11-12T05:11:46.860Z,2026-11-12
 brown--isaiah-langham,Brown,Brown,Isaiah Langham,,,,True,2026-11-12T05:11:45.309Z,2026-11-12
 brown--malcolm-wrisby-jefferson,Brown,Brown,Malcolm Wrisby-Jefferson,,,,True,2026-11-12T05:11:49.137Z,2026-11-12
+california--amier-ali,California,California,Amier Ali,,,,True,2026-11-14T04:57:33.129Z,2026-11-13
+california--lee-dort,California,California,Lee Dort,injured,"Allegedly still ""day-to-day""",,False,2026-11-14T04:58:01.650Z,2026-11-13
 canisius--nate-deer,Canisius,Canisius,Nate Deer,,,,True,2026-11-12T05:09:09.318Z,2026-11-12
 central-connecticut-state--victor-payne,Central Connecticut,Central Connecticut State,Victor Payne,,,,True,2026-11-08T14:18:36.190Z,2026-11-08
-charlotte--chaze-harris,Charlotte,Charlotte,Chaze Harris,injured,Left early in GAST game 11/5,,False,2026-11-06T16:29:43.790Z,2026-11-06
 charlotte--jordi-rodriguez,Charlotte,Charlotte,Jordi Rodriguez,,,,True,2026-11-04T21:38:48.372Z,2026-11-04
 charlotte--jordi-rodriguez-stegemeijer,Charlotte,Charlotte,Jordi Rodriguez-Stegemeijer,,,,False,2026-11-06T16:29:41.054Z,2026-11-06
 charlotte--lance-barnes,Charlotte,Charlotte,Lance Barnes,,,,True,2026-11-04T21:38:33.488Z,2026-11-04
@@ -60,9 +64,12 @@ clemson--zac-foster,Clemson,Clemson,Zac Foster,out_season,Torn ACL Sept. 2026,,F
 colorado--eric-jacobsen,Colorado,Colorado,Eric Jacobsen,,,,True,2026-11-10T05:45:14.629Z,2026-11-10
 colorado--iaroslav-niagu,Colorado,Colorado,Iaroslav Niagu,ineligible,Currently ineligible (Wisne case),,False,2026-10-19T19:32:13.394Z,2026-10-19
 colorado--luke-mirhashemi,Colorado,Colorado,Luke Mirhashemi,,,,True,2026-11-07T15:35:42.861Z,2026-11-07
+colorado--nick-randall,Colorado,Colorado,Nick Randall,,,,True,2026-11-14T05:30:38.038Z,2026-11-14
 colorado--rider-portela,Colorado,Colorado,Rider Portela,,,,True,2026-10-19T19:31:07.893Z,2026-10-19
+colorado-state--eric-fiedler,Colorado St.,Colorado State,Eric Fiedler,,,,True,2026-11-14T05:12:33.434Z,2026-11-14
+colorado-state--river-sawyer,Colorado St.,Colorado State,River Sawyer,,,,True,2026-11-14T05:12:32.509Z,2026-11-14
 columbia--miles-franklin,Columbia,Columbia,Miles Franklin,injured,"""undisclosed injury""",,False,2026-11-09T16:11:29.857Z,2026-11-09
-uconn--braylon-mullins,Connecticut,UConn,Braylon Mullins,playing,Practicing but limited,Opener,True,2026-10-28T02:05:57.732Z,2026-10-27
+uconn--nik-khamenia,Connecticut,UConn,Nik Khamenia,injured,Out 6-8 weeks as of 11/12,,False,2026-11-13T23:28:28.412Z,2026-11-13
 uconn--solo-ball,Connecticut,UConn,Solo Ball,out_season,Wrist surgery; will miss season,,False,2026-10-20T03:05:31.422Z,2026-10-19
 creighton--brody-robinson,Creighton,Creighton,Brody Robinson,elig_tro,TRO granted 11/10,,False,2026-11-11T02:46:21.663Z,2026-11-10
 creighton--fredrick-king,Creighton,Creighton,Fredrick King,elig_tro,,,True,2026-10-24T17:37:27.225Z,2026-10-24
@@ -96,12 +103,16 @@ eastern-michigan--sencire-harris,Eastern Michigan,Eastern Michigan,Sencire Harri
 eastern-washington--andrew-cook,Eastern Washington,Eastern Washington,Andrew Cook,injured,Missed opener vs Stanford; still out,,False,2026-11-06T16:30:00.000Z,2026-11-06
 eastern-washington--tavi-jackson,Eastern Washington,Eastern Washington,Tavi Jackson,,,,True,2026-10-26T10:46:51.943Z,2026-10-26
 elon--iker-garmendia,Elon,Elon,Iker Garmendia,,,,True,2026-11-10T05:38:08.631Z,2026-11-10
+elon--raul-villar,Elon,Elon,Raul Villar,injured,DNP Chattanooga 11/13 (shoulder),,False,2026-11-14T04:48:46.482Z,2026-11-13
 evansville--jr-kemm,Evansville,Evansville,JR Kemm,,,,True,2026-11-07T15:18:43.873Z,2026-11-07
+evansville--luke-ellspermann,Evansville,Evansville,Luke Ellspermann,,,,True,2026-11-14T05:13:33.356Z,2026-11-14
+evansville--yannick-pinas,Evansville,Evansville,Yannick Pinas,,,,True,2026-11-14T05:13:34.632Z,2026-11-14
 fiu--huascar-cuevas,FIU,FIU,Huascar Cuevas,,,,True,2026-11-06T23:46:44.377Z,2026-11-06
 fiu--huascar-cuevas-lozano,FIU,FIU,Huascar Cuevas Lozano,,,,True,2026-11-06T23:46:42.402Z,2026-11-06
 fiu--jerald-colonel,FIU,FIU,Jerald Colonel,ineligible,Withdrew from GA case 10/28,,False,2026-10-29T00:40:59.990Z,2026-10-28
 fairfield--brayden-jones,Fairfield,Fairfield,Brayden Jones,,,,True,2026-11-10T05:45:28.172Z,2026-11-10
 florida--aj-brown,Florida,Florida,AJ Brown,,,,True,2026-11-10T05:37:22.143Z,2026-11-10
+florida--boogie-fland,Florida,Florida,Boogie Fland,playing,DNP Merrimack 11/13; minor shoulder injury,,False,2026-11-14T04:48:19.803Z,2026-11-13
 florida--cj-ingram,Florida,Florida,CJ Ingram,injured,Back injury,Unknown,False,2026-10-28T02:32:20.085Z,2026-10-27
 florida--denzel-aberdeen,Florida,Florida,Denzel Aberdeen,elig_tro,NCAA motion denied 10/28,,False,2026-10-29T00:47:56.161Z,2026-10-28
 florida--jones-lay,Florida,Florida,Jones Lay,,,,True,2026-10-28T02:30:57.269Z,2026-10-27
@@ -181,6 +192,8 @@ lsu--rj-luis,LSU,LSU,RJ Luis,ineligible,Baton Rouge injunction,,False,2026-11-04
 lsu--saliou-niang,LSU,LSU,Saliou Niang,playing,Eligible (Jon ruling 2026-10-20; migrated from eligibility_overrides.csv),,True,2026-10-24T17:09:08.411Z,2026-10-24
 lsu--skyy-clark,LSU,LSU,Skyy Clark,elig_tro,Temporarily eligible (Kentucky case),,False,2026-10-24T17:09:36.856Z,2026-10-24
 lsu--strake-pearson,LSU,LSU,Strake Pearson,,,,True,2026-10-24T17:10:38.296Z,2026-10-24
+lafayette--aaron-sievert,Lafayette,Lafayette,Aaron Sievert,,,,True,2026-11-14T04:53:00.180Z,2026-11-13
+lafayette--malik-rasul,Lafayette,Lafayette,Malik Rasul,,,,True,2026-11-14T04:53:01.381Z,2026-11-13
 lamar--matt-reed,Lamar,Lamar,Matt Reed,,,,True,2026-11-07T16:20:52.910Z,2026-11-07
 liberty--dillon-claussen,Liberty,Liberty,Dillon Claussen,out_season,Torn ACL,,False,2026-11-08T12:15:51.013Z,2026-11-08
 liberty--osmar-garcia-araujo,Liberty,Liberty,Osmar Garcia-Araujo,,,,True,2026-11-13T05:13:23.750Z,2026-11-13
@@ -191,6 +204,9 @@ lipscomb--or-ashkenazi,Lipscomb,Lipscomb,Or Ashkenazi,,,,True,2026-11-04T21:00:4
 lipscomb--sam-groth,Lipscomb,Lipscomb,Sam Groth,,,,True,2026-11-04T21:00:49.406Z,2026-11-04
 louisville--de-shayne-montgomery,Louisville,Louisville,De'Shayne Montgomery,injured,Out 4-6 weeks,,False,2026-11-03T00:05:55.799Z,2026-11-02
 louisville--gabe-dynes,Louisville,Louisville,Gabe Dynes,out_season,Shoulder surgery,,False,2026-10-28T22:47:24.405Z,2026-10-28
+loyola-chicago--donald-hand,Loyola Chicago,Loyola Chicago,Donald Hand,,,,True,2026-11-14T05:12:47.672Z,2026-11-14
+loyola-chicago--elias-rapieque,Loyola Chicago,Loyola Chicago,Elias Rapieque,,,,True,2026-11-14T05:12:52.172Z,2026-11-14
+loyola-chicago--malick-diallo,Loyola Chicago,Loyola Chicago,Malick Diallo,,,,True,2026-11-14T05:12:50.219Z,2026-11-14
 loyola-marymount--bam-paschal,Loyola Marymount,Loyola Marymount,Bam Paschal,,,,True,2026-11-10T16:13:31.438Z,2026-11-10
 loyola-marymount--christian-humphrey-rembert,Loyola Marymount,Loyola Marymount,Christian Humphrey-Rembert,,,,True,2026-11-10T16:12:49.571Z,2026-11-10
 loyola-marymount--donovan-miller,Loyola Marymount,Loyola Marymount,Donovan Miller,,,,True,2026-11-10T16:12:32.035Z,2026-11-10
@@ -215,6 +231,9 @@ mercyhurst--chris-leman,Mercyhurst,Mercyhurst,Chris Leman,,,,True,2026-11-12T05:
 miami-fl--lj-cason,Miami FL,Miami (FL),LJ Cason,injured,ACL surgery April '26,Poss. Late Season,False,2026-10-24T18:16:25.330Z,2026-10-24
 miami-fl--malik-reneau,Miami FL,Miami (FL),Malik Reneau,elig_tro,DNP exhibitions (Indiana case),Opener,False,2026-10-30T17:03:14.206Z,2026-10-30
 miami-fl--marcus-allen,Miami FL,Miami (FL),Marcus Allen,out_season,ACL surgery summer '26,,False,2026-10-24T18:16:54.163Z,2026-10-24
+miami-oh--luke-skaljac,Miami OH,Miami (OH),Luke Skaljac,playing,Missed BELL game 11/7,,False,2026-11-14T05:16:20.971Z,2026-11-14
+miami-oh--preston-copeland,Miami OH,Miami (OH),Preston Copeland,,,,True,2026-11-14T05:16:08.594Z,2026-11-14
+miami-oh--rich-rolf,Miami OH,Miami (OH),Rich Rolf,,,,True,2026-11-14T05:16:05.840Z,2026-11-14
 michigan--brandon-mccoy,Michigan,Michigan,Brandon McCoy,out_season,ACL surgery,,False,2026-10-19T18:56:45.101Z,2026-10-19
 michigan--kenny-noland,Michigan,Michigan,Kenny Noland,elig_tro,Indiana case,,False,2026-11-02T01:59:22.469Z,2026-11-01
 michigan--lincoln-cosby,Michigan,Michigan,Lincoln Cosby,injured,Likely redshirt,,False,2026-10-19T18:58:32.641Z,2026-10-19
@@ -242,10 +261,10 @@ missouri--luke-northweather,Missouri,Missouri,Luke Northweather,injured,GTD for 
 monmouth--jack-leahy,Monmouth,Monmouth,Jack Leahy,,,,True,2026-11-07T20:45:50.713Z,2026-11-07
 monmouth--jinup-dobuol,Monmouth,Monmouth,Jinup Dobuol,,,,True,2026-10-26T10:48:29.194Z,2026-10-26
 monmouth--quinn-peters,Monmouth,Monmouth,Quinn Peters,,,,True,2026-11-07T20:45:52.481Z,2026-11-07
-montana--amari-jedkins,Montana,Montana,Amari Jedkins,playing,,,False,2026-11-10T14:13:24.537Z,2026-11-10
+montana--amari-jedkins,Montana,Montana,Amari Jedkins,playing,,,True,2026-11-14T05:10:42.635Z,2026-11-14
 montana--courtney-anderson-jr,Montana,Montana,Courtney Anderson Jr,,,,True,2026-11-10T14:12:50.795Z,2026-11-10
 montana--garret-dutro,Montana,Montana,Garret Dutro,,,,True,2026-11-10T14:12:53.860Z,2026-11-10
-montana--jalen-brown,Montana,Montana,Jalen Brown,playing,,,False,2026-11-10T14:13:22.715Z,2026-11-10
+montana--jalen-brown,Montana,Montana,Jalen Brown,playing,,,True,2026-11-14T05:10:36.733Z,2026-11-14
 montana--kenyon-aguino,Montana,Montana,Kenyon Aguino,injured,"""Needs more time"" (foot)",,False,2026-11-10T14:13:37.200Z,2026-11-10
 montana-state--jed-miller,Montana St.,Montana State,Jed Miller,injured,Unknown,,True,2026-11-12T05:06:04.945Z,2026-11-12
 montana-state--london-praytor,Montana St.,Montana State,London Praytor,,,,True,2026-11-12T05:11:24.542Z,2026-11-12
@@ -265,7 +284,9 @@ nicholls--jah-mel-bruce,Nicholls,Nicholls,Jah-Mel Bruce,,,,True,2026-11-10T17:07
 north-carolina--cameron-fens,North Carolina,North Carolina,Cameron Fens,ineligible,Currently ineligible (Tennessee),,False,2026-10-19T18:18:38.128Z,2026-10-19
 north-carolina--kevin-thomas,North Carolina,North Carolina,Kevin Thomas,,,,True,2026-11-10T05:37:15.656Z,2026-11-10
 north-carolina--malloy-smith,North Carolina,North Carolina,Malloy Smith,injured,Unknown,,False,2026-10-19T18:18:47.963Z,2026-10-19
+north-texas--mitchell-holmes,North Texas,North Texas,Mitchell Holmes,injured,Undetermined injury,,False,2026-11-14T04:41:50.019Z,2026-11-13
 northern-arizona--jt-amundsen,Northern Arizona,Northern Arizona,JT Amundsen,,,,True,2026-11-07T16:23:08.691Z,2026-11-07
+northern-arizona--zach-tanner,Northern Arizona,Northern Arizona,Zach Tanner,,,,True,2026-11-13T23:37:39.133Z,2026-11-13
 northern-illinois--akiva-mcbirney-griffin,Northern Illinois,Northern Illinois,Akiva McBirney-Griffin,,,,True,2026-11-07T16:11:57.139Z,2026-11-07
 northern-illinois--jack-daugherty,Northern Illinois,Northern Illinois,Jack Daugherty,,,,True,2026-11-07T16:11:30.304Z,2026-11-07
 northern-illinois--mykolas-ivanauskas,Northern Illinois,Northern Illinois,Mykolas Ivanauskas,,,,True,2026-11-07T16:12:08.522Z,2026-11-07
@@ -293,15 +314,18 @@ oregon--malique-ewin,Oregon,Oregon,Malique Ewin,,,,True,2026-10-26T10:40:12.660Z
 oregon--rian-gonzales,Oregon,Oregon,Rian Gonzales,,,,True,2026-11-06T18:52:59.372Z,2026-11-06
 oregon--sean-stewart,Oregon,Oregon,Sean Stewart,,,,True,2026-10-26T10:39:56.600Z,2026-10-26
 oregon--tyrone-riley,Oregon,Oregon,Tyrone Riley,injured,Broken finger,4-6 weeks (from Nov 6),False,2026-11-06T16:30:00.000Z,2026-11-06
+penn--dorian-glogovac,Penn,Penn,Dorian Glogovac,,,,True,2026-11-14T05:36:43.366Z,2026-11-14
 penn-state--reggie-grodin,Penn St.,Penn State,Reggie Grodin,,,,True,2026-11-12T05:10:44.456Z,2026-11-12
 penn-state--roberts-blums,Penn St.,Penn State,Roberts Blums,injured,Broken finger; 3-5 weeks,,False,2026-11-08T14:10:35.924Z,2026-11-08
 pittsburgh--jajuan-nelson,Pittsburgh,Pittsburgh,Jajuan Nelson,,,,True,2026-11-04T21:37:46.912Z,2026-11-04
 pittsburgh--timofei-rudovskii,Pittsburgh,Pittsburgh,Timofei Rudovskii,injured,,,False,2026-11-04T21:38:08.768Z,2026-11-04
+portland-state--jaquay-randolph,Portland St.,Portland State,Jaquay Randolph,,,,True,2026-11-14T05:42:54.390Z,2026-11-14
 providence--arrinten-page,Providence,Providence,Arrinten Page,playing,Day-to-day; GTD,,False,2026-11-07T15:17:08.132Z,2026-11-07
 providence--devin-vanterpool,Providence,Providence,Devin Vanterpool,playing,Day-to-day; GTD,Maybe Nebraska,True,2026-11-10T05:49:28.012Z,2026-11-10
 providence--elijah-saunders,Providence,Providence,Elijah Saunders,,,,True,2026-11-10T05:49:35.405Z,2026-11-10
 providence--john-jackson,Providence,Providence,John Jackson,,,,True,2026-11-07T15:17:09.939Z,2026-11-07
-providence--samson-aletan,Providence,Providence,Samson Aletan,,,,True,2026-11-10T05:49:55.472Z,2026-11-10
+providence--ryan-mela,Providence,Providence,Ryan Mela,playing,Missed BRY game 11/10 (shin splints),,False,2026-11-14T05:32:17.147Z,2026-11-14
+providence--samson-aletan,Providence,Providence,Samson Aletan,playing,Missed BRY game 11/10 (illness),,False,2026-11-14T05:32:06.050Z,2026-11-14
 purdue-fort-wayne--adam-walker,Purdue Fort Wayne,Purdue Fort Wayne,Adam Walker,,,,True,2026-11-12T05:14:45.133Z,2026-11-12
 queens--dante-kearse,Queens,Queens,Dante Kearse,,,,True,2026-11-04T21:03:25.734Z,2026-11-04
 queens--jack-walter,Queens,Queens,Jack Walter,,,,True,2026-11-04T21:05:17.359Z,2026-11-04
@@ -316,6 +340,7 @@ queens--tyler-crider,Queens,Queens,Tyler Crider,,,,True,2026-11-04T21:05:16.001Z
 quinnipiac--tayeshawn-cunningham,Quinnipiac,Quinnipiac,Tayeshawn Cunningham,,,,True,2026-11-12T05:13:03.910Z,2026-11-12
 quinnipiac--tayeshawn-cunningham-pemberton,Quinnipiac,Quinnipiac,Tayeshawn Cunningham-Pemberton,,,,True,2026-11-12T05:13:02.378Z,2026-11-12
 rhode-island--miftah-ibeyemi,Rhode Island,Rhode Island,Miftah Ibeyemi,,,,True,2026-11-07T20:46:00.722Z,2026-11-07
+rice--jarne-elouna-eyenga,Rice,Rice,Jarne Elouna Eyenga,,,,True,2026-11-14T04:48:56.149Z,2026-11-13
 richmond--sam-simmons-jr,Richmond,Richmond,Sam Simmons Jr,,,,True,2026-11-12T05:12:34.883Z,2026-11-12
 rutgers--kaden-powers,Rutgers,Rutgers,Kaden Powers,playing,Illness,,False,2026-11-10T15:57:52.680Z,2026-11-10
 smu--gehrig-normand,SMU,SMU,Gehrig Normand,,,,True,2026-11-10T05:54:13.373Z,2026-11-10
@@ -323,7 +348,7 @@ smu--jacob-patrick,SMU,SMU,Jacob Patrick,,,,True,2026-11-10T05:54:11.902Z,2026-1
 smu--jaylin-stewart,SMU,SMU,Jaylin Stewart,injured,Knee injury,Unknown,False,2026-11-04T21:41:43.349Z,2026-11-04
 saint-joseph-s--donovan-flamer,Saint Joseph's,Saint Joseph's,Donovan Flamer,,,,True,2026-11-12T12:07:53.989Z,2026-11-12
 saint-joseph-s--gavin-marrs,Saint Joseph's,Saint Joseph's,Gavin Marrs,,,,True,2026-11-12T12:07:56.107Z,2026-11-12
-saint-joseph-s--jaiden-glover-toscano,Saint Joseph's,Saint Joseph's,Jaiden Glover-Toscano,playing,Left USF game 11/11 late 1H; did not return,,False,2026-11-12T12:08:21.255Z,2026-11-12
+saint-joseph-s--jaiden-glover-toscano,Saint Joseph's,Saint Joseph's,Jaiden Glover-Toscano,injured,Left USF game late 1H,,False,2026-11-14T05:36:33.779Z,2026-11-14
 saint-louis--elijah-strong,Saint Louis,Saint Louis,Elijah Strong,,,,True,2026-11-10T05:51:32.470Z,2026-11-10
 saint-louis--isaac-holmes,Saint Louis,Saint Louis,Isaac Holmes,,,,True,2026-11-06T18:43:00.433Z,2026-11-06
 saint-louis--jaden-schertz,Saint Louis,Saint Louis,Jaden Schertz,,,,True,2026-11-06T18:42:58.824Z,2026-11-06
@@ -341,6 +366,7 @@ san-diego-state--bear-cherry,San Diego St.,San Diego State,Bear Cherry,,,,True,2
 san-diego-state--cam-lawin,San Diego St.,San Diego State,Cam Lawin,,,,True,2026-11-07T15:36:02.669Z,2026-11-07
 san-diego-state--jeremiah-bear-cherry,San Diego St.,San Diego State,"Jeremiah ""Bear"" Cherry",,,,True,2026-11-07T15:35:59.880Z,2026-11-07
 san-diego-state--nick-anderson,San Diego St.,San Diego State,Nick Anderson,injured,ACL surgery June 2026,Poss. late season,False,2026-10-24T17:24:08.252Z,2026-10-24
+san-francisco--ismaila-diagne,San Francisco,San Francisco,Ismaila Diagne,playing,Missed MONT game 11/11 (illness),,False,2026-11-14T05:42:46.626Z,2026-11-14
 san-francisco--ndewedo-newbury,San Francisco,San Francisco,Ndewedo Newbury,injured,,,True,2026-10-20T02:45:37.851Z,2026-10-19
 san-francisco--yoav-vitlem,San Francisco,San Francisco,Yoav Vitlem,,,,True,2026-10-27T02:57:21.033Z,2026-10-26
 san-francisco--ziga-daneu,San Francisco,San Francisco,Žiga Daneu,,,,True,2026-10-27T02:57:38.687Z,2026-10-26
@@ -348,13 +374,21 @@ san-jose-state--damase-coly,San Jose St.,San Jose State,Damase Coly,,,,True,2026
 san-jose-state--scotty-middleton,San Jose St.,San Jose State,Scotty Middleton,injured,DNP exhibitions,,False,2026-11-07T15:29:54.430Z,2026-11-07
 seattle--maleek-arington,Seattle,Seattle,Maleek Arington,elig_tro,Just granted eligibility (California TRO),Opener,False,2026-11-04T20:57:38.975Z,2026-11-04
 seattle--mason-williams,Seattle,Seattle,Mason Williams,injured,Foot injury; missed UTSA game 11/11,,False,2026-11-12T18:09:36.238Z,2026-11-12
+seton-hall--terry-copeland,Seton Hall,Seton Hall,Terry Copeland,playing,Missed BAMA game 11/13 (illness),,False,2026-11-14T04:50:01.085Z,2026-11-13
 siena--brendan-coyle,Siena,Siena,Brendan Coyle,playing,,Opener,True,2026-11-03T18:14:11.443Z,2026-11-03
 siena--chris-torres,Siena,Siena,Chris Torres,,,,True,2026-11-08T12:15:59.661Z,2026-11-08
 siena--owen-schlager,Siena,Siena,Owen Schlager,,,,True,2026-11-10T16:05:42.092Z,2026-11-10
 siena--yannis-steger,Siena,Siena,Yannis Steger,injured,Out for Season,,False,2026-11-03T18:13:16.484Z,2026-11-03
+south-alabama--aaron-goldstein,South Alabama,South Alabama,Aaron Goldstein,injured,Left LMU game 2H; looked bad (knee),,False,2026-11-14T04:40:51.680Z,2026-11-13
 south-carolina--cam-heide,South Carolina,South Carolina,Cam Heide,injured,Missed SPC game 11/11 (sprained wirst),,False,2026-11-11T23:55:33.967Z,2026-11-11
 south-carolina--hayden-assemian,South Carolina,South Carolina,Hayden Assemian,,,,True,2026-11-11T23:55:15.759Z,2026-11-11
 south-carolina--marcus-johnson,South Carolina,South Carolina,Marcus Johnson,,,,True,2026-11-11T23:55:14.261Z,2026-11-11
+south-dakota--melo-sanchez,South Dakota,South Dakota,Melo Sanchez,,,,True,2026-11-14T04:48:54.465Z,2026-11-13
+south-florida--aj-dancler,South Florida,South Florida,AJ Dancler,out_season,ACL surgery August 2026,,False,2026-11-14T05:02:49.786Z,2026-11-14
+south-florida--darren-moore,South Florida,South Florida,Darren Moore,,,,True,2026-11-14T05:02:53.803Z,2026-11-14
+south-florida--josh-omajofo,South Florida,South Florida,Josh Omajofo,,,,True,2026-11-14T05:02:29.099Z,2026-11-14
+south-florida--josh-omojafo,South Florida,South Florida,Josh Omojafo,,,,True,2026-11-14T05:02:30.969Z,2026-11-14
+south-florida--richard-goods,South Florida,South Florida,Richard Goods,,,,True,2026-11-14T05:02:52.657Z,2026-11-14
 southern-illinois--brock-mcclure,Southern Illinois,Southern Illinois,Brock McClure,injured,Unknown,,True,2026-11-12T05:08:49.947Z,2026-11-12
 southern-illinois--damien-mayo-jr,Southern Illinois,Southern Illinois,Damien Mayo Jr.,,,,True,2026-11-12T05:08:53.162Z,2026-11-12
 southern-illinois--donovan-hill,Southern Illinois,Southern Illinois,Donovan Hill,injured,Unknown,,False,2026-11-06T16:56:04.611Z,2026-11-06
@@ -375,6 +409,7 @@ tcu--gavin-sykes,TCU,TCU,Gavin Sykes,,,,True,2026-11-10T05:43:09.977Z,2026-11-10
 tennessee--jalen-washington,Tennessee,Tennessee,Jalen Washington,ineligible,Currently ineligible (Tennessee case),,False,2026-10-19T18:51:55.312Z,2026-10-19
 tennessee--ralph-scott,Tennessee,Tennessee,Ralph Scott,out_season,Knee surgery,,False,2026-10-19T18:48:16.454Z,2026-10-19
 tennessee-tech--cohenj-gonzales,Tennessee Tech,Tennessee Tech,Cohenj Gonzales,,,,True,2026-11-13T04:48:54.974Z,2026-11-12
+texas-a-and-m--cade-phillips,Texas A&M,Texas A&M,Cade Phillips,injured,Missed OKST game 11/12; out a few weeks,,False,2026-11-13T16:52:30.823Z,2026-11-13
 texas-a-and-m--neiko-mundey,Texas A&M,Texas A&M,Neiko Mundey,personal,"""Personal matter""",,True,2026-11-10T13:44:05.934Z,2026-11-10
 texas-a-and-m--preston-clark,Texas A&M,Texas A&M,Preston Clark,,,,True,2026-11-06T18:51:32.542Z,2026-11-06
 texas-a-and-m--rylan-griffen,Texas A&M,Texas A&M,Rylan Griffen,elig_tro,Eligible as of 11/5,,False,2026-11-10T13:44:03.333Z,2026-11-10
@@ -385,6 +420,7 @@ toledo--austin-parks,Toledo,Toledo,Austin Parks,injured,Missed Michigan St. game
 toledo--rich-barron,Toledo,Toledo,Rich Barron,,,,True,2026-11-07T15:39:36.277Z,2026-11-07
 toledo--toby-nwokolo,Toledo,Toledo,Toby Nwokolo,,,,True,2026-11-10T05:52:00.741Z,2026-11-10
 towson--stephon-ashley-wright,Towson,Towson,Stephon Ashley-Wright,,,,True,2026-11-12T05:10:29.056Z,2026-11-12
+tulane--robert-moore,Tulane,Tulane,Robert Moore,,,,True,2026-11-14T05:07:43.920Z,2026-11-14
 tulsa--kaleb-banks,Tulsa,Tulsa,Kaleb Banks,elig_tro,,,False,2026-11-12T05:06:56.164Z,2026-11-12
 uab--kyeron-lindsay-martin,UAB,UAB,Kyeron Lindsay-Martin,ineligible,Awaiting NCAA clearance,Poss. Opener,False,2026-10-28T14:01:34.988Z,2026-10-28
 uc-riverside--dallas-washington,UC Riverside,UC Riverside,Dallas Washington,,,,True,2026-11-12T05:12:41.782Z,2026-11-12
@@ -410,6 +446,7 @@ utah--styles-clemmons,Utah,Utah,Styles Clemmons,,,,True,2026-11-10T05:42:55.125Z
 utah--trey-campbell,Utah,Utah,Trey Campbell,elig_tro,Currently eligible (TRO in Utah case),,False,2026-10-20T16:19:26.807Z,2026-10-20
 utah-state--bron-roberts,Utah St.,Utah State,Bron Roberts,injured,Torn ACL in February,Late Season,False,2026-10-20T02:31:41.942Z,2026-10-19
 utah-state--collin-mulholland,Utah St.,Utah State,Collin Mulholland,injured,Sprained ankle,Possibly opener,False,2026-10-20T02:31:54.271Z,2026-10-19
+utah-tech--samuel-ariyibi,Utah Tech,Utah Tech,Samuel Ariyibi,,,,True,2026-11-14T04:55:34.159Z,2026-11-13
 vanderbilt--gabe-nesmith,Vanderbilt,Vanderbilt,Gabe Nesmith,out_season,likely out for season,,False,2026-11-03T20:09:12.079Z,2026-11-03
 vanderbilt--t-o-barrett,Vanderbilt,Vanderbilt,T.O. Barrett,playing,"Practicing recently, warmed up before game",Opener,True,2026-11-03T20:09:26.307Z,2026-11-03
 villanova--abdou-samb,Villanova,Villanova,Abdou Samb,,,,True,2026-11-10T05:38:28.277Z,2026-11-10
