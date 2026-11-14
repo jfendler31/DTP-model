@@ -16881,6 +16881,28 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374946,2026-11-13,Troy,NC State,2632,Caden Diggs,7.7,7.7,0.0
 374946,2026-11-13,Troy,NC State,200781,Jayme Kontuniemi,1.27,0.0,0.0
 374946,2026-11-13,Troy,NC State,232949,Tucker Wadsworth,1.27,0.0,0.0
+374947,2026-11-13,Arizona State,UL Monroe,6885,Paulius Murauskas,30.5,20.7,7.23
+374947,2026-11-13,Arizona State,UL Monroe,201808,Dillan Shaw,28.85,18.63,6.91
+374947,2026-11-13,Arizona State,UL Monroe,201472,Joel Foxwell,28.88,18.62,5.16
+374947,2026-11-13,Arizona State,UL Monroe,3986,Ben Defty,22.68,16.8,6.23
+374947,2026-11-13,Arizona State,UL Monroe,223173,JRob Croy,27.38,16.43,6.48
+374947,2026-11-13,Arizona State,UL Monroe,2524,Bryce Ford,20.87,8.4,3.14
+374947,2026-11-13,Arizona State,UL Monroe,223179,Filip Malesevic,10.12,3.89,0.99
+374947,2026-11-13,Arizona State,UL Monroe,223181,Ajak Nyuon,9.5,0.0,0.0
+374947,2026-11-13,Arizona State,UL Monroe,198011,Vijay Wallace,7.95,0.0,0.0
+374947,2026-11-13,Arizona State,UL Monroe,198418,Nate Garcia,7.2,0.0,0.0
+374947,2026-11-13,Arizona State,UL Monroe,223182,Jokubas Rudaitis,6.07,0.0,0.0
+374947,2026-11-13,UL Monroe,Arizona State,233162,Phillip Tillman,32.85,19.6,7.23
+374947,2026-11-13,UL Monroe,Arizona State,17868,Dayjaun Anderson,33.98,17.48,6.91
+374947,2026-11-13,UL Monroe,Arizona State,202674,Lance Carr,23.85,16.19,4.11
+374947,2026-11-13,UL Monroe,Arizona State,233158,Ziyade Ndancky,27.37,15.46,4.48
+374947,2026-11-13,UL Monroe,Arizona State,233163,Mike White,23.35,11.27,3.58
+374947,2026-11-13,UL Monroe,Arizona State,600,Robert Cowherd,8.95,8.7,3.44
+374947,2026-11-13,UL Monroe,Arizona State,5873,Khalil London,19.12,7.65,2.39
+374947,2026-11-13,UL Monroe,Arizona State,233161,Guillaume Schoentgen,14.8,3.39,0.51
+374947,2026-11-13,UL Monroe,Arizona State,233149,Martins Adonry,10.27,2.87,2.75
+374947,2026-11-13,UL Monroe,Arizona State,233153,Grant Chamberlain,4.88,0.86,0.75
+374947,2026-11-13,UL Monroe,Arizona State,233159,Cooper Nelson,0.58,0.0,0.0
 374948,2026-11-13,Arkansas,Central Arkansas,7825,Billy Richmond III,36.5,33.86,7.62
 374948,2026-11-13,Arkansas,Central Arkansas,2060,Cooper Bowser,29.47,26.92,6.06
 374948,2026-11-13,Arkansas,Central Arkansas,223198,Davion Thompson,29.03,26.39,4.82
@@ -16903,6 +16925,29 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374948,2026-11-13,Central Arkansas,Arkansas,228969,Isaiah Templeton,1.98,1.88,0.0
 374948,2026-11-13,Central Arkansas,Arkansas,198535,J.C. Shulman,0.1,0.0,0.0
 374948,2026-11-13,Central Arkansas,Arkansas,228960,Andrew Hoerner,0.1,0.0,0.0
+374949,2026-11-13,Chicago State,San Diego,5630,Malik Olafioye,23.42,20.52,5.88
+374949,2026-11-13,Chicago State,San Diego,7381,Mike Price,27.0,20.32,3.63
+374949,2026-11-13,Chicago State,San Diego,15428,Ben Kalonji,23.9,19.57,4.65
+374949,2026-11-13,Chicago State,San Diego,6577,Kameron Foman,24.52,18.98,5.52
+374949,2026-11-13,Chicago State,San Diego,198646,Malek Robinson,19.73,16.66,3.63
+374949,2026-11-13,Chicago State,San Diego,229072,Foday Sheriff,16.95,14.38,1.52
+374949,2026-11-13,Chicago State,San Diego,2576,Will Lovings-Watts,13.38,13.24,1.52
+374949,2026-11-13,Chicago State,San Diego,198589,Armari Carraway,18.68,12.33,3.21
+374949,2026-11-13,Chicago State,San Diego,229074,Lohan Stephane Djiya,12.12,9.13,0.67
+374949,2026-11-13,Chicago State,San Diego,198486,Davius Loury,14.2,6.56,1.98
+374949,2026-11-13,Chicago State,San Diego,203232,Bryan Akanmu,6.1,6.09,1.98
+374949,2026-11-13,San Diego,Chicago State,181,Dusty Stromer,27.53,21.72,4.16
+374949,2026-11-13,San Diego,Chicago State,6476,Jevon Hill,26.95,20.96,4.16
+374949,2026-11-13,San Diego,Chicago State,5397,Sekou Konneh,24.05,18.41,3.21
+374949,2026-11-13,San Diego,Chicago State,2894,Marqui Worthy Jr.,22.45,18.08,3.21
+374949,2026-11-13,San Diego,Chicago State,16118,Davion Hill,20.48,16.51,3.21
+374949,2026-11-13,San Diego,Chicago State,232214,Chace Holley,17.47,15.05,3.63
+374949,2026-11-13,San Diego,Chicago State,5628,Terry McMorris,17.55,13.48,3.63
+374949,2026-11-13,San Diego,Chicago State,13903,Jose Roberto Tanchyn,15.57,13.15,3.63
+374949,2026-11-13,San Diego,Chicago State,232216,Brannon Martinsen,13.05,10.6,2.68
+374949,2026-11-13,San Diego,Chicago State,199464,Antonio Munoz,12.47,9.83,2.68
+374949,2026-11-13,San Diego,Chicago State,232219,Braylon Roman,2.05,0.0,0.0
+374949,2026-11-13,San Diego,Chicago State,201873,Caleb Versher,0.38,0.0,0.0
 374950,2026-11-13,Saint Mary's,UIC,6897,Joshua Dent,28.35,25.48,6.13
 374950,2026-11-13,Saint Mary's,UIC,201802,Mantas Juzenas,28.4,23.61,6.04
 374950,2026-11-13,Saint Mary's,UIC,200198,Vangelis Zougris,25.82,22.26,5.16
@@ -16999,6 +17044,27 @@ gameId,date,team,opponent,athleteId,athlete,min_raw,min_lev,min_close
 374953,2026-11-13,Portland,East Texas A&M,202399,Kaia Isaac,8.47,8.47,0.0
 374953,2026-11-13,Portland,East Texas A&M,199019,Vito Perkovic,7.15,7.15,0.0
 374953,2026-11-13,Portland,East Texas A&M,231833,Henry Sewell,5.97,5.97,0.0
+374954,2026-11-13,Arkansas-Pine Bluff,California Baptist,7617,Macaleab Rich,38.52,36.07,7.14
+374954,2026-11-13,Arkansas-Pine Bluff,California Baptist,98,Jalen Tatum,39.17,35.91,7.2
+374954,2026-11-13,Arkansas-Pine Bluff,California Baptist,4229,Creed Williamson,30.18,29.83,6.73
+374954,2026-11-13,Arkansas-Pine Bluff,California Baptist,6679,CJ Smith,23.98,22.14,5.08
+374954,2026-11-13,Arkansas-Pine Bluff,California Baptist,198037,Harrison Pickett,21.2,21.2,0.0
+374954,2026-11-13,Arkansas-Pine Bluff,California Baptist,198032,Jai'chaunn Hayes,18.35,15.44,0.46
+374954,2026-11-13,Arkansas-Pine Bluff,California Baptist,228503,Kalli Johnson,16.78,13.52,7.2
+374954,2026-11-13,Arkansas-Pine Bluff,California Baptist,228504,Jeremy Nyakundi,8.08,8.08,1.88
+374954,2026-11-13,Arkansas-Pine Bluff,California Baptist,6416,Braylon Johnson,3.73,1.04,0.29
+374954,2026-11-13,California Baptist,Arkansas-Pine Bluff,198424,Jordan Muller,33.02,29.93,7.2
+374954,2026-11-13,California Baptist,Arkansas-Pine Bluff,5117,Nick Richart,30.58,28.79,6.93
+374954,2026-11-13,California Baptist,Arkansas-Pine Bluff,734,Justas Stonkus,29.92,26.83,7.2
+374954,2026-11-13,California Baptist,Arkansas-Pine Bluff,228851,Terry Coner Jr.,29.37,26.83,7.2
+374954,2026-11-13,California Baptist,Arkansas-Pine Bluff,27246,Ethan Duncan,24.1,22.26,0.7
+374954,2026-11-13,California Baptist,Arkansas-Pine Bluff,228864,Jonas Zilinskas,22.27,19.18,6.76
+374954,2026-11-13,California Baptist,Arkansas-Pine Bluff,228860,Steven Reynolds III,17.25,17.25,0.0
+374954,2026-11-13,California Baptist,Arkansas-Pine Bluff,228862,Anton Safin,12.43,12.17,0.0
+374954,2026-11-13,California Baptist,Arkansas-Pine Bluff,7168,Jalen Dollar,0.27,0.0,0.0
+374954,2026-11-13,California Baptist,Arkansas-Pine Bluff,228859,Brody Postorino,0.27,0.0,0.0
+374954,2026-11-13,California Baptist,Arkansas-Pine Bluff,228855,Daniel Hansen,0.27,0.0,0.0
+374954,2026-11-13,California Baptist,Arkansas-Pine Bluff,198411,Odartey Blankson,0.27,0.0,0.0
 378008,2026-11-13,Southern Miss,Texas State,6567,Jalyke Gaines-Wyatt,30.03,27.99,5.23
 378008,2026-11-13,Southern Miss,Texas State,232529,Anthony Igiede,27.8,25.76,3.51
 378008,2026-11-13,Southern Miss,Texas State,5862,Brandon Weston,20.57,17.39,4.88
