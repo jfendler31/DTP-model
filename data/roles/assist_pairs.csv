@@ -261,35 +261,38 @@ Arizona,Caleb Holt,Ivan Kharchenkov,rim,0.74
 Arizona,Ivan Kharchenkov,Bryce James,three,0.73
 Arizona,Ivan Kharchenkov,Derek Dixon,rim,0.71
 Arizona,Cameron Holmes,JJ Mandaquit,three,0.67
-Arizona St.,Joel Foxwell,JRob Croy,three,3.59
+Arizona St.,Joel Foxwell,JRob Croy,three,4.64
+Arizona St.,Paulius Murauskas,Joel Foxwell,three,3.6
 Arizona St.,Paulius Murauskas,JRob Croy,three,2.99
+Arizona St.,Joel Foxwell,Paulius Murauskas,three,2.77
 Arizona St.,Joel Foxwell,Ben Defty,rim,2.64
+Arizona St.,Ben Defty,Paulius Murauskas,rim,2.0
+Arizona St.,Dillan Shaw,Paulius Murauskas,rim,2.0
+Arizona St.,Joel Foxwell,JRob Croy,rim,2.0
 Arizona St.,Joel Foxwell,Paulius Murauskas,rim,2.0
-Arizona St.,Joel Foxwell,Paulius Murauskas,three,1.73
-Arizona St.,Joel Foxwell,Dillan Shaw,three,1.64
-Arizona St.,Paulius Murauskas,Joel Foxwell,three,1.6
+Arizona St.,Paulius Murauskas,Bryce Ford,three,2.0
+Arizona St.,Joel Foxwell,Dillan Shaw,three,1.94
 Arizona St.,Joel Foxwell,Bryce Ford,rim,1.32
 Arizona St.,Ben Defty,Dillan Shaw,rim,1.0
 Arizona St.,Ben Defty,JRob Croy,three,1.0
-Arizona St.,Ben Defty,Paulius Murauskas,rim,1.0
 Arizona St.,Bryce Ford,Filip Malesevic,rim,1.0
 Arizona St.,Dillan Shaw,Ben Defty,mid,1.0
 Arizona St.,Dillan Shaw,Emmanuel Innocenti,three,1.0
 Arizona St.,Dillan Shaw,Filip Malesevic,rim,1.0
 Arizona St.,Dillan Shaw,Joel Foxwell,three,1.0
-Arizona St.,Dillan Shaw,Paulius Murauskas,rim,1.0
 Arizona St.,Emmanuel Innocenti,Joel Foxwell,three,1.0
 Arizona St.,Filip Malesevic,Bryce Ford,mid,1.0
 Arizona St.,Filip Malesevic,Emmanuel Innocenti,rim,1.0
 Arizona St.,JRob Croy,Paulius Murauskas,mid,1.0
 Arizona St.,Joel Foxwell,Ajak Nyuon,three,1.0
+Arizona St.,Joel Foxwell,Bryce Ford,three,1.0
 Arizona St.,Joel Foxwell,Dillan Shaw,rim,1.0
-Arizona St.,Joel Foxwell,JRob Croy,rim,1.0
 Arizona St.,Joel Foxwell,Paulius Murauskas,mid,1.0
 Arizona St.,Paulius Murauskas,Ben Defty,rim,1.0
-Arizona St.,Paulius Murauskas,Bryce Ford,three,1.0
 Arizona St.,Paulius Murauskas,Dillan Shaw,three,1.0
 Arizona St.,Filip Malesevic,JRob Croy,three,0.98
+Arizona St.,Bryce Ford,Paulius Murauskas,three,0.96
+Arizona St.,Bryce Ford,Paulius Murauskas,rim,0.89
 Arkansas,Davion Thompson,Billy Richmond III,rim,6.17
 Arkansas,Billy Richmond III,Jeremiah Wilkinson,three,2.93
 Arkansas,Jordan Smith Jr.,Jeremiah Wilkinson,three,2.81
@@ -328,12 +331,15 @@ Arkansas,Jeremiah Wilkinson,Miikka Muurinen,three,0.95
 Arkansas,JJ Andrews,Jeremiah Wilkinson,three,0.85
 Arkansas,Billy Richmond III,Jordan Smith Jr.,rim,0.82
 Arkansas,Billy Richmond III,JJ Andrews,rim,0.59
-Arkansas Pine Bluff,Jalen Tatum,Creed Williamson,rim,2.0
+Arkansas Pine Bluff,Jalen Tatum,Creed Williamson,rim,3.0
 Arkansas Pine Bluff,CJ Smith,Creed Williamson,rim,1.0
+Arkansas Pine Bluff,CJ Smith,Macaleab Rich,rim,1.0
 Arkansas Pine Bluff,Creed Williamson,Harrison Pickett,rim,1.0
 Arkansas Pine Bluff,Creed Williamson,Harrison Pickett,three,1.0
 Arkansas Pine Bluff,Harrison Pickett,David Giddens,rim,1.0
+Arkansas Pine Bluff,Jalen Tatum,Creed Williamson,mid,1.0
 Arkansas Pine Bluff,Kalli Johnson,Harrison Pickett,rim,1.0
+Arkansas Pine Bluff,Macaleab Rich,Jeremy Nyakundi,rim,1.0
 Arkansas Pine Bluff,Kalli Johnson,Jalen Tatum,rim,0.89
 Arkansas Pine Bluff,CJ Smith,Creed Williamson,three,0.88
 Arkansas Pine Bluff,Harrison Pickett,Jalen Tatum,three,0.82
@@ -897,10 +903,11 @@ CSUN,Jael Martin,BJ Omot,rim,0.63
 CSUN,Naceiar Kirksey,Mikah Ballew,three,0.57
 CSUN,Keziah Ekissi,Mikah Ballew,three,0.52
 Cal Baptist,Terry Coner Jr.,Rene D'Amelio,three,3.59
+Cal Baptist,Terry Coner Jr.,Justas Stonkus,three,3.0
 Cal Baptist,Jordan Muller,Rene D'Amelio,rim,2.0
 Cal Baptist,Terry Coner Jr.,Anton Safin,three,2.0
-Cal Baptist,Terry Coner Jr.,Justas Stonkus,three,2.0
 Cal Baptist,Rene D'Amelio,Justas Stonkus,three,1.77
+Cal Baptist,Anton Safin,Nick Richart,rim,1.0
 Cal Baptist,Ethan Duncan,Anton Safin,three,1.0
 Cal Baptist,Ethan Duncan,Jordan Muller,three,1.0
 Cal Baptist,Jonas Zilinskas,Anton Safin,rim,1.0
@@ -910,11 +917,14 @@ Cal Baptist,Jordan Muller,Ethan Duncan,three,1.0
 Cal Baptist,Jordan Muller,Jonas Zilinskas,mid,1.0
 Cal Baptist,Jordan Muller,Jonas Zilinskas,rim,1.0
 Cal Baptist,Justas Stonkus,Ethan Duncan,mid,1.0
+Cal Baptist,Justas Stonkus,Ethan Duncan,three,1.0
 Cal Baptist,Justas Stonkus,Jonas Zilinskas,rim,1.0
 Cal Baptist,Justas Stonkus,Rene D'Amelio,rim,1.0
 Cal Baptist,Nick Richart,Ethan Duncan,three,1.0
 Cal Baptist,Rene D'Amelio,Ethan Duncan,three,1.0
+Cal Baptist,Steven Reynolds III,Ethan Duncan,three,1.0
 Cal Baptist,Steven Reynolds III,Nick Richart,rim,1.0
+Cal Baptist,Terry Coner Jr.,Jonas Zilinskas,three,1.0
 Cal Baptist,Terry Coner Jr.,Rene D'Amelio,rim,1.0
 Cal Baptist,Terry Coner Jr.,Steven Reynolds III,mid,1.0
 Cal Baptist,Terry Coner Jr.,Steven Reynolds III,rim,1.0
@@ -1234,24 +1244,31 @@ Chattanooga,Christian Matos,Lenny Anigbata,three,0.89
 Chattanooga,Kobe McDowell-White,Matt Hampton,three,0.82
 Chattanooga,Kobe McDowell-White,Zach Bleshoy,three,0.63
 Chattanooga,Christian Matos,Yonatan Levy,rim,0.57
-Chicago St.,Malik Olafioye,Mike Price,three,4.0
+Chicago St.,Malik Olafioye,Mike Price,three,4.91
+Chicago St.,Malik Olafioye,Will Lovings-Watts,three,2.36
+Chicago St.,Malek Robinson,Armari Carraway,three,2.0
 Chicago St.,Mike Price,Kameron Foman,rim,2.0
 Chicago St.,Malek Robinson,Mike Price,three,1.97
 Chicago St.,Ben Kalonji,Mike Price,three,1.84
-Chicago St.,Malik Olafioye,Will Lovings-Watts,three,1.36
+Chicago St.,Malik Olafioye,Armari Carraway,three,1.59
 Chicago St.,Mike Price,Andre Stanton,rim,1.06
 Chicago St.,Armari Carraway,Foday Sheriff,three,1.0
 Chicago St.,Armari Carraway,Mike Price,three,1.0
+Chicago St.,Ben Kalonji,Foday Sheriff,rim,1.0
+Chicago St.,Bryan Akanmu,Malek Robinson,rim,1.0
 Chicago St.,Davius Loury,Mike Price,three,1.0
-Chicago St.,Malek Robinson,Armari Carraway,three,1.0
+Chicago St.,Foday Sheriff,Mike Price,rim,1.0
 Chicago St.,Malek Robinson,Davius Loury,three,1.0
 Chicago St.,Malek Robinson,Foday Sheriff,mid,1.0
-Chicago St.,Malik Olafioye,Armari Carraway,three,1.0
+Chicago St.,Malik Olafioye,Foday Sheriff,rim,1.0
 Chicago St.,Malik Olafioye,Foday Sheriff,three,1.0
 Chicago St.,Malik Olafioye,Will Lovings-Watts,mid,1.0
+Chicago St.,Mike Price,Armari Carraway,three,1.0
 Chicago St.,Will Lovings-Watts,Mike Price,three,1.0
 Chicago St.,Kameron Foman,Will Lovings-Watts,three,0.96
+Chicago St.,Kameron Foman,Will Lovings-Watts,rim,0.9
 Chicago St.,Mike Price,Davius Loury,three,0.84
+Chicago St.,Armari Carraway,Malik Olafioye,rim,0.81
 Chicago St.,Malek Robinson,Will Lovings-Watts,three,0.52
 Cincinnati,Amani Lyles,Eric Mahaffey,rim,3.0
 Cincinnati,Eric Mahaffey,Tyler Tejada,three,2.0
@@ -3980,22 +3997,23 @@ Louisiana,Josiah Harris,Jamyron Keller,three,0.9
 Louisiana,Mekhi Cooper,Jamyron Keller,rim,0.74
 Louisiana Monroe,Dayjaun Anderson,Khalil London,three,3.0
 Louisiana Monroe,Quaran McPherson,Robert Cowherd,three,2.18
+Louisiana Monroe,Dayjaun Anderson,Ziyade Ndancky,three,2.0
 Louisiana Monroe,Lance Carr,Dayjaun Anderson,three,2.0
 Louisiana Monroe,Lance Carr,Quaran McPherson,three,2.0
 Louisiana Monroe,Mike White,Quaran McPherson,three,2.0
+Louisiana Monroe,Phillip Tillman,Dayjaun Anderson,rim,2.0
 Louisiana Monroe,Phillip Tillman,Lance Carr,rim,2.0
 Louisiana Monroe,Dayjaun Anderson,Quaran McPherson,three,1.62
 Louisiana Monroe,Mike White,Khalil London,three,1.28
 Louisiana Monroe,Dayjaun Anderson,Lance Carr,rim,1.0
 Louisiana Monroe,Dayjaun Anderson,Quaran McPherson,mid,1.0
-Louisiana Monroe,Dayjaun Anderson,Ziyade Ndancky,three,1.0
 Louisiana Monroe,Khalil London,Dayjaun Anderson,rim,1.0
 Louisiana Monroe,Khalil London,Dayjaun Anderson,three,1.0
 Louisiana Monroe,Khalil London,Lance Carr,rim,1.0
+Louisiana Monroe,Khalil London,Ziyade Ndancky,rim,1.0
 Louisiana Monroe,Lance Carr,Quaran McPherson,rim,1.0
 Louisiana Monroe,Mike White,Quaran McPherson,mid,1.0
 Louisiana Monroe,Mike White,Ziyade Ndancky,rim,1.0
-Louisiana Monroe,Phillip Tillman,Dayjaun Anderson,rim,1.0
 Louisiana Monroe,Phillip Tillman,Jean Lafleur,rim,1.0
 Louisiana Monroe,Phillip Tillman,Quaran McPherson,three,1.0
 Louisiana Monroe,Phillip Tillman,Robert Cowherd,three,1.0
@@ -6847,29 +6865,39 @@ Samford,Ty Davis,Isaiah Campbell-Finch,three,1.0
 Samford,Ty Davis,JD Gossett,rim,1.0
 Samford,Will Shaver,Cooper Noard,rim,1.0
 Samford,Ty Davis,Cade Norris,three,0.66
-San Diego,Chace Holley,Jevon Hill,three,3.0
-San Diego,Marqui Worthy Jr.,Jevon Hill,three,3.0
-San Diego,Davion Hill,Jevon Hill,three,2.0
+San Diego,Chace Holley,Jevon Hill,three,5.0
+San Diego,Marqui Worthy Jr.,Jevon Hill,three,4.0
+San Diego,Davion Hill,Jevon Hill,three,2.93
+San Diego,Chace Holley,Terry McMorris,rim,2.0
+San Diego,Dusty Stromer,Davion Hill,rim,2.0
+San Diego,Jose Roberto Tanchyn,Terry McMorris,rim,2.0
+San Diego,Marqui Worthy Jr.,Sekou Konneh,rim,1.95
+San Diego,Jose Roberto Tanchyn,Jevon Hill,three,1.74
+San Diego,Jose Roberto Tanchyn,Dusty Stromer,rim,1.53
+San Diego,Antonio Munoz,Terry McMorris,rim,1.0
+San Diego,Brannon Martinsen,Antonio Munoz,three,1.0
+San Diego,Brannon Martinsen,Chace Holley,rim,1.0
 San Diego,Braylon Roman,Chace Holley,rim,1.0
 San Diego,Chace Holley,Dusty Stromer,three,1.0
 San Diego,Chace Holley,Jose Roberto Tanchyn,three,1.0
 San Diego,Chace Holley,Marqui Worthy Jr.,rim,1.0
 San Diego,Chace Holley,Marqui Worthy Jr.,three,1.0
-San Diego,Chace Holley,Terry McMorris,rim,1.0
 San Diego,Davion Hill,Dusty Stromer,three,1.0
 San Diego,Davion Hill,Marqui Worthy Jr.,mid,1.0
 San Diego,Davion Hill,Marqui Worthy Jr.,three,1.0
-San Diego,Dusty Stromer,Davion Hill,rim,1.0
 San Diego,Dusty Stromer,Jevon Hill,three,1.0
+San Diego,Dusty Stromer,Marqui Worthy Jr.,rim,1.0
 San Diego,Dusty Stromer,Terry McMorris,rim,1.0
-San Diego,Jose Roberto Tanchyn,Dusty Stromer,rim,1.0
+San Diego,Jose Roberto Tanchyn,Brannon Martinsen,three,1.0
+San Diego,Jose Roberto Tanchyn,Chace Holley,three,1.0
 San Diego,Jose Roberto Tanchyn,Dusty Stromer,three,1.0
-San Diego,Jose Roberto Tanchyn,Jevon Hill,three,1.0
 San Diego,Marqui Worthy Jr.,Brannon Martinsen,three,1.0
 San Diego,Marqui Worthy Jr.,Dusty Stromer,mid,1.0
-San Diego,Marqui Worthy Jr.,Sekou Konneh,rim,1.0
+San Diego,Marqui Worthy Jr.,Dusty Stromer,three,1.0
 San Diego,Marqui Worthy Jr.,Terry McMorris,rim,1.0
 San Diego,Sekou Konneh,Dusty Stromer,three,1.0
+San Diego,Terry McMorris,Antonio Munoz,rim,1.0
+San Diego,Marqui Worthy Jr.,Davion Hill,rim,0.98
 San Diego St.,Elzie Harrington,Latrell Davis,three,4.0
 San Diego St.,Chance Gladden,Latrell Davis,three,3.84
 San Diego St.,Elzie Harrington,Isaiah Sy,three,3.55
