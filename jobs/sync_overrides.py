@@ -1,13 +1,16 @@
 """Override sync — runs in the Daily card job right before card.py (Nov 10, Jon: "player tracking runs before the 4:15 card").
 
-Rules (Jon, Nov 10): the box score controls. Overrides stay Jon's call to PRICE; this only retires them and flags gaps.
+Rules (Jon, Nov 10): the box score controls. Nov 14 (Jon): every out-type tracker status for a team on today's slate that has no
+active override is now PRICED here (jobs/price_core.py, the same math as tools/price_tracker.py) and written as an override;
+the status stays Jon's call. Player names match exact-then-fuzzy (team_names.match_name: Joe/Joseph, Josh/Joshua).
   1. Box score: an active override whose player logged minutes in a game on/after the override's `since` date is expired
      (expires = that game's date, reason notes the game). Venue rows are left alone.
   2. Tracker (secondary, only for players who haven't played): a visible tracker note that says playing / elig_tro / coach,
      updated on/after `since`, expires the override. A hidden note is not a status change.
   Flags (no changes, listed in the card email and data/tracker/sync_<date>.txt):
   - tracker says out, but the player has played after the day of that note -> update the tracker
-  - tracker out-status for a team on today's slate with no active override (any age; Nov 13) -> price it?
+  - tracker out-status for a team on today's slate with no active override (any age; Nov 13) -> priced and written (Nov 14),
+    expires 'season' for out_season / left / redshirt, else 'until cleared'; since = the card date
   - override expired by date (last 3 days, or any time if his team plays today) while the tracker still has him out and he hasn't played -> renew?
 New overrides get `since` = the card date they first appear (filled in here if blank).
 Usage: python jobs/sync_overrides.py [--date YYYY-MM-DD] [--offline]   (--offline: use stored data/players/*.csv, no API)"""
@@ -15,7 +18,8 @@ import os, sys, glob, argparse, datetime as dt, time
 from zoneinfo import ZoneInfo
 import pandas as pd, requests
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from team_names import kp, pn
+from team_names import kp, pn, match_name, same_player
+from price_core import Pricer
 
 ap = argparse.ArgumentParser(); ap.add_argument('--date'); ap.add_argument('--offline', action='store_true'); a = ap.parse_args()
 D = a.date or dt.datetime.now(ZoneInfo('America/New_York')).date().isoformat()
@@ -57,7 +61,9 @@ except Exception as e:
     log.append(f'! box scores unavailable ({e}); box-score rule skipped today'); B = pd.DataFrame()
 def played(team, player, since):
     if not len(B): return None
-    x = B[(B.team_kp == team) & (B.pk == pn(player)) & (B.date_ET >= since)]
+    tb = B[B.team_kp == team]; m = match_name(player, tb.name.unique())
+    if m is None: return None
+    x = tb[(tb.name == m) & (tb.date_ET >= since)]
     return x.iloc[0] if len(x) else None
 
 # ---- tracker export (written by the 4:15 scheduled task)
@@ -70,7 +76,8 @@ else:
     log.append('! no tracker export found (data/tracker/player_status.csv); tracker rule and flags skipped')
 def tnote(team, player):
     if not len(T): return None
-    x = T[(T.team == team) & (T.pk == pn(player)) & ~T.hidden]
+    tt = T[(T.team == team) & ~T.hidden]; m = match_name(player, list(tt.player))
+    x = tt[tt.player == m] if m is not None else tt.iloc[0:0]
     return x.iloc[0] if len(x) else None
 
 # ---- rules 1-2: retire overrides
@@ -90,16 +97,31 @@ for i, r in O.iterrows():
 # ---- flags
 slate = f'data/slate_{D}.csv'
 teams = set(pd.read_csv(slate)[['away', 'home']].stack()) if os.path.exists(slate) else set()
-live = {(r.team, pn(r.player)) for r in O.itertuples() if is_active(r) and not is_venue(r)}
+def has_override(team, player):
+    return any(same_player(player, r.player) for r in O.itertuples() if r.team == team and is_active(r) and not is_venue(r))
+O.to_csv('data/overrides.csv', index=False)          # rule 1-2 changes on disk before pricing reads the active set
+SEASON = {'out_season', 'left', 'redshirt'}
+pricer, priced = None, 0
 if len(T):
     for t in T[~T.hidden & T.status.isin(OUT)].itertuples():
         g = played(t.team, t.player, day(t.updated_et, 1) if t.updated_et else start)   # strictly after the note's date
         if g is not None:
             log.append(f'tracker  {t.team} — {t.player}: tracker says {t.status}, but played {int(float(g.minutes))} min {g.date_ET} vs {g.opponent} — update the tracker')
-        elif t.team in teams and (t.team, t.pk) not in live:
-            # Nov 13 (Jon): every out-status for a team playing today with no active override, not just notes edited in the last 2 days
-            # (Welling, Washington, Storr, Stewart were standing statuses the 2-day window never surfaced)
-            log.append(f'unpriced {t.team} — {t.player}: {t.status}{" (" + t.details + ")" if t.details else ""}, tracker {t.updated_et}, plays today, no override')
+        elif t.team in teams and not has_override(t.team, t.player):
+            # Nov 13 (Jon): every out-status for a team playing today with no active override, whatever its age.
+            # Nov 14 (Jon): price it and write the override (was: flag only).
+            note = f'{t.status}{" (" + t.details + ")" if t.details else ""}, tracker {t.updated_et}'
+            try:
+                pricer = pricer or Pricer(D, box=B)
+                r = pricer.price(t.team, t.player, 1.0)
+            except Exception as e:
+                r = dict(ok=False, text=f'pricing error {e}')
+            if not r['ok']:
+                log.append(f'unpriced {t.team} — {t.player}: {note}, plays today — {r["text"]}'); continue
+            row = dict(team=t.team, player=t.player, status='out', delta_pts=f'{-r["delta"]:.2f}', expires='season' if t.status in SEASON else 'until cleared',
+                       reason=f'auto-priced {D} from tracker ({note}); {r["text"]}' + (f'; on top of {", ".join(r["cascade"])}' if r['cascade'] else ''), since=D)
+            O = pd.concat([O, pd.DataFrame([row])], ignore_index=True); priced += 1
+            log.append(f'priced   {t.team} — {t.player}: {note} -> {r["spread"]:.1f} spread (delta_pts {row["delta_pts"]}, {row["expires"]})')
     for r in O.itertuples():
         # Nov 11: any date-expired override the tracker still has out is flagged when the team plays today (Grahovac missed the 3-day window);
         # otherwise only those expired in the last 3 days
@@ -107,11 +129,11 @@ if len(T):
         if not (r.expires >= day(D, -3) or r.team in teams): continue
         if r.delta_pts in ('', '0', '0.0', '0.00', '-0.00'): continue
         t = tnote(r.team, r.player)
-        if t is not None and t.status in OUT and played(r.team, r.player, r.since) is None and (r.team, pn(r.player)) not in live:
+        if t is not None and t.status in OUT and played(r.team, r.player, r.since) is None and not has_override(r.team, r.player):
             log.append(f'renew?   {r.team} — {r.player} ({r.delta_pts}): override expired {r.expires}, tracker still {t.status} ({t.updated_et})')
 
 O.to_csv('data/overrides.csv', index=False)
 os.makedirs('data/tracker', exist_ok=True)
-summary = f'Player sync {D}: {changed} override(s) expired; box scores {start} to {end}.\n' + '\n'.join(log)
+summary = f'Player sync {D}: {changed} override(s) expired, {priced} priced from the tracker; box scores {start} to {end}.\n' + '\n'.join(log)
 open(f'data/tracker/sync_{D}.txt', 'w').write(summary + '\n')
 print(summary)

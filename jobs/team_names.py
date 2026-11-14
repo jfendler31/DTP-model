@@ -31,3 +31,34 @@ def pn(x):
     x = unicodedata.normalize('NFKD', str(x or '')).encode('ascii', 'ignore').decode().lower()
     x = re.sub(r'\b(jr|sr|ii|iii|iv|v)\b\.?', '', x)
     return re.sub(r'\s+', ' ', re.sub(r'[^a-z ]', ' ', x.replace("'", '').replace('’', ''))).strip()
+
+# ---- Nov 14 (Jon): fuzzy player match. Exact pn() match first; otherwise same last name + compatible first name
+# (one a prefix of the other — Josh/Joshua, Cam/Cameron — or a common nickname — Joe/Joseph, Mike/Michael), unique within the team.
+_NICK = {'joe': 'joseph', 'joey': 'joseph', 'mike': 'michael', 'jim': 'james', 'jimmy': 'james', 'jamie': 'james', 'tony': 'anthony',
+         'bob': 'robert', 'rob': 'robert', 'bobby': 'robert', 'bill': 'william', 'will': 'william', 'billy': 'william', 'liam': 'william',
+         'charlie': 'charles', 'chuck': 'charles', 'andy': 'andrew', 'drew': 'andrew', 'dre': 'andre', 'tre': 'trevon', 'trey': 'trevon',
+         'dj': 'dj', 'aj': 'aj', 'cj': 'cj', 'tj': 'tj', 'jj': 'jj', 'rj': 'rj', 'bj': 'bj', 'kj': 'kj', 'pj': 'pj', 'mj': 'mj',
+         'dan': 'daniel', 'danny': 'daniel', 'matt': 'matthew', 'nate': 'nathan', 'nick': 'nicholas', 'zach': 'zachary', 'zack': 'zachary',
+         'sam': 'samuel', 'ben': 'benjamin', 'alex': 'alexander', 'chris': 'christopher', 'tom': 'thomas', 'tommy': 'thomas', 'ed': 'edward',
+         'eddie': 'edward', 'ty': 'tyler', 'jon': 'jonathan', 'johnny': 'john', 'jack': 'john', 'kenny': 'kenneth', 'ken': 'kenneth',
+         'greg': 'gregory', 'steve': 'steven', 'stevie': 'steven', 'cam': 'cameron', 'josh': 'joshua', 'jake': 'jacob', 'gabe': 'gabriel',
+         'manny': 'emmanuel', 'izzy': 'isaiah', 'zeke': 'ezekiel', 'eli': 'elijah', 'ike': 'isaac', 'nico': 'nicolas', 'max': 'maxwell'}
+def _parts(x):
+    p = pn(x).split()
+    if len(p) >= 3 and all(len(t) == 1 for t in p[:2]): p = [p[0] + p[1]] + p[2:]          # "b j edwards" -> "bj edwards"
+    return p
+def _first_ok(a, b):
+    if a == b or a.startswith(b) or b.startswith(a): return min(len(a), len(b)) >= 2 or a == b
+    return _NICK.get(a, a) == _NICK.get(b, b)
+def same_player(a, b):
+    if pn(a) == pn(b): return True
+    pa, pb = _parts(a), _parts(b)
+    if len(pa) < 2 or len(pb) < 2: return False
+    return pa[-1] == pb[-1] and _first_ok(pa[0], pb[0])
+def match_name(name, candidates):
+    """Return the one candidate that is the same player as `name` (exact pn first, then same_player if unique), else None."""
+    c = list(candidates); k = pn(name)
+    ex = [x for x in c if pn(x) == k]
+    if ex: return ex[0]
+    fz = [x for x in c if same_player(name, x)]
+    return fz[0] if len(set(map(pn, fz))) == 1 else None
