@@ -1,0 +1,61 @@
+﻿tip_ET,away,home,venue,model,market,n_books,total,edge,model_size_adj,edge_size_adj,edge_inseason_only,prior_wt_away,prior_wt_home,notes,model_home_spread,market_home_spread,edge_size,model_home_spread_adj,edge_size_adj_num,size_curve,adj_home,tier
+Sat Nov 14 11:00 AM,UNC Greensboro,Cornell,H,Cornell -6.3,,0,,,Cornell -6.3,,n/a (<5 games),80%,73%,,-6.3,,,-6.3,,1,,
+Sat Nov 14 12:00 PM,Tulane,Akron,H,Akron -9.4,Akron -12.5,10,155.5,Tulane 3.1,Akron -9.4,Tulane 3.1,n/a (<5 games),73%,89%,,-9.4,-12.5,3.1,-9.4,3.1,1,,<15
+Sat Nov 14 1:00 PM,Stonehill,Texas Tech,H,Texas Tech -33.6,Texas Tech -40.5,8,142.5,Stonehill 6.9,Texas Tech -38.3,Stonehill 2.2,n/a (<5 games),80%,73%,JT Toppin out (-1.9),-33.6,-40.5,6.9,-38.3,2.2,1,,20+
+Sat Nov 14 1:00 PM,Drexel,Maine,H,Drexel -2.2,Drexel -3.5,8,130.5,Maine 1.3,Drexel -2.2,Maine 1.3,n/a (<5 games),73%,67%,,2.2,3.5,1.3,2.2,1.3,0,,<15
+Sat Nov 14 1:00 PM,Montana,North Dakota,H,Montana -0.7,N Dakota -1.5,10,150.5,Montana 2.2,Montana -0.7,Montana 2.2,n/a (<5 games),80%,73%,Kenyon Aguino out (-2.1),0.7,-1.5,2.2,0.7,2.2,0,,<15
+Sat Nov 14 1:00 PM,Marshall,Youngstown St.,H,YSU -2.6,Marshall -1.5,10,159.5,YSU 4.1,YSU -2.6,YSU 4.1,n/a (<5 games),73%,73%,,-2.6,1.5,4.1,-2.6,4.1,1,,<15
+Sat Nov 14 1:00 PM,Bradley,George Mason,N,George Mason -9.7,George Mason -13.5,9,129.0,Bradley 3.8,George Mason -9.7,Bradley 3.8,n/a (<5 games),73%,73%,BRAD: Assumes both D. Richardson and J. Ibukunoluwa both OUT,-9.7,-13.5,3.8,-9.7,3.8,0,-0.9,<15
+Sat Nov 14 1:00 PM,St. Thomas,Army,H,St. Thomas -6.3,St. Thomas -7.5,8,148.5,Army 1.2,St. Thomas -6.3,Army 1.2,n/a (<5 games),73%,80%,,6.3,7.5,1.2,6.3,1.2,0,,<15
+Sat Nov 14 1:30 PM,Loyola Chicago,Colorado St.,H,Colorado St -7.7,Colorado St -9.5,9,151.5,Loyola Chi 1.8,Colorado St -7.7,Loyola Chi 1.8,n/a (<5 games),73%,73%,,-7.7,-9.5,1.8,-7.7,1.8,1,,<15
+Sat Nov 14 2:00 PM,Gardner Webb,South Carolina,H,S Carolina -25.1,S Carolina -26.5,8,145.5,Gardner-Webb 1.4,S Carolina -28.1,S Carolina 1.6,n/a (<5 games),80%,73%,,-25.1,-26.5,1.4,-28.1,1.6,1,,20+
+Sat Nov 14 2:00 PM,Coppin St.,South Florida,H,South Florida -22.2,South Florida -27.5,8,150.5,Coppin St 5.3,South Florida -24.6,Coppin St 2.9,n/a (<5 games),73%,73%,AJ Dancler out (-0.3),-22.2,-27.5,5.3,-24.6,2.9,1,,20+
+Sat Nov 14 2:00 PM,Miami OH,Evansville,H,Miami OH -9.5,Miami OH -8,9,151.5,Miami OH 1.5,Miami OH -9.5,Miami OH 1.5,n/a (<5 games),80%,80%,MIA OH: L. Skaljac (GTD),9.5,8.0,1.5,9.5,1.5,0,,<15
+Sat Nov 14 2:00 PM,Rice,Stephen F. Austin,H,SFA -10.0,SFA -11.5,8,148.5,Rice 1.5,SFA -10.0,Rice 1.5,n/a (<5 games),80%,89%,,-10.0,-11.5,1.5,-10.0,1.5,1,,<15
+Sat Nov 14 2:00 PM,The Citadel,North Florida,H,N Florida -6.1,N Florida -4.5,8,154.5,N Florida 1.6,N Florida -6.1,N Florida 1.6,n/a (<5 games),89%,73%,,-6.1,-4.5,1.6,-6.1,1.6,1,,<15
+Sat Nov 14 2:00 PM,Wofford,Queens,H,Queens -6.4,Queens -7.5,7,172.5,Wofford 1.1,Queens -6.4,Wofford 1.1,n/a (<5 games),80%,67%,,-6.4,-7.5,1.1,-6.4,1.1,1,,<15
+Sat Nov 14 2:00 PM,Northern Illinois,Bellarmine,H,Bellarmine -1.7,Bellarmine -1.5,7,151.0,Bellarmine 0.2,Bellarmine -1.7,Bellarmine 0.2,n/a (<5 games),73%,73%,,-1.7,-1.5,0.2,-1.7,0.2,1,,<15
+Sat Nov 14 2:30 PM,Jackson St.,Winthrop,H,Winthrop -6.3,Winthrop -7.5,8,165.5,Jackson St 1.2,Winthrop -6.3,Jackson St 1.2,n/a (<5 games),67%,73%,,-6.3,-7.5,1.2,-6.3,1.2,1,,<15
+Sat Nov 14 3:00 PM,Wyoming,Denver,H,Wyoming -7.2,Wyoming -7.5,10,148.5,Denver 0.3,Wyoming -7.2,Denver 0.3,n/a (<5 games),80%,80%,,7.2,7.5,0.3,7.2,0.3,0,,<15
+Sat Nov 14 3:30 PM,LSU,Gonzaga,H,Gonzaga -6.2,Gonzaga -5.5,9,161.5,Gonzaga 0.7,Gonzaga -6.2,Gonzaga 0.7,n/a (<5 games),73%,80%,Mostly home (Spokane),-6.2,-5.5,0.7,-6.2,0.7,1,0.8,<15
+Sat Nov 14 3:30 PM,Central Michigan,Northern Kentucky,H,NKU -4.5,NKU -3.5,10,162.5,NKU 1.0,NKU -4.5,NKU 1.0,n/a (<5 games),80%,67%,,-4.5,-3.5,1.0,-4.5,1.0,1,,<15
+Sat Nov 14 4:00 PM,Southern Utah,Wake Forest,H,Wake -19.0,Wake -18.5,10,156.5,Wake 0.5,Wake -20.8,Wake 2.3,n/a (<5 games),89%,73%,,-19.0,-18.5,0.5,-20.8,2.3,1,,15-20
+Sat Nov 14 4:00 PM,Lafayette,St. Bonaventure,H,Bonaventure -18.6,Bonaventure -15.5,7,139.5,Bonaventure 3.1,Bonaventure -20.3,Bonaventure 4.8,n/a (<5 games),80%,73%,BONA: J. Grahovac and M. Blackwood (OUT) | Joseph Grahovac out (-0.7); Mason Blackwood out (+0.0),-18.6,-15.5,3.1,-20.3,4.8,1,,15-20
+Sat Nov 14 4:00 PM,Delaware St.,East Carolina,H,East Carolina -15.1,East Carolina -16.5,8,147.5,Delaware St 1.4,East Carolina -16.1,Delaware St 0.4,n/a (<5 games),80%,73%,,-15.1,-16.5,1.4,-16.1,0.4,1,,15-20
+Sat Nov 14 4:00 PM,South Dakota St.,Northern Colorado,N,SDSU-Jacks -1.7,SDSU-Jacks -4.5,10,151.5,N Colorado 2.8,SDSU-Jacks -1.7,N Colorado 2.8,n/a (<5 games),80%,89%,,1.7,4.5,2.8,1.7,2.8,0,,<15
+Sat Nov 14 4:00 PM,Hampton,Navy,H,Navy -2.6,Navy -1.5,7,138.5,Navy 1.1,Navy -2.6,Navy 1.1,n/a (<5 games),80%,73%,,-2.6,-1.5,1.1,-2.6,1.1,1,,<15
+Sat Nov 14 4:00 PM,Longwood,Old Dominion,H,ODU -6.0,ODU -7.5,7,138.5,Longwood 1.5,ODU -6.0,Longwood 1.5,n/a (<5 games),80%,73%,,-6.0,-7.5,1.5,-6.0,1.5,1,,<15
+Sat Nov 14 4:00 PM,Toledo,Detroit Mercy,H,Toledo -8.7,Toledo -11.5,10,153.5,Detroit 2.8,Toledo -8.7,Detroit 2.8,n/a (<5 games),67%,80%,,8.7,11.5,2.8,8.7,2.8,0,,<15
+Sat Nov 14 4:00 PM,UNC Asheville,Georgia Tech,H,Ga Tech -13.7,Ga Tech -16.5,8,153.5,UNC Asheville 2.8,Ga Tech -14.4,UNC Asheville 2.1,n/a (<5 games),73%,73%,,-13.7,-16.5,2.8,-14.4,2.1,1,,15-20
+Sat Nov 14 4:00 PM,Air Force,Pacific,H,Pacific -10.6,,0,,,Pacific -10.7,,n/a (<5 games),73%,80%,,-10.6,,,-10.7,,1,,
+Sat Nov 14 4:30 PM,USC Upstate,Campbell,H,Campbell -9.2,Campbell -8.5,8,147.5,Campbell 0.7,Campbell -9.2,Campbell 0.7,n/a (<5 games),73%,73%,,-9.2,-8.5,0.7,-9.2,0.7,1,,<15
+Sat Nov 14 5:00 PM,Morgan St.,Loyola MD,N,Loyola MD -3.2,Morgan St -1,5,151.0,Loyola MD 4.2,Loyola MD -3.2,Loyola MD 4.2,n/a (<5 games),80%,73%,,-3.2,1.0,4.2,-3.2,4.2,0,,<15
+Sat Nov 14 5:00 PM,Northern Iowa,Oakland,H,UNI -2.3,Oakland -1,10,157.5,UNI 3.3,UNI -2.3,UNI 3.3,n/a (<5 games),73%,62%,,2.3,-1.0,3.3,2.3,3.3,0,,<15
+Sat Nov 14 5:00 PM,Utah Tech,California,H,California -10.2,California -16,10,158.0,Utah Tech 5.8,California -10.2,Utah Tech 5.8,n/a (<5 games),80%,73%,Lee Dort out (-2.0),-10.2,-16.0,5.8,-10.2,5.8,1,,15-20
+Sat Nov 14 6:00 PM,UC Riverside,Fresno St.,H,Fresno St -4.7,Fresno St -5,10,149.5,UC Riverside 0.3,Fresno St -4.7,UC Riverside 0.3,n/a (<5 games),80%,80%,DJ Stickman out (-0.7); Nathan Zulemie out (+0.0),-4.7,-5.0,0.3,-4.7,0.3,1,,<15
+Sat Nov 14 6:00 PM,South Alabama,North Texas,H,North Texas -15.0,North Texas -8.5,10,134.0,North Texas 6.5,North Texas -16.0,North Texas 7.5,n/a (<5 games),67%,80%,USA: A. Goldstein (doubtful); UNT: M. Holmes (doubtful) | Aaron Goldstein out (-1.2); Mitchell Holmes out (-1.0),-15.0,-8.5,6.5,-16.0,7.5,1,,<15
+Sat Nov 14 6:00 PM,Manhattan,Le Moyne,H,Manhattan -1.3,Le Moyne -3.5,8,148.5,Manhattan 4.8,Manhattan -1.3,Manhattan 4.8,n/a (<5 games),73%,80%,,1.3,-3.5,4.8,1.3,4.8,0,,<15
+Sat Nov 14 6:00 PM,Colorado,Providence,H,Providence -9.3,Providence -12.5,10,156.5,Colorado 3.2,Providence -9.3,Colorado 3.2,n/a (<5 games),73%,73%,Iaroslav Niagu out (+0.0),-9.3,-12.5,3.2,-9.3,3.2,1,,<15
+Sat Nov 14 6:30 PM,Penn,Saint Joseph's,H,Saint Joseph's -2.5,Saint Joseph's -4.5,9,153.5,Penn 2.0,Saint Joseph's -2.5,Penn 2.0,n/a (<5 games),73%,73%,,-2.5,-4.5,2.0,-2.5,2.0,1,,<15
+Sat Nov 14 7:00 PM,West Georgia,Charleston Southern,H,Charleston Southern -2.5,Charleston Southern -3.5,6,148.5,W Georgia 1.0,Charleston Southern -2.5,W Georgia 1.0,n/a (<5 games),73%,80%,,-2.5,-3.5,1.0,-2.5,1.0,1,,<15
+Sat Nov 14 7:00 PM,Austin Peay,Wichita St.,H,Wichita St -13.9,Wichita St -12.5,10,153.5,Wichita St 1.4,Wichita St -14.7,Wichita St 2.2,n/a (<5 games),89%,80%,,-13.9,-12.5,1.4,-14.7,2.2,1,,<15
+Sat Nov 14 7:00 PM,UAB,Jacksonville St.,H,UAB -1.6,UAB -3.5,10,149.5,Jax St 1.9,UAB -1.6,Jax St 1.9,n/a (<5 games),73%,80%,,1.6,3.5,1.9,1.6,1.9,0,,<15
+Sat Nov 14 7:00 PM,Brown,Siena,H,Siena -5.1,Siena -11.5,10,160.5,Brown 6.4,Siena -5.1,Brown 6.4,n/a (<5 games),67%,73%,,-5.1,-11.5,6.4,-5.1,6.4,1,,<15
+Sat Nov 14 7:00 PM,NJIT,Fairfield,H,Fairfield -12.8,Fairfield -11.5,5,139.5,Fairfield 1.3,Fairfield -13.4,Fairfield 1.9,n/a (<5 games),62%,73%,,-12.8,-11.5,1.3,-13.4,1.9,1,,<15
+Sat Nov 14 7:00 PM,Howard,Davidson,H,Davidson -7.2,Davidson -9,5,141.5,Howard 1.8,Davidson -7.2,Howard 1.8,n/a (<5 games),67%,73%,,-7.2,-9.0,1.8,-7.2,1.8,1,,<15
+Sat Nov 14 7:00 PM,Lipscomb,Western Carolina,H,W Carolina -2.4,W Carolina -3.5,7,155.5,Lipscomb 1.1,W Carolina -2.4,Lipscomb 1.1,n/a (<5 games),67%,80%,,-2.4,-3.5,1.1,-2.4,1.1,1,,<15
+Sat Nov 14 7:00 PM,Louisiana,UNC Wilmington,H,UNCW -13.6,,0,,,UNCW -14.3,,n/a (<5 games),80%,80%,,-13.6,,,-14.3,,1,,
+Sat Nov 14 7:00 PM,Rider,Villanova,H,Villanova -30.6,Villanova -35.5,10,145.5,Rider 4.9,Villanova -34.7,Rider 0.8,n/a (<5 games),73%,73%,,-30.6,-35.5,4.9,-34.7,0.8,1,,20+
+Sat Nov 14 7:00 PM,Portland St.,San Francisco,H,San Francisco -7.8,San Francisco -11.5,10,143.5,Portland St 3.7,San Francisco -7.8,Portland St 3.7,n/a (<5 games),80%,73%,,-7.8,-11.5,3.7,-7.8,3.7,1,,<15
+Sat Nov 14 7:00 PM,UT Rio Grande Valley,UT Arlington,H,UTA -4.2,UTA -4,5,141.0,UTA 0.2,UTA -4.2,UTA 0.2,n/a (<5 games),80%,80%,,-4.2,-4.0,0.2,-4.2,0.2,1,,<15
+Sat Nov 14 7:30 PM,IU Indy,Morehead St.,H,Morehead -0.7,IU Indy -2.5,10,163.5,Morehead 3.2,Morehead -0.7,Morehead 3.2,n/a (<5 games),80%,80%,,-0.7,2.5,3.2,-0.7,3.2,1,,<15
+Sat Nov 14 7:30 PM,UMBC,Towson,H,Towson -10.9,Towson -10.5,5,146.5,Towson 0.4,Towson -11.1,Towson 0.6,n/a (<5 games),73%,67%,,-10.9,-10.5,0.4,-11.1,0.6,1,,<15
+Sat Nov 14 7:30 PM,Binghamton,Duquesne,H,Duquesne -14.1,Duquesne -15.5,6,145.0,Binghamton 1.4,Duquesne -14.9,Binghamton 0.6,n/a (<5 games),73%,80%,Tarence Guinyard out (-4.0),-14.1,-15.5,1.4,-14.9,0.6,1,,15-20
+Sat Nov 14 7:30 PM,Cincinnati,Dayton,H,Cincinnati -4.1,Cincinnati -6.5,10,147.5,Dayton 2.4,Cincinnati -4.1,Dayton 2.4,n/a (<5 games),73%,73%,Javontae Campbell out (-2.0); Zaide Lowery out (-0.7),4.1,6.5,2.4,4.1,2.4,0,,<15
+Sat Nov 14 8:00 PM,Louisiana Tech,Nicholls,H,Nicholls -1.1,Nicholls -2,5,138.0,La Tech 0.9,Nicholls -1.1,La Tech 0.9,n/a (<5 games),80%,80%,,-1.1,-2.0,0.9,-1.1,0.9,1,,<15
+Sat Nov 14 8:00 PM,UC Davis,Sacramento St.,H,Sac St -5.0,Sac St -3.5,10,160.5,Sac St 1.5,Sac St -5.0,Sac St 1.5,n/a (<5 games),80%,89%,,-5.0,-3.5,1.5,-5.0,1.5,1,,<15
+Sat Nov 14 8:00 PM,Louisiana Monroe,Grand Canyon,H,GCU -23.0,GCU -31.5,9,166.5,ULM 8.5,GCU -25.6,ULM 5.9,n/a (<5 games),67%,73%,Dan Skillings Jr. out (-1.3),-23.0,-31.5,8.5,-25.6,5.9,1,,20+
+Sat Nov 14 8:00 PM,Northwestern St.,Little Rock,H,Little Rock -5.1,Little Rock -10,5,143.0,NW State 4.9,Little Rock -5.1,NW State 4.9,n/a (<5 games),73%,73%,,-5.1,-10.0,4.9,-5.1,4.9,1,,<15
+Sat Nov 14 8:30 PM,Furman,Belmont,H,Belmont -2.2,Belmont -3,10,154.5,Furman 0.8,Belmont -2.2,Furman 0.8,n/a (<5 games),73%,80%,,-2.2,-3.0,0.8,-2.2,0.8,1,,<15
+Sat Nov 14 10:00 PM,New Mexico,Santa Clara,H,PK,New Mexico -1.5,10,167.0,Santa Clara 1.5,PK,Santa Clara 1.5,n/a (<5 games),73%,67%,UNM: Petraitis back (override removed); J = Jon's 1.5 less the 0.8 now in the model,-0.0,1.5,1.5,-0.0,1.5,0,0.7,<15
+Sat Nov 14 10:00 PM,Utah Valley,Nevada,H,Nevada -10.7,Nevada -10,10,153.0,Nevada 0.7,Nevada -10.8,Nevada 0.8,n/a (<5 games),89%,73%,,-10.7,-10.0,0.7,-10.8,0.8,1,,<15
